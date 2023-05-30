@@ -102,7 +102,7 @@ ifndef::pendo-links[]
 
 ThoughtSpot Cloud will be available on Google Cloud Platform in addition to AWS. Customers can choose whether they want their SaaS deployed on AWS or GCP.
 
-ThoughtSpot on GCP can be purchased directly from ThoughtSpot but will also be available to purchase in the Google Cloud Marketplace, the BigQuery Partner Center, and Google Workspace Marketplace. Customers can also use their committed spend and credits on Google Marketplace to purchase ThoughtSpot.
+ThoughtSpot on GCP can be purchased directly from ThoughtSpot but will also be available to purchase in the Google Cloud Marketplace, the BigQuery Partner Center, and Google Workspace Marketplace. Customers can also use their committed spend and credits on Google Marketplace to purchase ThoughtSpot. If you want to migrate to GCP, contact {support-url}.
 
 // early access badge and maybe a sentence. remove mentions of saas
 endif::[]
@@ -299,7 +299,7 @@ ifdef::pendo-links[]
 
 ThoughtSpot Cloud will be available on Google Cloud Platform in addition to AWS. Customers can choose whether they want their SaaS deployed on AWS or GCP.
 
-ThoughtSpot on GCP can be purchased directly from ThoughtSpot but will also be available to purchase in the Google Cloud Marketplace, the BigQuery Partner Center, and Google Workspace Marketplace. Customers can also use their committed spend and credits on Google Marketplace to purchase ThoughtSpot.
+ThoughtSpot on GCP can be purchased directly from ThoughtSpot but will also be available to purchase in the Google Cloud Marketplace, the BigQuery Partner Center, and Google Workspace Marketplace. Customers can also use their committed spend and credits on Google Marketplace to purchase ThoughtSpot. If you want to migrate to GCP, contact {support-url}.
 
 // early access badge and maybe a sentence. remove mentions of saas
 endif::[]

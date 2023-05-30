@@ -87,6 +87,10 @@ This feature is off by default. To enable it, contact {support-url}.
 [#9-3-0-cl-data-engineer]
 === For the Data Engineer
 
+ThoughtSpot Cloud on Google Cloud :: ThoughtSpot Cloud will be available on Google Cloud Platform in addition to AWS. Customers can choose whether they want their SaaS deployed on AWS or GCP.
++
+ThoughtSpot on GCP can be purchased directly from ThoughtSpot but will also be available to purchase in the Google Cloud Marketplace, the BigQuery Partner Center, and Google Workspace Marketplace. Customers can also use their committed spend and credits on Google Marketplace to purchase ThoughtSpot. If you want to migrate to GCP, contact {support-url}.
+
 Edit a dbt integration::
 
 This release includes the following improvements to the dbt integration:
@@ -100,7 +104,7 @@ This release includes the following improvements to the dbt integration:
 For more information, see xref:dbt-integration.adoc#edit[Editing a dbt integration].
 
 
-ThoughtSpot Cloud on Google Cloud [.badge.badge-early-access-relnotes]#Early Access#:: ThoughtSpot Cloud will be available on Google Cloud Platform in addition to AWS. Customers can choose whether they want their SaaS deployed on AWS or GCP.
+ThoughtSpot Cloud on Google Cloud :: ThoughtSpot Cloud will be available on Google Cloud Platform in addition to AWS. Customers can choose whether they want their SaaS deployed on AWS or GCP.
 +
 ThoughtSpot on GCP can be purchased directly from ThoughtSpot but will also be available to purchase in the Google Cloud Marketplace, the BigQuery Partner Center, and Google Workspace Marketplace. Customers can also use their committed spend and credits on Google Marketplace to purchase ThoughtSpot.
 
