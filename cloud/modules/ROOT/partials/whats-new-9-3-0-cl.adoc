@@ -15,12 +15,12 @@ endif::free-trial-feature[]
 // NOTE: as of 5/12, private preview features will be early access in 9.3.
 
 ifndef::pendo-links[]
-[#9-2-0-cl-sage]
+[#9-3-0-cl-sage]
 [discrete]
 === ThoughtSpot Sage [.badge.badge-early-access]#Early Access#
 endif::[]
 ifdef::pendo-links[]
-[#9-2-0-cl-sage]
+[#9-3-0-cl-sage]
 [discrete]
 === ThoughtSpot Sage
 endif::[]
@@ -44,12 +44,12 @@ see xref:search-sage.adoc[ThoughtSpot Sage,window=_blank].
 endif::[]
 
 ifndef::pendo-links[]
-[#9-2-0-cl-ai-answers]
+[#9-3-0-cl-ai-answers]
 [discrete]
 === Natural language search [.badge.badge-early-access]#Early Access#
 endif::[]
 ifdef::pendo-links[]
-[#9-2-0-cl-ai-answers]
+[#9-3-0-cl-ai-answers]
 [discrete]
 === Natural language search
 endif::[]
@@ -73,12 +73,12 @@ This feature must be enabled by your administrator.
 image:ai-answer.gif[]
 
 ifndef::pendo-links[]
-[#9-2-0-cl-ai-search]
+[#9-3-0-cl-ai-search]
 [discrete]
 === AI-suggested searches [.badge.badge-early-access]#Early Access#
 endif::[]
 ifdef::pendo-links[]
-[#9-2-0-cl-ai-search]
+[#9-3-0-cl-ai-search]
 [discrete]
 === AI-suggested searches
 endif::[]
@@ -92,6 +92,20 @@ For more information, see xref:search-ai-suggested.adoc[AI-suggested searches,wi
 endif::[]
 
 image::ai-suggested-searches.png[ai-suggested searches]
+
+ifndef::pendo-links[]
+[#9-3-0-cl-gcp]
+[discrete]
+=== ThoughtSpot Cloud on Google Cloud
+
+//Naomi
+
+ThoughtSpot Cloud will be available on Google Cloud Platform in addition to AWS. Customers can choose whether they want their SaaS deployed on AWS or GCP.
+
+ThoughtSpot on GCP can be purchased directly from ThoughtSpot but will also be available to purchase in the Google Cloud Marketplace, the BigQuery Partner Center, and Google Workspace Marketplace. Customers can also use their committed spend and credits on Google Marketplace to purchase ThoughtSpot.
+
+// early access badge and maybe a sentence. remove mentions of saas
+endif::[]
 
 [#9-3-0-cl-cross-filters]
 [discrete]
@@ -276,6 +290,20 @@ endif::[]
 [discrete]
 === _Other features and enhancements_
 
+ifdef::pendo-links[]
+[#9-3-0-cl-gcp]
+[discrete]
+=== ThoughtSpot Cloud on Google Cloud
+
+//Naomi
+
+ThoughtSpot Cloud will be available on Google Cloud Platform in addition to AWS. Customers can choose whether they want their SaaS deployed on AWS or GCP.
+
+ThoughtSpot on GCP can be purchased directly from ThoughtSpot but will also be available to purchase in the Google Cloud Marketplace, the BigQuery Partner Center, and Google Workspace Marketplace. Customers can also use their committed spend and credits on Google Marketplace to purchase ThoughtSpot.
+
+// early access badge and maybe a sentence. remove mentions of saas
+endif::[]
+
 ifndef::pendo-links[]
 [#9-2-0-cl-synonyms]
 [discrete]
@@ -324,24 +352,6 @@ endif::[]
 
 endif::free-trial-feature[]
 
-ifndef::pendo-links[]
-[#9-3-0-cl-gcp]
-[discrete]
-=== ThoughtSpot Cloud on Google Cloud [.badge.badge-early-access]#Early Access#
-endif::[]
-ifdef::pendo-links[]
-[#9-3-0-cl-gcp]
-[discrete]
-=== ThoughtSpot Cloud on Google Cloud
-endif::[]
-
-//Naomi
-
-ThoughtSpot Cloud will be available on Google Cloud Platform in addition to AWS. Customers can choose whether they want their SaaS deployed on AWS or GCP.
-
-ThoughtSpot on GCP can be purchased directly from ThoughtSpot but will also be available to purchase in the Google Cloud Marketplace, the BigQuery Partner Center, and Google Workspace Marketplace. Customers can also use their committed spend and credits on Google Marketplace to purchase ThoughtSpot.
-
-// early access badge and maybe a sentence. remove mentions of saas
 
 [#9-3-0-cl-aurora]
 [discrete]
