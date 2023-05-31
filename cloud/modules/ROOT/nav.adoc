@@ -460,7 +460,7 @@
 ** xref:liveboard-slideshow.adoc[Present Liveboard as slideshow]
 ** xref:liveboard-download-pdf.adoc[Download as PDF]
 * xref:spotiq.adoc[SpotIQ]
-** xref:spotiq-best.adoc[Best practices]
+** xref:spotiq-best.adoc[Best practices for SpotIQ Analyze]
 ** xref:monitor.adoc[Monitor KPI]
 ** xref:spotiq-custom.adoc[Custom SpotIQ analysis]
 ** xref:spotiq-change.adoc[SpotIQ change analysis]
