@@ -32,15 +32,14 @@ To make this data searchable in ThoughtSpot, you must first create a view in {co
 
 == Allow ThoughtSpot to connect only to specific {connection} databases
 
-You may want to access multiple {connection} databases in a single connection, but do not want the connection to access _all_ your Snowflake databases. If you only want to access one {connection} database, you can specify the database in the *Database* text box in *Specify connection details* during setup.
+You can choose to make a connection to access _all_ your Snowflake databases, or to one specific database. If you only want to access one {connection} database, you can specify the database in the *Database* text box in *Specify connection details* during setup.
 
-To allow ThoughtSpot to connect only to specific {connection} databases, follow these steps:
+To allow ThoughtSpot to connect only to a specific {connection} database, follow these steps:
 
 . Navigate to step 2 of the connection setup process: *Specify connection details*.
 
 . Select the *Advanced Config* menu to reveal the *Key* and *Value* fields.
-. For each specific database you would like to access, set `database` as the key, and the database name as the value.
-. To add more keys and values, select the plus sign (+), and enter them.
+. For the specific database you would like to access, set `database` as the key, and the database name as the value.
 . Complete the xref:connections-snowflake-add.adoc[connection setup process].
 
 == Create a view in {connection}
