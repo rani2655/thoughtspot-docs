@@ -19,7 +19,7 @@ Host:: Enter the {connection} server host name without the protocol. You can fin
 Example;; *example.cloud.databricks.com*
 HTTP Path:: Enter the {connection} HTTP path. You can find this in the connection details of your SQL warehouse.
 (Service account only) User:: Email address associated with your {connection} account.
-(Service account only) Password:: Specify the password of the {connection} account.
+(Service account only) Password:: Specify the password of the {connection} account. You can also use your '`personal access token`' generated in {connection}. For more information, see https://docs.microsoft.com/en-us/azure/databricks/dev-tools/api/latest/authentication#--generate-a-personal-access-token[Generate a personal access token^].
 (OAuth only) OAuth Client ID:: Specify the OAuth client ID.
 (OAuth only) OAuth Client Secret:: Specify the OAuth client secret.
 (OAuth only) Scope:: Specify the scope.
