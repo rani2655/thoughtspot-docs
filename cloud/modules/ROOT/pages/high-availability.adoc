@@ -1,4 +1,4 @@
-= High Availability and resilience
+= High Availability and resilience [.badge.badge-aws]#AWS-only#
 :last_updated: 10/20/2022
 :linkattrs:
 :experimental:
