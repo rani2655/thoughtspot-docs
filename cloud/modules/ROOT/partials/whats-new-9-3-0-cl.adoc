@@ -245,6 +245,7 @@ image:legend-move.png[Move the legend position]
 
 // add a phrase to the first sentence about hide/show
 
+////
 [#9-3-0-cl-date-picker-2]
 [discrete]
 === Date picker enhancement in Search
@@ -262,6 +263,7 @@ endif::[]
 image:date-picker.png[Date picker for Answers]
 
 // format the conditions as code. add article link when done. Clarify that the examples are not the only new things
+////
 
 [#9-3-0-cl-group-agg-correct]
 [discrete]
