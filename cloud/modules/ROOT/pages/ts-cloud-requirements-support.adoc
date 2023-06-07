@@ -6,29 +6,6 @@
 :page-aliases: /admin/ts-cloud/ts-cloud-requirements-support.adoc
 :description: Information about features, and how to sign up.
 
-++++
-<style>
-.badge-aws {
-    border-radius: 6px;
-    background-color: #ff9900;
-    display: inline-block;
-    font-size: 13px;
-    padding: 4.5px 5px 3px;
-    font-style: normal;
-}
-
-.badge-gcp {
-    border-radius: 6px;
-    background-color: #34a853;
-    display: inline-block;
-    font-size: 13px;
-    padding: 4.5px 5px 3px;
-    font-style: normal;
-}
-</style>
-++++
-
-
 [#aws]
 == AWS Supported regions
 
