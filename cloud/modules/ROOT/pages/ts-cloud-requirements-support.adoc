@@ -30,7 +30,7 @@
 
 
 [#aws]
-== AWS Supported regions [.badge.badge-aws]#AWS-only#
+== AWS Supported regions
 
 ThoughtSpot Cloud on AWS is available in the following regions:
 
