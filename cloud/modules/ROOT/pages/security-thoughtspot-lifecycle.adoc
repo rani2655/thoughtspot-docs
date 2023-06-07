@@ -6,6 +6,28 @@
 :description: This topic covers security processes for the entire lifecycle of a ThoughtSpot deployment from development, release, upgrades, to software patching.
 :last_updated: tbd
 
+++++
+<style>
+.badge-aws {
+    border-radius: 6px;
+    background-color: #ff9900;
+    display: inline-block;
+    font-size: 13px;
+    padding: 4.5px 5px 3px;
+    font-style: normal;
+}
+
+.badge-gcp {
+    border-radius: 6px;
+    background-color: #34a853;
+    display: inline-block;
+    font-size: 13px;
+    padding: 4.5px 5px 3px;
+    font-style: normal;
+}
+</style>
+++++
+
 This topic covers security processes for the entire lifecycle of a ThoughtSpot deployment from development, release, installation, upgrades, to software patching.
 
 == Overview

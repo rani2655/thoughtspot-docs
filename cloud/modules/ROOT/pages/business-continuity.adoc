@@ -5,6 +5,28 @@
 :page-layout: default-cloud
 :description: Learn how ThoughtSpot protects your data and ensures business continuity. This article describes ThoughtSpot's disaster recovery strategy.
 
+++++
+<style>
+.badge-aws {
+    border-radius: 6px;
+    background-color: #ff9900;
+    display: inline-block;
+    font-size: 13px;
+    padding: 4.5px 5px 3px;
+    font-style: normal;
+}
+
+.badge-gcp {
+    border-radius: 6px;
+    background-color: #34a853;
+    display: inline-block;
+    font-size: 13px;
+    padding: 4.5px 5px 3px;
+    font-style: normal;
+}
+</style>
+++++
+
 This article describes ThoughtSpot's Data Protection and Disaster Recovery strategy for ThoughtSpot Cloud.
 
 There are several methods ThoughtSpot employs to protect your ThoughtSpot data and ensure business continuity in the event of a hardware or software failure or a catastrophic event.
