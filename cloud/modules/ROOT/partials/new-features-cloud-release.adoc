@@ -41,7 +41,9 @@ Under the new aggregation behavior, the formula result will continue to display 
 For more information, see
 xref:formulas-aggregation-flexible.adoc#reaggregation-enhancement[Flexible aggregation functions].
 
+////
 Date picker enhancement in Search:: We added support for rolling, fixed, and custom date filters when creating an Answer. Previously, when adding a date filter to a Search, ThoughtSpot supported the conditions `ON (=)`, `ON OR AFTER (>=)`, `BEFORE (<)`, and `BETWEEN`. Now, you can additionally filter for `ON OR BEFORE (\<=)`, `NOT BETWEEN`, `ON LAST`, and `ON NEXT`. To try it out, click the filter icon next to the Date column in the left side menu, or click the date filter below the Answer title.
+////
 
 [#9-3-0-cl-business-user]
 === For the Business User
