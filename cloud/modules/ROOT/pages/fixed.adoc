@@ -16,10 +16,10 @@ These are the issues we fixed in this release of ThoughtSpot Cloud.
 |===
 |Issue ID |Description
 
-|SCAL-<TBD>
-|TBD
+|SCAL-145266
+|Worksheets created from dbt models have _Apply all joins_ option selected by default.
 
-|SCAL-<TBD>
-|TBD
+|SCAL-141234
+|Autocomplete in search does not work properly when there is a space before the search token.
 
 |===
