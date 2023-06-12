@@ -34,6 +34,8 @@ For a complete list of issues that we fixed in this release, see xref:fixed.adoc
 In this release, we introduce Early Access features. Administrators can selectively enable or disable Early Access features for all users. For more about Early Access features, see xref:release-lifecycle.adoc#early-access[ThoughtSpot Software release life cycle].
 ****
 
+IMPORTANT: To ensure best performance, we recommended that you not have more than 40 visualizations within a tab. Having more than 40 visualizations decreases the performance of the Liveboards and may also cause PDF exports and schedules to fail.
+
 * <<analyst-9-0-0-sw,For the Analyst>>
 * <<business-user-9-0-0-sw,For the Business User>>
 * <<data-engineer-9-0-0-sw,For the Data Engineer>>
