@@ -96,12 +96,9 @@ Find topics for the common types of ThoughtSpot users.
       <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/business-user-onboarding">Onboard</a></li>
       <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/thoughtspot-one-homepage">Home page</a></li>
       <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/liveboards">Liveboards and Answers</a></li>
-      <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/search">ThoughtSpot Search</a></li>
-      <ul>
       <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/search-answers">Search Answers</a></li>
       <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/search-data">Search Data</a></li>
-      </ul>
-
+<li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/search-sage">ThoughtSpot Sage</a></li>
 <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/thoughtspot-sync">ThoughtSpot Sync</a></li>
 <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/thoughtspot-sheets">ThoughtSpot Google Sheets&trade; add-ons</a></li>
     </ul>
@@ -145,9 +142,7 @@ Find topics for the common types of ThoughtSpot users.
           <a href="https://preview-thoughtspot.netlify.app/cloud/latest/it-ops">IT and Operations
         </h2>
         <ul>
-         <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/admin-portal-users">Users</a></li>
-          <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/admin-portal-groups">Groups</a></li>
-         <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/orgs-overview">Orgs <span class="badge badge-new">New!</span></a></li>
+         <li><a href="https://docs.thoughtspot.com/cloud/latest/admin-portal-users">Users</a>, <a href="https://preview-thoughtspot.netlify.app/cloud/latest/admin-portal-groups">Groups</a>, and <a href="https://preview-thoughtspot.netlify.app/cloud/latest/orgs-overview">Orgs</a></li>
        <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/authentication-local">Local authentication</a></li>
        <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/authentication-integration">SAML authentication</a></li>
           <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/custom-domains">Custom domains</a></li>
@@ -155,8 +150,7 @@ Find topics for the common types of ThoughtSpot users.
           <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/style-customization">Style customization</a></li>
           <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/use-agreement">Use agreement</a></li>
           <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/performance-tracking">Performance tracking Liveboard</a></li>
-          <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/user-adoption">User adoption Liveboard</a></li>
-          <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/consumption-pricing">Consumption-based pricing</a></li>
+          <li><a href="preview-thoughtspot.netlify.app/cloud/latest/consumption-pricing">Consumption-based pricing</a></li>
         </ul>
         </div>
  </div>
