@@ -103,6 +103,7 @@ Find topics for the common types of ThoughtSpot users.
       </ul>
 
 <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/thoughtspot-sync">ThoughtSpot Sync</a></li>
+<li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/thoughtspot-sheets">ThoughtSpot Google Sheets&trade; add-ons</a></li>
     </ul>
     </div>
   <div class="box">
