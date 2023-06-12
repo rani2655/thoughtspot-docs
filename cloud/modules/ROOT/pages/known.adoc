@@ -9,24 +9,38 @@
 These are the known issues in this release of ThoughtSpot Cloud.
 
 [#releases-9-0-x]
-== 9.2.0.cl known issues
+== 9.3.0.cl known issues
 
 [cols="17%,39%,38%"]
 |===
 |Issue ID |Description|Symptoms, conditions, and workaround
 
-|SCAL-<TBD>
-|TBD
+|SCAL-112527
+|After typing Japanese in Hiragana, Kanji does not appear in the top navigation bar.
 a|*Symptoms*:
 
-TBD
+Kanji does not appear in the Search Answers and Liveboards in the top navigation bar.
 
 *Conditions*:
 
-TBD
+Typing Japanese in Hiragana.
 
 *Workaround*:
 
-TBD
+None.
+
+|SCAL-157849
+|Runtime filters ignored when using SpotIQ or contextual change analysis.
+a|*Symptoms*:
+
+Runtime filters are ignored by SpotIQ analysis.
+
+*Conditions*:
+
+Add runtime filters to charts and analyze them using SpotIQ.
+
+*Workaround*:
+
+None.
 
 |===
