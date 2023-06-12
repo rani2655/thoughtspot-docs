@@ -18,11 +18,11 @@ These are the known issues in this release of ThoughtSpot Software.
 |Clicking the *Utilities* tab in a Worksheet redirects the user to the Home page.
 a|*Symptoms*:
 
-TBD
+User taken to the Home page of the ThoughtSpot application.
 
 *Conditions*:
 
-TBD
+In a Worksheet, click the *Utilities* tab.
 
 *Workaround*:
 
