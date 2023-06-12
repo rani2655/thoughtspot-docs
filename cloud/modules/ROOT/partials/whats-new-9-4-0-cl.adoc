@@ -1,0 +1,33 @@
+ifndef::pendo-links[]
+July 2023 [label label-dep]#9.4.0.cl#
+endif::[]
+ifdef::pendo-links[]
+[month-year-whats-new]#July 2023#
+[label label-dep-whats-new]#9.4.0.cl#
+endif::[]
+
+ifndef::free-trial-feature[]
+NOTE: Features marked as [.badge.badge-update-note]#Beta# are off by default. To enable them, contact {support-url}.
+endif::free-trial-feature[]
+
+[#primary-9-4-0-cl]
+
+// NOTE: as of 5/12, private preview features will be early access in 9.3.
+
+
+NEEDS EVALUATION
+
+
+'''
+[#secondary-9-4-0-cl]
+[discrete]
+=== _Other features and enhancements_
+
+NEEDS EVALUATION
+
+ifndef::free-trial-feature[]
+[discrete]
+=== ThoughtSpot Everywhere
+
+For new features and enhancements introduced in this release of ThoughtSpot Everywhere, see https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
+endif::[]
