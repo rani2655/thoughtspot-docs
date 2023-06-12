@@ -1,6 +1,6 @@
 = Fixed issues
 :keywords: fixed issues
-:last_updated: 2/1/2023
+:last_updated: 6/12/2023
 :author: Mark Plummer
 :experimental:
 :linkattrs:
@@ -9,23 +9,17 @@
 
 These are the issues we fixed in this release of ThoughtSpot Cloud.
 
-[#releases-9-3-0-x]
-== 9.3.0.cl release fixed issues
+[#releases-9-4-0-x]
+== 9.4.0.cl release fixed issues
 
 [cols="20%,80%"]
 |===
 |Issue ID |Description
 
-|SCAL-145266
-|Worksheets created from dbt models have _Apply all joins_ option selected by default.
-
-|SCAL-141234
-|Autocomplete in search does not work properly when there is a space before the search token.
-|SCAL-141234
-|Autocomplete in search does not work properly when there is a space before the search token.
-|SCAL-151590
-|Imported Liveboard does not retain parameter values.
-|SCAL-147179
-|"Input is invalid" error appears when creating a custom calendar with valid values.
-
+|SCAL-TBD
+|TBD
+|SCAL-TBD
+|TBD
+|SCAL-TBD
+|TBD
 |===
