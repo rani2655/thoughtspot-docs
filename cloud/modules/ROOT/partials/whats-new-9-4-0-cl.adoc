@@ -65,6 +65,14 @@ endif::[]
 
 // Naomi
 
+Admin-assigned verifiers can now mark Liveboards as verified. Users can now request these verifiers to review their Liveboards, and verify if the information displayed is trusted content. Verified Liveboards carry a tag that signifies that they have been audited for correctness. For more information, see
+ifndef::pendo-links[]
+xref:liveboard-verify.adoc[Verified Liveboards].
+endif::[]
+ifdef::pendo-links[]
+xref:liveboard-verify.adoc[Verified Liveboards,window=_blank].
+endif::[]
+
 [#9-4-0-cl-charts]
 [discrete]
 === Charts: Standard regions - show geomap data for more regions, view sub-divisions of multiple countries at same time
