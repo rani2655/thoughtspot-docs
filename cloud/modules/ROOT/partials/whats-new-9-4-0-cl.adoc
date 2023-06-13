@@ -12,10 +12,185 @@ endif::free-trial-feature[]
 
 [#primary-9-4-0-cl]
 
-// NOTE: as of 5/12, private preview features will be early access in 9.3.
+[#9-4-0-cl-indexing-queries]
+[discrete]
+=== Indexing Queries Liveboard
+
+// Naomi
+
+// under discussion of when it will be added to Cloud
+
+[#9-4-0-cl-cohorts]
+[discrete]
+=== Custom groups
+
+// Naomi
+
+[#9-4-0-cl-onboarding]
+[discrete]
+=== Show onboarding for new users following the share link
+
+// Naomi
+
+// keep exploring button
+
+[#9-4-0-cl-coms]
+[discrete]
+=== Notification center
+
+// Naomi
+
+[#9-4-0-cl-contextual]
+[discrete]
+=== Contextual Change Analysis
+
+// Naomi
+
+// GA in 9.4.0.cl
+
+Contextual change is now GA and on by default. You can now identify the key change drivers for changes in your metrics in a KPI chart. This feature is now available for administrators to enable, without contacting ThoughtSpot Support. Select the percent change label or select any two data points on the KPI sparkline to view change analysis on your top 5 columns by usage-based ranking (UBR) and identify the reason behind the observed change. You can view the changes in other columns by clicking *Manage attributes* and selecting the desired column(s). This feature must be enabled by your administrator.
+
+For more information, see
+ifndef::pendo-links[]
+xref:spotiq-change.adoc#change-analysis-contextual[Contextual change analysis].
+endif::[]
+ifdef::pendo-links[]
+xref:spotiq-change.adoc#change-analysis-contextual[Contextual change analysis,window=_blank].
+endif::[]
+
+
+[#9-4-0-cl-verified]
+[discrete]
+=== Verified Liveboards
+
+// Naomi
+
+[#9-4-0-cl-charts]
+[discrete]
+=== Charts: Standard regions - show geomap data for more regions, view sub-divisions of multiple countries at same time
+
+// Naomi
+
+[#9-4-0-cl-date-picker]
+[discrete]
+=== Date picker enhancement in Search
+
+// Naomi
+
+We added support for rolling, fixed, and custom date filters when creating an Answer or filtering a Liveboard. Previously, when adding a date filter to a Search, ThoughtSpot supported the conditions `ON (=)`, `ON OR AFTER (>=)`, `BEFORE (<)`, and `BETWEEN`. Now, you can additionally filter for `ON OR BEFORE (\<=)`, `NOT BETWEEN`, `ON LAST`, and `ON NEXT`. To try it out, click the filter icon next to the Date column in the left side menu, or click the date filter below the Answer or Liveboard title. For more information, see
+ifndef::pendo-links[]
+xref:date-filter.adoc[Date filters for Answers and Liveboards].
+endif::[]
+ifdef::pendo-links[]
+xref:date-filter.adoc[Date filters for Answers and Liveboards,window=_blank].
+endif::[]
+
+image:date-picker.png[Date picker for Answers]
+
+
+[#9-4-0-cl-sheets]
+[discrete]
+=== ThoughtSpot for Connected Sheets plugin
+
+// Mark
+
+[#9-4-0-cl-data-fluency]
+[discrete]
+=== Data Fluency - admin controls for new data panel experience
+
+// Mark
+
+[#9-4-0-cl-snowflake-spotapp]
+[discrete]
+=== Snowflake Query Profile SpotApp
+
+// Naomi
+
+[#9-4-0-cl-rbac]
+[discrete]
+=== RBAC - UI changes for Roles
+
+// Mark
 
 
 NEEDS EVALUATION
+
+[#9-4-0-cl-eula]
+[discrete]
+=== EULA v2 for Orgs automations
+
+// Mark
+
+[#9-4-0-cl-orgs]
+[discrete]
+=== Enable Orgs by default on all clusters
+
+// Mark
+
+
+[#9-4-0-cl-kpis]
+[discrete]
+=== Make KPI watchlist Org aware
+
+// Mark
+
+[#9-4-0-cl-ft]
+[discrete]
+=== APP BE: FT/TE/PE changes (Orgs 1.5)
+
+// Mark
+
+[#9-4-0-cl-connections]
+[discrete]
+=== Connection error messaging improvements
+
+// Naomi
+
+// scal-138770
+
+
+[#9-4-0-cl-eureka]
+[discrete]
+=== Eureka AI Answer and SRP Improvements for 9.4
+
+// Naomi
+
+[#9-4-0-cl-ubr]
+[discrete]
+=== UBR re-design to accommodate additional usage metrics
+
+// Naomi
+
+// potentially moved to 9.5.0.cl
+
+[#9-4-0-cl-ts-object]
+[discrete]
+=== TS objects (Liveboard, Worksheet, Answers) pulling into UML
+
+// Mark
+
+[#9-4-0-cl-backend]
+[discrete]
+=== Test the backend API to load UML
+
+// Mark
+
+[#9-4-0-cl-confidant]
+[discrete]
+=== Enable confidant vault for all clusters
+
+// Mark
+
+[#9-4-0-cl-formula]
+[discrete]
+=== Worksheet formula sage index should be on by default
+
+// Mark
+
+
+
+
+
 
 
 '''
@@ -23,7 +198,58 @@ NEEDS EVALUATION
 [discrete]
 === _Other features and enhancements_
 
+[#9-4-0-cl-headline]
+[discrete]
+=== Headline creation deprecation
+
+// Naomi
+
+[#9-4-0-cl-breakpoint]
+[discrete]
+=== Include a breakpoint for Liveboards in non-TSE scenarios
+
+// Naomi
+
+[#9-4-0-cl-mobile]
+[discrete]
+=== Liveboard tabs in Mobile app
+
+// Naomi
+
+[#9-4-0-cl-aurora]
+[discrete]
+=== Amazon Aurora for MySQL connector
+
+// Naomi
+
+[#9-4-0-cl-aurora-postgresql]
+[discrete]
+=== Amazon Aurora for PostgreSQL connector
+
+// Naomi
+
+[#9-4-0-cl-rds]
+[discrete]
+=== Amazon RDS for MySQL connector
+
+// Naomi
+
+[#9-4-0-cl-rds-postgresql]
+[discrete]
+=== Amazon RDS for PostgreSQL connector
+
+// Naomi
+
+[#9-4-0-cl-aws]
+[discrete]
+=== New AWS region - London
+
+// Naomi
+
+
 NEEDS EVALUATION
+
+
 
 ifndef::free-trial-feature[]
 [discrete]

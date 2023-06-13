@@ -208,7 +208,7 @@ image::answer-filter-rearrange.gif[Gif of answer filters being rearranged]
 
 // Naomi
 
-To enable business users to answer questions related to mix, contribution, share of, percentage, and total ratios, we added the keywords “of” and “percentage of”. These keywords help answer questions such as “What is the share of a certain store’s sales as a percentage of the regional whole?” Previously, searches such as these required the use of a group aggregate formula, which presented a barrier to users.
+To enable business users to answer questions related to mix, contribution, share of, percentage, and total ratios, we added the keywords “of” and “percentage of”. These keywords help answer questions such as “What is the share of a certain store’s sales as a percentage of the regional whole?” Previously, searches such as these required the use of a group aggregate formula, which presented a barrier to users. To try out this feature, enter a search phrase in the search bar containing the keyword, such as `sales percentage of store region`, and press *Go*.
 
 For more information, see
 ifndef::pendo-links[]
@@ -355,33 +355,33 @@ endif::[]
 endif::free-trial-feature[]
 
 
-[#9-3-0-cl-aurora]
-[discrete]
-=== Amazon Aurora PostgreSQL connection
-
-// Naomi
-
-You can now create connections from ThoughtSpot to Amazon Aurora PostgreSQL. For details, see
-ifndef::pendo-links[]
-xref:connections-amazon-aurora-postgresql.adoc[Amazon Aurora PostgreSQL].
-endif::[]
-ifdef::pendo-links[]
-xref:connections-amazon-aurora-postgresql.adoc[Amazon Aurora PostgreSQL,window=_blank].
-endif::[]
-
 [#9-3-0-cl-rds]
 [discrete]
-=== Amazon Relational Database Service (RDS) PostgreSQL connection
+=== Amazon Aurora PostgreSQL connection and Amazon Relational Database Service (RDS) PostgreSQL connection
 
 // Naomi
 
-You can now create connections from ThoughtSpot to Amazon RDS PostgreSQL. For details, see
+You can now connect to and query Amazon Aurora and Amazon RDS for PostgreSQL databases using the PostgreSQL connector. For details, see
+ifndef::pendo-links[]
+xref:connections-postgresql.adoc[PostgreSQL].
+endif::[]
+ifdef::pendo-links[]
+xref:connections-postgresql.adoc[PostgreSQL,window=_blank].
+////
+For details, see
+ifndef::pendo-links[]
+xref:connections-amazon-aurora-postgresql.adoc[Amazon Aurora PostgreSQL] and
+endif::[]
+ifdef::pendo-links[]
+xref:connections-amazon-aurora-postgresql.adoc[Amazon Aurora PostgreSQL,window=_blank] and
+endif::[]
 ifndef::pendo-links[]
 xref:connections-amazon-rds-postgresql.adoc[Amazon RDS PostgreSQL].
 endif::[]
 ifdef::pendo-links[]
 xref:connections-amazon-rds-postgresql.adoc[Amazon RDS PostgreSQL,window=_blank].
 endif::[]
+////
 
 // spell out RDS somewhere
 
