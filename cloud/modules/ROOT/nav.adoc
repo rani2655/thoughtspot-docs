@@ -451,6 +451,7 @@
 ** xref:liveboard-layout-edit.adoc[Edit Liveboard layouts]
 ** xref:liveboard-tabs.adoc[Liveboard tabs]
 ** xref:liveboard-filters.adoc[Liveboard filters]
+** xref:liveboard-verify.adoc[Verified Liveboards]
 ** xref:answer-explorer.adoc[Answer Explorer]
 ** xref:liveboard-schedule.adoc[Schedule a Liveboard job]
 ** xref:liveboard-search.adoc[Search actions within a Liveboard]
