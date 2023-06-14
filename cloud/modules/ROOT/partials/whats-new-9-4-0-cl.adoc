@@ -267,11 +267,27 @@ Existing Headlines pinned to Liveboards will not be affected in this release.
 
 // Naomi
 
+You can now create connections from Amazon Aurora for MySQL. See
+ifndef::pendo-links[]
+xref:connections-amazon-aurora-mysql.adoc[Amazon Aurora for MySQL].
+endif::[]
+ifdef::pendo-links[]
+xref:connections-amazon-aurora-mysql.adoc[Amazon Aurora for MySQL,window=_blank].
+endif::[]
+
 [#9-4-0-cl-aurora-postgresql]
 [discrete]
 === Amazon Aurora for PostgreSQL connector
 
 // Naomi
+
+You can now create connections from Amazon Aurora for PostgreSQL. See
+ifndef::pendo-links[]
+xref:connections-amazon-aurora-postgresql.adoc[Amazon Aurora for PostgreSQL].
+endif::[]
+ifdef::pendo-links[]
+xref:connections-amazon-aurora-postgresql.adoc[Amazon Aurora for PostgreSQL,window=_blank].
+endif::[]
 
 [#9-4-0-cl-rds]
 [discrete]
@@ -279,11 +295,27 @@ Existing Headlines pinned to Liveboards will not be affected in this release.
 
 // Naomi
 
+You can now create connections from Amazon RDS for MySQL. See
+ifndef::pendo-links[]
+xref:connections-amazon-rds-mysql.adoc[Amazon RDS for MySQL].
+endif::[]
+ifdef::pendo-links[]
+xref:connections-amazon-rds-mysql.adoc[Amazon RDS for MySQL,window=_blank].
+endif::[]
+
 [#9-4-0-cl-rds-postgresql]
 [discrete]
 === Amazon RDS for PostgreSQL connector
 
 // Naomi
+
+You can now create connections from Amazon RDS for PostgreSQL. See
+ifndef::pendo-links[]
+xref:connections-amazon-rds-postgresql.adoc[Amazon RDS for PostgreSQL].
+endif::[]
+ifdef::pendo-links[]
+xref:connections-amazon-rds-postgresql.adoc[Amazon RDS for PostgreSQL,window=_blank].
+endif::[]
 
 [#9-4-0-cl-aws]
 [discrete]
