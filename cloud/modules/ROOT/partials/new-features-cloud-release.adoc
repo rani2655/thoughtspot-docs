@@ -30,6 +30,7 @@ Verified Liveboards:: Admin-assigned verifiers can now mark Liveboards as verifi
 [#9-4-0-cl-it-ops-engineer]
 === For the IT/Ops Engineer
 
+New London cloud region:: ThoughtSpot Cloud is now available in London when you connect using AWS. See xref:ts-cloud-requirements-support.adoc[ThoughtSpot Cloud requirements and support].
 
 [#9-4-0-cl-developer]
 === For the Developer
