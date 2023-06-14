@@ -40,6 +40,14 @@ endif::free-trial-feature[]
 
 // Naomi
 
+Users can now receive in-app notifications when items are shared with them, or when other users request access to an Answer or Liveboard. To view these notifications, simply click on the user profile icon. For more information, see
+ifndef::pendo-links[]
+xref:web-notifications.adoc[Web notifications].
+endif::[]
+ifndef::pendo-links[]
+xref:web-notifications.adoc[Web notifications,window=_blank].
+endif::[]
+
 [#9-4-0-cl-contextual]
 [discrete]
 === Contextual Change Analysis
