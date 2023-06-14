@@ -23,6 +23,9 @@ Verified Liveboards:: Admin-assigned verifiers can now mark Liveboards as verifi
 [#9-4-0-cl-business-user]
 === For the Business User
 
+Web notifications:: Users can now receive in-app notifications when items are shared with them, or when other users request access to an Answer or Liveboard. To view these notifications, simply click on the user profile icon. For more information, see xref:web-notifications.adoc[Web notifications].
+
+
 [#9-4-0-cl-data-engineer]
 === For the Data Engineer
 
