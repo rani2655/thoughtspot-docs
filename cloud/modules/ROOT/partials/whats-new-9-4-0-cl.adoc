@@ -250,9 +250,17 @@ NEEDS EVALUATION
 
 [#9-4-0-cl-aws]
 [discrete]
-=== New AWS region - London
+=== New London cloud region
 
 // Naomi
+
+ThoughtSpot Cloud is now available in London when you connect using AWS. See
+ifndef::pendo-links[]
+xref:ts-cloud-requirements-support.adoc[ThoughtSpot Cloud requirements and support].
+endif::[]
+ifdef::pendo-links[]
+xref:ts-cloud-requirements-support.adoc[ThoughtSpot Cloud requirements and support,window=_blank].
+endif::[]
 
 
 NEEDS EVALUATION
