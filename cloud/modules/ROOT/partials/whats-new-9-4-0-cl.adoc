@@ -208,9 +208,18 @@ NEEDS EVALUATION
 
 [#9-4-0-cl-headline]
 [discrete]
-=== Headline creation deprecation
+=== Headline creation and pinning deprecation
 
 // Naomi
+
+ThoughtSpot will deprecate the pin Headline to Liveboard feature. Beginning in the 9.4.0.cl Cloud release, users will no longer see the pin icon when they select table summaries. To visualize and pin single aggregated measures, attributes in string/date format, or time-series metrics with sparklines, we recommend creating
+ifndef::pendo-links[]
+xref:chart-kpi.adoc[KPI charts].
+endif::[]
+ifdef::pendo-links[]
+xref:chart-kpi.adoc[KPI charts,window=_blank].
+endif::[]
+Existing Headlines pinned to Liveboards will not be affected in this release.
 
 [#9-4-0-cl-breakpoint]
 [discrete]
