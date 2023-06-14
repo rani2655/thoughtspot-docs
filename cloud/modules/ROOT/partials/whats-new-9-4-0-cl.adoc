@@ -20,9 +20,16 @@ endif::free-trial-feature[]
 
 // under discussion of when it will be added to Cloud
 
+ifndef::pendo-links[]
 [#9-4-0-cl-cohorts]
 [discrete]
-=== Custom groups
+=== Custom groups [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#9-4-0-cl-cohorts]
+[discrete]
+=== Custom groups [.badge.badge-beta-whats-new]#Beta#
+endif::[]
 
 // Naomi
 
@@ -66,14 +73,20 @@ ifdef::pendo-links[]
 xref:spotiq-change.adoc#change-analysis-contextual[Contextual change analysis,window=_blank].
 endif::[]
 
-
+ifndef::pendo-links[]
 [#9-4-0-cl-verified]
 [discrete]
-=== Verified Liveboards
+=== Verified Liveboards [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#9-4-0-cl-verified]
+[discrete]
+=== Verified Liveboards [.badge.badge-beta-whats-new]#Beta#
+endif::[]
 
 // Naomi
 
-Admin-assigned verifiers can now mark Liveboards as verified. Users can now request these verifiers to review their Liveboards, and verify if the information displayed is trusted content. Verified Liveboards carry a tag that signifies that they have been audited for correctness. For more information, see
+Admin-assigned verifiers can now mark Liveboards as verified. Users can now request these verifiers to review their Liveboards, and verify if the information displayed is trusted content. Verified Liveboards carry a tag that signifies that they have been audited for correctness. To enable this feature, contact {support-url}. For more information, see
 ifndef::pendo-links[]
 xref:liveboard-verify.adoc[Verified Liveboards].
 endif::[]
@@ -87,13 +100,20 @@ endif::[]
 
 // Naomi
 
+ifndef::pendo-links[]
 [#9-4-0-cl-date-picker]
 [discrete]
-=== Date picker enhancement in Search
+=== Date picker enhancement in Search [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-4-0-cl-date-picker]
+[discrete]
+=== Date picker enhancement in Search [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
 
 // Naomi
 
-We added support for rolling, fixed, and custom date filters when creating an Answer or filtering a Liveboard. Previously, when adding a date filter to a Search, ThoughtSpot supported the conditions `ON (=)`, `ON OR AFTER (>=)`, `BEFORE (<)`, and `BETWEEN`. Now, you can additionally filter for `ON OR BEFORE (\<=)`, `NOT BETWEEN`, `ON LAST`, and `ON NEXT`. To try it out, click the filter icon next to the Date column in the left side menu, or click the date filter below the Answer or Liveboard title. For more information, see
+We added support for rolling, fixed, and custom date filters when creating an Answer or filtering a Liveboard. Previously, when adding a date filter to a Search, ThoughtSpot supported the conditions `ON (=)`, `ON OR AFTER (>=)`, `BEFORE (<)`, and `BETWEEN`. Now, you can additionally filter for `ON OR BEFORE (\<=)`, `NOT BETWEEN`, `ON LAST`, and `ON NEXT`. To try it out, click the filter icon next to the Date column in the left side menu, or click the date filter below the Answer or Liveboard title. This feature must be enabled by your administrator. For more information, see
 ifndef::pendo-links[]
 xref:date-filter.adoc[Date filters for Answers and Liveboards].
 endif::[]
