@@ -27,7 +27,7 @@ If someone begins to edit the Liveboard after it has been verified, a splash war
 
 Authors and editors of the Liveboard can request verification again once this banner appears. The re-verification request is sent to the verifier who originally verified the Liveboard unless the requestor adds more verifiers to the re-verification request
 
-To view the verifier’s name and the date the Liveboard was verified, users can select *Show Liveboard details* from the *more options menu* image:icon-more-10px.png[].
+To view the verifier’s name and the date the Liveboard was verified, users can select *Show Liveboard details* from the *more options menu* image:icon-more-10px.png[more options icon].
 
 === Manage verified Liveboards
 
@@ -39,7 +39,7 @@ Verifiers can manage the Liveboards they verify from the *Liveboard verification
 To reject verifying a Liveboard, the verifier can select *Decline* on the verification request banner.
 
 === Removing verification
-Any verifier can remove verification of a Liveboard. The verifier will see a *Remove verification* option in the *more options menu* image:icon-more-10px.png[], in the case that they need to remove the verification tag.
+Any verifier can remove verification of a Liveboard. The verifier will see a *Remove verification* option in the *more options menu* image:icon-more-10px.png[more options icon], in the case that they need to remove the verification tag.
 
 
 == Limitations
