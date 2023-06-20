@@ -247,7 +247,14 @@ endif::[]
 ifdef::pendo-links[]
 xref:chart-kpi.adoc[KPI charts,window=_blank].
 endif::[]
-Existing Headlines pinned to Liveboards will not be affected in this release.
+Existing Headlines pinned to Liveboards will not be affected in this release. For information on how to convert Headlines to KPI charts, see
+ifndef::pendo-links[]
+link:https://community.thoughtspot.com/s/article/How-to-convert-Headlines-to-KPI-charts[How to convert Headlines to KPI charts].
+endif::[]
+ifdef::pendo-links[]
+link:https://community.thoughtspot.com/s/article/How-to-convert-Headlines-to-KPI-charts[How to convert Headlines to KPI charts,window=_blank].
+endif::[]
+
 
 [#9-4-0-cl-breakpoint]
 [discrete]
