@@ -51,7 +51,7 @@ Users can now receive in-app notifications when items are shared with them, or w
 ifndef::pendo-links[]
 xref:web-notifications.adoc[Web notifications].
 endif::[]
-ifndef::pendo-links[]
+ifdef::pendo-links[]
 xref:web-notifications.adoc[Web notifications,window=_blank].
 endif::[]
 
@@ -148,6 +148,13 @@ image:date-picker.png[Date picker for Answers]
 
 // Mark
 
+[#9-4-0-cl-connections]
+[discrete]
+=== Connection error messaging improvements
+
+// Naomi
+
+// scal-138770
 
 NEEDS EVALUATION
 
@@ -176,20 +183,19 @@ NEEDS EVALUATION
 
 // Mark
 
-[#9-4-0-cl-connections]
-[discrete]
-=== Connection error messaging improvements
-
-// Naomi
-
-// scal-138770
 
 
 [#9-4-0-cl-eureka]
 [discrete]
-=== Eureka AI Answer and SRP Improvements for 9.4
+=== AI Answer improvements
 
-// Naomi
+// Naomi. Release notes only??
+
+We made the following changes to the AI Answer feature:
+
+* Redesigned search results page. Filtering facets are now in the left panel.
+* AI Answer is now interactive.
+* Title and descriptions are now pre-populated when you save an AI Answer.
 
 [#9-4-0-cl-ubr]
 [discrete]
@@ -247,7 +253,7 @@ endif::[]
 ifdef::pendo-links[]
 xref:chart-kpi.adoc[KPI charts,window=_blank].
 endif::[]
-Existing Headlines pinned to Liveboards will not be affected in this release. For information on how to convert Headlines to KPI charts, see
+Existing Headlines pinned to Liveboards will not be affected in this release. For more information, see
 ifndef::pendo-links[]
 link:https://community.thoughtspot.com/s/article/How-to-convert-Headlines-to-KPI-charts[How to convert Headlines to KPI charts].
 endif::[]
@@ -267,6 +273,8 @@ endif::[]
 === Liveboard tabs in Mobile app
 
 // Naomi
+
+We now display Liveboard tabs in the ThoughtSpot Mobile app. To create a Liveboard tab, you must access ThoughtSpot in a browser.
 
 [#9-4-0-cl-aurora]
 [discrete]
@@ -324,6 +332,16 @@ ifdef::pendo-links[]
 xref:connections-amazon-rds-postgresql.adoc[Amazon RDS for PostgreSQL,window=_blank].
 endif::[]
 
+
+[#9-4-0-cl-join-creation]
+[discrete]
+=== Join creation for views
+
+// Naomi
+
+The new join creation UI for views is now GA and on by default. We standardized the method of creating joins for all data objects in ThoughtSpot. When creating a join from a view, users are now directed to a *Create join* page where they can choose a connection, name the join, and map the source and destination columns.
+
+
 [#9-4-0-cl-aws]
 [discrete]
 === New London cloud region
@@ -337,9 +355,6 @@ endif::[]
 ifdef::pendo-links[]
 xref:ts-cloud-requirements-support.adoc[ThoughtSpot Cloud requirements and support,window=_blank].
 endif::[]
-
-
-NEEDS EVALUATION
 
 
 
