@@ -25,6 +25,12 @@ Verified Liveboards:: Admin-assigned verifiers can now mark Liveboards as verifi
 
 Web notifications:: Users can now receive in-app notifications when items are shared with them, or when other users request access to an Answer or Liveboard. To view these notifications, simply click on the user profile icon. For more information, see xref:web-notifications.adoc[Web notifications].
 
+AI Answer improvements::
+We made the following changes to the AI Answer feature:
+
+* Redesigned search results page. Filtering facets are now in the left panel.
+* AI Answer is now interactive.
+* Title and descriptions are now pre-populated when you save an AI Answer.
 
 [#9-4-0-cl-data-engineer]
 === For the Data Engineer
