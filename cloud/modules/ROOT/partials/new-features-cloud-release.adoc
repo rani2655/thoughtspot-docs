@@ -36,7 +36,7 @@ We made the following changes to the AI Answer feature:
 === For the Data Engineer
 
 
-Join creation for views:: The new join creation UI for views is now GA and on by default. We standardized the method of creating joins for all data objects in ThoughtSpot. When creating a join from a view, users are now directed to a *Create join* page where they can choose a connection, name the join, and map the source and destination columns.
+
 
 [#9-4-0-cl-it-ops-engineer]
 === For the IT/Ops Engineer

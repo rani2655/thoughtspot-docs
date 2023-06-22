@@ -333,13 +333,6 @@ xref:connections-amazon-rds-postgresql.adoc[Amazon RDS for PostgreSQL,window=_bl
 endif::[]
 
 
-[#9-4-0-cl-join-creation]
-[discrete]
-=== Join creation for views
-
-// Naomi
-
-The new join creation UI for views is now GA and on by default. We standardized the method of creating joins for all data objects in ThoughtSpot. When creating a join from a view, users are now directed to a *Create join* page where they can choose a connection, name the join, and map the source and destination columns.
 
 
 [#9-4-0-cl-aws]
