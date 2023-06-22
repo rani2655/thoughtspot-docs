@@ -264,9 +264,11 @@ endif::[]
 
 [#9-4-0-cl-breakpoint]
 [discrete]
-=== Include a breakpoint for Liveboards in non-TSE scenarios
+=== Responsive Liveboards outside ThoughtSpot Everywhere (TSE) scenarios
 
 // Naomi
+
+We have improved the responsiveness of Liveboards in non-TSE scenarios. For windows between 1024 pixels and 500 pixels, the Liveboard columns respond to re-sizing. For windows smaller than 500 pixels in width, a horizontal scroll bar appears.
 
 [#9-4-0-cl-mobile]
 [discrete]
