@@ -1,4 +1,6 @@
+* xref:connections-amazon-aurora-mysql.adoc[Amazon Aurora MySQL]
 * xref:connections-amazon-aurora-postgresql.adoc[Amazon Aurora PostgreSQL]
+* xref:connections-amazon-rds-mysql.adoc[Amazon RDS MySQL]
 * xref:connections-amazon-rds-postgresql.adoc[Amazon RDS PostgreSQL]
 * xref:connections-redshift.adoc[Amazon Redshift]
 * xref:connections-synapse.adoc[Azure Synapse]
