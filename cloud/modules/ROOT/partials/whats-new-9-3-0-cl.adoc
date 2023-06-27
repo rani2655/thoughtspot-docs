@@ -202,9 +202,16 @@ endif::[]
 
 image::answer-filter-rearrange.gif[Gif of answer filters being rearranged]
 
+ifndef::pendo-links[]
 [#9-3-0-cl-group-agg]
 [discrete]
-=== Keywords "of", "percentage of"
+=== Keywords "of", "percentage of" [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#9-3-0-cl-group-agg]
+[discrete]
+=== Keywords "of", "percentage of" [.badge.badge-beta-whats-new]#Beta#
+endif::[]
 
 // Naomi
 
@@ -217,7 +224,7 @@ endif::[]
 ifdef::pendo-links[]
 xref:formulas-keywords.adoc[Keywords: Of and Percentage of,window=_blank].
 endif::[]
-
+This feature is off by default. To enable it, contact {support-url}.
 
 [#9-3-0-cl-header-sticky]
 [discrete]
