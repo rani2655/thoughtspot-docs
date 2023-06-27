@@ -96,9 +96,23 @@ endif::[]
 
 [#9-4-0-cl-charts]
 [discrete]
-=== Charts: Standard regions - show geomap data for more regions, view sub-divisions of multiple countries at same time
+=== Geomap chart enhancements
 
 // Naomi
+
+ThoughtSpot now supports the following enhancements for geomap visualizations:
+
+* We now provide geomap data for all countries. For a full list, see
+ifndef::pendo-links[]
+link:https://wiki.openstreetmap.org/wiki/List_of_territory_based_projects[Openstreetmap supported countries].
+endif::[]
+ifdef::pendo-links[]
+link:https://wiki.openstreetmap.org/wiki/List_of_territory_based_projects[Openstreetmap supported countries,window=_blank].
+endif::[]
+* We now support visualizations comparing subdivisions of multiple countries in a single visualization. For example, if a selected column contains data from cities in the United States and Mexico, all data would be displayed on a single visualization.
+* We now support multiple levels of subdivisions within a country, rather than just city and zip code.
+* Zip code data is now visualized as an area within a region, rather than a point on a map.
+
 
 ifndef::pendo-links[]
 [#9-4-0-cl-date-picker]
