@@ -29,6 +29,14 @@ Indexing Queries Liveboard:: We introduced a Liveboard to answer the following q
 Admin users can access the Indexing Queries Liveboard from the admin tab, and use the results to improve indexing queries performance. For more information, see xref:indexing-queries-liveboard.adoc[Indexing Queries Liveboard].
 
 
+
+Geomap chart enhancements:: ThoughtSpot now supports the following enhancements for geomap visualizations:
+
+* We now provide geomap data for all countries. For a full list, see link:https://wiki.openstreetmap.org/wiki/List_of_territory_based_projects[Openstreetmap supported countries].
+* We now support visualizations comparing subdivisions of multiple countries in a single visualization. For example, if a selected column contains data from cities in the United States and Mexico, all data would be displayed on a single visualization.
+* We now support multiple levels of subdivisions within a country, rather than just city and zip code.
+* Zip code data is now visualized as an area within a region, rather than a point on a map.
+
 [#9-4-0-cl-business-user]
 === For the Business User
 

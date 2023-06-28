@@ -51,6 +51,8 @@ endif::[]
 
 // Naomi
 
+You can now create reusable groups, which can be used to classify values in a list you can then reuse across multiple analyses. Reusable groups are community objects which, unlike formulas, remain when you navigate away from the Search Data page and can be viewed by any user with view access to the underlying Worksheet.
+
 [#9-4-0-cl-onboarding]
 [discrete]
 === Show onboarding for new users following the share link
@@ -58,6 +60,8 @@ endif::[]
 // Naomi
 
 // keep exploring button
+
+When users are invited to ThoughtSpot via a Share link, they can now click the *Keep exploring* button to be directed to onboarding.
 
 [#9-4-0-cl-coms]
 [discrete]
@@ -229,13 +233,6 @@ We made the following changes to the AI Answer feature:
 * AI Answer is now interactive.
 * Title and descriptions are now pre-populated when you save an AI Answer.
 
-[#9-4-0-cl-ubr]
-[discrete]
-=== UBR re-design to accommodate additional usage metrics
-
-// Naomi
-
-// potentially moved to 9.5.0.cl
 
 [#9-4-0-cl-ts-object]
 [discrete]
