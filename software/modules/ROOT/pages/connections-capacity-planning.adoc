@@ -8,7 +8,7 @@
 
 This article provides hardware requirements and recommendations for using connections with ThoughtSpot. Please note that actual hardware requirements will vary depending on many factors like number of users, groups, worksheets, Liveboards, and more.
 
-NOTE: These recommendations are only for connections to cloud data warehouses in ThoughtSpot.
+These recommendations are only for connections to cloud data warehouses in ThoughtSpot.
 
 == ThoughtSpot Architecture
 
@@ -20,7 +20,7 @@ image::cap_planning_illo_2.png[]
 
 == Factors influencing capacity
 
-There are numerous factors which the capacity requirement for connections in ThoughtSpot.
+There are numerous factors which affect the capacity required for connections in ThoughtSpot.
 
 === Number of concurrent active users
 
