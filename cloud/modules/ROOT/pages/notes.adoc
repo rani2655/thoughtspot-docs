@@ -36,7 +36,9 @@ include::partial$new-features-cloud-release.adoc[]
 
 Getting started with ThoughtSpot Cloud::
 The first user on the account has to complete a series of steps before other people can start using ThoughtSpot with your organization's data.
-For these instructions, see xref:ts-cloud-getting-started.adoc[Getting Started with ThoughtSpot Cloud].
+For these instructions, see xref:ts-cloud-getting-started.adoc[Getting started with ThoughtSpot Cloud].
+
+Free Trial CSV upload limit increase:: We increased the CSV upload limit in Free Trial to ten files per user. For more information, see xref:csv-load-free-trial.adoc[Load CSV files in Free Trial].
 
 [#9-3-0-cl-analyst]
 === For the Analyst
