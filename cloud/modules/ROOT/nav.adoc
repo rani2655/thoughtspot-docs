@@ -364,6 +364,7 @@
 *** xref:user-adoption.adoc[User Adoption Liveboard]
 *** xref:object-usage-liveboard.adoc[Object Usage Liveboard]
 *** xref:query-stats.adoc[Billable Query Stats Liveboard]
+*** xref:indexing-queries-liveboard.adoc[Indexing Queries Liveboard]
 *** xref:use-agreement.adoc[ThoughtSpot use agreement]
 ** xref:developer-user.adoc[Developers]
 *** xref:intro-embed.adoc[Embedded analytics]

@@ -12,13 +12,31 @@ endif::free-trial-feature[]
 
 [#primary-9-4-0-cl]
 
+ifndef::free-trial-feature[]
 [#9-4-0-cl-indexing-queries]
 [discrete]
 === Indexing Queries Liveboard
 
 // Naomi
 
-// under discussion of when it will be added to Cloud
+
+We introduced a Liveboard to answer the following questions: +
+
+* How many indexing queries are made?
+* What queries are failing and why?
+* How long are the indexing queries taking?
+* Which connections have the most failures so that the admin can easily identify them?
+
+Admin users can access the Indexing Queries Liveboard from the admin tab, and use the results to improve indexing queries performance. For more information, see
+ifndef::pendo-links[]
+xref:indexing-queries-liveboard.adoc[Indexing Queries Liveboard].
+endif::[]
+ifdef::pendo-links[]
+xref:indexing-queries-liveboard.adoc[Indexing Queries Liveboard,window=_blank].
+endif::[]
+
+image::liveboard-indexing-queries.png[Indexing queries Liveboard]
+endif::free-trial-feature[]
 
 ifndef::pendo-links[]
 [#9-4-0-cl-cohorts]
