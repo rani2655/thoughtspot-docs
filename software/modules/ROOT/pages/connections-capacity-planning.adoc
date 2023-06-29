@@ -13,9 +13,16 @@ These recommendations are only for connections to cloud data warehouses in Thoug
 == ThoughtSpot architecture
 
 === Single node
+
+This architecture diagram shows a very high level view of ThoughtSpot and how it generates answers to business queries.
+
 image::cap_planning_illo_1.png[]
 
 === Multi-node
+
+In multi-node setup, multiple nodes work together to generate Answers. Multi-node setup provides High Availability and scalability to ThoughtSpot service. This architecture diagram shows how different nodes in the cluster work together to provide the service to the end user.
+
+
 image::cap_planning_illo_2.png[]
 
 == Factors influencing capacity
