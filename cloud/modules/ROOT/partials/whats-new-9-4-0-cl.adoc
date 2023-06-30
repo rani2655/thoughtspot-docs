@@ -27,7 +27,7 @@ We introduced a Liveboard to answer the following questions: +
 * How long are the indexing queries taking?
 * Which connections have the most failures so that the admin can easily identify them?
 
-Admin users can access the Indexing Queries Liveboard from the admin tab, and use the results to improve indexing queries performance. For more information, see
+Admin users can access the Indexing Queries Liveboard by searching the Liveboards tab, and use the results to improve indexing queries performance. For more information, see
 ifndef::pendo-links[]
 xref:indexing-queries-liveboard.adoc[Indexing Queries Liveboard].
 endif::[]
@@ -307,60 +307,39 @@ We have improved the responsiveness of Liveboards in non-TSE scenarios. For wind
 
 We now display Liveboard tabs in the ThoughtSpot Mobile app. To create a Liveboard tab, you must access ThoughtSpot in a browser.
 
-[#9-4-0-cl-aurora]
+[#9-4-0-cl-connections]
 [discrete]
-=== Amazon Aurora for MySQL connector
+=== Connections
 
 // Naomi
 
-You can now create connections from Amazon Aurora for MySQL. See
+You can now create connections from ThoughtSpot to the following connections:
+
 ifndef::pendo-links[]
-xref:connections-amazon-aurora-mysql.adoc[Amazon Aurora for MySQL].
+* xref:connections-amazon-aurora-mysql.adoc[Amazon Aurora for MySQL]
 endif::[]
 ifdef::pendo-links[]
-xref:connections-amazon-aurora-mysql.adoc[Amazon Aurora for MySQL,window=_blank].
+* xref:connections-amazon-aurora-mysql.adoc[Amazon Aurora for MySQL,window=_blank]
 endif::[]
 
-[#9-4-0-cl-aurora-postgresql]
-[discrete]
-=== Amazon Aurora for PostgreSQL connector
-
-// Naomi
-
-You can now create connections from Amazon Aurora for PostgreSQL. See
 ifndef::pendo-links[]
-xref:connections-amazon-aurora-postgresql.adoc[Amazon Aurora for PostgreSQL].
+* xref:connections-amazon-aurora-postgresql.adoc[Amazon Aurora for PostgreSQL]
 endif::[]
 ifdef::pendo-links[]
-xref:connections-amazon-aurora-postgresql.adoc[Amazon Aurora for PostgreSQL,window=_blank].
+* xref:connections-amazon-aurora-postgresql.adoc[Amazon Aurora for PostgreSQL,window=_blank]
 endif::[]
-
-[#9-4-0-cl-rds]
-[discrete]
-=== Amazon RDS for MySQL connector
-
-// Naomi
-
-You can now create connections from Amazon RDS for MySQL. See
 ifndef::pendo-links[]
-xref:connections-amazon-rds-mysql.adoc[Amazon RDS for MySQL].
+* xref:connections-amazon-rds-mysql.adoc[Amazon RDS for MySQL]
 endif::[]
 ifdef::pendo-links[]
-xref:connections-amazon-rds-mysql.adoc[Amazon RDS for MySQL,window=_blank].
+* xref:connections-amazon-rds-mysql.adoc[Amazon RDS for MySQL,window=_blank]
 endif::[]
 
-[#9-4-0-cl-rds-postgresql]
-[discrete]
-=== Amazon RDS for PostgreSQL connector
-
-// Naomi
-
-You can now create connections from Amazon RDS for PostgreSQL. See
 ifndef::pendo-links[]
-xref:connections-amazon-rds-postgresql.adoc[Amazon RDS for PostgreSQL].
+* xref:connections-amazon-rds-postgresql.adoc[Amazon RDS for PostgreSQL]
 endif::[]
 ifdef::pendo-links[]
-xref:connections-amazon-rds-postgresql.adoc[Amazon RDS for PostgreSQL,window=_blank].
+* xref:connections-amazon-rds-postgresql.adoc[Amazon RDS for PostgreSQL,window=_blank]
 endif::[]
 
 
