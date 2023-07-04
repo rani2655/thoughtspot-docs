@@ -16,8 +16,8 @@ These are the issues we fixed in this release of ThoughtSpot Cloud.
 |===
 |Issue ID |Description
 
-|SCAL-TBD
-|TBD
+|SCAL-138780
+|Once a user pins something to a watchlist, the watchlist is lost as soon as the user switches to a different org.
 |SCAL-TBD
 |TBD
 |SCAL-TBD
