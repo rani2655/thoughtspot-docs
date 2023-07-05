@@ -85,7 +85,7 @@ endif::[]
 
 [#9-4-0-cl-contextual]
 [discrete]
-=== Contextual Change Analysis
+=== Contextual change analysis
 
 // Naomi
 
