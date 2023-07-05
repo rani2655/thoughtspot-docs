@@ -59,6 +59,23 @@ ifdef::pendo-links[]
 xref:reusable-groups.adoc[Custom groups,window=_blank].
 endif::[]
 
+////
+ifndef::pendo-links[]
+[#9-4-0-cl-lower]
+[discrete]
+=== Table column case definition [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#9-4-0-cl-lower]
+[discrete]
+=== Table column case definition [.badge.badge-beta-whats-new]#Beta#
+endif::[]
+
+// Naomi
+
+////
+
+
 [#9-4-0-cl-onboarding]
 [discrete]
 === Show onboarding for new users following the share link
