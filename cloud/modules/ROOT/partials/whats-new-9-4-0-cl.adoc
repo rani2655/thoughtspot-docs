@@ -178,11 +178,13 @@ image:date-picker.png[Date picker for Answers]
 
 // Mark
 
+////
 [#9-4-0-cl-snowflake-spotapp]
 [discrete]
 === Snowflake Query Profile SpotApp
 
 // Naomi
+////
 
 // [#9-4-0-cl-rbac]
 // [discrete]
@@ -190,6 +192,7 @@ image:date-picker.png[Date picker for Answers]
 
 // Mark
 
+////
 [#9-4-0-cl-connections]
 [discrete]
 === Connection error messaging improvements
@@ -197,6 +200,8 @@ image:date-picker.png[Date picker for Answers]
 // Naomi
 
 // scal-138770
+
+////
 
 NEEDS EVALUATION
 
