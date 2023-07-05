@@ -51,7 +51,13 @@ endif::[]
 
 // Naomi
 
-You can now create reusable groups, which can be used to classify values in a list you can then reuse across multiple analyses. Reusable groups are community objects which, unlike formulas, remain when you navigate away from the Search Data page and can be viewed by any user with view access to the underlying Worksheet.
+You can now create reusable groups, which can be used to classify values in a list you can then reuse across multiple analyses. Reusable groups are community objects which, unlike formulas, remain when you navigate away from the Search Data page and can be viewed by any user with view access to the underlying Worksheet. For more information, see
+ifndef::pendo-links[]
+xref:reusable-groups.adoc[Custom groups].
+endif::[]
+ifdef::pendo-links[]
+xref:reusable-groups.adoc[Custom groups,window=_blank].
+endif::[]
 
 [#9-4-0-cl-onboarding]
 [discrete]
