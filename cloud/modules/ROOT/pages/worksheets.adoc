@@ -14,6 +14,8 @@ ThoughtSpot uses Worksheets, which are logical views of data, to model complex d
 * *Renamed fields* make charts and tables easily accessible.
 * *Selecting fields* allows you to focus only on the  fields that are necessary to the business use case.
 * *Hiding fields* lets you change the visibility of data by obscuring and securing sensitive information without affecting the calculations that depend on it.
++
+NOTE: If a hidden column is used in an Answer pinned to a Liveboard, then the entire Liveboard becomes read-only to users. This limits Liveboard functionality, which means the ability to adjust filters and download data is restricted.
 * *Changing the default aggregation* of fields in a Worksheet prevents common mistakes when building visuals.
 
 
