@@ -19,6 +19,8 @@ To access this Liveboard, go to the *Liveboards* tab and search for *Indexing Qu
 The visualizations on this Liveboard include the following:
 
 * Filters
++
+NOTE: Users can filter by connections and tables, and aggregate over the last `n` days.
 * Total queries
 * Failed queries
 * Average query latency(s)
@@ -29,3 +31,4 @@ The visualizations on this Liveboard include the following:
 * Success rate over time
 * Connections with failing queries
 * Columns with highest query latency
+
