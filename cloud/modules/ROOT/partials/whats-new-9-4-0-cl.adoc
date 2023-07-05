@@ -172,11 +172,17 @@ image:date-picker.png[Date picker for Answers]
 
 // Mark
 
+ThoughtSpot Connected Sheets is an add-on that allows you to connect to a ThoughtSpot instance, pull data directly into a Google Sheet from trusted data sources connected to that instance (like Snowflake, Google BigQuery(TM), DataBricks, and others), and use the tools in Google Sheets(TM) for ad-hoc analysis.
+
 [#9-4-0-cl-data-fluency]
 [discrete]
 === Admin controls for new data panel experience
 
 // Mark
+
+ThoughtSpot admins now have more control for enabling the new data panel experience for users. As before, an admin can enable *Data Fluency* by going to *Admin* > *Early Access features*. Each user can selectively enable the new data panel experience by going to their user profile, and setting the *Answer data experience* to *New experience*. In this release, admins can now make the new answer data panel experience default for all users of a cluster, by going to *Admin* > *Search & SpotIQ* and setting the *Make new answer data panel experience default* to *Enabled*.
+
+
 
 ////
 [#9-4-0-cl-snowflake-spotapp]
@@ -234,11 +240,11 @@ We made the following changes to the AI Answer feature:
 
 [#9-4-0-cl-formula]
 [discrete]
-=== Worksheet formula sage index should be on by default
+=== Worksheet formula indexing
 
 // Mark
 
-
+In this release, worksheet formulas can now be indexed by setting *Suggest values in search* to *Yes* for the column which contains the formula.
 
 
 
