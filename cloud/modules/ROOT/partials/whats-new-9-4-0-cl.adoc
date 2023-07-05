@@ -141,6 +141,13 @@ endif::[]
 * We now support multiple levels of subdivisions within a country, rather than just city and zip code.
 * Zip code data is now visualized as an area within a region, rather than a point on a map.
 
+For more information, see
+ifndef::pendo-links[]
+xref:chart-geo.adoc#enhancement[Geo chart enhancements].
+endif::[]
+ifdef::pendo-links[]
+xref:chart-geo.adoc#enhancement[Geo chart enhancements,window=_blank].
+endif::[]
 
 ifndef::pendo-links[]
 [#9-4-0-cl-date-picker]

@@ -40,6 +40,9 @@ Geomap chart enhancements:: ThoughtSpot now supports the following enhancements 
 * We now support visualizations comparing subdivisions of multiple countries in a single visualization. For example, if a selected column contains data from cities in the United States and Mexico, all data would be displayed on a single visualization.
 * We now support multiple levels of subdivisions within a country, rather than just city and zip code.
 * Zip code data is now visualized as an area within a region, rather than a point on a map.
++
+For more information, see
+xref:chart-geo.adoc#enhancement[Geo chart enhancements].
 
 Responsive Liveboards outside ThoughtSpot Everywhere (TSE) scenarios:: We have improved the responsiveness of Liveboards in non-TSE scenarios. For windows between 1024 pixels and 500 pixels, the Liveboard columns respond to re-sizing. For windows smaller than 500 pixels in width, a horizontal scroll bar appears.
 
