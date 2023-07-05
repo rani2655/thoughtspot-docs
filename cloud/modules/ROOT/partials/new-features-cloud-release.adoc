@@ -28,6 +28,10 @@ Indexing Queries Liveboard:: We introduced a Liveboard to answer the following q
 +
 Admin users can access the Indexing Queries Liveboard from the admin tab, and use the results to improve indexing queries performance. For more information, see xref:indexing-queries-liveboard.adoc[Indexing Queries Liveboard].
 
+Reusable groups:: You can now create reusable groups, which can be used to classify values in a list you can then reuse across multiple analyses. Reusable groups are community objects which, unlike formulas, remain when you navigate away from the Search Data page and can be viewed by any user with view access to the underlying Worksheet. For more information, see xref:reusable-groups.adoc[Custom groups].
+
+Date picker enhancement in Search [.badge.badge-early-access-relnotes]#Early Access#:: We added support for rolling, fixed, and custom date filters when creating an Answer or filtering a Liveboard. Previously, when adding a date filter to a Search, ThoughtSpot supported the conditions `ON (=)`, `ON OR AFTER (>=)`, `BEFORE (<)`, and `BETWEEN`. Now, you can additionally filter for `ON OR BEFORE (\<=)`, `NOT BETWEEN`, `ON LAST`, and `ON NEXT`. To try it out, click the filter icon next to the Date column in the left side menu, or click the date filter below the Answer or Liveboard title. This feature must be enabled by your administrator. For more information, see
+xref:date-filter.adoc[Date filters for Answers and Liveboards].
 
 
 Geomap chart enhancements:: ThoughtSpot now supports the following enhancements for geomap visualizations:
@@ -37,10 +41,25 @@ Geomap chart enhancements:: ThoughtSpot now supports the following enhancements 
 * We now support multiple levels of subdivisions within a country, rather than just city and zip code.
 * Zip code data is now visualized as an area within a region, rather than a point on a map.
 
+Responsive Liveboards outside ThoughtSpot Everywhere (TSE) scenarios:: We have improved the responsiveness of Liveboards in non-TSE scenarios. For windows between 1024 pixels and 500 pixels, the Liveboard columns respond to re-sizing. For windows smaller than 500 pixels in width, a horizontal scroll bar appears.
+
+
 [#9-4-0-cl-business-user]
 === For the Business User
 
 Web notifications:: Users can now receive in-app notifications when items are shared with them, or when other users request access to an Answer or Liveboard. To view these notifications, simply click on the user profile icon. For more information, see xref:web-notifications.adoc[Web notifications].
+
+Contextual change analysis:: Contextual change is now GA and on by default. You can now identify the key change drivers for changes in your metrics in a KPI chart. This feature is now available for administrators to enable, without contacting ThoughtSpot Support. Select the percent change label or select any two data points on the KPI sparkline to view change analysis on your top 5 columns by usage-based ranking (UBR) and identify the reason behind the observed change. You can view the changes in other columns by clicking *Manage attributes* and selecting the desired column(s). This feature must be enabled by your administrator.
++
+For more information, see
+xref:spotiq-change.adoc#change-analysis-contextual[Contextual change analysis].
+
+Headline creation and pinning deprecation:: ThoughtSpot will deprecate the pin Headline to Liveboard feature. Beginning in the 9.4.0.cl Cloud release, users will no longer see the pin icon when they select table summaries. To visualize and pin single aggregated measures, attributes in string/date format, or time-series metrics with sparklines, we recommend creating xref:chart-kpi.adoc[KPI charts]. Existing Headlines pinned to Liveboards will not be affected in this release. For more information, see
+link:https://community.thoughtspot.com/s/article/How-to-convert-Headlines-to-KPI-charts[How to convert Headlines to KPI charts].
+
+Liveboard tabs in Mobile:: We now display Liveboard tabs in the ThoughtSpot Mobile app. To create a Liveboard tab, you must access ThoughtSpot in a browser.
+
+Show onboarding for new users following the share link:: When users are invited to ThoughtSpot via a Share link, they can now click the *Keep exploring* button to be directed to onboarding.
 
 AI Answer improvements::
 We made the following changes to the AI Answer feature:
@@ -52,6 +71,12 @@ We made the following changes to the AI Answer feature:
 [#9-4-0-cl-data-engineer]
 === For the Data Engineer
 
+Connections:: You can now create connections from ThoughtSpot to the following connections:
+
+* xref:connections-amazon-aurora-mysql.adoc[Amazon Aurora for MySQL]
+* xref:connections-amazon-aurora-postgresql.adoc[Amazon Aurora for PostgreSQL]
+* xref:connections-amazon-rds-mysql.adoc[Amazon RDS for MySQL]
+* xref:connections-amazon-rds-postgresql.adoc[Amazon RDS for PostgreSQL]
 
 
 
