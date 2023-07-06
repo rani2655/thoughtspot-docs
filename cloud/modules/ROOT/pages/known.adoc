@@ -15,15 +15,29 @@ These are the known issues in this release of ThoughtSpot Cloud.
 |===
 |Issue ID |Description|Symptoms, conditions, and workaround
 
-|SCAL-TBD
-|TBD
+|SCAL-162730
+|Include filter on Liveboard does not  work when there is an exclude filter set on that Liveboard.
 a|*Symptoms*:
 
-TBD
+Include filter does not work on Liveboard.
 
 *Conditions*:
 
-TBD
+Liveboard configured with include and exclude filters.
+
+*Workaround*:
+
+Remove the exclude filter from the Liveboard and add the include filter.
+
+|SCAL-156109
+|Cannot download a single answer or a PDF with the visualization option selected from a Liveboard.
+a|*Symptoms*:
+
+File does not download and no messages or activities are displayed.
+
+*Conditions*:
+
+Liveboard.
 
 *Workaround*:
 
