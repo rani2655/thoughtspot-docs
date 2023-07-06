@@ -12,18 +12,32 @@ endif::free-trial-feature[]
 
 [#primary-9-4-0-cl]
 
+[#9-4-0-cl-eureka]
+[discrete]
+== ThoughtSpot Sage
+
+=== Natural language search improvements
+
+// Naomi. Release notes only?? screenshot pointing out the changes. Move to the top. Rename: natural language search. Check if early access or GA (sage features). Clarify the "interactive" point, what can you do now.
+
+We made the following changes to the natural language search feature:
+
+* Redesigned search results page. Filtering facets are now in the left panel.
+* Natural language search is now interactive.
+* Title and descriptions are now automatically created when you save an AI Answer.
+
 ifndef::free-trial-feature[]
 [#9-4-0-cl-indexing-queries]
 [discrete]
 === Indexing Queries Liveboard
 
-// Naomi
+// Naomi-- move to other features section, not for business users
 
 
 We introduced a Liveboard to answer the following questions: +
 
 * How many indexing queries are made?
-* What queries are failing and why?
+* Which queries are failing and why?
 * How long are the indexing queries taking?
 * Which connections have the most failures so that the admin can easily identify them?
 
@@ -49,7 +63,7 @@ ifdef::pendo-links[]
 === Custom groups [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
-// Naomi
+// Naomi -- add example and gif! explain reuse
 
 You can now create reusable groups, which can be used to classify values in a list you can then reuse across multiple analyses. Reusable groups are community objects which, unlike formulas, remain when you navigate away from the Search Data page and can be viewed by any user with view access to the underlying Worksheet. For more information, see
 ifndef::pendo-links[]
@@ -82,17 +96,17 @@ endif::[]
 
 // Naomi
 
-// keep exploring button
+// keep exploring button-- explain flow. Add screenshot-- button and onboarding screen. Reword invite? Move further down.
 
-When users are invited to ThoughtSpot via a Share link, they can now click the *Keep exploring* button to be directed to onboarding.
+When new users are invited to ThoughtSpot via a Share link, they can now click the *Keep exploring* button to be directed to onboarding.
 
 [#9-4-0-cl-coms]
 [discrete]
 === Notification center
 
-// Naomi
+// Naomi -- screenshot, move further up. note whether you need to opt in or if it's on by default.
 
-Users can now receive in-app notifications when items are shared with them, or when other users request access to an Answer or Liveboard. To view these notifications, simply click on the user profile icon. For more information, see
+You now receive in-app notifications when items are shared with you, or when other users request access to an Answer or Liveboard. To view these notifications, simply click on the user profile icon. For more information, see
 ifndef::pendo-links[]
 xref:web-notifications.adoc[Web notifications].
 endif::[]
@@ -104,7 +118,7 @@ endif::[]
 [discrete]
 === Contextual change analysis
 
-// Naomi
+// Naomi-- add image. clarify if it needs to be enabled by admin or if it's fully GA.
 
 // GA in 9.4.0.cl
 
@@ -143,7 +157,7 @@ endif::[]
 [discrete]
 === Geomap chart enhancements
 
-// Naomi
+// Naomi-- reword openstreetmap to describe what it is and what it provides. add value prop of new option (not our past supported countries). add image of multiple countries in a single viz. add in a note-- do they need admin to enable?
 
 ThoughtSpot now supports the following enhancements for geomap visualizations:
 
@@ -194,15 +208,15 @@ image:date-picker.png[Date picker for Answers]
 [discrete]
 === ThoughtSpot for Connected Sheets plugin
 
-// Mark
+// Mark -- take out trademark?
 
-ThoughtSpot Connected Sheets is an add-on that allows you to connect to a ThoughtSpot instance, pull data directly into a Google Sheet from trusted data sources connected to that instance (like Snowflake, Google BigQuery(TM), DataBricks, and others), and use the tools in Google Sheets(TM) for ad-hoc analysis.
+ThoughtSpot Connected Sheets is an add-on that allows you to connect to a ThoughtSpot instance, pull data directly into a Google Sheet from trusted data sources connected to that instance (like Snowflake, Google BigQuery, DataBricks, and others), and use the tools in Google Sheets for ad-hoc analysis.
 
 [#9-4-0-cl-data-fluency]
 [discrete]
 === Admin controls for new data panel experience
 
-// Mark
+// Mark -- move to other features and enhancements. add image of admin panel. may not need to call out data fluency
 
 ThoughtSpot admins now have more control for enabling the new data panel experience for users. As before, an admin can enable *Data Fluency* by going to *Admin* > *Early Access features*. Each user can selectively enable the new data panel experience by going to their user profile, and setting the *Answer data experience* to *New experience*. In this release, admins can now make the new answer data panel experience default for all users of a cluster, by going to *Admin* > *Search & SpotIQ* and setting the *Make new answer data panel experience default* to *Enabled*.
 
@@ -233,7 +247,7 @@ ThoughtSpot admins now have more control for enabling the new data panel experie
 
 ////
 
-NEEDS EVALUATION
+
 
 // [#9-4-0-cl-ft]
 // [discrete]
@@ -241,19 +255,6 @@ NEEDS EVALUATION
 
 // Mark
 
-
-
-[#9-4-0-cl-eureka]
-[discrete]
-=== AI Answer improvements
-
-// Naomi. Release notes only??
-
-We made the following changes to the AI Answer feature:
-
-* Redesigned search results page. Filtering facets are now in the left panel.
-* AI Answer is now interactive.
-* Title and descriptions are now pre-populated when you save an AI Answer.
 
 
 // [#9-4-0-cl-ts-object]
@@ -266,9 +267,9 @@ We made the following changes to the AI Answer feature:
 [discrete]
 === Worksheet formula indexing
 
-// Mark
+// Mark -- move to other features and enhancements.
 
-In this release, worksheet formulas can now be indexed by setting *Suggest values in search* to *Yes* for the column which contains the formula.
+In this release, worksheet formulas can now be indexed by setting *Suggest values in search* to *Yes* for the formula.
 
 
 
@@ -283,9 +284,9 @@ In this release, worksheet formulas can now be indexed by setting *Suggest value
 [discrete]
 === Headline creation and pinning deprecation
 
-// Naomi
+// Naomi-- move out of other features section
 
-ThoughtSpot will deprecate the pin Headline to Liveboard feature. Beginning in the 9.4.0.cl Cloud release, users will no longer see the pin icon when they select table summaries. To visualize and pin single aggregated measures, attributes in string/date format, or time-series metrics with sparklines, we recommend creating
+ThoughtSpot is deprecating the pin Headline to Liveboard feature. Beginning in the 9.4.0.cl Cloud release, users will no longer see the pin icon when they hover over table summaries. To visualize and pin single aggregated measures, attributes in string/date format, or time-series metrics with sparklines, you must create
 ifndef::pendo-links[]
 xref:chart-kpi.adoc[KPI charts].
 endif::[]
@@ -303,17 +304,17 @@ endif::[]
 
 [#9-4-0-cl-breakpoint]
 [discrete]
-=== Responsive Liveboards outside ThoughtSpot Everywhere (TSE) scenarios
+=== Responsive Liveboards
 
-// Naomi
+// Naomi. remove TSE wording. add gif showing resize.
 
-We have improved the responsiveness of Liveboards in non-TSE scenarios. For windows between 1024 pixels and 500 pixels, the Liveboard columns respond to re-sizing. For windows smaller than 500 pixels in width, a horizontal scroll bar appears.
+We have improved the responsiveness of Liveboards. For windows between 1024 pixels and 500 pixels, the Liveboard columns respond to re-sizing. For windows smaller than 500 pixels in width, a horizontal scroll bar appears.
 
 [#9-4-0-cl-mobile]
 [discrete]
 === Liveboard tabs in Mobile app
 
-// Naomi
+// Naomi-- put at top of other features
 
 We now display Liveboard tabs in the ThoughtSpot Mobile app. To create a Liveboard tab, you must access ThoughtSpot in a browser.
 
@@ -323,7 +324,7 @@ We now display Liveboard tabs in the ThoughtSpot Mobile app. To create a Liveboa
 
 // Naomi
 
-You can now create connections from ThoughtSpot to the following connections:
+You can now create connections from ThoughtSpot to:
 
 ifndef::pendo-links[]
 * xref:connections-amazon-aurora-mysql.adoc[Amazon Aurora for MySQL]
@@ -357,9 +358,9 @@ endif::[]
 
 [#9-4-0-cl-aws]
 [discrete]
-=== New London cloud region
+=== New London cloud region for AWS
 
-// Naomi
+// Naomi -- reword, clarify effect
 
 ThoughtSpot Cloud is now available in London when you connect using AWS. See
 ifndef::pendo-links[]
