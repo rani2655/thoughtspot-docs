@@ -18,8 +18,24 @@ These are the issues we fixed in this release of ThoughtSpot Cloud.
 
 |SCAL-138780
 |Once a user pins something to a watchlist, the watchlist is lost as soon as the user switches to a different org.
-|SCAL-TBD
-|TBD
-|SCAL-TBD
-|TBD
+|SCAL-160338
+|Query execution to Falcon error when loading a visualization.
+|SCAL-159531
+|KPI text in tile is truncated when tile size is different than the supported KPI tile sizes.
+|SCAL-159308
+|Unable to import new columns using a Snowflake connection.
+|SCAL-158870
+|All Liveboard tiles time out.
+|SCAL-151590
+|Parameter values are not retained when importing a Liveboard.
+|SCAL-151409
+|All Liveboard schedules are removed after installing the Orgs feature.
+|SCAL-147691
+|Cannot search for names when sharing an object.
+|SCAL-145879
+|Worksheet joins disappear after CSV upload feature is removed.
+|SCAL-141234
+|Autocomplete does not work when a search token has a leading whitespace.
+|SCAL-137993
+|Visualizations exported to PDF have poor quality graph labels, overlapping issues, and missing values on certain bar charts.
 |===
