@@ -91,9 +91,7 @@ endif::[]
 
 // GA in 9.4.0.cl
 
-Contextual change is now GA and on by default. You can now identify the key change drivers for changes in your metrics in a KPI chart.
-//This feature is now available for administrators to enable, without contacting ThoughtSpot Support.
-Select the percent change label or select any two data points on the KPI sparkline to view change analysis on your top 5 columns by usage-based ranking (UBR) and identify the reason behind the observed change. You can view the changes in other columns by clicking *Manage attributes* and selecting the desired column(s). This feature must be enabled by your administrator.
+Contextual change is now GA and on by default. You can now identify the key change drivers for changes in your metrics in a KPI chart. Select the percent change label or select any two data points on the KPI sparkline to view change analysis on your top 5 columns by usage-based ranking (UBR) and identify the reason behind the observed change. You can view the changes in other columns by clicking *Manage attributes* and selecting the desired column(s). This feature must be enabled by your administrator.
 
 For more information, see
 ifndef::pendo-links[]
