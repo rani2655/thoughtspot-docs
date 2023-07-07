@@ -20,7 +20,6 @@ endif::[]
 ifdef::pendo-links[]
 [#9-3-0-cl-sage]
 [discrete]
-=== ThoughtSpot Sage
 === ThoughtSpot Sage [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 
