@@ -293,6 +293,8 @@ In this release, worksheet formulas can now be indexed by setting *Suggest value
 
 We have improved the responsiveness of Liveboards. For windows between 1024 pixels and 500 pixels, the Liveboard columns respond to re-sizing. For windows smaller than 500 pixels in width, a horizontal scroll bar appears.
 
+image::downsize.gif[Liveboard resize]
+
 [#9-4-0-cl-mobile]
 [discrete]
 === Liveboard tabs in Mobile app
