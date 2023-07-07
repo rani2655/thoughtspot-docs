@@ -205,13 +205,6 @@ endif::[]
 
 ThoughtSpot Connected Sheets is an add-on that allows you to connect to a ThoughtSpot instance, pull data directly into a Google Sheet from trusted data sources connected to that instance (like Snowflake, Google BigQuery, DataBricks, and others), and use the tools in Google Sheets for ad-hoc analysis.
 
-[#9-4-0-cl-data-fluency]
-[discrete]
-=== Admin controls for new data panel experience
-
-// Mark -- move to other features and enhancements. add image of admin panel. may not need to call out data fluency
-
-ThoughtSpot admins now have more control for enabling the new data panel experience for users. As before, an admin can enable *Data Fluency* by going to *Admin* > *Early Access features*. Each user can selectively enable the new data panel experience by going to their user profile, and setting the *Answer data experience* to *New experience*. In this release, admins can now make the new answer data panel experience default for all users of a cluster, by going to *Admin* > *Search & SpotIQ* and setting the *Make new answer data panel experience default* to *Enabled*.
 
 [#9-4-0-cl-onboarding]
 [discrete]
@@ -302,6 +295,16 @@ image::downsize.gif[Liveboard resize]
 // Naomi-- put at top of other features
 
 We now display Liveboard tabs in the ThoughtSpot Mobile app. To create a Liveboard tab, you must access ThoughtSpot in a browser.
+
+[#9-4-0-cl-data-fluency]
+[discrete]
+=== Admin controls for new data panel experience
+
+// Mark -- move to other features and enhancements. add image of admin panel. may not need to call out data fluency
+
+ThoughtSpot admins now have more control for enabling the new data panel experience for users. As before, an admin can enable the new data panel experience by going to *Admin* > *Early Access features*, and enabling *Data Fluency*. Each user can selectively enable the new data panel experience by going to their user profile, and setting the *Answer data experience* to *New experience*. In this release, admins can now make the new answer data panel experience default for all users of a cluster, by going to *Admin* > *Search & SpotIQ* and setting the *Make new answer data panel experience default* to *Enabled*
+
+image::dp-experience.png[data panel experience]
 
 ifndef::free-trial-feature[]
 [#9-4-0-cl-indexing-queries]
