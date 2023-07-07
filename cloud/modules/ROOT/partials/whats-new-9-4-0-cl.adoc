@@ -23,34 +23,9 @@ endif::free-trial-feature[]
 We made the following changes to the natural language search feature:
 
 * Redesigned search results page. Filtering facets are now in the left panel.
-* Natural language search is now interactive.
+* You can now interact with the Answers created by natural language search the way you would any other Answer, including sorting values and drilling down.
 * Title and descriptions are now automatically created when you save an AI Answer.
 
-ifndef::free-trial-feature[]
-[#9-4-0-cl-indexing-queries]
-[discrete]
-=== Indexing Queries Liveboard
-
-// Naomi-- move to other features section, not for business users
-
-
-We introduced a Liveboard to answer the following questions: +
-
-* How many indexing queries are made?
-* Which queries are failing and why?
-* How long are the indexing queries taking?
-* Which connections have the most failures so that the admin can easily identify them?
-
-Admin users can access the Indexing Queries Liveboard by searching the Liveboards tab, and use the results to improve indexing queries performance. For more information, see
-ifndef::pendo-links[]
-xref:indexing-queries-liveboard.adoc[Indexing Queries Liveboard].
-endif::[]
-ifdef::pendo-links[]
-xref:indexing-queries-liveboard.adoc[Indexing Queries Liveboard,window=_blank].
-endif::[]
-
-image::liveboard-indexing-queries.png[Indexing queries Liveboard]
-endif::free-trial-feature[]
 
 ifndef::pendo-links[]
 [#9-4-0-cl-cohorts]
@@ -65,13 +40,17 @@ endif::[]
 
 // Naomi -- add example and gif! explain reuse
 
-You can now create reusable groups, which can be used to classify values in a list you can then reuse across multiple analyses. Reusable groups are community objects which, unlike formulas, remain when you navigate away from the Search Data page and can be viewed by any user with view access to the underlying Worksheet. For more information, see
+You can now create custom groups, which can be used to classify values in a list you can then reuse across multiple analyses. Custom groups are community objects which remain when you navigate away from the Search Data page and can be viewed by any user with view access to the underlying Worksheet. As an example, you can use custom groups to search for which products are most popular, and define them by sales volume as “gold”, “silver”, or “bronze” level products.
+
+For more information, see
 ifndef::pendo-links[]
 xref:reusable-groups.adoc[Custom groups].
 endif::[]
 ifdef::pendo-links[]
 xref:reusable-groups.adoc[Custom groups,window=_blank].
 endif::[]
+
+image::reusable-groups.png[Reusable group example]
 
 ////
 ifndef::pendo-links[]
@@ -89,16 +68,6 @@ endif::[]
 
 ////
 
-
-[#9-4-0-cl-onboarding]
-[discrete]
-=== Show onboarding for new users following the share link
-
-// Naomi
-
-// keep exploring button-- explain flow. Add screenshot-- button and onboarding screen. Reword invite? Move further down.
-
-When new users are invited to ThoughtSpot via a Share link, they can now click the *Keep exploring* button to be directed to onboarding.
 
 [#9-4-0-cl-coms]
 [discrete]
@@ -122,7 +91,9 @@ endif::[]
 
 // GA in 9.4.0.cl
 
-Contextual change is now GA and on by default. You can now identify the key change drivers for changes in your metrics in a KPI chart. This feature is now available for administrators to enable, without contacting ThoughtSpot Support. Select the percent change label or select any two data points on the KPI sparkline to view change analysis on your top 5 columns by usage-based ranking (UBR) and identify the reason behind the observed change. You can view the changes in other columns by clicking *Manage attributes* and selecting the desired column(s). This feature must be enabled by your administrator.
+Contextual change is now GA and on by default. You can now identify the key change drivers for changes in your metrics in a KPI chart.
+//This feature is now available for administrators to enable, without contacting ThoughtSpot Support.
+Select the percent change label or select any two data points on the KPI sparkline to view change analysis on your top 5 columns by usage-based ranking (UBR) and identify the reason behind the observed change. You can view the changes in other columns by clicking *Manage attributes* and selecting the desired column(s). This feature must be enabled by your administrator.
 
 For more information, see
 ifndef::pendo-links[]
@@ -131,6 +102,8 @@ endif::[]
 ifdef::pendo-links[]
 xref:spotiq-change.adoc#change-analysis-contextual[Contextual change analysis,window=_blank].
 endif::[]
+
+image:contextual-change.png[Contextual change analysis window]
 
 ifndef::pendo-links[]
 [#9-4-0-cl-verified]
@@ -203,6 +176,26 @@ endif::[]
 
 image:date-picker.png[Date picker for Answers]
 
+[#9-4-0-cl-headline]
+[discrete]
+=== Headline creation and pinning deprecation
+
+// Naomi-- move out of other features section
+
+ThoughtSpot is deprecating the pin Headline to Liveboard feature. Beginning in the 9.4.0.cl Cloud release, users will no longer see the pin icon when they hover over table summaries. To visualize and pin single aggregated measures, attributes in string/date format, or time-series metrics with sparklines, you must create
+ifndef::pendo-links[]
+xref:chart-kpi.adoc[KPI charts].
+endif::[]
+ifdef::pendo-links[]
+xref:chart-kpi.adoc[KPI charts,window=_blank].
+endif::[]
+Existing Headlines pinned to Liveboards will not be affected in this release. For more information, see
+ifndef::pendo-links[]
+link:https://community.thoughtspot.com/s/article/How-to-convert-Headlines-to-KPI-charts[How to convert Headlines to KPI charts].
+endif::[]
+ifdef::pendo-links[]
+link:https://community.thoughtspot.com/s/article/How-to-convert-Headlines-to-KPI-charts[How to convert Headlines to KPI charts,window=_blank].
+endif::[]
 
 [#9-4-0-cl-sheets]
 [discrete]
@@ -220,7 +213,17 @@ ThoughtSpot Connected Sheets is an add-on that allows you to connect to a Though
 
 ThoughtSpot admins now have more control for enabling the new data panel experience for users. As before, an admin can enable *Data Fluency* by going to *Admin* > *Early Access features*. Each user can selectively enable the new data panel experience by going to their user profile, and setting the *Answer data experience* to *New experience*. In this release, admins can now make the new answer data panel experience default for all users of a cluster, by going to *Admin* > *Search & SpotIQ* and setting the *Make new answer data panel experience default* to *Enabled*.
 
+[#9-4-0-cl-onboarding]
+[discrete]
+=== Show onboarding for new users following the share link
 
+// Naomi
+
+// keep exploring button-- explain flow. Add screenshot-- button and onboarding screen. Reword invite? Move further down.
+
+When new users are invited to ThoughtSpot via a Share link, they can now click the *Keep exploring* button to be directed to onboarding.
+
+image::keep-exploring.png[Keep exploring button]
 
 ////
 [#9-4-0-cl-snowflake-spotapp]
@@ -280,26 +283,6 @@ In this release, worksheet formulas can now be indexed by setting *Suggest value
 [discrete]
 === _Other features and enhancements_
 
-[#9-4-0-cl-headline]
-[discrete]
-=== Headline creation and pinning deprecation
-
-// Naomi-- move out of other features section
-
-ThoughtSpot is deprecating the pin Headline to Liveboard feature. Beginning in the 9.4.0.cl Cloud release, users will no longer see the pin icon when they hover over table summaries. To visualize and pin single aggregated measures, attributes in string/date format, or time-series metrics with sparklines, you must create
-ifndef::pendo-links[]
-xref:chart-kpi.adoc[KPI charts].
-endif::[]
-ifdef::pendo-links[]
-xref:chart-kpi.adoc[KPI charts,window=_blank].
-endif::[]
-Existing Headlines pinned to Liveboards will not be affected in this release. For more information, see
-ifndef::pendo-links[]
-link:https://community.thoughtspot.com/s/article/How-to-convert-Headlines-to-KPI-charts[How to convert Headlines to KPI charts].
-endif::[]
-ifdef::pendo-links[]
-link:https://community.thoughtspot.com/s/article/How-to-convert-Headlines-to-KPI-charts[How to convert Headlines to KPI charts,window=_blank].
-endif::[]
 
 
 [#9-4-0-cl-breakpoint]
@@ -310,6 +293,8 @@ endif::[]
 
 We have improved the responsiveness of Liveboards. For windows between 1024 pixels and 500 pixels, the Liveboard columns respond to re-sizing. For windows smaller than 500 pixels in width, a horizontal scroll bar appears.
 
+image::downsize.gif[Liveboard resize]
+
 [#9-4-0-cl-mobile]
 [discrete]
 === Liveboard tabs in Mobile app
@@ -317,6 +302,32 @@ We have improved the responsiveness of Liveboards. For windows between 1024 pixe
 // Naomi-- put at top of other features
 
 We now display Liveboard tabs in the ThoughtSpot Mobile app. To create a Liveboard tab, you must access ThoughtSpot in a browser.
+
+ifndef::free-trial-feature[]
+[#9-4-0-cl-indexing-queries]
+[discrete]
+=== Indexing Queries Liveboard
+
+// Naomi-- move to other features section, not for business users
+
+
+We introduced a Liveboard to answer the following questions: +
+
+* How many indexing queries are made?
+* Which queries are failing and why?
+* How long are the indexing queries taking?
+* Which connections have the most failures so that the admin can easily identify them?
+
+Admin users can access the Indexing Queries Liveboard by searching the Liveboards tab, and use the results to improve indexing queries performance. For more information, see
+ifndef::pendo-links[]
+xref:indexing-queries-liveboard.adoc[Indexing Queries Liveboard].
+endif::[]
+ifdef::pendo-links[]
+xref:indexing-queries-liveboard.adoc[Indexing Queries Liveboard,window=_blank].
+endif::[]
+
+image::liveboard-indexing-queries.png[Indexing queries Liveboard]
+endif::free-trial-feature[]
 
 [#9-4-0-cl-connections]
 [discrete]
