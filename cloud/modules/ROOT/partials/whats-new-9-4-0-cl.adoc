@@ -151,6 +151,8 @@ ifdef::pendo-links[]
 xref:chart-geo.adoc#enhancement[Geo chart enhancements,window=_blank].
 endif::[]
 
+image::geo-multiple.png[Subdivisions in multiple countries]
+
 ifndef::pendo-links[]
 [#9-4-0-cl-date-picker]
 [discrete]
