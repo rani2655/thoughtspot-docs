@@ -12,11 +12,19 @@ endif::free-trial-feature[]
 
 [#primary-9-4-0-cl]
 
-[#9-4-0-cl-eureka]
+ifndef::pendo-links[]
+[#9-3-0-cl-sage]
 [discrete]
-== ThoughtSpot Sage
+=== ThoughtSpot Sage [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-3-0-cl-sage]
+[discrete]
+=== ThoughtSpot Sage
+=== ThoughtSpot Sage [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
 
-=== Natural language search improvements
+==== Natural language search improvements
 
 // Naomi. Release notes only?? screenshot pointing out the changes. Move to the top. Rename: natural language search. Check if early access or GA (sage features). Clarify the "interactive" point, what can you do now.
 
