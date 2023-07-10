@@ -37,9 +37,10 @@ To create a custom role in {connection}, do the following:
  ** bigquery.tables.getData
  ** bigquery.tables.list
  ** resourcemanager.projects.get
-
 +
 image::gbq-role-permissions.png[Select only the permissions specified]
++
+image::gbq-role-permissions-2.png[Permissions 11 and 12]
 . Select *ADD*.
 . Select *CREATE*.
 
