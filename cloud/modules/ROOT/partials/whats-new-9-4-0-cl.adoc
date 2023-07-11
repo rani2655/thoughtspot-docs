@@ -12,6 +12,7 @@ endif::free-trial-feature[]
 
 [#primary-9-4-0-cl]
 
+ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-3-0-cl-sage]
 [discrete]
@@ -44,6 +45,8 @@ endif::[]
 ifdef::pendo-links[]
 see xref:search-sage.adoc[ThoughtSpot Sage,window=_blank].
 endif::[]
+
+endif::free-trial-feature[]
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
