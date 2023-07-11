@@ -64,6 +64,8 @@ To select other columns to analyze, click *Manage attributes* in the lower left 
 NOTE: Each colored section of a SpotIQ insight represents a statistically significant outlier among the values of your chosen columns.
 
 . You can now examine each visualization of the analysis for details of comparison.
++
+NOTE: In some instances, ThoughtSpot may point out that certain attribute values account for more than 100% of the total change. This is generally for cases where attribute values contribute to a trend that is opposite to the total change (positive change when the overall trend is negative, for example). You may see cases, for example, where two attribute values account for a 300% increase in sales, while the remaining attribute values indicated account for 200% of the total decrease.
 
 . You can add the specific visualization to an existing Liveboard, or create a new Liveboard and add it there.
 
