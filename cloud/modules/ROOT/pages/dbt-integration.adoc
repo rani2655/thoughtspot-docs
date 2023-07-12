@@ -128,6 +128,14 @@ Unable to connect to dbt project. Please verify API key and retry
 +
 image::dbt-error-message.png[Error message saying "Unable to connect to dbt project. Please verify API key and retry"]
 
+. If you receive the following error, you may need to switch to an older version of dbt. ThoughtSpot supports dbt for versions 1.4 and earlier. Navigate to dbt and go to *Deploy > Environments > Environment_Name > Settings*. Click the dbt Version menu and scroll down to select 1.4.
++
+----
+Unable to fetch dbt models
+----
++
+image::dbt-error.png[Error message saying "Unable to fetch dbt models"]
+
 . On the next screen, select up to 4 dbt folders to import. ThoughtSpot lists the model names, paths, and the number of tables they have.
 +
 To increase the maximum number of dbt folders you can import at a time, contact {support-url}.
