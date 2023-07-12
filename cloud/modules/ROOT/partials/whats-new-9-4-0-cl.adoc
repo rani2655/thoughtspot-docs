@@ -308,6 +308,7 @@ image::downsize.gif[Liveboard resize]
 
 We now display Liveboard tabs in the ThoughtSpot Mobile app. To create a Liveboard tab, you must access ThoughtSpot in a browser.
 
+ifndef::free-trial-feature[]
 [#9-4-0-cl-data-fluency]
 [discrete]
 === Admin controls for new data panel experience
@@ -317,6 +318,7 @@ We now display Liveboard tabs in the ThoughtSpot Mobile app. To create a Liveboa
 ThoughtSpot admins now have more control for enabling the new data panel experience for users. As before, an admin can enable the new data panel experience by going to *Admin* > *Early Access features*, and enabling *Data Fluency*. Each user can selectively enable the new data panel experience by going to their user profile, and setting the *Answer data experience* to *New experience*. In this release, admins can now make the new answer data panel experience default for all users of a cluster, by going to *Admin* > *Search & SpotIQ* and setting the *Make new answer data panel experience default* to *Enabled*
 
 image::dp-experience.png[data panel experience]
+endif::[]
 
 ifndef::free-trial-feature[]
 [#9-4-0-cl-indexing-queries]
