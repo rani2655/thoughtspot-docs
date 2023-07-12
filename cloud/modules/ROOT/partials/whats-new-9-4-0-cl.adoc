@@ -271,13 +271,7 @@ image::keep-exploring.png[Keep exploring button]
 
 // Mark
 
-[#9-4-0-cl-formula]
-[discrete]
-=== Worksheet formula indexing
 
-// Mark -- move to other features and enhancements.
-
-In this release, worksheet formulas can now be indexed by setting *Suggest values in search* to *Yes* for the formula.
 
 
 
@@ -308,6 +302,14 @@ image::downsize.gif[Liveboard resize]
 
 We now display Liveboard tabs in the ThoughtSpot Mobile app. To create a Liveboard tab, you must access ThoughtSpot in a browser.
 
+[#9-4-0-cl-formula]
+[discrete]
+=== Worksheet formula indexing
+
+// Mark -- move to other features and enhancements.
+
+In this release, worksheet formulas can now be indexed by setting *Suggest values in search* to *Yes* for the formula.
+
 ifndef::free-trial-feature[]
 [#9-4-0-cl-data-fluency]
 [discrete]
@@ -315,7 +317,7 @@ ifndef::free-trial-feature[]
 
 // Mark -- move to other features and enhancements. add image of admin panel. may not need to call out data fluency
 
-ThoughtSpot admins now have more control for enabling the new data panel experience for users. As before, an admin can enable the new data panel experience by going to *Admin* > *Early Access features*, and enabling *Data Fluency*. Each user can selectively enable the new data panel experience by going to their user profile, and setting the *Answer data experience* to *New experience*. In this release, admins can now make the new answer data panel experience default for all users of a cluster, by going to *Admin* > *Search & SpotIQ* and setting the *Make new answer data panel experience default* to *Enabled*
+ThoughtSpot admins now have more control for enabling the new data panel experience for users. As before, an admin can enable the new data panel experience by going to *Admin* > *Early Access features*, and enabling *Data Fluency*. Each user can selectively enable the new data panel experience by going to their user profile, and setting the *Answer data experience* to *New experience*. In this release, admins can now make the new answer data panel experience default for all users of a cluster, by going to *Admin* > *Search & SpotIQ* and setting the *Make new answer data panel experience default* to *Enabled*.
 
 image::dp-experience.png[data panel experience]
 endif::[]
