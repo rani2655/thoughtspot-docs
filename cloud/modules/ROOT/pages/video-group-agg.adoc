@@ -1,11 +1,5 @@
 = VIDEO: Aggregate formulas
-:page-layout: snippet
-:pendo-links:
-:page-noindex:
-
-+++<script src="https://fast.wistia.com/embed/medias/7evrnbtxy8.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_7evrnbtxy8 popover=true popoverAnimateThumbnail=true popoverBorderColor=4E55FD popoverBorderWidth=2" style="display:inline-block;height:252px;position:relative;width:450px">&nbsp;</span>+++
-
-== test 2
+:page-layout: default-cloud
 
 +++<script src="https://fast.wistia.com/embed/medias/7evrnbtxy8.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><span class="wistia_embed wistia_async_7evrnbtxy8 popover=true videoFoam=true" style="display:inline-block;height:100%;position:relative;width:100%">&nbsp;</span></div></div>+++
 
