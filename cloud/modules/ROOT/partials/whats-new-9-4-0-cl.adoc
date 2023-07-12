@@ -244,16 +244,8 @@ image::keep-exploring.png[Keep exploring button]
 
 // Mark
 
-////
-[#9-4-0-cl-connections]
-[discrete]
-=== Connection error messaging improvements
 
-// Naomi
 
-// scal-138770
-
-////
 
 
 
@@ -309,6 +301,18 @@ We now display Liveboard tabs in the ThoughtSpot Mobile app. To create a Liveboa
 // Mark -- move to other features and enhancements.
 
 In this release, worksheet formulas can now be indexed by setting *Suggest values in search* to *Yes* for the formula.
+
+[#9-4-0-cl-connections]
+[discrete]
+=== Connection error messaging improvements
+
+// Naomi
+
+// scal-138770
+
+If you run into an error while creating a connection, you can now click *View details* to see error details and add a comment for your administrator.
+
+image::connection-error-detail.png[A view details pop-up window showing error details, additional details, and a box to write a comment to your administrator]
 
 ifndef::free-trial-feature[]
 [#9-4-0-cl-data-fluency]
