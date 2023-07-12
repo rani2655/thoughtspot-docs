@@ -92,6 +92,8 @@ Connections:: You can now create connections from ThoughtSpot to the following c
 * xref:connections-amazon-rds-mysql.adoc[Amazon RDS for MySQL]
 * xref:connections-amazon-rds-postgresql.adoc[Amazon RDS for PostgreSQL]
 
+Connection error messaging improvements:: If you run into an error while creating a connection, you can now click *View details* to see error details and add a comment for your administrator.
+
 
 
 [#9-4-0-cl-it-ops-engineer]
