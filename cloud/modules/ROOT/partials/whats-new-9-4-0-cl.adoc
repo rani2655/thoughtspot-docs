@@ -90,6 +90,8 @@ ifdef::pendo-links[]
 xref:web-notifications.adoc[Web notifications,window=_blank].
 endif::[]
 
+image::web-notification.png[User preferences to turn on web notifications]
+
 [#9-4-0-cl-contextual]
 [discrete]
 === Contextual change analysis
@@ -230,13 +232,7 @@ When new users receive a Share link and view the shared object in ThoughtSpot, t
 
 image::keep-exploring.png[Keep exploring button]
 
-////
-[#9-4-0-cl-snowflake-spotapp]
-[discrete]
-=== Snowflake Query Profile SpotApp
 
-// Naomi
-////
 
 // [#9-4-0-cl-rbac]
 // [discrete]
@@ -340,6 +336,22 @@ endif::[]
 
 image::liveboard-indexing-queries.png[Indexing queries Liveboard]
 endif::free-trial-feature[]
+
+[#9-4-0-cl-snowflake-spotapp]
+[discrete]
+=== Snowflake Query Profile SpotApp
+
+// Naomi
+
+The Snowflake Query Profile SpotApp is now available. Use this SpotApp to analyze Snowflake query data to understand execution time better and pinpoint key areas for query optimization. For more information, see
+ifndef::pendo-links[]
+xref:spotapps-snowflake-query.adoc[Snowflake Query Profile SpotApp].
+endif::[]
+ifdef::pendo-links[]
+xref:spotapps-snowflake-query.adoc[Snowflake Query Profile SpotApp,window=_blank].
+endif::[]
+
+image::spotapp-snowflake-query.png[Snowflake Query Profile SpotApp Liveboard]
 
 [#9-4-0-cl-connections]
 [discrete]
