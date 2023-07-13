@@ -56,6 +56,8 @@ endif::[]
 // Naomi
 
 
+You can create webhooks to initiate workflows in third-party applications based on KPI changes, or send KPI alert notifications to custom channels. For example, if you are monitoring a "current inventory" KPI for an inventory management use case, you can build a workflow to trigger an order placement in a third-party app when your current inventory drops below a particular threshold value.
+
 
 [#9-5-0-cl-auto-chart]
 [discrete]
@@ -73,6 +75,10 @@ NEEDS EVALUATION
 === Date picker GA
 
 // Naomi-- scal-140672
+
+Date picker is now GA and on by default. We added support for rolling, fixed, and custom date filters when creating an Answer or filtering a Liveboard. Previously, when adding a date filter to a Search, ThoughtSpot supported the conditions `ON (=)`, `ON OR AFTER (>=)`, `BEFORE (<)`, and `BETWEEN`. Now, you can additionally filter for `ON OR BEFORE (\<=)`, `NOT BETWEEN`, `ON LAST`, and `ON NEXT`. To try it out, click the filter icon next to the Date column in the left side menu, or click the date filter below the Answer or Liveboard title.
+
+image:date-picker.png[Date picker for Answers]
 
 [#9-5-0-cl-date]
 [discrete]
@@ -143,6 +149,8 @@ endif::[]
 
 // Naomi
 
+You can now see notifications for threshold and anomaly alerts in the ThoughtSpot notification service, rather than receiving emails.
+
 [#9-5-0-cl-mobile-session]
 [discrete]
 === Support longer sessions for mobile app on TS Cloud
@@ -160,6 +168,8 @@ endif::[]
 === MagicLink - Get server URL link on email to log in to mobile app
 
 // Naomi
+
+We simplified the log in process for the ThoughtSpot mobile app. You can now enter your company email to receive an email with a magic link login, rather than entering the server URL.
 
 [#9-5-0-cl-kpi]
 [discrete]
@@ -245,6 +255,8 @@ ifdef::pendo-links[]
 endif::[]
 
 // Naomi
+
+You can now create connections from ThoughtSpot to SingleStore.
 
 [#9-5-0-cl-redshift]
 [discrete]
