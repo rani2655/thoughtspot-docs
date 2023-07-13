@@ -134,3 +134,5 @@ For more information on the **Monitor** feature, see xref:monitor.adoc[Monitor K
 
 == Limitations
 You can't create a KPI chart with a xref:formulas-aggregation-group.adoc[group aggregation function].
+
+You can't create a KPI chart from a search that includes the keywords "growth" or "versus".
