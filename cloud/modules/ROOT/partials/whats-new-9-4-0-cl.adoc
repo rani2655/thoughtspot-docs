@@ -90,7 +90,7 @@ ifdef::pendo-links[]
 xref:web-notifications.adoc[Web notifications,window=_blank].
 endif::[]
 
-image::web-notification.png[User preferences to turn on web notifications]
+image::notification-center.png[Notifications appear when you click the user profile icon]
 
 [#9-4-0-cl-contextual]
 [discrete]
