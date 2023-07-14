@@ -92,12 +92,18 @@ INEFFICIENT_PRUNING_FLAG     VARCHAR(16777216),
 ELAPSED_SECONDS     NUMBER(38,6),
 CLUSTERING_KEY     VARCHAR(16777216));
 ----
+--
+====
 
 . The below task captures the id of each query which ran for more than 2 minutes and scanned more than 1 MB of data in the last 14 days. The task is scheduled to run every 60 minutes.
 +
 [#step-2]
 NOTE: Query Operator stats are available for all queries that were run in the last 14 days.
 +
+[%collapsible]
+.Open the dropdown menu to view the task.
+====
+--
 [source,bash]
 ----
 create or replace task query_session_task
