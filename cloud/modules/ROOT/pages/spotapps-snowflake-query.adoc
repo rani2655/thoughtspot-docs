@@ -42,6 +42,10 @@ NOTE: Please replace <database_name>.<schema_name> with the database and schema 
 
 . Create or replace table <database_name>.<schema_name>.query_operator_stats_cache.
 +
+[%collapsible]
+.Open the dropdown menu to view the schema.
+====
+--
 [source,bash]
 ----
 (
@@ -88,12 +92,18 @@ INEFFICIENT_PRUNING_FLAG     VARCHAR(16777216),
 ELAPSED_SECONDS     NUMBER(38,6),
 CLUSTERING_KEY     VARCHAR(16777216));
 ----
+--
+====
 
 . The below task captures the id of each query which ran for more than 2 minutes and scanned more than 1 MB of data in the last 14 days. The task is scheduled to run every 60 minutes.
 +
 [#step-2]
 NOTE: Query Operator stats are available for all queries that were run in the last 14 days.
 +
+[%collapsible]
+.Open the dropdown menu to view the task.
+====
+--
 [source,bash]
 ----
 create or replace task query_session_task
@@ -114,9 +124,15 @@ create or replace task query_session_task
             AND warehouse_name IS NOT NULL
             order by start_time desc;
 ----
+--
+====
 
 . The below task captures the query operator stats for the query id's collected from <<step-2,the above step>>. The task is scheduled to run every 65 minutes.
 +
+[%collapsible]
+.Open the dropdown menu to view the task.
+====
+--
 [source,bash]
 ----
 CREATE or replace TASK query_stats_task
@@ -236,6 +252,8 @@ CREATE or replace TASK query_stats_task
   end
   $$;
 ----
+--
+====
 
 . Execute or resume the tasks created above to start immediately.
 
