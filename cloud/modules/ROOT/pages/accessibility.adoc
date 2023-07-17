@@ -12,8 +12,7 @@ This report covers the degree of conformance to the WCAG 2.1 accessibility stand
 
 https://media.thoughtspot.com/pdf/ThoughtSpot-Accessibility-Conformance-Report-WCAG-Edition.pdf[ThoughtSpot Accessibility Conformance Report]
 
-// == New Heading Test
-// This is a test
+
 
 
 
