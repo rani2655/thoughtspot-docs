@@ -65,6 +65,8 @@ You can create webhooks to initiate workflows in third-party applications based 
 
 // Naomi
 
+We are deprecating the *Automatically select my chart* toggle at the bottom of the chart type selection panel. Once you select a chart type, ThoughtSpot retains the chart type as you make changes to the search query. For cases where the search query can no longer render as the same chart type (due to the removal of necessary attributes or measures), ThoughtSpot automatically selects a chart type that can render based on the query.
+
 [#9-5-0-cl-locale]
 [discrete]
 === English (Germany) locale
