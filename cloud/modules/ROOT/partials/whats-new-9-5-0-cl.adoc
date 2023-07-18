@@ -65,7 +65,11 @@ You can create webhooks to initiate workflows in third-party applications based 
 
 // Naomi
 
+[#9-5-0-cl-locale]
+[discrete]
+=== English (Germany) locale
 
+Set your ThoughtSpot locale to English (Germany). ThoughtSpot changes your data format settings, such as currency and number formatting, and translates keywords, ThoughtSpot menu and navigation items, operators, and error messages. For the English (Germany) locale, dates are shown in day.month.year format (for example, 15.06.2023), and numbers use a period for the thousands separator and a comma for the decimal separator (for example, 1.095,25). To try it out, navigate to your profile, and edit your system language.
 
 
 NEEDS EVALUATION
