@@ -48,6 +48,26 @@ endif::[]
 
 endif::free-trial-feature[]
 
+[#9-4-0-cl-contextual]
+[discrete]
+=== Contextual change analysis
+
+// Naomi-- add image. clarify if it needs to be enabled by admin or if it's fully GA.
+
+// GA in 9.4.0.cl
+
+Contextual change analysis is now GA and on by default. You can now identify the key change drivers for changes in your metrics in a KPI chart. Select the percent change label or select any two data points on the KPI sparkline to view change analysis on your top 5 columns by usage-based ranking (UBR) and identify the reason behind the observed change. You can view the changes in other columns by clicking *Customize attributes* and selecting the desired column(s).
+
+For more information, see
+ifndef::pendo-links[]
+xref:spotiq-change.adoc#change-analysis-contextual[Contextual change analysis].
+endif::[]
+ifdef::pendo-links[]
+xref:spotiq-change.adoc#change-analysis-contextual[Contextual change analysis,window=_blank].
+endif::[]
+
+image:contextual-change.png[Contextual change analysis window]
+
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-4-0-cl-cohorts]
@@ -92,25 +112,7 @@ endif::[]
 
 image::notification-center.png[Notifications appear when you click the user profile icon]
 
-[#9-4-0-cl-contextual]
-[discrete]
-=== Contextual change analysis
 
-// Naomi-- add image. clarify if it needs to be enabled by admin or if it's fully GA.
-
-// GA in 9.4.0.cl
-
-Contextual change is now GA and on by default. You can now identify the key change drivers for changes in your metrics in a KPI chart. Select the percent change label or select any two data points on the KPI sparkline to view change analysis on your top 5 columns by usage-based ranking (UBR) and identify the reason behind the observed change. You can view the changes in other columns by clicking *Manage attributes* and selecting the desired column(s).
-
-For more information, see
-ifndef::pendo-links[]
-xref:spotiq-change.adoc#change-analysis-contextual[Contextual change analysis].
-endif::[]
-ifdef::pendo-links[]
-xref:spotiq-change.adoc#change-analysis-contextual[Contextual change analysis,window=_blank].
-endif::[]
-
-image:contextual-change.png[Contextual change analysis window]
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
