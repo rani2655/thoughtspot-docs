@@ -42,6 +42,16 @@ endif::[]
 
 // Naomi
 
+We made the following enhancements to pivot table charts:
+
+- When you download an xlsx version of a pivot table, the measure values are displayed as numbers instead of the general format.
+- When you download an xlsx version of a pivot table, row and column labels are shown as separate cells rather than as a column-separated list.
+- You can now choose to show or hide row and column summaries and subtotals, from the chart configuration menu. When summaries and subtotals are enabled, you can choose to display them at the top or bottom of the pivot table.
+- You can no longer add conditional formatting to a pivot table in heatmap mode.
+- Naming of subtotals and grand totals are now consistent in the chart and chart configuration dropdown.
+- We now support hyperlinks in pivot tables.
+
+
 ifndef::pendo-links[]
 [#9-5-0-cl-webhooks]
 [discrete]
@@ -65,10 +75,7 @@ You can create webhooks to initiate workflows in third-party applications based 
 
 // Naomi
 
-
-
-
-NEEDS EVALUATION
+We are deprecating the *Automatically select my chart* toggle at the bottom of the chart type selection panel. Once you select a chart type, ThoughtSpot retains the chart type as you make changes to the search query. For cases where the search query can no longer render as the same chart type (due to the removal of necessary attributes or measures), ThoughtSpot automatically selects a chart type that can render based on the query.
 
 [#9-5-0-cl-date-picker]
 [discrete]
@@ -80,11 +87,18 @@ Date picker is now GA and on by default. We added support for rolling, fixed, an
 
 image:date-picker.png[Date picker for Answers]
 
-[#9-5-0-cl-date]
-[discrete]
-=== Date picker GA
 
-// Naomi-- scal-150727
+
+[#9-5-0-cl-locale]
+[discrete]
+=== English (Germany) locale
+
+Set your ThoughtSpot locale to English (Germany). ThoughtSpot changes your data format settings, such as currency and number formatting, and translates keywords, ThoughtSpot menu and navigation items, operators, and error messages. For the English (Germany) locale, dates are shown in day.month.year format (for example, 15.06.2023), and numbers use a period for the thousands separator and a comma for the decimal separator (for example, 1.095,25). To try it out, navigate to your profile, and edit your system language.
+
+NEEDS EVALUATION
+
+
+
 
 
 [#9-5-0-cl-rbac]
@@ -183,11 +197,7 @@ We simplified the log in process for the ThoughtSpot mobile app. You can now ent
 
 // Naomi
 
-[#9-5-0-cl-gcp]
-[discrete]
-=== [North Star] Eureka on GCP - Phase 2
 
-// Naomi
 
 [#9-5-0-cl-billing]
 [discrete]
