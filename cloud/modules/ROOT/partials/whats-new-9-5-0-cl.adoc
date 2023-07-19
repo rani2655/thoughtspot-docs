@@ -42,6 +42,15 @@ endif::[]
 
 // Naomi
 
+We made the following enhancements to pivot table charts:
+
+- When you download an xlsx version of a pivot table, the measure values are displayed as numbers instead of the general format.
+- When you download an xlsx version of a pivot table, row and column labels are shown as separate cells rather than as a column-separated list.
+- You can now choose to show or hide row and column summaries and subtotals, from the chart configuration menu. When summaries and subtotals are enabled, you can choose to display them at the top or bottom of the pivot table.
+- You can no longer add conditional formatting to a pivot table in heatmap mode.
+- Naming of subtotals and grand totals are now consistent in the chart and chart configuration dropdown.
+- We now support hyperlinks in pivot tables.
+
 ifndef::pendo-links[]
 [#9-5-0-cl-webhooks]
 [discrete]
@@ -266,9 +275,11 @@ You can now create connections from ThoughtSpot to SingleStore.
 
 [#9-5-0-cl-redshift]
 [discrete]
-=== Redshift OAuth with Azure AD IDP
+=== Azure AD external OAuth for Redshift
 
 // Naomi
+
+Redshift now supports external OAuth through Microsoft Azure AD.
 
 NEEDS EVALUATION
 
@@ -294,7 +305,7 @@ NEEDS EVALUATION
 [discrete]
 === Embrace v2 phase 1 - Connection Wizard
 
-// Naomi
+// Naomi-- moved to 9.6.0.cl
 
 [#9-5-0-cl-filter]
 [discrete]
