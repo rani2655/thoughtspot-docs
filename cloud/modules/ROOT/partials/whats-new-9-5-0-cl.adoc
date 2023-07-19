@@ -264,6 +264,8 @@ You can now create connections from ThoughtSpot to SingleStore.
 
 // Naomi
 
+Redshift now supports external OAuth through Microsoft Azure AD. See xref:connections-redshift-azure-ad-oauth.adoc[Configure Azure AD external OAuth for a Redshift connection].
+
 NEEDS EVALUATION
 
 [#9-5-0-cl-spotapp]
