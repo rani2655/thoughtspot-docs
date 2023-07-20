@@ -152,7 +152,7 @@ You can now create connections from ThoughtSpot to MySQL. For details, see
 xref:connections-mysql.adoc[MySQL].
 
 Specify default connection for CSV uploads:: Previously, when multiple database connections were configured to receive CSV uploads without a specified table or worksheet for collocation, the files were randomly uploaded to one of the connections. With this new enhancement, administrators and data managers now have the ability to specify a default target connection for such uploads. +
-To set the default target connection, navigate to *Data > Connections* and use the new CSV Upload Default toggle. By specifying a default connection, you ensure that CSV files without a designated destination will be uploaded to the chosen connection.
+To set the default target connection, navigate to *Data > Connections*, click the *More* menu icon image:icon-more-10px.png[menu icon], select *Configure data upload*, and click the *Enable data upload* toggle to on. Next, select the *Set as default CSV upload destination* toggle. By specifying a default connection, you ensure that CSV files without a designated destination will be uploaded to the chosen connection.
 This enhancement provides better control and organization of CSV uploads, making it easier to manage data in scenarios where end-users do not select a co-location for their uploaded files.
 
 In-app billing reporting:: Admin users will be able to access a Liveboard reflecting the pricing model purchased and associated with their cluster. Query-based pricing customers see the xref:query-stats.adoc[Billable Query Stats Liveboard], while time-based pricing customers see the xref:consumption-pricing-time-based.adoc#credit-usage-pinboard[Credit Usage Liveboard].
