@@ -3,6 +3,7 @@
 :author: Naomi
 :linkattrs:
 :experimental:
+:page-layout: default-cloud
 :description: We introduced a Liveboard to help admin users improve query performance.
 
 Use the Indexing Queries Liveboard to understand and improve indexing query performance.
@@ -31,4 +32,3 @@ NOTE: Users can filter by connections and tables, and aggregate over the last `n
 * Success rate over time
 * Connections with failing queries
 * Columns with highest query latency
-
