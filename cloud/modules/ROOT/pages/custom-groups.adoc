@@ -11,7 +11,7 @@ NOTE: Custom groups are in beta and off by default. The beta version of custom g
 
 To create a custom group, first define the business question you wish to answer. For example, you may have a data set containing the complete list of products available from a certain chain of stores. You may want to find out which products are most popular, and define them by sales volume as “gold”, “silver”, or “bronze” level products. To create a column showcasing this defined list of values, follow these steps:
 
-. Navigate to the *Search Data* page by clicking on the *Search data* button in the top navigation bar.
+. Navigate to the *Search Data* page by clicking the *Search data* button in the top navigation bar.
 
 . Ensure you are searching on the correct Worksheet, and select the *Product* column from the left side bar, or type the word into the Search bar. To see the quantity purchased by product, select *Quantity purchased* and click the *Go* button or press *Enter*.
 
