@@ -125,17 +125,17 @@ NEEDS EVALUATION
 
 // Naomi
 
+When you create bar and column charts and slice by color, ThoughtSpot automatically enables gridlines to make the chart easier to read. We now display lines on the axis to represent very small values and zero values.
+
 [#9-5-0-cl-parameters]
 [discrete]
 === Editing in-use parameters
 
 // Naomi
 
-[#9-5-0-cl-joins]
-[discrete]
-=== Support Worksheet-level joins [Alpha]
+When using a parameter in a Search, you can now change the allowed values type (for example, from *List* to *Range*). You can also add or delete values from a list parameter while it's in use.
 
-// Naomi
+
 
 
 [#9-5-0-cl-filters]
@@ -179,11 +179,11 @@ You can now see notifications for threshold and anomaly alerts in the ThoughtSpo
 
 [#9-5-0-cl-magiclink]
 [discrete]
-=== MagicLink - Get server URL link on email to log in to mobile app
+=== Mobile login through Magic Link
 
 // Naomi
 
-We simplified the log in process for the ThoughtSpot mobile app. You can now enter your company email to receive an email with a magic link login, rather than entering the server URL.
+We simplified the log in process for the ThoughtSpot mobile app. You can now enter your company email to receive an email with a Magic Link login, rather than entering the server URL.
 
 [#9-5-0-cl-kpi]
 [discrete]
@@ -191,11 +191,7 @@ We simplified the log in process for the ThoughtSpot mobile app. You can now ent
 
 // Naomi
 
-[#9-5-0-cl-watchlist]
-[discrete]
-=== Include popular KPIs to default home page watchlist
 
-// Naomi
 
 
 
@@ -296,11 +292,7 @@ NEEDS EVALUATION
 
 // Mark
 
-[#9-5-0-cl-wizard]
-[discrete]
-=== Embrace v2 phase 1 - Connection Wizard
 
-// Naomi
 
 [#9-5-0-cl-filter]
 [discrete]
@@ -370,11 +362,7 @@ endif::[]
 
 // Mark
 
-[#9-5-0-cl-partner]
-[discrete]
-=== Create user for partner connect - org 1.5
 
-// Naomi
 
 [#9-5-0-cl-hadoop]
 [discrete]
