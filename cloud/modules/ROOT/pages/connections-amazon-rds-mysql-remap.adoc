@@ -6,7 +6,7 @@
 :page-aliases:
 :experimental:
 :connection: Amazon RDS MySQL
-:description: Learn how to remap a Amazon RDS MySQL connection.
+:description: Learn how to remap an Amazon RDS MySQL connection.
 
 Modify the connection parameters by editing the source mapping `yaml` file that was created when you added the connection.
 For example, you can remap the existing table or column to a different table or column in an existing database connection.
@@ -27,7 +27,7 @@ To remap an {connection} connection:
 . On the Remapping page, select *Browse your files*, and upload your edited mapping file to update the mapping of your connection.
 
 To remove a table from a connection, delete it from the connection details page.
-For more information, see: xref:connections-amazon-rds-mysql-delete.adoc[Delete a {connection} connection].
+For more information, see: xref:connections-amazon-rds-mysql-delete.adoc[Delete an {connection} connection].
 
 See the xref:connections-amazon-rds-mysql-reference.adoc[Connection reference] for details of connection parameters.
 
