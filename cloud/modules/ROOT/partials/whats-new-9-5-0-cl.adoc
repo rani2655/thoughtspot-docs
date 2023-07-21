@@ -263,6 +263,14 @@ endif::[]
 // Naomi
 
 You can now create connections from ThoughtSpot to SingleStore.
+For more information, see
+ifndef::pendo-links[]
+xref:connections-singlestore.adoc[Connect to SingleStore].
+endif::[]
+ifdef::pendo-links[]
+xref:connections-singlestore.adoc[Connect to SingleStore,window=_blank].
+endif::[]
+
 
 [#9-5-0-cl-redshift]
 [discrete]

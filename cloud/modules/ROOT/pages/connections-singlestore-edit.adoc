@@ -1,13 +1,13 @@
-= Edit an {connection} connection
+= Edit a {connection} connection
 :last_updated: 4/19/2023
 :linkattrs:
 :experimental:
-:page-layout: default-cloud
+:page-layout: default-cloud-early-access
 :page-aliases:
-:description: You can edit an Amazon RDS MySQL connection to add tables and columns.
-:connection: Amazon RDS MySQL
+:description: You can edit a SingleStore connection to add tables and columns.
+:connection: SingleStore
 
-To edit an {connection} connection:
+To edit a {connection} connection:
 
 . Select *Data* in the top navigation bar.
 . Open the *Connections* tab in the left navigation bar.
@@ -27,17 +27,17 @@ image::teradata-edittables.png[Select tables and columns]
 . Click *Update*, and then select *Confirm* to save the updated connection detail.
 
 To remove a table from a connection, delete it from the connection details page.
-For more information, see: xref:connections-amazon-rds-mysql-delete.adoc[Delete an {connection} connection].
+For more information, see: xref:connections-singlestore-delete.adoc[Delete a {connection} connection].
 
-See the xref:connections-amazon-rds-mysql-reference.adoc[Connection reference] for details of connection parameters.
+See the xref:connections-singlestore-reference.adoc[Connection reference] for details of connection parameters.
 
 '''
 > **Related information**
 >
-> * xref:connections-amazon-rds-mysql-add.adoc[Add an {connection} connection]
-> * xref:connections-amazon-rds-mysql-remap.adoc[Remap an {connection} connection]
-> * xref:connections-amazon-rds-mysql-delete-table.adoc[Delete a table from an {connection} connection]
-> * xref:connections-amazon-rds-mysql-delete-table-dependencies.adoc[Delete a table with dependent objects]
-> * xref:connections-amazon-rds-mysql-delete.adoc[Delete an {connection} connection]
-> * xref:connections-amazon-rds-mysql-reference.adoc[Connection reference for {connection}]
-> * xref:connections-amazon-rds-mysql-passthrough.adoc[]
+> * xref:connections-singlestore-add.adoc[Add a {connection} connection]
+> * xref:connections-singlestore-remap.adoc[Remap a {connection} connection]
+> * xref:connections-singlestore-delete-table.adoc[Delete a table from a {connection} connection]
+> * xref:connections-singlestore-delete-table-dependencies.adoc[Delete a table with dependent objects]
+> * xref:connections-singlestore-delete.adoc[Delete a {connection} connection]
+> * xref:connections-singlestore-reference.adoc[Connection reference for {connection}]
+> * xref:connections-singlestore-passthrough.adoc[]

@@ -216,6 +216,18 @@ The following list provides information about connecting to your data in support
 * xref:connections-hana-passthrough.adoc[Passthrough functions]
 * xref:connections-hana-reference.adoc[Connection reference]
 
+== image:logo-singlestore.png[SingleStore icon]
+
+* xref:connections-singlestore.adoc[Overview]
+* xref:connections-singlestore-add.adoc[Add connection]
+* xref:connections-singlestore-edit.adoc[Edit connection]
+* xref:connections-singlestore-remap.adoc[Remap connection]
+* xref:connections-singlestore-delete-table.adoc[Delete a table]
+* xref:connections-singlestore-delete-table-dependencies.adoc[Delete a table with object dependencies]
+* xref:connections-singlestore-delete.adoc[Delete connection]
+* xref:connections-singlestore-passthrough.adoc[Passthrough functions]
+* xref:connections-singlestore-reference.adoc[Connection reference]
+
 == image:snowflake-icon-sm.svg[Snowflake icon] Snowflake
 
 * xref:connections-snowflake.adoc[Overview]
