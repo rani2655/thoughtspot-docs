@@ -139,8 +139,8 @@ endif::[]
 
 // Naomi
 
-You can now import metadata information related to your tables and columns from Alation into ThoughtSpot. From the *Data* tab, you can set up a connection to Alation to import
-column descriptions, column verification status, table descriptions, and table verification status. This information appears when you click on the corresponding table or column under *Search data*.
+You can now import metadata information related to your tables and columns from Alation into ThoughtSpot. From the *Data* tab, if you have the *can manage catalog* privilege, you can set up a connection to Alation to import
+column descriptions, column verification status, table descriptions, and table verification status. This information appears when you click on the corresponding table or column under *Search data*. Once connected, metadata information is visible to all users.
 
 [#9-5-0-cl-coms]
 [discrete]
