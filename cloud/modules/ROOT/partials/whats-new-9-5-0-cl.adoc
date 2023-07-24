@@ -32,11 +32,11 @@ endif::[]
 
 [#9-5-0-cl-expressibility]
 [discrete]
-=== Natural language search: "vs", "growth", "ratio", and "%"
+=== Natural language search: "vs", "growth of", and "trend"
 
 // Naomi
 
-We have improved the behavior of queries containing the keywords "vs", "growth of", "ratio", and "percentage" in natural language search.
+We have improved the behavior of queries containing the keywords "vs", "growth of", and "trend" in natural language search.
 
 [#9-5-0-cl-pivot]
 [discrete]
