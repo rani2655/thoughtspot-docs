@@ -187,11 +187,7 @@ We simplified the log in process for the ThoughtSpot mobile app. You can now ent
 
 
 
-[#9-5-0-cl-billing]
-[discrete]
-=== In-app billing for GCP SaaS v2
 
-// Naomi
 
 [#9-5-0-cl-data-panel]
 [discrete]
