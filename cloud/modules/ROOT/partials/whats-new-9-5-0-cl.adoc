@@ -32,9 +32,11 @@ endif::[]
 
 [#9-5-0-cl-expressibility]
 [discrete]
-=== Expressibility: Support "vs", "growth", "ratio", and "%"
+=== Natural language search: "vs", "growth", "ratio", and "%"
 
 // Naomi
+
+We have improved the behavior of queries containing the keywords "vs", "growth of", "ratio", and "percentage" in natural language search.
 
 [#9-5-0-cl-pivot]
 [discrete]
@@ -46,10 +48,12 @@ We made the following enhancements to pivot table charts:
 
 - When you download an xlsx version of a pivot table, the measure values are displayed as numbers instead of the general format.
 - When you download an xlsx version of a pivot table, row and column labels are shown as separate cells rather than as a column-separated list.
-- You can now choose to show or hide row and column summaries and subtotals, from the chart configuration menu. When summaries and subtotals are enabled, you can choose to display them at the top or bottom of the pivot table.
 - You can no longer add conditional formatting to a pivot table in heatmap mode.
 - Naming of subtotals and grand totals are now consistent in the chart and chart configuration dropdown.
 - We now support hyperlinks in pivot tables.
+- You can now choose to show or hide row and column summaries and subtotals, from the chart configuration menu. When summaries and subtotals are enabled, you can choose to display them at the top or bottom of the pivot table.
++
+image::pivot-table-summary.png[An image showing a pivot table with summaries for each row and column]
 
 ifndef::pendo-links[]
 [#9-5-0-cl-webhooks]
@@ -65,25 +69,7 @@ endif::[]
 // Naomi
 
 
-You can create webhooks to initiate workflows in third-party applications based on KPI changes, or send KPI alert notifications to custom channels. For example, if you are monitoring a "current inventory" KPI for an inventory management use case, you can build a workflow to trigger an order placement in a third-party app when your current inventory drops below a particular threshold value.
-
-
-[#9-5-0-cl-auto-chart]
-[discrete]
-=== Deprecate automatically selected chart
-
-// Naomi
-
-We are deprecating the *Automatically select my chart* toggle at the bottom of the chart type selection panel. Once you select a chart type, ThoughtSpot retains the chart type as you make changes to the search query. For cases where the search query can no longer render as the same chart type (due to the removal of necessary attributes or measures), ThoughtSpot automatically selects a chart type that can render based on the query.
-
-[#9-5-0-cl-locale]
-[discrete]
-=== English (Germany) locale
-
-Set your ThoughtSpot locale to English (Germany). ThoughtSpot changes your data format settings, such as currency and number formatting, and translates keywords, ThoughtSpot menu and navigation items, operators, and error messages. For the English (Germany) locale, dates are shown in day.month.year format (for example, 15.06.2023), and numbers use a period for the thousands separator and a comma for the decimal separator (for example, 1.095,25). To try it out, navigate to your profile, and edit your system language.
-
-
-NEEDS EVALUATION
+You can create webhooks to initiate workflows in third-party applications based on KPI changes, or send KPI alert notifications to custom channels. For example, if you are monitoring a "current inventory" KPI for an inventory management use case, you can build a workflow to trigger an order placement in a third-party app when your current inventory drops below a particular threshold value. Webhooks for Monitor is in beta and off by default. To enable it, contact {support-url}.
 
 [#9-5-0-cl-date-picker]
 [discrete]
@@ -94,6 +80,112 @@ NEEDS EVALUATION
 Date picker is now GA and on by default. We added support for rolling, fixed, and custom date filters when creating an Answer or filtering a Liveboard. Previously, when adding a date filter to a Search, ThoughtSpot supported the conditions `ON (=)`, `ON OR AFTER (>=)`, `BEFORE (<)`, and `BETWEEN`. Now, you can additionally filter for `ON OR BEFORE (\<=)`, `NOT BETWEEN`, `ON LAST`, and `ON NEXT`. To try it out, click the filter icon next to the Date column in the left side menu, or click the date filter below the Answer or Liveboard title.
 
 image:date-picker.png[Date picker for Answers]
+
+
+[#9-5-0-cl-auto-chart]
+[discrete]
+=== Deprecate automatically selected chart
+
+// Naomi
+
+We are deprecating the *Automatically select my chart* toggle at the bottom of the chart type selection panel. Once you select a chart type, ThoughtSpot retains the chart type as you make changes to the search query. For cases where the search query can no longer render as the same chart type (due to the removal of necessary attributes or measures), ThoughtSpot automatically selects a chart type that can render based on the query.
+
+image::chart-select-toggle.png[A chart with the chart configuration option open, showing the *Automatically select my chart* toggle]
+
+[#9-5-0-cl-gridline]
+[discrete]
+=== Gridlines enabled by default
+
+// Naomi
+
+When you create bar and column charts and slice by color, ThoughtSpot automatically enables gridlines to make the chart easier to read. We now display lines on the axis to represent very small values and zero values.
+
+image::chart-gridlines.png[A column chart with X-axis gridlines enabled]
+
+[#9-5-0-cl-parameters]
+[discrete]
+=== Editing in-use parameters
+
+// Naomi
+
+When using a parameter in a Search, you can now change the allowed values type (for example, from *List* to *Range*). You can also add or delete values from a list parameter while it's in use.
+
+[#9-5-0-cl-locale]
+[discrete]
+=== English (Germany) locale
+
+Set your ThoughtSpot locale to English (Germany). ThoughtSpot changes your data format settings, such as currency and number formatting, and translates keywords, ThoughtSpot menu and navigation items, operators, and error messages. For the English (Germany) locale, dates are shown in day.month.year format (for example, 15.06.2023), and numbers use a period for the thousands separator and a comma for the decimal separator (for example, 1.095,25). To try it out, navigate to your profile, and edit your system language.
+
+[#9-5-0-cl-filters]
+[discrete]
+=== Rename filters on a Liveboard
+
+// Naomi
+
+You can now edit the display name of filters on Liveboards to better represent your data. To try it out, click the *Edit* icon on a Liveboard, click the filter you want to rename, select *Filter options*, enter the new name under *Filter display name*, and click *Apply*. Then click *Save* in the upper right corner.
+
+image::filter-rename.gif[An animation of the process of editing a filter name]
+
+ifndef::pendo-links[]
+[#9-5-0-cl-alation]
+[discrete]
+=== Data catalog integration [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#9-5-0-cl-alation]
+[discrete]
+=== Data catalog integration [.badge.badge-beta-whats-new]#Beta#
+endif::[]
+
+// Naomi
+
+You can now import metadata information related to your tables and columns from Alation into ThoughtSpot. From the *Data* tab, you can set up a connection to Alation to import
+column descriptions, column verification status, table descriptions, and table verification status. This information appears when you click on the corresponding table or column under *Search data*.
+
+[#9-5-0-cl-coms]
+[discrete]
+=== Integrate monitor emails with COMS service
+
+// Naomi
+
+You can now see notifications for threshold and anomaly alerts in the ThoughtSpot notification service, rather than receiving emails.
+
+[#9-5-0-cl-mobile-session]
+[discrete]
+=== Support longer sessions for mobile app on TS Cloud
+
+// Naomi
+
+We have extended the length of mobile sessions on TS Cloud. If a user visits the mobile app at least once every two weeks, they will no longer be logged out.
+
+
+
+[#9-5-0-cl-mobile]
+[discrete]
+=== Metrics on mobile
+
+// Naomi
+
+We have introduced a Watchlist tab on Mobile to make it easier for users to follow important metrics. This watchlist is synced with user sessions on the ThoughtSpot site, and you can add or remove KPIs from your watchlist by selecting or deselecting the heart icon that appears when you open the KPI chart.
+
+[#9-5-0-cl-magiclink]
+[discrete]
+=== Mobile login through Magic Link
+
+// Naomi
+
+We simplified the log in process for the ThoughtSpot mobile app. You can now enter your company email to receive an email with a Magic Link login, rather than entering the server URL.
+
+[#9-5-0-cl-kpi]
+[discrete]
+=== KPI chart responsiveness
+
+// Naomi
+
+We have improved how KPI charts and sparkline visualizations respond to changes in browser size or Liveboard tile size.
+
+NEEDS EVALUATION
+
 
 
 [#9-5-0-cl-rbac]
@@ -113,81 +205,6 @@ image:date-picker.png[Date picker for Answers]
 === Multi-tab PDF export
 
 // Mark
-
-[#9-5-0-cl-gridline]
-[discrete]
-=== Gridlines enabled by default
-
-// Naomi
-
-When you create bar and column charts and slice by color, ThoughtSpot automatically enables gridlines to make the chart easier to read. We now display lines on the axis to represent very small values and zero values.
-
-[#9-5-0-cl-parameters]
-[discrete]
-=== Editing in-use parameters
-
-// Naomi
-
-When using a parameter in a Search, you can now change the allowed values type (for example, from *List* to *Range*). You can also add or delete values from a list parameter while it's in use.
-
-
-[#9-5-0-cl-filters]
-[discrete]
-=== Rename filters on a Liveboard
-
-// Naomi
-
-ifndef::pendo-links[]
-[#9-5-0-cl-alation]
-[discrete]
-=== Data catalog integration surfacing elements from UML to TS object [.badge.badge-beta]#Beta#
-endif::[]
-ifdef::pendo-links[]
-[#9-5-0-cl-alation]
-[discrete]
-=== Data catalog integration surfacing elements from UML to TS object [.badge.badge-beta-whats-new]#Beta#
-endif::[]
-
-// Naomi
-
-[#9-5-0-cl-coms]
-[discrete]
-=== Integrate monitor emails with COMS service
-
-// Naomi
-
-You can now see notifications for threshold and anomaly alerts in the ThoughtSpot notification service, rather than receiving emails.
-
-[#9-5-0-cl-mobile-session]
-[discrete]
-=== Support longer sessions for mobile app on TS Cloud
-
-// Naomi
-
-[#9-5-0-cl-mobile]
-[discrete]
-=== Metrics on mobile
-
-// Naomi
-
-[#9-5-0-cl-magiclink]
-[discrete]
-=== Mobile login through Magic Link
-
-// Naomi
-
-We simplified the log in process for the ThoughtSpot mobile app. You can now enter your company email to receive an email with a Magic Link login, rather than entering the server URL.
-
-[#9-5-0-cl-kpi]
-[discrete]
-=== KPI chart enhancements/responsiveness
-
-// Naomi
-
-
-
-
-
 
 [#9-5-0-cl-data-panel]
 [discrete]
@@ -260,6 +277,23 @@ You can now create connections from ThoughtSpot to SingleStore.
 
 Redshift now supports external OAuth through Microsoft Azure AD.
 
+
+[#9-5-0-cl-feedback]
+[discrete]
+=== Feedback improvements: Fragments
+
+// Naomi
+
+[#9-5-0-cl-filter]
+[discrete]
+=== Single value selection for attribute filters
+
+// Naomi
+
+When creating a Liveboard, you can now designate attribute filters as single-select or multi-select. Multi-select filters allow users to choose more than one attribute from a list of possible values, while single-select filters allow a user to select only one value at a time. For example, you could choose to make a Country filter single-select, so users would only see data related to one country at a time. To try it out, click the *Edit* icon in the top right corner of the Liveboard, select *Add filter*, choose the column to filter, and select either *Multi-select* or *Single-select* under *Selection behavior*.
+
+image::filter-single-value.png[The filter editing window shows options to create multi-select or single-select filters]
+
 NEEDS EVALUATION
 
 [#9-5-0-cl-spotapp]
@@ -281,11 +315,7 @@ NEEDS EVALUATION
 // Mark
 
 
-[#9-5-0-cl-filter]
-[discrete]
-=== Single value selection for attribute filters + rename
 
-// Naomi
 
 ifndef::pendo-links[]
 [#9-5-0-cl-looker]
@@ -300,11 +330,7 @@ endif::[]
 
 // Mark
 
-[#9-5-0-cl-feedback]
-[discrete]
-=== Feedback improvements: Fragments, new icons
 
-// Naomi
 
 ifndef::pendo-links[]
 [#9-5-0-cl-]
