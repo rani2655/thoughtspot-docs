@@ -1,5 +1,5 @@
 = Configure Azure AD external OAuth for a {connection} connection
-:last_updated: 7/19/2023
+:last_updated: 7/25/2023
 :author: Naomi
 :linkattrs:
 :experimental:
@@ -44,19 +44,19 @@ image:azure-portal-reg.png[]
 +
 Example: `Redshift OAuth User Resource`
 
-. For *Redirect URI*, choose *Public client/native(mobile and desktop)* and enter the redirect URL `https://<your-thoughtspot-instance-host>/callosum/v1/connection/generateTokens`. Keep the default settings for the remaining fields.
+. For *Redirect URI*, choose *Public client/native(mobile and desktop)* and enter the redirect URL `\https://<your-thoughtspot-instance-host>/callosum/v1/connection/generateTokens`. Keep the default settings for the remaining fields.
 
 . Select *Register*.
 
 . After the application is created, select *Expose an API* from the left navigation pane. If this is your first setup, *Set* appears to the right of the *Application ID URI*.
 +
-image:snow-expose-api.png[]
+image:redshift-expose-api.png[]
 
-. Next to *Application ID URI*, select *Set* and change its value from `api://<alphanumeric value>` to `https://<alphanumeric value>` and select *Save*.
+. Next to *Application ID URI*, select *Set* and change its value from `api://<alphanumeric value>` to `\https://<alphanumeric value>` and select *Save*.
 +
-image:snow-app-uri-oauth-client2.png[]
+image:redshift-app-uri-oauth-client2.png[]
 +
-NOTE: The Application ID URI must be unique within your organization's directory, such as `https://your.company.com/4d2a8c2b-a5f4-4b86-93ca-ack45667`.
+NOTE: The Application ID URI must be unique within your organization's directory, such as `\https://your.company.com/4d2a8c2b-a5f4-4b86-93ca-ack45667`.
 
 . Select *Add a scope*.
 
@@ -93,13 +93,13 @@ To create a Redshift client application, do the following:
 
 . From the *Application (client) ID* field, copy the ID. This ID is referred to as `<OAUTH_CLIENT_ID>` in the steps that follow.
 +
-image:sf_oauth_user.png[]
+image:redshift_oauth_user.png[]
 
 . From the *Directory (tenant) ID* field, copy the ID. This ID is referred to as `<OAUTH_TENANT_ID>` in the steps that follow.
 
 . Select *Authentication* from the left navigation pane, and under Web, specify the redirect URI using the following format:
 +
-`<https://<public url of your ThoughtSpot instance>/callosum/v1/connection/generateTokens>`
+`<\https://<public url of your ThoughtSpot instance>/callosum/v1/connection/generateTokens>`
 +
 image:redirect_uri.png[]
 
@@ -162,7 +162,7 @@ To configure your IdP in Amazon Redshift, do the following:
 
 . Sign in to the link:https:://portal.azure.com/[Microsoft Azure portal] and navigate to *Azure Active Directory*, if needed.
 
-. Collect the *issuer*, referred to as <Microsoft_Azure_issuer_value> in the following steps. If you're using the v1.0 token, use `https://sts.windows.net/<Microsoft_Azure_tenantid_value>/`. If you're using the v2.0 token, use `https://login.microsoftonline.com/<Microsoft_Azure_tenantid_value>/v2.0`.
+. Collect the *issuer*, referred to as <Microsoft_Azure_issuer_value> in the following steps. If you're using the v1.0 token, use `\https://sts.windows.net/<Microsoft_Azure_tenantid_value>/`. If you're using the v2.0 token, use `\https://login.microsoftonline.com/<Microsoft_Azure_tenantid_value>/v2.0`.
 
 .. For the *issuer*, select the `<OAUTH_TENANT_ID>` found in <<step-2,Step 2: Create Redshift Client application>>.
 
@@ -170,7 +170,7 @@ To configure your IdP in Amazon Redshift, do the following:
 
 . For the *client_secret*, collect the `<OAUTH_CLIENT_SECRET>` found in <<step-2,Step 2: Create Redshift Client application>>.
 
-. Collect the *audience*. If you’re using a v1.0 token, the audience value is the application ID URI (for example, `https://991abc78-78ab-4ad8-a123-zf123ab03612p`). If you’re using a v2.0 token, the audience value is the client ID value (for example, `991abc78-78ab-4ad8-a123-zf123ab03612p`).
+. Collect the *audience*. If you’re using a v1.0 token, the audience value is the application ID URI (for example, `\https://991abc78-78ab-4ad8-a123-zf123ab03612p`). If you’re using a v2.0 token, the audience value is the client ID value (for example, `991abc78-78ab-4ad8-a123-zf123ab03612p`).
 +
 Both application ID URI and client ID can be found
 by clicking *Overview* from the left navigation pane and reading the *Essentials* section.
