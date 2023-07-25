@@ -11,316 +11,331 @@
 ThoughtSpot supports Microsoft Azure Active Directory (AD) OAuth for a {connection} connection.
 With Azure AD OAuth, the authorization server generates an access token from Azure AD on behalf of the ThoughtSpot user which authenticates them with {connection} and authorizes ThoughtSpot to query the database using their {connection} user account.
 
-NOTE: The steps provided here are an example of how you can configure Azure AD OAuth for external OAuth. You can use any OAuth flow provided that you can get the information required for the security integration. The following steps provide a guide for getting the information required to create the security integration for Redshift.
-
-IMPORTANT: Be sure to consult your organization's security policies for configuring an authorization server to make sure you meet all requirements.
-
 [#part-1]
-== Creating an external OAuth token using Azure AD on behalf of the user
+== Prerequisites
 
-=== Part 1: Creating a {connection} OAuth resource
+To set up Azure AD OAuth for {connection}, you must have the following:
 
-To create a {connection} OAuth resource, do the following:
+* An AWS account.
+* An Amazon Redshift cluster.
+* link:https://docs.aws.amazon.com/redshift/latest/mgmt/jdbc20-download-driver.html[A downloaded Amazon Redshift JDBC SDK driver-dependent library 2.1.0.4 and onwards].  You must unzip the Amazon Redshift JDBC JAR zipped folder. All prior Amazon Redshift driver versions don’t support native IdP.
+* An Azure account with an active subscription. You need an admin role to set up the application on Azure AD.
 
-. Sign in to the https://portal.azure.com/[Microsoft Azure Portal^].
+== Set up your Azure application
+
+To set up your Azure application, you must create both an OAuth application and a Redshift Client application. The OAuth application is used to authenticate the user and provide a login token. The Redshift Client application is used to retrieve user and group information.
+
+[#step-1]
+=== Step 1: Create OAuth application
+
+To create a {connection} OAuth application, do the following:
+
+. Sign in to the link:https:://portal.azure.com/[Microsoft Azure portal].
+
 . Navigate to *Azure Active Directory*.
 +
-image::azure-portal-ad.png[Under Azure services, select Azure Active Directory]
+image:azure-portal-ad.png[]
 
-. Select *App registrations*, then *New registration*.
+. From the *Manage* section, select *App registration*, then *New registration*.
 +
-image::azure-portal-reg.png[Select App registrations > New registration]
+image:azure-portal-reg.png[]
 
-. For Name, enter a name for your application.
+. For *Name*, enter a name for your application.
 +
-Example:``{connection} Oauth User Resource``
+Example: `Redshift OAuth User Resource`
 
-. Make sure Supported account types is set to *Single Tenant*.
+. For *Redirect URI*, choose *Public client/native(mobile and desktop)* and enter the redirect URL `https://<your-thoughtspot-instance-host>/callosum/v1/connection/generateTokens`. Keep the default settings for the remaining fields.
+
 . Select *Register*.
-+
-image::azure-portal-reg-ten.png[Click Register]
 
-. After the application is created, select *Expose an API*.
+. After the application is created, select *Expose an API* from the left navigation pane. If this is your first setup, *Set* appears to the right of the *Application ID URI*.
 +
-image::snow-expose-api.png[Click Expose an API]
+image:snow-expose-api.png[]
+
+. Next to *Application ID URI*, select *Set* and change its value from `api://<alphanumeric value>` to `https://<alphanumeric value>` and select *Save*.
 +
-[#step-8]
-. Next to Application ID URI, select *Set* and change its value from *api://<alphanumeric value>* to *\https://<alphanumeric value>* and select *Save*.#
+image:snow-app-uri-oauth-client2.png[]
 +
-// []({{ site.baseurl }}/images/snow-app-uri.png)
-+
-image::snow-app-uri-oauth-client2.png[Update the App ID URI]
-+
-NOTE: If the Application ID URI is not used, you must create a security integration with audiences using the Redshift Account URL (that is,
-`<account_identifier>.redshiftcomputing.com)`.
-+
-IMPORTANT: The Application ID URI must be unique within your organization's directory, such as `\https://your.company.com/4d2a8c2b-a5f4-4b86-93ca-ack45667`.
+NOTE: The Application ID URI must be unique within your organization's directory, such as `https://your.company.com/4d2a8c2b-a5f4-4b86-93ca-ack45667`.
 
 . Select *Add a scope*.
-. For Scope name, enter the name of the {connection} role (example: `session:role-any`).
+
+. For *Scope name*, enter a name (for example, `session:role-any`).
+
 . Select who can consent.
-. Enter an Admin consent display name (example: `Any`).
-. Enter an Admin consent description.
-. Select *Add Scope*.
+
+. For *Admin consent display name*, enter a display name (for example, `Any`).
+
+. For *Admin consent description*, enter a description of the scope.
+
+. Select *Add scope*.
 +
-image::snow-add-scope.png[Add a scope modal image]
+image:snow-add-scope.png[]
++
+NOTE: When you create the scope in your Azure AD application, you must set it to "any" so that a user can later switch to any of their allowed roles when making a JDBC connection using the obtained token.
 
-IMPORTANT: When you create the scope in your Azure AD application, you must set it to "`any`" so that a user can later switch to any of their allowed roles when making a JDBC connection using the obtained token.
+. After the scope is added, note down the application ID URI and API scope in order to register the IdP in Amazon Redshift later. In the following section, <Microsoft_Azure_Application_ID_URI> refers to the application ID URI.
 
-=== Part 2: Creating a {connection} OAuth client app
+[#step-2]
+=== Step 2: Create Redshift Client application
 
-To create a {connection} OAuth client app, do the following:
+To create a Redshift client application, do the following:
 
-. Sign in to the https://portal.azure.com/[Microsoft Azure Portal^], and navigate to *Azure Active Directory*, if needed.
-. Select *App registrations*, and then select *New registration*.
-. For Name, enter a name for the client (example: `{connection} OAuth User`).
-. For Supported account types, make sure it is set to *Single tenant*.
+. Sign in to the link:https:://portal.azure.com/[Microsoft Azure portal] and navigate to *Azure Active Directory*, if needed.
+
+. Select *App registrations*, then select *New registration*.
+
+. For *Name*, enter a name for the client (for example, `redshift_client`. Keep the default settings for the remaining fields.
+
 . Select *Register*.
+
 . Once the app is created, select *Overview*.
-. From the Application (client) ID field, copy the ID.
-This ID is referred to as the `<OAUTH_CLIENT_ID>` in the steps that follow.
-+
-image::sf_oauth_user.png[Copy the Application (client) ID]
 
-. Select *Authentication*, and under Web, specify the redirect URI using the following format:
+. From the *Application (client) ID* field, copy the ID. This ID is referred to as `<OAUTH_CLIENT_ID>` in the steps that follow.
 +
-`<\https://<public> url of your ThoughtSpot Instance>/callosum/v1/connection/generateTokens`
-+
-image::redirect_uri.png[Add a redirect URI]
+image:sf_oauth_user.png[]
 
-. Select *Certificates & secrets* and then *New client secret*.
-+
-image::snow_certs_secr.png[Create a client secret]
+. From the *Directory (tenant) ID* field, copy the ID. This ID is referred to as `<OAUTH_TENANT_ID>` in the steps that follow.
 
-. Copy the *Value* of the secret you just created.
-This is referred to as `<OAUTH_CLIENT_SECRET>` in the steps that follow.
+. Select *Authentication* from the left navigation pane, and under Web, specify the redirect URI using the following format:
 +
-image::snow_secr.png[Copy the value of the secret]
-
-. Select *API permissions*, then click *Add a permission*.
+`<https://<public url of your ThoughtSpot instance>/callosum/v1/connection/generateTokens>`
 +
-image::snow_api_perm.png[Add an API permission]
+image:redirect_uri.png[]
 
-. Select *My APIs*.
-. Select the name of the {connection} OAuth Resource you created in <<part-1,Part 1>>.
-+
-image::snow_req_api_perm.png[Click on the OAuth Resource]
+. Select *Certificates & secrets* from the left navigation pane, then select *New client secret*.
 
-. On the Request API permissions page, click the *Delegated permissions* box, and select the permission related to the scope you defined in the application you want to grant to this client.
+. Enter a description, select an expiration for the secret or specify a custom lifetime. The Microsoft recommended default expiration value is 6 months.
+
+. Choose *Add*.
+
+. Copy the *Value* of the secret you just created. This is referred to as `<OAUTH_CLIENT_SECRET>` in the steps that follow. Note that the secret value will be visible for one time only and cannot be read afterwards.
+
+. Select *API permissions* from the left navigation pane.
+
+. Select *Add a permission* and select *Microsoft Graph*.
+
+. Select *Application permissions*.
+
+. Search the directory and select the `Directory.Read.All` permission.
+
 . Select *Add permissions*.
+
+. After the permission is created, select *Grant admin consent*.
+
+. In the pop-up box, choose *Yes* to grant the admin consent.
 +
-image::snow_req_api_2_perm.png[Add permissions]
+The status for the permission shows as *Granted for aws* with a green check mark.
 
-. Under Configured permissions, select *Grant admin consent for Default Directory*, and then click *Yes* in the confirmation message.
+[#step-3]
+=== Step 3: Create Azure AD Group
+
+To create an Azure AD group, do the following:
+
+. On the Azure Ad home page, under the *Manage* section of the navigation pane, choose *Groups*.
+
+. Choose *New group*.
+
+. In the *New Group* section, provide the following information:
+
+* Group type
+* Group name
+* Membership type
+
+. Click *No members selected* and then search for the members in the right search bar.
+
+. Select the members and choose *Select*. You can see the number of members in the *Members* section.
+
+. Select *Create*.
+
+
+== Collect Azure AD information
+
+Before collecting the Azure AD information, you must identify the access token version from the application you created earlier on the Azure portal in <<step-1,Step 1: Create OAuth Application>>. Under the *Manage* section of the navigation pane, select *Manifest*, then view the `accessTokenAcceptedVersion` parameter. `Null` and `1` values indicate v1.0 tokens, and `2` values indicate v2.0 tokens.
+
+image:azure-ad-accesstokenversion.png[]
+
+image:azure-ad-accesstokenversion2.png[]
+
+
+To configure your IdP in Amazon Redshift, do the following:
+
+. Sign in to the link:https:://portal.azure.com/[Microsoft Azure portal] and navigate to *Azure Active Directory*, if needed.
+
+. Collect the *issuer*, referred to as <Microsoft_Azure_issuer_value> in the following steps. If you're using the v1.0 token, use `https://sts.windows.net/<Microsoft_Azure_tenantid_value>/`. If you're using the v2.0 token, use `https://login.microsoftonline.com/<Microsoft_Azure_tenantid_value>/v2.0`.
+
+.. For the *issuer*, select the `<OAUTH_TENANT_ID>` found in <<step-2,Step 2: Create Redshift Client application>>.
+
+. For the *client_id*, collect the `<OAUTH_CLIENT_ID>` found in <<step-2,Step 2: Create Redshift Client application>>.
+
+. For the *client_secret*, collect the `<OAUTH_CLIENT_SECRET>` found in <<step-2,Step 2: Create Redshift Client application>>.
+
+. Collect the *audience*. If you’re using a v1.0 token, the audience value is the application ID URI (for example, `https://991abc78-78ab-4ad8-a123-zf123ab03612p`). If you’re using a v2.0 token, the audience value is the client ID value (for example, `991abc78-78ab-4ad8-a123-zf123ab03612p`).
 +
-image::snow_grant_admin.png[Grant admin consent]
+Both application ID URI and client ID can be found
+by clicking *Overview* from the left navigation pane and reading the *Essentials* section.
 
-=== Part 3: Collecting Azure AD information for {connection}
+== Set up the IdP on Amazon Redshift
 
-To collect Azure AD information for {connection}, do the following:
+To set up the IdP on Amazon {connection}, do the following:
 
-. Sign in to the https://portal.azure.com/[Microsoft Azure Portal^], and navigate to *Azure Active Directory*, if needed.
-. Go back to the {connection} OAuth Resource App ({connection} Oauth User Resource) to collect the following information:
-.. Select *Endpoints* in the *Overview* interface.
-.. On the right side, copy the *OAuth 2.0 token endpoint (v2)* and note the URLs for *OpenID Connect metadata* and *Federation Connect metadata*.
+. Log in to Amazon Redshift with a superuser username and password using query editor v2 or any SQL client.
 
-... The *OAuth 2.0 token endpoint (v2)* is referred to as the `<AZURE_AD_OAUTH_TOKEN_ENDPOINT>` in the following configuration steps.
-The endpoint should be similar to `+https://login.microsoftonline.com/<tenant_id>/oauth2/v2.0/token/+`.
-... For the *OpenID Connect metadata*, open in a new browser window.
-+
-.... Locate the "jwks_uri" parameter and copy its value.
-+
-.... This parameter value will be known as the `<AZURE_AD_JWS_KEY_ENDPOINT>` in the following configuration steps.
-The endpoint should be similar to `+https://login.microsoftonline.com/<tenant_id>/discovery/v2.0/keys+`.
-
-. For the *Federation metadata document*, open the URL in a new browser window.
-+
-.. Locate the `"entityID"` parameter in the `XML Root Element` and copy its value.
-+
-.. This parameter value will be known as the `<AZURE_AD_ISSUER>` in the following configuration steps.
-The entityID value should be similar to `+https://sts.windows.net/<tenant_id>/+`.
-
-. The *OAuth 2.0 authorization endpoint (v2)* should be similar to  `+https://login.microsoftonline.com/<tenant_id>/oauth2/v2.0/authorize+`.
-+
-image:snow_oauth_user_res_1.png[View information in Overview > Endpoints]
-+
-image:snow_oauth_user_res_2.png[View the OAuth 2.0 authorization endpoint (v2)]
-
-=== Part 4: Creating an OAuth authorization server in {connection}
-
-In this part you must do the following:
-
-* Create a security integration in {connection} to ensure that {connection} can  securely communicate with Microsoft Azure AD.
-* Validate the tokens from Azure AD.
-* Provide the appropriate {connection} data access to users based on the user role associated with the OAuth token.
-
-IMPORTANT: If you use _SESSION:ROLE-ANY_ in scope, you must configure the following flag in the security integration: `external_oauth_any_role_mode = ‘ENABLE’`. This is shown in the optional line of the security integration format example.
-
-==== Security integration format
-[source]
-----
-create security integration external_oauth_azure_2
-   type = external_oauth
-   enabled = true
-   external_oauth_type = azure
-   external_oauth_issuer = '<AZURE_AD_ISSUER>'
-   external_oauth_jws_keys_url = '<AZURE_AD_JWS_KEY_ENDPOINT>'
-   external_oauth_audience_list = ('<REDSHIFT_APPLICATION_ID_URI>')
-   external_oauth_token_user_mapping_claim = 'upn'
-   external_oauth_any_role_mode = 'ENABLE' (optional)
-   external_oauth_redshift_user_mapping_attribute = 'login_name';
-----
-
-Example:
-
-image::snow-sec-int-example.png[Security integration format example]
-
-NOTE: When you create the {connection} OAuth Resource Application in Azure AD, if you enter an `Application ID URI` that is not the {connection} Account URL (that is,
-`<account_identifier>.redshiftcomputing.com`), you must add the `external_oauth_audience_list` parameter to the command with the value `<REDSHIFT_APPLICATION_ID_URI>`.
-
-==== {connection} commands
-
-===== Create user as Azure AD user
-
-`CREATE USER testuser PASSWORD = '' LOGIN_NAME = '\testuser@thoughtspot.com' DISPLAY_NAME = 'AD_TEST_USER';`
-
-===== Validate access token
-
-`select system$verify_external_oauth_token('<ACCESS_TOKEN>');`
-
-===== Grant sysadmin role to TESTUSER
-
-`GRANT ROLE sysadmin TO USER TESTUSER;`
-
-===== Altering user
-
-`ALTER USER testuser SET DEFAULT_ROLE = SYSADMIN;`
-
-[#validate-config]
-=== (Optional) Validating your Azure configuration
-
-To ensure your Azure configuration is correct for use with ThoughtSpot, you can generate an access token.
-
-NOTE: This following example is for Azure. The process for other providers is similar.
-
-You can use either of the following methods to generate your access token:
-
-* Postman
-* cURL
-
-==== Method 1: Postman
-
-To validate your configuration using Postman, do the following:
-
-. Sign in to Postman.
-. Go to the *Authorization* tab.
-. For Token Name, enter a token name.
-. For Grant Type, select *Authorization Code* from the menu.
-. For Callback URL, select *Authorize using browser*.
-+
-This should be defined in your OAuth User app(Ex: {connection} OAuthUser).
-The default is `+https://oauth.pstmn.io/v1/callback+`.
-
-. For Auth URL, enter the OAuth 2.0 authorization endpoint (v2) value from "`Endpoints`" in the app.
-+
-Example: `+https://login.microsoftonline.com/<tenant_id>/oauth2/v2.0/authorize+`
-
-. For Access Token URL, enter the access token URL.
-+
-Example: `+https://login.microsoftonline.com/<tenant_id>/oauth2/v2.0/token/+`
-
-. For Scope, you must provide "`offline_access`" as the scope, along with the actual scope.
-The refresh token is only provided if the offline_access scope was requested.
-+
-image::postman_get_token.png[Configure a new token]
-+
-Example: `\https://<application_id>/session:role-any offline_access`
-+
-IMPORTANT: When you create the scope in the Azure AD application setup, it must be set as "`any`" so that a user can later switch to any of his allowed roles when making a JDBC connection using the obtained token.
-
-. Select *Get New Access Token*.
-. Sign in to your Microsoft Azure account.
-+
-image::ms_sign_in.png[Sign in to Microsoft Azure]
-
-. On the Token Details page, select *Use Token*.
-+
-image:token_det_1.png[Use token]
-+
-image:token_det_2.png[Use token more detail]
-
-. Verify the validity of the generated access token by running this SQL in Redshift:
+. Run the following SQL:
 +
 [source]
 ----
-select system$verify_external_oauth_token('<access_token>');
-----
-
-==== Method 2: cURL
-
-To validate your configuration using cURL, do the following:
-
-. Execute this command to get access token with password grant_type:
-+
-----
-curl -X POST -H "Content-Type: application/x-www-form-urlencoded;charset=UTF-8" \
-  --data-urlencode "client_id=<OAUTH_CLIENT_ID>" \
-  --data-urlencode "client_secret=<OAUTH_CLIENT_SECRET>" \
-  --data-urlencode "username=<AZURE_AD_USER>" \
-  --data-urlencode "password=<AZURE_AD_USER_PASSWORD>" \
-  --data-urlencode "grant_type=password" \
-  --data-urlencode "scope=<SCOPE_AS_IT_APPEARS_IN_AZURE_APP>" \
-  '<AZURE_AD_OAUTH_TOKEN_ENDPOINT>'
+CREATE IDENTITY PROVIDER <idp_name> TYPE azure
+NAMESPACE '<namespace_name>'
+PARAMETERS '{
+"issuer":"<Microsoft_Azure_issuer_value>",
+"audience":["<Microsoft_Azure_token_audience_value>"],
+"client_id":"<Microsoft_Azure_clientid_value>",
+"client_secret":"<Microsoft_Azure_client_secret_value>"
+}';
 ----
 +
-Example:
-+
-----
-curl -X POST -H "Content-Type: application/x-www-form-urlencoded;charset=UTF-8" \
---data-urlencode "client_id=<client_id>" \
---data-urlencode "client_secret=<client_secret>" \
---data-urlencode "username=testuser@thoughtspot.com" \
---data-urlencode "password=*****" \
---data-urlencode "grant_type=password" \
---data-urlencode "scope=https://<application_id>/session:role-any offline_access"\
-`https://login.microsoftonline.com/ <tenant_id>/oauth2/v2.0/token'
-----
-+
-image::curl_1.png[Image of curl command in terminal]
-
-. Execute the following command for getting access token with refresh_token as grant_type:
-+
-----
-curl -X POST -H "Content-Type: application/x-www-form-urlencoded;charset=UTF-8" \
-  --data-urlencode "client_id=<client_id>" \
-  --data-urlencode "client_secret=<client_secret>" \
-    --data-urlencode "grant_type=refresh_token" \
-    --data-urlencode "refresh_token=<Replace_Refresh_Token>" \
-    --data-urlencode "scope=https://<application_id>/session:role-any offline_access" \
-  'https://login.microsoftonline.com/<tenant_id>/oauth2/v2.0/token'
-----
-+
-image::curl_2.png[Image of additional curl command in terminal]
-. Verify the validity of the generated access token by running this SQL in Redshift:
+For example, the following code uses a v1.0 access token:
 +
 [source]
 ----
-select system$verify_external_oauth_token('<access_token>');
+CREATE IDENTITY PROVIDER test_idp TYPE
+azure NAMESPACE 'oauth_aad'
+PARAMETERS '{
+"issuer":"https://sts.windows.net/87f4aa26-78b7-410e-bf29-57b39929ef9a/",
+"audience":["api://991abc78-78ab-4ad8-a123-zf123ab03612p"],
+"client_id":"123ab555-a321-666d-7890-11a123a44890",
+"client_secret":"KiG7Q~FEDnE.VsWS1IIl7LV1R2BtA4qVv2ixB"
+}';
+----
++
+The following code uses a v2.0 access token:
++
+[source]
+----
+CREATE IDENTITY PROVIDER test_idp TYPE
+azure NAMESPACE 'oauth_aad'
+PARAMETERS '{
+"issuer":
+"https://login.microsoftonline.com/87f4aa26-78b7-410e-bf29-57b39929ef9a/v2.0",
+"audience":["991abc78-78ab-4ad8-a123-zf123ab03612p"],
+"client_id":"123ab555-a321-666d-7890-11a123a44890",
+"client_secret":"KiG7Q~FEDnE.VsWS1IIl7LV1R2BtA4qVv2ixB"
+}';
 ----
 
-== Logging in to a connection created by another user using OAuth
-
-As an admin user, you may run into an issue logging in to connections created using OAuth. To resolve this issue, complete the following steps:
-
-. Search on a table belonging to the connection you are trying to edit. The following error appears:
+. To alter the IdP, use the following command (this new set of parameter values completely replaces the current values):
 +
-image:oauth-error.png[Error reading “Error in loading data. Connection to Redshift could not be established. OAuth login required. Login”]
+[source]
+----
+ALTER IDENTITY PROVIDER <idp_name> PARAMETERS
+'{
+"issuer":"<Microsoft_Azure_issuer_value>/",
+"audience":["<Microsoft_Azure_token_audience_value>"],
+"client_id":"<Microsoft_Azure_clientid_value>",
+"client_secret":"<Microsoft_Azure_client_secret_value>"
+}';
+----
 
-. Click *Login*. You will be directed to the IDP login page.
+. To view a single registered IdP in the cluster, use the following code:
++
+[source]
+----
+DESC IDENTITY PROVIDER <idp_name>;
+----
 
-. Enter your login credentials.
+. To view all registered IdPs in the cluster, use the following code:
++
+[source]
+----
+select * from svv_identity_providers;
+----
 
-. You will now have access to edit the connection.
+. To drop the IdP, use the following command:
++
+[source]
+----
+DROP IDENTITY PROVIDER <idp_name> [CASCADE];
+----
+
+== Set up Amazon Redshift permissions to external identities
+
+The users, roles,and role assignments are automatically created in your Amazon redshift cluster during the first login using your native IdP unless they were manually created earlier.
+
+=== Create and assign permission to Amazon Redshift roles
+
+In this step, we create a role in the Amazon Redshift cluster based on the groups that you created on the Azure AD portal. This helps us avoid creating multiple usernames manually on the Amazon Redshift side and assign permissions for multiple users individually.
+
+The role name in the Amazon Redshift cluster looks like `<namespace>:<azure_ad_group_name>`, where the namespace is the one we provided in the IdP creation command and the group name is the one we specified when we were setting up the Azure application. In our example, it's `oauth_aad:rsgroup`.
+
+Run the following command in the Amazon Redshift cluster to create the role:
+
+[source]
+----
+create role "<namespace_name>:<Azure AD groupname>";
+----
+
+For example:
+
+[source]
+----
+create role "oauth_aad:rsgroup";
+----
+
+To grant permission to the Amazon Redshift role, enter the following command:
+
+[source]
+----
+GRANT { { SELECT | INSERT | UPDATE | DELETE | DROP | REFERENCES } [,...]
+ | ALL [ PRIVILEGES ] }
+ON { [ TABLE ] table_name [, ...] | ALL TABLES IN SCHEMA schema_name [, ...] }
+TO role "<namespace_name>:<Azure AD groupname>";
+----
+
+Then grant relevant permission to the role as per your requirement. For example:
+
+[source]
+----
+grant select on all tables in schema public to role "oauth_aad:rsgroup";
+----
+
+
+
+=== Create and assign permission to an Amazon Redshift user
+
+This step is only required if you want to grant permission to an Amazon Redshift user instead of roles. We create an Amazon Redshift user that maps to an Azure AD user and then grant permission to it. If you don't want to explicitly assign permission to an Amazon Redshift user, you can skip this step.
+
+To create the user, use the following syntax:
+
+[source]
+----
+CREATE USER "<namespace_name>:<Azure AD username>" PASSWORD DISABLE;
+----
+
+For example:
+
+[source]
+----
+CREATE USER "oauth_aad:john@azent.org" PASSWORD DISABLE;
+----
+
+We use the following syntax to grant permission to the Amazon Redshift user:
+
+[source]
+----
+GRANT { { SELECT | INSERT | UPDATE | DELETE | DROP | REFERENCES } [,...]
+ | ALL [ PRIVILEGES ] }
+ON { [ TABLE ] table_name [, ...] | ALL TABLES IN SCHEMA schema_name [, ...] }
+TO "<namespace_name>:<Azure AD username>";
+----
+
+For example:
+
+[source]
+----
+grant select on all tables in schema public to "oauth_aad:john@azent.org";
+----
+
 
 '''
 > **Related information**
