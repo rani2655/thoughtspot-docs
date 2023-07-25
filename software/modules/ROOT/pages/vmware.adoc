@@ -40,7 +40,7 @@ When choosing an instance type, ensure that it uses Intel CPUs.
 | User data capacityfootnote:pvm[per VM] | CPU/RAM | Data disk | Required boot volumefootnote:pvm[]
 | 20 GB | 16/128 GB | 2 x 400 GB | 200 GB for each node
 | 100 GB | 32/256 GB | 2 X 400 GB | 200 GB for each node
-| 256 GB | 72/512 GB | 3 X 2 TB | 200 GB for each node
+| 256 GB | 72/512 GB | 3 X 1 TB | 200 GB for each node
 |===
 
 NOTE: All cores must be hyperthreaded. All configurations require a 200 GB SSD boot disk.
