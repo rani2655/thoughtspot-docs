@@ -6,7 +6,7 @@
 :experimental:
 :description: Use ThoughtSpot’s connection to Alation to import column- and table-level metadata and surface the data in the Search data knowledge cards.
 
-Use ThoughtSpot’s connection to Alation to import column- and table-level metadata, including column description, table description, and endorsement or verification status, and surface the data in the Search data knowledge cards. To set up or edit a connection to Alation, you must have *can manage catalog* permission. Once the metadata is imported, all users can see the metadata.
+Use ThoughtSpot’s connection to Alation to import column- and table-level metadata, including column description, table description, column verification status and table verification status, and surface the data in the Search data knowledge cards. To set up or edit a connection to Alation, you must have *can manage catalog* permission. Once the metadata is imported, all users can see the metadata. Note, the user setting up the catalog connection can also configure which fields they want to display or hide on the column and table level knowledge cards. By default, all selected fields in the catalog connection process will be visible.
 
 == Connect to Alation
 
@@ -18,7 +18,7 @@ Use ThoughtSpot’s connection to Alation to import column- and table-level meta
 
 * User name
 * Password
-* Instance URL (for example, `\https://connector.alationcatalog.com/`)
+* Instance URL (for example, `https://connector.alationcatalog.com/`)
 
 
 . Click *Next*.
@@ -39,6 +39,7 @@ NOTE: In this context, trustcheck signifies verification status. While syncing, 
 +
 Once the sync is complete, you see the *Last sync* field update in the Alation tile. The *Sync schedule* field displays the frequency with which ThoughtSpot will sync with Alation.
 
+If the Sync is taking a while, you can press the “Refresh” button to fetch the latest status.
 
 == Edit a connection
 
@@ -51,11 +52,10 @@ To edit a connection with Alation:
 . Click the more options icon image:icon-more-10px.png[icon] in the top right corner of the Alation tile.
 
 . Select from the following:
-
-* *Sync now* to set off a sync immediately
-* *Edit sync schedule* to change the cadence of your sync
-* *Edit metadata* to add or remove metadata fields from your sync
-* *Disconnect* to disconnect from Alation. If you disconnect from Alation, all metadata fields imported from Alation disappear from ThoughtSpot.
+*Sync now* to set off a sync immediately
+*Edit sync schedule* to change the cadence of your sync
+*Edit metadata* to add or remove metadata fields from your sync
+*Disconnect* to disconnect from Alation. If you disconnect from Alation, all metadata fields imported from Alation disappear from ThoughtSpot.
 
 
 == Informational panel display
