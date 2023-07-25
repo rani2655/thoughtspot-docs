@@ -111,7 +111,7 @@ image::chart-gridlines.png[A column chart with X-axis gridlines enabled]
 
 // Naomi
 
-When using a parameter in a Search, you can now change the allowed values type (for example, from *List* to *Range*). You can also add or delete values from a list parameter while it's in use.
+When using a parameter in a Search, Answer, or Liveboard, you can now change the allowed values type (for example, from *List* to *Range*). You can also add or delete values from a list parameter while it's in use, or increase or decrease the minimum and maximum values in a range parameter. We do not support changing the data type of the parameter (for example, from `INT` to `DATE`).
 
 
 [#9-5-0-cl-locale]
