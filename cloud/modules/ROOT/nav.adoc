@@ -341,6 +341,7 @@
 **** xref:connections-snowflake-external-tables.adoc[Query external tables from your Snowflake connection]
 *** xref:dbt-integration.adoc[Integrate with dbt]
 **** xref:dbt-integration-metadata-tags.adoc[Metadata tags for dbt]
+*** xref:catalog-integration.adoc[]
 ** xref:it-ops.adoc[IT and Ops]
 *** xref:admin-portal-users.adoc[Managing users]
 *** xref:admin-portal-groups.adoc[Managing groups]

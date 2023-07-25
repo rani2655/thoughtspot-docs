@@ -55,7 +55,7 @@ We made the following enhancements to pivot table charts:
 +
 image::pivot-table-summary.png[An image showing a pivot table with summaries for each row and column]
 
-
+ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-5-0-cl-webhooks]
 [discrete]
@@ -72,6 +72,7 @@ endif::[]
 
 You can create webhooks to initiate workflows in third-party applications based on KPI changes, or send KPI alert notifications to custom channels. For example, if you are monitoring a "current inventory" KPI for an inventory management use case, you can build a workflow to trigger an order placement in a third-party app when your current inventory drops below a particular threshold value. Webhooks for Monitor is in beta and off by default. To enable it, contact {support-url}.
 
+endif::free-trial-feature[]
 
 
 [#9-5-0-cl-date-picker]
@@ -129,6 +130,7 @@ You can now edit the display name of filters on Liveboards to better represent y
 
 image::filter-rename.gif[An animation of the process of editing a filter name]
 
+ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-5-0-cl-alation]
 [discrete]
@@ -144,6 +146,15 @@ endif::[]
 
 You can now import metadata information related to your tables and columns from Alation into ThoughtSpot. From the *Data* tab, you can set up a connection to Alation to import
 column descriptions, column verification status, table descriptions, and table verification status. This information appears when you click on the corresponding table or column under *Search data*.
+For more information, see
+ifndef::pendo-links[]
+xref:catalog-integration.adoc[Catalog integration].
+endif::[]
+ifdef::pendo-links[]
+xref:catalog-integration.adoc[Catalog integration,window=_blank].
+endif::[]
+
+endif::free-trial-feature[]
 
 [#9-5-0-cl-coms]
 [discrete]
@@ -211,26 +222,6 @@ NEEDS EVALUATION
 === Multi-tab PDF export
 
 // Mark
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -313,7 +304,13 @@ endif::free-trial-feature[]
 
 // Naomi
 
-Redshift now supports external OAuth through Microsoft Azure AD. See xref:connections-redshift-azure-ad-oauth.adoc[Configure Azure AD external OAuth for a Redshift connection].
+Redshift now supports external OAuth through Microsoft Azure AD. See
+ifndef::pendo-links[]
+xref:connections-redshift-azure-ad-oauth.adoc[Configure Azure AD external OAuth for a Redshift connection].
+endif::[]
+ifdef::pendo-links[]
+xref:connections-redshift-azure-ad-oauth.adoc[Configure Azure AD external OAuth for a Redshift connection,window=_blank].
+endif::[]
 
 [#9-5-0-cl-feedback]
 [discrete]
@@ -355,6 +352,7 @@ NEEDS EVALUATION
 
 
 
+ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-5-0-cl-looker]
 [discrete]
@@ -368,8 +366,10 @@ endif::[]
 
 // Mark
 
+endif::free-trial-feature[]
 
 
+ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-5-0-cl-]
 [discrete]
@@ -383,7 +383,10 @@ endif::[]
 
 // Mark
 
+endif::free-trial-feature[]
 
+
+ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-5-0-cl-react]
 [discrete]
@@ -395,6 +398,9 @@ ifdef::pendo-links[]
 === Implement Develop Application on React Shell [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 
+endif::free-trial-feature[]
+
+ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-5-0-cl-react-shell]
 [discrete]
@@ -406,6 +412,7 @@ ifdef::pendo-links[]
 === Implement React Shell in business user application [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 
+endif::free-trial-feature[]
 
 [#9-5-0-cl-infra]
 [discrete]
