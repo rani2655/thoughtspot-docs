@@ -166,11 +166,11 @@ You can now see notifications for threshold and anomaly alerts in the ThoughtSpo
 
 [#9-5-0-cl-mobile-session]
 [discrete]
-=== Support longer sessions for mobile app on TS Cloud
+=== Support longer sessions for mobile app on ThoughtSpot Cloud
 
 // Naomi
 
-We have extended the length of mobile sessions on TS Cloud. If a user visits the mobile app at least once every two weeks, they will no longer be logged out.
+We have extended the length of mobile sessions on ThoughtSpot Cloud. If a user visits the mobile app at least once every two weeks, they will no longer be logged out.
 
 
 
