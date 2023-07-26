@@ -34,11 +34,11 @@ To create a {connection} OAuth application, do the following:
 
 . Navigate to *Azure Active Directory*.
 +
-image:azure-portal-ad.png[]
+image:azure-portal-ad.png[Under Azure services, select Azure Active Directory]
 
 . From the *Manage* section, select *App registration*, then *New registration*.
 +
-image:azure-portal-reg.png[]
+image:azure-portal-reg.png[Select App registrations > New registration]
 
 . For *Name*, enter a name for your application.
 +
@@ -50,11 +50,11 @@ Example: `Redshift OAuth User Resource`
 
 . After the application is created, select *Expose an API* from the left navigation pane. If this is your first setup, *Set* appears to the right of the *Application ID URI*.
 +
-image:redshift-expose-api.png[]
+image:redshift-expose-api.png[Expose an API]
 
 . Next to *Application ID URI*, select *Set* and change its value from `api://<alphanumeric value>` to `\https://<alphanumeric value>` and select *Save*.
 +
-image:redshift-app-uri-oauth-client2.png[]
+image:redshift-app-uri-oauth-client2.png[Change the Application ID URI value from api:// to https://]
 +
 NOTE: The Application ID URI must be unique within your organization's directory, such as `\https://your.company.com/4d2a8c2b-a5f4-4b86-93ca-ack45667`.
 
@@ -70,7 +70,7 @@ NOTE: The Application ID URI must be unique within your organization's directory
 
 . Select *Add scope*.
 +
-image:snow-add-scope.png[]
+image:snow-add-scope.png[Add a scope modal image]
 +
 NOTE: When you create the scope in your Azure AD application, you must set it to "any" so that a user can later switch to any of their allowed roles when making a JDBC connection using the obtained token.
 
@@ -93,7 +93,7 @@ To create a Redshift client application, do the following:
 
 . From the *Application (client) ID* field, copy the ID. This ID is referred to as `<OAUTH_CLIENT_ID>` in the steps that follow.
 +
-image:redshift_oauth_user.png[]
+image:redshift_oauth_user.png[Find the Application (client) ID]
 
 . From the *Directory (tenant) ID* field, copy the ID. This ID is referred to as `<OAUTH_TENANT_ID>` in the steps that follow.
 
@@ -101,7 +101,7 @@ image:redshift_oauth_user.png[]
 +
 `<\https://<public url of your ThoughtSpot instance>/callosum/v1/connection/generateTokens>`
 +
-image:redirect_uri.png[]
+image:redirect_uri.png[Select Authentication and specify the redirect URI]
 
 . Select *Certificates & secrets* from the left navigation pane, then select *New client secret*.
 
@@ -153,9 +153,9 @@ To create an Azure AD group, do the following:
 
 Before collecting the Azure AD information, you must identify the access token version from the application you created earlier on the Azure portal in <<step-1,Step 1: Create OAuth Application>>. Under the *Manage* section of the navigation pane, select *Manifest*, then view the `accessTokenAcceptedVersion` parameter. `Null` and `1` values indicate v1.0 tokens, and `2` values indicate v2.0 tokens.
 
-image:azure-ad-accesstokenversion.png[]
+image:azure-ad-accesstokenversion.png[Access token v1.0]
 
-image:azure-ad-accesstokenversion2.png[]
+image:azure-ad-accesstokenversion2.png[Access token v2.0]
 
 
 To configure your IdP in Amazon Redshift, do the following:

@@ -70,7 +70,7 @@ endif::[]
 
 This feature must be enabled by your administrator.
 
-image:ai-answer.gif[]
+image:ai-answer.gif[Natural language search]
 
 ifndef::pendo-links[]
 [#9-3-0-cl-ai-search]
