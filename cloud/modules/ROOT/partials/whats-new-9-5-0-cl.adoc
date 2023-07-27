@@ -12,13 +12,27 @@ endif::free-trial-feature[]
 
 [#primary-9-5-0-cl]
 
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-3-0-cl-sage]
+[discrete]
+=== ThoughtSpot Sage [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-3-0-cl-sage]
+[discrete]
+=== ThoughtSpot Sage [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
 [#9-5-0-cl-expressibility]
 [discrete]
-=== Natural language search: "vs", "growth of", and "trend"
+==== Natural language search: "vs", "growth of", and "trend"
 
 // Naomi
 
 We have improved the behavior of queries containing the keywords "vs", "growth of", and "trend" in natural language search.
+
+endif::free-trial-feature[]
 
 [#9-5-0-cl-pivot]
 [discrete]
@@ -122,7 +136,7 @@ endif::[]
 // Naomi
 
 You can now import metadata information related to your tables and columns from Alation into ThoughtSpot. From the *Data* tab, if you have the *can manage catalog* privilege, you can set up a connection to Alation to import
-column descriptions, column verification status, table descriptions, and table verification status. This information appears when you click on the corresponding table or column under *Search data*. Once connected, metadata information is visible to all users.
+column descriptions, column verification status, table descriptions, and table verification status. This information appears when you click on the corresponding table or column in *Search data*. Once connected, metadata information is visible to all users.
 
 [#9-5-0-cl-coms]
 [discrete]
@@ -176,11 +190,23 @@ NEEDS EVALUATION
 
 // Mary
 
+In this release, role based access controls are available through ThoughtSpot Support. ThoughtSpot delivers RBAC with some default roles to help your organization transition to these new access controls. These roles include the TSAdmin role "(super-admin)" and TSE support roles.
+
+RBAC features are disabled by default and available through ThoughtSpot Support.Once RBAC is enabled, you cannot return to your previous access controls.
+For more information about ThoughtSpot Sage, see RBAC in ThoughtSpot.
+
 [#9-5-0-cl-rbac-granular]
 [discrete]
 === RBAC - Tennable Prod: Introduction of roles and more granular privileges for admin
 
 // Mary
+
+In this release, role based access controls are available through ThoughtSpot Support.
+
+RBAC in ThoughtSpot allows you to manage access controls at a more granular level. Once enabled, your ThoughtSpot administrator can assign roles to users and groups to manage the content that they see in ThoughtSpot.
+
+RBAC features are disabled by default and available through ThoughtSpot Support.Once RBAC is enabled, you cannot return to your previous access controls.
+For more information about ThoughtSpot Sage, see RBAC in ThoughtSpot.
 
 [#9-5-0-cl-tab]
 [discrete]
