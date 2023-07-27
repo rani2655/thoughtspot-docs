@@ -30,13 +30,27 @@ endif::[]
 
 // Mark
 
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-3-0-cl-sage]
+[discrete]
+=== ThoughtSpot Sage [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-3-0-cl-sage]
+[discrete]
+=== ThoughtSpot Sage [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
 [#9-5-0-cl-expressibility]
 [discrete]
-=== Natural language search: "vs", "growth of", "trend"
+==== Natural language search: "vs", "growth of", "trend"
 
 // Naomi
 
 We have improved the behavior of queries containing the keywords "vs", "growth of", and "trend" in natural language search.
+
+endif::free-trial-feature[]
 
 [#9-5-0-cl-pivot]
 [discrete]
@@ -145,7 +159,7 @@ endif::[]
 // Naomi
 
 You can now import metadata information related to your tables and columns from Alation into ThoughtSpot. From the *Data* tab, you can set up a connection to Alation to import
-column descriptions, column verification status, table descriptions, and table verification status. This information appears when you click on the corresponding table or column under *Search data*.
+column descriptions, column verification status, table descriptions, and table verification status. This information appears when you click on the corresponding table or column in *Search data*.
 For more information, see
 ifndef::pendo-links[]
 xref:catalog-integration.adoc[Catalog integration].
@@ -214,6 +228,7 @@ In this release, role based access controls are available through ThoughtSpot Su
 
 RBAC features are disabled by default and available through ThoughtSpot Support.Once RBAC is enabled, you cannot return to your previous access controls.
 For more information about ThoughtSpot Sage, see RBAC in ThoughtSpot.
+
 [#9-5-0-cl-rbac-granular]
 [discrete]
 === RBAC - Tennable Prod: Introduction of roles and more granular privileges for admin
@@ -323,7 +338,7 @@ endif::[]
 
 [#9-5-0-cl-feedback]
 [discrete]
-=== Feedback improvements: Fragments, new icons
+=== Feedback improvements: Fragments
 
 // Naomi
 
