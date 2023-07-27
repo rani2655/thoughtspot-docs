@@ -12,24 +12,6 @@ endif::free-trial-feature[]
 
 [#primary-9-5-0-cl]
 
-ifndef::pendo-links[]
-[#9-5-0-cl-redesign]
-[discrete]
-=== Global navigation redesign [.badge.badge-early-access]#Early Access#
-endif::[]
-ifdef::pendo-links[]
-[#9-5-0-cl-redesign]
-[discrete]
-=== Global navigation redesign [.badge.badge-early-access-whats-new]#Early Access#
-endif::[]
-
-
-[#9-5-0-cl-home-page]
-[discrete]
-=== Home page refresh
-
-// Mark
-
 [#9-5-0-cl-expressibility]
 [discrete]
 === Natural language search: "vs", "growth of", and "trend"
@@ -212,33 +194,9 @@ NEEDS EVALUATION
 
 // Mark
 
-[#9-5-0-cl-orgs]
-[discrete]
-=== Migrating Free Trial/ Team Edition to Orgs
-
-// Mark -- scal-149521
-
-[#9-5-0-cl-orgs-migration]
-[discrete]
-=== Orgs 1.5: Migration Free Trial / Team Edition to Orgs
-
-// Mark -- scal-143251
-
-[#9-5-0-cl-admin]
-[discrete]
-=== Free Trial / Team Edition admin panel for Orgs 1.5
-
-// Mark
-
 [#9-5-0-cl-switcher]
 [discrete]
 === Redesigned org switcher for new UI experience
-
-// Mark
-
-[#9-5-0-cl-saml]
-[discrete]
-=== Org scoped SAML (Orgs 1.5) PRO
 
 // Mark
 
