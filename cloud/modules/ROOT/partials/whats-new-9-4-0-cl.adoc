@@ -24,6 +24,7 @@ ifdef::pendo-links[]
 === ThoughtSpot Sage [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 
+[discrete]
 ==== Natural language search improvements
 
 // Naomi. Release notes only?? screenshot pointing out the changes. Move to the top. Rename: natural language search. Check if early access or GA (sage features). Clarify the "interactive" point, what can you do now.
