@@ -210,12 +210,21 @@ NEEDS EVALUATION
 === RBAC - Migration of TSADMIN and TSE support / default roles
 
 // Mary
+In this release, role based access controls are available through ThoughtSpot Support. ThoughtSpot delivers RBAC with some default roles to help your organization transition to these new access controls. These roles include the TSAdmin role "(super-admin)" and TSE support roles. 
 
+RBAC features are disabled by default and available through ThoughtSpot Support.Once RBAC is enabled, you cannot return to your previous access controls.
+For more information about ThoughtSpot Sage, see RBAC in ThoughtSpot.
 [#9-5-0-cl-rbac-granular]
 [discrete]
 === RBAC - Tennable Prod: Introduction of roles and more granular privileges for admin
 
 // Mary
+In this release, role based access controls are available through ThoughtSpot Support.
+
+RBAC in ThoughtSpot allows you to manage access controls at a more granular level. Once enabled, your ThoughtSpot administrator can assign roles to users and groups to manage the content that they see in ThoughtSpot.
+
+RBAC features are disabled by default and available through ThoughtSpot Support.Once RBAC is enabled, you cannot return to your previous access controls.
+ For more information about ThoughtSpot Sage, see RBAC in ThoughtSpot.
 
 [#9-5-0-cl-tab]
 [discrete]
