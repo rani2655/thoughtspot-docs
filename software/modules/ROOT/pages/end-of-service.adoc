@@ -11,46 +11,58 @@ This page provides the end-of-service dates for each ThoughtSpot Software releas
 |Release number |Release date |End-of-service date
 
 |6.3 and earlier
-|11/25/2020 (6.3)
-|02/22/2022
+|November 25, 2020 (6.3)
+|February 22, 2022
 
 |7.0.0.mar.sw
-|04/07/2021
-|04/30/2022
+|April 7, 2021
+|April 30, 2022
 
 |7.0.1.jun.sw
-|07/09/2021
-|04/30/2022
+|July 9, 2021
+|April 30, 2022
 
 |7.0.1.CU1
-|09/10/21
-|04/30/2022
+|September 10, 2021
+|April 30, 2022
 
 |7.1.0.aug.sw
-|09/10/2021
-|09/01/2022
+|September 10, 2021
+|September 1, 2022
 
 |7.1.0.CU1
-|09/30/2021
-|09/01/2022
+|September 30, 2021
+|September 1, 2022
 
 |7.1.1.nov.sw
-|11/30/2021
-|09/01/2022
+|November 30, 2021
+|September 1, 2022
 
 |7.1.1.CU1
-|02/22/2022
-|09/01/2022
+|February 22, 2022
+|September 1, 2022
 
 |7.2.0.jan.sw
-|02/01/2022
-|09/23/2022
+|February 1, 2022
+|September 23, 2022
 
 |7.2.1.apr.sw
-|04/30/2022
-|09/23/2022
+|April 30, 2022
+|September 23, 2022
 
 |7.2.1.CU1
-|07/05/2022
-|09/23/2022
+|July 5, 2022
+|September 23, 2022
+
+|8.4.1.sw
+|September 1, 2022
+|May 15, 2023
+
+|8.8.1.sw
+|December 14, 2022
+|September 2023 (planned)
+
+|9.0.1.sw
+|May 15, 2023
+|March 2023 (planned)
 |===
