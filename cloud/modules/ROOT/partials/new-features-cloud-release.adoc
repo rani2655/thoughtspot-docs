@@ -17,6 +17,8 @@ For these instructions, see xref:ts-cloud-getting-started.adoc[Getting Started w
 [#9-5-0-cl-analyst]
 === For the Analyst
 
+Improved multi-tab PDF export from Liveboards:: Previously, you couldn’t export a liveboard with more than 40 visualizations, even if they were across multiple tabs. Starting in this release, you can now export a Liveboard with more than 40 visualizations, as long a single tab has no more than 40 visualizations.
+
 
 [#9-5-0-cl-business-user]
 === For the Business User
