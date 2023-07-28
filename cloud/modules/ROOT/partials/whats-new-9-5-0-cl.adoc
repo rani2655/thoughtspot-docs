@@ -305,14 +305,8 @@ NEEDS EVALUATION
 In this release, the Fivetran SpotApp is GA.The Fivetran SpotApp helps you move data from applications like Salesforce, ServiceNow, Jira and others into a cloud data warehouse to make it easier for you to use the SpotApps designed for those applications.
 You log in, create an elt job and start syncing the data to your cloud data warehouse directly from the SpotApps page in ThoughtSpot.
 
-
 // Mark
 
-// [#9-5-0-cl-tml]
-// [discrete]
-// === Connection TML support BE
-
-// Mark
 
 ifndef::pendo-links[]
 [#9-5-0-cl-]
