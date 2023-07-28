@@ -12,7 +12,7 @@ endif::free-trial-feature[]
 
 [#primary-9-5-0-cl]
 
-ifndef::free-trial-feature[]
+
 ifndef::pendo-links[]
 [#9-3-0-cl-sage]
 [discrete]
@@ -32,7 +32,7 @@ endif::[]
 
 We have improved the behavior of queries containing the keywords "vs", "growth of", and "trend" in natural language search.
 
-endif::free-trial-feature[]
+
 
 [#9-5-0-cl-pivot]
 [discrete]
