@@ -208,9 +208,12 @@ RBAC in ThoughtSpot allows you to manage access controls at a more granular leve
 RBAC features are disabled by default and available through ThoughtSpot Support.Once RBAC is enabled, you cannot return to your previous access controls.
 For more information about ThoughtSpot Sage, see RBAC in ThoughtSpot.
 
-// [#9-5-0-cl-tab]
-// [discrete]
-// === Multi-tab PDF export
+[#9-5-0-cl-tab]
+[discrete]
+=== Improved multi-tab PDF export from Liveboards
+
+Previously, you couldn’t export a liveboard with more than 40 visualizations, even if they were across multiple tabs. Starting in this release, you can now export a Liveboard with more than 40 visualizations, as long a single tab has no more than 40 visualizations.
+
 
 
 // Mark (waiting for info)
