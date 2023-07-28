@@ -275,7 +275,7 @@ Redshift now supports external OAuth through Microsoft Azure AD.
 
 When creating a Liveboard, you can now designate attribute filters as single-select, in addition to multi-select. For example, you could choose to make a Country filter single-select, so users would only see data related to one country at a time.
 
-image::filter-single-value.png[The filter editing window shows options to create multi-select or single-select filters]
+image::single-select.gif[When you set a filter to single-select, visitors to the Liveboard can select one filter value at a time]
 
 
 
