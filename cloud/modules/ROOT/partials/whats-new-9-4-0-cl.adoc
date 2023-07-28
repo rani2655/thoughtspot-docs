@@ -32,8 +32,10 @@ endif::[]
 We made the following changes to the natural language search feature:
 
 * Redesigned search results page. Filtering facets are now in the left panel.
-* You can now interact with the Answers created by natural language search, including sorting values and drilling down.
 * Title and descriptions are now automatically created when you save an AI Answer.
+* You can now interact with the Answers created by natural language search, including sorting values and drilling down.
++
+image:nls-drilldown.png[Natural language search answer with a drilldown option]
 
 Sage features are disabled by default and available for administrators to enable in the Admin Console.
 
@@ -53,7 +55,7 @@ endif::free-trial-feature[]
 [discrete]
 === Contextual change analysis
 
-// Naomi-- add image. clarify if it needs to be enabled by admin or if it's fully GA.
+// Naomi
 
 // GA in 9.4.0.cl
 
@@ -93,7 +95,7 @@ ifdef::pendo-links[]
 xref:custom-groups.adoc[Custom groups,window=_blank].
 endif::[]
 
-image::reusable-groups.png[Reusable group example]
+image::custom-groups.gif[Reusable group creation process]
 endif::free-trial-feature[]
 
 
