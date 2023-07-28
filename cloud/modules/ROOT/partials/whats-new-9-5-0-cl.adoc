@@ -12,45 +12,20 @@ endif::free-trial-feature[]
 
 [#primary-9-5-0-cl]
 
-ifndef::pendo-links[]
-[#9-5-0-cl-redesign]
-[discrete]
-=== Global navigation redesign [.badge.badge-early-access]#Early Access#
-endif::[]
-ifdef::pendo-links[]
-[#9-5-0-cl-redesign]
-[discrete]
-=== Global navigation redesign [.badge.badge-early-access-whats-new]#Early Access#
-endif::[]
 
 
-[#9-5-0-cl-home-page]
-[discrete]
-=== Home page refresh
 
-// Mark
+[#9-5-0-cl-sage]
+[discrete]
+=== ThoughtSpot Sage
 
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
-[#9-3-0-cl-sage]
-[discrete]
-=== ThoughtSpot Sage [.badge.badge-early-access]#Early Access#
-endif::[]
-ifdef::pendo-links[]
-[#9-3-0-cl-sage]
-[discrete]
-=== ThoughtSpot Sage [.badge.badge-early-access-whats-new]#Early Access#
-endif::[]
-
-[#9-5-0-cl-expressibility]
-[discrete]
 ==== Natural language search: "vs", "growth of", "trend"
 
 // Naomi
 
-We have improved the behavior of queries containing the keywords "vs", "growth of", and "trend" in natural language search.
+The following keywords are now supported in natural language search: "vs", "growth of", and "trend".
 
-endif::free-trial-feature[]
+
 
 [#9-5-0-cl-pivot]
 [discrete]
@@ -69,24 +44,7 @@ We made the following enhancements to pivot table charts:
 +
 image::pivot-table-summary.png[An image showing a pivot table with summaries for each row and column]
 
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
-[#9-5-0-cl-webhooks]
-[discrete]
-=== Webhooks for KPI monitor alerts [.badge.badge-beta]#Beta#
-endif::[]
-ifdef::pendo-links[]
-[#9-5-0-cl-webhooks]
-[discrete]
-=== Webhooks for KPI monitor alerts [.badge.badge-beta-whats-new]#Beta#
-endif::[]
 
-// Naomi
-
-
-You can create webhooks to initiate workflows in third-party applications based on KPI changes, or send KPI alert notifications to custom channels. For example, if you are monitoring a "current inventory" KPI for an inventory management use case, you can build a workflow to trigger an order placement in a third-party app when your current inventory drops below a particular threshold value. Webhooks for Monitor is in beta and off by default. To enable it, contact {support-url}.
-
-endif::free-trial-feature[]
 
 
 [#9-5-0-cl-date-picker]
@@ -111,28 +69,22 @@ image::chart-select-toggle.png[A chart with the chart configuration option open,
 
 [#9-5-0-cl-gridline]
 [discrete]
-=== Gridlines enabled by default
+=== Chart display enhancements
 
-// Naomi
+// Naomi-- get screenshot displaying both changes. Highlight the setting in chart configuration, focus on the lines for zero values.
 
-When you create bar and column charts and slice by color, ThoughtSpot automatically enables gridlines to make the chart easier to read. We now display lines on the axis to represent very small values and zero values.
+When you create bar and column charts and slice by color, ThoughtSpot automatically enables gridlines to make the chart easier to read. You can choose to disable gridlines under the chart configuration menu. We now display lines on the axis to represent very small values and zero values.
 
 image::chart-gridlines.png[A column chart with X-axis gridlines enabled]
 
-[#9-5-0-cl-parameters]
-[discrete]
-=== Editing in-use parameters
 
-// Naomi
-
-When using a parameter in a Search, Answer, or Liveboard, you can now change the allowed values type (for example, from *List* to *Range*). You can also add or delete values from a list parameter while it's in use, or increase or decrease the minimum and maximum values in a range parameter. We do not support changing the data type of the parameter (for example, from `INT` to `DATE`).
 
 
 [#9-5-0-cl-locale]
 [discrete]
 === English (Germany) locale
 
-Set your ThoughtSpot locale to English (Germany). ThoughtSpot changes your data format settings, such as currency and number formatting, and translates keywords, ThoughtSpot menu and navigation items, operators, and error messages. For the English (Germany) locale, dates are shown in day.month.year format (for example, 15.06.2023), and numbers use a period for the thousands separator and a comma for the decimal separator (for example, 1.095,25). To try it out, navigate to your profile, and edit your system language.
+Set your ThoughtSpot locale to English (Germany). ThoughtSpot changes your data format settings, such as currency and number formatting, and translates keywords, ThoughtSpot menu and navigation items, operators, and error messages. To try it out, navigate to your profile, and edit your system language.
 
 [#9-5-0-cl-filters]
 [discrete]
@@ -140,77 +92,33 @@ Set your ThoughtSpot locale to English (Germany). ThoughtSpot changes your data 
 
 // Naomi
 
-You can now edit the display name of filters on Liveboards to better represent your data. To try it out, click the *Edit* icon on a Liveboard, click the filter you want to rename, select *Filter options*, enter the new name under *Filter display name*, and click *Apply*. Then click *Save* in the upper right corner.
+You can now edit the display name of filters on Liveboards to better represent your data. To try it out, click the *Edit* icon on a Liveboard, click the filter you want to rename, select *Filter options*.
 
 image::filter-rename.gif[An animation of the process of editing a filter name]
 
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
-[#9-5-0-cl-alation]
-[discrete]
-=== Data catalog integration [.badge.badge-beta]#Beta#
-endif::[]
-ifdef::pendo-links[]
-[#9-5-0-cl-alation]
-[discrete]
-=== Data catalog integration [.badge.badge-beta-whats-new]#Beta#
-endif::[]
 
-// Naomi
-
-You can now import metadata information related to your tables and columns from Alation into ThoughtSpot. From the *Data* tab, you can set up a connection to Alation to import
-column descriptions, column verification status, table descriptions, and table verification status. This information appears when you click on the corresponding table or column in *Search data*.
-For more information, see
-ifndef::pendo-links[]
-xref:catalog-integration.adoc[Catalog integration].
-endif::[]
-ifdef::pendo-links[]
-xref:catalog-integration.adoc[Catalog integration,window=_blank].
-endif::[]
-
-endif::free-trial-feature[]
 
 [#9-5-0-cl-coms]
 [discrete]
-=== Integrate monitor emails with COMS service
+=== Monitor alerts in ThoughtSpot notifications
 
 // Naomi
 
 You can now see notifications for threshold and anomaly alerts in the ThoughtSpot notification service, rather than receiving emails.
 
-[#9-5-0-cl-mobile-session]
-[discrete]
-=== Support longer sessions for mobile app on ThoughtSpot Cloud
-
-// Naomi
-
-We have extended the length of mobile sessions on ThoughtSpot Cloud. If a user visits the mobile app at least once every two weeks, they will no longer be logged out.
-
-
-
 [#9-5-0-cl-mobile]
 [discrete]
-=== Metrics on mobile
+=== Mobile enhancements
 
 // Naomi
 
-We have introduced a Watchlist tab on Mobile to make it easier for users to follow important metrics. This watchlist is synced with user sessions on the ThoughtSpot site, and you can add or remove KPIs from your watchlist by selecting or deselecting the heart icon that appears when you open the KPI chart.
+We made the following enhancements to ThoughtSpot Mobile:
 
-[#9-5-0-cl-magiclink]
-[discrete]
-=== Mobile login through Magic Link
+* We extended the length of mobile sessions on ThoughtSpot Cloud. If a user visits the mobile app at least once every two weeks, they will no longer be logged out.
 
-// Naomi
+* We introduced a Watchlist tab on Mobile to make it easier for users to follow important metrics.
 
-We simplified the log in process for the ThoughtSpot mobile app. You can now enter your company email to receive an email with a Magic Link login, rather than entering the server URL.
-
-[#9-5-0-cl-kpi]
-[discrete]
-=== KPI chart responsiveness
-
-// Naomi
-
-We have improved how KPI charts and sparkline visualizations respond to changes in browser size or Liveboard tile size.
+* We simplified the log in process for the ThoughtSpot mobile app. You can now enter your company email to receive an email with a Magic Link login, rather than entering the server URL.
 
 
 NEEDS EVALUATION
@@ -241,11 +149,6 @@ RBAC in ThoughtSpot allows you to manage access controls at a more granular leve
 RBAC features are disabled by default and available through ThoughtSpot Support.Once RBAC is enabled, you cannot return to your previous access controls.
  For more information about ThoughtSpot Sage, see RBAC in ThoughtSpot.
 
-[#9-5-0-cl-tab]
-[discrete]
-=== Multi-tab PDF export
-
-// Mark
 
 
 
@@ -296,6 +199,47 @@ RBAC features are disabled by default and available through ThoughtSpot Support.
 [#secondary-9-5-0-cl]
 [discrete]
 === _Other features and enhancements_
+
+[#9-5-0-cl-admin-portal]
+[discrete]
+=== Org-specific Liveboards for Essentials and Pro edition
+
+In a shared cluster for Essentials and Pro edition, an Org admin can now see the following Org-specific Liveboards:
+
+- Credit usage
+- Billable query stats
+- User adoption
+- Object usage
+- Performance tracking
+- Usage statistics
+
+// Mark
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-5-0-cl-alation]
+[discrete]
+=== Alation data catalog integration [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#9-5-0-cl-alation]
+[discrete]
+=== Alation data catalog integration [.badge.badge-beta-whats-new]#Beta#
+endif::[]
+
+// Naomi
+
+You can now import metadata information related to your tables and columns from Alation into ThoughtSpot. From the *Data* tab, you can set up a connection to Alation to import
+column descriptions, column verification status, table descriptions, and table verification status. This information appears when you click on the corresponding table or column in *Search data*.
+For more information, see
+ifndef::pendo-links[]
+xref:catalog-integration.adoc[Catalog integration].
+endif::[]
+ifdef::pendo-links[]
+xref:catalog-integration.adoc[Catalog integration,window=_blank].
+endif::[]
+
+endif::free-trial-feature[]
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
@@ -348,9 +292,28 @@ endif::[]
 
 // Naomi
 
-When creating a Liveboard, you can now designate attribute filters as single-select or multi-select. Multi-select filters allow users to choose more than one attribute from a list of possible values, while single-select filters allow a user to select only one value at a time. For example, you could choose to make a Country filter single-select, so users would only see data related to one country at a time. To try it out, click the *Edit* icon in the top right corner of the Liveboard, select *Add filter*, choose the column to filter, and select either *Multi-select* or *Single-select* under *Selection behavior*.
+When creating a Liveboard, you can now designate attribute filters as single-select, in addition to multi-select. For example, you could choose to make a Country filter single-select, so users would only see data related to one country at a time.
 
 image::filter-single-value.png[The filter editing window shows options to create multi-select or single-select filters]
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-5-0-cl-webhooks]
+[discrete]
+=== Webhooks for KPI monitor alerts [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#9-5-0-cl-webhooks]
+[discrete]
+=== Webhooks for KPI monitor alerts [.badge.badge-beta-whats-new]#Beta#
+endif::[]
+
+// Naomi
+
+
+You can create webhooks to initiate workflows in third-party applications based on KPI changes, or send KPI alert notifications to custom channels. For example, if you are monitoring a "current inventory" KPI for an inventory management use case, you can build a workflow to trigger an order placement in a third-party app when your current inventory drops below a particular threshold value. Webhooks for Monitor is in beta and off by default. To enable it, contact {support-url}.
+
+endif::free-trial-feature[]
 
 NEEDS EVALUATION
 
