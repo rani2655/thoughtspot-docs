@@ -13,24 +13,16 @@ endif::free-trial-feature[]
 [#primary-9-5-0-cl]
 
 
-ifndef::pendo-links[]
-[#9-3-0-cl-sage]
-[discrete]
-=== ThoughtSpot Sage [.badge.badge-early-access]#Early Access#
-endif::[]
-ifdef::pendo-links[]
-[#9-3-0-cl-sage]
-[discrete]
-=== ThoughtSpot Sage [.badge.badge-early-access-whats-new]#Early Access#
-endif::[]
 
-[#9-5-0-cl-expressibility]
+[#9-5-0-cl-sage]
 [discrete]
+=== ThoughtSpot Sage
+
 ==== Natural language search: "vs", "growth of", and "trend"
 
-// Naomi
+// Naomi-- check if Sage is GA or EA.
 
-We have improved the behavior of queries containing the keywords "vs", "growth of", and "trend" in natural language search.
+The following keywords are now supported in natural language search: "vs", "growth of", and "trend".
 
 
 
@@ -62,7 +54,7 @@ ifdef::pendo-links[]
 === Webhooks for KPI monitor alerts [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
-// Naomi
+// Naomi-- move to other features
 
 
 You can create webhooks to initiate workflows in third-party applications based on KPI changes, or send KPI alert notifications to custom channels. For example, if you are monitoring a "current inventory" KPI for an inventory management use case, you can build a workflow to trigger an order placement in a third-party app when your current inventory drops below a particular threshold value. Webhooks for Monitor is in beta and off by default. To enable it, contact {support-url}.
@@ -78,73 +70,79 @@ Date picker is now GA and on by default. We added support for rolling, fixed, an
 image:date-picker.png[Date picker for Answers]
 
 
-[#9-5-0-cl-auto-chart]
+[#9-5-0-cl-data-panel]
 [discrete]
-=== Deprecate automatically selected chart
+=== New data panel GA
 
-// Naomi
+// shorten. add an image. remove "beta in this release"
 
-We are deprecating the *Automatically select my chart* toggle at the bottom of the chart type selection panel. Once you select a chart type, ThoughtSpot retains the chart type as you make changes to the search query. For cases where the search query can no longer render as the same chart type (due to the removal of necessary attributes or measures), ThoughtSpot automatically selects a chart type that can render based on the query.
+The new data panel experience is GA in this release. In the Search data page, you now see a short description of your selected data source which helps you understand the kinds of answers you can get from that data source. This is part of the new data panel experience, which is in beta in this release.
 
-image::chart-select-toggle.png[A chart with the chart configuration option open, showing the *Automatically select my chart* toggle]
+Data source information includes the name, description, Liveboards created using the data source (if available), tags or classifications (if available), metadata, and experts (top users).
+
+Column information includes the name, description, synonyms (if available), column type, sample values, Parameters, and more.
+
+All of this information saves you time, by helping you find the right data source for the question you want to ask. For more information, see Start a new search with column and data source overview.
+
+// Mark
+
 
 [#9-5-0-cl-gridline]
 [discrete]
-=== Gridlines enabled by default
+=== Chart display enhancements
 
-// Naomi
+// Naomi-- get screenshot displaying both changes. Highlight the setting in chart configuration, focus on the lines for zero values.
 
-When you create bar and column charts and slice by color, ThoughtSpot automatically enables gridlines to make the chart easier to read. We now display lines on the axis to represent very small values and zero values.
+When you create bar and column charts and slice by color, ThoughtSpot automatically enables gridlines to make the chart easier to read. You can choose to disable gridlines under the chart configuration menu. We now display lines on the axis to represent very small values and zero values.
 
 image::chart-gridlines.png[A column chart with X-axis gridlines enabled]
 
-[#9-5-0-cl-parameters]
-[discrete]
-=== Editing in-use parameters
 
-// Naomi
-
-When using a parameter in a Search, you can now change the allowed values type (for example, from *List* to *Range*). You can also add or delete values from a list parameter while it's in use.
 
 [#9-5-0-cl-locale]
 [discrete]
 === English (Germany) locale
 
-Set your ThoughtSpot locale to English (Germany). ThoughtSpot changes your data format settings, such as currency and number formatting, and translates keywords, ThoughtSpot menu and navigation items, operators, and error messages. For the English (Germany) locale, dates are shown in day.month.year format (for example, 15.06.2023), and numbers use a period for the thousands separator and a comma for the decimal separator (for example, 1.095,25). To try it out, navigate to your profile, and edit your system language.
+// Naomi-- push to bottom, don't put in as much detail
+
+Set your ThoughtSpot locale to English (Germany). ThoughtSpot changes your data format settings, such as currency and number formatting, and translates keywords, ThoughtSpot menu and navigation items, operators, and error messages. To try it out, navigate to your profile, and edit your system language.
 
 [#9-5-0-cl-filters]
 [discrete]
 === Rename filters on a Liveboard
 
-// Naomi
+// Naomi-- move up. shorten description of steps.
 
-You can now edit the display name of filters on Liveboards to better represent your data. To try it out, click the *Edit* icon on a Liveboard, click the filter you want to rename, select *Filter options*, enter the new name under *Filter display name*, and click *Apply*. Then click *Save* in the upper right corner.
+You can now edit the display name of filters on Liveboards to better represent your data. To try it out, click the *Edit* icon on a Liveboard, click the filter you want to rename, and select *Filter options*.
 
 image::filter-rename.gif[An animation of the process of editing a filter name]
 
 ifndef::pendo-links[]
 [#9-5-0-cl-alation]
 [discrete]
-=== Data catalog integration [.badge.badge-beta]#Beta#
+=== Alation data catalog integration [.badge.badge-beta]#Beta#
 endif::[]
 ifdef::pendo-links[]
 [#9-5-0-cl-alation]
 [discrete]
-=== Data catalog integration [.badge.badge-beta-whats-new]#Beta#
+=== Alation data catalog integration [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
-// Naomi
+// Naomi-- move to other features and enhancements. title rename. add image of the knowledge card with info, red box around new metadata.
 
-You can now import metadata information related to your tables and columns from Alation into ThoughtSpot. From the *Data* tab, if you have the *can manage catalog* privilege, you can set up a connection to Alation to import
+You can now import metadata information related to your tables and columns from Alation into ThoughtSpot. From the *Data* tab, users with the *can manage catalog* privilege can set up a connection to Alation to import
 column descriptions, column verification status, table descriptions, and table verification status. This information appears when you click on the corresponding table or column in *Search data*. Once connected, metadata information is visible to all users.
 
 [#9-5-0-cl-coms]
 [discrete]
-=== Integrate monitor emails with COMS service
+=== Monitor alerts in ThoughtSpot notifications
 
-// Naomi
+// Naomi-- check if this needs to be enabled from profile
 
 You can now see notifications for threshold and anomaly alerts in the ThoughtSpot notification service, rather than receiving emails.
+
+
+// one Mobile enhancement title, enhancements in bullet points.
 
 [#9-5-0-cl-mobile-session]
 [discrete]
@@ -168,49 +166,44 @@ We have introduced a Watchlist tab on Mobile to make it easier for users to foll
 [discrete]
 === Mobile login through Magic Link
 
-// Naomi
+// Naomi-- change description of magic link-- custom url? custom link?
 
-We simplified the log in process for the ThoughtSpot mobile app. You can now enter your company email to receive an email with a Magic Link login, rather than entering the server URL.
-
-[#9-5-0-cl-kpi]
-[discrete]
-=== KPI chart responsiveness
-
-// Naomi
-
-We have improved how KPI charts and sparkline visualizations respond to changes in browser size or Liveboard tile size.
-
-NEEDS EVALUATION
+We simplified the log in process for the ThoughtSpot mobile app. You can now enter your company email to receive an email with a magic link login, rather than entering the server URL.
 
 
 
-[#9-5-0-cl-rbac]
-[discrete]
-=== RBAC - Migration of TSADMIN and TSE support / default roles
-
-// Mary
-
-In this release, role based access controls are available through ThoughtSpot Support. ThoughtSpot delivers RBAC with some default roles to help your organization transition to these new access controls. These roles include the TSAdmin role "(super-admin)" and TSE support roles.
-
-RBAC features are disabled by default and available through ThoughtSpot Support.Once RBAC is enabled, you cannot return to your previous access controls.
-For more information about ThoughtSpot Sage, see RBAC in ThoughtSpot.
 
 [#9-5-0-cl-rbac-granular]
 [discrete]
 === RBAC - Tennable Prod: Introduction of roles and more granular privileges for admin
 
-// Mary
+// Mary-- rename heading
 
 In this release, role based access controls are available through ThoughtSpot Support.
 
 RBAC in ThoughtSpot allows you to manage access controls at a more granular level. Once enabled, your ThoughtSpot administrator can assign roles to users and groups to manage the content that they see in ThoughtSpot.
 
-RBAC features are disabled by default and available through ThoughtSpot Support.Once RBAC is enabled, you cannot return to your previous access controls.
+RBAC features are disabled by default and available through ThoughtSpot Support. Once RBAC is enabled, you cannot return to your previous access controls.
 For more information about ThoughtSpot Sage, see RBAC in ThoughtSpot.
+
+[#9-5-0-cl-rbac]
+[discrete]
+=== RBAC - Migration of TSADMIN and TSE support / default roles
+
+// Mary-- rename heading
+
+In this release, role based access controls are available through ThoughtSpot Support. ThoughtSpot delivers RBAC with some default roles to help your organization transition to these new access controls. These roles include the TSAdmin role "(super-admin)" and TSE support roles.
+
+RBAC features are disabled by default and available through ThoughtSpot Support. Once RBAC is enabled, you cannot return to your previous access controls.
+For more information about ThoughtSpot Sage, see RBAC in ThoughtSpot.
+
+
 
 [#9-5-0-cl-tab]
 [discrete]
 === Improved multi-tab PDF export from Liveboards
+
+// take out. move to release notes in 9.5
 
 Previously, you couldn’t export a liveboard with more than 40 visualizations, even if they were across multiple tabs. Starting in this release, you can now export a Liveboard with more than 40 visualizations, as long a single tab has no more than 40 visualizations.
 
@@ -218,25 +211,16 @@ Previously, you couldn’t export a liveboard with more than 40 visualizations, 
 
 // Mark (waiting for info)
 
-[#9-5-0-cl-data-panel]
+
+
+
+
+
+
+'''
+[#secondary-9-5-0-cl]
 [discrete]
-=== New data panel GA
-
-The new data panel experience is GA in this release. In the Search data page, you now see a short description of your selected data source which helps you understand the kinds of answers you can get from that data source. This is part of the new data panel experience, which is in beta in this release.
-
-Data source information includes the name, description, Liveboards created using the data source (if available), tags or classifications (if available), metadata, and experts (top users).
-
-Column information includes the name, description, synonyms (if available), column type, sample values, Parameters, and more.
-
-All of this information saves you time, by helping you find the right data source for the question you want to ask. For more information, see Start a new search with column and data source overview.
-
-// Mark
-
-[#9-5-0-cl-switcher]
-[discrete]
-=== Redesigned org switcher for new UI experience
-
-// Mary
+=== _Other features and enhancements_
 
 [#9-5-0-cl-admin-portal]
 [discrete]
@@ -252,12 +236,6 @@ In a shared cluster for Essentials and Pro edition, an Org admin can now see the
 - Usage statistics
 
 // Mark
-
-
-'''
-[#secondary-9-5-0-cl]
-[discrete]
-=== _Other features and enhancements_
 
 ifndef::pendo-links[]
 [#9-5-0-cl-connections]
@@ -287,26 +265,28 @@ Redshift now supports external OAuth through Microsoft Azure AD.
 [discrete]
 === Feedback improvements: Fragments
 
-// Naomi
+// Naomi-- move up to natural language search? check if it's the external-facing name
 
 [#9-5-0-cl-filter]
 [discrete]
 === Single value selection for attribute filters
 
-// Naomi
+// Naomi-- add in a gif showing how to create the filter, then what it looks like to enter a Liveboard with single-select.
 
-When creating a Liveboard, you can now designate attribute filters as single-select or multi-select. Multi-select filters allow users to choose more than one attribute from a list of possible values, while single-select filters allow a user to select only one value at a time. For example, you could choose to make a Country filter single-select, so users would only see data related to one country at a time. To try it out, click the *Edit* icon in the top right corner of the Liveboard, select *Add filter*, choose the column to filter, and select either *Multi-select* or *Single-select* under *Selection behavior*.
+When creating a Liveboard, you can now designate attribute filters as single-select, in addition to multi-select. For example, you could choose to make a Country filter single-select, so users would only see data related to one country at a time.
 
 image::filter-single-value.png[The filter editing window shows options to create multi-select or single-select filters]
 
-NEEDS EVALUATION
+
 
 [#9-5-0-cl-spotapp]
 [discrete]
 === Fivetran SpotApp GA
 
+// shorten if possible
+
 In this release, the Fivetran SpotApp is GA.The Fivetran SpotApp helps you move data from applications like Salesforce, ServiceNow, Jira and others into a cloud data warehouse to make it easier for you to use the SpotApps designed for those applications.
-You log in, create an elt job and start syncing the data to your cloud data warehouse directly from the SpotApps page in ThoughtSpot.
+You log in, create an ELT job and start syncing the data to your cloud data warehouse directly from the SpotApps page in ThoughtSpot.
 
 // Mark
 
