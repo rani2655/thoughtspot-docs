@@ -43,21 +43,7 @@ We made the following enhancements to pivot table charts:
 +
 image::pivot-table-summary.png[An image showing a pivot table with summaries for each row and column]
 
-ifndef::pendo-links[]
-[#9-5-0-cl-webhooks]
-[discrete]
-=== Webhooks for KPI monitor alerts [.badge.badge-beta]#Beta#
-endif::[]
-ifdef::pendo-links[]
-[#9-5-0-cl-webhooks]
-[discrete]
-=== Webhooks for KPI monitor alerts [.badge.badge-beta-whats-new]#Beta#
-endif::[]
 
-// Naomi-- move to other features
-
-
-You can create webhooks to initiate workflows in third-party applications based on KPI changes, or send KPI alert notifications to custom channels. For example, if you are monitoring a "current inventory" KPI for an inventory management use case, you can build a workflow to trigger an order placement in a third-party app when your current inventory drops below a particular threshold value. Webhooks for Monitor is in beta and off by default. To enable it, contact {support-url}.
 
 [#9-5-0-cl-date-picker]
 [discrete]
@@ -86,6 +72,16 @@ All of this information saves you time, by helping you find the right data sourc
 
 // Mark
 
+[#9-5-0-cl-filters]
+[discrete]
+=== Rename filters on a Liveboard
+
+// Naomi-- move up. shorten description of steps.
+
+You can now edit the display name of filters on Liveboards to better represent your data. To try it out, click the *Edit* icon on a Liveboard, click the filter you want to rename, and select *Filter options*.
+
+image::filter-rename.gif[An animation of the process of editing a filter name]
+
 
 [#9-5-0-cl-gridline]
 [discrete]
@@ -99,39 +95,8 @@ image::chart-gridlines.png[A column chart with X-axis gridlines enabled]
 
 
 
-[#9-5-0-cl-locale]
-[discrete]
-=== English (Germany) locale
 
-// Naomi-- push to bottom, don't put in as much detail
 
-Set your ThoughtSpot locale to English (Germany). ThoughtSpot changes your data format settings, such as currency and number formatting, and translates keywords, ThoughtSpot menu and navigation items, operators, and error messages. To try it out, navigate to your profile, and edit your system language.
-
-[#9-5-0-cl-filters]
-[discrete]
-=== Rename filters on a Liveboard
-
-// Naomi-- move up. shorten description of steps.
-
-You can now edit the display name of filters on Liveboards to better represent your data. To try it out, click the *Edit* icon on a Liveboard, click the filter you want to rename, and select *Filter options*.
-
-image::filter-rename.gif[An animation of the process of editing a filter name]
-
-ifndef::pendo-links[]
-[#9-5-0-cl-alation]
-[discrete]
-=== Alation data catalog integration [.badge.badge-beta]#Beta#
-endif::[]
-ifdef::pendo-links[]
-[#9-5-0-cl-alation]
-[discrete]
-=== Alation data catalog integration [.badge.badge-beta-whats-new]#Beta#
-endif::[]
-
-// Naomi-- move to other features and enhancements. title rename. add image of the knowledge card with info, red box around new metadata.
-
-You can now import metadata information related to your tables and columns from Alation into ThoughtSpot. From the *Data* tab, users with the *can manage catalog* privilege can set up a connection to Alation to import
-column descriptions, column verification status, table descriptions, and table verification status. This information appears when you click on the corresponding table or column in *Search data*. Once connected, metadata information is visible to all users.
 
 [#9-5-0-cl-coms]
 [discrete]
@@ -144,31 +109,19 @@ You can now see notifications for threshold and anomaly alerts in the ThoughtSpo
 
 // one Mobile enhancement title, enhancements in bullet points.
 
-[#9-5-0-cl-mobile-session]
-[discrete]
-=== Support longer sessions for mobile app on TS Cloud
-
-// Naomi
-
-We have extended the length of mobile sessions on TS Cloud. If a user visits the mobile app at least once every two weeks, they will no longer be logged out.
-
-
-
 [#9-5-0-cl-mobile]
 [discrete]
-=== Metrics on mobile
+=== Mobile enhancements
 
 // Naomi
 
-We have introduced a Watchlist tab on Mobile to make it easier for users to follow important metrics. This watchlist is synced with user sessions on the ThoughtSpot site, and you can add or remove KPIs from your watchlist by selecting or deselecting the heart icon that appears when you open the KPI chart.
+We made the following changes to ThoughtSpot mobile:
 
-[#9-5-0-cl-magiclink]
-[discrete]
-=== Mobile login through Magic Link
+* We have extended the length of mobile sessions on TS Cloud. If a user visits the mobile app at least once every two weeks, they will no longer be logged out.
 
-// Naomi-- change description of magic link-- custom url? custom link?
+* We have introduced a Watchlist tab on Mobile to make it easier for users to follow important metrics.
 
-We simplified the log in process for the ThoughtSpot mobile app. You can now enter your company email to receive an email with a magic link login, rather than entering the server URL.
+* We simplified the log in process for the ThoughtSpot mobile app. You can now enter your company email to receive an email with a magic link login, rather than entering the server URL.
 
 
 
@@ -213,7 +166,13 @@ Previously, you couldn’t export a liveboard with more than 40 visualizations, 
 
 
 
+[#9-5-0-cl-locale]
+[discrete]
+=== English (Germany) locale
 
+// Naomi-- push to bottom, don't put in as much detail
+
+Set your ThoughtSpot locale to English (Germany). ThoughtSpot changes your data format settings, such as currency and number formatting, and translates keywords, ThoughtSpot menu and navigation items, operators, and error messages. To try it out, navigate to your profile, and edit your system language.
 
 
 
@@ -236,6 +195,38 @@ In a shared cluster for Essentials and Pro edition, an Org admin can now see the
 - Usage statistics
 
 // Mark
+
+ifndef::pendo-links[]
+[#9-5-0-cl-webhooks]
+[discrete]
+=== Webhooks for KPI monitor alerts [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#9-5-0-cl-webhooks]
+[discrete]
+=== Webhooks for KPI monitor alerts [.badge.badge-beta-whats-new]#Beta#
+endif::[]
+
+// Naomi
+
+
+You can create webhooks to initiate workflows in third-party applications based on KPI changes, or send KPI alert notifications to custom channels. For example, if you are monitoring a "current inventory" KPI for an inventory management use case, you can build a workflow to trigger an order placement in a third-party app when your current inventory drops below a particular threshold value. Webhooks for Monitor is in beta and off by default. To enable it, contact {support-url}.
+
+ifndef::pendo-links[]
+[#9-5-0-cl-alation]
+[discrete]
+=== Alation data catalog integration [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#9-5-0-cl-alation]
+[discrete]
+=== Alation data catalog integration [.badge.badge-beta-whats-new]#Beta#
+endif::[]
+
+// Naomi-- add image of the knowledge card with info, red box around new metadata.
+
+You can now import metadata information related to your tables and columns from Alation into ThoughtSpot. From the *Data* tab, users with the *can manage catalog* privilege can set up a connection to Alation to import
+column descriptions, column verification status, table descriptions, and table verification status. This information appears when you click on the corresponding table or column in *Search data*. Once connected, metadata information is visible to all users.
 
 ifndef::pendo-links[]
 [#9-5-0-cl-connections]
