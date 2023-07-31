@@ -57,35 +57,6 @@ Date picker is now GA and on by default. We added support for rolling, fixed, an
 
 image:date-picker.png[Date picker for Answers]
 
-[#9-5-0-cl-auto-chart]
-[discrete]
-=== Deprecate automatically selected chart
-
-// Naomi
-
-We are deprecating the *Automatically select my chart* toggle at the bottom of the chart type selection panel. Once you select a chart type, ThoughtSpot retains the chart type as you make changes to the search query. For cases where the search query can no longer render as the same chart type (due to the removal of necessary attributes or measures), ThoughtSpot automatically selects a chart type that can render based on the query.
-
-image::chart-select-toggle.png[A chart with the chart configuration option open, showing the *Automatically select my chart* toggle]
-
-[#9-5-0-cl-gridline]
-[discrete]
-=== Chart display enhancements
-
-// Naomi-- get screenshot displaying both changes. Highlight the setting in chart configuration, focus on the lines for zero values.
-
-When you create bar and column charts and slice by color, ThoughtSpot automatically enables gridlines to make the chart easier to read. You can choose to disable gridlines under the chart configuration menu. We now display lines on the axis to represent very small values and zero values.
-
-image::chart-gridlines.png[A column chart with X-axis gridlines enabled]
-
-
-
-
-[#9-5-0-cl-locale]
-[discrete]
-=== English (Germany) locale
-
-Set your ThoughtSpot locale to English (Germany). ThoughtSpot changes your data format settings, such as currency and number formatting, and translates keywords, ThoughtSpot menu and navigation items, operators, and error messages. To try it out, navigate to your profile, and edit your system language.
-
 [#9-5-0-cl-filters]
 [discrete]
 === Rename filters on a Liveboard
@@ -96,6 +67,15 @@ You can now edit the display name of filters on Liveboards to better represent y
 
 image::filter-rename.gif[An animation of the process of editing a filter name]
 
+[#9-5-0-cl-gridline]
+[discrete]
+=== Chart display enhancements
+
+// Naomi-- get screenshot displaying both changes. Highlight the setting in chart configuration, focus on the lines for zero values.
+
+When you create bar and column charts and slice by color, ThoughtSpot automatically enables gridlines to make the chart easier to read. You can choose to disable gridlines under the chart configuration menu. We now display lines on the axis to represent very small values and zero values.
+
+image::chart-gridlines.png[A column chart with X-axis gridlines enabled]
 
 
 [#9-5-0-cl-coms]
@@ -121,7 +101,6 @@ We made the following enhancements to ThoughtSpot Mobile:
 * We simplified the log in process for the ThoughtSpot mobile app. You can now enter your company email to receive an email with a Magic Link login, rather than entering the server URL.
 
 
-NEEDS EVALUATION
 
 
 
@@ -194,6 +173,12 @@ RBAC features are disabled by default and available through ThoughtSpot Support.
 
 // Mark
 
+[#9-5-0-cl-locale]
+[discrete]
+=== English (Germany) locale
+
+Set your ThoughtSpot locale to English (Germany). ThoughtSpot changes your data format settings, such as currency and number formatting, and translates keywords, ThoughtSpot menu and navigation items, operators, and error messages. To try it out, navigate to your profile, and edit your system language.
+
 
 '''
 [#secondary-9-5-0-cl]
@@ -214,6 +199,25 @@ In a shared cluster for Essentials and Pro edition, an Org admin can now see the
 - Usage statistics
 
 // Mark
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-5-0-cl-webhooks]
+[discrete]
+=== Webhooks for KPI monitor alerts [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#9-5-0-cl-webhooks]
+[discrete]
+=== Webhooks for KPI monitor alerts [.badge.badge-beta-whats-new]#Beta#
+endif::[]
+
+// Naomi
+
+
+You can create webhooks to initiate workflows in third-party applications based on KPI changes, or send KPI alert notifications to custom channels. For example, if you are monitoring a "current inventory" KPI for an inventory management use case, you can build a workflow to trigger an order placement in a third-party app when your current inventory drops below a particular threshold value. Webhooks for Monitor is in beta and off by default. To enable it, contact {support-url}.
+
+endif::free-trial-feature[]
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
@@ -284,7 +288,7 @@ endif::[]
 [discrete]
 === Feedback improvements: Fragments
 
-// Naomi
+// Naomi-- move up to nls? Check if external-facing name
 
 [#9-5-0-cl-filter]
 [discrete]
@@ -294,28 +298,9 @@ endif::[]
 
 When creating a Liveboard, you can now designate attribute filters as single-select, in addition to multi-select. For example, you could choose to make a Country filter single-select, so users would only see data related to one country at a time.
 
-image::filter-single-value.png[The filter editing window shows options to create multi-select or single-select filters]
-
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
-[#9-5-0-cl-webhooks]
-[discrete]
-=== Webhooks for KPI monitor alerts [.badge.badge-beta]#Beta#
-endif::[]
-ifdef::pendo-links[]
-[#9-5-0-cl-webhooks]
-[discrete]
-=== Webhooks for KPI monitor alerts [.badge.badge-beta-whats-new]#Beta#
-endif::[]
-
-// Naomi
+image::single-select.gif[The filter editing window shows options to create multi-select or single-select filters]
 
 
-You can create webhooks to initiate workflows in third-party applications based on KPI changes, or send KPI alert notifications to custom channels. For example, if you are monitoring a "current inventory" KPI for an inventory management use case, you can build a workflow to trigger an order placement in a third-party app when your current inventory drops below a particular threshold value. Webhooks for Monitor is in beta and off by default. To enable it, contact {support-url}.
-
-endif::free-trial-feature[]
-
-NEEDS EVALUATION
 
 [#9-5-0-cl-spotapp]
 [discrete]
