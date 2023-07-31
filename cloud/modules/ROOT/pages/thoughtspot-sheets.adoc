@@ -89,7 +89,7 @@ Once your data is in Sheets, you can use our free companion add-on, https://work
 
 == ThoughtSpot Connected Slides
 
-You can now insert ThoughtSpot charts and live data visualizations right into your Google Slides presentation.
+ThoughtSpot Connected Slides is an add-on that allows you to insert charts and live data visualizations right into your Google Slides presentation.
 
 image::sheets-connected-slides.png[A google slide displaying ThoughtSpot add-in in the right sidebar]
 
