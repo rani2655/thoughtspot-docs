@@ -55,6 +55,7 @@ The ThoughtSpot search bar and data panel appear.
 
 video::8kDoPiKqRdA[youtube,width=80%]
 
+[#sheets-connected]
 == ThoughtSpot Connected Sheets(TM)
 
 ThoughtSpot Connected Sheets is an add-on that allows you to connect to a ThoughtSpot instance, pull data directly into a Google Sheet from trusted data sources connected to that instance (like Snowflake, Google BigQuery(TM), DataBricks, and others), and use the tools in Google Sheets(TM) for ad-hoc analysis.
@@ -87,6 +88,7 @@ If you chose the free trial option, you'll come back to this page after you sign
 Once your data is in Sheets, you can use our free companion add-on, https://workspace.google.com/u/0/marketplace/app/thoughtspot/941046147383[*ThoughtSpot Analytics for Google Sheets*^], to easily create charts, visualizations, get AI-insights, and share with others using Google Slides(TM), Slack, and more.
 ****
 
+[#slides-connected]
 == ThoughtSpot Connected Slides
 
 ThoughtSpot Connected Slides is an add-on that allows you to insert charts and live data visualizations right into your Google Slides presentation.
