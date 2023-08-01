@@ -126,6 +126,8 @@ Default;; `false`
 
 `flexible`::
   (optional) Whether input data file exactly matches target schema.
+[NOTE]
+The flexible option is not available for columnar formats such as parquet and orc.
 +
 When `true`, attempts to load like this:
 +
