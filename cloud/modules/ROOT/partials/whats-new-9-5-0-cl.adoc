@@ -55,6 +55,14 @@ image::pivot-table-summary.png[An image showing a pivot table with summaries for
 
 Date picker is now GA and on by default. We added support for rolling, fixed, and custom date filters when creating an Answer or filtering a Liveboard. Previously, when adding a date filter to a Search, ThoughtSpot supported the conditions `ON (=)`, `ON OR AFTER (>=)`, `BEFORE (<)`, and `BETWEEN`. Now, you can additionally filter for `ON OR BEFORE (\<=)`, `NOT BETWEEN`, `ON LAST`, and `ON NEXT`. To try it out, click the filter icon next to the Date column in the left side menu, or click the date filter below the Answer or Liveboard title.
 
+For more information, see
+ifndef::pendo-links[]
+xref:date-filter.adoc[Date filters for Answers and Liveboards].
+endif::[]
+ifdef::pendo-links[]
+xref:date-filter.adoc[Date filters for Answers and Liveboards,window=_blank].
+endif::[]
+
 image:date-picker.png[Date picker for Answers]
 
 [#9-5-0-cl-filters]
@@ -177,7 +185,13 @@ RBAC features are disabled by default and available through ThoughtSpot Support.
 [discrete]
 === English (Germany) locale
 
-Set your ThoughtSpot locale to English (Germany). ThoughtSpot changes your data format settings, such as currency and number formatting, and translates keywords, ThoughtSpot menu and navigation items, operators, and error messages. To try it out, navigate to your profile, and edit your system language.
+Set your ThoughtSpot locale to English (Germany). ThoughtSpot changes your data format settings, such as currency and number formatting, and translates keywords, ThoughtSpot menu and navigation items, operators, and error messages. To try it out, navigate to your profile, and edit your system language. For more information, see
+ifndef::pendo-links[]
+xref:user-profile.adoc#language[Change language and data format settings].
+endif::[]
+ifdef::pendo-links[]
+xref:user-profile.adoc#language[Change language and data format settings,window=_blank].
+endif::[]
 
 
 '''
