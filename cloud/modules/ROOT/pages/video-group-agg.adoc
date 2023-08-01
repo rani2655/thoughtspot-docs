@@ -1,7 +1,0 @@
-= VIDEO: Flexible group aggregation
-:page-layout: default-cloud
-
-image::flex-form.png[link="https://docs.thoughtspot.com/cloud/latest/flex-group-agg", window=_blank]
-
-
-
