@@ -323,6 +323,7 @@ We now display Liveboard tabs in the ThoughtSpot Mobile app. To create a Liveboa
 
 In this release, worksheet formulas can now be indexed by setting *Suggest values in search* to *Yes* for the formula.
 
+ifndef::pendo-links[]
 [#9-4-0-cl-data-fluency]
 [discrete]
 === Admin controls for new data panel experience [.badge.badge-early-access]#Early Access#

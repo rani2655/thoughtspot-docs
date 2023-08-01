@@ -119,7 +119,7 @@ To enable or disable the new Answer experience, follow these steps:
 [#new-answer-data-panel-experience]
 == Manage your Answer data panel experience
 
-The xref:source-choose-data-source.adoc#search-choose-data-source-data-fluency[new Answer data panel experience] is on by default, if your administrator enabled it.
+The xref:search-choose-data-source.adoc#search-choose-data-source-data-fluency[new Answer data panel experience] is on by default, if your administrator enabled it.
 You can turn it on or off from the *Experience* section of your profile.
 If that option is not available, contact your administrator.
 
