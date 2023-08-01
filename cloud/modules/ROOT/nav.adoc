@@ -462,7 +462,6 @@
 *** xref:chart-data-markers.adoc[Show data markers]
 *** xref:chart-regression-line.adoc[Add regression lines]
 *** xref:chart-gridlines.adoc[Display gridlines]
-*** xref:chart-lock-type.adoc[Disable automatic selection of chart type]
 *** xref:chart-zoom.adoc[Zoom into chart]
 * xref:formulas.adoc[Formulas]
 ** xref:formula-add.adoc[Add formula to search]

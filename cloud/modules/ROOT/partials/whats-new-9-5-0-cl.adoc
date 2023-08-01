@@ -49,7 +49,7 @@ image::pivot-table-summary.png[An image showing a pivot table with summaries for
 
 [#9-5-0-cl-date-picker]
 [discrete]
-=== Date picker GA
+=== Date picker
 
 // Naomi-- scal-140672
 
@@ -106,7 +106,7 @@ We made the following enhancements to ThoughtSpot Mobile:
 
 * We introduced a Watchlist tab on Mobile to make it easier for users to follow important metrics.
 
-* We simplified the log in process for the ThoughtSpot mobile app. You can now enter your company email to receive an email with a Magic Link login, rather than entering the server URL.
+* We simplified the log in process for the ThoughtSpot mobile app. You can now enter your company email to receive an email with a magic link login, rather than entering the server URL.
 
 
 
