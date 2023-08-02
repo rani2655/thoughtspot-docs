@@ -16,7 +16,7 @@ Learn how to install a ThoughtSpot cluster in a VMware environment.
 
 This page explains how to install a ThoughtSpot cluster in a VMware VSphere Hypervisor (ESXi) 6.5 or 6.7 environment.
 
-ThoughtSpot certifies *VMware 6.5* for ThoughtSpot versions 6.0 and later. ThoughtSpot certifies *VMware 6.7* for ThoughtSpot versions 7.1.0.CU1 and later.
+ThoughtSpot certifies *VMware 6.5* for ThoughtSpot versions 6.0 and later. ThoughtSpot certifies *VMware 6.7* for ThoughtSpot versions 7.1.0.CU1 and later. ThoughtSpot certifies *VMware 7.0* for ThoughtSpot versions 8.4.1.sw, 8.8.1.sw, and later.
 
 NOTE: We do not support older versions of ESXi because of hardware/driver incompatibility issues.
 
