@@ -60,6 +60,7 @@ NOTE: For RHEL deployments on online clusters, the ansible playbook upgrades the
 * [*_RHEL 7 or 8 or OEL_*] VMware:
 ** xref:vmware.adoc[Configuration options]
 ** xref:vmware-installing.adoc[]
+
 [#linux-kernel-version]
 === Linux kernel version
 
