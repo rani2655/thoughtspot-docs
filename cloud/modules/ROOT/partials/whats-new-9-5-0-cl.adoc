@@ -19,12 +19,14 @@ endif::free-trial-feature[]
 [discrete]
 === ThoughtSpot Sage
 
-==== Natural language search: "vs", "growth of", "trend"
+==== Natural language search enhancements
 
 // Naomi
+We made the following enhancements to natural language search:
 
-The following keywords are now supported in natural language search: "vs", "growth of", and "trend".
+* The following keywords are now supported in natural language search: "vs", "growth of", and "trend".
 
+* ThoughtSpot now stores feedback in order to correctly answer related questions. For example, if you correct the column used in an Answer about annual recurring revenue for 2023, ThoughtSpot uses the correct column in Answers about annual recurring revenue for 2022 and 2021.
 
 
 [#9-5-0-cl-pivot]
@@ -297,12 +299,6 @@ endif::[]
 ifdef::pendo-links[]
 xref:connections-redshift-azure-ad-oauth.adoc[Configure Azure AD external OAuth for a Redshift connection,window=_blank].
 endif::[]
-
-[#9-5-0-cl-feedback]
-[discrete]
-=== Feedback improvements: Fragments
-
-// Naomi-- move up to nls? Check if external-facing name
 
 [#9-5-0-cl-filter]
 [discrete]
