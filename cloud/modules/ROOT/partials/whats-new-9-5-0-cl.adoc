@@ -18,11 +18,15 @@ endif::free-trial-feature[]
 [discrete]
 === ThoughtSpot Sage
 
-==== Natural language search: "vs", "growth of", and "trend"
+==== Natural language search enhancements
 
 // Naomi-- check if Sage is GA or EA.
 
-The following keywords are now supported in natural language search: "vs", "growth of", and "trend".
+We made the following enhancements to natural language search:
+
+* The following keywords are now supported in natural language search: "vs", "growth of", and "trend".
+
+* ThoughtSpot now stores feedback in order to correctly answer related questions. For example, if you correct the column used in an Answer about annual recurring revenue for 2023, ThoughtSpot uses the correct column in Answers about annual recurring revenue for 2022 and 2021.
 
 
 
@@ -251,12 +255,6 @@ You can now create connections from ThoughtSpot to SingleStore.
 
 Redshift now supports external OAuth through Microsoft Azure AD.
 
-
-[#9-5-0-cl-feedback]
-[discrete]
-=== Feedback improvements: Fragments
-
-// Naomi-- move up to natural language search? check if it's the external-facing name
 
 [#9-5-0-cl-filter]
 [discrete]
