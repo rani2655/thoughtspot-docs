@@ -81,7 +81,7 @@ image::filter-rename.gif[An animation of the process of editing a filter name]
 
 // Naomi-- get screenshot displaying both changes. Highlight the setting in chart configuration, focus on the lines for zero values.
 
-When you create bar and column charts and slice by color, ThoughtSpot automatically enables gridlines to make the chart easier to read. You can choose to disable gridlines under the chart configuration menu. We now display lines on the axis to represent very small values and zero values.
+When you create bar and column charts and slice by color, ThoughtSpot automatically enables gridlines to make the chart easier to read. You can choose to disable gridlines under the chart configuration menu.
 
 image::chart-gridlines.png[A column chart with X-axis gridlines enabled]
 
