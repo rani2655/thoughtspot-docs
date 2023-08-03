@@ -323,6 +323,7 @@ We now display Liveboard tabs in the ThoughtSpot Mobile app. To create a Liveboa
 
 In this release, worksheet formulas can now be indexed by setting *Suggest values in search* to *Yes* for the formula.
 
+ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-4-0-cl-data-fluency]
 [discrete]
@@ -337,7 +338,7 @@ endif::[]
 // Mark -- move to other features and enhancements. add image of admin panel. may not need to call out data fluency
 
 ThoughtSpot admins now have more control for enabling the new data panel experience for users. In this release, admins can now make the new answer data panel experience default for all users of a cluster, by going to *Admin* > *Search & SpotIQ* and setting the *Make new answer data panel experience default* to *Enabled*.
-
+endif::free-trial-feature[]
 
 
 ifndef::free-trial-feature[]
