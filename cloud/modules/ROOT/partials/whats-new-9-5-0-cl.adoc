@@ -274,8 +274,8 @@ image::single-select.gif[When you set a filter to single-select, visitors to the
 
 // shorten if possible
 
-In this release, the Fivetran SpotApp is GA.The Fivetran SpotApp helps you move data from applications like Salesforce, ServiceNow, Jira and others into a cloud data warehouse to make it easier for you to use the SpotApps designed for those applications.
-You log in, create an ELT job and start syncing the data to your cloud data warehouse directly from the SpotApps page in ThoughtSpot.
+In this release, the Fivetran SpotApp is GA. The Fivetran SpotApp helps you move data from applications like Salesforce, ServiceNow, Jira and others into a cloud data warehouse to make it easier for you to use the SpotApps designed for those applications.
+
 
 // Mark
 
