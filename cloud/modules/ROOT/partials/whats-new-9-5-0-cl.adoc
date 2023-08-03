@@ -170,16 +170,16 @@ NEEDS EVALUATION
 
 
 
+[#9-5-0-cl-rbac-granular]
+[discrete]
+=== RBAC - Introduction of roles and more granular privileges for admin
+ThoughtSpot introduces RBAC to allow for more granular level privileges. Use roles to apply privileges customized for your organization.
+// Mary
+
 [#9-5-0-cl-rbac]
 [discrete]
 === RBAC - Migration of TSADMIN and TSE support / default roles
-
-// Mary
-
-[#9-5-0-cl-rbac-granular]
-[discrete]
-=== RBAC - Tennable Prod: Introduction of roles and more granular privileges for admin
-
+ThoughtSpot includes some standard roles to help your organization transition to RBAC. Roles for administrators and support are included.
 // Mary
 
 [#9-5-0-cl-tab]
