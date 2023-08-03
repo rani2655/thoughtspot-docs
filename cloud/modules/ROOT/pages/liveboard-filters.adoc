@@ -30,7 +30,7 @@ Refer to xref:liveboard-filters-linked.adoc[Linked Liveboard filters].
 
 NOTE: Filters automatically apply to all tabs in the Liveboard. To specify certain tabs or visualizations that the filter should apply to, refer to xref:liveboard-filters-selective.adoc[].
 
-ThoughtSpot also supports <<cross-filter,ad-hoc filtering>>, so you can filter the data on your Liveboard by selecting a data point on any visualization in the Liveboard. These ad-hoc cross filters are not permanent, and do not appear to other users of the Liveboard.
+ThoughtSpot also supports ad-hoc filtering, so you can filter the data on your Liveboard by selecting a data point on any visualization in the Liveboard. These ad-hoc cross filters are not permanent, and do not appear to other users of the Liveboard.
 
 == Create a Liveboard filter
 

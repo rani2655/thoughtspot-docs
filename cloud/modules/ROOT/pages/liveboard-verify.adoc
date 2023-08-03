@@ -23,7 +23,7 @@ All verifiers with view or edit access to the Liveboard and at least view access
 
 Once a verifier receives a verification request email, they can click the *View Liveboard* button to be directed to the Liveboard. After reviewing the Liveboard, they can click *Approve* to mark the Liveboard as verified.
 
-If someone begins to edit the Liveboard after it has been verified, a splash warning message is shown to the editor to inform them that a warning banner will be added to the Liveboard if edits are made and saved. This banner will appear both when editing a verified Liveboard or when editing an answer on a verified Liveboard. If the editor continues and saves the edit on a verified Liveboard, a banner appears in the top of the screen indicating that changes have been made and the Liveboard may need to be verified again. This banner persists until the Liveboard is re-verified.
+If someone begins to edit the Liveboard after it has been verified, a splash warning message is shown to the editor to inform them that a warning banner will be added to the Liveboard if edits are made and saved. This banner will appear both when editing a verified Liveboard or when editing an answer on a verified Liveboard. If the editor continues and saves the edit on a verified Liveboard, a banner appears at the top of the screen indicating that changes have been made and the Liveboard may need to be verified again. This banner persists until the Liveboard is re-verified.
 
 Authors and editors of the Liveboard can request verification again once this banner appears. The re-verification request is sent to the verifier who originally verified the Liveboard unless the requestor adds more verifiers to the re-verification request
 
