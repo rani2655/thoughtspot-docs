@@ -216,34 +216,7 @@ ifdef::pendo-links[]
 link:https://community.thoughtspot.com/s/article/How-to-convert-Headlines-to-KPI-charts[How to convert Headlines to KPI charts,window=_blank].
 endif::[]
 
-[#9-4-0-cl-sheets]
-[discrete]
-=== ThoughtSpot for Connected Sheets add-on
-
-// Mark -- take out trademark?
-
-ThoughtSpot Connected Sheets is an add-on for Google Sheets that allows you to connect to a ThoughtSpot instance, pull data directly into a Google Sheet from trusted data sources connected to that instance (like Snowflake, Google BigQuery, DataBricks, and others), and use the tools in Google Sheets for ad-hoc analysis. See
-ifndef::pendo-links[]
-xref:thoughtspot-sheets.adoc#sheets-connected[ThoughtSpot Connected Sheets].
-endif::[]
-ifdef::pendo-links[]
-xref:thoughtspot-sheets.adoc#sheets-connected[ThoughtSpot Connected Sheets,window=_blank].
-endif::[]
-
-[#9-4-0-cl-slides]
-[discrete]
-=== ThoughtSpot for Connected Slides add-on
-
-// Mark -- take out trademark?
-
-ThoughtSpot Connected Slides is an add-on for Google Slides that allows you to connect to a ThoughtSpot instance, and insert charts and live data visualizations right into your Google Slides presentation. See
-ifndef::pendo-links[]
-xref:thoughtspot-sheets.adoc#slides-connected[ThoughtSpot Connected Slides].
-endif::[]
-ifdef::pendo-links[]
-xref:thoughtspot-sheets.adoc#slides-connected[ThoughtSpot Connected Slides,window=_blank].
-endif::[]
-
+// removed sheets and slides article per nico
 
 [#9-4-0-cl-onboarding]
 [discrete]
