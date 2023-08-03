@@ -156,20 +156,6 @@ For more information about ThoughtSpot Sage, see RBAC in ThoughtSpot.
 
 
 
-[#9-5-0-cl-tab]
-[discrete]
-=== Improved multi-tab PDF export from Liveboards
-
-// take out. move to release notes in 9.5
-
-Previously, you couldn’t export a liveboard with more than 40 visualizations, even if they were across multiple tabs. Starting in this release, you can now export a Liveboard with more than 40 visualizations, as long a single tab has no more than 40 visualizations.
-
-
-
-// Mark (waiting for info)
-
-
-
 [#9-5-0-cl-locale]
 [discrete]
 === English (Germany) locale
@@ -272,10 +258,8 @@ image::single-select.gif[When you set a filter to single-select, visitors to the
 [discrete]
 === Fivetran SpotApp GA
 
-// shorten if possible
+In this release, the Fivetran SpotApp is GA. The Fivetran SpotApp helps you move data from applications like Salesforce, ServiceNow, Jira and others into a cloud data warehouse to make it easier for you to use the SpotApps designed for those applications.
 
-In this release, the Fivetran SpotApp is GA.The Fivetran SpotApp helps you move data from applications like Salesforce, ServiceNow, Jira and others into a cloud data warehouse to make it easier for you to use the SpotApps designed for those applications.
-You log in, create an ELT job and start syncing the data to your cloud data warehouse directly from the SpotApps page in ThoughtSpot.
 
 // Mark
 
