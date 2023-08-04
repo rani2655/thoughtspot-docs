@@ -156,6 +156,19 @@ For more information about ThoughtSpot Sage, see RBAC in ThoughtSpot.
 
 
 
+
+[#9-5-0-cl-rbac-granular]
+[discrete]
+=== RBAC - Introduction of roles and more granular privileges for admin
+ThoughtSpot introduces RBAC to allow for more granular level privileges. Use roles to apply privileges customized for your organization.
+// Mary
+
+[#9-5-0-cl-rbac]
+[discrete]
+=== RBAC - Migration of TSADMIN and TSE support / default roles
+ThoughtSpot includes some standard roles to help your organization transition to RBAC. Roles for administrators and support are included.
+// Mary
+
 [#9-5-0-cl-locale]
 [discrete]
 === English (Germany) locale
