@@ -160,7 +160,7 @@ For more information about ThoughtSpot Sage, see RBAC in ThoughtSpot.
 [#9-5-0-cl-rbac-granular]
 [discrete]
 === Introduction of roles and more granular access privileges
-ThoughtSpot introduces rol-based access control (RBAC) to allow for more granular level privileges. Use roles to apply privileges customized for your organizational needs.
+ThoughtSpot introduces role-based access control (RBAC) to allow for more granular level privileges. Use roles to apply privileges customized for your organizational needs.
 ThoughtSpot includes some standard roles to help existing customers transition to RBAC.
 // Mary
 
