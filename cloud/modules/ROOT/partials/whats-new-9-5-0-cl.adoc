@@ -67,6 +67,18 @@ endif::[]
 
 image:date-picker.png[Date picker for Answers]
 
+[#9-5-0-cl-data-panel]
+[discrete]
+=== New data panel GA
+
+// shorten. add an image. remove "beta in this release"
+
+The new data panel experience is GA in this release. This is part of the Data Fluency feature.
+
+image:new_data_panel.png[new data panel]
+
+// Mark
+
 [#9-5-0-cl-filters]
 [discrete]
 === Rename filters on a Liveboard
