@@ -46,6 +46,11 @@ image:wa-county.png[Washington Counties in United States]
 [#add-geo-config]
 == How to edit geographic columns
 
+
+After loading the data, ThoughtSpot sets the geo config data under auto select, which automatically detects the type of geo data in the column and classifies it. You can also designate the column as a geographical data type when you xref:data-modeling-edit.adoc#[edit the system-wide data model].
+
+To manually set the geographical data type, follow these steps:
+
 . Find the *GEO CONFIG* for the column that contains the geographical data.
 . Select the *GEO CONFIG* for the column. The *Specify Geographic Configuration* dialog box appears.
 +
