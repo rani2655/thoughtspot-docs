@@ -1,8 +1,8 @@
 ifndef::pendo-links[]
-July 2023 [label label-dep]#9.4.0.cl#
+August 2023 [label label-dep]#9.4.0.cl#
 endif::[]
 ifdef::pendo-links[]
-[month-year-whats-new]#July 2023#
+[month-year-whats-new]#August 2023#
 [label label-dep-whats-new]#9.4.0.cl#
 endif::[]
 
@@ -16,14 +16,15 @@ ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-3-0-cl-sage]
 [discrete]
-=== ThoughtSpot Sage [.badge.badge-early-access]#Early Access#
+=== ThoughtSpot Sage
 endif::[]
 ifdef::pendo-links[]
 [#9-3-0-cl-sage]
 [discrete]
-=== ThoughtSpot Sage [.badge.badge-early-access-whats-new]#Early Access#
+=== ThoughtSpot Sage
 endif::[]
 
+[discrete]
 ==== Natural language search improvements
 
 // Naomi. Release notes only?? screenshot pointing out the changes. Move to the top. Rename: natural language search. Check if early access or GA (sage features). Clarify the "interactive" point, what can you do now.
@@ -31,8 +32,10 @@ endif::[]
 We made the following changes to the natural language search feature:
 
 * Redesigned search results page. Filtering facets are now in the left panel.
-* You can now interact with the Answers created by natural language search, including sorting values and drilling down.
 * Title and descriptions are now automatically created when you save an AI Answer.
+* You can now interact with the Answers created by natural language search, including sorting values and drilling down.
++
+image:nls-drilldown.png[Natural language search answer with a drilldown option]
 
 Sage features are disabled by default and available for administrators to enable in the Admin Console.
 
@@ -52,7 +55,7 @@ endif::free-trial-feature[]
 [discrete]
 === Contextual change analysis
 
-// Naomi-- add image. clarify if it needs to be enabled by admin or if it's fully GA.
+// Naomi
 
 // GA in 9.4.0.cl
 
@@ -92,7 +95,7 @@ ifdef::pendo-links[]
 xref:custom-groups.adoc[Custom groups,window=_blank].
 endif::[]
 
-image::reusable-groups.png[Reusable group example]
+image::custom-groups.gif[Reusable group creation process]
 endif::free-trial-feature[]
 
 
@@ -154,7 +157,7 @@ ifdef::pendo-links[]
 link:https://wiki.openstreetmap.org/wiki/List_of_territory_based_projects[Openstreetmap supported countries,window=_blank].
 endif::[]
 * We now support multiple levels of subdivisions within a country, rather than just city and zip code.
-* Zip code data is now visualized as an area within a region, rather than a point on a map.
+* Zip code data is now visualized as an area within a region, rather than a point on a map. You must select *Auto select* in the Geo config column of the source table or Worksheet to access this feature.
 * We now support visualizations comparing subdivisions of multiple countries in a single visualization. For example, if a selected column contains data from cities in the United States and Mexico, all data would be displayed on a single visualization.
 
 For more information, see
@@ -213,14 +216,7 @@ ifdef::pendo-links[]
 link:https://community.thoughtspot.com/s/article/How-to-convert-Headlines-to-KPI-charts[How to convert Headlines to KPI charts,window=_blank].
 endif::[]
 
-[#9-4-0-cl-sheets]
-[discrete]
-=== ThoughtSpot for Connected Sheets plugin
-
-// Mark -- take out trademark?
-
-ThoughtSpot Connected Sheets is an add-on that allows you to connect to a ThoughtSpot instance, pull data directly into a Google Sheet from trusted data sources connected to that instance (like Snowflake, Google BigQuery, DataBricks, and others), and use the tools in Google Sheets for ad-hoc analysis.
-
+// removed sheets and slides article per nico
 
 [#9-4-0-cl-onboarding]
 [discrete]
@@ -300,18 +296,23 @@ We now display Liveboard tabs in the ThoughtSpot Mobile app. To create a Liveboa
 
 In this release, worksheet formulas can now be indexed by setting *Suggest values in search* to *Yes* for the formula.
 
-
 ifndef::free-trial-feature[]
+ifndef::pendo-links[]
 [#9-4-0-cl-data-fluency]
 [discrete]
-=== Admin controls for new data panel experience
+=== Admin controls for new data panel experience [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-4-0-cl-data-fluency]
+[discrete]
+=== Admin controls for new data panel experience [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
 
 // Mark -- move to other features and enhancements. add image of admin panel. may not need to call out data fluency
 
-ThoughtSpot admins now have more control for enabling the new data panel experience for users. As before, an admin can enable the new data panel experience by going to *Admin* > *Early Access features*, and enabling *Data Fluency*. Each user can selectively enable the new data panel experience by going to their user profile, and setting the *Answer data experience* to *New experience*. In this release, admins can now make the new answer data panel experience default for all users of a cluster, by going to *Admin* > *Search & SpotIQ* and setting the *Make new answer data panel experience default* to *Enabled*.
+ThoughtSpot admins now have more control for enabling the new data panel experience for users. In this release, admins can now make the new answer data panel experience default for all users of a cluster, by going to *Admin* > *Search & SpotIQ* and setting the *Make new answer data panel experience default* to *Enabled*.
+endif::free-trial-feature[]
 
-image::dp-experience.png[data panel experience]
-endif::[]
 
 ifndef::free-trial-feature[]
 [#9-4-0-cl-indexing-queries]
