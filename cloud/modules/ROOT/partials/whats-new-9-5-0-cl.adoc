@@ -67,6 +67,18 @@ endif::[]
 
 image:date-picker.png[Date picker for Answers]
 
+[#9-5-0-cl-data-panel]
+[discrete]
+=== New data panel GA
+
+// shorten. add an image. remove "beta in this release"
+
+The new data panel experience is GA in this release. This is part of the Data Fluency feature.
+
+image:new_data_panel.png[new data panel]
+
+// Mark
+
 [#9-5-0-cl-filters]
 [discrete]
 === Rename filters on a Liveboard
@@ -111,77 +123,15 @@ We made the following enhancements to ThoughtSpot Mobile:
 * We simplified the log in process for the ThoughtSpot mobile app. You can now enter your company email to receive an email with a magic link login, rather than entering the server URL.
 
 
-
-
-
-
-
-[#9-5-0-cl-rbac]
-[discrete]
-=== RBAC - Migration of TSADMIN and TSE support / default roles
-
-// Mary
-In this release, role based access controls are available through ThoughtSpot Support. ThoughtSpot delivers RBAC with some default roles to help your organization transition to these new access controls. These roles include the TSAdmin role "(super-admin)" and TSE support roles. 
-
-RBAC features are disabled by default and available through ThoughtSpot Support.Once RBAC is enabled, you cannot return to your previous access controls.
-For more information about ThoughtSpot Sage, see RBAC in ThoughtSpot.
-
 [#9-5-0-cl-rbac-granular]
 [discrete]
-=== RBAC - Tennable Prod: Introduction of roles and more granular privileges for admin
-
+=== Introduction of roles and more granular access privileges
+ThoughtSpot introduces role-based access control (RBAC) to allow for more granular access privileges. Use roles to apply privileges customized for your organizational needs.
+ThoughtSpot includes some standard roles to help existing customers transition to RBAC.
 // Mary
-In this release, role based access controls are available through ThoughtSpot Support.
-
-RBAC in ThoughtSpot allows you to manage access controls at a more granular level. Once enabled, your ThoughtSpot administrator can assign roles to users and groups to manage the content that they see in ThoughtSpot.
-
-RBAC features are disabled by default and available through ThoughtSpot Support.Once RBAC is enabled, you cannot return to your previous access controls.
- For more information about ThoughtSpot Sage, see RBAC in ThoughtSpot.
 
 
 
-
-[#9-5-0-cl-data-panel]
-[discrete]
-=== Data literacy - Release of data panel
-
-// Mark
-
-[#9-5-0-cl-orgs]
-[discrete]
-=== Migrating Free Trial/ Team Edition to Orgs
-
-// Mark -- scal-149521
-
-[#9-5-0-cl-orgs-migration]
-[discrete]
-=== Orgs 1.5: Migration Free Trial / Team Edition to Orgs
-
-// Mark -- scal-143251
-
-[#9-5-0-cl-admin]
-[discrete]
-=== Free Trial / Team Edition admin panel for Orgs 1.5
-
-// Mark
-
-[#9-5-0-cl-switcher]
-[discrete]
-=== Redesigned org switcher for new UI experience
-
-// Mark
-
-[#9-5-0-cl-saml]
-[discrete]
-=== Org scoped SAML (Orgs 1.5) PRO
-
-// Mark
-
-[#9-5-0-cl-admin-portal]
-[discrete]
-=== Admin portal Liveboards to be Org-aware in shared clusters (essentials/ pro-edition)
-
-// Mark
 
 [#9-5-0-cl-locale]
 [discrete]
@@ -231,7 +181,13 @@ endif::[]
 // Naomi
 
 
-You can create webhooks to initiate workflows in third-party applications based on KPI changes, or send KPI alert notifications to custom channels. For example, if you are monitoring a "current inventory" KPI for an inventory management use case, you can build a workflow to trigger an order placement in a third-party app when your current inventory drops below a particular threshold value. Webhooks for Monitor is in beta and off by default. To enable it, contact {support-url}.
+You can create webhooks to initiate workflows in third-party applications based on KPI changes, or send KPI alert notifications to custom channels. For example, if you are monitoring a "current inventory" KPI for an inventory management use case, you can build a workflow to trigger an order placement in a third-party app when your current inventory drops below a particular threshold value. Webhooks for Monitor is in beta and off by default. To enable it, contact {support-url}. For more information, see
+ifndef::pendo-links[]
+xref:monitor-webhooks.adoc[Webhooks for Monitor].
+endif::[]
+ifdef::pendo-links[]
+xref:monitor-webhooks.adoc[Webhooks for Monitor,window=_blank].
+endif::[]
 
 endif::free-trial-feature[]
 
@@ -250,7 +206,7 @@ endif::[]
 // Naomi
 
 You can now import metadata information related to your tables and columns from Alation into ThoughtSpot. From the *Data* tab, you can set up a connection to Alation to import
-column descriptions, column verification status, table descriptions, and table verification status. This information appears when you click on the corresponding table or column in *Search data*.
+column descriptions, column verification status, table descriptions, and table verification status. This information appears when you click on the corresponding table or column in *Search data*. Once connected, metadata information is visible to all users.
 For more information, see
 ifndef::pendo-links[]
 xref:catalog-integration.adoc[Catalog integration].
@@ -318,17 +274,7 @@ image::single-select.gif[The filter editing window shows options to create multi
 
 // Mark
 
-[#9-5-0-cl-confidant]
-[discrete]
-=== Enable confidant vault for all clusters - GA
-
-// Mark
-
-[#9-5-0-cl-tml]
-[discrete]
-=== Connection TML support BE
-
-// Mark
+In this release, the Fivetran SpotApp is GA. The Fivetran SpotApp helps you move data from applications like Salesforce, ServiceNow, Jira and others into a cloud data warehouse to make it easier for you to use the SpotApps designed for those applications.
 
 
 
@@ -338,83 +284,23 @@ ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-5-0-cl-looker]
 [discrete]
-=== Looker: Query Gen and Search data changes [.badge.badge-early-access]#Early Access#
+=== Looker connection [.badge.badge-beta]#Beta#
 endif::[]
 ifdef::pendo-links[]
 [#9-5-0-cl-looker]
 [discrete]
-=== Looker: Query Gen and Search data changes [.badge.badge-early-access-whats-new]#Early Access#
+=== Looker [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
 // Mark
+
+In this release, you can now connect to Looker. Data engineers can use the Looker Modeler semantic layer to define their models and metrics using LookML, while business users can search and query the underlying Looker Explores.
 
 endif::free-trial-feature[]
 
 
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
-[#9-5-0-cl-]
-[discrete]
-=== Looker: Embrace connection [.badge.badge-early-access]#Early Access#
-endif::[]
-ifdef::pendo-links[]
-[#9-5-0-cl-]
-[discrete]
-=== Looker: Embrace connection [.badge.badge-early-access-whats-new]#Early Access#
-endif::[]
-
-// Mark
-
-endif::free-trial-feature[]
 
 
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
-[#9-5-0-cl-react]
-[discrete]
-=== Implement Develop Application on React Shell [.badge.badge-early-access]#Early Access#
-endif::[]
-ifdef::pendo-links[]
-[#9-5-0-cl-react]
-[discrete]
-=== Implement Develop Application on React Shell [.badge.badge-early-access-whats-new]#Early Access#
-endif::[]
-
-endif::free-trial-feature[]
-
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
-[#9-5-0-cl-react-shell]
-[discrete]
-=== Implement React Shell in business user application [.badge.badge-early-access]#Early Access#
-endif::[]
-ifdef::pendo-links[]
-[#9-5-0-cl-react-shell]
-[discrete]
-=== Implement React Shell in business user application [.badge.badge-early-access-whats-new]#Early Access#
-endif::[]
-
-endif::free-trial-feature[]
-
-[#9-5-0-cl-infra]
-[discrete]
-=== Upgrade time reduction - infrastructure workflow
-
-// Mark
-
-
-
-[#9-5-0-cl-hadoop]
-[discrete]
-=== Upgrade Hadoop 2 to Hadoop 3
-
-// Mark
-
-[#9-5-0-cl-sso]
-[discrete]
-=== HP SSO security findings
-
-// Mark
 
 
 
