@@ -270,11 +270,11 @@ image::single-select.gif[The filter editing window shows options to create multi
 
 [#9-5-0-cl-spotapp]
 [discrete]
-=== Spotapps Fivetran
+=== Fivetran connection to SpotApp
 
 // Mark
 
-In this release, the Fivetran SpotApp is GA. The Fivetran SpotApp helps you move data from applications like Salesforce, ServiceNow, Jira and others into a cloud data warehouse to make it easier for you to use the SpotApps designed for those applications.
+In this release, the Fivetran connection to SpotApp is GA. Fivetran  helps you move data from applications like Salesforce, ServiceNow, Jira and others into a cloud data warehouse to make it easier for you to use the SpotApps designed for those applications.
 
 
 
