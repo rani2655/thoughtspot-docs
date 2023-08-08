@@ -44,4 +44,4 @@ Any verifier can remove verification of a Liveboard. The verifier will see a *Re
 
 == Limitations
 
-In the 9.4.0.cl release, please reach out to your ThoughtSpot account managers to request them to enable the two verified Liveboard account-level flags to test this feature.
+In the 9.4.0.cl release, please reach out to {support-url} to request them to enable the two verified Liveboard account-level flags to test this feature.
