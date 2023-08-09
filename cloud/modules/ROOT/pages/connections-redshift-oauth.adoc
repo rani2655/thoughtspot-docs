@@ -10,6 +10,9 @@
 ThoughtSpot supports OAuth for an Amazon {connection} connection.
 {connection} supports federated authentication, enabling users from an identity provider (IDP) like Okta to authenticate to the database.
 
+IMPORTANT: Each ThoughtSpot instance requires a unique {connection} security integration.
+Each user in {connection} must have a default warehouse and default role.
+
 You configure the OpenID Connect(OIDC) provider in AWS IAM.
 OIDC does not require user credentials to be stored or passed from the client application.
 Users attempting a connection to {connection} are redirected to the IDP login page to authenticate and obtain an access token.
