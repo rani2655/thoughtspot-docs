@@ -69,7 +69,6 @@ The following list provides information about connecting to your data in support
 * xref:connections-redshift-delete-table-dependencies.adoc[Delete a table with object dependencies]
 * xref:connections-redshift-delete.adoc[Delete connection]
 * xref:connections-redshift-private-link.adoc[Enable a PrivateLink]
-* xref:connections-redshift-oauth.adoc[Configure OAuth]
 * xref:connections-redshift-passthrough.adoc[Passthrough functions]
 * xref:connections-redshift-reference.adoc[Connection reference]
 
