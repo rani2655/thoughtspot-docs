@@ -167,6 +167,8 @@ endif::[]
 
 * We now support visualizations comparing subdivisions of multiple countries in a single visualization. For example, if a selected column contains data from cities in the United States and Mexico, all data would be displayed on a single visualization.
 
+To enable these features, the *Geo config* property in the underlying Worksheet must be set to *Auto select*. All Worksheets created after 9.4.0.cl GA classify geographical data as *Auto select* by default.
+
 For more information, see
 ifndef::pendo-links[]
 xref:chart-geo.adoc#enhancement[Geo chart enhancements].
