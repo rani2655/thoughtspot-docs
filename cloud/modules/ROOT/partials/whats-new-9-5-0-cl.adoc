@@ -15,6 +15,7 @@ endif::free-trial-feature[]
 
 
 
+
 [#9-5-0-cl-sage]
 [discrete]
 === ThoughtSpot Sage
@@ -22,11 +23,13 @@ endif::free-trial-feature[]
 ==== Natural language search enhancements
 
 // Naomi
+
 We made the following enhancements to natural language search:
 
 * The following keywords are now supported in natural language search: "vs", "growth of", and "trend".
 
 * ThoughtSpot now stores feedback in order to correctly answer related questions. For example, if you correct the column used in an Answer about annual recurring revenue for 2023, ThoughtSpot uses the correct column in Answers about annual recurring revenue for 2022 and 2021.
+
 
 
 [#9-5-0-cl-pivot]
@@ -45,7 +48,6 @@ We made the following enhancements to pivot table charts:
 - You can now choose to show or hide row and column summaries and subtotals, from the chart configuration menu. When summaries and subtotals are enabled, you can choose to display them at the top or bottom of the pivot table.
 +
 image::pivot-table-summary.png[An image showing a pivot table with summaries for each row and column]
-
 
 
 
@@ -77,13 +79,14 @@ The new data panel experience is GA in this release. This is part of the Data Fl
 
 image:new_data_panel.png[new data panel]
 
-// Mark
+
+// Naomi-- move up. shorten description of steps.
+
 
 [#9-5-0-cl-filters]
 [discrete]
 === Rename filters on a Liveboard
 
-// Naomi
 
 You can now edit the display name of filters on Liveboards to better represent your data. To try it out, click the *Edit* icon on a Liveboard, click the filter you want to rename, select *Filter options*.
 
@@ -95,18 +98,22 @@ image::filter-rename.gif[An animation of the process of editing a filter name]
 
 // Naomi-- get screenshot displaying both changes. Highlight the setting in chart configuration, focus on the lines for zero values.
 
+
 When you create bar and column charts and slice by color, ThoughtSpot automatically enables gridlines to make the chart easier to read. You can choose to disable gridlines under the chart configuration menu.
 
+
 image::chart-gridlines.png[A column chart with X-axis gridlines enabled]
+
 
 
 [#9-5-0-cl-coms]
 [discrete]
 === Monitor alerts in ThoughtSpot notifications
 
-// Naomi
+// Naomi-- check if this needs to be enabled from profile
 
 You can now see notifications for threshold and anomaly alerts in the ThoughtSpot notification service, rather than receiving emails.
+
 
 [#9-5-0-cl-mobile]
 [discrete]
@@ -114,11 +121,13 @@ You can now see notifications for threshold and anomaly alerts in the ThoughtSpo
 
 // Naomi
 
+
 We made the following enhancements to ThoughtSpot Mobile:
 
 * We extended the length of mobile sessions on ThoughtSpot Cloud. If a user visits the mobile app at least once every two weeks, they will no longer be logged out.
 
 * We introduced a Watchlist tab on Mobile to make it easier for users to follow important metrics.
+
 
 * We simplified the log in process for the ThoughtSpot mobile app. You can now enter your company email to receive an email with a magic link login, rather than entering the server URL.
 
@@ -126,6 +135,7 @@ We made the following enhancements to ThoughtSpot Mobile:
 [#9-5-0-cl-rbac-granular]
 [discrete]
 === Introduction of roles and more granular access privileges
+
 ThoughtSpot introduces role-based access control (RBAC) to allow for more granular access privileges. Use roles to apply privileges customized for your organizational needs.
 ThoughtSpot includes some standard roles to help existing customers transition to RBAC.
 // Mary
@@ -144,6 +154,7 @@ endif::[]
 ifdef::pendo-links[]
 xref:user-profile.adoc#language[Change language and data format settings,window=_blank].
 endif::[]
+
 
 
 '''
@@ -165,6 +176,7 @@ In a shared cluster for Essentials and Pro edition, an Org admin can now see the
 - Usage statistics
 
 // Mark
+
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
@@ -192,6 +204,7 @@ endif::[]
 endif::free-trial-feature[]
 
 ifndef::free-trial-feature[]
+
 ifndef::pendo-links[]
 [#9-5-0-cl-alation]
 [discrete]
@@ -203,7 +216,7 @@ ifdef::pendo-links[]
 === Alation data catalog integration [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
-// Naomi
+// Naomi-- add image of the knowledge card with info, red box around new metadata.
 
 You can now import metadata information related to your tables and columns from Alation into ThoughtSpot. From the *Data* tab, you can set up a connection to Alation to import
 column descriptions, column verification status, table descriptions, and table verification status. This information appears when you click on the corresponding table or column in *Search data*. Once connected, metadata information is visible to all users.
@@ -216,6 +229,7 @@ xref:catalog-integration.adoc[Catalog integration,window=_blank].
 endif::[]
 
 endif::free-trial-feature[]
+
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
@@ -244,9 +258,10 @@ endif::free-trial-feature[]
 
 [#9-5-0-cl-redshift]
 [discrete]
-=== Redshift OAuth with Azure AD IDP
+=== Azure AD external OAuth for Redshift
 
 // Naomi
+
 
 Redshift now supports external OAuth through Microsoft Azure AD. See
 ifndef::pendo-links[]
@@ -297,8 +312,6 @@ endif::[]
 In this release, you can now connect to Looker. Data engineers can use the Looker Modeler semantic layer to define their models and metrics using LookML, while business users can search and query the underlying Looker Explores.
 
 endif::free-trial-feature[]
-
-
 
 
 

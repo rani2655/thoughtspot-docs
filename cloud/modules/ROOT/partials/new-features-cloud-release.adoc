@@ -21,11 +21,39 @@ Improved multi-tab PDF export from Liveboards:: Previously, you couldn’t expor
 
 Rename filters on a Liveboard:: You can now edit the display name of filters on Liveboards to better represent your data. To try it out, click the *Edit* icon on a Liveboard, click the filter you want to rename, select *Filter options*.
 
+
+* How many indexing queries are made?
+* What queries are failing and why?
+* How long are the indexing queries taking?
+* Which connections have the most failures so that the admin can easily identify them?
++
+Admin users can access the Indexing Queries Liveboard from the admin tab, and use the results to improve indexing queries performance. For more information, see xref:indexing-queries-liveboard.adoc[Indexing Queries Liveboard].
+
+Custom groups [.badge.badge-beta-relnotes]#Beta#:: You can now create custom groups, which can be used to classify values in a list you can then reuse across multiple analyses. Custom groups are community objects which remain when you navigate away from the Search Data page and can be viewed by any user with view access to the underlying Worksheet. For more information, see xref:custom-groups.adoc[Custom groups].
+
+Date picker enhancement in Search [.badge.badge-early-access-relnotes]#Early Access#:: We added support for rolling, fixed, and custom date filters when creating an Answer or filtering a Liveboard. Previously, when adding a date filter to a Search, ThoughtSpot supported the conditions `ON (=)`, `ON OR AFTER (>=)`, `BEFORE (<)`, and `BETWEEN`. Now, you can additionally filter for `ON OR BEFORE (\<=)`, `NOT BETWEEN`, `ON LAST`, and `ON NEXT`. To try it out, click the filter icon next to the Date column in the left side menu, or click the date filter below the Answer or Liveboard title. This feature must be enabled by your administrator. For more information, see
+xref:date-filter.adoc[Date filters for Answers and Liveboards].
+
 Monitor alerts in ThoughtSpot notifications:: You can now see notifications for threshold and anomaly alerts in the ThoughtSpot notification service, rather than receiving emails.
+
 
 Single value selection for attribute filters:: When creating a Liveboard, you can now designate attribute filters as single-select, in addition to multi-select. For example, you could choose to make a Country filter single-select, so users would only see data related to one country at a time.
 
-Chart display enhancements:: When you create bar and column charts and slice by color, ThoughtSpot automatically enables gridlines to make the chart easier to read. You can choose to disable gridlines under the chart configuration menu. We now display lines on the axis to represent very small values and zero values.
+
+Geomap chart enhancements:: ThoughtSpot now supports the following enhancements for geomap visualizations:
+
+* We now provide geomap data for all countries. For a full list, see link:https://wiki.openstreetmap.org/wiki/List_of_territory_based_projects[Openstreetmap supported countries].
+* We now support multiple levels of subdivisions within a country, rather than just city and zip code.
+// * Zip code data is now visualized as an area within a region, rather than a point on a map. You must select *Auto select* in the Geo config column of the source table or Worksheet to access this feature.
+* We now support visualizations comparing subdivisions of multiple countries in a single visualization. For example, if a selected column contains data from cities in the United States and Mexico, all data would be displayed on a single visualization.
++
+For more information, see
+xref:chart-geo.adoc#enhancement[Geo chart enhancements].
+
+Responsive Liveboards:: We have improved the responsiveness of Liveboards. For windows between 1024 pixels and 500 pixels, the Liveboard columns respond to re-sizing. For windows smaller than 500 pixels in width, a horizontal scroll bar appears.
+
+Chart display enhancements:: When you create bar and column charts and slice by color, ThoughtSpot automatically enables gridlines to make the chart easier to read. You can choose to disable gridlines under the chart configuration menu. 
+
 
 [#9-5-0-cl-business-user]
 === For the Business User
@@ -44,10 +72,18 @@ Pivot table enhancements:: We made the following enhancements to pivot table cha
 Date picker:: Date picker is now GA and on by default. We added support for rolling, fixed, and custom date filters when creating an Answer or filtering a Liveboard. Previously, when adding a date filter to a Search, ThoughtSpot supported the conditions `ON (=)`, `ON OR AFTER (>=)`, `BEFORE (<)`, and `BETWEEN`. Now, you can additionally filter for `ON OR BEFORE (\<=)`, `NOT BETWEEN`, `ON LAST`, and `ON NEXT`. To try it out, click the filter icon next to the Date column in the left side menu, or click the date filter below the Answer or Liveboard title.
 +
 For more information, see
-ifndef::pendo-links[]
-xref:date-filter.adoc[Date filters for Answers and Liveboards].
+
+xref:spotiq-change.adoc#change-analysis-contextual[Contextual change analysis].
+
+Admin controls for new data panel experience::
+ThoughtSpot admins now have more control for enabling the new data panel experience for users. As before, an admin can enable the new data panel experience by going to *Admin* > *Early Access features*, and enabling *Data Fluency*. Each user can selectively enable the new data panel experience by going to their user profile, and setting the *Answer data experience* to *New experience*. In this release, admins can now make the new answer data panel experience default for all users of a cluster, by going to *Admin* > *Search & SpotIQ* and setting the *Make new answer data panel experience default* to *Enabled*.
+
+Headline creation and pinning deprecation:: ThoughtSpot is deprecating the pin Headline to Liveboard feature. Beginning in the 9.4.0.cl Cloud release, users will no longer see the pin icon when they select table summaries. To visualize and pin single aggregated measures, attributes in string/date format, or time-series metrics with sparklines, we recommend creating xref:chart-kpi.adoc[KPI charts]. Existing Headlines pinned to Liveboards will not be affected in this release. For more information, see
+link:https://community.thoughtspot.com/s/article/How-to-convert-Headlines-to-KPI-charts[How to convert Headlines to KPI charts].
+
 
 Webhooks for KPI monitor alerts [.badge.badge-beta-relnotes]#Beta#:: You can create webhooks to initiate workflows in third-party applications based on KPI changes, or send KPI alert notifications to custom channels. For example, if you are monitoring a "current inventory" KPI for an inventory management use case, you can build a workflow to trigger an order placement in a third-party app when your current inventory drops below a particular threshold value. Webhooks for Monitor is in beta and off by default. To enable it, contact {support-url}.
+
 
 Mobile enhancements:: We made the following enhancements to ThoughtSpot Mobile:
 

@@ -1,5 +1,5 @@
 = ThoughtSpot Sage 
-:last_updated: 4/25/23
+:last_updated: 7/31/23
 :linkattrs:
 :experimental:
 :page-layout: default-cloud
@@ -61,7 +61,16 @@ For more complex worksheets with thousands of columns, multiple use cases combin
 
 == ThoughtSpot Sage administration
 
+
+ThoughtSpot Sage features are disabled by default, and must be enabled by your administrator:
+
+. Select the *Admin* tab.
+. Under _Application settings_, select *Search & SpotIQ*.
+. Click *Edit* and enable each feature individually.
+. Click *Save*.
+
 Your ThoughtSpot administrator can do the following:
+
 
 - Limit access to the _Natural language search_ and _AI-suggested searches_ features by enabling ThoughtSpot Sage for specific users by assigning the **Can preview ThoughtSpot Sage** user privilege to groups of users to use Sage.
 - Disable indexing of personally identifiable information (PII) and sensitive data columns so the data isn’t used by the GPT features at all.
