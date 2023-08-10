@@ -53,7 +53,7 @@ image::pivot-table-summary.png[An image showing a pivot table with summaries for
 
 [#9-5-0-cl-date-picker]
 [discrete]
-=== Date picker
+=== Date picker GA
 
 // Naomi-- scal-140672
 
@@ -80,13 +80,11 @@ The new data panel experience is GA in this release. This is part of the Data Fl
 image:new_data_panel.png[new data panel]
 
 
-// Naomi-- move up. shorten description of steps.
-
-
 [#9-5-0-cl-filters]
 [discrete]
 === Rename filters on a Liveboard
 
+// Naomi
 
 You can now edit the display name of filters on Liveboards to better represent your data. To try it out, click the *Edit* icon on a Liveboard, click the filter you want to rename, select *Filter options*.
 
@@ -127,7 +125,6 @@ We made the following enhancements to ThoughtSpot Mobile:
 * We extended the length of mobile sessions on ThoughtSpot Cloud. If a user visits the mobile app at least once every two weeks, they will no longer be logged out.
 
 * We introduced a Watchlist tab on Mobile to make it easier for users to follow important metrics.
-
 
 * We simplified the log in process for the ThoughtSpot mobile app. You can now enter your company email to receive an email with a magic link login, rather than entering the server URL.
 
@@ -204,7 +201,6 @@ endif::[]
 endif::free-trial-feature[]
 
 ifndef::free-trial-feature[]
-
 ifndef::pendo-links[]
 [#9-5-0-cl-alation]
 [discrete]
@@ -227,6 +223,8 @@ endif::[]
 ifdef::pendo-links[]
 xref:catalog-integration.adoc[Catalog integration,window=_blank].
 endif::[]
+
+image::catalog-integration.png[Column with description and verification status showing]
 
 endif::free-trial-feature[]
 
