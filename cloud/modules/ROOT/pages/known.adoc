@@ -8,39 +8,39 @@
 
 These are the known issues in this release of ThoughtSpot Cloud.
 
-[#releases-9-4-x]
-== 9.4.0.cl known issues
+[#releases-9-5-x]
+== 9.5.0.cl known issues
 
 [cols="17%,39%,38%"]
 |===
 |Issue ID |Description|Symptoms, conditions, and workaround
 
-|SCAL-162730
-|Include filter on Liveboard does not  work when there is an exclude filter set on that Liveboard.
+|SCAL-XXXXXX
+|TBD.
 a|*Symptoms*:
 
-Include filter does not work on Liveboard.
+TBD.
 
 *Conditions*:
 
-Liveboard configured with include and exclude filters.
+TBD.
 
 *Workaround*:
 
-Remove the exclude filter from the Liveboard and add the include filter.
+TBD.
 
-|SCAL-156109
-|Cannot download a single answer or a PDF with the visualization option selected from a Liveboard.
+|SCAL-XXXXXX
+|TBD.
 a|*Symptoms*:
 
-File does not download and no messages or activities are displayed.
+TBD.
 
 *Conditions*:
 
-Liveboard.
+TBD.
 
 *Workaround*:
 
-None.
+TBD.
 
 |===

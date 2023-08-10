@@ -17,6 +17,13 @@ iframe {
 </style>
 ++++
 
+
+There are two ThoughtSpot add-ons for Google Sheets aimed at different audiences. This article describes how each works, and how you can use them together. There is also Google Slides add-on, described in this article.
+
+[#sheets-analytics]
+== ThoughtSpot Analytics for Google Sheets(TM)
+
+
 ThoughtSpot Analytics for Google Sheets is a free add-on that lets you use the power of ThoughtSpot to search, and create charts and visualizations from your spreadsheet data.
 
 image::sheets-analytics.png[Display of an analytics chart in ThoughtSpot Analytics for Google Sheets]

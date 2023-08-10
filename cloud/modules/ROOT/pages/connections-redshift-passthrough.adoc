@@ -33,4 +33,5 @@ For details on {connection} functions, see {connection}'s https://docs.aws.amazo
 > * xref:connections-redshift-private-link.adoc[]
 > * xref:connections-redshift-reference.adoc[Connection reference for {connection}]
 > * xref:connections-redshift-partner.adoc[{connection} Partner Connect overview]
+> * xref:connections-redshift-azure-ad-oauth.adoc[]
 > * xref:connections-query-tags.adoc#tag-redshift[ThoughtSpot query tags in Redshift]
