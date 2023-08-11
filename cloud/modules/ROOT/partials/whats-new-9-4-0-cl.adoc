@@ -32,7 +32,6 @@ endif::[]
 We made the following changes to the natural language search feature:
 
 * Redesigned search results page. Filtering facets are now in the left panel.
-* Title and descriptions are now automatically created when you save an AI Answer.
 * You can now interact with the Answers created by natural language search, including sorting values and drilling down.
 +
 image:nls-drilldown.png[Natural language search answer with a drilldown option]

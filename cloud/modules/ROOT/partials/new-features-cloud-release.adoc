@@ -60,7 +60,13 @@ Chart display enhancements:: When you create bar and column charts and slice by 
 [#9-5-0-cl-business-user]
 === For the Business User
 
-Natural language search: "vs", "growth of", "trend":: The following keywords are now supported in natural language search: "vs", "growth of", and "trend".
+Natural language search enhancements:: We made the following enhancements to natural language search:
+
+* The following keywords are now supported in natural language search: "vs", "growth of", and "trend".
+
+* Title and descriptions are now automatically created when you save an AI Answer.
+
+* ThoughtSpot now stores feedback in order to correctly answer related questions. For example, if you correct the column used in an Answer about annual recurring revenue for 2023, ThoughtSpot uses the correct column in Answers about annual recurring revenue for 2022 and 2021.
 
 Pivot table enhancements:: We made the following enhancements to pivot table charts:
 
