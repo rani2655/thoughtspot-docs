@@ -28,6 +28,8 @@ We made the following enhancements to natural language search:
 
 * The following keywords are now supported in natural language search: "vs", "growth of", and "trend".
 
+* Title and descriptions are now automatically created when you save an AI Answer.
+
 * ThoughtSpot now stores feedback in order to correctly answer related questions. For example, if you correct the column used in an Answer about annual recurring revenue for 2023, ThoughtSpot uses the correct column in Answers about annual recurring revenue for 2022 and 2021.
 
 
