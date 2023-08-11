@@ -107,7 +107,7 @@ NOTE: Query Operator stats are available for all queries that were run in the la
 [source,bash]
 ----
 create or replace task query_session_task
-  warehouse = dev_wh_spotapps
+  warehouse = <warehouse_names>
   SCHEDULE = '60 minute'
   AS
   create or replace table <database_name>.<schema_name>.query_sessions
@@ -136,7 +136,7 @@ create or replace task query_session_task
 [source,bash]
 ----
 CREATE or replace TASK query_stats_task
-  warehouse = dev_wh_spotapps
+  warehouse = <warehouse_names>
   SCHEDULE = '65 minute'
   AS
   execute immediate $$
