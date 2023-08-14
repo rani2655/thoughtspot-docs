@@ -242,7 +242,7 @@ CREATE or replace TASK query_stats_task
             elapsed_seconds,
             CLUSTERING_KEY
             from query_stats
-            inner join “SNOWFLAKE”.”ACCOUNT_USAGE”.SESSIONS s on query_stats.SESSION_ID = s.SESSION_ID
+            inner join "SNOWFLAKE"."ACCOUNT_USAGE".SESSIONS s on query_stats.SESSION_ID = s.SESSION_ID
             left join
             "SNOWFLAKE"."INFORMATION_SCHEMA"."TABLES" t
             on query_stats.tablename= t.TABLE_CATALOG || '.' || t.TABLE_SCHEMA || '.' || t.TABLE_NAME
