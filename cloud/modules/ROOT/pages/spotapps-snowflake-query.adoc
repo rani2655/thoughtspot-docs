@@ -284,12 +284,8 @@ NOTE: The number of days can be set based on your requirements.
 
 . Wait for the tasks created above to run, capturing the query profile stats at the individual query level.
 +
-Once the stats are captured, you are ready to install the {spotapp} from your ThoughtSpot instance to visualize the data. You can also use the zip file below to import the Worksheet and Liveboard.
+Once the stats are captured, you are ready to deploy the {spotapp}.
 
-.. Create a connection in a ThoughtSpot instance and import the table `query_operator_stats_cache`.
-.. Next, import the following zip file to create the Worksheet and Liveboard.
-+
-link:https://drive.google.com/file/d/1d-FNSIdYzqHQn3G2zDgD_67S2tZbKHYv/view?usp=share_link[Snowflake_Query_Profiling.zip]
 
 
 
