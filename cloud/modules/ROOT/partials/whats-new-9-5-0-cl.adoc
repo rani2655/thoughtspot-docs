@@ -291,30 +291,13 @@ image::single-select.gif[The filter editing window shows options to create multi
 
 In this release, the Fivetran connection to SpotApp is GA. Fivetran  helps you move data from applications like Salesforce, ServiceNow, Jira and others into a cloud data warehouse to make it easier for you to use the SpotApps designed for those applications.
 
-
-
-
-
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
-[#9-5-0-cl-looker]
+[#9-5-0-cl-spotapp-service-now-snowflake]
 [discrete]
-=== Looker connection [.badge.badge-beta]#Beta#
-endif::[]
-ifdef::pendo-links[]
-[#9-5-0-cl-looker]
-[discrete]
-=== Looker [.badge.badge-beta-whats-new]#Beta#
-endif::[]
+=== ServiceNow Incident Management (Snowflake Connector for ServiceNow)
+
+In this release, there is a new ServiceNow Incident Management SpotApp which allows you to use the ServiceNow Snowflake connector to move your data from ServiceNow to Snowflake.
 
 // Mark
-
-In this release, you can now connect to Looker. Data engineers can use the Looker Modeler semantic layer to define their models and metrics using LookML, while business users can search and query the underlying Looker Explores.
-
-endif::free-trial-feature[]
-
-
-
 
 
 ifndef::free-trial-feature[]
