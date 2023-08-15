@@ -295,7 +295,7 @@ In this release, the Fivetran connection to SpotApp is GA. Fivetran  helps you m
 [discrete]
 === ServiceNow Incident Management (Snowflake Connector for ServiceNow)
 
-In this release, there is a new ServiceNow Incident Management SpotApp which allows you to use the ServiceNow Snowflake connector to move your data from ServiceNow to Snowflake.
+In this release, there is a new ServiceNow Incident Management SpotApp which allows you to use your ServiceNow data stored in Snowflake. If you use the ServiceNow Snowflake connector to move your data from ServiceNow to Snowflake, use this SpotApp to track the number of tickets submitted, and understand the efficiency of how those tickets are resolved.
 
 // Mark
 
