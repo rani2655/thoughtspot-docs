@@ -31,7 +31,7 @@ NOTE: If you are using an ETL/ELT tool or working with another team in your orga
 * Access to the SNOWFLAKE database in your {application} environment.
 * Access to the following {application} tables in your {application} environment. Refer to <<schema,{spotapp} schema>> for more details.
 ** QUERY_OPERATOR_STATS_CACHE
-* Run the required SQL commands in your cloud data warehouse. Refer to <<sql,Run SQL commands>>. Note that you have two options to set up the SpotApp; only choose one of the options.
+* Run the required SQL commands in your cloud data warehouse. Refer to <<sql,Run SQL commands>>.
 
 [#sql]
 === Run SQL commands
