@@ -39,8 +39,8 @@ xref:spotapps-redshift.adoc[Redshift Performance and Consumption]::
 Use this SpotApp to manage Redshift costs and investigate query performance.
 xref:spotapps-salesforce.adoc[Salesforce Pipeline Analysis]::
 Use this SpotApp to track how prospects progress closer to closed deals.
-xref:spotapps-servicenow.adoc[ServiceNow Incident Management]::
-Use this SpotApp to track ServiceNow tickets and manage incidents.
+xref:spotapps-servicenow.adoc[ServiceNow Incident Management and ServiceNow Incident Management (Snowflake Connector for ServiceNow)]::
+Use these SpotApps to track ServiceNow tickets and manage incidents.
 xref:spotapps-snowflake.adoc[Snowflake Performance and Consumption]::
 Use this SpotApp to manage Snowflake costs and investigate query performance.
 xref:spotapps-snowflake-query.adoc[Snowflake Query Profiling]:: Use this SpotApp to spot typical mistakes in SQL query expressions to identify potential performance bottlenecks.
