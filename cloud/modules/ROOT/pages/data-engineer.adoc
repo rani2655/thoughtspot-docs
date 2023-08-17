@@ -215,7 +215,7 @@ The following list provides information about connecting to your data in support
 * xref:connections-hana-passthrough.adoc[Passthrough functions]
 * xref:connections-hana-reference.adoc[Connection reference]
 
-== image:logo-singlestore.png[SingleStore icon]
+== image:singlestore-icon.png[SingleStore icon] SingleStore
 
 * xref:connections-singlestore.adoc[Overview]
 * xref:connections-singlestore-add.adoc[Add connection]

@@ -31,7 +31,7 @@ Admin users can access the Indexing Queries Liveboard from the admin tab, and us
 
 Custom groups [.badge.badge-beta-relnotes]#Beta#:: You can now create custom groups, which can be used to classify values in a list you can then reuse across multiple analyses. Custom groups are community objects which remain when you navigate away from the Search Data page and can be viewed by any user with view access to the underlying Worksheet. For more information, see xref:custom-groups.adoc[Custom groups].
 
-Date picker enhancement in Search [.badge.badge-early-access-relnotes]#Early Access#:: We added support for rolling, fixed, and custom date filters when creating an Answer or filtering a Liveboard. Previously, when adding a date filter to a Search, ThoughtSpot supported the conditions `ON (=)`, `ON OR AFTER (>=)`, `BEFORE (<)`, and `BETWEEN`. Now, you can additionally filter for `ON OR BEFORE (\<=)`, `NOT BETWEEN`, `ON LAST`, and `ON NEXT`. To try it out, click the filter icon next to the Date column in the left side menu, or click the date filter below the Answer or Liveboard title. This feature must be enabled by your administrator. For more information, see
+Date picker enhancement in Search:: We added support for rolling, fixed, and custom date filters when creating an Answer or filtering a Liveboard. Previously, when adding a date filter to a Search, ThoughtSpot supported the conditions `ON (=)`, `ON OR AFTER (>=)`, `BEFORE (<)`, and `BETWEEN`. Now, you can additionally filter for `ON OR BEFORE (\<=)`, `NOT BETWEEN`, `ON LAST`, and `ON NEXT`. To try it out, click the filter icon next to the Date column in the left side menu, or click the date filter below the Answer or Liveboard title. This feature must be enabled by your administrator. For more information, see
 xref:date-filter.adoc[Date filters for Answers and Liveboards].
 
 Monitor alerts in ThoughtSpot notifications:: You can now see notifications for threshold and anomaly alerts in the ThoughtSpot notification service, rather than receiving emails.
@@ -77,11 +77,6 @@ Pivot table enhancements:: We made the following enhancements to pivot table cha
 - We now support hyperlinks in pivot tables.
 - You can now choose to show or hide row and column summaries and subtotals, from the chart configuration menu. When summaries and subtotals are enabled, you can choose to display them at the top or bottom of the pivot table.
 
-Date picker:: Date picker is now GA and on by default. We added support for rolling, fixed, and custom date filters when creating an Answer or filtering a Liveboard. Previously, when adding a date filter to a Search, ThoughtSpot supported the conditions `ON (=)`, `ON OR AFTER (>=)`, `BEFORE (<)`, and `BETWEEN`. Now, you can additionally filter for `ON OR BEFORE (\<=)`, `NOT BETWEEN`, `ON LAST`, and `ON NEXT`. To try it out, click the filter icon next to the Date column in the left side menu, or click the date filter below the Answer or Liveboard title.
-+
-For more information, see
-
-xref:spotiq-change.adoc#change-analysis-contextual[Contextual change analysis].
 
 Admin controls for new data panel experience::
 ThoughtSpot admins now have more control for enabling the new data panel experience for users. As before, an admin can enable the new data panel experience by going to *Admin* > *Early Access features*, and enabling *Data Fluency*. Each user can selectively enable the new data panel experience by going to their user profile, and setting the *Answer data experience* to *New experience*. In this release, admins can now make the new answer data panel experience default for all users of a cluster, by going to *Admin* > *Search & SpotIQ* and setting the *Make new answer data panel experience default* to *Enabled*.
@@ -92,6 +87,7 @@ link:https://community.thoughtspot.com/s/article/How-to-convert-Headlines-to-KPI
 
 Webhooks for KPI monitor alerts [.badge.badge-beta-relnotes]#Beta#:: You can create webhooks to initiate workflows in third-party applications based on KPI changes, or send KPI alert notifications to custom channels. For example, if you are monitoring a "current inventory" KPI for an inventory management use case, you can build a workflow to trigger an order placement in a third-party app when your current inventory drops below a particular threshold value. Webhooks for Monitor is in beta and off by default. To enable it, contact {support-url}.
 
+Editing in-use parameters:: When using a parameter in a Search, Answer, or Liveboard, you can now change the allowed values type (for example, from *List* to *Range*). You can also add or delete values from a list parameter while it's in use, or increase or decrease the minimum and maximum values in a range parameter. We do not support changing the data type of the parameter (for example, from `INT` to `DATE`). For more information, see xref:parameters-create.adoc[Create parameters].
 
 Mobile enhancements:: We made the following enhancements to ThoughtSpot Mobile:
 
