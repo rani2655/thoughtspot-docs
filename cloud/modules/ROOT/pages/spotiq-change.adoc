@@ -122,7 +122,7 @@ Currently, any value outside μ +/- N * σ (i.e. Z-score less than or greater th
 === Limitations
 
 * Change analysis is not yet supported on measures that are created using group_* formulas.
-* Change analysis is not supported on queries based on the “growth of” keyword.
+* Change analysis is not supported on queries based on the "growth of" keyword.
 
 
 '''
