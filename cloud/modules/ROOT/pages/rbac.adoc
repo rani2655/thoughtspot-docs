@@ -2,7 +2,7 @@
 :last_updated: 08/09/2023
 :linkattrs:
 :experimental:
-:page-layout: default-cloud
+:page-layout: default-cloud-private-preview
 :description: ThoughtSpot has added RBAC support to allow for a more granular distribution of privileges.
 
 ThoughtSpot role-based access control (RBAC) helps you manage who has access to ThoughtSpot resources, what they can do with those resources, and what areas they have access to. RBAC enhances the granularity of permissions that determine the access and capabilities of users and admins.
