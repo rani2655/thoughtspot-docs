@@ -57,6 +57,7 @@ Follow these general steps to install ThoughtSpot on the new node:
 * [*_RHEL only_*] xref:azure-configuration-options.adoc[Microsoft Azure]
 * [*_RHEL and OEL only_*] xref:gcp-configuration-options.adoc[Google Cloud Platform (GCP)]
 * [*_RHEL and OEL only_*] xref:vmware.adoc[VMware]
+
 '''
 > **Related information**
 >
