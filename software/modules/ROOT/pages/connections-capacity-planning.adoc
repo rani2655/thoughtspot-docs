@@ -64,7 +64,7 @@ In general, ThoughtSpot can hold and serve up to 500K objects in 128GB of RAM.
 
 == Disk capacity
 
-ThoughtSpot recommends 800 GB Premium SSD secondary DIsk and 250GB of Boot Volume per cluster for smooth operation of the cluster. ThoughtSpot uses the secondary disk to store xref:backup-strategy.adoc[snapshots], customer’s metadata and service logs.
+ThoughtSpot recommends 800 GB Premium SSD secondary disk and 250GB of Boot Volume per cluster for smooth operation of the cluster. ThoughtSpot uses the secondary disk to store xref:backup-strategy.adoc[snapshots], customer’s metadata and service logs.
 
 == Minimum hardware requirements for production
 

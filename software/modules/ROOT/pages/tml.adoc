@@ -13,7 +13,7 @@ Use ThoughtSpot Modeling Language to modify a worksheet, view, table, Liveboard,
 To work with TML files for Worksheets, views, SQL views, tables, Answers, and Liveboards in ThoughtSpot, you can download these objects to a flat file in `.TML` format, modify it, and subsequently upload this file either to the same cluster, or to a different cluster.
 To learn how to export, change, and update Worksheets, views, tables, Answers, and Liveboards, see xref:scriptability.adoc[Import and export TML files]. To learn how to migrate multiple TML files at a time, see xref:tml-import-export-multiple.adoc[].
 
-In this section, you learn the syntax of the TML files for each object. You also learn how to <<syntax-joins,add and modify joins>> for Worksheets, views, SQL views, and tables.
+In this section, you learn the syntax of the TML files for each object. You also learn how to xref:tml-joins.adoc#syntax-joins[add and modify joins] for Worksheets, views, SQL views, and tables.
 
 See the following articles for the full syntax of each type of TML file:
 
