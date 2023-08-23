@@ -79,13 +79,20 @@ ul li img {
     max-width: 100%;
     vertical-align: middle;
 }
-/* align preamble with persona boxes */
-.home #preamble, .home h1.page {
-    margin-left: 13px !important;
 
-/* align page title with preamble */
-.doc-home>h1.page:first-child {
-    margin-left: 13px !important;
+/* slide columns left to align with preamble */
+.columns {
+    margin-left: -13px !important;
+}
+
+/*slide what's new section left to align with preamble */
+.sect1 {
+    margin-left: 0px !important;
+}
+
+/* slide what's new up slightly to be closer to persona boxes */
+h2#_whats_new_in_thoughtspot_cloud {
+    margin-top: 10px !important;
 }
 
 </style>
