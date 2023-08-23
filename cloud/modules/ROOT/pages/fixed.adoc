@@ -16,8 +16,20 @@ These are the issues we fixed in this release of ThoughtSpot Cloud.
 |===
 |Issue ID |Description
 
-|SCAL-XXXXXX
-|TBD.
-|SCAL-XXXXXX
-|TBD.
+|SCAL-167159
+|Passthrough functions cannot be executed on Falcon objects.
+|SCAL-167113
+|ThoughtSpot Everywhere: Popup does not close automatically after the authentication is complete.
+|SCAL-166260
+|Change analysis feature is available after disabling the change analysis feature in the admin panel.
+|SCAL-162730
+|Adding a value to a Liveboard filter is ignored.
+|SCAL-159531
+|Data in a KPI tile is cut off when the tile is an unsupported size.
+|SCAL-159308
+|New columns cannot be imported using a snowflake connection.
+|SCAL-158870
+|All dashboards tiles time out when data is in Snowflake.
+|SCAL-153526
+|Formula grouping columns are dropped as join columns in a non-shared filter chasm trap.
 |===
