@@ -97,6 +97,10 @@ Mobile enhancements:: We made the following enhancements to ThoughtSpot Mobile:
 
 * We simplified the log in process for the ThoughtSpot mobile app. You can now enter your company email to receive an email with a magic link login, rather than entering the server URL.
 
+ThoughtSpot for Connected Sheets add-on:: ThoughtSpot Connected Sheets is an add-on that allows you to connect to a ThoughtSpot instance, pull data directly into a Google Sheet from trusted data sources connected to that instance (like Snowflake, Google BigQuery, DataBricks, and others), and use the tools in Google Sheets for ad-hoc analysis.
++
+For more information, see
+xref:thoughtspot-sheets.adoc#sheets-connected[ThoughtSpot Connected Sheets].
 
 [#9-5-0-cl-data-engineer]
 === For the Data Engineer
