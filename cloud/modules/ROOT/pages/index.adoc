@@ -80,11 +80,6 @@ ul li img {
     vertical-align: middle;
 }
 
-/* slide columns left to align with preamble */
-.columns {
-    margin-left: -13px !important;
-}
-
 /*slide what's new section left to align with preamble */
 .sect1 {
     margin-left: 0px !important;
