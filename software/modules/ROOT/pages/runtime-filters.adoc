@@ -54,18 +54,13 @@ When a user selects an option, the application passes that option as a runtime f
 [#limitations-of-runtime-filters]
 == Limitations of runtime filters
 
-* Runtime filters do not work directly on top of tables.
-You must create a worksheet if you want to use runtime filters.
-This means that the Liveboard or visualization on which you apply a runtime filter must be created from a worksheet.
+* The `DATE` and `DATE_TIME` data types must be specified as EPOCH time (Unix or POSIX time) in runtime filters.
 
-* You can pass a maximum of 2000 characters in the URL using runtime filters.
+* Runtime filters work only on Answers and Liveboard visualizations built from Worksheets. Runtime filters on visualizations and Answers built directly from Tables, Views, and SQL Views do not work because the possibility of multiple join paths and join path choice is not supported as input in runtime filters.
 
-* When creating an aggregated worksheet from an answer, you can only use runtime filters if the answer was formed using a single worksheet.
-If the answer from which you create the worksheet includes raw tables or joins multiple worksheets, you cannot use runtime filters on it. This is to prevent join path ambiguity.
+* Runtime filters do not allow you to apply `HAVING` filters in the URL parameters.
 
-CAUTION: Runtime filters do not allow you to apply `having` filters using the URL.
 
-* You cannot apply a runtime filter on a Liveboard or visualization built on tables whose schema includes a chasm trap. See the information on handling xref:chasm-trap.adoc[chasm traps] and xref:formulas-chasm-trap.adoc[formula support for chasm traps].
 
 '''
 > **Related information**
