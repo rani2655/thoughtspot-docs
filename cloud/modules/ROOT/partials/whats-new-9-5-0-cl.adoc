@@ -136,7 +136,9 @@ We made the following enhancements to ThoughtSpot Mobile:
 === Introduction of roles and more granular access privileges
 
 ThoughtSpot introduces role-based access control (RBAC) to allow for more granular access privileges. Use roles to apply privileges customized for your organizational needs.
+
 ThoughtSpot includes some standard roles to help existing customers transition to RBAC. To enable RBAC, contact {support-url}.
+
 // Mary
 
 
