@@ -123,7 +123,7 @@ Connections:: You can now create connections from ThoughtSpot to the following c
 
 Connection error messaging improvements:: If you run into an error while creating a connection, you can now click *View details* to see error details and add a comment for your administrator.
 
-
+dbt:: ThoughtSpot now supports dbt version 1.5.
 
 [#9-4-0-cl-it-ops-engineer]
 === For the IT/Ops Engineer
