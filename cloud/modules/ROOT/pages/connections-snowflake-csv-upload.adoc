@@ -75,6 +75,11 @@ The data is written into the appropriate database and schema. When the upload is
 This takes you to the Upload Data window where you have the option to append data to the table or overwrite the data completely.
 * To search the data you uploaded, select *Start search on your data*.
 
+== Limitations
+
+CSV upload is not supported for files containing a new line in any cell.
+
+
 '''
 > **Related information**
 >
