@@ -29,18 +29,4 @@ TBD.
 
 TBD.
 
-|SCAL-XXXXXX
-|TBD.
-a|*Symptoms*:
-
-TBD.
-
-*Conditions*:
-
-TBD.
-
-*Workaround*:
-
-TBD.
-
 |===

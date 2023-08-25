@@ -1,8 +1,8 @@
 ifndef::pendo-links[]
-August 2023 [label label-dep]#9.5.0.cl#
+September 2023 [label label-dep]#9.5.0.cl#
 endif::[]
 ifdef::pendo-links[]
-[month-year-whats-new]#August 2023#
+[month-year-whats-new]#September 2023#
 [label label-dep-whats-new]#9.5.0.cl#
 endif::[]
 
@@ -136,8 +136,9 @@ We made the following enhancements to ThoughtSpot Mobile:
 === Introduction of roles and more granular access privileges
 
 ThoughtSpot introduces role-based access control (RBAC) to allow for more granular access privileges. Use roles to apply privileges customized for your organizational needs.
-ThoughtSpot includes some standard roles to help existing customers transition to RBAC.
-To enable RBAC on your system, contact {support-url}.
+
+ThoughtSpot includes some standard roles to help existing customers transition to RBAC. To enable RBAC, contact {support-url}.
+
 // Mary
 
 
@@ -155,7 +156,17 @@ ifdef::pendo-links[]
 xref:user-profile.adoc#language[Change language and data format settings,window=_blank].
 endif::[]
 
+[#9-5-0-cl-sheets]
+[discrete]
+=== ThoughtSpot for Connected Sheets add-on
 
+ThoughtSpot Connected Sheets is an add-on for Google Sheets that allows you to connect to a ThoughtSpot instance, pull data directly into a Google Sheet from trusted data sources connected to that instance (like Snowflake, Google BigQuery, DataBricks, and others), and use the tools in Google Sheets for ad-hoc analysis. See
+ifndef::pendo-links[]
+xref:thoughtspot-sheets.adoc#sheets-connected[ThoughtSpot Connected Sheets].
+endif::[]
+ifdef::pendo-links[]
+xref:thoughtspot-sheets.adoc#sheets-connected[ThoughtSpot Connected Sheets,window=_blank].
+endif::[]
 
 '''
 [#secondary-9-5-0-cl]

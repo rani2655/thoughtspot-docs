@@ -62,6 +62,12 @@ ul li img {
     padding-right: 8px;
 }
 
+/* remove drop shadows from persona boxes */
+.home .columns .box {
+    -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0) !important;
+    box-shadow: 0 0px 0px rgba(0,0,0,0) !important;
+}
+
 .image:not(.left):not(.right)>img {
     margin-top: -0.2em;
     margin-bottom: -10px;
@@ -72,6 +78,16 @@ ul li img {
     height: auto;
     max-width: 100%;
     vertical-align: middle;
+}
+
+/*slide what's new section left to align with preamble */
+.sect1 {
+    margin-left: 0px !important;
+}
+
+/* slide what's new up slightly to be closer to persona boxes */
+h2#_whats_new_in_thoughtspot_cloud {
+    margin-top: 10px !important;
 }
 
 </style>
@@ -100,7 +116,7 @@ Find topics for the common types of ThoughtSpot users.
       <li><a href="https://docs.thoughtspot.com/cloud/latest/search-data">Search Data</a></li>
 <li><a href="https://docs.thoughtspot.com/cloud/latest/search-sage">ThoughtSpot Sage</a></li>
 <li><a href="https://docs.thoughtspot.com/cloud/latest/thoughtspot-sync">ThoughtSpot Sync</a></li>
-<li><a href="https://docs.thoughtspot.com/cloud/latest/thoughtspot-sheets">ThoughtSpot Analytics for Google Sheets&trade;</a></li>
+<li><a href="https://docs.thoughtspot.com/cloud/latest/thoughtspot-sheets">Add-ons for Google Sheets&trade;</a></li>
     </ul>
     </div>
   <div class="box">
