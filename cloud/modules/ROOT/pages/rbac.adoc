@@ -9,27 +9,23 @@ ThoughtSpot role-based access control (RBAC) helps you manage who has access to 
 
 RBAC is disabled by default. To enable this feature, contact ThoughtSpot Support. Once you enable RBAC it cannot be disabled.
 
+
+
+== Roles and privileges
+
 //Why would you use roles vs. groups?
 
 A role is a collection of privileges. The role and its assigned privileges list the actions that can be performed, such as Can administer ThoughtSpot or Can upload user data. Roles can be high-level, like Super Admin, or specific based on your organization’s structure and requirements. Roles configured and then assigned to groups. For more information about groups, see xref:groups-privileges.adoc[Understand groups and privileges].
 
-== Roles and privileges
-=== Roles
 ThoughtSpot delivers some roles to help you transition to RBAC. You can also create custom roles with custom privileges based on your organizational needs. The following are the standard roles delivered with ThoughtSpot.
 
-//TSE support (API)
-//Coordinate with Shashi regarding API developer docs.
 
-==== Migrating to RBAC
-Existing ThoughtSpot customers can easily migrate from groups to RBAC using the roles delivered with ThoughtSpot 9.5.0.cl. ThoughtSpot delivers roles corresponding to each privilege previously available as part of the existing groups. This allows you to assign those privileges individually to groups using roles.
-
-===== Administrator Group / Super Admin role
+### Administrator Group / Super Admin role
 //(assigned to admin group after RBAC migration)
 Previously, administrators were part of the administrator group. Members of this group could manage users, groups, and had view and edit access to all data. In some organizations these functions are broken out in a more granular way between different users. Roles allow you to assign the specific roles and privileges required without including those that are not needed. ThoughtSpot RBAC includes a Super Admin role that includes all of the privileges of previously included in the TSADMIN group to help you migrate to RBAC. Users with this privilege can access all cluster data. This privilege should only be granted in exceptional circumstances.
 
 //For example,
 
-=== Privileges
 The following table shows existing ThoughtSpot group privileges and the new more granular RBAC roles introduced with ThoughtSpot 9.5.0.cl.
 
 
@@ -56,36 +52,39 @@ Can view System activities
 Can view Billing Information
 |===
 
-==== RBAC roles
+=== RBAC roles
 The following are descriptions of each of the RBAC roles.
 
-===== Super Admin
+#### Super Admin
 Can manage users and groups and has view and edit access to all data. Users with this privilege can access all cluster data. This privilege should only be granted in exceptional circumstances.
 
-===== Can manage Orgs
+#### Can manage Orgs
 Can create, view, update and delete Orgs in a multi-tenancy environment. This privilege is available only in Org enabled clusters.
 In an Org enabled cluster, this privilege is available only at the primary Org level and is not visible to any other Orgs.
 
-===== Can manage Users (admin)
+#### Can manage Users (admin)
 Can create, view, update and delete users.
 
-===== Can manage Groups (admin)
+#### Can manage Groups (admin)
 Can create, view, update and delete groups.
 
-===== Can manage Roles   (admin)
+#### Can manage Roles   (admin)
 Can create, view, update and delete roles.
 
-===== Can manage Authentication
+#### Can manage Authentication
 Can manage identity and access management.
 
-===== Can manage Application settings
+#### Can manage Application settings
 Can manage application settings.
 
-===== Can view System activities
+#### Can view System activities
 Can view all options under the System activities section.
 
-===== Can view Billing Information
+#### Can view Billing Information
 Can view all details under the Billing section.
+
+== Migrating to RBAC
+Existing ThoughtSpot customers can easily migrate from groups to RBAC using the roles delivered with ThoughtSpot 9.5.0.cl. ThoughtSpot delivers roles corresponding to each privilege previously available as part of the existing groups. This allows you to assign those privileges individually to groups using roles.
 
 == Create, edit, or delete a role
 ThoughtSpot has customizable RBAC management for assigning granular privileges to roles.
