@@ -12,7 +12,9 @@ Roles can be assigned to groups.
 A group can have one or more roles assigned to it.
 When multiple roles are assigned to a group, the privileges available to users within that group are a union of the privileges in each role assigned to the group.
 
-RBAC is disabled by default. To enable this feature, contact ThoughtSpot Support. Once you enable RBAC it cannot be disabled.
+RBAC is disabled by default. To enable this feature, contact ThoughtSpot Support.
+
+CAUTION: Once you enable RBAC it cannot be disabled.
 
 
 
@@ -89,7 +91,7 @@ Can view Billing Information
 |Can view all details under the Billing section.|
 
 == Migrating to RBAC
-Existing ThoughtSpot customers can easily migrate from groups to RBAC using the roles delivered with ThoughtSpot 9.5.0.cl. ThoughtSpot delivers roles corresponding to each privilege previously available as part of the existing groups. This allows you to assign those privileges individually to groups using roles.
+Existing ThoughtSpot customers can easily migrate to RBAC using the roles delivered with ThoughtSpot 9.5.0.cl. ThoughtSpot delivers roles corresponding to each privilege previously available as part of the existing groups and groups are retained. This allows you to assign those privileges individually to groups using roles.
 
 == Create, edit, or delete a role
 ThoughtSpot has customizable RBAC management for assigning privileges to roles.
@@ -98,7 +100,6 @@ Before adding users to groups, you can create custom roles if necessary and assi
 === Create a role
 To create a role, follow these steps:
 
-. Sign in to ThoughtSpot from a browser.
 . Navigate to the Admin Console by selecting the *Admin* tab from the top navigation bar.
 . Select *Roles* from the side navigation bar that appears.
 //<insert screen cap here>
@@ -123,7 +124,6 @@ Check the privileges you want to grant to the role.
 === Edit a role
 To edit a role, follow these steps:
 
-. Sign in to ThoughtSpot from a browser.
 . Navigate to the Admin Console by selecting the *Admin* tab from the top navigation bar.
 . Select *Roles* from the side navigation bar that appears.
 //<insert screen cap here>
@@ -135,7 +135,6 @@ To edit a role, follow these steps:
 === Delete a role
 To delete a role, follow these steps:
 
-. Sign in to ThoughtSpot from a browser.
 . Navigate to the Admin Console by selecting the *Admin* tab from the top navigation bar.
 . Select *Roles* from the side navigation bar that appears.
 //<insert screen cap here>
