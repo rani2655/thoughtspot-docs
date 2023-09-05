@@ -136,7 +136,7 @@ The following table describes the schema for the {spotapp}.
 | task_sla| task| VARCHAR| N
 |===
 
-[#schema]
+[#schema-snow-connector]
 == ServiceNow Incident Management (Snowflake Connector for ServiceNow) SpotApp schema
 
 The following table describes the schema for the ServiceNow Incident Management (Snowflake Connector for ServiceNow) SpotApp.

@@ -54,7 +54,14 @@ xref:chart-geo.adoc#enhancement[Geo chart enhancements].
 
 Responsive Liveboards:: We have improved the responsiveness of Liveboards. For windows between 1024 pixels and 500 pixels, the Liveboard columns respond to re-sizing. For windows smaller than 500 pixels in width, a horizontal scroll bar appears.
 
-Chart display enhancements:: When you create bar and column charts and slice by color, ThoughtSpot automatically enables gridlines to make the chart easier to read. You can choose to disable gridlines under the chart configuration menu. 
+Chart display enhancements:: When you create bar and column charts and slice by color, ThoughtSpot automatically enables gridlines to make the chart easier to read. You can choose to disable gridlines under the chart configuration menu.
+
+=== ServiceNow Incident Management (Snowflake Connector for ServiceNow)
+
+In this release, there is a new ServiceNow Incident Management SpotApp which allows you to use your ServiceNow data stored in Snowflake. If you use the ServiceNow Snowflake connector to move your data from ServiceNow to Snowflake, use this SpotApp to track the number of tickets submitted, and understand the efficiency of how those tickets are resolved.
+
+For more information, see
+xref:spotapps-servicenow.adoc[ServiceNow Incident Management SpotApps].
 
 
 [#9-5-0-cl-business-user]
