@@ -9,7 +9,6 @@
 Admin-assigned verifiers can now mark Liveboards as verified. Users can now request these verifiers to review their Liveboards, and verify if the information displayed is trusted content. Verified Liveboards carry a tag that signifies that they have been audited for correctness. When edited, a banner appears that informs users the content has been edited and may need to be re-verified.
 
 
-NOTE: Verified Liveboards are in beta and off by default. To enable, contact {support-url}.
 
 == Verifiers
 
@@ -41,7 +40,8 @@ To reject verifying a Liveboard, the verifier can select *Decline* on the verifi
 === Removing verification
 Any verifier can remove verification of a Liveboard. The verifier will see a *Remove verification* option in the *more options menu* image:icon-more-10px.png[more options icon], in the case that they need to remove the verification tag.
 
-
+////
 == Limitations
 
 In the 9.4.0.cl release, please reach out to {support-url} to request them to enable the two verified Liveboard account-level flags to test this feature.
+////
