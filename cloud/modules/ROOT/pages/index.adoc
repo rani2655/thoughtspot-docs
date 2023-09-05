@@ -159,6 +159,7 @@ Find topics for the common types of ThoughtSpot users.
         </h2>
         <ul>
          <li><a href="https://docs.thoughtspot.com/cloud/latest/admin-portal-users">Users</a>, <a href="https://docs.thoughtspot.com/cloud/latest/admin-portal-groups">Groups</a>, and <a href="https://docs.thoughtspot.com/cloud/latest/orgs-overview">Orgs</a></li>
+<li><a href="https://docs.thoughtspot.com/cloud/latest/rbac">Role-based access control</a></li>
        <li><a href="https://docs.thoughtspot.com/cloud/latest/authentication-local">Local authentication</a></li>
        <li><a href="https://docs.thoughtspot.com/cloud/latest/authentication-integration">SAML authentication</a></li>
           <li><a href="https://docs.thoughtspot.com/cloud/latest/custom-domains">Custom domains</a></li>
