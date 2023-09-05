@@ -19,6 +19,8 @@ For these instructions, see xref:ts-cloud-getting-started.adoc[Getting Started w
 
 Improved multi-tab PDF export from Liveboards:: Previously, you couldn’t export a liveboard with more than 40 visualizations, even if they were across multiple tabs. Starting in this release, you can now export a Liveboard with more than 40 visualizations, as long a single tab has no more than 40 visualizations.
 
+Verified Liveboards:: Admin-assigned verifiers can now mark Liveboards as verified. Users can now request these verifiers to review their Liveboards, and verify if the information displayed is trusted content. Verified Liveboards carry a tag that signifies that they have been audited for correctness. For more information, see xref:liveboard-verify.adoc[Verified Liveboards].
+
 Rename filters on a Liveboard:: You can now edit the display name of filters on Liveboards to better represent your data. To try it out, click the *Edit* icon on a Liveboard, click the filter you want to rename, select *Filter options*.
 
 
