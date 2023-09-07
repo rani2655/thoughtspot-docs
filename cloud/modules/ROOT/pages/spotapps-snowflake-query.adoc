@@ -39,8 +39,6 @@ NOTE: If you are using an ETL/ELT tool or working with another team in your orga
 . Create an empty table to insert the query operator stats for each query id.
 +
 NOTE: Please replace <database_name>.<schema_name> with the database and schema where you want to create the query stats metadata table.
-
-. Create or replace table <database_name>.<schema_name>.query_operator_stats_cache.
 +
 [%collapsible]
 .Open the dropdown menu to view the schema.
@@ -48,6 +46,7 @@ NOTE: Please replace <database_name>.<schema_name> with the database and schema 
 --
 [source,bash]
 ----
+Create or replace table <database_name>.<schema_name>.query_operator_stats_cache
 (
 QUERY_ID     VARCHAR(16777216),
 QUERY_TEXT     VARCHAR(16777216),
