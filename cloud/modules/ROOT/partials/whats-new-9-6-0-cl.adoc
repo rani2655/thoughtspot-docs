@@ -1,0 +1,347 @@
+ifndef::pendo-links[]
+October 2023 [label label-dep]#9.6.0.cl#
+endif::[]
+ifdef::pendo-links[]
+[month-year-whats-new]#October 2023#
+[label label-dep-whats-new]#9.6.0.cl#
+endif::[]
+
+ifndef::free-trial-feature[]
+NOTE: Features marked as [.badge.badge-update-note]#Beta# are off by default. To enable them, contact {support-url}.
+endif::free-trial-feature[]
+
+[#primary-9-6-0-cl]
+
+[#9-6-0-cl-literacy]
+[discrete]
+=== Literacy: remove multiple date bucketing on the same column logic
+
+// Mary
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-6-0-cl-tooltip]
+[discrete]
+=== Tooltip customization [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-6-0-cl-tooltip]
+[discrete]
+=== Tooltip customization [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
+// Mary
+
+endif::free-trial-feature[]
+
+
+NEEDS EVALUATION
+
+[#9-6-0-cl-rbac]
+[discrete]
+=== RBAC with orgs: Admin Sidebar UI changes as per user privileges
+
+// Mary
+
+[#9-6-0-cl-nls]
+[discrete]
+=== Context-based column selection in Eureka NLS
+
+// Naomi
+
+[#9-6-0-cl-kpi]
+[discrete]
+=== [Cortex] KPI anomalies completion
+
+// Naomi
+
+[#9-6-0-cl-change]
+[discrete]
+=== Change analysis: Additional interesting insights
+
+// Naomi
+
+ifndef::free-trial-feature[]
+ifdef::pendo-links[]
+[#9-6-0-cl-embed]
+[discrete]
+=== Embedding in Note tiles [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+ifndef::pendo-links[]
+[#9-6-0-cl-embed]
+[discrete]
+=== Embedding in Note tiles [.badge.badge-early-access]#Early Access#
+endif::[]
+
+// Naomi
+
+endif::free-trial-feature[]
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-6-0-cl-query]
+[discrete]
+=== Display the current state of a query execution for Liveboard Viz [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#9-6-0-cl-query]
+[discrete]
+=== Display the current state of a query execution for Liveboard Viz [.badge.badge-beta-whats-new]#Beta#
+endif::[]
+
+// Naomi
+
+endif::free-trial-feature[]
+
+[#9-6-0-cl-content]
+[discrete]
+=== Unstructured content [POC]
+
+// Naomi
+
+[#9-6-0-cl-error]
+[discrete]
+=== Improve error messaging related to Embrace for Liveboard visualizations
+
+// Naomi
+
+ifndef::free-trial-feature[]
+ifdef::pendo-links[]
+[#9-6-0-cl-cord]
+[discrete]
+=== Commenting on Liveboards using Cord [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+ifndef::pendo-links[]
+[#9-6-0-cl-cord]
+[discrete]
+=== Commenting on Liveboards using Cord [.badge.badge-early-access]#Early Access#
+endif::[]
+
+// Naomi
+
+endif::free-trial-feature[]
+
+'''
+[#secondary-9-6-0-cl]
+[discrete]
+=== _Other features and enhancements_
+
+[#9-6-0-cl-alation]
+[discrete]
+=== Alation data catalog integration
+
+// Naomi
+
+You can now import metadata information related to your tables and columns from Alation into ThoughtSpot. From the *Data* tab, you can set up a connection to Alation to import column descriptions, column verification status, table descriptions, and table verification status. This information appears when you click on the corresponding table or column in *Search data*. Once connected, metadata information is visible to all users.
+
+
+image::catalog-integration.png[Column with description and verification status showing]
+
+
+[#9-6-0-cl-rename]
+[discrete]
+=== Renaming column names
+
+// Naomi
+
+
+[#9-6-0-cl-sage]
+[discrete]
+=== Sage info Liveboard for SaaS clusters
+
+// Naomi
+
+[#9-6-0-cl-byok]
+[discrete]
+=== BYOK implementation in SaaS v2 - GCP phase 1
+
+// Mark
+
+[#9-6-0-cl-dbt]
+[discrete]
+=== dbt Integration: incremental sync
+
+// Naomi
+
+[#9-6-0-cl-dbt-1.5]
+[discrete]
+=== dbt integration: support for dbt 1.5
+
+// Naomi
+
+[#9-6-0-cl-ansi]
+[discrete]
+=== Ability to use ANSI SQL dialect for generic JDBC driver
+
+// Naomi
+
+[#9-6-0-cl-seekwell]
+[discrete]
+=== Seekwell as a Service infrastructure movement
+
+// Naomi
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-6-0-cl-cache]
+[discrete]
+=== View search cache [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-6-0-cl-cache]
+[discrete]
+=== View search cache [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
+// Naomi
+
+endif::free-trial-feature[]
+
+[#9-6-0-cl-connectivity]
+[discrete]
+=== Private connectivity - SaaS v2
+
+// Naomi
+
+[#9-6-0-cl-athena]
+[discrete]
+=== Amazon Athena connection
+
+// Naomi
+
+You can now create connections from ThoughtSpot to Amazon Athena.
+
+
+NEEDS EVALUATION
+
+[#9-6-0-cl-hardening]
+[discrete]
+=== dbt Integration: hardening epic
+
+// Naomi
+
+[#9-6-0-cl-verified]
+[discrete]
+=== Phase 1: Verified Liveboards spillover items
+
+// Naomi
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-6-0-cl-looker]
+[discrete]
+=== Looker: Query Gen and Search Data changes [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-6-0-cl-looker]
+[discrete]
+=== Looker: Query Gen and Search Data changes [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
+// Mark
+
+endif::free-trial-feature[]
+
+[#9-6-0-cl-byok-design]
+[discrete]
+=== BYOK design in SaaS v2 - GCP and AWS
+
+// Mark
+
+[#9-6-0-cl-semantic]
+[discrete]
+=== Looker: Semantic Layer integration
+
+// Mark
+
+[#9-6-0-cl-billing]
+[discrete]
+=== Billing related changes for customers on shared clusters
+
+// Mark
+
+[#9-6-0-cl-orgs]
+[discrete]
+=== Loading balancing customers on shared clusters as different orgs
+
+// Mary
+
+[#9-6-0-cl-snapshot]
+[discrete]
+=== Org aware snapshot and org statistics
+
+// Mary
+
+[#9-6-0-cl-granular]
+[discrete]
+=== Granular privileges for FT, TE, Enterprise - Orgs
+
+// Mary
+
+[#9-6-0-cl-enablement]
+[discrete]
+=== [Place holder] Orgs enablement default for all clusters (Org0 working gaps)
+
+// Mary
+
+[#9-6-0-cl-users]
+[discrete]
+=== Users and Groups V2 UI (Orgs 1.5)
+
+// Mary
+
+[#9-6-0-cl-default]
+[discrete]
+=== Enable Orgs by default on all clusters
+
+// Mark
+
+[#9-6-0-cl-accessibility]
+[discrete]
+=== Accessibility improvements phase 1
+
+// Mark
+
+[#9-6-0-cl-hadoop]
+[discrete]
+=== Upgrade Hadoop 2 to Hadoop 3
+
+// Mark
+
+[#9-6-0-cl-synonym]
+[discrete]
+=== Column value synonyms
+
+// Naomi
+
+[#9-6-0-cl-hidden]
+[discrete]
+=== Add 'Hidden columns' section in table configuration
+
+// Naomi
+
+[#9-6-0-cl-pivot]
+[discrete]
+=== Pivot table with having filter
+
+// Naomi
+
+[#9-6-0-cl-nimbus]
+[discrete]
+=== Nimbus - Cloud export service
+
+// Naomi
+
+
+[#9-6-0-cl-onboarding]
+[discrete]
+=== LCM changes for onboarding a customer on shared cluster (Essential/ Pro Edition) as an org
+
+// Mary
+
+ifndef::free-trial-feature[]
+[discrete]
+=== ThoughtSpot Everywhere
+
+For new features and enhancements introduced in this release of ThoughtSpot Everywhere, see https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
+endif::[]
