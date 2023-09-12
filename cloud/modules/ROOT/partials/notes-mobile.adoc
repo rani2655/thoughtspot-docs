@@ -1,6 +1,6 @@
 
 
-ThoughtSpot mobile 2.6 is now available.
+ThoughtSpot mobile 2.7 is now available.
 These release notes include information about new features, fixed issues from the previous releases, and any known issues.
 
 [#2-7-new]
