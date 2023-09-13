@@ -1,0 +1,221 @@
+ifndef::pendo-links[]
+September 2023 [label label-dep]#9.5.0.sw#
+endif::[]
+ifdef::pendo-links[]
+[month-year-whats-new]#September 2023#
+[label label-dep-whats-new]#9.5.0.sw#
+endif::[]
+
+ifndef::pendo-links[]
+NOTE: Features marked as [.badge.badge-update-whats-new-beta-note]#Beta# are off by default. To enable them, contact {support-url}.
+endif::[]
+
+ifdef::pendo-links[]
+NOTE: Features marked as [.badge.badge-update-whats-new-beta-note]#Beta# are off by default. To enable them, contact {support-url}.
+endif::[]
+
+[#primary-9-0-0-sw]
+
+[#9-5-0-sw-custom-maps]
+[discrete]
+=== Upload custom geo maps
+
+// Naomi
+
+Custom geo maps are now GA and on by default. Upload your own custom maps and visualize data on xref:chart-geo.adoc[geo charts] with regions that are specific to you and your organization.
+
+For more information about custom geo maps, see
+ifndef::pendo-links[]
+xref:geomaps-custom.adoc[Upload custom geo maps].
+endif::[]
+ifdef::pendo-links[]
+xref:geomaps-custom.adoc[Upload custom geo maps,window=_blank].
+endif::[]
+
+
+ifdef::pendo-links[]
+[#9-5-0-sw-keywords]
+[discrete]
+=== Keyword "of" and "percentage of" [.badge.badge-beta-whats-new]#Beta#
+endif::[]
+ifndef::pendo-links[]
+[#9-5-0-sw-keywords]
+[discrete]
+=== Keywords "of" and "percentage of" [.badge.badge-beta]#Beta#
+endif::[]
+
+// Naomi
+
+To enable business users to answer questions related to mix, contribution, share of, percentage, and total ratios, we added the keywords “of” and “percentage of”. These keywords help answer questions such as “What is the share of a certain store’s sales as a percentage of the regional whole?” Previously, searches such as these required the use of a group aggregate formula, which presented a barrier to users.
+For more information, see
+ifndef::pendo-links[]
+xref:formulas-keywords.adoc[Keywords: Of and Percentage of].
+endif::[]
+ifdef::pendo-links[]
+xref:formulas-keywords.adoc[Keywords: Of and Percentage of,window=_blank].
+endif::[]
+This feature is off by default. To enable it, contact {support-url}.
+
+ifdef::pendo-links[]
+[#9-5-0-sw-filters]
+[discrete]
+=== Group aggregate enhancements: filters [.badge.badge-beta-whats-new]#Beta#
+endif::[]
+ifndef::pendo-links[]
+=== Group aggregate enhancements: filters [.badge.badge-beta]#Beta#
+endif::[]
+
+Group aggregate filter enhancements are GA and on by default. Previously, when using group_aggregate formulas, users could use query_filters to include filters entered in the search bar in the formula's value, but it was difficult to write a formula that accepted filters from only a single column.
+
+Starting with this release, you can specify column names within the ‘filters’ section of a group_aggregate formula, and any filter in your search bar referencing that column will be added to the formula. Filters entered in the search bar that are not on columns specified in the third argument of the group_aggregate formula will be ignored. For details, see
+ifndef::pendo-links[]
+xref:formulas-aggregation-flexible.adoc#groupagg-filters-enhancement[Group aggregation filters].
+endif::[]
+ifdef::pendo-links[]
+xref:formulas-aggregation-flexible.adoc#groupagg-filters-enhancement[Group aggregation filters,window=_blank].
+endif::[]
+
+[#9-5-0-sw-parameter]
+[discrete]
+=== Runtime parameter overrides
+
+// Naomi
+
+Adjust Parameter values at runtime from Liveboard or Answer URLs, or using REST API v1 requests. For more information, see
+ifndef::pendo-links[]
+xref:parameters-use.adoc#runtime-overrides[Runtime overrides for Parameters]
+endif::[]
+ifdef::pendo-links[]
+xref:parameters-use.adoc#runtime-overrides[Runtime overrides for Parameters,window=_blank]
+endif::[]
+and
+link:https://developers.thoughtspot.com/docs/?pageid=runtime-params[Runtime Parameters,window=_blank].
+
+
+
+
+
+'''
+[#secondary-9-0-0-sw]
+[discrete]
+=== _Other features and enhancements_
+
+[#9-5-0-sw-connections]
+[discrete]
+=== Connections
+
+// Naomi
+
+You can now create connections from ThoughtSpot to the following Cloud data warehouses:
+
+ifndef::pendo-links[]
+* xref:connections-amazon-aurora-mysql.adoc[Amazon Aurora MySQL]
+endif::[]
+ifdef::pendo-links[]
+* xref:connections-amazon-aurora-mysql.adoc[Amazon Aurora MySQL,window=_blank]
+endif::[]
+
+ifndef::pendo-links[]
+* xref:connections-amazon-aurora-postgresql.adoc[Amazon Aurora PostgreSQL]
+endif::[]
+ifdef::pendo-links[]
+* xref:connections-amazon-aurora-postgresql.adoc[Amazon Aurora PostgreSQL,window=_blank]
+endif::[]
+
+ifndef::pendo-links[]
+* xref:connections-amazon-rds-mysql.adoc[Amazon RDS MySQL]
+endif::[]
+ifdef::pendo-links[]
+* xref:connections-amazon-rds-mysql.adoc[Amazon RDS MySQL,window=_blank]
+endif::[]
+
+ifndef::pendo-links[]
+* xref:connections-amazon-rds-postgresql.adoc[Amazon RDS PostgreSQL]
+endif::[]
+ifdef::pendo-links[]
+* xref:connections-amazon-rds-postgresql.adoc[Amazon RDS PostgreSQL,window=_blank]
+endif::[]
+
+ifndef::pendo-links[]
+* xref:connections-genericjdbc.adoc[Generic JDBC]
+endif::[]
+ifdef::pendo-links[]
+* xref:connections-genericjdbc.adoc[Generic JDBC,window=_blank]
+endif::[]
+
+ifndef::pendo-links[]
+* xref:connections-mysql.adoc[MySQL]
+endif::[]
+ifdef::pendo-links[]
+* xref:connections-mysql.adoc[MySQL,window=_blank]
+endif::[]
+
+ifndef::pendo-links[]
+* xref:connections-singlestore.adoc[SingleStore]
+endif::[]
+ifdef::pendo-links[]
+* xref:connections-singlestore.adoc[SingleStore,window=_blank]
+endif::[]
+
+ifndef::pendo-links[]
+* xref:connections-sql-server.adoc[SQL Server]
+endif::[]
+ifdef::pendo-links[]
+* xref:connections-sql-server.adoc[SQL Server,window=_blank]
+endif::[]
+
+[#9-5-0-sw-redshift]
+[discrete]
+=== Redshift OAuth with Azure AD IDP
+
+Redshift now supports external OAuth through Microsoft Azure AD. See
+ifndef::pendo-links[]
+xref:connections-redshift-azure-ad-oauth.adoc[Configure Azure AD external OAuth for a Redshift connection].
+endif::[]
+ifdef::pendo-links[]
+xref:connections-redshift-azure-ad-oauth.adoc[Configure Azure AD external OAuth for a Redshift connection,window=_blank].
+endif::[]
+
+
+[#9-5-0-sw-tscli]
+[discrete]
+=== tscli command updates
+
+// Naomi
+
+NEEDS EVALUATION
+
+[#9-5-0-sw-cassandra]
+[discrete]
+=== Move to Cassandra 4.0
+
+// Mary
+
+[#9-5-0-sw-tsload]
+[discrete]
+=== Tsload fixes on columnar file formats
+
+// Mary
+
+[#9-5-0-sw-hadoop]
+[discrete]
+=== Hadoop update to 3
+
+// Mary
+
+[#9-5-0-sw-falcon]
+[discrete]
+=== Connect Falcon on SW cluster using Embrace connection "TS Data Cache" from TS Cloud
+
+// Naomi
+
+
+[#tse]
+[discrete]
+=== ThoughtSpot Everywhere
+
+Customers licensed to embed ThoughtSpot can use ThoughtSpot Everywhere features and the Visual Embed SDK.
+
+To enable ThoughtSpot Everywhere on your cluster, contact {support-url}.
+
+For new features and enhancements introduced in this release for ThoughtSpot Everywhere, see https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
