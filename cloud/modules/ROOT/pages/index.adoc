@@ -117,6 +117,7 @@ Find topics for the common types of ThoughtSpot users.
 <li><a href="https://docs.thoughtspot.com/cloud/latest/search-sage">ThoughtSpot Sage</a></li>
 <li><a href="https://docs.thoughtspot.com/cloud/latest/thoughtspot-sync">ThoughtSpot Sync</a></li>
 <li><a href="https://docs.thoughtspot.com/cloud/latest/thoughtspot-sheets">Add-ons for Google Sheets&trade;</a></li>
+<li><a href="https://docs.thoughtspot.com/cloud/latest/thoughtspot-slides">Add-on for Google Slides&trade;</a></li>
     </ul>
     </div>
   <div class="box">
@@ -220,4 +221,4 @@ Find topics for the common types of ThoughtSpot users.
 ++++
 == What's new in ThoughtSpot Cloud
 
-include::partial$whats-new-9-5-0-cl.adoc[]
+include::partial$whats-new-9-6-0-cl.adoc[]
