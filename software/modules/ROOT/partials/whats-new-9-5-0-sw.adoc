@@ -22,7 +22,14 @@ endif::[]
 
 // Naomi
 
-Custom geo maps are now GA and on by default. Upload your own custom maps and visualize data on xref:chart-geo.adoc[geo charts] with regions that are specific to you and your organization.
+Custom geo maps are now GA and on by default. Upload your own custom maps and visualize data on
+ifndef::pendo-links[]
+xref:chart-geo.adoc[geo charts]
+endif::[]
+ifdef::pendo-links[]
+xref:chart-geo.adoc[geo charts,window=_blank]
+endif::[]
+with regions that are specific to you and your organization.
 
 For more information about custom geo maps, see
 ifndef::pendo-links[]
@@ -151,10 +158,10 @@ ifdef::pendo-links[]
 endif::[]
 
 ifndef::pendo-links[]
-* xref:connections-singlestore.adoc[SingleStore]
+* xref:connections-singlestore.adoc[SingleStore] [.badge.badge-early-access]#Early Access#
 endif::[]
 ifdef::pendo-links[]
-* xref:connections-singlestore.adoc[SingleStore,window=_blank]
+* xref:connections-singlestore.adoc[SingleStore,window=_blank] [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 
 ifndef::pendo-links[]
