@@ -9,8 +9,8 @@
 
 These are the issues we fixed in this release of ThoughtSpot Cloud.
 
-[#releases-9-5-0-x]
-== 9.5.0.cl release fixed issues
+[#releases-9-6-0-x]
+== 9.6.0.cl release fixed issues
 
 [cols="20%,80%"]
 |===
