@@ -10,6 +10,18 @@ Your role is to establish connections to data. Here is how you can connect to al
 
 The following list provides information about connecting to your data in supported data warehouses.
 
+== image:amazon-athena-icon.png[Amazon Athena icon] Amazon Athena
+
+* xref:connections-amazon-athena.adoc[Overview]
+* xref:connections-amazon-athena-add.adoc[Add connection]
+* xref:connections-amazon-athena-edit.adoc[Edit connection]
+* xref:connections-amazon-athena-remap.adoc[Remap connection]
+* xref:connections-amazon-athena-delete-table.adoc[Delete a table]
+* xref:connections-amazon-athena-delete-table-dependencies.adoc[Delete a table with object dependencies]
+* xref:connections-amazon-athena-delete.adoc[Delete connection]
+* xref:connections-amazon-athena-passthrough.adoc[Passthrough functions]
+* xref:connections-amazon-athena-reference.adoc[Connection reference]
+
 == image:amazon-aurora-icon.png[Amazon Aurora MySQL icon] Amazon Aurora MySQL
 
 * xref:connections-amazon-aurora-mysql.adoc[Overview]
