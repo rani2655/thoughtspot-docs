@@ -40,6 +40,7 @@ We recommend that you create admins and analysts in this step, especially if you
 Completing this step lets all users in your organization perform live queries.
 Choose your cloud data warehouse type, and follow the connection instructions.
 
+* xref:connections-amazon-athena.adoc[Amazon Athena]
 * xref:connections-amazon-aurora-mysql.adoc[Amazon Aurora MySQL]
 * xref:connections-amazon-aurora-postgresql.adoc[Amazon Aurora PostgreSQL]
 * xref:connections-amazon-rds-mysql.adoc[Amazon RDS MySQL]

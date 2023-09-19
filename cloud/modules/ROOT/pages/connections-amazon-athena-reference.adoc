@@ -1,0 +1,31 @@
+= Connection reference for {connection}
+:last_updated: 4/19/2023
+:page-aliases:
+:linkattrs:
+:page-layout: default-cloud
+:experimental:
+:connection: Amazon Athena
+:description: Learn the specific information needed to establish a secure connection to Amazon Athena.
+
+You need specific information to establish a seamless and secure connection.
+The following fields are required, except where noted.
+
+Connection name:: Enter a new {connection} connection name.
+Connection description:: Provide a short description of the connection. _(Optional)_
+Region:: Enter the region.
+Access key:: Enter the access key.
+Secret key:: Enter the secret key.
+S3 output location:: Enter the S3 output location.
+Datasource:: Specify the data source associated with the account. _(Optional)_
+Endpoint VPC:: Enter the Endpoint VPC. _(Optional)_
+
+'''
+> **Related information**
+>
+> * xref:connections-amazon-athena-add.adoc[Add an {connection} connection]
+> * xref:connections-amazon-athena-edit.adoc[Edit an {connection} connection]
+> * xref:connections-amazon-athena-remap.adoc[Remap an {connection} connection]
+> * xref:connections-amazon-athena-delete-table.adoc[Delete a table from an {connection} connection]
+> * xref:connections-amazon-athena-delete-table-dependencies.adoc[Delete a table with dependent objects]
+> * xref:connections-amazon-athena-delete.adoc[Delete an {connection} connection]
+> * xref:connections-amazon-athena-passthrough.adoc[]

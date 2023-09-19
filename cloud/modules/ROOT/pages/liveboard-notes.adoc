@@ -32,6 +32,7 @@ Note tiles support the following formatting options:
 * Text: Heading levels 1 and 2, body text
 * Bold, italics, underline, strikethrough
 * <<hyperlink,Hyperlinks>>
+* <<iFrame,iFrames>>
 * Bulleted list
 * Numbered list
 * <<image,Images>> from your computer or from a URL. Either .jpg, .jpeg, or .png. The image size can't be greater than 5 MB.
@@ -49,6 +50,25 @@ To add a hyperlink to your note tile, follow these steps:
 . In the *Link* text box, add the URL you would like to link to.
 . Select *Add*.
 . When you are finished editing the note tile, select *Save* in the top menu bar of the Liveboard.
+
+.[.badge.badge-early-access]#Early Access#
+****
+[#iFrame]
+Embedding content with iFrames
+
+Embedding content with iFrames is in Early Access and off by default. To enable this feature, contact your administrator.
+
+To embed content using an iFrame, follow these steps:
+
+. Navigate to the Liveboard with the note tile you would like to edit.
+. Select the *Edit* button at the upper right of the Liveboard. If this button is grayed out, you do not have edit privileges for the Liveboard. To resolve this, contact your administrator or the creator of the Liveboard.
+. Select the note. The formatting bar at the top of the note tile appears.
+. Select the *Embed* button image:embed-icon.png[Embed icon].
+. Paste the embed code for your content. This can be a video, a PDF, or a Figma file.
+. Select the edges of the embedded content and drag to resize the content. Select the edges of the tile and drag to resize the note tile.
+. When you are finished editing the note tile, select *Save* in the top menu bar of the Liveboard.
+****
+
 
 [#image]
 === Inserting images

@@ -14,6 +14,7 @@ If your company stores source data externally in data warehouses, you can connec
 
 On ThoughtSpot Cloud, you can connect to the following external databases:
 
+* xref:connections-amazon-athena.adoc[Amazon Athena]
 * xref:connections-amazon-aurora-mysql.adoc[Amazon Aurora MySQL]
 * xref:connections-amazon-aurora-postgresql.adoc[Amazon Aurora PostgreSQL]
 * xref:connections-amazon-rds-mysql.adoc[Amazon RDS MySQL]
@@ -62,6 +63,8 @@ IMPORTANT: Connections does not support joins across connections.
 [#set-up-connection]
 == Set up your connection
 
+* *xref:connections-amazon-athena-add.adoc[Add an Amazon Athena connection]* +
+Create the connection between ThoughtSpot and tables in an external Amazon Athena database.
 * *xref:connections-amazon-aurora-mysql-add.adoc[Add an Amazon Aurora MySQL connection]* +
 Create the connection between ThoughtSpot and tables in an external Amazon Aurora MySQL database.
 * *xref:connections-amazon-aurora-postgresql-add.adoc[Add an Amazon Aurora PostgreSQL connection]* +

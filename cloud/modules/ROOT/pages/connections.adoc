@@ -72,9 +72,14 @@ Editing a connection makes it possible to add additional columns, but not to rem
 
 == Next steps
 
-
+* *xref:connections-amazon-athena-add.adoc[Add an Amazon Athena connection]* +
+Create the connection between ThoughtSpot and tables in an external Amazon Athena database.
+* *xref:connections-amazon-aurora-mysql-add.adoc[Add an Amazon Aurora MySQL connection]* +
+Create the connection between ThoughtSpot and tables in an external Amazon Aurora MySQL database.
 * *xref:connections-amazon-aurora-postgresql-add.adoc[Add an Amazon Aurora PostgreSQL connection]* +
 Create the connection between ThoughtSpot and tables in an external Amazon Aurora PostgreSQL database.
+* *xref:connections-redshift-add.adoc[Add an Amazon RDS MySQL connection]* +
+Create the connection between ThoughtSpot and tables in an external Amazon RDS MySQL database.
 * *xref:connections-redshift-add.adoc[Add an Amazon RDS PostgreSQL connection]* +
 Create the connection between ThoughtSpot and tables in an external Amazon RDS PostgreSQL database.
 * *xref:connections-redshift-add.adoc[Add an Amazon Redshift connection]* +

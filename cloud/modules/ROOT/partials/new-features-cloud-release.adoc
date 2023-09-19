@@ -18,7 +18,7 @@ For these instructions, see xref:ts-cloud-getting-started.adoc[Getting Started w
 === For the Analyst
 
 Embedding in note tiles [.badge.badge-early-access-relnotes]#Early Access#::
-You can now embed interactive content such as videos, pdfs, or Figma files into Liveboards using the note tile format. To try it out, enter a Liveboard, select the edit icon, and select Add note from the top bar. You can then click the embed icon and enter the URL or iFrame code for your content. You can interact with the content embedded in a Liveboard like you would with a website. This feature must be enabled by your administrator.
+You can now embed interactive content such as videos, pdfs, or Figma files into Liveboards using the note tile format. To try it out, enter a Liveboard, select the edit icon, and select Add note from the top bar. You can then click the embed icon and enter the URL or iFrame code for your content. You can interact with the content embedded in a Liveboard like you would with a website. To enable this feature, contact your administrator. For more information, see xref:liveboard-notes.adoc#iFrame[Embedding content with an iFrame].
 
 [#9-6-0-cl-business-user]
 === For the Business User
@@ -56,7 +56,7 @@ ThoughtSpot Connected Slides is an add-on that allows you to insert charts and l
 === For the Data Engineer
 
 Amazon Athena connection::
-You can now create connections from ThoughtSpot to Amazon Athena.
+You can now create connections from ThoughtSpot to Amazon Athena. For more information, see xref:connections-amazon-athena.adoc[Amazon Athena].
 
 [#9-6-0-cl-it-ops-engineer]
 === For the IT/Ops Engineer
@@ -66,6 +66,8 @@ You can now import metadata information related to your tables and columns from 
 
 Index Statistics Liveboard::
 Admin users can now see indexing statistics for their cluster using the Index Statistics Liveboard. You can filter the results by connection, table, and column, and see the breakdown of indexed search tokens in the visualizations. This Liveboard helps you see how many search tokens you are using, and can help you diagnose indexing issues and errors.
+For more information, see
+xref:index-statistics-liveboard.adoc[Index Statistics Liveboard].
 
 dbt sync::
 In the past, ThoughtSpot generated a new Worksheet every time a user edited an existing dbt data model. Now, ThoughtSpot maintains a persistent connection with dbt and provides realtime updates. Users can update an object, update an object and create a new object, or simply create a new object.

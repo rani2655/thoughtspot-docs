@@ -1,3 +1,4 @@
+* xref:connections-amazon-athena.adoc[Amazon Athena]
 * xref:connections-amazon-aurora-mysql.adoc[Amazon Aurora MySQL]
 * xref:connections-amazon-aurora-postgresql.adoc[Amazon Aurora PostgreSQL]
 * xref:connections-amazon-rds-mysql.adoc[Amazon RDS MySQL]
