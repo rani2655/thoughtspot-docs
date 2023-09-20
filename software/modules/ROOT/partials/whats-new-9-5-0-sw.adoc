@@ -14,7 +14,7 @@ ifdef::pendo-links[]
 NOTE: Features marked as [.badge.badge-update-whats-new-beta-note]#Beta# are off by default. To enable them, contact {support-url}.
 endif::[]
 
-[#primary-9-0-0-sw]
+[#primary-9-5-0-sw]
 
 [#9-5-0-sw-custom-maps]
 [discrete]
@@ -103,7 +103,7 @@ link:https://developers.thoughtspot.com/docs/?pageid=runtime-params[Runtime Para
 
 
 '''
-[#secondary-9-0-0-sw]
+[#secondary-9-5-0-sw]
 [discrete]
 === _Other features and enhancements_
 
@@ -144,10 +144,10 @@ ifdef::pendo-links[]
 endif::[]
 
 ifndef::pendo-links[]
-* xref:connections-genericjdbc.adoc[Generic JDBC]
+* xref:connections-genericjdbc.adoc[Generic JDBC] [.badge.badge-beta]#Beta#
 endif::[]
 ifdef::pendo-links[]
-* xref:connections-genericjdbc.adoc[Generic JDBC,window=_blank]
+* xref:connections-genericjdbc.adoc[Generic JDBC,window=_blank] [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
 ifndef::pendo-links[]
