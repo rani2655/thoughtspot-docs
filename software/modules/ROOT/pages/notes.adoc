@@ -21,62 +21,51 @@ These release notes include information about new and enhanced features.
 
 To see our feature deprecation plans, please see xref:deprecation.adoc[].
 
-For a complete list of issues that we fixed in this release, see xref:fixed.adoc#releases-9-0-x[Fixed issues].
+For a complete list of issues that we fixed in this release, see xref:fixed.adoc#releases-9-5-x[Fixed issues].
 
-* <<new-9-0-1,9.0.1.sw New Features and Functionality>>
+* <<new-9-5-0,9.5.0.sw New Features and Functionality>>
 * <<upgrade-paths,Supported Upgrade Paths>>
 
-[#new-9-0-1]
-== 9.0.1.sw New Features and Functionality
+[#new-9-5-0]
+== 9.5.0.sw New Features and Functionality
 
-.[.badge.badge-early-access]#Early Access#
-****
-In this release, we introduce Early Access features. Administrators can selectively enable or disable Early Access features for all users. For more about Early Access features, see xref:release-lifecycle.adoc#early-access[ThoughtSpot Software release life cycle].
-****
 
-IMPORTANT: For best performance loading Liveboards, we recommend that you have no more than 40 visualizations in a single tab of a Liveboard.
+* <<analyst-9-5-0-sw,For the Analyst>>
+* <<business-user-9-5-0-sw,For the Business User>>
+* <<data-engineer-9-5-0-sw,For the Data Engineer>>
+* <<it-ops-engineer-9-5-0-sw,For the IT Ops Engineer>>
+* <<developer-9-5-0-sw,For the Developer>>
 
-* <<analyst-9-0-0-sw,For the Analyst>>
-* <<business-user-9-0-0-sw,For the Business User>>
-* <<data-engineer-9-0-0-sw,For the Data Engineer>>
-* <<it-ops-engineer-9-0-0-sw,For the IT Ops Engineer>>
-* <<developer-9-0-0-sw,For the Developer>>
-
-[#analyst-9-0-0-sw]
+[#analyst-9-5-0-sw]
 === For the Analyst
 
-Show measures in pivot table rows::
-By default, ThoughtSpot displays measures in columns in pivot tables. With this release, choose whether to display measures in rows or columns in your pivot tables. For more information, see xref:chart-pivot-table.adoc#reorder[Reorder your pivot table].
+Parameters::
+The Parameters feature is now GA. Any user can now create Parameters at the Answer level to optimize their data inquiries. Analysts can also create Worksheet Parameters that are available to all Worksheet users. Use Parameters to run different scenarios with adjustable values, without creating or modifying the constants in formulas for each new value. For example, easily adjust the attribute in an Answer to view your revenue by commit date or order date, as in the following image. +
+To try it out, navigate to any Answer, search, or Worksheet, and select the *+* button next to the *Parameters* section in the left panel. For more information, see xref:parameters-create.adoc[Creating Parameters] and xref:parameters-use.adoc[Using Parameters].
 
-Delete joins and RLS rules through TML::
-When you edit and import table TML files, ThoughtSpot now supports deletion of joins at the table level and RLS rules. Refer to xref:tml.adoc[].
+Parameter runtime overrides::
+Adjust Parameter values at runtime from Liveboard or Answer URLs, or using REST API v1 requests. For more information, see
+xref:parameters-use.adoc#runtime-overrides[Runtime overrides for Parameters]
+and
+link:https://developers.thoughtspot.com/docs/?pageid=runtime-params[Runtime Parameters,window=_blank].
 
-Export FQNs when exporting TML files::
-
-To reduce ambiguity when exporting TML files, export the fully qualified names (FQNs) for the objects' data sources. If you select this option, the TML file contains FQNs for the underlying tables and connections.
+Custom groups [.badge.badge-beta]#Beta#::
+You can now create custom groups, which can be used to classify values in a list you can then reuse across multiple analyses. As an example, you can use custom groups to search for which products are most popular, and define them by sales volume as “gold”, “silver”, or “bronze” level products. Custom groups are community objects which remain when you navigate away from the Search Data page and can be viewed by any user with view access to the underlying Worksheet.
 +
-For more information, see xref:tml-worksheets.adoc#fqn[ThoughtSpot Modeling Language].
+For more information, see xref:custom-groups.adoc[Custom groups].
 
-Visualization GUID support in TML files::
+Verified Liveboards::
+Admin-assigned verifiers can now mark Liveboards as verified. Users can now request these verifiers to review their Liveboards, and verify if the information displayed is trusted content. Verified Liveboards carry a tag that signifies that they have been audited for correctness. For more information, see
+xref:liveboard-verify.adoc[Verified Liveboards].
 
-Liveboard ThoughtSpot Modeling Language (TML) files now contain distinct GUIDs for each visualization in the Liveboard by default. This ensures that the GUID for the visualization stays the same after you import or export it. See the xref:tml-liveboards.adoc#viz_guid[TML viz_guid] parameter.
-
-Upload custom geo maps [.badge.badge-early-access-relnotes]#Early Access#::
-
-Upload your own custom maps and visualize data on xref:chart-geo.adoc[geo charts] with regions that are specific to you and your organization. This feature must be enabled by your administrator. For more information, see xref:geomaps-custom.adoc[].
-
-Parameters [.badge.badge-beta-relnotes]#Beta#::
-Create Worksheet parameters to optimize your data inquiries. Use parameters to run different scenarios with adjustable values, without creating or modifying the constants in formulas for each new value. For more information, refer to xref:parameters-create.adoc[] and xref:parameters-use.adoc[].
+Date picker enhancement in Search::
+We added support for rolling, fixed, and custom date filters when creating an Answer or filtering a Liveboard. Previously, when adding a date filter to a Search, ThoughtSpot supported the conditions `ON` (=), `ON OR AFTER` (>=), `BEFORE` (<), and `BETWEEN`. Now, you can additionally filter for `ON OR BEFORE` (\<=), `NOT BETWEEN`, `ON LAST`, and `ON NEXT`.
 +
-This feature is in beta and off by default. To enable it, contact {support-url}.
+To try it out, click the filter icon next to the Date column in the left side menu, or click the date filter below the Answer or Liveboard title. For more information, see xref:date-filter.adoc[Date filters for Answers and Liveboards].
 
-
-Data labels on a dark background  [.badge.badge-early-access-relnotes]#Early Access#::
-Labels that appear on a dark background can be displayed in a lighter text color, making them easier to read. This feature must be enabled by your administrator. For more information about data labels on a dark background, see xref:chart-data-labels.adoc[].
-
-Apply multiple changes at once  [.badge.badge-early-access-relnotes]#Early Access#::
-When a user drags and drops the fields in the chart configuration panel, the chart reloads. When a user has multiple fields, they need to rearrange a lot of them to reach a desired chart. Now users can make multiple configurations, and apply them all at once, rather than waiting in between each configuration. This feature must be enabled by your administrator. For more information, see xref:chart-x-axis.adoc[].
-
+Mandatory filters::
+Mandatory Liveboard filters are now GA. Mark certain filters in your Liveboard as mandatory. If you add mandatory filters to a Liveboard, the visualizations will only load after Liveboard viewers select values for the mandatory filters. Use mandatory filters for Liveboards that contain data that may not be relevant for everyone who must view and consume the Liveboard. Mandatory filters also lower query and performance costs. To try the feature out, select *Mandatory filter* when adding a filter to a Liveboard. For more information about mandatory filters, see
+xref:liveboard-filters-mandatory.adoc[Mandatory Liveboard filters].
 
 Group aggregate enhancements: filters [.badge.badge-beta-relnotes]#Beta#:: Previously, when using group_aggregate formulas, users could use query_filters to include filters entered in the search bar in the formula's value, but it was difficult to write a formula that accepted filters from only a single column. Starting with this release, you can specify column names within the ‘filters’ section of a group_aggregate formula, and any filter in your search bar referencing that column will be added to the formula. Filters entered in the search bar that are not on columns specified in the third argument of the group_aggregate formula will be ignored.
 +
@@ -85,69 +74,85 @@ Say that you search for `group formula` `color= ‘blue’` `ship mode != ‘car
 xref:formulas-aggregation-flexible.adoc#groupagg-filters-enhancement[Group aggregation filters].
 
 
-[#business-user-9-0-0-sw]
+[#business-user-9-5-0-sw]
 === For the Business User
 
+Contextual change analysis:: You can now identify the key change drivers for changes in your metrics in a KPI chart. Select the percent change label or select any two data points on the KPI sparkline to view change analysis on your top 5 columns by usage-based ranking (UBR) and identify the reason behind the observed change. You can view the changes in other columns by clicking *Manage attributes* and selecting the desired column(s).
++
+For more information, see
+xref:spotiq-comparative.adoc#change-analysis-contextual[Contextual change analysis].
 
-Delete tables from ThoughtSpot:: Previously, when deleting tables from Connections, ThoughtSpot did not delete the table’s metadata completely. Now, tables deleted through the ThoughtSpot UI disappear completely from your cluster.
 
-Edit your display name::
-You can now edit your display name by clicking the profile icon in the upper-right corner of the screen. For more information, see
-xref:user-profile.adoc[Edit your display name,window=_blank].
 
-Chinese (Traditional) or 中文 (繁體) localization::
-Set your ThoughtSpot locale to Chinese (Traditional), or 中文 (繁體). ThoughtSpot changes your data format settings, such as currency and number formatting, and translates keywords, ThoughtSpot menu and navigation items, operators, and error messages. To try it out, navigate to your profile, and edit your system language. For more information, see
-xref:keywords-zh-HANT.adoc[中文 (繁體) keyword reference,window=_blank] and xref:user-profile.adoc#language[Change language and data format settings,window=_blank].
+Mandatory Liveboard filters:: Mandatory Liveboard filters are now GA. Mark certain filters in your Liveboard as mandatory. If you add mandatory filters to a Liveboard, the visualizations will only load after Liveboard viewers select values for the mandatory filters. Use mandatory filters for Liveboards that contain data that may not be relevant for everyone who must view and consume the Liveboard. Mandatory filters also lower query and performance costs.
++
+For more information, see
+xref:liveboard-filters-mandatory.adoc[Mandatory Liveboard filters].
 
-Delete or make a copy of objects from the details page::
-Delete or make a copy of Worksheets and Views from an object's details page. To try it out, open any Worksheet or View, and select the more menu image:icon-more-10px.png[more menu icon image]. For more information, see
-xref:worksheet-edit.adoc[Edit or rename Worksheet,window=_blank] and xref:sql-views.adoc[SQL based Views,window=_blank].
+Explain change for KPI charts [.badge.badge-beta]#Beta#::
+You can now use SpotIQ analysis to directly identify the key drivers for recent change in your KPIs. KPI change analysis allows you to drill down into the causes of change in your KPIs and customize the insights generated by SpotIQ.
++
+To access this feature, go to your KPI chart and select the caret icon to the right of the percent change label. The Run change analysis pop-up allows you to customize the columns ThoughtSpot analyzes. Note that ThoughtSpot runs change analysis between the two most recent data points defined by the KPI’s time bucket (for example, daily or weekly).
++
+For more information on change analysis, see
+xref:spotiq-comparative.adoc[Comparative analysis].
 
-Rename Liveboards and visualizations without entering edit mode::
-Change the name or description of a Liveboard or visualization without entering *Edit* mode. The more image:icon-more-10px.png[more menu icon] menu for Liveboards and Liveboard visualizations now includes a *Rename* option, where you can edit the object name and description. For more information, see xref:liveboard-layout-edit.adoc#other-edits[Other Liveboard edits].
+Keywords "of", "percentage of" [.badge.badge-beta]#Beta#::
+To enable business users to answer questions related to mix, contribution, share of, percentage, and total ratios, we added the keywords “of” and “percentage of”. These keywords help answer questions such as “What is the share of a certain store’s sales as a percentage of the regional whole?” Previously, searches such as these required the use of a group aggregate formula, which presented a barrier to users.
+For more information, see
+xref:formulas-keywords.adoc[Keywords: Of and Percentage of].
++
+This feature is off by default. To enable it, contact {support-url}.
 
-Improvements to French keywords::
-This release improves the translated French keywords. See xref:keywords-fr-FR.adoc[].
+Editing in-use parameters::
+When using a parameter in a Search, Answer, or Liveboard, you can now change the allowed values type (for example, from *List* to *Range*). You can also add or delete values from a list parameter while it’s in use, or increase or decrease the minimum and maximum values in a range parameter. We do not support changing the data type of the parameter (for example, from `INT` to `DATE`). For more information, see xref:parameters-create.adoc[Create parameters].
 
-Mandatory Liveboard filters [.badge.badge-early-access-relnotes]#Early Access#::
+Pivot table enhancements::
+We made the following enhancements to pivot table charts:
 
-Mark certain filters in your Liveboard as mandatory. If you add mandatory filters to a Liveboard, the visualizations will only load after Liveboard viewers select values for the mandatory filters. Use mandatory filters for Liveboards that contain data that may not be relevant for everyone who must view and consume the Liveboard. Mandatory filters also lower query and performance costs. This feature must be enabled by your administrator. For more information, see xref:liveboard-filters-mandatory.adoc[].
+* When you download an xlsx version of a pivot table, the measure values are displayed as numbers instead of the general format.
 
-[#data-engineer-9-0-0-sw]
+* When you download an xlsx version of a pivot table, row and column labels are shown as separate cells rather than as a column-separated list.
+
+* You can no longer add conditional formatting to a pivot table in heatmap mode.
+
+* Naming of subtotals and grand totals are now consistent in the chart and chart configuration dropdown.
+
+* We now support hyperlinks in pivot tables.
+
+* You can now choose to show or hide row and column summaries and subtotals, from the chart configuration menu. When summaries and subtotals are enabled, you can choose to display them at the top or bottom of the pivot table.
+
+Liveboard tabs in Mobile app::
+We now display Liveboard tabs in the ThoughtSpot Mobile app. To create a Liveboard tab, you must access ThoughtSpot in a browser.
+
+
+
+[#data-engineer-9-5-0-sw]
 === For the Data Engineer
 
-PostgreSQL connection::
-You can now create connections from ThoughtSpot to PostgreSQL. For details, see xref:connections-postgresql.adoc[PostgreSQL].
+Connections::
+You can now create connections from ThoughtSpot to the following Cloud data warehouses:
+
+* xref:connections-amazon-aurora-mysql.adoc[Amazon Aurora MySQL]
+* xref:connections-amazon-aurora-postgresql.adoc[Amazon Aurora PostgreSQL]
+* xref:connections-amazon-rds-mysql.adoc[Amazon RDS MySQL]
+* xref:connections-amazon-rds-postgresql.adoc[Amazon RDS PostgreSQL]
+* xref:connections-genericjdbc.adoc[Generic JDBC] [.badge.badge-beta]#Beta#
+* xref:connections-mysql.adoc[MySQL]
+* xref:connections-singlestore.adoc[SingleStore] [.badge.badge-early-access]#Early Access#
+* xref:connections-sql-server.adoc[SQL Server]
 
 
-dbt metadata tags for table and Worksheet column properties and joins::
+Connection error messaging improvements::
+If you run into an error while creating a connection, you can now click *View details* to see error details and add a comment for your administrator.
 
-Manage your ThoughtSpot table and Worksheet column properties and table joins in dbt by using metadata tags to define column properties and joins within your dbt model schema. dbt stays the source of truth, and you don't have to manually update the columns in ThoughtSpot when you make changes to your dbt model. For more information, see xref:dbt-integration-metadata-tags.adoc[Metadata tags for dbt].
+Certification of Amazon Aurora and Amazon Relational Database Service (RDS) for PostgreSQL::
+You can now connect to and query Amazon Aurora and Amazon RDS for PostgreSQL databases.
 
-Sharing connections::
-You can now share connections with other users or groups. Once granted access to a connection, users can add, remove, and modify tables in that connection. For more information, see xref:connection-share.adoc[].
-
-Tag enhancements::
-This release includes the following updates to the xref:tags.adoc[tags] feature in the xref:data-workspace.adoc[Data workspace]:
-+
---
-* Add tags to multiple objects at a time
-
-* Administrators can create new tags from the *Edit tags* modal
---
-+
-For more information, see xref:tags.adoc#data-workspace-apply[Apply a tag] and xref:tags.adoc#data-workspace-create[Create a tag].
-
-[#it-ops-engineer-9-0-0-sw]
+[#it-ops-engineer-9-5-0-sw]
 === For the IT Ops Engineer
 
-Python 3.9 upgrade::
-Python 3.9 is now the default Python version for all ThoughtSpot Software clusters, regardless of deployment type. ThoughtSpot does not support any other Python release for clusters on ThoughtSpot release 9.0.0.sw and later.
-
-Deploy ThoughtSpot on RHEL, OEL, or Amazon Linux 2 using your LDAP or AD service account::
-When deploying ThoughtSpot on RHEL, OEL, or Amazon Linux 2, you can use your LDAP or Active Directory service account for installation, instead of using a local user. See xref:customer-os-ansible-configure.adoc#remote_user_management[].
-
-[#developer-9-0-0-sw]
+[#developer-9-5-0-sw]
 === For the Developer
 
 Customers licensed to embed ThoughtSpot can use ThoughtSpot Everywhere features and Visual Embed SDK.
@@ -159,15 +164,15 @@ For information about ThoughtSpot Everywhere, refer to  link:https://developers.
 [#upgrade-paths]
 == Supported Upgrade Paths
 
-If you are running one of the following versions, you can upgrade to the 9.0.1.sw release directly:
+If you are running one of the following versions, you can upgrade to the 9.5.0.sw release directly:
 
-* 8.4.x to 9.0.1.sw
-* 8.8.x to 9.0.1.sw
+* 9.0.1.sw to 9.5.0.sw
+* 8.8.x to 9.5.0.sw
 
 This includes any hotfixes or customer patches on these branches.
 
 If you are running a different version, you must do a multiple pass upgrade.
 
-First, upgrade to version 8.4.x or 8.8.x, and then to the 9.0.1.sw release.
+First, upgrade to version 9.0.1.sw or 8.8.x, and then to the 9.5.0.sw release.
 
 NOTE: To successfully upgrade your ThoughtSpot cluster, all user profiles must include a valid email address. Without valid email addresses, the upgrade is blocked.

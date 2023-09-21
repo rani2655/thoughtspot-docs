@@ -21,10 +21,6 @@ image::mandatory-filter-unselected.png[Liveboard with a mandatory filter where t
 
 This feature is part of the xref:liveboard-experience-new.adoc[new Liveboard experience]; if the classic experience is on in your environment, this feature is not available.
 
-.[.badge.badge-early-access]#Early Access#
-****
-The mandatory Liveboard filters feature is disabled by default. To enable it, contact your ThoughtSpot administrator. For more about Early Access features, see xref:release-lifecycle.adoc#early-access[ThoughtSpot Software release life cycle].
-****
 
 == Create mandatory filters
 
