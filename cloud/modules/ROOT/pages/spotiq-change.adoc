@@ -72,6 +72,10 @@ NOTE: In some instances, ThoughtSpot may point out that certain attribute values
 
 . You can run another round of SpotIQ analysis, download the data as a CSV file, edit this visualization, or make a copy of the visualization.
 
+When you run SpotIQ change analysis, ThoughtSpot detects additional insights and displays them below the change analysis visualizations. These insights display values that underwent the highest percentage change between the data points defined in your analysis, and values whose share of the total changed the most.
+
+image::additional-insight.png[SpotIQ additional insights]
+
 ////
 [#advanced-change-analysis]
 == Advanced change analysis in SpotIQ
