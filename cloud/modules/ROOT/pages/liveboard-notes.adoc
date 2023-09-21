@@ -51,12 +51,11 @@ To add a hyperlink to your note tile, follow these steps:
 . Select *Add*.
 . When you are finished editing the note tile, select *Save* in the top menu bar of the Liveboard.
 
-.[.badge.badge-early-access]#Early Access#
+.Embedding content with iFrames [.badge.badge-early-access]#Early Access#
 ****
 [#iFrame]
-Embedding content with iFrames
 
-Embedding content with iFrames is in Early Access and off by default. To enable this feature, contact your administrator.
+Embedding content with iFrames is in Early Access and off by default. To enable this feature, contact {support-url}.
 
 To embed content using an iFrame, follow these steps:
 
