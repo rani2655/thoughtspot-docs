@@ -1605,12 +1605,19 @@ tscli tokenauthentication enable::
 [#tscli-update]
 === update
 
+The tscli command syntax for retrieving historical data is:
 [source,tscli]
 ----
-tscli update [-h] {get-history}
+tscli cluster get-history --operation [upgrade, install, patch-apply, all] [--last_entry] [--out <output_filename>.tar.gz] [--after <YYYY-MM-DD_%H:%M:%S>]
 ----
 
-This subcommand has the following option:
+Command Options
 
-tscli update get-history::
-  Gets update history in `*.csv` files.
+The tscli command supports the following options:
+
+--operation:: specifies the type of operation for which historical data should be retrieved. The available options are "upgrade", "install", and "patch-apply".
+--last_entry:: fetches only the most recent data for an operation. This option is useful when earlier data sets have already been collected, and you only require the most recent information.
+--out:: specifies the output file name and format. The output will be saved in .tar.gz format.
+--after:: retrieves data for an operation that occurred after the specified date and time. The date and time should be in the format 'YYYY-MM-DD_%H:%M:%S'.
+
+Example:: `tscli cluster get-history --operation all --out upgrade_history.tar.gz --after 2023-02-13_11:40:23`
