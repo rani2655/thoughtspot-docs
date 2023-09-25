@@ -29,9 +29,6 @@ When running change analysis, you can now see additional insights. For example, 
 Query performance visibility [.badge.badge-beta-relnotes]#Beta#::
 You can now see the state of query execution for any Liveboard visualization while it loads. If a visualization takes longer than three seconds to load, ThoughtSpot displays the current query execution status (executing query, waiting for connection, or processing query) to help users identify the reason for the delay.
 
-Renaming columns in an Answer::
-You can now rename columns in an Answer and see the new name reflected on the table header, tooltips, legend, and chart configuration menu. Changes made on an Answer are not reflected in the underlying Worksheet.
-
 Hidden columns in tables::
 You can now hide a column from your table without removing it from your current Search. If you hide the column you’re using to sort results, the sorting order is unchanged. To try it out, create an Answer, open the chart configuration menu gear icon, and drag the selected column to *Hidden Columns*.
 
