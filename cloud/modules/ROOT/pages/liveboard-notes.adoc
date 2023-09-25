@@ -51,6 +51,7 @@ To add a hyperlink to your note tile, follow these steps:
 . Select *Add*.
 . When you are finished editing the note tile, select *Save* in the top menu bar of the Liveboard.
 
+[#embed]
 .Embedding content with iFrames [.badge.badge-early-access]#Early Access#
 ****
 [#iFrame]

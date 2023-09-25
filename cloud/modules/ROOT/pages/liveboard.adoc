@@ -64,6 +64,7 @@ For more details, see xref:liveboard-download-pdf.adoc[Download a Liveboard as P
 NOTE: If you do not see this option, your company may have removed the Liveboard download option.
 If you would like to download Liveboards, contact your ThoughtSpot administrator.
 
+[#comment]
 .[.badge.badge-early-access]#Early Access#
 ****
 *Comment on a Liveboard*
