@@ -12,54 +12,36 @@ endif::free-trial-feature[]
 
 [#primary-9-6-0-cl]
 
-[#9-6-0-cl-literacy]
-[discrete]
-=== Literacy: remove multiple date bucketing on the same column logic
+////
+// [#9-6-0-cl-kpi]
+// [discrete]
+// === [Cortex] KPI anomalies completion
 
-// Mary
+// Naomi
+////
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
-[#9-6-0-cl-tooltip]
-[discrete]
-=== Tooltip customization [.badge.badge-early-access]#Early Access#
-endif::[]
-ifdef::pendo-links[]
-[#9-6-0-cl-tooltip]
-[discrete]
-=== Tooltip customization [.badge.badge-early-access-whats-new]#Early Access#
-endif::[]
-
-// Mary
-
-endif::free-trial-feature[]
-
-
-NEEDS EVALUATION
-
-[#9-6-0-cl-rbac]
-[discrete]
-=== RBAC with orgs: Admin Sidebar UI changes as per user privileges
-
-// Mary
-
-[#9-6-0-cl-nls]
-[discrete]
-=== Context-based column selection in Eureka NLS
-
-// Naomi
-
-[#9-6-0-cl-kpi]
-[discrete]
-=== [Cortex] KPI anomalies completion
-
-// Naomi
-
 [#9-6-0-cl-change]
 [discrete]
-=== Change analysis: Additional interesting insights
+=== Change analysis: More insights [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#9-6-0-cl-change]
+[discrete]
+=== Change analysis: More insights [.badge.badge-beta-whats-new]#Beta#
+endif::[]
 
 // Naomi
+
+When running change analysis, you can now see additional insights. For example, ThoughtSpot will detect values that underwent the highest percentage change between the two data points defined in your analysis, and values whose share of the total changed the most. The additional insights appear below the main analysis in the change analysis pop-up window.
+
+// NOTE: Additional insights are only available for Sum and Count aggregates.
+
+image::additional-insight.png[A change analysis window with more insights below]
+
+
+endif::free-trial-feature[]
 
 ifndef::free-trial-feature[]
 ifdef::pendo-links[]
@@ -70,7 +52,7 @@ endif::[]
 ifndef::pendo-links[]
 [#9-6-0-cl-embed]
 [discrete]
-=== Embedding in Note tiles [.badge.badge-early-access]#Early Access#
+=== Embedding in note tiles [.badge.badge-early-access]#Early Access#
 endif::[]
 
 // Naomi
@@ -79,13 +61,13 @@ You can now embed interactive content such as videos, pdfs, or Figma files into 
 
 For more information, see
 ifndef::pendo-links[]
-xref:liveboard-notes.adoc#iFrame[Embedding content with an iFrame].
+xref:liveboard-notes.adoc#embed[Embedding in note tiles].
 endif::[]
 ifdef::pendo-links[]
-xref:liveboard-notes.adoc#iFrame[Embedding content with an iFrame,window=_blank].
+xref:liveboard-notes.adoc#embed[Embedding in note tiles,window=_blank].
 endif::[]
 
-image::embed-note-tile.gif[Embed content in a note tile]
+image:embed-note-tile.gif[Animation demonstrating how to embed content in a Liveboard]
 
 endif::free-trial-feature[]
 
@@ -93,45 +75,94 @@ ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-6-0-cl-query]
 [discrete]
-=== Display the current state of a query execution for Liveboard Viz [.badge.badge-beta]#Beta#
+=== Query performance visibility  [.badge.badge-beta]#Beta#
 endif::[]
 ifdef::pendo-links[]
 [#9-6-0-cl-query]
 [discrete]
-=== Display the current state of a query execution for Liveboard Viz [.badge.badge-beta-whats-new]#Beta#
+=== Query performance visibility [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
 // Naomi
 
+You can now see the state of query execution for any Liveboard visualization while it loads. If a visualization takes longer than three seconds to load, ThoughtSpot displays the current query execution status (executing query, waiting for connection, or processing query) to help users identify the reason for the delay.
+
+image::query-execution.png[Liveboard displaying query execution status as visualizations load]
+
 endif::free-trial-feature[]
 
-[#9-6-0-cl-content]
+[#9-6-0-cl-metadata]
 [discrete]
-=== Unstructured content [POC]
+=== Alation metadata
+
+Users can now see metadata information on tables and columns imported from Alation. This information appears when you click on the corresponding table or column in *Search data*. Once connected, metadata information is visible to all users. For more information, see
+ifndef::pendo-links[]
+xref:catalog-integration.adoc[Catalog integration].
+endif::[]
+ifdef::pendo-links[]
+xref:catalog-integration.adoc[Catalog integration,window=_blank].
+endif::[]
+
+image::catalog-integration.png[Column with description and verification status showing]
+
+[#9-6-0-cl-hidden]
+[discrete]
+=== Hidden columns in tables
 
 // Naomi
 
-[#9-6-0-cl-error]
-[discrete]
-=== Improve error messaging related to Embrace for Liveboard visualizations
+You can now hide a column from your table without removing it from your current Search. If you hide the column you're using to sort results, the sorting order is unchanged. To try it out, create an Answer, open the chart configuration menu image:icon-gear-10px.png[gear icon], and drag the selected column to *Hidden Columns*.
 
-// Naomi
+image::hidden-column.png[A table with product as a hidden column]
+
 
 ifndef::free-trial-feature[]
 ifdef::pendo-links[]
 [#9-6-0-cl-cord]
 [discrete]
-=== Commenting on Liveboards using Cord [.badge.badge-early-access-whats-new]#Early Access#
+=== Commenting on Liveboards [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 ifndef::pendo-links[]
 [#9-6-0-cl-cord]
 [discrete]
-=== Commenting on Liveboards using Cord [.badge.badge-early-access]#Early Access#
+=== Commenting on Liveboards [.badge.badge-early-access]#Early Access#
 endif::[]
 
 // Naomi
 
+You can now add or reply to comments, tag other users, or subscribe to comment threads directly on a Liveboard. Users can point out insights or reach out for clarification without leaving ThoughtSpot. To try it out, click the comment icon to the right of the edit icon, and select the data point you would like to comment on.
+To enable this feature, contact your administrator.
+
+For more information, see
+ifndef::pendo-links[]
+xref:liveboards.adoc#comment[Comment on a Liveboard].
+endif::[]
+ifdef::pendo-links[]
+xref:liveboards.adoc#comment[Comment on a Liveboard,window=_blank].
+endif::[]
+
+image:liveboard-comment.gif[Create a comment on a Liveboard and add a reaction]
+
 endif::free-trial-feature[]
+
+[#9-6-0-cl-verified]
+[discrete]
+=== Verified Liveboards
+
+// Naomi
+
+We made the following enhancements to verified Liveboards:
+
+* When you request verification, you can now see the underlying data sources that will be shared with the verifier.
+* The name of the Liveboard now appears in verification request emails.
+* When editing an Answer on or pinning an Answer to a verified Liveboard, a warning banner appears indicating it may need to be verified again.
+
+
+[#9-6-0-cl-slides]
+[discrete]
+=== ThoughtSpot for Google Slides add-on
+
+ThoughtSpot Connected Slides is an add-on that allows you to insert charts and live data visualizations right into your Google Slides™ presentation. Just connect to ThoughtSpot, find a chart or visualization, and add it to your slide presentation.
 
 '''
 [#secondary-9-6-0-cl]
@@ -140,90 +171,89 @@ endif::free-trial-feature[]
 
 [#9-6-0-cl-alation]
 [discrete]
-=== Alation data catalog integration
+=== Alation catalog integration
 
 // Naomi
 
-You can now import metadata information related to your tables and columns from Alation into ThoughtSpot. From the *Data* tab, you can set up a connection to Alation to import column descriptions, column verification status, table descriptions, and table verification status. This information appears when you click on the corresponding table or column in *Search data*. Once connected, metadata information is visible to all users.
+You can now import metadata information related to your tables and columns from Alation into ThoughtSpot. From the *Data governance* section of the *Data* tab, you can set up a connection to Alation to import column descriptions, column verification status, table descriptions, and table verification status.
 
+image::alation-data-governance.png[Alation data catalog setup page]
 
-image::catalog-integration.png[Column with description and verification status showing]
-
-
-[#9-6-0-cl-rename]
+[#9-6-0-cl-rbac]
 [discrete]
-=== Renaming column names
+=== Roles added to Primary Org
+ThoughtSpot introduces role-based access control (RBAC) in Primary Orgs to allow for more granular access privileges.
+Use roles to apply privileges customized for your organizational needs.
 
-// Naomi
+To enable RBAC, contact {support-url}.
 
+NOTE: Once you enable RBAC it cannot be disabled.
+
+// Mary - Marked as no doc required, but I think is a mistake, so I'm waiting for confirmation from Vijay. Sept. 9 Vijay confirmed that we should note the possible difference in menus in the admin docs & created SCAL-173988. Waiting for access to a system with the menu change enabled from Ruchi Bajpai.
 
 [#9-6-0-cl-sage]
 [discrete]
-=== Index statistics Liveboard
+=== Index Statistics Liveboard
 
 // Naomi
 
-Admin users can now see indexing statistics for their cluster using the Index statistics Liveboard. You can filter the results by connection, table, and column, and see the breakdown of indexed search tokens in the visualizations. This Liveboard helps you see how many search tokens you are using, and can help you diagnose indexing issues and errors. For more information, see
+Admin users can now see indexing statistics for their cluster using the Index Statistics Liveboard. You can filter the results by connection, table, and column, and see the breakdown of indexed search tokens in the visualizations. This Liveboard helps you see how many search tokens you are using, and can help you diagnose indexing issues and errors. To try it out, go to *Liveboards* and search for *Index statistics*.
+
+For more information, see
 ifndef::pendo-links[]
-xref:index-statistics-liveboard.adoc[Index statistics Liveboard].
+xref:index-statistics-liveboard.adoc[Index Statistics Liveboard].
 endif::[]
 ifdef::pendo-links[]
-xref:index-statistics-liveboard.adoc[Index statistics Liveboard,window=_blank].
+xref:index-statistics-liveboard.adoc[Index Statistics Liveboard,window=_blank].
 endif::[]
 
-image::index-statistics.png[Index statistics Liveboard]
 
-[#9-6-0-cl-byok]
-[discrete]
-=== BYOK implementation in SaaS v2 - GCP phase 1
+image:index-statistics.png[Index statistics]
+
+// [#9-6-0-cl-byok]
+// [discrete]
+// === BYOK implementation in SaaS v2 - GCP phase 1
 
 // Mark
 
 [#9-6-0-cl-dbt]
 [discrete]
-=== dbt Integration: incremental sync
+=== dbt sync
 
 // Naomi
 
-[#9-6-0-cl-dbt-1.5]
-[discrete]
-=== dbt integration: support for dbt 1.5
+In the past, ThoughtSpot generated a new Worksheet every time a user edited an existing dbt data model. Now, ThoughtSpot maintains a persistent connection with dbt and provides realtime updates. Users can update an object, update an object and create a new object, or simply create a new object.
 
-// Naomi
-
-[#9-6-0-cl-ansi]
-[discrete]
-=== Ability to use ANSI SQL dialect for generic JDBC driver
-
-// Naomi
-
-[#9-6-0-cl-seekwell]
-[discrete]
-=== Seekwell as a Service infrastructure movement
-
-// Naomi
-
-ifndef::free-trial-feature[]
+For more information, see
 ifndef::pendo-links[]
-[#9-6-0-cl-cache]
-[discrete]
-=== View search cache [.badge.badge-early-access]#Early Access#
+xref:dbt-integration.adoc[Integrate with dbt].
 endif::[]
 ifdef::pendo-links[]
-[#9-6-0-cl-cache]
-[discrete]
-=== View search cache [.badge.badge-early-access-whats-new]#Early Access#
+xref:dbt-integration.adoc[Integrate with dbt,window=_blank].
 endif::[]
 
-// Naomi
-
-endif::free-trial-feature[]
-
-[#9-6-0-cl-connectivity]
+[#9-6-0-cl-dbt-hardening]
 [discrete]
-=== Private connectivity - SaaS v2
+=== dbt Worksheet join rule
 
-// Naomi
+Previously, when a Worksheet was created from a dbt model, the default worksheet join rule was "apply all joins". Now, "apply joins progressively" is the default. This means that when you search on a Worksheet, joins are applied as each search term is added, rather than applying all joins to every search.
+
+
+// ifndef::free-trial-feature[]
+// ifndef::pendo-links[]
+// [#9-6-0-cl-cache]
+// [discrete]
+// === View search cache [.badge.badge-early-access]#Early Access#
+// endif::[]
+// ifdef::pendo-links[]
+// [#9-6-0-cl-cache]
+// [discrete]
+// === View search cache [.badge.badge-early-access-whats-new]#Early Access#
+// endif::[]
+
+// Naomi -- may not be external, waiting on Manish's response
+
+// endif::free-trial-feature[]
 
 [#9-6-0-cl-athena]
 [discrete]
@@ -240,132 +270,12 @@ xref:connections-amazon-athena.adoc[Amazon Athena,window=_blank].
 endif::[]
 
 
-NEEDS EVALUATION
-
-[#9-6-0-cl-hardening]
-[discrete]
-=== dbt Integration: hardening epic
+// [#9-6-0-cl-ansi]
+// [discrete]
+// === ANSI SQL dialect for generic JDBC driver
 
 // Naomi
 
-[#9-6-0-cl-verified]
-[discrete]
-=== Phase 1: Verified Liveboards spillover items
-
-// Naomi
-
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
-[#9-6-0-cl-looker]
-[discrete]
-=== Looker: Query Gen and Search Data changes [.badge.badge-early-access]#Early Access#
-endif::[]
-ifdef::pendo-links[]
-[#9-6-0-cl-looker]
-[discrete]
-=== Looker: Query Gen and Search Data changes [.badge.badge-early-access-whats-new]#Early Access#
-endif::[]
-
-// Mark
-
-endif::free-trial-feature[]
-
-[#9-6-0-cl-byok-design]
-[discrete]
-=== BYOK design in SaaS v2 - GCP and AWS
-
-// Mark
-
-[#9-6-0-cl-semantic]
-[discrete]
-=== Looker: Semantic Layer integration
-
-// Mark
-
-[#9-6-0-cl-billing]
-[discrete]
-=== Billing related changes for customers on shared clusters
-
-// Mark
-
-[#9-6-0-cl-orgs]
-[discrete]
-=== Loading balancing customers on shared clusters as different orgs
-
-// Mary
-
-[#9-6-0-cl-snapshot]
-[discrete]
-=== Org aware snapshot and org statistics
-
-// Mary
-
-[#9-6-0-cl-granular]
-[discrete]
-=== Granular privileges for FT, TE, Enterprise - Orgs
-
-// Mary
-
-[#9-6-0-cl-enablement]
-[discrete]
-=== [Place holder] Orgs enablement default for all clusters (Org0 working gaps)
-
-// Mary
-
-[#9-6-0-cl-users]
-[discrete]
-=== Users and Groups V2 UI (Orgs 1.5)
-
-// Mary
-
-[#9-6-0-cl-default]
-[discrete]
-=== Enable Orgs by default on all clusters
-
-// Mark
-
-[#9-6-0-cl-accessibility]
-[discrete]
-=== Accessibility improvements phase 1
-
-// Mark
-
-[#9-6-0-cl-hadoop]
-[discrete]
-=== Upgrade Hadoop 2 to Hadoop 3
-
-// Mark
-
-[#9-6-0-cl-synonym]
-[discrete]
-=== Column value synonyms
-
-// Naomi
-
-[#9-6-0-cl-hidden]
-[discrete]
-=== Add 'Hidden columns' section in table configuration
-
-// Naomi
-
-[#9-6-0-cl-pivot]
-[discrete]
-=== Pivot table with having filter
-
-// Naomi
-
-[#9-6-0-cl-nimbus]
-[discrete]
-=== Nimbus - Cloud export service
-
-// Naomi
-
-
-[#9-6-0-cl-onboarding]
-[discrete]
-=== LCM changes for onboarding a customer on shared cluster (Essential/ Pro Edition) as an org
-
-// Mary
 
 ifndef::free-trial-feature[]
 [discrete]
