@@ -1,0 +1,24 @@
+= Troubleshooting column indexing with connections that use OAuth
+:author: Naomi
+:last_updated: 3/23/2023
+:linkattrs:
+:experimental:
+:page-layout: default-cloud
+:description: Learn how column indexing is affected by connections that use OAuth authentication.
+
+== When indexing jobs fail for connections that use OAuth
+
+Column indexing jobs can fail when a connection was set up using OAuth by one ThoughtSpot user account, and that connection is used by another user.
+
+For example, User `admin` sets up a connection with OAuth by signing in and entering the OAuth parameters to connect to the database. When they connect, they are prompted to sign in as an OAuth user account. In this case they sign in as the `user1`, who will use the connection. The database shows the data that `user1` has access to the connection, and that any tables added will be indexed using the credentials of `user1`. At some point later, the token for `user1` expires and the indexing jobs start to fail.
+
+== Resolving failed indexing jobs
+
+To resolve failed indexing jobs for a connection with OAuth, do the following:
+
+. The user who set up the connection (in this example: `admin`), and edits the connection.
++
+This prompts the other user to log in to the database using OAuth.
+. The other user (in this example: `user1`) logs in again.
++
+The credentials are saved and a new token is issued and used to run the indexing jobs.
