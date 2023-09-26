@@ -105,3 +105,4 @@ image:oauth-error.png[Error reading “Error in loading data. Connection to Snow
 > * xref:connections-databricks-private-link.adoc[]
 > * xref:connections-databricks-reference.adoc[Connection reference for {connection}]
 > * xref:connections-databricks-passthrough.adoc[]
+> * xref:connections-column-indexing-oauth.adoc[]
