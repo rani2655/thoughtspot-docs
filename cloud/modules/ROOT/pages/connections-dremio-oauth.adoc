@@ -113,3 +113,4 @@ image:oauth-error.png[Error reading “Error in loading data. Connection to Snow
 > * xref:connections-dremio-private-link.adoc[]
 > * xref:connections-dremio-reference.adoc[]
 > * xref:connections-dremio-passthrough.adoc[]
+> * xref:connections-column-indexing-oauth.adoc[]

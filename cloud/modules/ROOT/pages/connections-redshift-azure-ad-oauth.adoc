@@ -353,3 +353,4 @@ grant select on all tables in schema public to "oauth_aad:john@azent.org";
 > * xref:connections-redshift-reference.adoc[Connection reference for {connection}]
 > * xref:connections-query-tags.adoc#tag-redshift[ThoughtSpot query tags in Redshift]
 > * xref:connections-redshift-passthrough.adoc[]
+> * xref:connections-column-indexing-oauth.adoc[]
