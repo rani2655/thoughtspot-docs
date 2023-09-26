@@ -88,7 +88,7 @@
 *** xref:connections.adoc[About connections]
 **** xref:connection-share.adoc[]
 **** xref:connections-query-tags.adoc[]
-**** xref:connections-column-indexing-oauth.adoc[Troubleshoot column indexing with OAuth]
+**** xref:connections-column-indexing-oauth.adoc[Column indexing with OAuth]
 *** xref:connections-amazon-athena.adoc[Connect to Amazon Athena]
 **** xref:connections-amazon-athena-add.adoc[Add connection]
 **** xref:connections-amazon-athena-edit.adoc[Edit connection]
