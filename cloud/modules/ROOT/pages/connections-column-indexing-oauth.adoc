@@ -16,7 +16,7 @@ For example, User `admin` sets up a connection with OAuth by signing in and ente
 
 To resolve failed indexing jobs for a connection with OAuth, do the following:
 
-. The user who set up the connection (in this example: `admin`), and edits the connection.
+. The user who set up the connection (in this example: `admin`), edits the connection.
 +
 This prompts the other user to log in to the database using OAuth.
 . The other user (in this example: `user1`) logs in again.
