@@ -160,9 +160,17 @@ We made the following enhancements to verified Liveboards:
 
 [#9-6-0-cl-slides]
 [discrete]
-=== ThoughtSpot for Google Slides add-on
+=== ThoughtSpot Connected Slides
 
 ThoughtSpot Connected Slides is an add-on that allows you to insert charts and live data visualizations right into your Google Slides™ presentation. Just connect to ThoughtSpot, find a chart or visualization, and add it to your slide presentation.
+
+For more information, see
+ifndef::pendo-links[]
+xref:thoughtspot-slides.adoc[ThoughtSpot Connected Slides].
+endif::[]
+ifdef::pendo-links[]
+xref:thoughtspot-slides.adoc[ThoughtSpot Connected Slides,window=_blank].
+endif::[]
 
 '''
 [#secondary-9-6-0-cl]
@@ -215,6 +223,8 @@ image:index-statistics.png[Index statistics]
 // === BYOK implementation in SaaS v2 - GCP phase 1
 
 // Mark
+
+// TBD - may be added after GA
 
 [#9-6-0-cl-dbt]
 [discrete]
