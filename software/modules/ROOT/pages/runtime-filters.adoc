@@ -6,7 +6,7 @@
 :description: With runtime filters, you can filter an answer or Liveboard through URL query parameters.
 
 
-Runtime filters apply filters to a Liveboard or Answer by passing the filter  as query parameters in a Liveboard or visualization URL. You can also apply runtime filters in REST API requests when querying data from a Liveboard, Answer, or a visualization object. On embedded instances, you can use the Visual Embed SDK to apply filters to an embedded Liveboard or Answer, and update filters using events.
+Runtime filters and Parameter overrides apply filters or xref:parameters-use.adoc[Parameter values] to a Liveboard or Answer by passing the filter or Parameter properties as query parameters in a Liveboard or visualization URL. You can also apply runtime filters in REST API requests when querying data from a Liveboard, Answer, or a visualization object. On embedded instances, you can use the Visual Embed SDK to apply filters to an embedded Liveboard or Answer, and update filters using events.
 
 == Runtime filters
 Runtime filters apply filters to a Liveboard or Answer by passing the filter properties as query parameters in a Liveboard or visualization URL.
