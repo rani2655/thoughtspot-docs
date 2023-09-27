@@ -26,7 +26,7 @@ xref:connections-amazon-aurora-mysql.adoc[Amazon Aurora MySQL];;
 
 xref:connections-amazon-aurora-postgresql.adoc[Amazon Aurora PostgreSQL];;
 [%collapsible]
-.Amazon Aurora POstgreSQL articles
+.Amazon Aurora PostgreSQL articles
 ====
 - xref:connections-amazon-aurora-postgresql-add.adoc[Add connection]
 - xref:connections-amazon-aurora-postgresql-edit.adoc[Edit connection]
