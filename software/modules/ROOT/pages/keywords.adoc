@@ -46,6 +46,7 @@ include::partial$keywords-date.adoc[]
 
 include::partial$keywords-time.adoc[]
 
+[#text]
 == Text
 
 include::partial$keywords-text.adoc[]
