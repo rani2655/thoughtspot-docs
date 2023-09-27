@@ -24,6 +24,8 @@ You can connect to the following external databases:
 |===
 a| image::amazon-aurora-icon.png[Amazon Aurora logo] .^a|xref:connections-amazon-aurora-mysql.adoc[Amazon Aurora MySQL]
 a| image::amazon-aurora-icon.png[Amazon Aurora logo] .^a|xref:connections-amazon-aurora-postgresql.adoc[Amazon Aurora PostgreSQL]
+a| image::amazon-rds-icon.png[Amazon RDS logo] .^a|xref:connections-amazon-rds-mysql.adoc[Amazon RDS MySQL]
+a| image::amazon-rds-icon.png[Amazon RDS logo] .^a|xref:connections-amazon-rds-postgresql.adoc[Amazon RDS PostgreSQL]
 a| image::logo-redshift.png[Amazon Redshift logo] .^a|xref:connections-redshift.adoc[Amazon Redshift (AWS)]
 a| image::logo-synapse.png[Azure Synapse logo]  .^a|xref:connections-synapse.adoc[Azure Synapse]
 a|  image::logo-databricks.png[Databricks logo] .^a|xref:connections-databricks.adoc[Databricks]
