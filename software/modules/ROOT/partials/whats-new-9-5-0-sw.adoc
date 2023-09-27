@@ -143,7 +143,8 @@ endif::[]
 [#9-5-0-sw-csv]
 [discrete]
 === Specify default connection for CSV uploads
-
+Previously, when multiple database connections were configured to receive CSV uploads without a specified table or worksheet for collocation, the files were randomly uploaded to one of the connections. With this new enhancement, administrators and data managers now have the ability to specify a default target connection for such uploads.
+To set the default target connection, navigate to *Data > Connections*, click the *More* menu icon, select *Configure data upload*, and click the *Enable data upload* toggle to on. Next, select the S**et as default CSV upload destination** toggle. By specifying a default connection, you ensure that CSV files without a designated destination will be uploaded to the chosen connection. This enhancement provides better control and organization of CSV uploads, making it easier to manage data in scenarios where end-users do not select a co-location for their uploaded files.
 // Mary -- scal-146861
 
 [#9-5-0-sw-in-use]
