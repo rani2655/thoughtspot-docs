@@ -15,6 +15,7 @@ You can establish direct connections to the following external databases:
 [cols="15,~",frame=none,grid=none]
 |===
 a| image::amazon-aurora-icon.png[Amazon Aurora logo] .^a|xref:connections-amazon-aurora-mysql.adoc[Amazon Aurora MySQL]
+a| image::amazon-aurora-icon.png[Amazon Aurora logo] .^a|xref:connections-amazon-aurora-postgresql.adoc[Amazon Aurora PostgreSQL]
 a| image::logo-redshift.png[Amazon Redshift logo] .^a|xref:connections-redshift.adoc[Amazon Redshift (AWS)]
 a| image::logo-synapse.png[Azure Synapse logo]  .^a|xref:connections-synapse.adoc[Azure Synapse]
 a|  image::logo-databricks.png[Databricks logo] .^a|xref:connections-databricks.adoc[Databricks]
@@ -291,6 +292,7 @@ SAP HANA does not support calculation views with mandatory input parameters. If 
 == Next steps
 
 * xref:connections-amazon-aurora-mysql-add.adoc[Add an Amazon Aurora MySQL connection]: Create the connection between ThoughtSpot and tables in an Amazon Aurora MySQL database.
+* xref:connections-amazon-aurora-postgresql-add.adoc[Add an Amazon Aurora PostgreSQL connection]: Create the connection between ThoughtSpot and tables in an Amazon Aurora PostgreSQL database.
 * xref:connections-redshift-add.adoc[Add an Amazon Redshift connection]: Create the connection between ThoughtSpot and tables in an Amazon RedShift database.
 * xref:connections-synapse-add.adoc[Add an Azure Synapse connection]: Create the connection between ThoughtSpot and tables in an Azure Synapse database.
 * xref:connections-databricks-add.adoc[]: Create the connection between ThoughtSpot and tables in a Databricks database.

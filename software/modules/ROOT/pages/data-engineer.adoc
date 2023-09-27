@@ -24,6 +24,19 @@ xref:connections-amazon-aurora-mysql.adoc[Amazon Aurora MySQL];;
 - xref:connections-amazon-aurora-mysql-reference.adoc[Connection reference]
 ====
 
+xref:connections-amazon-aurora-postgresql.adoc[Amazon Aurora PostgreSQL];;
+[%collapsible]
+.Amazon Aurora POstgreSQL articles
+====
+- xref:connections-amazon-aurora-postgresql-add.adoc[Add connection]
+- xref:connections-amazon-aurora-postgresql-edit.adoc[Edit connection]
+- xref:connections-amazon-aurora-postgresql-remap.adoc[Remap connection]
+- xref:connections-amazon-aurora-postgresql-delete-table.adoc[Delete a table]
+- xref:connections-amazon-aurora-postgresql-delete-table-dependencies.adoc[Delete a table with object dependencies]
+- xref:connections-amazon-aurora-postgresql-delete.adoc[Delete connection]
+- xref:connections-amazon-aurora-postgresql-reference.adoc[Connection reference]
+====
+
 xref:connections-redshift.adoc[Amazon Redshift];;
 [%collapsible]
 .Amazon Redshift articles
