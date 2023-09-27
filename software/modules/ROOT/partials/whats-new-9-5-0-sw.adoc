@@ -226,7 +226,7 @@ image::kpi-comparison-point.gif[KPI comparison point]
 [#9-5-0-sw-gridline]
 [discrete]
 === Chart display enhancements
-
+When you create bar and column charts and slice by color, ThoughtSpot automatically enables gridlines to make the chart easier to read. You can choose to disable gridlines under the chart configuration menu.
 // Mary -- scal-146526
 
 [#9-5-0-sw-custom]
