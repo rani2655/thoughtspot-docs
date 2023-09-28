@@ -128,6 +128,19 @@ xref:connections-dremio.adoc[Dremio];;
 - xref:connections-dremio-reference.adoc[Connection reference]
 ====
 
+xref:connections-genericjdbc.adoc[Generic JDBC];;
+[%collapsible]
+.Generic JDBC articles
+====
+- xref:connections-genericjdbc-add.adoc[Add connection]
+- xref:connections-genericjdbc-edit.adoc[Edit connection]
+- xref:connections-genericjdbc-remap.adoc[Remap connection]
+- xref:connections-genericjdbc-delete-table.adoc[Delete a table]
+- xref:connections-genericjdbc-delete-table-dependencies.adoc[Delete a table with object dependencies]
+- xref:connections-genericjdbc-delete.adoc[Delete connection]
+- xref:connections-genericjdbc-reference.adoc[Connection reference]
+====
+
 xref:connections-gbq.adoc[Google BigQuery];;
 [%collapsible]
 .Google BigQuery articles
