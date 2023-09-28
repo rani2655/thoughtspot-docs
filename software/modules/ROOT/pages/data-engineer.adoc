@@ -206,6 +206,19 @@ xref:connections-hana.adoc[SAP HANA];;
 - xref:connections-hana-reference.adoc[Connection reference]
 ====
 
+xref:connections-singlestore.adoc[SingleStore];;
+[%collapsible]
+.SingleStore articles
+====
+- xref:connections-singlestore-add.adoc[Add connection]
+- xref:connections-singlestore-edit.adoc[Edit connection]
+- xref:connections-singlestore-remap.adoc[Remap connection]
+- xref:connections-singlestore-delete-table.adoc[Delete a table]
+- xref:connections-singlestore-delete-table-dependencies.adoc[Delete a table with object dependencies]
+- xref:connections-singlestore-delete.adoc[Delete connection]
+- xref:connections-singlestore-reference.adoc[Connection reference]
+====
+
 xref:connections-snowflake.adoc[Snowflake];;
 [%collapsible]
 .Snowflake articles
@@ -218,6 +231,19 @@ xref:connections-snowflake.adoc[Snowflake];;
 - xref:connections-snowflake-delete.adoc[Delete connection]
 - xref:connections-snowflake-best.adoc[Best practices]
 - xref:connections-snowflake-reference.adoc[Connection reference]
+====
+
+xref:connections-sql-server.adoc[SQL Server];;
+[%collapsible]
+.SQL Server articles
+====
+- xref:connections-sql-server-add.adoc[Add connection]
+- xref:connections-sql-server-edit.adoc[Edit connection]
+- xref:connections-sql-server-remap.adoc[Remap connection]
+- xref:connections-sql-server-delete-table.adoc[Delete a table]
+- xref:connections-sql-server-delete-table-dependencies.adoc[Delete a table with object dependencies]
+- xref:connections-sql-server-delete.adoc[Delete connection]
+- xref:connections-sql-server-reference.adoc[Connection reference]
 ====
 
 xref:connections-starburst.adoc[Starburst];;
