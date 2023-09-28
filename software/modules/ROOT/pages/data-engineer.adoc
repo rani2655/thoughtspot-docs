@@ -73,6 +73,7 @@ xref:connections-redshift.adoc[Amazon Redshift];;
 - xref:connections-redshift-delete-table.adoc[Delete a table]
 - xref:connections-redshift-delete-table-dependencies.adoc[Delete a table with object dependencies]
 - xref:connections-redshift-delete.adoc[Delete connection]
+- xref:connections-redshift-azure-ad-oauth.adoc[]
 - xref:connections-redshift-reference.adoc[Connection reference]
 ====
 
