@@ -7,6 +7,10 @@
 :description: Learn the specific information needed to establish a secure connection to SingleStore.
 
 You need specific information to establish a seamless and secure connection.
+
+NOTE: SingleStore is in Early Access. To enable this feature, contact {support-url}.
+
+
 The following fields are required, except where noted.
 
 Connection name:: Enter a new {connection} connection name.

@@ -11,6 +11,9 @@ Whenever you try to remove a table in a connection, ThoughtSpot checks for depen
 You can select the listed objects to delete them or remove the dependency.
 Then you can remove the table.
 
+NOTE: SingleStore is in Early Access. To enable this feature, contact {support-url}.
+
+
 To delete a table from a {connection} connection:
 
 . Select *Data* in the top navigation bar.
