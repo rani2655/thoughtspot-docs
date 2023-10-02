@@ -663,11 +663,6 @@ NEEDS EVALUATION
 
 // Mary -- scal-129677
 
-[#9-5-0-sw-falcon]
-[discrete]
-=== Connect Falcon on SW cluster using Embrace connection "TS Data Cache" from TS Cloud
-
-// Naomi
 
 [#9-5-0-sw-orgs]
 [discrete]
