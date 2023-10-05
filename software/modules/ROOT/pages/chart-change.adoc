@@ -22,6 +22,35 @@ image::chart-config-edit-chart-panel.png[Edit chart configuration]
 You can edit some of the elements of the chart directly, by clicking on them.
 For example, you can change the appearance of a chart xref:chart-axes-options.adoc[axis] by clicking it and making selections in the available options.
 
+== Chart configuration options
+
+Through the *Customize* menu, you can perform a number of customizations:
+
+. xref:chart-column-configure.adoc[Drag and drop measures and attributes to or from an axis]
+** Set up your chart by dragging and dropping the measures and attributes in your search onto the appropriate axis.
++
+If you want a column to be part of your search and show up in the table view, but you do not want to include it in your chart, you can drag it to the '`Not Visualized`' section. You can also use this functionality to perform a hidden sort, by moving the measure column you want to sort by to the '`Not Visualized`' section.
+
+. xref:chart-data-labels.adoc#labels-one[Number formatting for all data labels]
+** Category (Number, Percentage, Currency)
+** Units (K, M, B)
+** Decimals
+** Independent control for each measure on the chart
+. xref:chart-axes-options.adoc[Axes]
+** Grouping and ungrouping of axes
+** Axis renaming
+** Changing the position of an axis
+** Changing the axis minimum and maximum values
+** Changing number formatting on the axis
+
++
+See xref:chart-axes-options.adoc[Change the options on an axis].
+. Change position of the legend
+[#legend]
+* When you create a visualization, you have the option to change the legend position, or hide the legend entirely. Select the chart configuration icon image:icon-gear-10px.png[gear icon] and select *Settings*. You can choose to position *Legend on right*, *Legend on left*, *Legend on top*, or *Legend on bottom*.
+* Click the *Show legend* toggle to hide the legend.
+
+
 Through the *Edit chart* menu, you can perform a number of customizations:
 
 xref:chart-column-configure.adoc[Drag and drop measures and attributes to or from an axis]::
