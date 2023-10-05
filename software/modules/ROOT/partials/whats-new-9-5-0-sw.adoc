@@ -679,7 +679,7 @@ NEEDS EVALUATION
 [discrete]
 === Redesigned org-switcher for new UI experience
 
-// Mary -- scal-149163
+// Mary -- scal-149163 - Confirmed Org not yet supported in software
 
 
 [#tse]
