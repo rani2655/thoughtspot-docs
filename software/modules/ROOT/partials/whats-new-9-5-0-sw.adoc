@@ -241,7 +241,7 @@ When you create bar and column charts and slice by color, ThoughtSpot automatica
 [#9-5-0-sw-pdf]
 [discrete]
 === Scheduled or downloaded Liveboard PDF width
-
+By default, scheduled and downloaded Liveboard PDFs now render at a width of 1920 px. This ensures that most Liveboard PDFs you download or schedule look the same as the Liveboards you see in ThoughtSpot. You can also change this default width to a different width for your company, by contacting {support-url}. See Download a Liveboard as a PDF and Schedule a Liveboard job.
 // Mary -- scal-143888, 136076
 
 [#9-5-0-sw-reorder]
