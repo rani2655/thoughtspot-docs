@@ -57,6 +57,9 @@ We added support for rolling, fixed, and custom date filters when creating an An
 +
 To try it out, click the filter icon next to the Date column in the left side menu, or click the date filter below the Answer or Liveboard title. For more information, see xref:date-filter.adoc[Date filters for Answers and Liveboards].
 
+Show timezone in scheduled Liveboards modal::
+When scheduling Liveboards, you can now specify your timezone.
+
 Mandatory filters::
 Mandatory Liveboard filters are now GA. Mark certain filters in your Liveboard as mandatory. If you add mandatory filters to a Liveboard, the visualizations will only load after Liveboard viewers select values for the mandatory filters. Use mandatory filters for Liveboards that contain data that may not be relevant for everyone who must view and consume the Liveboard. Mandatory filters also lower query and performance costs. To try the feature out, select *Mandatory filter* when adding a filter to a Liveboard. For more information about mandatory filters, see
 xref:liveboard-filters-mandatory.adoc[Mandatory Liveboard filters].
@@ -100,6 +103,8 @@ Contextual change analysis:: You can now identify the key change drivers for cha
 For more information, see
 xref:spotiq-comparative.adoc#change-analysis-contextual[Contextual change analysis].
 
+Liveboard header visible when you scroll down::
+When you scroll down in a Liveboard, the Liveboard name, menu options, and filter and tab bars remain visible. You don't need to scroll back up to the top to edit the Liveboard or check if you're filtering by a specific store. You can see the filters or parameters applied to the Liveboard, select the *Edit* button or more options image:icon-more-10px.png[more options menu icon] menu, and view which tab you're on from any spot in the Liveboard.
 
 Mandatory Liveboard filters:: Mandatory Liveboard filters are now GA. Mark certain filters in your Liveboard as mandatory. If you add mandatory filters to a Liveboard, the visualizations will only load after Liveboard viewers select values for the mandatory filters. Use mandatory filters for Liveboards that contain data that may not be relevant for everyone who must view and consume the Liveboard. Mandatory filters also lower query and performance costs.
 +

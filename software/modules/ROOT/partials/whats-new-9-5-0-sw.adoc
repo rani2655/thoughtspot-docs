@@ -127,7 +127,11 @@ endif::[]
 
 [#9-5-0-sw-csv]
 [discrete]
-//=== Specify default connection for CSV uploads Previously, when multiple database connections were configured to receive CSV uploads without a specified table or worksheet for collocation, the files were randomly uploaded to one of the connections. With this new enhancement, administrators and data managers now have the ability to specify a default target connection for such uploads. To set the default target connection, navigate to *Data > Connections*, click the *More* menu icon, select *Configure data upload*, and click the *Enable data upload* toggle to on. Next, select the **Set as default CSV upload destination** toggle. By specifying a default connection, you ensure that CSV files without a designated destination will be uploaded to the chosen connection. This enhancement provides better control and organization of CSV uploads, making it easier to manage data in scenarios where end-users do not select a co-location for their uploaded files.
+=== Specify default connection for CSV uploads
+Previously, when multiple database connections were configured to receive CSV uploads without a specified table or worksheet for collocation, the files were randomly uploaded to one of the connections. With this new enhancement, administrators and data managers now have the ability to specify a default target connection for such uploads. +
+To set the default target connection, navigate to *Data > Connections*, click the *More* menu icon image:icon-more-10px.png[menu icon], select *Configure data upload*, and click the *Enable data upload* toggle to on. Next, select the *Set as default CSV upload destination* toggle. By specifying a default connection, you ensure that CSV files without a designated destination will be uploaded to the chosen connection.
+This enhancement provides better control and organization of CSV uploads, making it easier to manage data in scenarios where end-users do not select a co-location for their uploaded files.
+
 // Mary -- scal-146861
 
 [#9-5-0-sw-in-use]
@@ -263,7 +267,7 @@ You can now include attributes in the pivot table cells as well as measures. Thi
 [#9-5-0-sw-sticky]
 [discrete]
 === Liveboard header visible when you scroll down
-
+When you scroll down in a Liveboard, the Liveboard name, menu options, and filter and tab bars remain visible. You don't need to scroll back up to the top to edit the Liveboard or check if you're filtering by a specific store. You can see the filters or parameters applied to the Liveboard, select the *Edit* button or more options image:icon-more-10px.png[more options menu icon] menu, and view which tab you're on from any spot in the Liveboard.
 // Mary -- scal-137977
 
 
@@ -369,14 +373,14 @@ image::single-select.gif[Single value select for Liveboard filters]
 
 [#9-5-0-sw-timezone]
 [discrete]
-=== Specify time zone when scheduling Liveboards
-
+=== Show timezone in scheduled Liveboards modal
+When scheduling Liveboards, you can now specify your timezone.
 // Mary -- scal-137547
 
 [#9-5-0-sw-heatmap]
 [discrete]
 === Disable heatmap data labels
-
+Optionally disable heatmap charts' data labels, and understand the chart quickly by scanning the heatmap colors. This makes complex heatmap charts with many data values easier to read. See Heatmap charts.
 // Mary -- scal-137431
 
 [#9-5-0-sw-dark]
