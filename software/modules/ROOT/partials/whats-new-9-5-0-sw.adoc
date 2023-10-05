@@ -228,7 +228,9 @@ When you create bar and column charts and slice by color, ThoughtSpot automatica
 [#9-5-0-sw-custom]
 [discrete]
 === Upload custom geo maps
+Upload your own custom maps and visualize data on xref:chart-geo.adoc [geo charts] with regions that are specific to you and your organization.
 
+For more information, see xref:geomaps-custom.adoc [Upload custom geo maps].
 // Mary -- scal-135569
 
 [#9-5-0-sw-geomap]
