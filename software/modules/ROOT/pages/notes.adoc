@@ -171,6 +171,10 @@ If you run into an error while creating a connection, you can now click *View de
 Certification of Amazon Aurora and Amazon Relational Database Service (RDS) for PostgreSQL::
 You can now connect to and query Amazon Aurora and Amazon RDS for PostgreSQL databases.
 
+Specify default connection for CSV uploads:: Previously, when multiple database connections were configured to receive CSV uploads without a specified table or worksheet for collocation, the files were randomly uploaded to one of the connections. With this new enhancement, administrators and data managers now have the ability to specify a default target connection for such uploads. +
+To set the default target connection, navigate to *Data > Connections*, click the *More* menu icon image:icon-more-10px.png[menu icon], select *Configure data upload*, and click the *Enable data upload* toggle to on. Next, select the *Set as default CSV upload destination* toggle. By specifying a default connection, you ensure that CSV files without a designated destination will be uploaded to the chosen connection.
+This enhancement provides better control and organization of CSV uploads, making it easier to manage data in scenarios where end-users do not select a co-location for their uploaded files.
+
 [#it-ops-engineer-9-5-0-sw]
 === For the IT Ops Engineer
 
