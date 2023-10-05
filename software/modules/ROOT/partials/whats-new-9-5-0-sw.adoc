@@ -380,19 +380,19 @@ When scheduling Liveboards, you can now specify your timezone.
 [#9-5-0-sw-heatmap]
 [discrete]
 === Disable heatmap data labels
-Optionally disable heatmap charts' data labels, and understand the chart quickly by scanning the heatmap colors. This makes complex heatmap charts with many data values easier to read. See Heatmap charts.
+Optionally disable heatmap charts' data labels, and understand the chart quickly by scanning the heatmap colors. This makes complex heatmap charts with many data values easier to read. See xref:chart-heatmap.adoc [Heatmap charts].
 // Mary -- scal-137431
 
 [#9-5-0-sw-dark]
 [discrete]
 === Data labels on a dark background
-
+Data labels on a dark background are now GA and on by default. Labels that appear on a dark background now display in a lighter text color, making them easier to read.
 // Mary -- scal-136568
 
 [#9-5-0-sw-apply]
 [discrete]
 === Apply multiple chart changes at once
-
+The apply multiple changes feature is now GA and on by default. In previous releases, every time a user reordered the fields in the chart configuration panel, the chart reloaded. When creating a visualization with multiple fields, users often need to make multiple rearrangements to reach a desired chart. Now users can make multiple configurations and apply them at the same time rather than waiting in between each configuration. For more information, see Reorder labels on the axis or legend.
 // Mary -- scal-136519
 
 [#9-5-0-sw-attached]
