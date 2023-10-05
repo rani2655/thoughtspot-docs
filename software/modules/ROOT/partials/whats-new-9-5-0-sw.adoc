@@ -256,7 +256,8 @@ Arrange Liveboard filters in the filter bar so that they are in a logical, coher
 [#9-5-0-sw-attribute]
 [discrete]
 === Attributes in pivot table cells
-
+Attributes in pivot table cells
+You can now include attributes in the pivot table cells as well as measures. This is useful for cases when you want to summarize text data such as user role, pass/fail, or other attributes. For more information, see xref:chart-pivot-table.adoc [Pivot table charts].
 // Mary -- scal-139353
 
 [#9-5-0-sw-sticky]
