@@ -195,7 +195,7 @@ When using ThoughtSpot Mobile, you can now press the *Load More* button at the b
 [#9-5-0-sw-legend]
 [discrete]
 === Ability to change legend position
-
+You can now configure the legend position of a chart, or hide the legend. The available options are left, right, above, and below the visualization. To try it out, open the chart configuration menu, select Settings, and choose between Legend on right, Legend on left, Legend on top, and Legend on bottom. You can select the Show legend toggle to hide or show the legend. See Changing charts.
 // Mary -- scal-135812
 
 [#9-5-0-sw-download]
