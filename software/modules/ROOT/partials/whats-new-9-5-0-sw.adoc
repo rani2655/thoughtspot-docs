@@ -250,7 +250,7 @@ Arrange Answer filters in the filter bar so that they are in a logical, coherent
 [#9-5-0-sw-filter-order]
 [discrete]
 === Change filter order for Liveboard filters
-Arrange Liveboard filters in the filter bar so that they are in a logical, coherent order, by dragging and dropping them to different spots in the list. This makes it easier for viewers of the Liveboard to understand and use the filters on the Liveboard. For more information, see see xref:filters.adoc [Change the filter order].
+Arrange Liveboard filters in the filter bar so that they are in a logical, coherent order, by dragging and dropping them to different spots in the list. This makes it easier for viewers of the Liveboard to understand and use the filters on the Liveboard. For more information, see see xref:liveboard-filters.adoc [Change the filter order].
 // Mary -- scal-134604
 
 [#9-5-0-sw-attribute]
