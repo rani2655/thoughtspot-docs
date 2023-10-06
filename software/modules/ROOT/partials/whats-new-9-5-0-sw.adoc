@@ -111,6 +111,10 @@ endif::[]
 [discrete]
 === New data panel GA
 
+The new data panel experience is GA in this release. This is part of the Data Fluency feature. This feature is disabled by default. To enable it, go to your ThoughtSpot user profile and set the _Answer data panel experience_ to *New experience*.
+
+image::new_data_panel.png[]
+
 // Mark -- scal-136122, scal-127847
 
 [#9-5-0-sw-sample]
@@ -118,12 +122,6 @@ endif::[]
 === Column and data source overview in Search Data
 
 // Mark -- scal-136121
-
-[#9-5-0-sw-home]
-[discrete]
-=== Homepage redesign - Left navbar
-
-// Mark -- scal-134698
 
 [#9-5-0-sw-csv]
 [discrete]
