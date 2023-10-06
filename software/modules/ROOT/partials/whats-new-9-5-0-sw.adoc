@@ -96,14 +96,14 @@ endif::[]
 
 [#9-5-0-sw-sheets]
 [discrete]
-=== ThoughtSpot for Connected Sheets add-on
+=== ThoughtSpot for Google Sheets add-on
 
-ThoughtSpot Connected Sheets is an add-on for Google Sheets that allows you to connect to a ThoughtSpot instance, pull data directly into a Google Sheet from trusted data sources connected to that instance (like Snowflake, Google BigQuery, DataBricks, and others), and use the tools in Google Sheets for ad-hoc analysis. See
+ThoughtSpot for Google Sheets is a free add-on that lets you use the power of ThoughtSpot to search, and create charts and visualizations from your spreadsheet data. See
 ifndef::pendo-links[]
-xref:thoughtspot-sheets.adoc#sheets-connected[ThoughtSpot Connected Sheets].
+xref:thoughtspot-sheets.adoc#sheets-connected[ThoughtSpot for Google Sheets].
 endif::[]
 ifdef::pendo-links[]
-xref:liveboard-verify.adoc[Verified Liveboards,window=_blank].
+xref:thoughtspot-sheets.adoc#sheets-connected[ThoughtSpot for Google Sheets,window=_blank].
 endif::[]
 // Mark -- scal-140723
 
