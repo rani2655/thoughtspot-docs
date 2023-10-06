@@ -112,6 +112,13 @@ endif::[]
 === New data panel GA
 
 The new data panel experience is GA in this release. This is part of the Data Fluency feature. This feature is disabled by default. To enable it, go to your ThoughtSpot user profile and set the _Answer data panel experience_ to *New experience*.
+See
+ifndef::pendo-links[]
+xref:search-choose-data-source.adoc[Choose a data source].
+endif::[]
+ifdef::pendo-links[]
+xref:search-choose-data-source.adoc[Choose a data source,window=_blank].
+endif::[]
 
 image::new_data_panel.png[]
 
@@ -120,6 +127,15 @@ image::new_data_panel.png[]
 [#9-5-0-sw-sample]
 [discrete]
 === Column and data source overview in Search Data
+
+With the new Answer data panel experience feature enabled, the *Search data* page displays a short description of your selected data source or column, which helps you understand the kinds of answers you can expect to get when searching.
+See
+ifndef::pendo-links[]
+xref:search-start.adoc[Start a new search].
+endif::[]
+ifdef::pendo-links[]
+xref:search-start.adoc[Start a new search,window=_blank].
+endif::[]
 
 // Mark -- scal-136121
 
