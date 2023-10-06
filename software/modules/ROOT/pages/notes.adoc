@@ -148,7 +148,18 @@ We now display Liveboard tabs in the ThoughtSpot Mobile app. To create a Liveboa
 
 Mobile app Load More button:: When using ThoughtSpot Mobile, you can now press the *Load More* button at the bottom of a table to see the next 100 rows of data.
 
+ThoughtSpot for Google Sheets add-on::
+ThoughtSpot for Google Sheets is a free add-on that lets you use the power of ThoughtSpot to search, and create charts and visualizations from your spreadsheet data. See
+xref:thoughtspot-sheets.adoc#sheets-connected[ThoughtSpot for Google Sheets].
 
+New data panel GA::
+The new data panel experience is GA in this release. This is part of the Data Fluency feature. This feature is disabled by default. To enable it, go to your ThoughtSpot user profile and set the _Answer data panel experience_ to *New experience*.
+See xref:search-choose-data-source.adoc[Choose a data source].
+
+Column and data source overview in Search Data::
+
+With the new Answer data panel experience feature enabled, the *Search data* page displays a short description of your selected data source or column, which helps you understand the kinds of answers you can expect to get when searching.
+See xref:search-start.adoc[Start a new search].
 
 [#data-engineer-9-5-0-sw]
 === For the Data Engineer
