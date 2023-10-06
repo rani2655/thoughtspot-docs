@@ -203,7 +203,7 @@ When using ThoughtSpot Mobile, you can now press the *Load More* button at the b
 [#9-5-0-sw-onboarding]
 [discrete]
 === Show onboarding for new users following the share link
-
+When users are invited to ThoughtSpot via a Share link, they can now click the *Keep exploring* button to be directed to onboarding.
 // Mary -- scal-141694 (you may want to shorten the title)
 
 [#9-5-0-sw-legend]
@@ -689,10 +689,9 @@ NEEDS EVALUATION
 // Mary -- scal-129677
 
 
-[#9-5-0-sw-orgs]
-[discrete]
-=== Redesigned org-switcher for new UI experience
-
+//[#9-5-0-sw-orgs]
+//[discrete]
+//=== Redesigned org-switcher for new UI experience
 // Mary -- scal-149163 - Confirmed Org not yet supported in software
 
 
