@@ -667,7 +667,7 @@ endif::[]
 and
 link:https://developers.thoughtspot.com/docs/?pageid=runtime-params[Runtime Parameters,window=_blank].
 
-
+////
 NEEDS EVALUATION
 
 [#9-5-0-sw-cassandra]
@@ -693,7 +693,7 @@ NEEDS EVALUATION
 //[discrete]
 //=== Redesigned org-switcher for new UI experience
 // Mary -- scal-149163 - Confirmed Org not yet supported in software
-
+////
 
 [#tse]
 [discrete]
