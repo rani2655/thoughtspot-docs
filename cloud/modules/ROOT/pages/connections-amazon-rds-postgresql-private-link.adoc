@@ -1,20 +1,20 @@
-= Enabling an AWS PrivateLink between ThoughtSpot Cloud and your {connection} data warehouse
+= Enabling an AWS PrivateLink between ThoughtSpot Cloud and your {connection} database
 :experimental:
 :last_updated: 3/3/2023
 :linkattrs:
 :author: Teresa Killmond
 :page-layout: default-cloud
-:description: Learn how to deploy an AWS PrivateLink between your Amazon RDS PostgreSQL data warehouse and the ThoughtSpot Cloud tenant.
+:description: Learn how to deploy an AWS PrivateLink between your Amazon RDS PostgreSQL database and the ThoughtSpot Cloud tenant.
 :connection: Amazon RDS PostgreSQL
 
-Learn how to deploy an AWS PrivateLink between your {connection} data warehouse and the ThoughtSpot Cloud tenant.
+Learn how to deploy an AWS PrivateLink between your {connection} database and the ThoughtSpot Cloud tenant.
 
 NOTE: AWS PrivateLink is only available to Enterprise Edition users.
 
 include::partial$private-link-intro.adoc[]
 
 This article details how to enable a PrivateLink for *{connection}*;
-to enable it for other data warehouses, refer to:
+to enable it for other databases, refer to:
 
 * xref:connections-amazon-aurora-mysql-private-link.adoc[Amazon Aurora MySQL PrivateLink]
 * xref:connections-amazon-aurora-postgresql-private-link.adoc[Amazon Aurora PostgreSQL PrivateLink]
