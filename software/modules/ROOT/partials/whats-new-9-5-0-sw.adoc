@@ -233,6 +233,20 @@ You can now set your KPI chart to display a percent change comparison between th
 
 image::kpi-comparison-point.gif[KPI comparison point]
 
+[#9-5-0-sw-note-tile]
+[discrete]
+=== Liveboard note tiles
+
+// Naomi -- scal-135509
+
+The Liveboard note tiles feature is now GA. Add notes to your Liveboards, so that viewers of your Liveboards can quickly understand how to use the data and visualizations you gathered. Note tiles can provide an overview of a Liveboard or visualization, company branding through images, definitions of terms used in the Liveboard, and so on. With the GA of the note tiles feature, you don’t need a specific privilege to upload images. See
+ifndef::pendo-links[]
+xref:liveboard-notes.adoc[Liveboard note tiles].
+endif::[]
+ifdef::pendo-links[]
+xref:liveboard-notes.adoc[Liveboard note tiles,window=_blank].
+endif::[]
+
 [#9-5-0-sw-gridline]
 [discrete]
 === Chart display enhancements
@@ -252,11 +266,11 @@ For more information, see xref:geomaps-custom.adoc [Upload custom geo maps].
 === Geomap chart enhancements
 ThoughtSpot now supports the following enhancements for geomap visualizations:
 
-We now provide geomap data for all countries. For a full list, see https://wiki.openstreetmap.org/wiki/List_of_territory_based_projects[Openstreetmap supported countries].
+* We now provide geomap data for all countries. For a full list, see https://wiki.openstreetmap.org/wiki/List_of_territory_based_projects[Openstreetmap supported countries].
 
-We now support multiple levels of subdivisions within a country, rather than just city and zip code.
+* We now support multiple levels of subdivisions within a country, rather than just city and zip code.
 
-We now support visualizations comparing subdivisions of multiple countries in a single visualization. For example, if a selected column contains data from cities in the United States and Mexico, all data would be displayed on a single visualization.
+* We now support visualizations comparing subdivisions of multiple countries in a single visualization. For example, if a selected column contains data from cities in the United States and Mexico, all data would be displayed on a single visualization.
 
 To enable these features, the Geo config property in the underlying Worksheet must be set to Auto select.
 
