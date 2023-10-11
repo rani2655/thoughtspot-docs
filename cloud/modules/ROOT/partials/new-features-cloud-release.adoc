@@ -1,82 +1,99 @@
 The latest release of ThoughtSpot Cloud contains several new and enhanced features.
 
-* <<9-6-0-cl-first,For the First User>>
-* <<9-6-0-cl-analyst,For the Analyst>>
-* <<9-6-0-cl-business-user,For the Business User>>
-* <<9-6-0-cl-data-engineer,For the Data Engineer>>
-* <<9-6-0-cl-it-ops-engineer,For the IT Ops Engineer>>
-* <<9-6-0-cl-developer,For the Developer>>
+* <<9-7-0-cl-first,For the First User>>
+* <<9-7-0-cl-analyst,For the Analyst>>
+* <<9-7-0-cl-business-user,For the Business User>>
+* <<9-7-0-cl-data-engineer,For the Data Engineer>>
+* <<9-7-0-cl-developer,For the Developer>>
 
-[#9-6-0-cl-first]
+[#9-7-0-cl-first]
 === For the First User
 
 Getting started with ThoughtSpot Cloud::
 The first user on the account has to complete a series of steps before other people can start using ThoughtSpot with your organization's data.
 For these instructions, see xref:ts-cloud-getting-started.adoc[Getting Started with ThoughtSpot Cloud].
 
-[#9-6-0-cl-analyst]
+[#9-7-0-cl-analyst]
 === For the Analyst
 
-Embedding in note tiles [.badge.badge-early-access-relnotes]#Early Access#::
-You can now embed interactive content such as videos, pdfs, or Figma files into Liveboards using the note tile format. To try it out, enter a Liveboard, select the edit icon, and select Add note from the top bar. You can then click the embed icon and enter the URL or iFrame code for your content. You can interact with the content embedded in a Liveboard like you would with a website. To enable this feature, contact {support-url}. For more information, see xref:liveboard-notes.adoc#embed[Embedding content with an iFrame].
 
-[#9-6-0-cl-business-user]
+//scal-66335
+Personalized Liveboard views [.badge.badge-early-access-relnotes]#Early Access#:: Personalized views allow you to save your own set of values for filters and parameters in a Liveboard without editing the original Liveboard. You can change the values of the already present filters and parameters in a Liveboard to create a view, and save it for future use. The new Liveboard is a view of the master Liveboard, so any changes made to the master Liveboard flow  automatically to the filtered Liveboard view but not vice-versa. This includes changes made to pinned visualizations, tabs, filter chips, and re-ordering.
+
+Embedding in note tiles:: Embedding in note tiles is now GA. You can now embed interactive content such as videos, pdfs, or Figma files into Liveboards using the note tile format. To try it out, enter a Liveboard, select the edit icon, and select *Add note* from the top bar. You can then click the embed icon and enter the URL or iFrame code for your content. You can interact with the content embedded in a Liveboard like you would with a website.
++
+image:embed-note-tile.gif[Animation demonstrating how to embed content in a Liveboard]
+
+//scal-139891
+System Variables in Answer and Worksheet formulas:: Previously, ThoughtSpot supported the `ts_username` variable for use in row-level security formulas alone. Now, users can access the following string variables:
+
+* `ts_orgname`
+* `ts_email_domain`
++
+`ts_orgname`, `ts_username`, and `ts_email_domain` variables are available to use in Answer and Worksheet formulas.
+
+//scal-140692
+Request access to data source from filter:: When creating a filter on a Liveboard or Answer, you must have access to the underlying data source. Users can now request access to the underlying Worksheet through the filter modal on a Liveboard or Answer.
+
+//scal-142071
+ThoughtSpot Slack bot integration:: ThoughtSpot delivers a Slack bot integration. ThoughtSpot's Slack integration lets you preview Liveboard and Answer links shared directly in Slack.
+
+//scal-161459
+New data panel GA:: The new data panel experience is GA in this release. This is part of the Data Fluency feature. It is enabled by default. To disable it, go to your ThoughtSpot user profile and set the Answer data panel experience to Classic experience.
++
+image::new_data_panel.png[]
+
+
+[#9-7-0-cl-business-user]
 === For the Business User
 
-Change analysis: More insights [.badge.badge-beta-relnotes]#Beta#::
-When running change analysis, you can now see additional insights. For example, ThoughtSpot will detect values that underwent the highest percentage change between the two data points defined in your analysis, and values whose share of the total changed the most. The additional insights appear below the main analysis in the change analysis pop-up window.
+//scal-151210
+Redesigned home page [.badge.badge-early-access-relnotes]#Early Access#::
+In this release,  we have a completely redesigned home page, where you can ask natural-language questions with Sage, view your watchlist, favorites, library of Answers and Liveboards, and more. With the new left-hand navigation, you can go directly to your Liveboards, Answers, SpotIQ Analysis, and Monitor Subscriptions. The _Search Data_ button has been renamed _Open Query Builder_ to more easily distinguish it from the Sage search bar.
++
+image::scroll_homepage.gif[]
++
+This new home page experience is disabled by default. To enable it, open your user profile, and in the _Experience_ section, set the Navigation and Homepage to *New experience*.
 
-Query performance visibility [.badge.badge-beta-relnotes]#Beta#::
-You can now see the state of query execution for any Liveboard visualization while it loads. If a visualization takes longer than three seconds to load, ThoughtSpot displays the current query execution status (executing query, waiting for connection, or processing query) to help users identify the reason for the delay.
+// SCAL-175398
+New persona-based navigation [.badge.badge-early-access-relnotes]#Early Access#:: In this release, we introduce a completely redesigned navigation experience organized by persona. The new app switcher allows business users, analysts, data engineers, IT Ops, and developers to work in separate contextual sections designed specifically for their needs. In addition, each app has left-hand navigation to create better consistency and ease of use for users switching between the different apps. When you switch to a different app, that app opens in a new browser tab. The redesigned home page is part of the new persona-based navigation, in this release.
++
+image::app-switcher.png[]
++
+This new navigation experience is disabled by default. To enable it, open your user profile, and in the _Experience_ section, set the Navigation and Homepage to *New experience*.
 
-Hidden columns in tables::
-You can now hide a column from your table without removing it from your current Search. If you hide the column you’re using to sort results, the sorting order is unchanged. To try it out, create an Answer, open the chart configuration menu gear icon, and drag the selected column to *Hidden Columns*.
+SpotDev Slack app [.badge.badge-beta-relnotes]#Beta#:: You can now ask ThoughtSpot questions using Slack. Install the ThoughtSpot Dev Slack app, add it to a Slack channel, and you will be able to ask questions of your data sources in natural language. ThoughtSpot answers in chart format.
++
+image::nls-slack.png[SpotDev Slack app]
 
-Commenting on Liveboards [.badge.badge-early-access-relnotes]#Early Access#::
-You can now add or reply to comments, tag other users, or subscribe to comment threads directly on a Liveboard. Users can point out insights or reach out for clarification without leaving ThoughtSpot. To try it out, click the comment icon to the right of the edit icon, and select the data point you would like to comment on. This feature must be enabled by your administrator. For more information, see xref:liveboards.adoc#comment[Comment on a Liveboard].
+Atlan metadata [.badge.badge-beta-relnotes]#Beta#:: Users can now see metadata information on tables and columns imported from Atlan. This information appears when you click on the corresponding table or column in *Search data*. Once connected, metadata information is visible to all users. This feature is in beta and off by default. To enable it, contact {support-url}.
 
-Alation metadata::
-Users can now see metadata information on tables and columns imported from Alation. This information appears when you click on the corresponding table or column in *Search data*. Once connected, metadata information is visible to all users. For more information, see xref:catalog-integration.adoc[Catalog integration].
+//scal-159581, scal-95381, scal-158204
+Mobile enhancements:: We made the following improvements to ThoughtSpot mobile:
 
-Verified Liveboards::
-We made the following enhancements to verified Liveboards:
+* We simplified the log in process for the ThoughtSpot mobile app. You can now enter your company email to receive an email with a magic link login, rather than entering the server URL.
+* You can now change your ThoughtSpot locale through the Mobile app. When your locale is updated, ThoughtSpot translates labels, date formats and number formats to match the default for your country and language.
+* You can now use SpotIQ analysis to directly identify the key drivers for recent change in your KPIs in ThoughtSpot Mobile. KPI change analysis allows you to drill down into the causes of change in your KPIs and customize the insights generated by SpotIQ.
 
-- When you request verification, you can now see the underlying data sources that will be shared with the verifier.
-- The name of the Liveboard now appears in verification request emails.
-- When editing an Answer on or pinning an Answer to a verified Liveboard, a warning banner appears indicating it may need to be verified again.
 
-[#9-6-0-cl-slides]
-ThoughtSpot for Google Slides add-on::
-
-ThoughtSpot Connected Slides is an add-on that allows you to insert charts and live data visualizations right into your Google Slides™ presentation. Just connect to ThoughtSpot, find a chart or visualization, and add it to your slide presentation. For details, see xref:thoughtspot-slides.adoc[ThoughtSpot Connected Slides].
-
-[#9-6-0-cl-data-engineer]
+[#9-7-0-cl-data-engineer]
 === For the Data Engineer
 
-Amazon Athena connection::
-You can now create connections from ThoughtSpot to Amazon Athena. For more information, see xref:connections-amazon-athena.adoc[Amazon Athena].
+//scal-158463
+Atlan data catalog [.badge.badge-beta-relnotes]#Beta#:: You can now import metadata information related to your tables and columns from Atlan into ThoughtSpot. From the *Data* tab, you can set up a connection to Atlan to import
+column descriptions, column verification status, table descriptions, and table verification status. This information appears when you click on the corresponding table or column in *Search data*. Once connected, metadata information is visible to all users.
 
-Improved error messaging for Liveboard visualizations:: Previously, ThoughtSpot displayed generic error messages for connection errors on Liveboards. Now, you can see the error message received from the underlying Cloud data warehouse.
+//scal-158490
+SAP Hana Calculation view input parameters [.badge.badge-beta-relnotes]#Beta#:: Now, you can define a parameter to link to the parameter in SAP Hana using TML at the table level, and create a linked_parameter clause to ensure the parameter is displayed in all Answers created from the table.
 
-[#9-6-0-cl-it-ops-engineer]
-=== For the IT/Ops Engineer
+//scal-91104
+Key Pair authentication for Snowflake:: We now support Key Pair authentication for Snowflake.
 
-Alation catalog integration::
-You can now import metadata information related to your tables and columns from Alation into ThoughtSpot. From the Data tab, you can set up a connection to Alation to import column descriptions, column verification status, table descriptions, and table verification status. For more information, see xref:catalog-integration.adoc[].
+//scal-136661
+OAuth for Databricks using Proof Key for Code Exchange (PKCE):: We now support OAuth with PKCE for Databricks.
 
-Index Statistics Liveboard::
-Admin users can now see indexing statistics for their cluster using the Index Statistics Liveboard. You can filter the results by connection, table, and column, and see the breakdown of indexed search tokens in the visualizations. This Liveboard helps you see how many search tokens you are using, and can help you diagnose indexing issues and errors.
-For more information, see
-xref:index-statistics-liveboard.adoc[Index Statistics Liveboard].
 
-dbt sync::
-In the past, ThoughtSpot generated a new Worksheet every time a user edited an existing dbt data model. Now, ThoughtSpot maintains a persistent connection with dbt and provides realtime updates. Users can update an object, update an object and create a new object, or simply create a new object.
-For more information, see xref:dbt-integration.adoc[].
-
-dbt Worksheet join rule::
-Previously, when a Worksheet was created from a dbt model, the default worksheet join rule was "apply all joins". Now, "apply joins progressively" is the default. This means that when a Search is done on the Worksheet, joins are applied as each search term is added, rather than applying all joins to every Search.
-
-[#9-6-0-cl-developer]
+[#9-7-0-cl-developer]
 === For the Developer
 
 ThoughtSpot Everywhere:: For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
