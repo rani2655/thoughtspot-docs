@@ -23,7 +23,7 @@ The “of” keyword creates a group_aggregate formula in order to answer this q
 
 == “Percentage of” keyword example
 
-You may want an answer to the question: “What is each country’s percentage contribution to the revenue of the customer region?” In this case, you would enter the following filters into your search: `Revenue by Customer Region` `Revenue percentage of Customer Region`. The percentage of keyword creates the following formula: `sum (Revenue)/ group_aggregate (sum (Revenue), (Customer Region), query_filters())`.
+You may want an answer to the question: “What is each country’s percentage contribution to the revenue of the customer region?” In this case, you would enter the following filters into your search: `Revenue by Customer Country` `Revenue percentage of Customer Region`. The percentage of keyword creates the following formula: `sum (Revenue)/ group_aggregate (sum (Revenue), (Customer Region), query_filters())`.
 
 To see the results as a percentage, follow these steps:
 
