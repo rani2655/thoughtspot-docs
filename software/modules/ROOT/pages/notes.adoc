@@ -51,6 +51,8 @@ You can now create custom groups, which can be used to classify values in a list
 +
 For more information, see xref:custom-groups.adoc[Custom groups].
 
+Liveboard note tiles:: The Liveboard note tiles feature is now GA. Add notes to your Liveboards, so that viewers of your Liveboards can quickly understand how to use the data and visualizations you gathered. Note tiles can provide an overview of a Liveboard or visualization, company branding through images, definitions of terms used in the Liveboard, and so on. With the GA of the note tiles feature, you don’t need a specific privilege to upload images. See xref:liveboard-notes.adoc[Liveboard note tiles].
+
 
 Date picker enhancement in Search::
 We added support for rolling, fixed, and custom date filters when creating an Answer or filtering a Liveboard. Previously, when adding a date filter to a Search, ThoughtSpot supported the conditions `ON` (=), `ON OR AFTER` (>=), `BEFORE` (<), and `BETWEEN`. Now, you can additionally filter for `ON OR BEFORE` (\<=), `NOT BETWEEN`, `ON LAST`, and `ON NEXT`.
