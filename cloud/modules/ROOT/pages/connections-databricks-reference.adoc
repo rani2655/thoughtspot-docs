@@ -7,6 +7,8 @@
 :connection: Databricks
 :description: Learn the specific information needed to establish a secure connection to Databricks.
 
+//scal-136661
+
 You need specific information to establish a seamless and secure connection.
 The following fields are required, except where noted.
 
@@ -20,11 +22,11 @@ Example;; *example.cloud.databricks.com*
 HTTP Path:: Enter the {connection} HTTP path. You can find this in the connection details of your SQL warehouse.
 (Service account only) User:: Email address associated with your {connection} account.
 (Service account only) Password:: Specify the password of the {connection} account. You can also use your '`personal access token`' generated in {connection}. For more information, see https://docs.microsoft.com/en-us/azure/databricks/dev-tools/api/latest/authentication#--generate-a-personal-access-token[Generate a personal access token^].
-(OAuth only) OAuth Client ID:: Specify the OAuth client ID.
-(OAuth only) OAuth Client Secret:: Specify the OAuth client secret.
-(OAuth only) Scope:: Specify the scope.
-(OAuth only) Auth Url:: Specify the auth url.
-(OAuth only) Access token Url:: Specify the access token url.
+(OAuth and OAuth with PKCE only) OAuth Client ID:: Specify the OAuth client ID.
+(OAuth and OAuth with PKCE only) OAuth Client Secret:: Specify the OAuth client secret.
+(OAuth and OAuth with PKCE only) Scope:: Specify the scope.
+(OAuth and OAuth with PKCE only) Auth Url:: Specify the auth url.
+(OAuth and OAuth with PKCE only) Access token Url:: Specify the access token url.
 Catalog:: Specify the catalog. _(Optional)_
 Example;; sample_db
 
@@ -41,11 +43,11 @@ Example;; *sql/protocolv1/o/1234567890123456/7890-123456-abc789*
 If this does not work, try "`token`".
 (Service account only) Password:: Enter your '`personal access token`' generated in {connection}.
 This is not the password for your Azure account.  For more information, see https://docs.microsoft.com/en-us/azure/databricks/dev-tools/api/latest/authentication#--generate-a-personal-access-token[Generate a personal access token^].
-(OAuth only) OAuth Client ID:: Specify the OAuth client ID.
-(OAuth only) OAuth Client Secret:: Specify the OAuth client secret.
-(OAuth only) Scope:: Specify the scope.
-(OAuth only) Auth Url:: Specify the auth url.
-(OAuth only) Access token Url:: Specify the access token url.
+(OAuth and OAuth with PKCE only) OAuth Client ID:: Specify the OAuth client ID.
+(OAuth and OAuth with PKCE only) OAuth Client Secret:: Specify the OAuth client secret.
+(OAuth and OAuth with PKCE only) Scope:: Specify the scope.
+(OAuth and OAuth with PKCE only) Auth Url:: Specify the auth url.
+(OAuth and OAuth with PKCE only) Access token Url:: Specify the access token url.
 Catalog:: Specify the catalog. _(Optional)_
 Example;; sample_db
 
