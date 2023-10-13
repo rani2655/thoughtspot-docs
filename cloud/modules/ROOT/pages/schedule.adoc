@@ -45,7 +45,7 @@ This is the targeted release schedule for upcoming ThoughtSpot Cloud upgrades:
 
 == Upgrade process
 - New releases are deployed on a monthly cadence across all ThoughtSpot Cloud clusters.
-- Customer development clusters are deployed with a release candidate that will allow us to validate release stability prior to deployment across the production environment
+- Customer development clusters are deployed with a release candidate that will allow us to validate release stability prior to deployment across the production environment.
 
 == Upgrade times
 
