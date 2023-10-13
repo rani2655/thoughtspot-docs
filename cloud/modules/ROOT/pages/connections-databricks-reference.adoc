@@ -6,8 +6,7 @@
 :experimental:
 :connection: Databricks
 :description: Learn the specific information needed to establish a secure connection to Databricks.
-
-//scal-136661
+:jira: SCAL-136661
 
 You need specific information to establish a seamless and secure connection.
 The following fields are required, except where noted.
