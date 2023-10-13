@@ -1,0 +1,112 @@
+= New home page and persona-based navigation
+:last_updated: 9/9/2022
+:linkattrs:
+:experimental:
+:page-layout: default-cloud-early-access
+:page-aliases: /end-user/thoughtspot-one/thoughtspot-one-homepage.adoc
+:description: Learn about the redesigned navigation and home page of ThoughtSpot.
+:jira: SCAL-151210, SCAL-175398
+
+In the 9.7.0.cl release, the home page and the navigation of the entire ThoughtSpot app has been redesigned. This feature is enabled by default, but you can disable it by going into your user profile, and setting the Navigation and Homepage experience to the _Classic experience_.
+
+== New home page
+
+On the new home page, you can ask natural-language questions with Sage, track KPIs in your watchlist, access favorites, your library of Answers and Liveboards, and more.
+
+With the new left-hand navigation, you can go directly to your Liveboards, Answers, SpotIQ Analysis, and Monitor Subscriptions. You can also access tutorials, and the ThoughtSpot documentation, and community sites directly from the home page.
+
+The button previously called _Search Data_ is now called _Open Query Builder_ and it still opens the data panel.
+
+image::scroll_homepage.gif[]
+
+== Persona-based navigation
+
+The new global navigation organizes ThoughtSpot into different contextual sections designed for the common types of ThoughtSpot users. Within each app, there is left-hand navigation. These different sections are called apps, and you navigate to them using the app switcher image:app_switcher_icon.png[app switcher icon].
+
+image::app-switcher.png[]
+
+NOTE: Each time you navigate to an app, it opens that app in a new browser tab.
+
+== Apps
+
+Apps organize features in the following ways:
+
+[cols="10%,20%,70%"]
+|===
+|App |User |Features
+
+|Insights
+|Business user
+a|- Charts
+- Liveboards
+- Answers
+- SpotIQ analysis
+- Monitor subscriptions
+
+|Data
+|Data engineer
+a|- Worksheets
+- Tables
+- Views
+- Connections
+- Sync
+- SpotApps
+- Utilities
+
+|Admin
+|Administrator
+a|- Users, groups, and orgs
+- Authentication
+- System activities
+- Application settings
+- Billing
+
+|Developer
+|Developer
+a|- Embed ThoughtSpot
+|===
+
+== Finding things in the new navigation
+
+Trying to find something in the redesigned navigation?
+
+Here's a quick reference which compares where things were in the previous navigation to where they are in the redesigned navigation:
+
+[cols="25%,75%"]
+|===
+|Previous location | New location
+
+|Home
+|Insights > Home
+
+|Answers
+|Insights > Answers
+
+|Liveboards
+|Insights > Liveboards
+
+|SpotIQ
+|Insights > SpotIQ Analysis
+
+|Monitor
+|Insights > Monitor Subscriptions
+
+|Data
+|Data
+
+|Admin
+|Admin
+
+|Develop
+|Developer
+
+|Search Data
+|Open Query Builder
+|===
+
+
+
+
+
+
+
