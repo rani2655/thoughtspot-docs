@@ -18,7 +18,7 @@ This is the targeted release schedule for upcoming ThoughtSpot Cloud upgrades:
 |===
 |*Release*
 |*Release candidate*
-(DEV, Internal)|*General availability*
+(DEV, Internal, non-PROD)|*General availability*
 (PROD)
 
 |9.8.0.cl
