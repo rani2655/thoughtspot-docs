@@ -10,8 +10,7 @@
 :experimental:
 :connection: Snowflake
 :description: Learn how to add a Snowflake connection.
-
-//scal-91104
+:jira: SCAL-91104
 
 == Prerequisites
 

@@ -6,8 +6,7 @@
 :description: Learn about the fields used to create a Snowflake connection.
 :page-aliases: /admin/ts-cloud/ts-cloud-embrace-snowflake-connection-reference.adoc, /data-integrate/embrace/embrace-snowflake-reference.adoc
 :connection: Snowflake
-
-//scal-91104
+:jira: SCAL-91104
 
 Here is a list of the fields of a {connection} connection.
 You need specific information to establish a seamless and secure connection.
