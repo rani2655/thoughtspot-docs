@@ -7,9 +7,9 @@
 :description: Learn about the redesigned navigation and home page of ThoughtSpot.
 :jira: SCAL-151210, SCAL-175398
 
-In the 9.7.0.cl release, the home page and the navigation of the entire ThoughtSpot app have been redesigned. These features are disabled by default. To enable them, open your user profile, and in the Experience section, set the _Navigation and Homepage_ to *New experience*.
+In the 9.7.0.cl release, the home page and the navigation of the entire ThoughtSpot app have been redesigned. These features are disabled by default. To enable them, open your user profile, and in the Experience section, set the _Navigation and Homepage_ to *New experience*. If you don't see this option, it means it has been disabled for your cluster.
 
-NOTE: Your ThoughtSpot admin can disable the new navigation and home page for the cluster, in the Early access features section of the Admin page.
+NOTE: The ThoughtSpot admin can disable the new navigation and home page for the cluster, in the Early access features section of the Admin page.
 
 == New home page
 
