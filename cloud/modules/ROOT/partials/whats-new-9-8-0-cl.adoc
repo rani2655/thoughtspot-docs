@@ -1,0 +1,249 @@
+ifndef::pendo-links[]
+November 2023 [label label-dep]#9.8.0.cl#
+endif::[]
+ifdef::pendo-links[]
+[month-year-whats-new]#November 2023#
+[label label-dep-whats-new]#9.8.0.cl#
+endif::[]
+
+ifndef::free-trial-feature[]
+NOTE: Features marked as [.badge.badge-update-note]#Beta# are off by default. To enable them, contact {support-url}.
+endif::free-trial-feature[]
+
+[#primary-9-8-0-cl]
+
+// Business User
+
+
+[#9-8-0-cl-homepage]
+[discrete]
+=== [GA] Make homepage revamp GA ready
+
+// Mark -- SCAL-167096
+
+[#9-8-0-cl-home]
+[discrete]
+=== [GA-ltd] Make home page revamp GA-ltd ready
+
+// Mark -- SCAL-157095
+
+ifndef::pendo-links[]
+[#9-8-0-cl-context]
+[discrete]
+=== Contextual alert creation on KPI charts (ad-hoc filters and parameters) [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-8-0-cl-context]
+[discrete]
+=== Contextual alert creation on KPI charts (ad-hoc filters and parameters) [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
+// Naomi -- SCAL-12727
+
+[#9-8-0-cl-insight]
+[discrete]
+=== [GA] Enable contextual change analysis additional insights by default
+
+// Naomi -- SCAL-172513
+
+ifndef::pendo-links[]
+[#9-8-0-cl-anomaly]
+[discrete]
+=== Anomaly insights with Monitor alerts for time-series KPI [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-8-0-cl-anomaly]
+[discrete]
+=== Anomaly insights with Monitor alerts for time-series KPI [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
+// Naomi -- SCAL-89341
+
+[#9-8-0-cl-view]
+[discrete]
+=== [GA] Personalized views - Enable users to save their filters/parameter values in a Liveboard
+
+// Mary -- SCAL-163617
+
+[#9-8-0-cl-push]
+[discrete]
+=== Push notifications
+
+// Naomi -- SCAL-58625
+
+[#9-8-0-cl-slack]
+[discrete]
+=== [GA] ThoughtSpot Slack bot for NL search
+
+// Naomi -- SCAL-159818
+
+[#9-8-0-cl-nls]
+[discrete]
+=== [FE] NLS improvements for 9.8
+
+// Mary -- SCAL-162213
+
+[#9-8-0-cl-verified]
+[discrete]
+=== Functional enhancements for verified Liveboards
+
+// Mary -- SCAL-158469
+
+[#9-8-0-cl-calendar]
+[discrete]
+=== Enable custom calendar by default - GA
+
+// Mark -- SCAL-138688
+
+[#9-8-0-cl-mobile]
+[discrete]
+=== Mobile UI revamp
+
+// Mary -- SCAL-159709
+
+[#9-8-0-cl-html]
+[discrete]
+=== Render HTML on viz/LB titles and descriptions, including in viz/LB info card/pin modal
+
+// Mary -- SCAL-159708
+
+[#9-8-0-cl-tml]
+[discrete]
+=== Use TML tokens to create Answer in NLS
+
+// Mary -- SCAL-153748
+
+[#9-8-0-cl-csv]
+[discrete]
+=== Allow Falcon CSV upload on cloud environments
+
+// Mark -- SCAL-161857
+
+// Analyst
+
+[#9-8-0-cl-atlan]
+[discrete]
+=== GA - ThoughtSpot Connector to Atlan
+
+// Naomi - SCAL-169279
+
+[#9-8-0-cl-sync]
+[discrete]
+=== Database as a destination for answer Sync
+
+// Mary - SCAL-158474
+
+[#9-8-0-cl-enhance]
+[discrete]
+=== Enhancements for TS Sync - Liveboard Sync (MS Teams and Slack)
+
+// Mary - SCAL-158473
+
+ifndef::pendo-links[]
+[#9-8-0-cl-custom]
+[discrete]
+=== Custom Sorting [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-8-0-cl-custom]
+[discrete]
+=== Custom Sorting [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
+// Mary - SCAL-156895
+
+[#9-8-0-cl-sage]
+[discrete]
+=== Highlight Sage using demo tab
+
+// Mary -- SCAL-160350
+
+[#9-8-0-cl-team]
+[discrete]
+=== Alert customers if they are over the user limit on Team Edition
+
+// Mary -- SCAL-153046
+
+[#9-8-0-cl-dbt]
+[discrete]
+=== GA dbt integration: public API
+
+// Naomi -- SCAL-132886
+
+[#9-8-0-cl-filter]
+[discrete]
+=== Filter data objects by connection and vice-versa
+
+// Naomi SCAL-127410
+
+'''
+[#secondary-9-8-0-cl]
+[discrete]
+=== _Other features and enhancements_
+
+// Data Engineer
+
+[#9-8-0-cl-alloydb]
+[discrete]
+=== Google AlloyDB for PostgreSQL connection
+
+// Naomi -- SCAL-166161
+
+[#9-8-0-cl-cloud-sql]
+[discrete]
+=== Google Cloud SQL for SQL Server connection
+
+// Naomi -- SCAL-166160
+
+[#9-8-0-cl-postgresql]
+[discrete]
+=== Google Cloud SQL for PostgreSQL connection
+
+// Naomi -- SCAL-166159
+
+[#9-8-0-cl-integration]
+[discrete]
+=== dbt integration: support for v1.6
+
+// Naomi SCAL-119947
+
+[#9-8-0-cl-singlestore]
+[discrete]
+=== [GA] SingleStore connection
+
+// Naomi -- SCAL-164909
+
+// IT/ Ops Engineer
+
+[#9-8-0-cl-embrace]
+[discrete]
+=== Embrace OAuth connection improvements
+
+// Naomi -- SCAL-160062
+
+[#9-8-0-cl-IAM]
+[discrete]
+=== Need a way for an admin user to resend activation mail in IAM v2
+
+// Mary -- SCAL-148215
+
+[#9-8-0-cl-orgs]
+[discrete]
+=== Support for deletion of Orgs - All Editions
+
+// Mary -- SCAL-134057
+
+[#9-8-0-cl-viz]
+[discrete]
+=== Remove deleted viz from Object Usage count
+
+// Naomi -- SCAL-161589
+
+
+
+ifndef::free-trial-feature[]
+[discrete]
+=== ThoughtSpot Everywhere
+
+For new features and enhancements introduced in this release of ThoughtSpot Everywhere, see https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
+endif::[]
