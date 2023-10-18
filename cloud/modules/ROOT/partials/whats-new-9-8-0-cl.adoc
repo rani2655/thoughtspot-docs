@@ -119,13 +119,19 @@ endif::[]
 
 // Mark -- SCAL-161857
 
-// Analyst
-
 [#9-8-0-cl-atlan]
 [discrete]
-=== GA - ThoughtSpot Connector to Atlan
+=== Atlan metadata
 
 // Naomi - SCAL-169279
+
+Users can no wsee metadata information on tables and columns imported from Atlan. This information appears when you click on the corresponding table or column in *Search data*. Once connected, metadata information is visible to all users.
+
+image::catalog-integration.png[Atlan metadata shown in Search Data]
+
+// Analyst
+
+
 
 [#9-8-0-cl-sync]
 [discrete]
@@ -183,23 +189,20 @@ endif::[]
 
 // Data Engineer
 
-[#9-8-0-cl-alloydb]
+[#9-8-0-cl-connections]
 [discrete]
-=== Google AlloyDB for PostgreSQL connection
+=== Connections
 
-// Naomi -- SCAL-166161
+// Naomi -- SCAL-166161, SCAL-166160, SCAL-166159, SCAL-164909
 
-[#9-8-0-cl-cloud-sql]
-[discrete]
-=== Google Cloud SQL for SQL Server connection
+The following connections are now GA:
 
-// Naomi -- SCAL-166160
+* Google AlloyDB for PostgreSQL
+* Google Cloud SQL for PostgreSQL
+* Google Cloud SQL for SQL Server
+* SingleStore
 
-[#9-8-0-cl-postgresql]
-[discrete]
-=== Google Cloud SQL for PostgreSQL connection
 
-// Naomi -- SCAL-166159
 
 [#9-8-0-cl-integration]
 [discrete]
@@ -207,13 +210,15 @@ endif::[]
 
 // Naomi SCAL-119947
 
-[#9-8-0-cl-singlestore]
-[discrete]
-=== [GA] SingleStore connection
-
-// Naomi -- SCAL-164909
-
 // IT/ Ops Engineer
+
+[#9-8-0-cl-atlan-catalog]
+[discrete]
+=== Atlan catalog integration
+
+// Naomi - SCAL-169279
+
+You can now import metadata information related to your tables and columns from Atlan into ThoughtSpot. From the Data tab, you can set up a connection to Atlan to import column descriptions, column verification status, table descriptions, and table verification status.
 
 [#9-8-0-cl-embrace]
 [discrete]
