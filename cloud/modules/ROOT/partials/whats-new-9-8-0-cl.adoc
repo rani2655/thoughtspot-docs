@@ -67,6 +67,14 @@ endif::[]
 
 // Naomi -- SCAL-89341. waiting on Vikas
 
+[#9-8-0-cl-watchlist]
+[discrete]
+=== KPI watchlist alert
+
+// Naomi -- SCAL-177812
+
+When you add a KPI to your homepage watchlist, ThoughtSpot automatically creates an alert. Users receive emails with updates to the KPI when it changes.
+
 [#9-8-0-cl-view]
 [discrete]
 === [GA] Personalized views - Enable users to save their filters/parameter values in a Liveboard
@@ -252,11 +260,11 @@ You can now import metadata information related to your tables and columns from 
 
 [#9-8-0-cl-viz]
 [discrete]
-=== Remove deleted viz from Object Usage count
+=== Remove deleted visualizations from Object Usage count
 
 // Naomi -- SCAL-161589
 
-When you delete a visualization, ThoughtSpot now removes the object from your object count in the Object Usage Liveboard. This ensures a more accurate count of objects in use.
+The Object Usage Liveboard no longer includes objects that have been deleted. This ensures a more accurate count of objects in use on your cluster.
 
 
 
