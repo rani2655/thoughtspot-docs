@@ -14,19 +14,6 @@ endif::free-trial-feature[]
 
 // Business User
 
-
-[#9-8-0-cl-homepage]
-[discrete]
-=== [GA] Make homepage revamp GA ready
-
-// Mark -- SCAL-167096
-
-[#9-8-0-cl-home]
-[discrete]
-=== [GA-ltd] Make home page revamp GA-ltd ready
-
-// Mark -- SCAL-157095
-
 ifndef::pendo-links[]
 [#9-8-0-cl-context]
 [discrete]
@@ -121,7 +108,9 @@ image::pie_chart_example.png[Donut chart example]
 
 [#9-8-0-cl-calendar]
 [discrete]
-=== Enable custom calendar by default - GA
+=== Custom calendar enabled by default
+
+In this release, custom calendar is now enabled by default for connections.
 
 // Mark -- SCAL-138688
 
@@ -145,7 +134,9 @@ image::pie_chart_example.png[Donut chart example]
 
 [#9-8-0-cl-csv]
 [discrete]
-=== Allow Falcon CSV upload on cloud environments
+=== CSV upload to Falcon database
+
+You can now upload CSV files directly into the Falcon database built into ThoughtSpot Cloud. This allows you to start using ThoughtSpot right away without the need to set up a connection to a cloud data warehouse.
 
 // Mark -- SCAL-161857
 
