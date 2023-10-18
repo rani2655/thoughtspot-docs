@@ -36,6 +36,7 @@ endif::free-trial-feature[]
 When giving feedback to AI-generated Answers in Sage, users can now tell ThoughtSpot what search tokens to use to signify certain key terms. For example, when you search for "best performing products this year", ThoughtSpot responds with the top five products sorted by sum of sales. Users can correct top five to top ten by clicking the thumbs-down icon and editing the Answer. ThoughtSpot then stores that feedback, and (Admin users? Worksheet owners?) can decide to apply the feedback globally, so that every time someone searches for "best" products, they receive the top ten results.
 
 
+
 ifndef::pendo-links[]
 [#9-8-0-cl-context]
 [discrete]
@@ -110,7 +111,7 @@ image::nls-slack.png[Slack app answers question in natural language]
 [discrete]
 === [FE] NLS improvements for 9.8
 
-// Mary -- SCAL-162213
+// Mary -- SCAL-162213 - No doc needed...Confirmed by Jasper Kajiru - this is a quality epic
 
 [#9-8-0-cl-donut]
 [discrete]
@@ -125,12 +126,16 @@ image::pie_chart_example.png[Donut chart example]
 [#9-8-0-cl-verified]
 [discrete]
 === Functional enhancements for verified Liveboards
+Easily find verified Liveboards with trusted content and filter search results to return only verified content. Request verification of Liveboards and cancel requests when needed.
+Administrators can track users' engagement with verified Liveboards.
 
 // Mary -- SCAL-158469
 
 [#9-8-0-cl-calendar]
 [discrete]
-=== Enable custom calendar by default - GA
+=== Custom calendar enabled by default
+
+In this release, custom calendar is now enabled by default for connections.
 
 // Mark -- SCAL-138688
 
@@ -138,23 +143,25 @@ image::pie_chart_example.png[Donut chart example]
 [discrete]
 === Mobile UI revamp
 
-// Mary -- SCAL-159709
+// Mary -- SCAL-159709 - Confirmed No Doc Needed - noted "changes are self explanatory"
 
 [#9-8-0-cl-html]
 [discrete]
 === Render HTML on viz/LB titles and descriptions, including in viz/LB info card/pin modal
 
-// Mary -- SCAL-159708
+// Mary -- SCAL-159708 - No doc needed...confirmed with Arpit
 
 [#9-8-0-cl-tml]
 [discrete]
 === Use TML tokens to create Answer in NLS
 
-// Mary -- SCAL-153748
+// Mary -- SCAL-153748 - No doc needed...waiting for confirmation from Santiago
 
 [#9-8-0-cl-csv]
 [discrete]
-=== Allow Falcon CSV upload on cloud environments
+=== CSV upload to Falcon database
+
+You can now upload CSV files directly into the Falcon database built into ThoughtSpot Cloud. This allows you to start using ThoughtSpot right away without the need to set up a connection to a cloud data warehouse.
 
 // Mark -- SCAL-161857
 
@@ -174,14 +181,14 @@ image::catalog-integration.png[Atlan metadata shown in Search Data]
 
 [#9-8-0-cl-sync]
 [discrete]
-=== Database as a destination for answer Sync
-
+=== Database as a destination for Answer Sync
+Using ThoughtSpot Sync you can now sync data directly from an Answer or a custom SQL view, to Snowflake, Redshift, and Google BigQuery.
 // Mary - SCAL-158474
 
 [#9-8-0-cl-enhance]
 [discrete]
 === Enhancements for TS Sync - Liveboard Sync (MS Teams and Slack)
-
+ThoughtSpot Sync allows you to connect and share Liveboards using in Microsoft Teams and Slack.
 // Mary - SCAL-158473
 
 ifndef::pendo-links[]
@@ -194,20 +201,20 @@ ifdef::pendo-links[]
 [discrete]
 === Custom Sorting [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
-
+Define a custom sort order for attributes to sort charts in a way that is familiar, and helps users to consume charts more efficiently.
 // Mary - SCAL-156895
 
 [#9-8-0-cl-sage]
 [discrete]
 === Highlight Sage using demo tab
 
-// Mary -- SCAL-160350
+// Mary -- SCAL-160350 - Awaiting confirmation of doc requirement form Adi
 
 [#9-8-0-cl-team]
 [discrete]
 === Alert customers if they are over the user limit on Team Edition
 
-// Mary -- SCAL-153046
+// Mary -- SCAL-153046 - Awaiting confirmation of doc requirement form Adi
 
 [#9-8-0-cl-dbt]
 [discrete]
@@ -269,12 +276,12 @@ You can now import metadata information related to your tables and columns from 
 [discrete]
 === Need a way for an admin user to resend activation mail in IAM v2
 
-// Mary -- SCAL-148215
+// Mary -- SCAL-148215 - Marked as no doc needed waiting on confirmation from Aditya Gupta
 
 [#9-8-0-cl-orgs]
 [discrete]
 === Support for deletion of Orgs - All Editions
-
+You can now delete an Org without first removing all users, connections and objects.
 // Mary -- SCAL-134057
 
 [#9-8-0-cl-viz]
