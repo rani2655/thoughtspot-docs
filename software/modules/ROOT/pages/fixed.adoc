@@ -3,7 +3,8 @@
 :last_updated: 10/4/2023
 :experimental:
 :linkattrs:
-:description: These are the issues we fixed in recent ThoughtSpot releases.
+:description: These are the issues we fixed in recent ThoughtSpot Software releases.
+:jira: SCAL-177831
 
 These are the issues we fixed in recent ThoughtSpot Software releases.
 
