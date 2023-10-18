@@ -12,6 +12,8 @@ NOTE: This feature is in beta and off by default. To enable it, contact {support
 
 image::catalog-integration.png[]
 
+NOTE: You can only create a connection to a single data catalog at a time. If you connect to Atlan, for example, you cannot simultaneously connect to Alation.
+
 == Connect to Alation
 
 . Open the *Data* tab and navigate to *Data governance*.
