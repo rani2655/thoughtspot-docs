@@ -5,6 +5,7 @@
 :linkattrs:
 :experimental:
 :description: Use ThoughtSpot’s connection to Atlan to import column- and table-level metadata and surface the data in the Search data knowledge cards.
+:jira: SCAL-158463
 
 Use ThoughtSpot’s connection to Atlan to import column- and table-level metadata from Atlan, including column description, table description, column certificate status and table certificate status, and surface the data in the Search data knowledge cards.
 
