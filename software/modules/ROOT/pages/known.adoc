@@ -4,6 +4,8 @@
 :experimental:
 :page-layout:
 :linkattrs:
+:description: These are the known issues in recent ThoughtSpot Software releases.
+:jira: SCAL-177831
 
 These are the known issues in this release of ThoughtSpot Software.
 
@@ -43,6 +45,20 @@ Using a group aggregate grouping on a column with unique count in the same query
 *Workaround*:
 
 Disable the `enableGroupingByGroupAggregrates` feature.
+
+|SCAL-175970
+|`POST tspublic/v1/user` returns 500 if null is provided for the "groups" property`
+a|*Symptoms*:
+
+Returns 500 error
+
+*Conditions*:
+
+When null is passed on under group parameter for tspublic V1 user API
+
+*Workaround*:
+
+Instead of null, the blank parameter can be passed.
 
 |===
 
