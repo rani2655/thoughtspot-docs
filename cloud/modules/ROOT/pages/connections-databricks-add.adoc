@@ -36,6 +36,7 @@ For OAuth authentication, do the following:
 
 - Enter Host, HTTP Path, OAuth Client ID, OAuth Client Secret, Scope, Auth URL, Access token URL, and Catalog (optional).
 --
+
 +
 --
 For OAuth authentication with PKCE, do the following:

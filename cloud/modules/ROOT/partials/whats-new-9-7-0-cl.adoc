@@ -72,7 +72,13 @@ endif::[]
 
 // Naomi-- scal-159819
 
-You can now ask ThoughtSpot questions using Slack. Install the ThoughtSpot Dev Slack app, add it to a Slack channel, and you will be able to ask questions of your data sources in natural language. ThoughtSpot answers in chart format.
+You can now ask ThoughtSpot questions using Slack. Install the ThoughtSpot Dev Slack app, add it to a Slack channel, and you will be able to ask questions of your data sources in natural language. ThoughtSpot answers in chart format. For more information, see
+ifndef::pendo-links[]
+xref:spotdev.adoc[SpotDev Slack app].
+endif::[]
+ifdef::pendo-links[]
+xref:spotdev.adoc[SpotDev Slack app,window=_blank].
+endif::[]
 
 image::nls-slack.png[SpotDev Slack app]
 
@@ -102,6 +108,15 @@ endif::[]
 // Naomi-- scal-158463
 
 Users can now see metadata information on tables and columns imported from Atlan. This information appears when you click on the corresponding table or column in *Search data*. Once connected, metadata information is visible to all users. This feature is in beta and off by default. To enable it, contact {support-url}.
+
+For more information, see
+ifndef::pendo-links[]
+xref:catalog-integration-atlan.adoc[Atlan catalog integration].
+endif::[]
+ifdef::pendo-links[]
+xref:catalog-integration-atlan.adoc[Atlan catalog integration].
+endif::[]
+
 
 image::catalog-integration.png[Atlan metadata]
 
@@ -148,6 +163,14 @@ Personalized views allow you to save your own set of values for filters and para
 // Naomi-- scal-165262
 
 Embedding in note tiles is now GA. You can now embed interactive content such as videos, pdfs, or Figma files into Liveboards using the note tile format. To try it out, enter a Liveboard, select the edit icon, and select *Add note* from the top bar. You can then click the embed icon and enter the URL or iFrame code for your content. You can interact with the content embedded in a Liveboard like you would with a website.
+
+For more information, see
+ifndef::pendo-links[]
+xref:liveboard-notes.adoc#embed[Embedding content with iFrames].
+endif::[]
+ifdef::pendo-links[]
+xref:liveboard-notes.adoc#embed[Embedding content with iFrames,window=_blank].
+endif::[]
 
 image:embed-note-tile.gif[Animation demonstrating how to embed content in a Liveboard]
 
@@ -222,6 +245,14 @@ endif::[]
 You can now import metadata information related to your tables and columns from Atlan into ThoughtSpot. From the *Data* tab, you can set up a connection to Atlan to import
 column descriptions, column verification status, table descriptions, and table verification status. This information appears when you click on the corresponding table or column in *Search data*. Once connected, metadata information is visible to all users.
 
+For more information, see
+ifndef::pendo-links[]
+xref:catalog-integration-atlan.adoc[Atlan catalog integration].
+endif::[]
+ifdef::pendo-links[]
+xref:catalog-integration-atlan.adoc[Atlan catalog integration].
+endif::[]
+
 ifndef::pendo-links[]
 [#9-7-0-cl-sap-hana]
 [discrete]
@@ -236,7 +267,13 @@ endif::[]
 // Naomi-- add in a concrete example. scal-158490
 
 //Previously, users could not query calculation views defined with input parameters in SAP Hana from ThoughtSpot.
-Now, you can define a parameter to link to the parameter in SAP Hana using TML at the table level, and create a linked_parameter clause to ensure the parameter is displayed in all Answers created from the table.
+Now, you can define a parameter to link to the parameter in SAP Hana using TML at the table level, and create a linked_parameter clause to ensure the parameter is displayed in all Answers created from the table. For more information, see
+ifndef::pendo-links[]
+xref:tml-tables.adoc[TML for tables] and xref:tml-worksheets.adoc[TML for Worksheets].
+endif::[]
+ifdef::pendo-links[]
+xref:tml-tables.adoc[TML for tables,window=_blank] and xref:tml-worksheets.adoc[TML for Worksheets,window=_blank].
+endif::[]
 
 
 
@@ -246,7 +283,13 @@ Now, you can define a parameter to link to the parameter in SAP Hana using TML a
 
 // Naomi-- scal-91104
 
-We now support Key Pair authentication for Snowflake.
+We now support
+ifndef::pendo-links[]
+xref:connections-snowflake-add.adoc[Key Pair authentication for Snowflake].
+endif::[]
+ifdef::pendo-links[]
+xref:connections-snowflake-add.adoc[Key Pair authentication for Snowflake,window=_blank].
+endif::[]
 
 [#9-7-0-cl-oauth]
 [discrete]
@@ -254,7 +297,13 @@ We now support Key Pair authentication for Snowflake.
 
 // Naomi-- scal-136661
 
-We now support OAuth with PKCE for Databricks.
+We now support
+ifndef::pendo-links[]
+xref:connections-databricks-add.adoc[OAuth with PKCE for Databricks].
+endif::[]
+ifdef::pendo-links[]
+xref:connections-databricks-add.adoc[OAuth with PKCE for Databricks,window=_blank].
+endif::[]
 
 ////
 [#9-7-0-cl-dbt]
