@@ -96,6 +96,8 @@ a| <<id,id>>
 
 <<lesson_plans,lesson_plans>>
 
+<<linked_parameters,linked_parameters>>
+
 <<list_choice,list_choice>>
 
 <<list_config,list_config>>
@@ -401,6 +403,12 @@ The content of the xref:search-assist-coach.adoc[] lesson created for the Worksh
 [#lesson_plans]
 lesson_plans::
 Contains a list of xref:search-assist-coach.adoc[] lessons created for the Worksheet.
+
+[#linked_parameters]
+linked_parameters::
+Links the Worksheet parameter to the underlying table parameter. Takes the syntax "table_name::table_parameter_name". The table parameter name should be the name of the parameter in ThoughtSpot.
++
+NOTE: Only applicable to tables imported from SAP Hana.
 
 [#list_choice]
 list_choice::
