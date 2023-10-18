@@ -27,6 +27,15 @@ endif::free-trial-feature[]
 
 // Mark -- SCAL-157095
 
+[#9-8-0-cl-sage-coach]
+[discrete]
+=== Sage Coach
+
+// Naomi -- SCAL-154204. Santiago is waiting to confirm whether Admin users or Worksheet owners will have access to make feedback apply globally.
+
+When giving feedback to AI-generated Answers in Sage, users can now tell ThoughtSpot what search tokens to use to signify certain key terms. For example, when you search for "best performing products this year", ThoughtSpot responds with the top five products sorted by sum of sales. Users can correct top five to top ten by clicking the thumbs-down icon and editing the Answer. ThoughtSpot then stores that feedback, and (Admin users? Worksheet owners?) can decide to apply the feedback globally, so that every time someone searches for "best" products, they receive the top ten results.
+
+
 ifndef::pendo-links[]
 [#9-8-0-cl-context]
 [discrete]
