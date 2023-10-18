@@ -46,6 +46,8 @@ a| <<aggregation,aggregation>>
 
 <<db_table,db_table>>
 
+<<default_value,default_value>>
+
 <<description,description>>
 
 <<destination,destination>>
@@ -88,6 +90,8 @@ a| <<name,name>>
 
 <<on,on>>
 
+<<parameters,parameters>>
+
 <<properties,properties>>
 
 <<rls_rules,rls_rules>>
@@ -95,6 +99,8 @@ a| <<name,name>>
 <<rule,rule>>
 
 <<rules,rules>>
+
+<<sap_parameter_name,sap_parameter_name>>
 
 <<schema,schema>>
 
@@ -188,6 +194,12 @@ The properties of the column in the database. Note that this database is not the
 db_table::
 The name of the table in the database.
 Note that this database is not the same as the data warehouse (Falcon, Amazon Redshift, or Snowflake, for example).
+
+[#default_value]
+default_value::
+The default value of the parameter.
++
+NOTE: Only applicable for tables imported from SAP Hana.
 
 [#description]
 description::
@@ -343,6 +355,10 @@ The join expression: the relationship definition, or the keys that your tables a
 +
 To alter a relationship definition, edit this parameter.
 
+[#parameters]
+parameters::
+The parameter that corresponds to the input parameter in a Connection. Currently applicable only to tables imported from SAP Hana. For this field, you must fill in the name, data type, default value, and sap parameter name.
+
 [#properties]
 properties::
 The list of properties of a table column.
@@ -360,6 +376,10 @@ A conditional formatting rule.
 [#rules]
 rules::
 A container for the names and expressions of xref:security-rls-concept.adoc[row-level security] rules for the table.
+
+[#sap_parameter_name]
+sap_parameter_name::
+The name of the parameter from the SAP Hana calculated view.
 
 [#schema]
 schema::
