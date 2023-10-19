@@ -5,11 +5,11 @@
 :page-aliases:
 :experimental:
 :connection: MySQL
-:description: You can connect to a MySQL database in ThoughtSpot Cloud, and perform live queries to create Answers and Liveboards.
+:description: You can connect to a MySQL database in ThoughtSpot Software, and perform live queries to create Answers and Liveboards.
 
 
 
-You can connect to a {connection} database in ThoughtSpot Cloud, and perform live queries to create Answers and Liveboards.
+You can connect to a {connection} database in ThoughtSpot Software, and perform live queries to create Answers and Liveboards.
 
 NOTE: You must use MySQL version 8.0.0 or later.
 

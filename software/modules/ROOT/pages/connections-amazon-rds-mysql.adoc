@@ -5,11 +5,11 @@
 :page-aliases:
 :experimental:
 :connection: Amazon RDS MySQL
-:description: You can connect to an Amazon Aurora MySQL database in ThoughtSpot Cloud, and perform live queries to create Answers and Liveboards.
+:description: You can connect to an Amazon Aurora MySQL database in ThoughtSpot Software, and perform live queries to create Answers and Liveboards.
 
 
 
-You can connect to an {connection} database in ThoughtSpot Cloud, and perform live queries to create Answers and Liveboards.
+You can connect to an {connection} database in ThoughtSpot Software, and perform live queries to create Answers and Liveboards.
 
 * xref:connections-amazon-rds-mysql-add.adoc[Add an {connection} connection]
 * xref:connections-amazon-rds-mysql-edit.adoc[Edit an {connection} connection]

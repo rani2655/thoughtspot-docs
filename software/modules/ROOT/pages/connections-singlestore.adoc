@@ -7,7 +7,7 @@
 :connection: SingleStore
 :description: You can easily add a connection to a Singlestore database, and perform live queries to create answers and Liveboards.
 
-You can connect to a SingleStore database in ThoughtSpot Cloud, and perform live queries to create Answers and Liveboards.
+You can connect to a SingleStore database in ThoughtSpot Software, and perform live queries to create Answers and Liveboards.
 
 NOTE: SingleStore is in Early Access. To enable this feature, contact {support-url}.
 
