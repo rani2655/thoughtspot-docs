@@ -46,7 +46,7 @@ ThoughtSpot now preserves the filters you use on a KPI when you create a Monitor
 
 // Naomi -- SCAL-172513. is More insights capitalized in product? add image.
 
-Change analysis _more insights_ are now available and enabled by default. For example, ThoughtSpot finds values that underwent the highest percentage change between the two data points defined in your analysis, and values whose share of the total changed the most. The insights appear below the main analysis in the change analysis pop-up window.
+Change analysis _more insights_ are now available to all customers and are enabled by default. For example, ThoughtSpot finds values that underwent the highest percentage change between the two data points defined in your analysis, and values whose share of the total changed the most. The insights appear below the main analysis in the change analysis pop-up window.
 
 
 
@@ -218,7 +218,7 @@ In this release, custom calendar is now enabled by default for connections.
 
 // Naomi -- SCAL-166161, SCAL-166160, SCAL-166159, SCAL-164909
 
-The following connections are now available to all customers and on by default:
+The following connections are now available to all customers and are on by default:
 
 * Google AlloyDB for PostgreSQL
 * Google Cloud SQL for PostgreSQL
@@ -265,7 +265,7 @@ You can now delete an Org without first removing all users, connections and obje
 [discrete]
 === Remove deleted visualizations from Object Usage count
 
-// Naomi -- SCAL-161589. release notes only?
+// Naomi -- SCAL-161589. article only.
 
 The Object Usage Liveboard no longer includes objects that have been deleted. This ensures a more accurate count of objects in use on your cluster.
 
