@@ -15,32 +15,20 @@ endif::free-trial-feature[]
 // Business User
 
 
-[#9-8-0-cl-homepage]
-[discrete]
-=== [GA] Make homepage revamp GA ready
-
-// Mark -- SCAL-167096
-
-[#9-8-0-cl-home]
-[discrete]
-=== [GA-ltd] Make home page revamp GA-ltd ready
-
-// Mark -- SCAL-157095
-
 [#9-8-0-cl-sage-coach]
 [discrete]
 === Sage Coach
 
-// Naomi -- SCAL-154204. Santiago is waiting to confirm whether Admin users or Worksheet owners will have access to make feedback apply globally.
+// Naomi -- SCAL-154204. Santiago is waiting to confirm whether Admin users or Worksheet owners will have access to make feedback apply globally. add a gif. split into two? new user experience and data workspace part.
 
-When giving feedback to AI-generated Answers in Sage, users can now tell ThoughtSpot what search tokens to use to signify certain key terms. For example, when you search for "best performing products this year", ThoughtSpot responds with the top five products sorted by sum of sales. Users can correct top five to top ten by clicking the thumbs-down icon and editing the Answer. ThoughtSpot then stores that feedback, and (Admin users? Worksheet owners?) can decide to apply the feedback globally, so that every time someone searches for "best" products, they receive the top ten results.
+When giving feedback to AI-generated Answers in Sage, you now tell ThoughtSpot what search tokens to use to signify certain key terms. For example, when you search for "best performing products this year", ThoughtSpot responds with the top five products sorted by sum of sales. You can correct top five to top ten by clicking the thumbs-down icon and editing the Answer. ThoughtSpot then stores that feedback, and (Admin users? Worksheet owners?) can decide to apply the feedback globally, so that every time someone searches for "best" products, they receive the top ten results.
 
 
 
 ifndef::pendo-links[]
 [#9-8-0-cl-context]
 [discrete]
-=== Contextual alert creation on KPI charts (ad-hoc filters and parameters) [.badge.badge-early-access]#Early Access#
+=== Contextual alert creation on KPI charts [.badge.badge-early-access]#Early Access#
 endif::[]
 ifdef::pendo-links[]
 [#9-8-0-cl-context]
@@ -48,7 +36,7 @@ ifdef::pendo-links[]
 === Contextual alert creation on KPI charts [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 
-// Naomi -- SCAL-127727
+// Naomi -- SCAL-127727. add a gif. ask if the filter appears in your email alerts, so users know the data they're getting is filtered.
 
 ThoughtSpot now preserves the filters you use on a KPI when you create a Monitor alert. Users with view-only access to the underlying Liveboard can now receive alert emails for filtered KPIs without saving the filters on the Liveboard.
 
@@ -56,9 +44,9 @@ ThoughtSpot now preserves the filters you use on a KPI when you create a Monitor
 [discrete]
 ===  Change analysis: More insights
 
-// Naomi -- SCAL-172513
+// Naomi -- SCAL-172513. is More insights capitalized in product? add image.
 
-Change analysis additional insights are now GA and enabled by default. When running change analysis, you can now see additional insights. For example, ThoughtSpot will detect values that underwent the highest percentage change between the two data points defined in your analysis, and values whose share of the total changed the most. The additional insights appear below the main analysis in the change analysis pop-up window.
+Change analysis _more insights_ are now available and enabled by default. For example, ThoughtSpot finds values that underwent the highest percentage change between the two data points defined in your analysis, and values whose share of the total changed the most. The insights appear below the main analysis in the change analysis pop-up window.
 
 
 
@@ -79,49 +67,47 @@ endif::[]
 
 [#9-8-0-cl-watchlist]
 [discrete]
-=== KPI watchlist alert
+=== KPI scheduled watchlist alert
 
-// Naomi -- SCAL-177812
+// Naomi -- SCAL-177812. add image/gif. find out if there's an opt-out option. is there an admin control over the feature?
 
-When you add a KPI to your homepage watchlist, ThoughtSpot automatically creates an alert. Users receive emails with updates to the KPI when it changes.
+When you add a KPI to your homepage watchlist, ThoughtSpot automatically creates an alert. You receive emails with updates to the KPI on a periodic basis.
 
 [#9-8-0-cl-view]
 [discrete]
-=== [GA] Personalized views - Enable users to save their filters/parameter values in a Liveboard
-Personalized views allow you to save your own set of values for filters and parameters in a Liveboard without editing the original Liveboard. You can change the values of the already present filters and parameters in a Liveboard and save it for future use. The new Liveboard is version of the master Liveboard, so any changes made to the master Liveboard are carried over ot the new Liveboard. This includes changes made to pinned visualizations, tabs, filter chips, and re-ordering. Changes made to the new Liveboard are not automatically pushed to the master Liveboard.
-// Mary -- SCAL-163617
+===  Personalized views - Enable users to save their filters/parameter values in a Liveboard
+Personalized views allow you to save your own set of values for filters and parameters in a Liveboard without editing the original Liveboard. You can change the values of the already present filters and parameters in a Liveboard and save it for future use. The new Liveboard is a version of the master Liveboard, so any changes made to the master Liveboard are carried over to the new Liveboard. This includes changes made to pinned visualizations, tabs, filter chips, and re-ordering. Changes made to the new Liveboard are not automatically pushed to the master Liveboard.
+// Mary -- SCAL-163617. value prop: this makes it so users don't have to make copies of Liveboards (and then not see changes to the original Liveboard)
 
 [#9-8-0-cl-push]
 [discrete]
 === Push notifications
 
-// Naomi -- SCAL-58625
+// Naomi -- SCAL-58625. contact Arpit and Vaibav. ask if we can access emulator. connect all mobile features under one header.
 
 [#9-8-0-cl-slack]
 [discrete]
-=== SpotDev Slack app
+=== ThoughtSpot for Slack
 
-// Naomi -- SCAL-159818
+// Naomi -- SCAL-159818. what is the final external name? contact Sean Z. update image with external name? Add in a note saying Slack adopts the name based on your cluster?
 
-You can now ask ThoughtSpot questions using Slack. Install the ThoughtSpot Dev Slack app, add it to a Slack channel, and you will be able to ask questions of your data sources in natural language. ThoughtSpot answers in chart format.
+You can now ask ThoughtSpot questions using Slack. Install the
+//ThoughtSpot Dev Slack
+app, add it to a Slack channel, and you can ask questions of your data sources in natural language. ThoughtSpot answers in chart format.
 
 image::nls-slack.png[Slack app answers question in natural language]
 
-[#9-8-0-cl-nls]
-[discrete]
-=== [FE] NLS improvements for 9.8
-
-// Mary -- SCAL-162213 - No doc needed...Confirmed by Jasper Kajiru - this is a quality epic
-
+////
 [#9-8-0-cl-donut]
 [discrete]
 === Donut charts
 
-// Naomi -- SCAL-162705
+// Naomi -- SCAL-162705. put in release notes only.
 
 ThoughtSpot has renamed pie charts as donut charts.
 
 image::pie_chart_example.png[Donut chart example]
+////
 
 [#9-8-0-cl-verified]
 [discrete]
@@ -129,27 +115,10 @@ image::pie_chart_example.png[Donut chart example]
 Easily find verified Liveboards with trusted content and filter search results to return only verified content. Request verification of Liveboards and cancel requests when needed.
 Administrators can track users' engagement with verified Liveboards.
 
-// Mary -- SCAL-158469
+// Mary -- SCAL-158469. how do admins track user engagement? If a separate feature, make a separate blurb.
 
-[#9-8-0-cl-calendar]
-[discrete]
-=== Custom calendar enabled by default
 
-In this release, custom calendar is now enabled by default for connections.
 
-// Mark -- SCAL-138688
-
-[#9-8-0-cl-mobile]
-[discrete]
-=== Mobile UI revamp
-
-// Mary -- SCAL-159709 - Confirmed No Doc Needed - noted "changes are self explanatory"
-
-[#9-8-0-cl-html]
-[discrete]
-=== Render HTML on viz/LB titles and descriptions, including in viz/LB info card/pin modal
-
-// Mary -- SCAL-159708 - No doc needed...confirmed with Arpit
 
 [#9-8-0-cl-tml]
 [discrete]
@@ -163,15 +132,15 @@ In this release, custom calendar is now enabled by default for connections.
 
 You can now upload CSV files directly into the Falcon database built into ThoughtSpot Cloud. This allows you to start using ThoughtSpot right away without the need to set up a connection to a cloud data warehouse.
 
-// Mark -- SCAL-161857
+// Mark -- SCAL-161857. possibly take out Falcon, title it as ThoughtSpot's own data store. do we want to highlight this in the what's new?
 
 [#9-8-0-cl-atlan]
 [discrete]
-=== Atlan metadata
+=== Atlan
 
-// Naomi - SCAL-169279
+// Naomi - SCAL-169279. think up a replacement for "metadata"
 
-Users can now see metadata information on tables and columns imported from Atlan. This information appears when you click on the corresponding table or column in *Search data*. Once connected, metadata information is visible to all users.
+Atlan is now available to all customers and is on by default. You can now see verification status and descriptions on tables and columns imported from Atlan. This information appears when you click on the corresponding table or column in *Search data*. Once connected, this information is visible to all users.
 
 image::catalog-integration.png[Atlan metadata shown in Search Data]
 
@@ -183,13 +152,13 @@ image::catalog-integration.png[Atlan metadata shown in Search Data]
 [discrete]
 === Database as a destination for Answer Sync
 Using ThoughtSpot Sync you can now sync data directly from an Answer or a custom SQL view, to Snowflake, Redshift, and Google BigQuery.
-// Mary - SCAL-158474
+// Mary - SCAL-158474. use case? value prop? give an example.
 
 [#9-8-0-cl-enhance]
 [discrete]
 === Enhancements for TS Sync - Liveboard Sync (MS Teams and Slack)
-ThoughtSpot Sync allows you to connect and share Liveboards using in Microsoft Teams and Slack.
-// Mary - SCAL-158473
+ThoughtSpot Sync allows you to connect and share Liveboards using Microsoft Teams and Slack.
+// Mary - SCAL-158473. value prop? the new feature is that you can share a whole Liveboard. screenshot?
 
 ifndef::pendo-links[]
 [#9-8-0-cl-custom]
@@ -202,7 +171,7 @@ ifdef::pendo-links[]
 === Custom Sorting [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 Define a custom sort order for attributes to sort charts in a way that is familiar, and helps users to consume charts more efficiently.
-// Mary - SCAL-156895
+// Mary - SCAL-156895. give an example, mention past capabilities? screenshot? make heading more descriptive. custom sorting of charts by attribute? clarify what "familiar" means.
 
 [#9-8-0-cl-sage]
 [discrete]
@@ -218,7 +187,7 @@ Define a custom sort order for attributes to sort charts in a way that is famili
 
 [#9-8-0-cl-dbt]
 [discrete]
-=== GA dbt integration: public API
+===  dbt integration: public API
 
 // Naomi -- SCAL-132886. Waiting on Samridh
 
@@ -235,13 +204,21 @@ Define a custom sort order for attributes to sort charts in a way that is famili
 
 // Data Engineer
 
+[#9-8-0-cl-calendar]
+[discrete]
+=== Custom calendar enabled by default
+
+In this release, custom calendar is now enabled by default for connections.
+
+// Mark -- SCAL-138688. mention which Connections it's not available for?
+
 [#9-8-0-cl-connections]
 [discrete]
 === Connections
 
 // Naomi -- SCAL-166161, SCAL-166160, SCAL-166159, SCAL-164909
 
-The following connections are now GA:
+The following connections are now available to all customers and on by default:
 
 * Google AlloyDB for PostgreSQL
 * Google Cloud SQL for PostgreSQL
@@ -288,7 +265,7 @@ You can now delete an Org without first removing all users, connections and obje
 [discrete]
 === Remove deleted visualizations from Object Usage count
 
-// Naomi -- SCAL-161589
+// Naomi -- SCAL-161589. release notes only?
 
 The Object Usage Liveboard no longer includes objects that have been deleted. This ensures a more accurate count of objects in use on your cluster.
 
