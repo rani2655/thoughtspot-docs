@@ -262,7 +262,7 @@ You can now import metadata information related to your tables and columns from 
 [discrete]
 === Need a way for an admin user to resend activation mail in IAM v2
 
-// Mary -- SCAL-148215 - Marked as no doc needed waiting on confirmation from Aditya Gupta
+// Mary -- SCAL-148215 - Confirmed no doc needed with Aditya Gupta that this was a validation epic.
 
 [#9-8-0-cl-orgs]
 [discrete]
