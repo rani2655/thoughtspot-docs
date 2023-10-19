@@ -5,11 +5,11 @@
 :page-aliases:
 :experimental:
 :connection: Amazon RDS PostgreSQL
-:description: You can connect to an Amazon Aurora PostgreSQL database in ThoughtSpot Cloud, and perform live queries to create Answers and Liveboards.
+:description: You can connect to an Amazon Aurora PostgreSQL database in ThoughtSpot Software, and perform live queries to create Answers and Liveboards.
 
 
 
-You can connect to an {connection} database in ThoughtSpot Cloud, and perform live queries to create Answers and Liveboards.
+You can connect to an {connection} database in ThoughtSpot Software, and perform live queries to create Answers and Liveboards.
 
 * xref:connections-amazon-rds-postgresql-add.adoc[Add an {connection} connection]
 * xref:connections-amazon-rds-postgresql-edit.adoc[Edit an {connection} connection]
