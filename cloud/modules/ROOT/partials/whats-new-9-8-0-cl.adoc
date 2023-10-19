@@ -88,7 +88,7 @@ When you add a KPI to your homepage watchlist, ThoughtSpot automatically creates
 [#9-8-0-cl-view]
 [discrete]
 === [GA] Personalized views - Enable users to save their filters/parameter values in a Liveboard
-
+Personalized views allow you to save your own set of values for filters and parameters in a Liveboard without editing the original Liveboard. You can change the values of the already present filters and parameters in a Liveboard and save it for future use. The new Liveboard is version of the master Liveboard, so any changes made to the master Liveboard are carried over ot the new Liveboard. This includes changes made to pinned visualizations, tabs, filter chips, and re-ordering. Changes made to the new Liveboard are not automatically pushed to the master Liveboard.
 // Mary -- SCAL-163617
 
 [#9-8-0-cl-push]
@@ -276,7 +276,7 @@ You can now import metadata information related to your tables and columns from 
 [discrete]
 === Need a way for an admin user to resend activation mail in IAM v2
 
-// Mary -- SCAL-148215 - Marked as no doc needed waiting on confirmation from Aditya Gupta
+// Mary -- SCAL-148215 - Confirmed no doc needed with Aditya Gupta that this was a validation epic.
 
 [#9-8-0-cl-orgs]
 [discrete]
