@@ -197,7 +197,7 @@ span.badge.badge-new {
 ** xref:worksheets.adoc[Work with worksheets]
 *** xref:worksheet-create.adoc[]
 *** xref:worksheet-edit.adoc[]
-*** xref:parameters-create.adoc[Creating parameters]
+*** xref:parameters-create.adoc[Create parameters]
 *** xref:custom-groups.adoc[]
 *** xref:worksheet-formula.adoc[]
 *** xref:worksheet-filter.adoc[Add a filter to a worksheet]

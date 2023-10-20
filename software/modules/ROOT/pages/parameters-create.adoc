@@ -1,4 +1,4 @@
-= Creating parameters
+= Create parameters
 :experimental:
 :last_updated: 1/9/2023
 :author: Teresa Killmond
@@ -9,6 +9,7 @@ A parameter is a container or a placeholder such as a number, date, or string th
 
 Parameters are useful for 'what-if' analysis, financial planning, cohort analysis, and so on. When you create parameters for your Worksheet, you guide users in their exploration of the data as they search on your Worksheet.
 
+IMPORTANT: For a parameter to be used in a Liveboard, you must create it in a Worksheet.
 
 == Creating parameters
 There is no maximum number of parameters you can create for a single <<worksheet,Worksheet>> or <<answer,Answer>>. However, parameters don't work across Worksheets or Answers. They only affect a single Worksheet or Answer.
