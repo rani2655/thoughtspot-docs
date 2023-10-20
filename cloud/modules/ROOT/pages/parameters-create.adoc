@@ -1,4 +1,4 @@
-= Creating Parameters
+= Create Parameters
 :experimental:
 :last_updated: 3/6/2023
 :author: Teresa Killmond
