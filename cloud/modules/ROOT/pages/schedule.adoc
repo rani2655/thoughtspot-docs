@@ -7,6 +7,16 @@
 :description:  Current schedule for ThoughtSpot Cloud cluster upgrades
 :jira: SCAL-175305
 
++++++
+<style>
+.doc .sidebarblock>.content>.title {
+    font-weight: 500;
+    text-align: left;
+    margin-top: 10px;
+}
+</style>
++++++
+
 ThoughtSpot Cloud releases are rolled out in a phased manner across the entire ThoughtSpot cloud environment. The initial release candidate is deployed on internal ThoughtSpot, and customer development (DEV) environments. Once the quality of the release candidate is confirmed, it is rolled out as generally available (GA) across all production (PROD) environments.
 
 NOTE: Upgrade dates are subject to change without notice at ThoughtSpot's discretion.
@@ -38,6 +48,7 @@ This is the targeted release schedule for upcoming ThoughtSpot Cloud upgrades:
 |7 days prior to upgrade
 |===
 
+.Upgrade details
 ****
 * Non-production environments include internal ThoughtSpot as well as partner, or customer dev clusters.
 * Cluster upgrades are rolled out in a phased manner during the prescribed date range.
