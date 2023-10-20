@@ -26,7 +26,6 @@
 ** xref:business-user.adoc[Business Users]
 *** xref:business-user-onboarding.adoc[Business user onboarding]
 *** xref:thoughtspot-one-homepage.adoc[Home page]
-**** xref:thoughtspot-homepage.adoc[New home page and navigation]
 *** xref:search-answers.adoc[Search Answers]
 *** xref:search-data.adoc[Search Data]
 *** xref:answer-experience-new.adoc[New answer experience]
