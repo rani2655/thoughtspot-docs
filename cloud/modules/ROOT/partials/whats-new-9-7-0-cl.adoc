@@ -16,50 +16,6 @@ endif::free-trial-feature[]
 // Business User
 
 ifndef::pendo-links[]
-[#9-7-0-cl-redesign]
-[discrete]
-// SCAL-151210
-=== Redesigned home page [.badge.badge-early-access]#Early Access#
-endif::[]
-ifdef::pendo-links[]
-[#9-7-0-cl-redesign]
-=== Redesigned home page [.badge.badge-early-access-whats-new]#Early Access#
-endif::[]
-
-In this release, we have a completely redesigned home page, where you can ask natural-language questions with Sage, view your watchlist, favorites, library of Answers and Liveboards, and more. With the new left-hand navigation, you can go directly to your Liveboards, Answers, SpotIQ Analysis, and Monitor Subscriptions. The _Search Data_ button has been renamed _Open Query Builder_ to more easily distinguish it from the Sage search bar.
-
-image::scroll_homepage.gif[]
-
-This new home page experience is disabled by default. To enable it, open your user profile, and in the _Experience_ section, set the Navigation and Homepage to *New experience*.
-
-// Mark-- take out mention of the insights app and focus on new home page. Explain where things are on the home page, try making it a scrolling gif OR add a link to/embed the video explaining the home page. Make sure image shows data. Conditionalize the video to show only in docs side what's new. Move 'the redesigned home page is part of the new persona-based navigation, in this release' into a new section for the persona-based nav, explain how it works. Contact Adi to see if admin banning new homepage made it in.
-
-ifndef::pendo-links[]
-[#9-7-0-cl-nav]
-[discrete]
-// SCAL-175398
-=== New persona-based navigation [.badge.badge-early-access]#Early Access#
-endif::[]
-ifdef::pendo-links[]
-[#9-7-0-cl-nav]
-[discrete]
-=== New persona-based navigation [.badge.badge-early-access-whats-new]#Early Access#
-endif::[]
-
-
-
-In this release, we introduce a completely redesigned navigation experience organized by persona. The new app switcher allows business users, analysts, data engineers, IT Ops, and developers to work in separate contextual sections designed specifically for their needs. In addition, each app has left-hand navigation to create better consistency and ease of use for users switching between the different apps. When you switch to a different app, that app opens in a new browser tab. The redesigned home page is part of the new persona-based navigation, in this release.
-
-image::app-switcher.png[]
-
-This new navigation experience is disabled by default. To enable it, open your user profile, and in the _Experience_ section, set the Navigation and Homepage to *New experience*.
-
-NOTE: The admin can disable the new navigation and home page for the cluster, in the _Early access features_ section of the Admin page.
-
-// Mark-- clarify "navigation within the app is on the left". Confirm with Adi if flag enabling by default/banned by admin makes it in to 9.7. Mention where in user profile to enable.
-
-
-ifndef::pendo-links[]
 [#9-7-0-cl-slack]
 [discrete]
 === SpotDev Slack app [.badge.badge-beta]#Beta#

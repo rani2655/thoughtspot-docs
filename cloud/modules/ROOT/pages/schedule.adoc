@@ -9,6 +9,8 @@
 
 ThoughtSpot Cloud releases are rolled out in a phased manner across the entire ThoughtSpot cloud environment. The initial release candidate is deployed on internal ThoughtSpot, and customer development (DEV) environments. Once the quality of the release candidate is confirmed, it is rolled out as generally available (GA) across all production (PROD) environments.
 
+NOTE: Upgrade dates are subject to change without notice at ThoughtSpot's discretion.
+
 This is the targeted release schedule for upcoming ThoughtSpot Cloud upgrades:
 
 // For RC we use Column E to G, and For GA we use Columns H to K in Cloud-Release Schedule (Active) Last Date of External Release Schedule google sheet:
@@ -36,9 +38,8 @@ This is the targeted release schedule for upcoming ThoughtSpot Cloud upgrades:
 |7 days prior to upgrade
 |===
 
-[NOTE]
+[sidebar]
 ====
-* Upgrade dates are subject to change without notice at ThoughtSpot's discretion.
 * Non-production environments include internal ThoughtSpot as well as partner, or customer dev clusters.
 * Cluster upgrades are rolled out in a phased manner during the prescribed date range.
 * All customers will be notified about the exact date and time window for the upgrade in an email notification as per the schedule in the table above.
