@@ -38,13 +38,12 @@ This is the targeted release schedule for upcoming ThoughtSpot Cloud upgrades:
 |7 days prior to upgrade
 |===
 
-[sidebar]
-====
+****
 * Non-production environments include internal ThoughtSpot as well as partner, or customer dev clusters.
 * Cluster upgrades are rolled out in a phased manner during the prescribed date range.
 * All customers will be notified about the exact date and time window for the upgrade in an email notification as per the schedule in the table above.
 * Customer documentation is published at the time of GA.
-====
+****
 
 == Upgrade process
 - New releases are deployed on a monthly cadence across all ThoughtSpot Cloud clusters.
