@@ -64,6 +64,7 @@
 *** xref:liveboard-filters-selective.adoc[Selective Liveboard filters]
 *** xref:liveboard-filters-mandatory.adoc[Mandatory Liveboard filters]
 *** xref:liveboard-filters-cross.adoc[Liveboard cross filters]
+*** xref:personalized-liveboard-views.adoc[Personalized Liveboard views]
 *** xref:parameters-create.adoc[Creating Parameters]
 *** xref:custom-groups.adoc[]
 *** xref:spotapps.adoc[SpotApps]
