@@ -3,7 +3,7 @@
 :linkattrs:
 :experimental:
 :page-layout: default-cloud-early-access
-:page-aliases: /complex-search/pinboard-filters.adoc
+:page-aliases:
 :description: You can personalize Liveboards by applying filters that are persisted.
 
 Liveboards that contain consolidated data for all business users can now be personalized for a specific user or group. You can filter values to display only the information that is relevant to you, and save the personalized Liveboard. The personalized Liveboard retains the filter values, and remains synced with the original Liveboard. This allows you to bookmark a personalized Liveboard for easy access to the information you need, and eliminates the need to create a personal copy of a Liveboard which can result in copies falling out of sync with the original.
