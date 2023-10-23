@@ -221,4 +221,4 @@ Find topics for the common types of ThoughtSpot users.
 ++++
 == What's new in ThoughtSpot Cloud
 
-include::9.6.0.cl@cloud:ROOT:partial$whats-new-9-7-0-cl.adoc[]
+include::9.7.0.cl@cloud:ROOT:partial$whats-new-9-8-0-cl.adoc[]

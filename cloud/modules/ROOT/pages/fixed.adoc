@@ -1,6 +1,6 @@
 = Fixed issues
 :keywords: fixed issues
-:last_updated: 10/16/2023
+:last_updated: 10/23/2023
 :author: Mark Plummer
 :experimental:
 :linkattrs:
@@ -10,44 +10,17 @@
 
 These are the issues we fixed in this release of ThoughtSpot Cloud.
 
-[#releases-9-6-0-x]
-== 9.7.0.cl release fixed issues
+[#releases-9-8-0-x]
+== 9.8.0.cl release fixed issues
 
 [cols="20%,80%"]
 |===
 |Issue ID |Description
 
-|SCAL-175970
-|POST tspublic/v1/user returns a 500 error if null is passed on under the group parameter for the tspublic V1 user API property.
-|SCAL-174155
-|Data filter does not show the values in the Liveboards for the specified year.
+|SCAL-XXXX
+|TBD
+|SCAL-XXXX
+|TBD
 |SCAL-173805
-|The error `TypeError: runtimeFilterParams.set is not a function. (In 'runtimeFilterParams.set(I,b)', 'runtimeFilterParams.set' is undefined)` occurs when using runtime filters along with cookieless authentication.
-|SCAL-173537
-|Incorrect date bucketing occurs on windowing and group functions, when date bucketing on windowing or group functions is defined over chasm trap worksheets.
-|SCAL-173139
-|Adding values in bulk does not work on Liveboard filters.
-|SCAL-172371
-|Signing into ThoughtSpot returns users to the sign-in page.
-|SCAL-171542
-|Worksheet creation and search do not work in a newly created org.
-|SCAL-171537
-|Loading an embedded Liveboard takes eight minutes.
-|SCAL-170042
-|A worksheet which does not have a dependency cannot be deleted.
-|SCAL-168719
-|Liveboards are slow to load, even though queries are executed in milliseconds in the cloud data warehouse.
-|SCAL-168585
-|Filter is not applied before aggregation when `enableGroupAggregateNewReaggregation` is enabled.
-|SCAL-167159
-|When opening the query visualizer, the error `Error Details [11022]
-Passthrough functions not supported for current query. Trace Id for this incident is ff025b55-9f46-470e-95f4-c4766533e5cf
-Additional Details
-Passthrough functions cannot be executed on Falcon objects` appears.
-|SCAL-164846
-|Undefined values are displayed in a pivot table when the pivot table is currently in a corrupted state which is caused by the expansion of column values.
-|SCAL-163781
-|Liveboard fails to load with `"Cannot query parameter"` message
-|SCAL-157206
-|Downloading a pivot table to Excel file fails when a formula column contains a custom format column.
+|TBD
 |===
