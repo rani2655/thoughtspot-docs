@@ -18,22 +18,22 @@ endif::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-7-0-cl-slack]
 [discrete]
-=== SpotDev Slack app [.badge.badge-beta]#Beta#
+=== ThoughtSpot Slack app [.badge.badge-beta]#Beta#
 endif::[]
 ifdef::pendo-links[]
 [#9-7-0-cl-slack]
 [discrete]
-=== SpotDev Slack app [.badge.badge-beta-whats-new]#Beta#
+=== ThoughtSpot Slack app [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
 // Naomi-- scal-159819
 
-You can now ask ThoughtSpot questions using Slack. Install the ThoughtSpot Dev Slack app, add it to a Slack channel, and you will be able to ask questions of your data sources in natural language. ThoughtSpot answers in chart format. For more information, see
+You can now ask ThoughtSpot questions using Slack. Install the ThoughtSpot Slack app, add it to a Slack channel, and you will be able to ask questions of your data sources in natural language. ThoughtSpot answers in chart format. For more information, see
 ifndef::pendo-links[]
-xref:spotdev.adoc[SpotDev Slack app].
+xref:spotdev.adoc[ThoughtSpot Slack app].
 endif::[]
 ifdef::pendo-links[]
-xref:spotdev.adoc[SpotDev Slack app,window=_blank].
+xref:spotdev.adoc[ThoughtSpot Slack app,window=_blank].
 endif::[]
 
 image::nls-slack.png[SpotDev Slack app]
