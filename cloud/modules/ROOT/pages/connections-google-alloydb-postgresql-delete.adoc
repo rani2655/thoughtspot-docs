@@ -1,12 +1,13 @@
 = Delete a {connection} connection
-:last_updated: 12/09/2022
+:last_updated: 3/3/2023
 :author: Naomi
 :linkattrs:
 :experimental:
+:page-layout: default-cloud
 :page-aliases:
-:connection: SingleStore
-:description: Learn how to delete a SingleStore connection.
-:jira: SCAL-164909
+:connection: Google AlloyDB for PostgreSQL
+:description: Learn how to delete a Google AlloyDB for PostgreSQL connection.
+:jira: SCAL-166161
 
 A connection can be used in multiple data sources or visualizations.
 Because of this, you must delete all of the sources and tasks that use that connection, before you can delete the connection.
@@ -29,10 +30,9 @@ Otherwise, go to the next step.
 '''
 > **Related information**
 >
-> * xref:connections-singlestore-add.adoc[Add a {connection} connection]
-> * xref:connections-singlestore-edit.adoc[Edit a {connection} connection]
-> * xref:connections-singlestore-remap.adoc[Remap a {connection} connection]
-> * xref:connections-singlestore-delete-table.adoc[Delete a table from a {connection} connection]
-> * xref:connections-singlestore-delete-table-dependencies.adoc[Delete a table with dependent objects]
-> * xref:connections-singlestore-reference.adoc[Connection reference for {connection}]
-> * xref:connections-singlestore-passthrough.adoc[]
+> * xref:connections-google-alloydb-postgresql-add.adoc[Add a {connection} connection]
+> * xref:connections-google-alloydb-postgresql-edit.adoc[Edit a {connection} connection]
+> * xref:connections-google-alloydb-postgresql-remap.adoc[Remap a {connection} connection]
+> * xref:connections-google-alloydb-postgresql-delete-table.adoc[Delete a table from a {connection} connection]
+> * xref:connections-google-alloydb-postgresql-delete-table-dependencies.adoc[Delete a table with dependent objects]
+> * xref:connections-google-alloydb-postgresql-reference.adoc[Connection reference for {connection}]
