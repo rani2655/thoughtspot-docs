@@ -1,11 +1,13 @@
 = Edit a {connection} connection
-:last_updated: 4/19/2023
+:last_updated: 10/25/2023
 :linkattrs:
+:author: Naomi
 :experimental:
+:page-layout: default-cloud
 :page-aliases:
-:description: You can edit a SingleStore connection to add tables and columns.
-:connection: SingleStore
-:jira: SCAL-164909
+:description: You can edit a Google Cloud SQL for PostgreSQL connection to add tables and columns.
+:connection: Google Cloud SQL for PostgreSQL
+:jira: SCAL-166159
 
 To edit a {connection} connection:
 
@@ -27,17 +29,16 @@ image::teradata-edittables.png[Select tables and columns]
 . Click *Update*, and then select *Confirm* to save the updated connection detail.
 
 To remove a table from a connection, delete it from the connection details page.
-For more information, see: xref:connections-singlestore-delete.adoc[Delete a {connection} connection].
+For more information, see: xref:connections-google-cloud-sql-postgresql-delete.adoc[Delete a {connection} connection].
 
-See the xref:connections-singlestore-reference.adoc[Connection reference] for details of connection parameters.
+See the xref:connections-cloud-sql-postgresql-reference.adoc[Connection reference] for details of connection parameters.
 
 '''
 > **Related information**
 >
-> * xref:connections-singlestore-add.adoc[Add a {connection} connection]
-> * xref:connections-singlestore-remap.adoc[Remap a {connection} connection]
-> * xref:connections-singlestore-delete-table.adoc[Delete a table from a {connection} connection]
-> * xref:connections-singlestore-delete-table-dependencies.adoc[Delete a table with dependent objects]
-> * xref:connections-singlestore-delete.adoc[Delete a {connection} connection]
-> * xref:connections-singlestore-reference.adoc[Connection reference for {connection}]
-> * xref:connections-singlestore-passthrough.adoc[]
+> * xref:connections-google-cloud-sql-postgresql-add.adoc[Add a {connection} connection]
+> * xref:connections-google-cloud-sql-postgresql-remap.adoc[Remap a {connection} connection]
+> * xref:connections-google-cloud-sql-postgresql-delete-table.adoc[Delete a table from a {connection} connection]
+> * xref:connections-google-cloud-sql-postgresql-delete-table-dependencies.adoc[Delete a table with dependent objects]
+> * xref:connections-google-cloud-sql-postgresql-delete.adoc[Delete a {connection} connection]
+> * xref:connections-google-cloud-sql-postgresql-reference.adoc[Connection reference for {connection}]
