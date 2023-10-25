@@ -21,6 +21,9 @@ For these instructions, see xref:ts-cloud-getting-started.adoc[Getting Started w
 [#9-8-0-cl-business-user]
 === For the Business User
 
+// scal-162075
+Donut charts:: We have renamed the pie chart as donut chart.
+
 [#9-8-0-cl-data-engineer]
 === For the Data Engineer
 
