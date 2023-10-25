@@ -24,7 +24,7 @@ SpotIQ change analysis compares data points of simple or complex measures using 
 
 === Change analysis for chart visualizations
 
-ThoughtSpot supports change analysis for area, line, column, bar, line-column, pie, and KPI charts.
+ThoughtSpot supports change analysis for area, line, column, bar, line-column, donut, and KPI charts.
 To perform this analysis, follow these steps:
 
 . On an area, line, column, bar, line-column, pie, or KPI chart, hold down the command key (MacOS) or control key (Linux or Windows).
@@ -45,7 +45,7 @@ By default, SpotIQ picks the most relevant columns, based on what it learned fro
 [#change-analysis-contextual]
 == Contextual change analysis
 
-ThoughtSpot supports contextual change analysis for area, line, column, bar, line-column, pie, and KPI charts. You do not need SpotIQ privileges to run contextual change analysis.
+ThoughtSpot supports contextual change analysis for area, line, column, bar, line-column, donut, and KPI charts. You do not need SpotIQ privileges to run contextual change analysis.
 
 To perform this analysis, follow these steps:
 

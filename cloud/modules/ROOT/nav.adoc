@@ -446,7 +446,7 @@
 *** xref:chart-line.adoc[Line charts]
 *** xref:chart-kpi.adoc[KPI charts]
 *** xref:chart-pivot-table.adoc[Pivot table]
-*** xref:chart-pie.adoc[Pie charts]
+*** xref:chart-donut.adoc[Donut charts]
 *** xref:chart-bar.adoc[Bar charts]
 *** xref:chart-bar-stacked.adoc[Stacked bar charts]
 *** xref:chart-line-column.adoc[Line column charts]
