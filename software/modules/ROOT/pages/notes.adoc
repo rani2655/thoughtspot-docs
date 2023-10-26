@@ -1,6 +1,6 @@
-= 9.5.0.sw Release Notes
+= 9.8.0.sw Release Notes
 :experimental:
-:last_updated: 11/29/2022
+:last_updated: 10/26/23
 :linkattrs:
 :page-aliases: /release/notes.adoc
 :description: These release notes include information about new and enhanced features.
@@ -15,7 +15,7 @@
 </style>
 ++++
 
-ThoughtSpot version 9.5.0.sw is now available.
+ThoughtSpot version 9.8.0.sw is now available.
 
 These release notes include information about new and enhanced features.
 
