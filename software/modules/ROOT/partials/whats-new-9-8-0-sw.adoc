@@ -1,0 +1,270 @@
+ifndef::pendo-links[]
+November 2023 [label label-dep]#9.8.0.sw#
+endif::[]
+ifdef::pendo-links[]
+[month-year-whats-new]#November 2023#
+[label label-dep-whats-new]#9.8.0.sw#
+endif::[]
+
+ifndef::pendo-links[]
+NOTE: Features marked as [.badge.badge-update-whats-new-beta-note]#Beta# are off by default. To enable them, contact {support-url}.
+endif::[]
+
+ifdef::pendo-links[]
+NOTE: Features marked as [.badge.badge-update-whats-new-beta-note]#Beta# are off by default. To enable them, contact {support-url}.
+endif::[]
+
+[#primary-9-8-0-sw]
+
+// Business User
+
+[#9-8-0-sw-comment]
+[discrete]
+=== Commenting on Liveboards
+
+// Mary -- scal-138404
+
+[#9-8-0-sw-cca]
+[discrete]
+=== Contextual change analysis: additional insights
+
+// Mary -- scal-172513, scal-152750
+
+[#9-8-0-sw-atlan]
+[discrete]
+=== [Beta] ThoughtSpot connector to Atlan
+
+// Mary -- scal-158463 (generally, we split this announcement into two: one business user version on the metadata you can see in  Search Data, and a data engineer version showing the way admin users can connect to Atlan)
+
+[#9-8-0-sw-literacy]
+[discrete]
+=== Literacy: remove multiple date bucketing on the same column logic
+
+// Mary -- scal-154154
+
+[#9-8-0-sw-tag]
+[discrete]
+=== Literacy: data fluency - tag-based filtering in source selection experience
+
+// Mark -- scal-152804
+
+[#9-8-0-sw-falcon]
+[discrete]
+=== Allow Falcon CSV Upload on Cloud
+
+// Mark -- scal-161857 (is this Cloud-only?)
+
+[#9-8-0-sw-verified]
+[discrete]
+=== Verified Liveboards spillover items
+
+// Naomi -- scal-161857
+
+[#9-8-0-sw-liveboards]
+[discrete]
+=== Functional enhancements for verified Liveboards
+
+// Mary -- scal-158469
+
+[#9-8-0-sw-mobile]
+[discrete]
+=== Mobile UI revamp
+
+// Mary -- scal-159709
+
+[#9-8-0-sw-magiclink]
+[discrete]
+=== Magic Link on mobile
+
+// Naomi -- scal-111883
+
+[#9-8-0-sw-html]
+[discrete]
+=== Render HTML on viz/LB titles and descriptions
+
+// Mary -- scal-159708
+
+[#9-8-0-sw-custom]
+[discrete]
+=== Enable custom calendar by default
+
+// Mark -- scal-138688
+
+[#9-8-0-sw-error]
+[discrete]
+=== Improve error messaging related to Embrace for Liveboard visualizations
+
+// Naomi -- scal-150635
+
+[#9-8-0-sw-viz]
+[discrete]
+=== [Beta] Display the current state of query execution for a Liveboard visualization
+
+// Naomi -- scal-139411
+
+
+// Analyst
+
+[#9-8-0-sw-embedding]
+[discrete]
+=== Embedding in note tiles
+
+// Mary -- scal-165262, scal-158410
+
+[#9-8-0-sw-personalized]
+[discrete]
+=== Personalized Liveboard views
+
+// Mary -- scal-66335, scal-163617
+
+[#9-8-0-sw-pivot]
+[discrete]
+=== Pivot table issues
+
+// Mary -- scal-112787
+
+[#9-8-0-sw-accessibility]
+[discrete]
+=== Accessibility improvements
+
+// Mark -- scal-161954, scal-161429, scal-159842
+
+[#9-8-0-sw-dbt]
+[discrete]
+=== dbt integration
+
+// Naomi -- scal-157152
+
+[#9-8-0-sw-incremental]
+[discrete]
+=== dbt incremental sync
+
+// Naomi -- scal-149212
+
+[#9-8-0-sw-api]
+[discrete]
+=== dbt integration: public API
+
+// Naomi -- scal-132886
+
+[#9-8-0-sw-looker]
+[discrete]
+=== [EA] Looker: Query Gen and Search Data changes
+
+// Mark -- scal-154758
+
+[#9-8-0-sw-hidden]
+[discrete]
+=== Hidden columns in table configuration
+
+// Naomi -- scal-154258
+
+[#9-8-0-sw-filter]
+[discrete]
+=== Request access to view-only filters
+
+// Mary -- scal-140692
+
+[#9-8-0-sw-nimbus]
+[discrete]
+=== [Beta] Nimbus - Cloud export service
+
+// Naomi -- scal-142414
+
+
+
+
+
+
+'''
+[#secondary-9-8-0-sw]
+[discrete]
+=== _Other features and enhancements_
+
+// Data engineer
+
+[#9-8-0-sw-connections]
+[discrete]
+=== Connections
+
+// Naomi -- scal-79850, scal-164909, scal-166159, scal-166160,scal-166161
+
+We added support for the following connections:
+
+* Amazon Athena
+* Google AlloyDB for PostreSQL
+* Google Cloud SQL for PostgreSQL
+* Google Cloud SQL for SQL Server
+* SingleStore
+
+[#9-8-0-sw-pkce]
+[discrete]
+=== OAuth for Databricks using PKCE
+
+// Naomi -- scal-136661
+
+[#9-8-0-sw-v1]
+[discrete]
+=== dbt integration, version 1.6
+
+// Naomi -- scal-119947
+
+// IT / Ops engineer
+
+[#9-8-0-sw-deleted]
+[discrete]
+=== Remove deleted visualizations from object usage count
+
+// Naomi -- scal-161589
+
+[#9-8-0-sw-oel8]
+[discrete]
+=== Qualify OEL8 for ThoughtSpot
+
+// Mary -- scal-153296
+
+[#9-8-0-sw-activation]
+[discrete]
+=== Admin user resend activation email in IAM v2
+
+// Mary -- scal-148215
+
+[#9-8-0-sw-orgs]
+[discrete]
+=== [Orgs 1.5] Billing and usage metrics for Admin portal to be Orgs aware
+
+// Mary -- scal-141740
+
+[#9-8-0-sw-snapshot]
+[discrete]
+=== Org aware snapshot and Org statistics
+
+// Mary -- scal-138194
+
+[#9-8-0-sw-embrace]
+[discrete]
+=== Embrace v2
+
+// Naomi -- scal-157240
+
+[#9-8-0-sw-hadoop]
+[discrete]
+=== Upgrade Hadoop 2 to Hadoop 3
+
+// Mark -- scal-151004
+
+[#9-8-0-sw-nav]
+[discrete]
+=== [EA] Global navigation redesign
+
+// Mark -- scal-146972
+
+[#tse]
+[discrete]
+=== ThoughtSpot Everywhere
+
+Customers licensed to embed ThoughtSpot can use ThoughtSpot Everywhere features and the Visual Embed SDK.
+
+To enable ThoughtSpot Everywhere on your cluster, contact {support-url}.
+
+For new features and enhancements introduced in this release for ThoughtSpot Everywhere, see https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
