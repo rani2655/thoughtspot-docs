@@ -1,10 +1,11 @@
 = Custom calendar overview
-:last_updated: 5/5/2021
+:last_updated: 10/26/2023
 :linkattrs:
 :page-aliases: /admin/ts-cloud/ts-cloud-embrace-cust-cal.adoc, /data/custom-calendar.adoc, /data/embrace/custom-calendar.adoc
 :experimental:
 :page-layout: default-cloud
 :description: With a custom calendar, you can choose when the year, quarter, or week starts, and search using date-related keywords.
+:jira: SCAL-172330
 
 With a custom calendar, you can choose when the year, quarter, or week starts, and search using date-related keywords.
 
@@ -41,11 +42,28 @@ There are many reasons users may choose to set up a custom calendar rather than 
 
 Custom calendar currently supports the following:
 
-* Snowflake
+* Amazon Athena
+* Amazon Aurora MySQL
+* Amazon Aurora PostgreSQL
+* Amazon RDS MySQL
+* Amazon RDS PostgreSQL
 * Amazon Redshift
-* Google BigQuery
-* Microsoft Azure Synapse
 * Databricks
+* Google AlloyDB for PostgreSQL
+* Google BigQuery
+* Google Cloud SQL for PostgreSQL
+* Google Cloud SQL for SQL Server
+* Microsoft Azure Synapse
+* MySQL
+* Oracle ADW
+* Presto
+* SAP HANA
+* Singlestore
+* Snowflake
+* SQL Server
+* Starburst
+* Teradata
+* Trino
 
 == Search features
 
