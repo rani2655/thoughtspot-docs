@@ -4,6 +4,7 @@
 :experimental:
 :page-layout: default-cloud
 :author: Teresa Killmond
+:jira: SCAL-157885, SCAL-157886, SCAL-157887, SCAL-157890, SCAL-157889
 :description: ThoughtSpot's dbt integration allows you to provide your existing dbt models and create ThoughtSpot Worksheets, which you can use to search your data.
 
 ThoughtSpot's dbt integration allows you to easily provide your existing dbt models and automatically create ThoughtSpot xref:worksheets.adoc[Worksheets], which you can use to xref:search-data.adoc[search your data].
@@ -89,6 +90,8 @@ image::dbt-error.png[Error message saying "Unable to fetch dbt models"]
 To increase the maximum number of dbt folders you can import at a time, contact {support-url}.
 +
 image::dbt-integration-folder-multiple.png[dbt integration step 2]
++
+NOTE: You can now filter models and folders on this page, as well as sort by column header.
 
 . Select *Next*.
 
@@ -103,6 +106,8 @@ image::dbt-integration-tables.png[dbt integration step 3]
 The *Synced* column says *No* if this is the first time you are importing this Worksheet. The *Synced* column says *Yes* if you are importing the same Worksheet again. If the *Synced* column says *Yes*, ThoughtSpot will update the existing Worksheet, instead of creating a new one.
 +
 image::dbt-integration-worksheets-create.png[Select Worksheets for ThoughtSpot to create]
++
+NOTE: There is no minimum number of Worksheets to select in this step.
 
 . Select *Finish*.
 
@@ -196,6 +201,9 @@ To edit a dbt project/ integration, follow these steps:
 . Select *Edit*.
 
 . Run the dbt integration again, making any changes you would like. Follow the steps in <<integrate,Integrating with dbt>>. This updates your Worksheets, tables, and Liveboards, based on the changes in your dbt models.
++
+NOTE: ThoughtSpot auto-selects objects created in previous syncs when you go through the sync process again.
+
 
 == Limitations
 
