@@ -21,7 +21,7 @@ endif::free-trial-feature[]
 
 // Naomi -- SCAL-154204. Santiago is waiting to confirm whether Admin users or Worksheet owners will have access to make feedback apply globally. add a gif. split into two? new user experience and data workspace part.
 
-When giving feedback to AI-generated Answers in Sage, you now tell ThoughtSpot what search tokens to use to signify certain key terms. For example, when you search for "best performing products this year", ThoughtSpot responds with the top five products sorted by sum of sales. You can correct top five to top ten by clicking the thumbs-down icon and editing the Answer. ThoughtSpot then stores that feedback, and (Admin users? Worksheet owners?) can decide to apply the feedback globally, so that every time someone searches for "best" products, they receive the top ten results.
+When giving feedback to AI-generated Answers in Sage, you now tell ThoughtSpot what search tokens to use to signify certain key terms. For example, when you search for "best performing products this year", ThoughtSpot responds with the top five products sorted by sum of sales. You can correct top five to top ten by clicking the thumbs-down icon and editing the Answer. ThoughtSpot then stores that feedback, and admin users and Worksheet owners can decide to apply the feedback globally, so that every time someone searches for "best" products, they receive the top ten results.
 
 
 
@@ -44,11 +44,17 @@ ThoughtSpot now preserves the filters you use on a KPI when you create a Monitor
 [discrete]
 ===  Change analysis: More insights
 
-// Naomi -- SCAL-172513. is More insights capitalized in product? add image.
+// Naomi -- SCAL-172513. is More insights capitalized in product?
 
-Change analysis _more insights_ are now available to all customers and are enabled by default. For example, ThoughtSpot finds values that underwent the highest percentage change between the two data points defined in your analysis, and values whose share of the total changed the most. The insights appear below the main analysis in the change analysis pop-up window.
+Change analysis _More insights_ are now available to all customers and are enabled by default. For example, ThoughtSpot finds values that underwent the highest percentage change between the two data points defined in your analysis, and values whose share of the total changed the most. The insights appear below the main analysis in the change analysis pop-up window. For more information, see
+ifndef::pendo-links[]
+xref:spotiq-change.adoc#additional[Change analysis].
+endif::[]
+ifdef::pendo-links[]
+xref:spotiq-change.adoc#additional[Change analysis,window=_blank].
+endif::[]
 
-
+image::additional-insight.png[More insights]
 
 
 
@@ -83,7 +89,7 @@ Personalized views allow you to save your own set of values for filters and para
 [discrete]
 === Push notifications
 
-// Naomi -- SCAL-58625. contact Arpit and Vaibav. ask if we can access emulator. connect all mobile features under one header.
+// Naomi -- SCAL-58625. contact Arpit and Vaibhav. ask if we can access emulator. connect all mobile features under one header.
 
 [#9-8-0-cl-slack]
 [discrete]
@@ -91,9 +97,14 @@ Personalized views allow you to save your own set of values for filters and para
 
 // Naomi -- SCAL-159818. what is the final external name? contact Sean Z. update image with external name? Add in a note saying Slack adopts the name based on your cluster?
 
-You can now ask ThoughtSpot questions using Slack. Install the
-//ThoughtSpot Dev Slack
-app, add it to a Slack channel, and you can ask questions of your data sources in natural language. ThoughtSpot answers in chart format.
+You can now ask ThoughtSpot questions using Slack. Install the ThoughtSpot Slack app, add it to a Slack channel, and you can ask questions of your data sources in natural language. ThoughtSpot answers in chart format.
+For more information, see
+ifndef::pendo-links[]
+xref:spotdev.adoc[ThoughtSpot Slack app].
+endif::[]
+ifdef::pendo-links[]
+xref:spotdev.adoc[ThoughtSpot Slack app,window=_blank].
+endif::[]
 
 image::nls-slack.png[Slack app answers question in natural language]
 
@@ -140,7 +151,13 @@ You can now upload CSV files directly into the Falcon database built into Though
 
 // Naomi - SCAL-169279. think up a replacement for "metadata"
 
-Atlan is now available to all customers and is on by default. You can now see verification status and descriptions on tables and columns imported from Atlan. This information appears when you click on the corresponding table or column in *Search data*. Once connected, this information is visible to all users.
+Atlan is now available to all customers and is on by default. You can now see verification status and descriptions on tables and columns imported from Atlan. This information appears when you click on the corresponding table or column in *Search data*. Once connected, this information is visible to all users. For more information, see
+ifndef::pendo-links[]
+xref:catalog-integration-atlan.adoc[Atlan catalog integration].
+endif::[]
+ifdef::pendo-links[]
+xref:catalog-integration-atlan.adoc[Atlan catalog integration,window=_blank].
+endif::[]
 
 image::catalog-integration.png[Atlan metadata shown in Search Data]
 
@@ -185,17 +202,21 @@ Define a custom sort order for attributes to sort charts in a way that is famili
 
 // Mary -- SCAL-153046 - Awaiting confirmation of doc requirement form Adi
 
+////
 [#9-8-0-cl-dbt]
 [discrete]
 ===  dbt integration: public API
 
 // Naomi -- SCAL-132886. Waiting on Samridh
+////
 
+////
 [#9-8-0-cl-filter]
 [discrete]
 === Filter data objects by connection and vice-versa
 
 // Naomi SCAL-127410 waiting on Samridh
+////
 
 '''
 [#secondary-9-8-0-cl]
@@ -220,18 +241,28 @@ In this release, custom calendar is now enabled by default for connections.
 
 The following connections are now available to all customers and are on by default:
 
-* Google AlloyDB for PostgreSQL
-* Google Cloud SQL for PostgreSQL
-* Google Cloud SQL for SQL Server
-* SingleStore
+ifndef::pendo-links[]
+* xref:connections-alloydb-postgresql.adoc[Google AlloyDB for PostgreSQL]
+* xref:connections-google-cloud-sql-postgresql.adoc[Google Cloud SQL for PostgreSQL]
+* xref:connections-google-cloud-sql-sql-server.adoc[Google Cloud SQL for SQL Server]
+* xref:connections-singlestore.adoc[SingleStore]
+endif::[]
+
+ifdef::pendo-links[]
+* xref:connections-alloydb-postgresql.adoc[Google AlloyDB for PostgreSQL,window=_blank]
+* xref:connections-google-cloud-sql-postgresql.adoc[Google Cloud SQL for PostgreSQL,window=_blank]
+* xref:connections-google-cloud-sql-sql-server.adoc[Google Cloud SQL for SQL Server,window=_blank]
+* xref:connections-singlestore.adoc[SingleStore,window=_blank]
+endif::[]
 
 
-
+////
 [#9-8-0-cl-integration]
 [discrete]
 === dbt integration: support for v1.6
 
 // Naomi SCAL-119947. may not need what's new.
+////
 
 // IT/ Ops Engineer
 
@@ -241,13 +272,26 @@ The following connections are now available to all customers and are on by defau
 
 // Naomi - SCAL-169279
 
-You can now import metadata information related to your tables and columns from Atlan into ThoughtSpot. From the Data tab, you can set up a connection to Atlan to import column descriptions, column verification status, table descriptions, and table verification status.
+You can now import metadata information related to your tables and columns from Atlan into ThoughtSpot. From the Data tab, you can set up a connection to Atlan to import column descriptions, column verification status, table descriptions, and table verification status. For more information, see
+ifndef::pendo-links[]
+xref:catalog-integration-atlan.adoc[Atlan catalog integration].
+endif::[]
+ifdef::pendo-links[]
+xref:catalog-integration-atlan.adoc[Atlan catalog integration,window=_blank].
+endif::[]
 
 [#9-8-0-cl-embrace]
 [discrete]
 === Embrace OAuth connection improvements
 
 // Naomi -- SCAL-160062. waiting on Bharath
+
+If you do not have a valid OAuth access token, you can now directly navigate to the OAuth authorization screen when performing one of the following actions on a connection shared with you:
+
+** View sample data
+** Create a custom SQL view
+** Edit the connection
+** Upload a CSV file (Snowflake connections only)
 
 [#9-8-0-cl-IAM]
 [discrete]
