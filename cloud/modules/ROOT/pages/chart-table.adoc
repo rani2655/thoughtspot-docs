@@ -215,11 +215,6 @@ image::table-config-summary-global.png[Enable or disable all column summaries]
 +
 image::table-config-summary-individual.png[Enable or disable individual column summaries]
 
-=== Pin column summaries
-
-You can pin column summaries to any Liveboard.
-Select the pin icon that appears when you hover over a summary.
-
 === Column summary aggregation
 
 You can modify how you would like a column summary value to be displayed by opening the dropdown menu on a summary and selecting a different type of aggregation.
