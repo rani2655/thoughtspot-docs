@@ -6,7 +6,7 @@
 :page-layout: default-cloud
 :linkattrs:
 :description: With SpotIQ change analysis, you can compare two data points for change and identify key change drivers from the underlying attribute columns
-:jira: SCAL-175535, SCAL-175265
+:jira: SCAL-175535, SCAL-175265, SCAL-172513
 
 With SpotIQ change analysis, you can compare any two data points in a visualization for change and identify key change drivers from the underlying attribute columns.
 
@@ -73,6 +73,7 @@ NOTE: In some instances, ThoughtSpot may point out that certain attribute values
 
 . You can run another round of SpotIQ analysis, download the data as a CSV file, edit this visualization, or make a copy of the visualization.
 
+[#additional]
 When you run SpotIQ change analysis, ThoughtSpot detects additional insights and displays them below the change analysis visualizations. These insights display values that underwent the highest percentage change between the data points defined in your analysis, and values whose share of the total changed the most.
 
 image::additional-insight.png[SpotIQ additional insights]
