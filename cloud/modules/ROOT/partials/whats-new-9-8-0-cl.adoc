@@ -286,6 +286,13 @@ endif::[]
 
 // Naomi -- SCAL-160062. waiting on Bharath
 
+If you do not have a valid OAuth access token, you can now directly navigate to the OAuth authorization screen when performing one of the following actions on a connection shared with you:
+
+** View sample data
+** Create a custom SQL view
+** Edit the connection
+** Upload a CSV file (Snowflake connections only)
+
 [#9-8-0-cl-IAM]
 [discrete]
 === Need a way for an admin user to resend activation mail in IAM v2
