@@ -5,6 +5,7 @@
 :page-aliases:
 :page-layout: default-cloud
 :description: Use the following reference to find out the common actions that generate queries, and the ones that don't.
+:jira: SCAL-179063
 
 Many actions that you do in ThoughtSpot generate queries. Use the following reference to find out the common actions that generate queries, and the ones that don't.
 
@@ -182,7 +183,6 @@ NOTE: If you save the results of a SpotIQ query as a Liveboard, you will be char
 - Downloading a Liveboard visualization as a table in any format
 - Downloading an Answer as a table in any format, NOT within a Liveboard
 - Searching Answers
-- Accessing system-default Liveboards
 - Importing TML of an Answer or a Liveboard
 - Exporting TML of an Answer or a Liveboard without data (associated objects)
 - Creating a connection to an external data warehouse
