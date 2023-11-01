@@ -173,7 +173,7 @@ ThoughtSpot delivers a Slack bot integration. Get notified in Slack when Liveboa
 === New data panel
 The new data panel experience is available to all users and is on by default in this release. This is part of the Data Fluency feature. It is enabled by default. To disable it, go to your ThoughtSpot user profile and set the Answer data panel experience to Classic experience.
 
-image::new_data_panel.png[]
+image::new_data_panel.png[New data panel]
 
 
 
