@@ -54,6 +54,7 @@
 *** xref:worksheet-create-setup.adoc[Create Worksheets in Setup]
 *** xref:worksheet-create.adoc[Create Worksheets]
 *** xref:search-assist-coach.adoc[Search Assist Coach]
+*** xref:sage-coach.adoc[Sage Coach]
 *** xref:visualize-search.adoc[Visualize search results]
 *** xref:automated-answer-creation.adoc[Create Answers in Setup]
 *** xref:liveboard.adoc[Create a Liveboard]

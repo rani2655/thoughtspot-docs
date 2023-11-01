@@ -53,17 +53,17 @@ image::nls-slack.png[SpotDev Slack app]
 ifndef::pendo-links[]
 [#9-7-0-cl-atlan]
 [discrete]
-=== Atlan metadata [.badge.badge-beta]#Beta#
+=== Atlan [.badge.badge-beta]#Beta#
 endif::[]
 ifdef::pendo-links[]
 [#9-7-0-cl-atlan]
 [discrete]
-=== Atlan metadata [.badge.badge-beta-whats-new]#Beta#
+=== Atlan [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
 // Naomi-- scal-158463
 
-Users can now see metadata information on tables and columns imported from Atlan. This information appears when you click on the corresponding table or column in *Search data*. Once connected, metadata information is visible to all users. This feature is in beta and off by default. To enable it, contact {support-url}.
+You can now see verification status and descriptions on tables and columns imported from Atlan. This information appears when you click on the corresponding table or column in *Search data*. Once connected, this information is visible to all users. To enable the connection to Atlan, contact {support-url}.
 
 For more information, see
 ifndef::pendo-links[]
@@ -118,7 +118,7 @@ Personalized views allow you to save your own set of values for filters and para
 
 // Naomi-- scal-165262
 
-Embedding in note tiles is now GA. You can now embed interactive content such as videos, pdfs, or Figma files into Liveboards using the note tile format. To try it out, enter a Liveboard, select the edit icon, and select *Add note* from the top bar. You can then click the embed icon and enter the URL or iFrame code for your content. You can interact with the content embedded in a Liveboard like you would with a website.
+Embedding in note tiles is now available to all users and is on by default. You can now embed interactive content such as videos, pdfs, or Figma files into Liveboards using the note tile format. To try it out, enter a Liveboard, select the edit icon, and select *Add note* from the top bar. You can then click the embed icon and enter the URL or iFrame code for your content. You can interact with the content embedded in a Liveboard like you would with a website.
 
 For more information, see
 ifndef::pendo-links[]
@@ -170,8 +170,8 @@ ThoughtSpot delivers a Slack bot integration. Get notified in Slack when Liveboa
 [#9-7-0-cl-data-fluency-ga]
 // SCAL-161459
 [discrete]
-=== New data panel GA
-The new data panel experience is GA in this release. This is part of the Data Fluency feature. It is enabled by default. To disable it, go to your ThoughtSpot user profile and set the Answer data panel experience to Classic experience.
+=== New data panel
+The new data panel experience is available to all users and is on by default in this release. This is part of the Data Fluency feature. It is enabled by default. To disable it, go to your ThoughtSpot user profile and set the Answer data panel experience to Classic experience.
 
 image::new_data_panel.png[]
 
