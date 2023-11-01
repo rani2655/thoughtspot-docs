@@ -171,11 +171,6 @@ endif::[]
 
 // Mary -- scal-140692
 
-[#9-8-0-sw-nimbus]
-[discrete]
-=== [Beta] Nimbus - Cloud export service
-
-// Naomi -- scal-142414
 
 
 
@@ -247,11 +242,7 @@ We added support for the following connections:
 
 // Mary -- scal-138194
 
-[#9-8-0-sw-embrace]
-[discrete]
-=== Embrace v2
 
-// Naomi -- scal-157240
 
 [#9-8-0-sw-hadoop]
 [discrete]
