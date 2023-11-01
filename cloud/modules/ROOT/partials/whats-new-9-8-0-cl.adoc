@@ -23,6 +23,15 @@ endif::free-trial-feature[]
 
 When giving feedback to AI-generated Answers in Sage, you now tell ThoughtSpot what search tokens to use to signify certain key terms. For example, when you search for "best performing products this year", ThoughtSpot responds with the top five products sorted by sum of sales. You can correct top five to top ten by clicking the thumbs-down icon and editing the Answer. ThoughtSpot then stores that feedback, and admin users and Worksheet owners can decide to apply the feedback globally, so that every time someone searches for "best" products, they receive the top ten results.
 
+For more information, see
+ifndef::pendo-links[]
+xref:sage-coach.adoc[Sage Coach].
+endif::[]
+ifdef::pendo-links[]
+xref:sage-coach.adoc[Sage Coach,window=_blank].
+endif::[]
+
+image::sage-coach.gif[Gif demonstrating giving feedback for natural language search]
 
 
 ifndef::pendo-links[]
@@ -38,7 +47,15 @@ endif::[]
 
 // Naomi -- SCAL-127727. add a gif. ask if the filter appears in your email alerts, so users know the data they're getting is filtered.
 
-ThoughtSpot now preserves the filters you use on a KPI when you create a Monitor alert. Users with view-only access to the underlying Liveboard can now receive alert emails for filtered KPIs without saving the filters on the Liveboard.
+ThoughtSpot now preserves the filters you use on a KPI when you create a Monitor alert. Users with view access to the underlying Liveboard can now receive alert emails for filtered KPIs without saving the filters on the Liveboard. For more information, see
+ifndef::pendo-links[]
+xref:monitor.adoc[Monitor alerts].
+endif::[]
+ifdef::pendo-links[]
+xref:monitor.adoc[Monitor alerts,window=_blank].
+endif::[]
+
+image::kpi-filtered.png[KPI alert with filter]
 
 [#9-8-0-cl-insight]
 [discrete]
@@ -71,13 +88,19 @@ endif::[]
 
 // Naomi -- SCAL-89341. waiting on Vikas
 
+When you receive an email alert about a threshold or scheduled alert, ThoughtSpot now surfaces any anomalies found in your KPI. You can see the expected range of values, and click a link to view your KPI in the original Liveboard.
+
+image::kpi-alert-anomaly.png[KPI alert with surfaced anomaly]
+
 [#9-8-0-cl-watchlist]
 [discrete]
 === KPI scheduled watchlist alert
 
 // Naomi -- SCAL-177812. add image/gif. find out if there's an opt-out option. is there an admin control over the feature?
 
-When you add a KPI to your homepage watchlist, ThoughtSpot automatically creates an alert. You receive emails with updates to the KPI on a periodic basis.
+When you add a KPI to your homepage watchlist, ThoughtSpot automatically creates a scheduled alert. You receive emails with updates to the KPI on a periodic basis. You can edit all scheduled alerts from the *Monitor* tab.
+
+image::kpi-alert-homepage.png[KPI alert from homepage watchlist]
 
 [#9-8-0-cl-view]
 [discrete]
@@ -85,11 +108,13 @@ When you add a KPI to your homepage watchlist, ThoughtSpot automatically creates
 Personalized views allow you to save your own set of values for filters and parameters in a Liveboard without editing the original Liveboard. You can change the values of the already present filters and parameters in a Liveboard and save it for future use. The new Liveboard is a version of the master Liveboard, so any changes made to the master Liveboard are carried over to the new Liveboard. This includes changes made to pinned visualizations, tabs, filter chips, and re-ordering. Changes made to the new Liveboard are not automatically pushed to the master Liveboard.
 // Mary -- SCAL-163617. value prop: this makes it so users don't have to make copies of Liveboards (and then not see changes to the original Liveboard)
 
+////
 [#9-8-0-cl-push]
 [discrete]
 === Push notifications
 
 // Naomi -- SCAL-58625. contact Arpit and Vaibhav. ask if we can access emulator. connect all mobile features under one header.
+////
 
 [#9-8-0-cl-slack]
 [discrete]
@@ -280,6 +305,8 @@ ifdef::pendo-links[]
 xref:catalog-integration-atlan.adoc[Atlan catalog integration,window=_blank].
 endif::[]
 
+image::atlan-data-governance.png[Sync metadata from Atlan]
+
 [#9-8-0-cl-embrace]
 [discrete]
 === Embrace OAuth connection improvements
@@ -305,6 +332,7 @@ If you do not have a valid OAuth access token, you can now directly navigate to 
 You can now delete an Org without first removing all users, connections and objects.
 // Mary -- SCAL-134057
 
+////
 [#9-8-0-cl-viz]
 [discrete]
 === Remove deleted visualizations from Object Usage count
@@ -312,7 +340,18 @@ You can now delete an Org without first removing all users, connections and obje
 // Naomi -- SCAL-161589. article only.
 
 The Object Usage Liveboard no longer includes objects that have been deleted. This ensures a more accurate count of objects in use on your cluster.
+////
 
+
+[#9-8-0-cl-sql]
+[discrete]
+=== Disable SQL passthrough functions
+
+// Naomi -- scal-164805
+
+Admin users can now ban passthrough functions for their cluster, to prevent SQL injection attacks. This option is available under the *Search & SpotIQ* section of the *Admin* tab.
+
+image::sql-passthrough-enable.png[Enable or disable SQL passthrough functions]
 
 
 ifndef::free-trial-feature[]
