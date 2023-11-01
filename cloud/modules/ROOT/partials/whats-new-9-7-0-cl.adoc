@@ -172,7 +172,7 @@ ThoughtSpot delivers a Slack bot integration. Get notified in Slack when Liveboa
 [discrete]
 
 === New data panel with tag-based filtering
-The new data panel experience is available for all customers in this release, and is enabled by default. In addition, you can now filter data sources by how they are tagged.
+The new data panel experience is available for all customers in this release, and is enabled by default. In this release, you can now filter data sources by how they are tagged.
 
 image::tag-based-filtering.gif[]
 
