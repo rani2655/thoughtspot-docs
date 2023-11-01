@@ -58,7 +58,7 @@ endif::[]
 [discrete]
 === Verified Liveboards spillover items
 
-// Naomi -- scal-161857
+// Naomi -- scal-161857, SCAL-160779
 
 [#9-8-0-sw-liveboards]
 [discrete]
@@ -147,6 +147,12 @@ endif::[]
 
 // Naomi -- scal-132886
 
+[#9-8-0-sw-worksheet]
+[discrete]
+=== Support worksheet-level joins
+
+// Naomi -- scal-137306
+
 [#9-8-0-sw-looker]
 [discrete]
 === [EA] Looker: Query Gen and Search Data changes
@@ -207,7 +213,7 @@ We added support for the following connections:
 [discrete]
 === dbt integration, version 1.6
 
-// Naomi -- scal-119947
+// Naomi -- scal-119947, scal-132902
 
 // IT / Ops engineer
 
