@@ -170,10 +170,11 @@ ThoughtSpot delivers a Slack bot integration. Get notified in Slack when Liveboa
 [#9-7-0-cl-data-fluency-ga]
 // SCAL-161459
 [discrete]
-=== New data panel
-The new data panel experience is available to all users and is on by default in this release. This is part of the Data Fluency feature. It is enabled by default. To disable it, go to your ThoughtSpot user profile and set the Answer data panel experience to Classic experience.
 
-image::new_data_panel.png[New data panel]
+=== New data panel with tag-based filtering
+The new data panel experience is available for all customers in this release, and is enabled by default. In addition, you can now filter data sources by how they are tagged.
+
+image::tag-based-filtering.gif[]
 
 
 
