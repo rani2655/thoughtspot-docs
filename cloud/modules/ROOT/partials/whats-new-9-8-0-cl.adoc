@@ -267,7 +267,7 @@ In this release, custom calendar is now enabled by default for connections.
 The following connections are now available to all customers and are on by default:
 
 ifndef::pendo-links[]
-* xref:connections-alloydb-postgresql.adoc[Google AlloyDB for PostgreSQL]
+* xref:connections-google-alloydb-postgresql.adoc[Google AlloyDB for PostgreSQL]
 * xref:connections-google-cloud-sql-postgresql.adoc[Google Cloud SQL for PostgreSQL]
 * xref:connections-google-cloud-sql-sql-server.adoc[Google Cloud SQL for SQL Server]
 * xref:connections-singlestore.adoc[SingleStore]
