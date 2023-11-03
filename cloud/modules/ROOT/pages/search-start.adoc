@@ -5,6 +5,7 @@
 :page-layout: default-cloud
 :page-aliases: /end-user/search/start-a-new-search.adoc
 :description: Starting a new ThoughtSpot search is simple, like starting a new Google search.
+:jira: SCAL-152804
 
 You can start a new search from any page in ThoughtSpot by clicking the *Search data* button in the top navigation bar.
 
@@ -58,6 +59,9 @@ You can also filter data sources by how they are tagged.
 
 ThoughtSpot gives your search an automatic title based on your search columns, and displays it as either a table or chart, depending on how it is best represented.
 You can xref:chart-table-change.adoc[change the view] to fit your needs.
+
+NOTE: If you want to go back to the classic data panel experience, open your user profile, and in the _Experience_ section, set _Answer data panel_ to *Classic experience*.
+
 
 [#search-classic-experience]
 == Starting a new search with the classic data panel experience
