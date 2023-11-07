@@ -97,3 +97,5 @@ This article provides information about the capabilities administrators have in 
 ^.^|image:checkmark_black.svg[Yes,15]
 |===
 
+For details on the specific features of the Team, Essentials, Pro, and Enterprise editions, see the https://www.thoughtspot.com/pricing[pricing page^] on ThoughtSpot.com.
+
