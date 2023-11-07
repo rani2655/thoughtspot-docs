@@ -1,4 +1,4 @@
-= Administrator capabilities in each ThoughtSpot edition
+= Administration of ThoughtSpot editions
 :last_updated: 11/05/2021
 :linkattrs:
 :experimental:
@@ -13,7 +13,7 @@ This article provides information about the capabilities administrators have in 
 
 [cols="30%,10%,10%,10%,10%,10%,10%,10%"]
 |===
-|*Administrator capability* ^.^|Free Trial ^.^|Team Edition ^.^|Essentials ^.^|TSA Pro Edition ^.^|TSE Pro Edition ^.^|TSA Enterprise ^.^|TSE Enterprise
+.^|*Administrator capability* ^.^|Free Trial ^.^|Team ^.^|Essentials ^.^|TSA Pro ^.^|TSE Pro  ^.^|TSA Enterprise ^.^|TSE Enterprise
 
 |Org creation and management
 ^.^|
@@ -21,79 +21,79 @@ This article provides information about the capabilities administrators have in 
 ^.^|
 ^.^|
 ^.^|
-^.^|image:checkmark_black.svg[Yes]
-^.^|image:checkmark_black.svg[Yes]
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
 
 |User management
-^.^|image:checkmark_black.svg[Yes]
-^.^|image:checkmark_black.svg[Yes]
-^.^|image:checkmark_black.svg[Yes]
-^.^|image:checkmark_black.svg[Yes]
-^.^|image:checkmark_black.svg[Yes]
-^.^|image:checkmark_black.svg[Yes]
-^.^|image:checkmark_black.svg[Yes]
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
 
 |Groups and roles management
 ^.^|
 ^.^|
 ^.^|
-^.^|image:checkmark_black.svg[Yes]
-^.^|image:checkmark_black.svg[Yes]
-^.^|image:checkmark_black.svg[Yes]
-^.^|image:checkmark_black.svg[Yes]
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
 
 |SAML user authentication
 ^.^|
 ^.^|
 ^.^|
-^.^|image:checkmark_black.svg[Yes]
-^.^|image:checkmark_black.svg[Yes]
-^.^|image:checkmark_black.svg[Yes]
-^.^|image:checkmark_black.svg[Yes]
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
 
 |System monitoring (system Liveboards)
-^.^|image:checkmark_black.svg[Yes]
-^.^|image:checkmark_black.svg[Yes]
-^.^|image:checkmark_black.svg[Yes]
-^.^|image:checkmark_black.svg[Yes]
-^.^|image:checkmark_black.svg[Yes]
-^.^|image:checkmark_black.svg[Yes]
-^.^|image:checkmark_black.svg[Yes]
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
 
 |ThoughtSpot Sage preview
-^.^|image:checkmark_black.svg[Yes]
-^.^|image:checkmark_black.svg[Yes]
-^.^|image:checkmark_black.svg[Yes]
-^.^|image:checkmark_black.svg[Yes]
-^.^|image:checkmark_black.svg[Yes]
-^.^|image:checkmark_black.svg[Yes]
-^.^|image:checkmark_black.svg[Yes]
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
 
 |SpotIQ privileges
-^.^|image:checkmark_black.svg[Yes]
+^.^|image:checkmark_black.svg[Yes,15]
 ^.^|
 ^.^|
-^.^|image:checkmark_black.svg[Yes]
-^.^|image:checkmark_black.svg[Yes]
-^.^|image:checkmark_black.svg[Yes]
-^.^|image:checkmark_black.svg[Yes]
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
 
 |Developer privileges
-^.^|image:checkmark_black.svg[Yes]
+^.^|image:checkmark_black.svg[Yes,15]
 ^.^|
 ^.^|
 ^.^|
-^.^|image:checkmark_black.svg[Yes]
+^.^|image:checkmark_black.svg[Yes,15]
 ^.^|
-^.^|image:checkmark_black.svg[Yes]
+^.^|image:checkmark_black.svg[Yes,15]
 
 |Data management privileges
-^.^|image:checkmark_black.svg[Yes]
-^.^|image:checkmark_black.svg[Yes]
-^.^|image:checkmark_black.svg[Yes]
-^.^|image:checkmark_black.svg[Yes]
-^.^|image:checkmark_black.svg[Yes]
-^.^|image:checkmark_black.svg[Yes]
-^.^|image:checkmark_black.svg[Yes]
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
 |===
 
