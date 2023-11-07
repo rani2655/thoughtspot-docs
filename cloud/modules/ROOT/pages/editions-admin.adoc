@@ -16,11 +16,11 @@ This article provides information about the capabilities administrators have in 
 |*Administrator capability* ^.^|Free Trial ^.^|Team Edition ^.^|Essentials ^.^|TSA Pro Edition ^.^|TSE Pro Edition ^.^|TSA Enterprise ^.^|TSE Enterprise
 
 |Org creation and management
-^.^|No
-^.^|No
-^.^|No
-^.^|No
-^.^|No
+^.^|
+^.^|
+^.^|
+^.^|
+^.^|
 ^.^|image:checkmark_black.svg[Yes]
 ^.^|image:checkmark_black.svg[Yes]
 
@@ -34,18 +34,18 @@ This article provides information about the capabilities administrators have in 
 ^.^|image:checkmark_black.svg[Yes]
 
 |Groups and roles management
-^.^|No
-^.^|No
-^.^|No
+^.^|
+^.^|
+^.^|
 ^.^|image:checkmark_black.svg[Yes]
 ^.^|image:checkmark_black.svg[Yes]
 ^.^|image:checkmark_black.svg[Yes]
 ^.^|image:checkmark_black.svg[Yes]
 
 |SAML user authentication
-^.^|No
-^.^|No
-^.^|No
+^.^|
+^.^|
+^.^|
 ^.^|image:checkmark_black.svg[Yes]
 ^.^|image:checkmark_black.svg[Yes]
 ^.^|image:checkmark_black.svg[Yes]
@@ -71,8 +71,8 @@ This article provides information about the capabilities administrators have in 
 
 |SpotIQ privileges
 ^.^|image:checkmark_black.svg[Yes]
-^.^|No
-^.^|No
+^.^|
+^.^|
 ^.^|image:checkmark_black.svg[Yes]
 ^.^|image:checkmark_black.svg[Yes]
 ^.^|image:checkmark_black.svg[Yes]
@@ -80,11 +80,11 @@ This article provides information about the capabilities administrators have in 
 
 |Developer privileges
 ^.^|image:checkmark_black.svg[Yes]
-^.^|No
-^.^|No
-^.^|No
+^.^|
+^.^|
+^.^|
 ^.^|image:checkmark_black.svg[Yes]
-^.^|No
+^.^|
 ^.^|image:checkmark_black.svg[Yes]
 
 |Data management privileges
