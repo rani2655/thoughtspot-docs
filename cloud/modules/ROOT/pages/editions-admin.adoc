@@ -13,9 +13,9 @@ This article provides information about the capabilities administrators have in 
 
 [cols="30%,10%,10%,10%,10%,10%,10%,10%" stripes="even"]
 |===
-.^|{set:cellbgcolor:#e1e1e1}*Administrator capability* ^.^|{set:cellbgcolor:#FFFFF}Free Trial ^.^|Team ^.^|Essentials ^.^|TSA Pro ^.^|TSE Pro  ^.^|TSA Enterprise ^.^|TSE Enterprise
+.^|{set:cellbgcolor:#e1e1e1}Capability ^.^|{set:cellbgcolor:#FFFFF}Free Trial ^.^|Team ^.^|Essentials ^.^|TSA Pro ^.^|TSE Pro  ^.^|TSA Enterprise ^.^|TSE Enterprise
 
-|{set:cellbgcolor:#e1e1e1}Org creation and management
+.+^.>s|*Org creation and management*
 ^.^|{set:cellbgcolor:#FFFFF}
 ^.^|
 ^.^|
@@ -24,7 +24,7 @@ This article provides information about the capabilities administrators have in 
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 
-|{set:cellbgcolor:#e1e1e1}User management
+|*User management*
 ^.^|{set:cellbgcolor:#FFFFF}image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
@@ -33,7 +33,7 @@ This article provides information about the capabilities administrators have in 
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 
-|{set:cellbgcolor:#e1e1e1}Groups and roles management
+|*Groups and roles management*
 ^.^|{set:cellbgcolor:#FFFFF}
 ^.^|
 ^.^|
@@ -42,7 +42,7 @@ This article provides information about the capabilities administrators have in 
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 
-|{set:cellbgcolor:#e1e1e1}SAML user authentication
+|*SAML user authentication*
 ^.^|{set:cellbgcolor:#FFFFF}
 ^.^|
 ^.^|
@@ -51,7 +51,7 @@ This article provides information about the capabilities administrators have in 
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 
-|{set:cellbgcolor:#e1e1e1}System monitoring (system Liveboards)
+|*System monitoring (system Liveboards)*
 ^.^|{set:cellbgcolor:#FFFFF}image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
@@ -60,7 +60,7 @@ This article provides information about the capabilities administrators have in 
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 
-|{set:cellbgcolor:#e1e1e1}ThoughtSpot Sage preview
+|*ThoughtSpot Sage preview*
 ^.^|{set:cellbgcolor:#FFFFF}image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
@@ -69,7 +69,7 @@ This article provides information about the capabilities administrators have in 
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 
-|{set:cellbgcolor:#e1e1e1}SpotIQ privileges
+|*SpotIQ privileges*
 ^.^|{set:cellbgcolor:#FFFFF}image:checkmark_black.svg[Yes,15]
 ^.^|
 ^.^|
@@ -78,8 +78,8 @@ This article provides information about the capabilities administrators have in 
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 
-|{set:cellbgcolor:#e1e1e1}Developer privileges
-^.^|{set:cellbgcolor:#FFFFF}image:checkmark_black.svg[Yes,15]
+|*Developer privileges*
+^.^|image:checkmark_black.svg[Yes,15]
 ^.^|
 ^.^|
 ^.^|
@@ -87,7 +87,7 @@ This article provides information about the capabilities administrators have in 
 ^.^|
 ^.^|image:checkmark_black.svg[Yes,15]
 
-|{set:cellbgcolor:#e1e1e1}Data management privileges
+|*Data management privileges*
 ^.^|{set:cellbgcolor:#FFFFF}image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
