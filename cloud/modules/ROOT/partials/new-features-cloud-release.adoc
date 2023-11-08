@@ -75,6 +75,10 @@ Embrace OAuth connection improvements:: If you do not have a valid OAuth access 
 ** Edit the connection
 ** Upload a CSV file (Snowflake connections only)
 
+// scal-164805
+Disable SQL passthrough functions::
+Admin users can now ban passthrough functions for all connections on their cluster, to prevent SQL injection attacks. This option is available under the *Search & SpotIQ* section of the *Admin* tab.
+
 
 
 [#9-8-0-cl-developer]

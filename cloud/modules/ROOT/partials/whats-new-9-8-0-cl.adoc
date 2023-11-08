@@ -342,7 +342,7 @@ You can now delete an Org without first removing all users, connections and obje
 The Object Usage Liveboard no longer includes objects that have been deleted. This ensures a more accurate count of objects in use on your cluster.
 ////
 
-
+////
 [#9-8-0-cl-sql]
 [discrete]
 === Disable SQL passthrough functions
@@ -352,7 +352,7 @@ The Object Usage Liveboard no longer includes objects that have been deleted. Th
 Admin users can now ban passthrough functions for their cluster, to prevent SQL injection attacks. This option is available under the *Search & SpotIQ* section of the *Admin* tab.
 
 image::sql-passthrough-enable.png[Enable or disable SQL passthrough functions]
-
+////
 
 ifndef::free-trial-feature[]
 [discrete]
