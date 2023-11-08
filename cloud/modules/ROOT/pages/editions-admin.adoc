@@ -15,7 +15,7 @@ This article provides information about the capabilities administrators have in 
 |===
 .^|{set:cellbgcolor:#e1e1e1}Capability ^.^|{set:cellbgcolor:#FFFFF}Free Trial ^.^|Team ^.^|Essentials ^.^|TSA Pro ^.^|TSE Pro  ^.^|TSA Enterprise ^.^|TSE Enterprise
 
-.+^.>s|*Org creation and management*
+|*Org creation and management*
 ^.^|{set:cellbgcolor:#FFFFF}
 ^.^|
 ^.^|
