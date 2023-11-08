@@ -5,6 +5,7 @@
 :page-layout: default-cloud
 :page-aliases: /end-user/thoughtspot-one/thoughtspot-one-homepage.adoc
 :description: Use the home page to search across Answers and Liveboards and access trending objects, recently viewed objects, and your favorites.
+:jira: SCAL-177812
 
 include::partial$ts-one-homepage.adoc[]
 
@@ -54,6 +55,8 @@ You may need to use the right arrow button to get to the *Add KPIs to your watch
 . The *Add KPIs* window modal appears, showing the KPIs on the Liveboard you most recently viewed.
 To find KPIs from another Liveboard you would like to add, search for that Liveboard using the search bar near the upper left of the *Add KPIs* window.
 . Select a KPI or multiple KPIs, and click *Add KPIs*.
++
+NOTE: When you add a KPI to your homepage watchlist, ThoughtSpot automatically creates a scheduled alert, based on the KPI's cadence. You receive emails with updates to the KPI on a periodic basis. You can edit all scheduled alerts from the *Monitor* tab.
 
 image::kpi-watchlist.gif[KPIs watchlist gif]
 

@@ -84,7 +84,7 @@ New persona-based navigation [.badge.badge-early-access-relnotes]#Early Access#:
 +
 This new navigation experience is disabled by default. To enable it, open your user profile, and in the _Experience_ section, set the Navigation and Homepage to *New experience*.
 
-//scal-159819
+//scal-159818
 ThoughtSpot Slack app [.badge.badge-beta-relnotes]#Beta#:: You can now ask ThoughtSpot questions using Slack. Install the ThoughtSpot Slack app, add it to a Slack channel, and you will be able to ask questions of your data sources in natural language. ThoughtSpot answers in chart format. For more information, see
 xref:spotdev.adoc[ThoughtSpot Slack app].
 
