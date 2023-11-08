@@ -13,7 +13,7 @@ This article provides information about the capabilities administrators have in 
 
 [cols="30%,10%,10%,10%,10%,10%,10%,10%" stripes="even"]
 |===
-.^|{set:cellbgcolor:#e1e1e1}Capability ^.^|{set:cellbgcolor:#FFFFF}Free Trial ^.^|Team ^.^|Essentials ^.^|TSA Pro ^.^|TSE Pro  ^.^|TSA Enterprise ^.^|TSE Enterprise
+.^|Capability ^.^|{set:cellbgcolor:#FFFFF}Free Trial ^.^|Team ^.^|Essentials ^.^|TSA Pro ^.^|TSE Pro  ^.^|TSA Enterprise ^.^|TSE Enterprise
 
 |*Org creation and management*
 ^.^|{set:cellbgcolor:#FFFFF}
