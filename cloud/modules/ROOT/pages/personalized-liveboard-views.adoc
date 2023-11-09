@@ -2,7 +2,7 @@
 :last_updated: 10/17/2023
 :linkattrs:
 :experimental:
-:page-layout: default-cloud-early-access
+:page-layout: default-cloud
 :page-aliases:
 :description: You can personalize Liveboards by applying filters that are persisted.
 
@@ -18,11 +18,16 @@ You can create a personalized view for any Liveboard that you can apply filters 
 
 . Open a Liveboard and apply your desired filters.
 . To save your personalized Liveboard view with these filters applied, select *Save view*.
+
+image::save-view.png[Save view]
+[start=3]
 . Enter a name for your personalized Liveboard view.
 . Select *Make view available to all users* if you want the view to be visible to others.
 . Click *Save*.
 
-From a personalized Liveboard view, you can create additional views, update existing views, manage views, or reset a Liveboard.
+image::personalized-views.png[Save view of filtered Liveboard]
+
+From a personalized Liveboard view, you can create additional views, update a view, manage views, or reset a Liveboard.
 
 == Update a personalized Liveboard view
 
@@ -30,13 +35,25 @@ You can update a personalized Liveboard view.
 
 . Open a personalized Liveboard view and apply your desired filters.
 A dot appears next to the view name to indicated that there are unsaved changes.
-//insert image
 
+image::save-view-dot.png[Save view dot appears when changes are made to an existing view]
+[start=2]
 . To update the personalized Liveboard view, click on the view name and select *Update* next to the view name in the drop-down menu.
-//insert image
+
+image::update-view.png[Update view drop down]
 
 NOTE: You can also create an additional new view by selecting *Save view* from the drop-down menu.
 
+== Manage personalized Liveboard views
 
+You can manage your personalized Liveboard views.
 
+. Open a Liveboard and click on *Select view*.
+
+. Select *Manage views* from the drop-down menu.
+
+image::manage-views.png[Manage views drop-down]
+
+[start=3]
+. Click the checkbox to allow anyone to view the personalized Liveboard view, or *Delete* to remove the view.
 
