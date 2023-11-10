@@ -7,24 +7,15 @@
 :page-toclevels: -1
 :description: This article provides information about the capabilities administrators have in each ThoughtSpot edition.
 
-This article provides information about the capabilities administrators have in each ThoughtSpot edition.
+This article provides information about the capabilities administrators have in each ThoughtSpot edition. For details on the specific features of the Team, Essentials, Pro, and Enterprise editions, see the https://www.thoughtspot.com/pricing[pricing page^] on ThoughtSpot.com.
 
 == Administrator capabilities by edition
 
 [cols="30%,10%,10%,10%,10%,10%,10%,10%" stripes="even"]
 |===
-.^|Capability ^.^|{set:cellbgcolor:#FFFFF}Free Trial ^.^|Team ^.^|Essentials ^.^|TSA Pro ^.^|TSE Pro  ^.^|TSA Enterprise ^.^|TSE Enterprise
+.^|Capability ^.^|{set:cellbgcolor:#FFFFF}Free Trial ^.^|Team Edition ^.^|Essentials Edition ^.^|TSA Pro Edition ^.^|TSE Pro Edition  ^.^|TSA Enterprise Edition ^.^|TSE Enterprise Edition
 
-|*Org creation and management*
-^.^|{set:cellbgcolor:#FFFFF}
-^.^|
-^.^|
-^.^|
-^.^|
-^.^|image:checkmark_black.svg[Yes,15]
-^.^|image:checkmark_black.svg[Yes,15]
-
-|*User management*
+|*Data management privileges*
 ^.^|{set:cellbgcolor:#FFFFF}image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
@@ -33,19 +24,10 @@ This article provides information about the capabilities administrators have in 
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 
-|*Groups and roles management*
-^.^|{set:cellbgcolor:#FFFFF}
-^.^|
-^.^|
+|*User management*
+^.^|{set:cellbgcolor:#FFFFF}image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
-^.^|image:checkmark_black.svg[Yes,15]
-^.^|image:checkmark_black.svg[Yes,15]
-
-|*SAML user authentication*
-^.^|{set:cellbgcolor:#FFFFF}
-^.^|
-^.^|
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
@@ -72,6 +54,24 @@ This article provides information about the capabilities administrators have in 
 |*SpotIQ privileges*
 ^.^|{set:cellbgcolor:#FFFFF}image:checkmark_black.svg[Yes,15]
 ^.^|
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
+
+|*Groups and roles management*
+^.^|{set:cellbgcolor:#FFFFF}
+^.^|
+^.^|
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
+
+|*SAML user authentication*
+^.^|{set:cellbgcolor:#FFFFF}
+^.^|
 ^.^|
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
@@ -87,15 +87,13 @@ This article provides information about the capabilities administrators have in 
 ^.^|
 ^.^|image:checkmark_black.svg[Yes,15]
 
-|*Data management privileges*
-^.^|{set:cellbgcolor:#FFFFF}image:checkmark_black.svg[Yes,15]
-^.^|image:checkmark_black.svg[Yes,15]
-^.^|image:checkmark_black.svg[Yes,15]
-^.^|image:checkmark_black.svg[Yes,15]
-^.^|image:checkmark_black.svg[Yes,15]
+|*Org creation and management*
+^.^|{set:cellbgcolor:#FFFFF}
+^.^|
+^.^|
+^.^|
+^.^|
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 |===
-
-For details on the specific features of the Team, Essentials, Pro, and Enterprise editions, see the https://www.thoughtspot.com/pricing[pricing page^] on ThoughtSpot.com.
 
