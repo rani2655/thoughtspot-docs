@@ -5,6 +5,7 @@
 :page-aliases: /admin/data-security/security-thoughtspot-lifecycle.adoc
 :description: This topic covers security processes for the entire lifecycle of a ThoughtSpot deployment from development, release, upgrades, to software patching.
 :last_updated: tbd
+:jira: SCAL-181227
 
 ++++
 <style>
@@ -50,9 +51,11 @@ This includes centralized key management, key rotation, and key revocation.
 ==== Advanced data encryption at rest [.badge.badge-aws]#AWS-only#
 ThoughtSpot provides advanced data encryption at rest (EAR) that allows for granular user and folder level controls for encrypting your persistent data. To enable Advanced EAR in your environment, contact {support-url}. Note that there is a lead time for enablement of Advanced EAR. {support-url} notifies you of the lead time when you open a request.
 
+////
 === Secure Erase
 
 Current erase guide: see https://thoughtspot.egnyte.com/dl/E1eYDyfotL/SOP-520-0007-00-User-Data-Removal.pdf_[Secure Erase Guide^].
+////
 
 === ThoughtSpot Trust Center
 https://www.thoughtspot.com/legal/trust
