@@ -33,7 +33,7 @@ endif::[]
 
 image::sage-coach.gif[Gif demonstrating giving feedback for natural language search]
 
-
+ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-8-0-cl-context]
 [discrete]
@@ -56,6 +56,7 @@ xref:monitor.adoc[Monitor alerts,window=_blank].
 endif::[]
 
 image::kpi-filtered.png[KPI alert with filter]
+endif::free-trial-feature[]
 
 [#9-8-0-cl-insight]
 [discrete]
@@ -74,7 +75,7 @@ endif::[]
 image::additional-insight.png[More insights]
 
 
-
+ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-8-0-cl-anomaly]
 [discrete]
@@ -91,6 +92,7 @@ endif::[]
 When you receive an email alert about a threshold or scheduled alert, ThoughtSpot now surfaces any anomalies found in your KPI. You can see the expected range of values, and click a link to view your KPI in the original Liveboard.
 
 image::kpi-alert-anomaly.png[KPI alert with surfaced anomaly]
+endif::free-trial-feature[]
 
 [#9-8-0-cl-watchlist]
 [discrete]
