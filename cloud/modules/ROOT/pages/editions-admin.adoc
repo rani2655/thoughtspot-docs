@@ -6,6 +6,7 @@
 :page-aliases:
 :page-toclevels: -1
 :description: This article provides information about the capabilities administrators have in each ThoughtSpot edition.
+:jira: SCAL-179604
 
 This article provides information about the capabilities administrators have in each ThoughtSpot edition. For details on the specific features of the Team, Essentials, Pro, and Enterprise editions, see the https://www.thoughtspot.com/pricing[pricing page^] on ThoughtSpot.com.
 
