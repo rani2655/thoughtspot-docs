@@ -16,7 +16,7 @@ This article provides information about the capabilities administrators have in 
 |===
 .^|Capability ^.^|{set:cellbgcolor:#FFFFF}Free Trial ^.^|Team Edition ^.^|Essentials Edition ^.^|TSA Pro Edition ^.^|TSE Pro Edition  ^.^|TSA Enterprise Edition ^.^|TSE Enterprise Edition
 
-|*Data management privileges*
+|*User management*
 ^.^|{set:cellbgcolor:#FFFFF}image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
@@ -25,7 +25,7 @@ This article provides information about the capabilities administrators have in 
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 
-|*User management*
+|*Data management privileges*
 ^.^|{set:cellbgcolor:#FFFFF}image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
