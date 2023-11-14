@@ -152,8 +152,7 @@ image::pie_chart_example.png[Donut chart example]
 [#9-8-0-cl-verified]
 [discrete]
 === Functional enhancements for verified Liveboards
-Easily find verified Liveboards with trusted content and filter search results to return only verified content. Request verification of Liveboards and cancel requests when needed.
-Administrators can track users' engagement with verified Liveboards.
+Easily find verified Liveboards with trusted content and sort Liveboards to view verified content. Request verification of Liveboards and cancel requests when needed.
 
 // Mary -- SCAL-158469. how do admins track user engagement? If a separate feature, make a separate blurb.
 
@@ -197,8 +196,8 @@ image::catalog-integration.png[Atlan metadata shown in Search Data]
 [#9-8-0-cl-sync]
 [discrete]
 === Database as a destination for Answer Sync
-Using ThoughtSpot Sync you can now sync data directly from an Answer or a custom SQL view, to Snowflake, Redshift, and Google BigQuery.
-// Mary - SCAL-158474. use case? value prop? give an example.
+Using ThoughtSpot Sync you can now sync data directly from an Answer or a custom SQL view, to your Snowflake or Redshift cloud data warehouse.
+// Mary - SCAL-158474.
 
 [#9-8-0-cl-enhance]
 [discrete]
