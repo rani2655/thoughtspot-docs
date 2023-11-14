@@ -216,8 +216,8 @@ ifdef::pendo-links[]
 [discrete]
 === Custom Sorting [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
-Define a custom sort order for attributes to sort charts in a way that is familiar, and helps users to consume charts more efficiently.
-// Mary - SCAL-156895. give an example, mention past capabilities? screenshot? make heading more descriptive. custom sorting of charts by attribute? clarify what "familiar" means.
+Define a custom sort order to sort charts in a specific order based on your business needs, and helps users consume charts more efficiently.
+// Mary - SCAL-156895
 
 [#9-8-0-cl-sage]
 [discrete]
