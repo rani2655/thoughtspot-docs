@@ -1,0 +1,12 @@
+= AI highlights
+:last_updated: 11/14/2023
+:linkattrs:
+:author: Mark
+:experimental:
+:page-layout: default-cloud
+:page-aliases:
+:description: Learn about how AI insights are generated for top metrics on each Liveboard, so that the you can get quick insights on how your top metrics changed.
+:jira: SCAL-158409
+
+
+
