@@ -5,8 +5,8 @@
 :page-layout: default-cloud
 :page-aliases:
 :experimental:
-:connection: Looker
-:description: Learn how to remap a Looker connection.
+:connection: Looker Modeler
+:description: Learn how to remap a Looker Modeler connection.
 :jira: SCAL-161198
 
 Modify the connection parameters by editing the source mapping `yaml` file that was created when you added the connection.

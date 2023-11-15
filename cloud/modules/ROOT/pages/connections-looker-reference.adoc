@@ -4,8 +4,9 @@
 :linkattrs:
 :page-layout: default-cloud
 :experimental:
-:connection: Looker
-:description: Learn the specific information needed to establish a secure connection to Looker.
+:connection: Looker Modeler
+:page-aliases: connections-looker-ml-reference.adoc
+:description: Learn the specific information needed to establish a secure connection to Looker Modeler.
 :jira: SCAL-161198
 
 You need specific information to establish a seamless and secure connection.
@@ -13,15 +14,15 @@ The following fields are required, except where noted.
 
 Connection name:: Enter a new {connection} connection name.
 Connection description:: Provide a short description of the connection. _(Optional)_
-Host::
-Enter the host name or IP address.
-+
-Example;; `192.168.1.1`
-Port:: Enter the port number associated with the {connection} database.
-User:: Enter the {connection} account username.
-Password:: Enter the {connection} account password. _(Optional)_
-Database:: Specify the database associated with the account. _(Optional)_
-
+Host:: Enter the host name associated with the {connection} database.
+Password:: Enter the password associated with the {connection} database.
+User:: Enter the user name associated with the {connection} database.
+Service account:: Enter the service account JSON key associated with the {connection} database. To generate the key, refer to xref:connections-gbq-prerequisites.adoc#service-account[Google {connection} prerequisites].
+OAuth Client ID:: Enter the OAuth client ID associated with the {connection} database.
+Scope:: Enter the scope associated with the {connection} database.
+Auth Url:: Enter the auth url associated with the {connection} database.
+Access token Url:: Enter the access token url associated with the {connection} database.
+Database:: Enter the database name associated with the {connection} database.
 '''
 > **Related information**
 >

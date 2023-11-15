@@ -5,8 +5,8 @@
 :experimental:
 :page-layout: default-cloud
 :page-aliases:
-:description: You can edit a Looker connection to add tables and columns.
-:connection: Looker
+:description: You can edit a Looker Modeler connection to add tables and columns.
+:connection: Looker Modeler
 :jira: SCAL-161198
 
 To edit a {connection} connection:
