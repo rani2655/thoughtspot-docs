@@ -5,15 +5,13 @@
 :page-layout: default-cloud
 :page-aliases:
 :experimental:
-:connection: Looker
-:description: You can connect to a Looker database in ThoughtSpot Cloud, and perform live queries to create Answers and Liveboards.
+:connection: Looker Modeler
+:description: You can connect to Looker Modeler database in ThoughtSpot Cloud, and perform live queries to create Answers and Liveboards.
 :jira: SCAL-161198
 
 
 
 You can connect to a {connection} database in ThoughtSpot Cloud, and perform live queries to create Answers and Liveboards.
-
-NOTE: You must use MySQL version 8.0.0 or later.
 
 * xref:connections-looker-add.adoc[Add a {connection} connection]
 * xref:connections-looker-edit.adoc[Edit a {connection} connection]

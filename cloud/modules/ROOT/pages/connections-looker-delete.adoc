@@ -5,8 +5,8 @@
 :experimental:
 :page-layout: default-cloud
 :page-aliases:
-:connection: Looker
-:description: Learn how to delete a Looker connection.
+:connection: Looker Modeler
+:description: Learn how to delete a Looker Modeler connection.
 :jira: SCAL-161198
 
 A connection can be used in multiple data sources or visualizations.

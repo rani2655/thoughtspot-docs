@@ -5,8 +5,8 @@
 :page-layout: default-cloud
 :page-aliases:
 :experimental:
-:connection: Looker
-:description: Learn how to delete a table from a Looker connection.
+:connection: Looker Modeler
+:description: Learn how to delete a table from a Looker Modeler connection.
 :jira: SCAL-161198
 
 Whenever you try to remove a table in a connection, ThoughtSpot checks for dependencies and shows a list of dependent objects.
