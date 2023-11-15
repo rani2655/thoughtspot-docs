@@ -118,6 +118,7 @@ Personalized views allow you to save your own set of values for filters and para
 // Naomi -- SCAL-58625. contact Arpit and Vaibhav. ask if we can access emulator. connect all mobile features under one header.
 ////
 
+////
 [#9-8-0-cl-slack]
 [discrete]
 === ThoughtSpot for Slack
@@ -134,6 +135,7 @@ xref:spotdev.adoc[ThoughtSpot Slack app,window=_blank].
 endif::[]
 
 image::nls-slack.png[Slack app answers question in natural language]
+////
 
 ////
 [#9-8-0-cl-donut]

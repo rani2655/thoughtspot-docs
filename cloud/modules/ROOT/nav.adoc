@@ -46,7 +46,7 @@
 *** xref:privileges-end-user.adoc[Privileges]
 *** xref:thoughtspot-sheets.adoc[Google Sheets add-ons]
 *** xref:thoughtspot-slides.adoc[Google Slides add-on]
-*** xref:spotdev.adoc[ThoughtSpot Dev Slack app]
+//*** xref:spotdev.adoc[ThoughtSpot Dev Slack app]
 ** xref:analyst.adoc[Analysts]
 *** xref:analyst-onboarding.adoc[Analyst onboarding]
 *** xref:connect-data.adoc[Connect to data]

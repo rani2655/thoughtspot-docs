@@ -15,6 +15,7 @@ endif::free-trial-feature[]
 
 // Business User
 
+////
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-7-0-cl-slack]
@@ -40,6 +41,7 @@ endif::[]
 image::nls-slack.png[SpotDev Slack app]
 
 endif::free-trial-feature[]
+////
 
 [#9-7-0-cl-migration]
 [discrete]
