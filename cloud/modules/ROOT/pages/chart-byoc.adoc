@@ -1,11 +1,21 @@
-= Bring your own charts
+= Custom charts
 :last_updated: 11/14/23
 :linkattrs:
 :experimental:
 :author: Mark
 :page-layout: default-cloud
 :page-aliases:
-:description: With bring-your-own charts, you can add your own custom charts to ThoughtSpot.
+:description: With custom charts, you can add your own custom charts to ThoughtSpot.
 :jira: SCAL-179003
 
-TBD
+You can now your own custom charts to ThoughtSpot. This article describes how you can add and edit your custom charts.
+
+== Adding a custom chart
+
+To add a custom chart, do the following:
+
+. Select *Admin* in the top navigation bar.
+. Under _Application settings_, Select *Chart customization*.
+. Select the *Custom charts* tab.
+. Click *Add chart*
+.
