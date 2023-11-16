@@ -6,6 +6,7 @@
 :author: Teresa Killmond
 :jira: SCAL-157885, SCAL-157886, SCAL-157887, SCAL-157890, SCAL-157889, SCAL-119947
 :description: ThoughtSpot's dbt integration allows you to provide your existing dbt models and create ThoughtSpot Worksheets, which you can use to search your data.
+:jira: SCAL-182271
 
 ThoughtSpot's dbt integration allows you to easily provide your existing dbt models and automatically create ThoughtSpot xref:worksheets.adoc[Worksheets], which you can use to xref:search-data.adoc[search your data].
 
@@ -27,7 +28,9 @@ Project ID:: Find your project ID in your dbt Cloud URL, after you sign in. For 
 * Optionally define the relationships for the dbt models in your `yml` schema file. For more information, refer to the https://docs.getdbt.com/docs/build/tests[dbt documentation^].
 +
 NOTE: If you do not define relationships, ThoughtSpot imports each model as a single table and creates one Worksheet based on each table.
-* Optionally define ThoughtSpot xref:data-modeling-settings.adoc[column properties] and xref:join-worksheet-edit.adoc[joins] within your dbt model schema. See xref:dbt-integration-metadata-tags.adoc[].
+
+NOTE: Manage your ThoughtSpot Worksheet and table xref:data-modeling-settings.adoc[column properties] and table xref:join-worksheet-edit.adoc[joins] in dbt by using metadata tags to define column properties and joins within your dbt model schema. See xref:dbt-integration-metadata-tags.adoc[].
+
 * To ensure ThoughtSpot can process the latest changes defined in your `yml` schema file, which defines relationships, metatags, and tests, you must have the latest versions of the `manifest.json` and `catalog.json` files. To ensure you have the latest versions of those files, run a dbt job, which generates the latest versions of these files.
 * If you are using *dbt cloud*, the *generate docs on run* setting must be on. You can enable this setting in the jobs settings of the project, under *Execution settings*.
 * If you are using *dbt core*, execute the `dbt docs generate` command along with the `dbt run` command.
@@ -195,8 +198,10 @@ To edit a dbt project/ integration, follow these steps:
 . Select *Data* in the top navigation bar.
 
 . Select *dbt* in the side navigation bar.
++
+NOTE: When you edit a dbt integration, you often add columns and descriptions to your currently synced tables and worksheets. To simplify the process of editing a sync, ThoughtSpot pre-selects the folders, models, and worksheets you selected during your first sync.
 
-. In the list of dbt project, select the empty checkbox next to your project name. If necessary, use the search bar in the upper left corner to find your project.
+. In the list of dbt projects, select the empty checkbox next to your project name. If necessary, use the search bar in the upper left corner to find your project.
 
 . Select *Edit*.
 
