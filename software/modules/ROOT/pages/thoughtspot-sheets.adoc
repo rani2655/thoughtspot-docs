@@ -3,7 +3,6 @@
 :linkattrs:
 :experimental:
 :author: mark plummer
-:page-layout: default-cloud
 :page-aliases:
 :description: Learn about ThoughtSpot for Google Sheets. A free add-on that lets you use the power of ThoughtSpot to search, and create charts and visualizations from your spreadsheet data.
 .
