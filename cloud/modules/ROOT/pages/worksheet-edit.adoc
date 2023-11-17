@@ -19,6 +19,20 @@ To edit a Worksheet:
 . Make your changes to the Worksheet.
 . Select *Save changes*.
 
+== Define a custom sort order for a Worksheet [.badge.badge-early-access]#Early Access#
+You can define a custom sort order for a worksheet to sort charts in a specific order based on your business needs.
+To define a custom sort order for a Worksheet:
+
+. Select *Data* on the top navigation bar.
+. Select the name of the Worksheet you want to edit.
+. Select a column to define a custom sort oder based on.
+. Enter the attributes that you want to sort on.
+
+The new sort order is reflected in all answers that use that column.
+Users can switch between standard or custom sort order.
+
+NOTE: Custom sorting is not supported for pivot tables.
+
 == Rename a Worksheet or table
 
 You can change a Worksheet or table name from the ThoughtSpot application.
