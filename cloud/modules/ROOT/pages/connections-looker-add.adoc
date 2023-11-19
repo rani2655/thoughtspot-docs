@@ -19,7 +19,7 @@ This connector is available for Looker (Google Cloud Core) instances with Looker
 ThoughtSpot is compatible with the most recent version of Looker’s JDBC driver.
 - A Looker model that uses BigQuery as its data source.
 - ThoughtSpot administrator must do the following:
-* Contact Looker to enable support for ThoughtSpot in {connection}.
+* Contact Looker administrator to enable support for ThoughtSpot in {connection}.
 * Contact {support-url} to enable support for {connection} in your ThoughtSpot cluster.
 - User creating a {connection} connection must have:
 * The same email address in both {connection} and ThoughtSpot.
