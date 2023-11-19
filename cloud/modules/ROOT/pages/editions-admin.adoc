@@ -1,4 +1,4 @@
-= Administration features in ThoughtSpot editions
+= Administration in ThoughtSpot editions
 :last_updated: 11/05/2021
 :linkattrs:
 :experimental:
