@@ -84,109 +84,137 @@ To go back to the top level where you started your drill down:
 
 == Comparing ThoughtSpot mobile and web
 
-The following table compares the features available in the ThoughtSpot mobile and web apps.
+The following section compares the features available in the ThoughtSpot mobile and web apps.
 
+== Consumption features
+
+[cols="20%,10%,10%" stripes="even", width="70%"]
 |===
-|Feature |Mobile |Web
+.^|Feature ^.^|Mobile ^.^|Web
 
-3+a|*Consumption*
 |Answers
-a|&#9989;
+^.^|image:checkmark_black.svg[Yes,15]
 
-a| &#9989;
+^.^| image:checkmark_black.svg[Yes,15]
 |Liveboards
-|&#9989;
+^.^|image:checkmark_black.svg[Yes,15]
 
-|&#9989;
+^.^|image:checkmark_black.svg[Yes,15]
 |Tag favorite Answer/Liveboard
-|&#9989;
+^.^|image:checkmark_black.svg[Yes,15]
 
-|&#9989;
+
+^.^|image:checkmark_black.svg[Yes,15]
 |Home Liveboard
-|&#9989;
+^.^|image:checkmark_black.svg[Yes,15]
 
-|&#10060;
+|
 |Share
-|&#9989;
-
-|&#9989;
-|View offline
-|&#9989;
-
-|&#10060;
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
 |Present Liveboard
-|&#10060;
+|
 
-|&#9989;
+^.^|image:checkmark_black.svg[Yes,15]
 |Download as PDF
-|&#10060;
+|
 
-|&#9989;
+^.^|image:checkmark_black.svg[Yes,15]
 |Schedule Liveboard
-|&#10060;
+|
+^.^|image:checkmark_black.svg[Yes,15]
+|===
 
-|&#9989;
-3+a|*Liveboard*
+== Liveboard features
+
+[cols="20%,10%,10%" stripes="even", width="70%"]
+|===
+.^|Feature ^.^|Mobile ^.^|Web
+
 |Tabs
 
-|&#10060;
-|&#9989;
+|
+^.^|image:checkmark_black.svg[Yes,15]
 |Custom tile sizes
 
-|&#10060;
-|&#9989;
+|
+^.^|image:checkmark_black.svg[Yes,15]
 |Mandatory filters
 
-|&#10060;
-|&#9989;
+|
+^.^|image:checkmark_black.svg[Yes,15]
 |Parameters
 
-|&#10060;
-|&#9989;
-3+a|*Analysis*
+|
+^.^|image:checkmark_black.svg[Yes,15]
+|===
+
+== Analysis features
+
+[cols="20%,10%,10%" stripes="even", width="70%"]
+|===
+.^|Feature ^.^|Mobile ^.^|Web
 
 |Drill down
-|&#9989;
-|&#9989;
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
 
 |Apply filters
-|&#9989;
-|&#9989;
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
 
 |Answer Explorer
-|&#10060;
-|&#9989;
+|
+^.^|image:checkmark_black.svg[Yes,15]
 
 |SpotIQ
-|&#10060;
-|&#9989;
+|
+^.^|image:checkmark_black.svg[Yes,15]
 
-3+a|*Creation*
-|Search
-|&#10060;
+|Monitor KPI
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
 
-|&#9989;
+|TS Sync
+|
+^.^|image:checkmark_black.svg[Yes,15]
+|===
+
+== Creation features
+
+[cols="20%,10%,10%" stripes="even", width="70%"]
+|===
+.^|Feature ^.^|Mobile ^.^|Web
+|Search Data
+|
+
+^.^|image:checkmark_black.svg[Yes,15]
+|Search Answers and Liveboards
+|
+
+^.^|image:checkmark_black.svg[Yes,15]
 |Create/edit Liveboard
-|&#10060;
+|
 
-|&#9989;
+^.^|image:checkmark_black.svg[Yes,15]
 |Create/edit Answers
-|&#10060;
+|
 
-|&#9989;
-|Create/edit Filters
-|&#10060;
+^.^|image:checkmark_black.svg[Yes,15]
+|===
+== Miscellaneous features
 
-|&#9989;
-3+a|*Miscellaneous*
+[cols="20%,10%,10%" stripes="even", width="70%"]
+|===
+.^|Feature ^.^|Mobile ^.^|Web
 |Localization
 
-|&#10060;
-|&#9989;
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
 |Admin functions
 
-|&#10060;
-|&#9989;
+|
+^.^|image:checkmark_black.svg[Yes,15]
 |===
 
 == Important limitations
@@ -196,7 +224,6 @@ The ThoughtSpot mobile app has the following limitations:
 
 * No support for sorting on Answers
 
-* No support for sending notifications
 
 * Currently, no support for KPI charts
 
