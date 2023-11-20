@@ -9,8 +9,6 @@
 :description: You can connect to Looker Modeler database in ThoughtSpot Cloud, and perform live queries to create Answers and Liveboards.
 :jira: SCAL-161198
 
-
-
 You can connect to a {connection} database in ThoughtSpot Cloud, and perform live queries to create Answers and Liveboards.
 
 * xref:connections-looker-add.adoc[Add a {connection} connection]
