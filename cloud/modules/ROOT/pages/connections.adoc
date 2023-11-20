@@ -99,6 +99,8 @@ Create the connection between ThoughtSpot and tables in an external Generic JDBC
 Create the connection between ThoughtSpot and tables in an external Google AlloyDB for PostgreSQL database.
 * *xref:connections-gbq-add.adoc[Add a Google BigQuery connection]* +
 Create the connection between ThoughtSpot and tables in an external Google BigQuery database.
+* *xref:connections-google-cloud-sql-mysql-add.adoc[Add a Google Cloud SQL for MySQL connection]* +
+Create the connection between ThoughtSpot and tables in an external Google Cloud SQL for MySQL database.
 * *xref:connections-google-cloud-sql-postgresql-add.adoc[Add a Google Cloud SQL for PostgreSQL connection]* +
 Create the connection between ThoughtSpot and tables in an external Google Cloud SQL for PostgreSQL database.
 * *xref:connections-google-cloud-sql-sql-server-add.adoc[Add a Google Cloud SQL for SQL Server connection]* +

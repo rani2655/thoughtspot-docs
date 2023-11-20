@@ -28,6 +28,7 @@ On ThoughtSpot Cloud, you can connect to the following external databases:
 * xref:connections-genericjdbc.adoc[Generic JDBC]
 * xref:connections-google-alloydb-postgresql.adoc[Google AlloyDB for PostgreSQL]
 * xref:connections-gbq.adoc[Google BigQuery]
+* xref:connections-google-cloud-sql-mysql.adoc[Google Cloud SQL for MySQL]
 * xref:connections-google-cloud-sql-postgresql.adoc[Google Cloud SQL for PostgreSQL]
 * xref:connections-google-cloud-sql-sql-server.adoc[Google Cloud SQL for SQL Server]
 * xref:connections-mysql.adoc[MySQL]
@@ -93,6 +94,8 @@ Create the connection between ThoughtSpot and tables in an external Generic JDBC
 Create the connection between ThoughtSpot and tables in an external Google AlloyDB for PostgreSQL database.
 * *xref:connections-gbq-add.adoc[Add a Google BigQuery connection]* +
  Create the connection between ThoughtSpot and tables in an external Google BigQuery database.
+* *xref:connections-google-cloud-sql-mysql-add.adoc[Add a Google Cloud SQL for MySQL connection]* +
+Create the connection between ThoughtSpot and tables in an external Google Cloud SQL for MySQL database.
 * *xref:connections-google-cloud-sql-postgresql-add.adoc[Add a Google Cloud SQL for PostgreSQL connection]* +
 Create the connection between ThoughtSpot and tables in an external Google Cloud SQL for PostgreSQL database.
 * *xref:connections-google-cloud-sql-sql-server-add.adoc[Add a Google Cloud SQL for SQL Server connection]* +
