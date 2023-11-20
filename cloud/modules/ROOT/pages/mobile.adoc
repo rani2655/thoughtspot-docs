@@ -107,116 +107,118 @@ To go back to the top level where you started your drill down:
 
 The following table compares the features available in the ThoughtSpot mobile and web apps.
 
+[cols="40%,30%,30%" stripes="even"]
 |===
-|Feature |Mobile |Web
+.^|Feature ^.^|Mobile ^.^|Web
 
 3+a|*Consumption*
 |Answers
-a|&#9989;
+^.^|image:checkmark_black.svg[Yes,15]
 
-a| &#9989;
+^.^| image:checkmark_black.svg[Yes,15]
 |Liveboards
-|&#9989;
+^.^|image:checkmark_black.svg[Yes,15]
 
-|&#9989;
+^.^|image:checkmark_black.svg[Yes,15]
 |Tag favorite Answer/Liveboard
-|&#9989;
+^.^|image:checkmark_black.svg[Yes,15]
 
-|&#9989;
+
+^.^|image:checkmark_black.svg[Yes,15]
 |Home Liveboard
-|&#9989;
+^.^|image:checkmark_black.svg[Yes,15]
 
-|&#10060;
+|
 |Share
-|&#9989;
+^.^|image:checkmark_black.svg[Yes,15]
 
-|&#9989;
+^.^|image:checkmark_black.svg[Yes,15]
 
 |Present Liveboard
-|&#10060;
+|
 
-|&#9989;
+^.^|image:checkmark_black.svg[Yes,15]
 |Download as PDF
-|&#10060;
+|
 
-|&#9989;
+^.^|image:checkmark_black.svg[Yes,15]
 |Schedule Liveboard
-|&#10060;
+|
 
-|&#9989;
+^.^|image:checkmark_black.svg[Yes,15]
 3+a|*Liveboard*
 |Tabs
 
-|&#10060;
-|&#9989;
+|
+^.^|image:checkmark_black.svg[Yes,15]
 |Custom tile sizes
 
-|&#10060;
-|&#9989;
+|
+^.^|image:checkmark_black.svg[Yes,15]
 |Mandatory filters
 
-|&#10060;
-|&#9989;
+|
+^.^|image:checkmark_black.svg[Yes,15]
 |Parameters
 
-|&#10060;
-|&#9989;
+|
+^.^|image:checkmark_black.svg[Yes,15]
 3+a|*Analysis*
 
 |Drill down
-|&#9989;
-|&#9989;
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
 
 |Apply filters
-|&#9989;
-|&#9989;
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
 
 |Answer Explorer
-|&#10060;
-|&#9989;
+|
+^.^|image:checkmark_black.svg[Yes,15]
 
 |SpotIQ
-|&#10060;
-|&#9989;
+|
+^.^|image:checkmark_black.svg[Yes,15]
 
 |Monitor KPI
-|&#10060;
-|&#9989;
+|
+^.^|image:checkmark_black.svg[Yes,15]
 
 |TS Sync
-|&#10060;
-|&#9989;
+|
+^.^|image:checkmark_black.svg[Yes,15]
 
 3+a|*Creation*
 |Search Data
-|&#10060;
+|
 
-|&#9989;
+^.^|image:checkmark_black.svg[Yes,15]
 |Search Answers and Liveboards
-|&#10060;
+|
 
-|&#9989;
+^.^|image:checkmark_black.svg[Yes,15]
 |Create/edit Liveboard
-|&#10060;
+|
 
-|&#9989;
+^.^|image:checkmark_black.svg[Yes,15]
 |Create/edit Answers
-|&#10060;
+|
 
-|&#9989;
+^.^|image:checkmark_black.svg[Yes,15]
 |Create/edit Filters
-|&#10060;
+|
 
-|&#9989;
+^.^|image:checkmark_black.svg[Yes,15]
 3+a|*Miscellaneous*
 |Localization
 
-|&#10060;
-|&#9989;
+|
+^.^|image:checkmark_black.svg[Yes,15]
 |Admin functions
 
-|&#10060;
-|&#9989;
+|
+^.^|image:checkmark_black.svg[Yes,15]
 |===
 
 == Important limitations
