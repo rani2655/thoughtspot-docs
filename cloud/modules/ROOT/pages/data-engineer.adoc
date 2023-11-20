@@ -196,6 +196,17 @@ The following list provides information about connecting to your data in support
 * xref:connections-google-cloud-sql-sql-server-delete.adoc[Delete connection]
 * xref:connections-google-cloud-sql-sql-server-reference.adoc[Connection reference]
 
+== image:looker.svg[Looker icon, 130]
+
+* xref:connections-looker-add.adoc[Add connection]
+* xref:connections-looker-edit.adoc[Edit connection]
+* xref:connections-looker-remap.adoc[Remap  connection]
+* xref:connections-looker-delete-table.adoc[Delete a table]
+* xref:connections-looker-delete-table-dependencies.adoc[Delete a table with object dependencies]
+* xref:connections-looker-delete.adoc[Delete connection]
+* xref:connections-looker-passthrough.adoc[Passthrough functions]
+* xref:connections-looker-reference.adoc[Connection reference]
+
 == image:mysql-icon.png[MySQL icon] MySQL
 
 * xref:connections-mysql.adoc[Overview]
@@ -207,8 +218,6 @@ The following list provides information about connecting to your data in support
 * xref:connections-mysql-delete.adoc[Delete connection]
 * xref:connections-mysql-passthrough.adoc[Passthrough functions]
 * xref:connections-mysql-reference.adoc[Connection reference]
-
-
 
 == image:logo-oracle.png[Oracle icon] Oracle
 
