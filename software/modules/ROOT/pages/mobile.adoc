@@ -86,7 +86,7 @@ To go back to the top level where you started your drill down:
 
 The following section compares the features available in the ThoughtSpot mobile and web apps.
 
-== Consumption features
+=== Consumption features
 
 [cols="20%,10%,10%" stripes="even", width="70%"]
 |===
@@ -125,7 +125,7 @@ The following section compares the features available in the ThoughtSpot mobile 
 ^.^|image:checkmark_black.svg[Yes,15]
 |===
 
-== Liveboard features
+=== Liveboard features
 
 [cols="20%,10%,10%" stripes="even", width="70%"]
 |===
@@ -149,7 +149,7 @@ The following section compares the features available in the ThoughtSpot mobile 
 ^.^|image:checkmark_black.svg[Yes,15]
 |===
 
-== Analysis features
+=== Analysis features
 
 [cols="20%,10%,10%" stripes="even", width="70%"]
 |===
@@ -180,7 +180,7 @@ The following section compares the features available in the ThoughtSpot mobile 
 ^.^|image:checkmark_black.svg[Yes,15]
 |===
 
-== Creation features
+=== Creation features
 
 [cols="20%,10%,10%" stripes="even", width="70%"]
 |===
@@ -202,7 +202,7 @@ The following section compares the features available in the ThoughtSpot mobile 
 
 ^.^|image:checkmark_black.svg[Yes,15]
 |===
-== Miscellaneous features
+=== Miscellaneous features
 
 [cols="20%,10%,10%" stripes="even", width="70%"]
 |===
