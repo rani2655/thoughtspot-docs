@@ -24,6 +24,9 @@ ThoughtSpot Sync from unsaved Answers:: You can now create syncs from Answers wi
 [#9-9-0-cl-business-user]
 === For the Business User
 
+// Naomi -- scal-175860. actually beta
+Glean integration:: You can now use Glean to search unstructured data, such as documents, powerpoints, and excel files, directly from a Liveboard. Add a Glean tile to your Liveboard to easily add context to your ThoughtSpot data insights. Glean inherits the filters and query terms defined by your Liveboard. You can configure Glean results to include or exclude these terms from your search. Glean results are tailored to each user based on their team, search activity, and preferences. For more information, see xref:glean-integration.adoc[Glean integration].
+
 
 // Naomi -- scal-175485, scal-177391. actually EA.
 Ask Sage:: You can now conversationally search ThoughtSpot using natural language, asking follow-up questions for further clarification or to take your analysis in a new direction. To access Ask Sage, ask a question using the Natural Language Search interface on the Home page, and click *Ask a follow up*. For more information, see xref:ask-sage.adoc[Ask Sage].
@@ -44,7 +47,7 @@ Run change analysis iteratively:: You can now drill down on specific columns in 
 
 
 // Naomi -- scal-156247
-Natural language search chart type:: You can now specify the answering chart type when you use Natural Language Search. For example, search for "sales by region pie chart", and the results appear in pie chart format.
+Natural language search chart type:: You can now specify the answering chart type when you use Natural Language Search. For example, search for "sales by region pie chart", and the results appear in pie chart format. For more information, see xref:ai-answers.adoc[].
 
 [#9-9-0-cl-data-engineer]
 === For the Data Engineer
@@ -57,6 +60,8 @@ Connections:: We added support for the following connections:
 
 * xref:connections-google-cloud-sql-mysql.adoc[Google Cloud SQL for MySQL]
 * xref:connections-google-sheets.adoc[Google Sheets]
++
+NOTE: The connection to Google Sheets is only available to Free Trial users.
 
 // Naomi -- scal-158415
 Row-level security in custom calendars:: We now support row-level security in custom calendars.
