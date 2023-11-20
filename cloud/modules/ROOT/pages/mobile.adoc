@@ -195,7 +195,7 @@ The following section compares the features available in the ThoughtSpot mobile 
 ^.^|image:checkmark_black.svg[Yes,15]
 
 |Monitor KPI
-|
+^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 
 |TS Sync
@@ -224,10 +224,6 @@ The following section compares the features available in the ThoughtSpot mobile 
 |
 
 ^.^|image:checkmark_black.svg[Yes,15]
-|Create/edit Filters
-|
-
-^.^|image:checkmark_black.svg[Yes,15]
 |===
 == Miscellaneous features
 
@@ -236,7 +232,7 @@ The following section compares the features available in the ThoughtSpot mobile 
 .^|Feature ^.^|Mobile ^.^|Web
 |Localization
 
-|
+^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 |Admin functions
 
@@ -251,7 +247,6 @@ The ThoughtSpot mobile app has the following limitations:
 
 * No support for sorting on Answers
 
-* No support for sending notifications
 
 == Getting Started
 
