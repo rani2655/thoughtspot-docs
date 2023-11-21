@@ -4,6 +4,7 @@
 :experimental:
 :linkattrs:
 :description: This article summarizes the list of ports, both required and optional, for regular operations of ThoughtSpot.
+:jira: SCAL-174354
 
 
 For regular operations and for debugging, there are some ports you must keep open to network traffic from end users.
@@ -19,6 +20,7 @@ include::partial$ports/cluster-access.adoc[]
 
 include::partial$ports/ipmi.adoc[]
 
+[#intracluster]
 include::partial$ports/intracluster.adoc[]
 
 '''

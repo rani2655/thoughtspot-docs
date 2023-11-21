@@ -502,7 +502,7 @@ The dynamic ports come from the range of ports that are dynamically allocated by
 | All nodes
 | Services
 
-| 8020
+| 9820
 | Mandatory
 | TCP
 | HDFS namenode server RPC port
@@ -628,7 +628,7 @@ The dynamic ports come from the range of ports that are dynamically allocated by
 | All nodes
 | Used for various services, such as atlas, caffeine, callhome, callosum, falcon, monitoring, munshi server, nlp, object_search, postgres, sage UBR, spotiq snapshot, timely.
 
-| 50010
+| 9866
 | Mandatory
 | TCP
 | HDFS datanode server HTTP port
@@ -637,7 +637,7 @@ The dynamic ports come from the range of ports that are dynamically allocated by
 | All nodes
 | Debug DFS data
 
-| 50020
+| 9867
 | Mandatory
 | TCP
 | HDFS datanode server HTTP port
@@ -646,7 +646,7 @@ The dynamic ports come from the range of ports that are dynamically allocated by
 | All nodes
 | Debug DFS data
 
-| 50070
+| 9870
 | Mandatory
 | TCP
 | HDFS namenode server HTTP port
@@ -655,7 +655,7 @@ The dynamic ports come from the range of ports that are dynamically allocated by
 | All nodes
 | Debug DFS metadata
 
-| 50075
+| 9864
 | Mandatory
 | TCP
 | HDFS datanode server HTTP port
@@ -664,7 +664,7 @@ The dynamic ports come from the range of ports that are dynamically allocated by
 | All nodes
 | Debug DFS data
 
-| 50090
+| 9868
 | Mandatory
 | TCP
 | HDFS secondary namenode server HTTP port

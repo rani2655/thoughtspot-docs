@@ -39,6 +39,9 @@ For a complete list of issues that we fixed in this release, see xref:fixed.adoc
 [#analyst-9-8-0-sw]
 === For the Analyst
 
+//Naomi-- scal-174354. Hadoop 3
+Updated Network ports:: We have updated the static ports used to communicate between services within a cluster. To see the updated list, refer to xref:ports.adoc#intracluster[Network ports].
+
 [#business-user-9-8-0-sw]
 === For the Business User
 
@@ -52,6 +55,10 @@ We made the following enhancements to verified Liveboards:
 
 //Naomi -- scal-150635
 Improved error messaging for Liveboard visualizations:: Previously, ThoughtSpot displayed generic error messages for connection errors on Liveboards. Now, you can see the error message received from the underlying Cloud data warehouse.
+
+
+// Naomi -- scal-139411
+Query performance visibility [.badge.badge-beta-relnotes]#Beta#:: You can now see the state of query execution for any Liveboard visualization while it loads. If a visualization takes longer than three seconds to load, ThoughtSpot displays the current query execution status (executing query, waiting for connection, or processing query) to help users identify the reason for the delay.
 
 [#data-engineer-9-8-0-sw]
 === For the Data Engineer
