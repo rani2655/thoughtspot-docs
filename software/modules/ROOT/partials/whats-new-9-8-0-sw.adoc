@@ -116,7 +116,7 @@ ifdef::pendo-links[]
 === Query performance visibility [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
-// Naomi
+// Naomi -- scal-139411
 
 You can now see the state of query execution for any Liveboard visualization while it loads. If a visualization takes longer than three seconds to load, ThoughtSpot displays the current query execution status (executing query, waiting for connection, or processing query) to help users identify the reason for the delay.
 
