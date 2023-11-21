@@ -31,7 +31,7 @@ image::teradata-edittables.png[Select tables and columns]
 To remove a table from a connection, delete it from the connection details page.
 For more information, see: xref:connections-google-cloud-sql-postgresql-delete.adoc[Delete a {connection} connection].
 
-See the xref:connections-cloud-sql-postgresql-reference.adoc[Connection reference] for details of connection parameters.
+See the xref:connections-google-cloud-sql-postgresql-reference.adoc[Connection reference] for details of connection parameters.
 
 '''
 > **Related information**

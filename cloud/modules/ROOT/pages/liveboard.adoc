@@ -64,6 +64,7 @@ For more details, see xref:liveboard-download-pdf.adoc[Download a Liveboard as P
 NOTE: If you do not see this option, your company may have removed the Liveboard download option.
 If you would like to download Liveboards, contact your ThoughtSpot administrator.
 
+////
 [#comment]
 .[.badge.badge-early-access]#Early Access#
 ****
@@ -77,7 +78,7 @@ After clicking *Comment*, you can hover over the data point you'd like to commen
 
 Data in a Liveboard may change after you add a comment. ThoughtSpot stores the data point at the time you commented. To see the original data behind a comment, click on the data point below the comment.
 ****
-
+////
 
 
 == Details about a Liveboard

@@ -4,6 +4,7 @@
 :experimental:
 :page-layout: default-cloud
 :description: You can connect ThoughtSpot to your Google account and push CSV tables and charts to Salesforce.
+:jira: SCAL-176730
 
 
 
@@ -15,7 +16,7 @@ To create a sync to Salesforce from an Answer, follow these steps:
 
 . In the upper-right corner of the Answer, click the *more options* menu icon image:icon-more-10px.png[More options menu icon]. From the dropdown menu, select *Sync to other apps*, then choose *Salesforce*.
 +
-NOTE: You cannot create a sync from an unsaved Answer. If the *Sync to other apps* option appears grayed-out in the menu, first save the Answer before trying again.
+//NOTE: You cannot create a sync from an unsaved Answer. If the *Sync to other apps* option appears grayed-out in the menu, first save the Answer before trying again.
 
 . If this is the first sync you have created for Salesforce, a pop-up authorization window appears. To give ThoughtSpot permission to send data to your Salesforce account, select your account from the pop-up window.
 

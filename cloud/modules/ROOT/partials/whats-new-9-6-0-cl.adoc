@@ -142,10 +142,10 @@ To enable this feature, contact your administrator.
 
 For more information, see
 ifndef::pendo-links[]
-xref:liveboard.adoc#comment[Comment on a Liveboard].
+xref:liveboard-comment.adoc[Comment on a Liveboard].
 endif::[]
 ifdef::pendo-links[]
-xref:liveboard.adoc#comment[Comment on a Liveboard,window=_blank].
+xref:liveboard-comment.adoc[Comment on a Liveboard,window=_blank].
 endif::[]
 
 image:liveboard-comment.gif[Create a comment on a Liveboard and add a reaction]

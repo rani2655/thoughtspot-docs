@@ -6,6 +6,7 @@
 :page-layout: default-cloud
 :description: You can connect ThoughtSpot to your Google account and push insights to ServiceNow.
 :connection: ServiceNow
+:jira: SCAL-176730
 
 [#prerequisites]
 == Prerequisites
@@ -40,7 +41,7 @@ To create a sync to {connection} from an Answer, follow these steps:
 
 . In the upper-right corner of the Answer, click the *more options* menu icon image:icon-more-10px.png[More options menu icon]. From the dropdown menu, select *Sync to other apps*, then choose *{connection}*.
 +
-NOTE: You cannot create a sync from an unsaved Answer. If the *Sync to other apps* option appears grayed-out in the menu, first save the Answer before trying again.
+//NOTE: You cannot create a sync from an unsaved Answer. If the *Sync to other apps* option appears grayed-out in the menu, first save the Answer before trying again.
 
 . If this is the first sync you have created for {connection}, a pop-up authorization window appears. To give ThoughtSpot permission to send data to your {connection} account, fill out the *Instance url*, *Client id*, and *Client secret* found in the <<prerequisites,Prerequisites>>. In the authorization pop-up that appears, click *Allow*.
 +

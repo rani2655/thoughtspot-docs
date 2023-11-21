@@ -1,0 +1,80 @@
+= Advanced chart settings
+:last_updated: 11/13/2023
+:author: Naomi
+:page-layout: default-cloud
+:jira: SCAL-166121
+:description: You can now access advanced chart customization settings by selecting the gear icon and clicking *Advanced settings*.
+
+You can now access advanced chart customization settings by selecting the gear icon image:icon-gear-10px.png[chart customization icon] and selecting *Advanced settings*. Use these settings to adjust the size and appearance of tooltips, regression lines, gridlines, and chart backgrounds. All choices persist only for the Answer you are currently customizing.
+
+== Tooltip options
+
+From the tooltip options tab, you can affect the following settings:
+
+
+image:advanced-tooltip-options.png[Advanced tooltip options]
+
+
+* Show/hide tooltips
+* Select background color
+* Select border color
+* Enter border width in pixels
+* Set the percentage opacity
+
+You can make the following changes to the column name label:
+
+* Select the font color
+* Enter the font size
+* Bold the font
+* Underline the font
+* Italicize the font
+
+You can make the following changes to the values in the tooltip:
+
+* Select the font color
+* Enter the font size
+* Bold the font
+* Underline the font
+* Italicize the font
+
+
+
+== Regression line options
+
+For charts that include a regression line, you can make the following changes:
+
+image:advanced-regression-line-options.png[Advanced regression line options]
+
+
+* Select the color of the regression line
+* Enter the line width in pixels
+* Select the dash style: Solid, Dot, or Dash
+
+== Gridlines options
+
+You can make the following selections for x- and y-axis gridlines.
+
+image:advanced-gridlines-options.png[Advanced gridlines options]
+
+For x-axis gridlines:
+
+* Select the color
+* Enter the line width in pixels
+* Select the line style: Solid, Dot, or Dash
+
+For y-axis gridlines:
+
+* Select the color
+* Enter the line width in pixels
+* Select the line style: Solid, Dot, or Dash
+
+== Other settings
+
+For other properties of charts, you can make the following selections:
+
+image:advanced-options-other.png[Other advanced options]
+
+
+* Select the chart background color
+* Select the background color for the plotted area
+* Enter the background image for the plotted area
