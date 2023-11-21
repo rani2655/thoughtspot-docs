@@ -207,6 +207,7 @@ The following list provides information about connecting to your data in support
 * xref:connections-google-cloud-sql-sql-server-delete.adoc[Delete connection]
 * xref:connections-google-cloud-sql-sql-server-reference.adoc[Connection reference]
 
+////
 == image:google-sheets-icon.png[Google Sheets icon] Google Sheets
 
 * xref:connections-google-sheets.adoc[Overview]
@@ -217,6 +218,7 @@ The following list provides information about connecting to your data in support
 * xref:connections-google-sheets-delete-table-dependencies.adoc[Delete a table with object dependencies]
 * xref:connections-google-sheets-delete.adoc[Delete connection]
 * xref:connections-google-sheets-reference.adoc[Connection reference]
+////
 
 == image:looker.svg[Looker icon, 130]
 

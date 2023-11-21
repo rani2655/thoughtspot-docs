@@ -54,14 +54,9 @@ Natural language search chart type:: You can now specify the answering chart typ
 
 
 
-// Naomi -- scal-166158, scal-135769
+// Naomi -- scal-166158
 
-Connections:: We added support for the following connections:
-
-* xref:connections-google-cloud-sql-mysql.adoc[Google Cloud SQL for MySQL]
-* xref:connections-google-sheets.adoc[Google Sheets]
-+
-NOTE: The connection to Google Sheets is only available to Free Trial users.
+Google Cloud SQL for MySQL connection:: We added support for xref:connections-google-cloud-sql-mysql.adoc[Google Cloud SQL for MySQL].
 
 // Naomi -- scal-158415
 Row-level security in custom calendars:: We now support row-level security in custom calendars.
