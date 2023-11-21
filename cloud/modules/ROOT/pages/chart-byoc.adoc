@@ -18,4 +18,11 @@ To add a custom chart, do the following:
 . Under _Application settings_, Select *Chart customization*.
 . Select the *Custom charts* tab.
 . Click *Add chart*
-.
+. Enter the following fields:
+- Chart Name
+- Description (optional)
+- Chart Application Url
+- Icon Url (optional)
+- Chart author's name (optional)
+- Chart author's email (optional)
+. Click *Continue*.
