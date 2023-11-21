@@ -104,11 +104,23 @@ We made the following enhancements to verified Liveboards:
 
 Previously, ThoughtSpot displayed generic error messages for connection errors on Liveboards. Now, you can see the error message received from the underlying Cloud data warehouse.
 
-[#9-8-0-sw-viz]
-[discrete]
-=== [Beta] Display the current state of query execution for a Liveboard visualization
 
-// Naomi -- scal-139411
+ifndef::pendo-links[]
+[#9-6-0-cl-query]
+[discrete]
+=== Query performance visibility  [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#9-6-0-cl-query]
+[discrete]
+=== Query performance visibility [.badge.badge-beta-whats-new]#Beta#
+endif::[]
+
+// Naomi
+
+You can now see the state of query execution for any Liveboard visualization while it loads. If a visualization takes longer than three seconds to load, ThoughtSpot displays the current query execution status (executing query, waiting for connection, or processing query) to help users identify the reason for the delay.
+
+image::query-execution.png[Liveboard displaying query execution status as visualizations load]
 
 
 // Analyst
