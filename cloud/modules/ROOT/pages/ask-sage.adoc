@@ -1,13 +1,13 @@
 = Ask Sage
 :author: Naomi
-:last_updated: 11/20/23
+:last_updated: 11/21/23
 :description: You can now ask follow-up questions in Sage to refine your answers or take your analysis in a new direction.
 :page-layout: default-cloud
 :jira: SCAL-175485
 
 You can now conversationally search ThoughtSpot using natural language, asking follow-up questions for further clarification or to take your analysis in a new direction. This conversational approach allows you to begin with a simple question, and ask successive questions to refine the answer you receive. ThoughtSpot translates each natural language question into a query, and answers in chart format.
 
-image::ask-sage.png[Ask Sage displaying the top three sports teams]
+image::ask-sage.gif[Ask Sage displaying the top three sports teams]
 
 
 
