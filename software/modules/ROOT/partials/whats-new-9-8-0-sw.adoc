@@ -98,9 +98,11 @@ We made the following enhancements to verified Liveboards:
 
 [#9-8-0-sw-error]
 [discrete]
-=== Improve error messaging related to Embrace for Liveboard visualizations
+=== Improve error messaging for Liveboard visualizations
 
 // Naomi -- scal-150635
+
+Previously, ThoughtSpot displayed generic error messages for connection errors on Liveboards. Now, you can see the error message received from the underlying Cloud data warehouse.
 
 [#9-8-0-sw-viz]
 [discrete]
