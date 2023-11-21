@@ -56,9 +56,15 @@ endif::[]
 
 [#9-8-0-sw-verified]
 [discrete]
-=== Verified Liveboards spillover items
+=== Verified Liveboards
 
 // Naomi -- scal-161857, SCAL-160779
+
+We made the following enhancements to verified Liveboards:
+
+- When you request verification, you can now see the underlying data sources that will be shared with the verifier.
+- The name of the Liveboard now appears in verification request emails.
+- When editing an Answer on or pinning an Answer to a verified Liveboard, a warning banner appears indicating it may need to be verified again.
 
 [#9-8-0-sw-liveboards]
 [discrete]
