@@ -14,6 +14,7 @@ You can establish direct connections to the following external databases:
 
 [cols="15,~",frame=none,grid=none]
 |===
+a| image::amazon-athena-icon.png[Amazon Athena logo] .^a|xref:connections-amazon-athena.adoc[Amazon Athena]
 a| image::amazon-aurora-icon.png[Amazon Aurora logo] .^a|xref:connections-amazon-aurora-mysql.adoc[Amazon Aurora MySQL]
 a| image::amazon-aurora-icon.png[Amazon Aurora logo] .^a|xref:connections-amazon-aurora-postgresql.adoc[Amazon Aurora PostgreSQL]
 a| image::amazon-rds-icon.png[Amazon RDS logo] .^a|xref:connections-amazon-rds-mysql.adoc[Amazon RDS MySQL]
@@ -297,6 +298,7 @@ SAP HANA does not support calculation views with mandatory input parameters. If 
 
 == Next steps
 
+* xref:connections-amazon-athena-add.adoc[Add an Amazon Athena connection]: Create the connection between ThoughtSpot and tables in an Amazon Athena database.
 * xref:connections-amazon-aurora-mysql-add.adoc[Add an Amazon Aurora MySQL connection]: Create the connection between ThoughtSpot and tables in an Amazon Aurora MySQL database.
 * xref:connections-amazon-aurora-postgresql-add.adoc[Add an Amazon Aurora PostgreSQL connection]: Create the connection between ThoughtSpot and tables in an Amazon Aurora PostgreSQL database.
 * xref:connections-amazon-rds-mysql-add.adoc[Add an Amazon RDS MySQL connection]: Create the connection between ThoughtSpot and tables in an Amazon RDS MySQL database.

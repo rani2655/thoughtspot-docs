@@ -22,6 +22,7 @@ You can connect to the following external databases:
 
 [cols="15,~",frame=none,grid=none]
 |===
+a| image::amazon-athena-icon.png[Amazon Athena logo] .^a|xref:connections-amazon-athena.adoc[Amazon Athena]
 a| image::amazon-aurora-icon.png[Amazon Aurora logo] .^a|xref:connections-amazon-aurora-mysql.adoc[Amazon Aurora MySQL]
 a| image::amazon-aurora-icon.png[Amazon Aurora logo] .^a|xref:connections-amazon-aurora-postgresql.adoc[Amazon Aurora PostgreSQL]
 a| image::amazon-rds-icon.png[Amazon RDS logo] .^a|xref:connections-amazon-rds-mysql.adoc[Amazon RDS MySQL]
