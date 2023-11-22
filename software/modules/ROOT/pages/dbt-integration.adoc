@@ -2,7 +2,6 @@
 :last_updated: 11/21/2023
 :linkattrs:
 :experimental:
-:page-layout: default-cloud
 :author: Teresa Killmond, Naomi
 :jira: SCAL-157885, SCAL-157886, SCAL-157887, SCAL-157890, SCAL-157889, SCAL-119947, SCAL-182271, SCAL-182987
 :description: ThoughtSpot's dbt integration allows you to provide your existing dbt models and create ThoughtSpot Worksheets, which you can use to search your data.
