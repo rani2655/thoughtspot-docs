@@ -184,6 +184,19 @@ xref:connections-gbq.adoc[Google BigQuery];;
 - xref:connections-gbq-reference.adoc[Connection reference]
 ====
 
+xref:connections-google-cloud-sql-postgresql.adoc[Google Cloud SQL for PostgreSQL];;
+[%collapsible]
+.Google Cloud SQL for PostgreSQL articles
+====
+- xref:connections-google-cloud-sql-postgresql-add.adoc[Add connection]
+- xref:connections-google-cloud-sql-postgresql-edit.adoc[Edit connection]
+- xref:connections-google-cloud-sql-postgresql-remap.adoc[Remap connection]
+- xref:connections-google-cloud-sql-postgresql-delete-table.adoc[Delete a table]
+- xref:connections-google-cloud-sql-postgresql-delete-table-dependencies.adoc[Delete a table with object dependencies]
+- xref:connections-google-cloud-sql-postgresql-delete.adoc[Delete connection]
+- xref:connections-google-cloud-sql-postgresql-reference.adoc[Connection reference]
+====
+
 xref:connections-google-cloud-sql-sql-server.adoc[Google Cloud SQL for SQL Server];;
 [%collapsible]
 .Google Cloud SQL for SQL Server articles
