@@ -91,6 +91,9 @@ We added support for the following connections:
 * xref:connections-google-cloud-sql-sql-server.adoc[Google Cloud SQL for SQL Server]
 * xref:connections-singlestore.adoc[SingleStore]
 
+//Naomi -- scal-136661
+OAuth for Databricks using Proof Key for Code Exchange (PKCE):: We now support xref:connections-databricks-add.adoc[OAuth with PKCE for Databricks].
+
 [#it-ops-engineer-9-8-0-sw]
 === For the IT Ops Engineer
 
