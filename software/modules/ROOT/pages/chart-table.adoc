@@ -5,6 +5,7 @@
 :page-partial:
 :page-aliases: /end-user/search/about-tables.adoc
 :description: Tables display your answer in a format similar to an Excel spreadsheet.
+:jira: SCAL-154258
 
 Tables display your answer in a format similar to an Excel spreadsheet.
 

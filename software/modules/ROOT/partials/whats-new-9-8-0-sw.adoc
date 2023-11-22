@@ -178,11 +178,13 @@ image::query-execution.png[Liveboard displaying query execution status as visual
 
 // Naomi -- scal-132886
 
+////
 [#9-8-0-sw-worksheet]
 [discrete]
 === Support worksheet-level joins
 
 // Naomi -- scal-137306
+////
 
 [#9-8-0-sw-looker]
 [discrete]
@@ -239,11 +241,13 @@ We added support for the following connections:
 
 // IT / Ops engineer
 
+////
 [#9-8-0-sw-deleted]
 [discrete]
 === Remove deleted visualizations from object usage count
 
 // Naomi -- scal-161589
+////
 
 [#9-8-0-sw-oel8]
 [discrete]
