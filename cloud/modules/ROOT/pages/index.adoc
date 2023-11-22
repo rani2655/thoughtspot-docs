@@ -106,48 +106,48 @@ Find topics for the common types of ThoughtSpot users.
   <div class="box">
     <img src="_images/persona-business-user.png">
     <h2>
-      <a href="https://preview-thoughtspot.netlify.app/cloud/latest/business-user">Business User</a>
+      <a href="https://docs.thoughtspot.com/cloud/latest/business-user">Business User</a>
     </h2>
     <ul>
-      <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/business-user-onboarding">Onboard</a></li>
-      <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/thoughtspot-one-homepage">Home page</a></li>
-      <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/liveboards">Liveboards and Answers</a></li>
-      <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/search-answers">Search Answers</a></li>
-      <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/search-data">Search Data</a></li>
-<li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/search-sage">ThoughtSpot Sage</a></li>
-<li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/thoughtspot-sync">ThoughtSpot Sync</a></li>
-<li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/thoughtspot-sheets">Add-ons for Google Sheets&trade;</a></li>
-<li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/thoughtspot-slides">Add-on for Google Slides&trade;</a></li>
+      <li><a href="https://docs.thoughtspot.com/cloud/latest/business-user-onboarding">Onboard</a></li>
+      <li><a href="https://docs.thoughtspot.com/cloud/latest/thoughtspot-one-homepage">Home page</a></li>
+      <li><a href="https://docs.thoughtspot.com/cloud/latest/liveboards">Liveboards and Answers</a></li>
+      <li><a href="https://docs.thoughtspot.com/cloud/latest/search-answers">Search Answers</a></li>
+      <li><a href="https://docs.thoughtspot.com/cloud/latest/search-data">Search Data</a></li>
+<li><a href="https://docs.thoughtspot.com/cloud/latest/search-sage">ThoughtSpot Sage</a></li>
+<li><a href="https://docs.thoughtspot.com/cloud/latest/thoughtspot-sync">ThoughtSpot Sync</a></li>
+<li><a href="https://docs.thoughtspot.com/cloud/latest/thoughtspot-sheets">Add-ons for Google Sheets&trade;</a></li>
+<li><a href="https://docs.thoughtspot.com/cloud/latest/thoughtspot-slides">Add-on for Google Slides&trade;</a></li>
     </ul>
     </div>
   <div class="box">
     <img src="_images/persona-analyst.png">
     <h2>
-      <a href="https://preview-thoughtspot.netlify.app/cloud/latest/analyst">Analyst</a>
+      <a href="https://docs.thoughtspot.com/cloud/latest/analyst">Analyst</a>
     </h2>
     <ul>
-      <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/search-assist">ThoughtSpot Search Assist</a></li>
-      <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/analyst-onboarding">Onboard as Analyst</a></li>
-      <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/worksheet-create">Create Worksheets</a></li>
-      <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/scriptability">Object migration</a></li>
-      <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/tml">ThoughtSpot Modeling Language</a></li>
-      <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/liveboard-filters-linked">Linked Liveboard filters</a></li>
-      <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/liveboard-filters-selective">Selective Liveboard filters</a></li>
-      <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/thoughtspot-one-query-intelligence-liveboard">Search on Answers Liveboard</a></li>
-      <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/spotiq-custom">Custom SpotIQ analysis</a></li>
+      <li><a href="https://docs.thoughtspot.com/cloud/latest/search-assist">ThoughtSpot Search Assist</a></li>
+      <li><a href="https://docs.thoughtspot.com/cloud/latest/analyst-onboarding">Onboard as Analyst</a></li>
+      <li><a href="https://docs.thoughtspot.com/cloud/latest/worksheet-create">Create Worksheets</a></li>
+      <li><a href="https://docs.thoughtspot.com/cloud/latest/scriptability">Object migration</a></li>
+      <li><a href="https://docs.thoughtspot.com/cloud/latest/tml">ThoughtSpot Modeling Language</a></li>
+      <li><a href="https://docs.thoughtspot.com/cloud/latest/liveboard-filters-linked">Linked Liveboard filters</a></li>
+      <li><a href="https://docs.thoughtspot.com/cloud/latest/liveboard-filters-selective">Selective Liveboard filters</a></li>
+      <li><a href="https://docs.thoughtspot.com/cloud/latest/thoughtspot-one-query-intelligence-liveboard">Search on Answers Liveboard</a></li>
+      <li><a href="https://docs.thoughtspot.com/cloud/latest/spotiq-custom">Custom SpotIQ analysis</a></li>
     </ul>
     </div>
   <div class="box">
     <img src="_images/persona-data-engineer.png">
     <h2>
-      <a href="https://preview-thoughtspot.netlify.app/cloud/latest/data-engineer">Data Engineer</a>
+      <a href="https://docs.thoughtspot.com/cloud/latest/data-engineer">Data Engineer</a>
     </h2>
    <ul>
- <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/connections">Connections</a></li>
-<li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/connections-cust-cal">Custom calendar</a></li>
-<li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/connections-private-link-intro">AWS PrivateLink</a></li>
-<li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/connections-external-tables-intro">Query external tables</a></li>
-<li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/dbt-integration">Integrate with dbt</a></li>
+ <li><a href="https://docs.thoughtspot.com/cloud/latest/connections">Connections</a></li>
+<li><a href="https://docs.thoughtspot.com/cloud/latest/connections-cust-cal">Custom calendar</a></li>
+<li><a href="https://docs.thoughtspot.com/cloud/latest/connections-private-link-intro">AWS PrivateLink</a></li>
+<li><a href="https://docs.thoughtspot.com/cloud/latest/connections-external-tables-intro">Query external tables</a></li>
+<li><a href="https://docs.thoughtspot.com/cloud/latest/dbt-integration">Integrate with dbt</a></li>
 </ul>
 
     </ul>
@@ -156,18 +156,18 @@ Find topics for the common types of ThoughtSpot users.
       <div class="box">
         <img src="_images/persona-it-ops.png">
         <h2>
-          <a href="https://preview-thoughtspot.netlify.app/cloud/latest/it-ops">IT and Operations
+          <a href="https://docs.thoughtspot.com/cloud/latest/it-ops">IT and Operations
         </h2>
         <ul>
-         <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/admin-portal-users">Users</a>, <a href="https://preview-thoughtspot.netlify.app/cloud/latest/admin-portal-groups">Groups</a>, and <a href="https://preview-thoughtspot.netlify.app/cloud/latest/orgs-overview">Orgs</a></li>
-<li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/rbac">Role-based access control</a></li>
-       <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/authentication-local">Local authentication</a></li>
-       <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/authentication-integration">SAML authentication</a></li>
-          <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/custom-domains">Custom domains</a></li>
-          <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/scheduled-maintenance">Scheduled maintenance</a></li>
-          <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/style-customization">Style customization</a></li>
-          <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/use-agreement">Use agreement</a></li>
-          <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/performance-tracking">Performance tracking Liveboard</a></li>
+         <li><a href="https://docs.thoughtspot.com/cloud/latest/admin-portal-users">Users</a>, <a href="https://docs.thoughtspot.com/cloud/latest/admin-portal-groups">Groups</a>, and <a href="https://docs.thoughtspot.com/cloud/latest/orgs-overview">Orgs</a></li>
+<li><a href="https://docs.thoughtspot.com/cloud/latest/rbac">Role-based access control</a></li>
+       <li><a href="https://docs.thoughtspot.com/cloud/latest/authentication-local">Local authentication</a></li>
+       <li><a href="https://docs.thoughtspot.com/cloud/latest/authentication-integration">SAML authentication</a></li>
+          <li><a href="https://docs.thoughtspot.com/cloud/latest/custom-domains">Custom domains</a></li>
+          <li><a href="https://docs.thoughtspot.com/cloud/latest/scheduled-maintenance">Scheduled maintenance</a></li>
+          <li><a href="https://docs.thoughtspot.com/cloud/latest/style-customization">Style customization</a></li>
+          <li><a href="https://docs.thoughtspot.com/cloud/latest/use-agreement">Use agreement</a></li>
+          <li><a href="https://docs.thoughtspot.com/cloud/latest/performance-tracking">Performance tracking Liveboard</a></li>
           <li><a href="preview-thoughtspot.netlify.app/cloud/latest/consumption-pricing">Consumption-based pricing</a></li>
         </ul>
         </div>
@@ -177,37 +177,37 @@ Find topics for the common types of ThoughtSpot users.
    <div class="box2">
      <img src="_images/persona-it-ops.png">
      <h2>
-       <a href="https://preview-thoughtspot.netlify.app/cloud/latest/it-ops.html">IT and Operations
+       <a href="https://docs.thoughtspot.com/cloud/latest/it-ops.html">IT and Operations
      </h2>
      <ul>
-      <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/admin-portal.html">Admin Console</a></li>
-       <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/users-groups.html">Managing users and groups</a></li>
-    <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/internal-auth.html">Local authentication</a></li>
-    <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/saml.html">SAML authentication</a></li>
-       <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/backup-strategy.html">Backup and restore</a></li>
-       <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/deployment-sw.html ">Software deployment</a></li>
-       <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/rhel.html">Oracle Enterprise Linux (OEL) support <span class="badge badge-new">New!</span> </a></li>
+      <li><a href="https://docs.thoughtspot.com/cloud/latest/admin-portal.html">Admin Console</a></li>
+       <li><a href="https://docs.thoughtspot.com/cloud/latest/users-groups.html">Managing users and groups</a></li>
+    <li><a href="https://docs.thoughtspot.com/cloud/latest/internal-auth.html">Local authentication</a></li>
+    <li><a href="https://docs.thoughtspot.com/cloud/latest/saml.html">SAML authentication</a></li>
+       <li><a href="https://docs.thoughtspot.com/cloud/latest/backup-strategy.html">Backup and restore</a></li>
+       <li><a href="https://docs.thoughtspot.com/cloud/latest/deployment-sw.html ">Software deployment</a></li>
+       <li><a href="https://docs.thoughtspot.com/cloud/latest/rhel.html">Oracle Enterprise Linux (OEL) support <span class="badge badge-new">New!</span> </a></li>
      </ul>
      </div>
      <div class="box2">
        <img src="_images/persona-developer.png">
        <h2>
-         <a href="https://preview-thoughtspot.netlify.app/cloud/latest/developer.html">Developer</a>
+         <a href="https://docs.thoughtspot.com/cloud/latest/developer.html">Developer</a>
        </h2>
        <ul>
-         <!-- <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/embedding-overview.html">Embedding</a></li>
-         <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/js-api.html">Use the JavaScript API</a></li>
-        <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/saml-integration.html">SAML</a></li>
-        <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/data-api.html">Data REST API</a></li>
-         <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/public-api-reference.html">Public API reference</a></li>
-            <li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/runtime-filters.html">Runtime Filters</a></li>
-            <!--<li><a href="https://preview-thoughtspot.netlify.app/cloud/latest/customization.html">Customization</a></li>
+         <!-- <li><a href="https://docs.thoughtspot.com/cloud/latest/embedding-overview.html">Embedding</a></li>
+         <li><a href="https://docs.thoughtspot.com/cloud/latest/js-api.html">Use the JavaScript API</a></li>
+        <li><a href="https://docs.thoughtspot.com/cloud/latest/saml-integration.html">SAML</a></li>
+        <li><a href="https://docs.thoughtspot.com/cloud/latest/data-api.html">Data REST API</a></li>
+         <li><a href="https://docs.thoughtspot.com/cloud/latest/public-api-reference.html">Public API reference</a></li>
+            <li><a href="https://docs.thoughtspot.com/cloud/latest/runtime-filters.html">Runtime Filters</a></li>
+            <!--<li><a href="https://docs.thoughtspot.com/cloud/latest/customization.html">Customization</a></li>
        </ul>
        </div>
    <div class="box2">
      <img src="_images/persona-data-engineer.png">
      <h2>
-       <a href="https://preview-thoughtspot.netlify.app/cloud/latest/data-engineer.html">More...</a>
+       <a href="https://docs.thoughtspot.com/cloud/latest/data-engineer.html">More...</a>
      </h2>
      <ul>
          <li><a href="https://cloud-docs.thoughtspot.com">ThoughtSpot Cloud documentation</a>
