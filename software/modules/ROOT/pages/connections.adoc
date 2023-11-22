@@ -5,6 +5,7 @@
 :page-aliases: /data-integrate/embrace/embrace-intro.adoc
 :experimental:
 :description: Using Connections, you can perform live queries on external databases.
+:jira: scal-79850, scal-164909, scal-166159, scal-166160,scal-166161
 
 Using Connections, you can perform live queries on external databases.
 
@@ -24,7 +25,8 @@ a| image::logo-synapse.png[Azure Synapse logo]  .^a|xref:connections-synapse.ado
 a|  image::logo-databricks.png[Databricks logo] .^a|xref:connections-databricks.adoc[Databricks]
 a|  image::logo-denodo.png[Denodo logo] .^a|xref:connections-denodo.adoc[Denodo]
 a|  image::logo-dremio.png[Dremio logo] .^a|xref:connections-dremio.adoc[Dremio]
-a| image::java-jdbc-icon.png[Generic JDBC logo] .^a|xref:connections-genericjdbc.adoc[Generic JDBC]
+//a| image::java-jdbc-icon.png[Generic JDBC logo] .^a|xref:connections-genericjdbc.adoc[Generic JDBC]
+a| image::gcp-alloydb-icon.png[Google AlloyDB for PostgreSQL logo] .^a|xref:connections-google-alloydb-postgresql.adoc[Google AlloyDB for PostgreSQL]
 a| image::logo-gcp.png[Google BigQuery logo] .^a|xref:connections-gbq.adoc[Google BigQuery]
 a| image::mysql-icon.png[MySQL logo] .^a|xref:connections-adw.adoc[MySQL]
 a| image::logo-oracle.png[Oracle logo] .^a|xref:connections-adw.adoc[Oracle]
@@ -307,7 +309,8 @@ SAP HANA does not support calculation views with mandatory input parameters. If 
 * xref:connections-synapse-add.adoc[Add an Azure Synapse connection]: Create the connection between ThoughtSpot and tables in an Azure Synapse database.
 * xref:connections-databricks-add.adoc[]: Create the connection between ThoughtSpot and tables in a Databricks database.
 * xref:connections-dremio-add.adoc[]: Create the connection between ThoughtSpot and tables in a Dremio database.
-* xref:connections-genericjdbc-add.adoc[Add a Generic JDBC connection]: Create the connection between ThoughtSpot and tables in a Generic JDBC database.
+//* xref:connections-genericjdbc-add.adoc[Add a Generic JDBC connection]: Create the connection between ThoughtSpot and tables in a Generic JDBC database.
+* xref:connections-google-alloydb-postgresql-add.adoc[Add a Google AlloyDB PostgreSQL connection]: Create the connection between ThoughtSpot and tables in a Google AlloyDB PostgreSQL database.
 * xref:connections-gbq-add.adoc[Add a Google BigQuery connection]: Create the connection between ThoughtSpot and tables in a Google BigQuery database.
 * xref:connections-mysql-add.adoc[Add a MySQL connection]: Create the connection between ThoughtSpot and tables in a MySQL database.
 * xref:connections-adw-add.adoc[Add an Oracle ADW connection]: Create the connection between ThoughtSpot and tables in an Oracle Distributed Warehouse (ODW) database.

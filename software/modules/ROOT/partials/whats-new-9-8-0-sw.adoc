@@ -213,7 +213,7 @@ image::query-execution.png[Liveboard displaying query execution status as visual
 We added support for the following connections:
 
 * xref:connections-amazon-athena.adoc[Amazon Athena]
-* Google AlloyDB for PostreSQL
+* xref:connections-google-alloydb-postgresql.adoc[Google AlloyDB for PostreSQL]
 * Google Cloud SQL for PostgreSQL
 * Google Cloud SQL for SQL Server
 * SingleStore

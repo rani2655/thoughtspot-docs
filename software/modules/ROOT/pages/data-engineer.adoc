@@ -11,6 +11,20 @@ The following list provides information about connecting to your data in support
 
 == Direct connections
 
+
+xref:connections-amazon-athena.adoc[Amazon Athena];;
+[%collapsible]
+.Amazon Athena articles
+====
+- xref:connections-amazon-athena-add.adoc[Add connection]
+- xref:connections-amazon-athena-edit.adoc[Edit connection]
+- xref:connections-amazon-athena-remap.adoc[Remap connection]
+- xref:connections-amazon-athena-delete-table.adoc[Delete a table]
+- xref:connections-amazon-athena-delete-table-dependencies.adoc[Delete a table with object dependencies]
+- xref:connections-amazon-athena-delete.adoc[Delete connection]
+- xref:connections-amazon-athena-reference.adoc[Connection reference]
+====
+
 xref:connections-amazon-aurora-mysql.adoc[Amazon Aurora MySQL];;
 [%collapsible]
 .Amazon Aurora MySQL articles
@@ -129,6 +143,7 @@ xref:connections-dremio.adoc[Dremio];;
 - xref:connections-dremio-reference.adoc[Connection reference]
 ====
 
+////
 xref:connections-genericjdbc.adoc[Generic JDBC];;
 [%collapsible]
 .Generic JDBC articles
@@ -140,6 +155,20 @@ xref:connections-genericjdbc.adoc[Generic JDBC];;
 - xref:connections-genericjdbc-delete-table-dependencies.adoc[Delete a table with object dependencies]
 - xref:connections-genericjdbc-delete.adoc[Delete connection]
 - xref:connections-genericjdbc-reference.adoc[Connection reference]
+====
+////
+
+xref:connections-google-alloydb-postgresql.adoc[Google AlloyDB PostgreSQL];;
+[%collapsible]
+.Google AlloyDB PostgreSQL articles
+====
+- xref:connections-google-alloydb-postgresql-add.adoc[Add connection]
+- xref:connections-google-alloydb-postgresql-edit.adoc[Edit connection]
+- xref:connections-google-alloydb-postgresql-remap.adoc[Remap connection]
+- xref:connections-google-alloydb-postgresql-delete-table.adoc[Delete a table]
+- xref:connections-google-alloydb-postgresql-delete-table-dependencies.adoc[Delete a table with object dependencies]
+- xref:connections-google-alloydb-postgresql-delete.adoc[Delete connection]
+- xref:connections-google-alloydb-postgresql-reference.adoc[Connection reference]
 ====
 
 xref:connections-gbq.adoc[Google BigQuery];;
