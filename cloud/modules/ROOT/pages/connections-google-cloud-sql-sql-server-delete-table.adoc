@@ -1,3 +1,4 @@
+= Delete a table from a {connection} connection
 :last_updated: 10/25/2023
 :author: Naomi
 :linkattrs:
