@@ -28,6 +28,7 @@ a|  image::logo-dremio.png[Dremio logo] .^a|xref:connections-dremio.adoc[Dremio]
 //a| image::java-jdbc-icon.png[Generic JDBC logo] .^a|xref:connections-genericjdbc.adoc[Generic JDBC]
 a| image::gcp-alloydb-icon.png[Google AlloyDB for PostgreSQL logo] .^a|xref:connections-google-alloydb-postgresql.adoc[Google AlloyDB for PostgreSQL]
 a| image::logo-gcp.png[Google BigQuery logo] .^a|xref:connections-gbq.adoc[Google BigQuery]
+a| image::google-cloud-sql.png[Google Cloud SQL for SQL Server logo] .^a|xref:connections-google-cloud-sql-sql-server.adoc[Google Cloud SQL for SQL Server]
 a| image::mysql-icon.png[MySQL logo] .^a|xref:connections-adw.adoc[MySQL]
 a| image::logo-oracle.png[Oracle logo] .^a|xref:connections-adw.adoc[Oracle]
 a| image::logo-postgresql.png[PostgreSQL logo] .^a|xref:connections-postgresql.adoc[PostgreSQL]
@@ -312,6 +313,7 @@ SAP HANA does not support calculation views with mandatory input parameters. If 
 //* xref:connections-genericjdbc-add.adoc[Add a Generic JDBC connection]: Create the connection between ThoughtSpot and tables in a Generic JDBC database.
 * xref:connections-google-alloydb-postgresql-add.adoc[Add a Google AlloyDB PostgreSQL connection]: Create the connection between ThoughtSpot and tables in a Google AlloyDB PostgreSQL database.
 * xref:connections-gbq-add.adoc[Add a Google BigQuery connection]: Create the connection between ThoughtSpot and tables in a Google BigQuery database.
+* xref:connections-google-cloud-sql-sql-server-add.adoc[Add a Google Cloud SQL for SQL Server connection]: Create the connection between ThoughtSpot and tables in a Google Cloud SQL for SQL Server database.
 * xref:connections-mysql-add.adoc[Add a MySQL connection]: Create the connection between ThoughtSpot and tables in a MySQL database.
 * xref:connections-adw-add.adoc[Add an Oracle ADW connection]: Create the connection between ThoughtSpot and tables in an Oracle Distributed Warehouse (ODW) database.
 * xref:connections-postgresql-add.adoc[]: Create the connection between ThoughtSpot and tables in a PostgreSQL database.

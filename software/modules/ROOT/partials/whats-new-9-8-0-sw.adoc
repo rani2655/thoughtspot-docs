@@ -214,8 +214,8 @@ We added support for the following connections:
 
 * xref:connections-amazon-athena.adoc[Amazon Athena]
 * xref:connections-google-alloydb-postgresql.adoc[Google AlloyDB for PostreSQL]
-* Google Cloud SQL for PostgreSQL
-* Google Cloud SQL for SQL Server
+* xref:connections-google-cloud-sql-postgresql.adoc[Google Cloud SQL for PostgreSQL]
+* xref:connections-google-cloud-sql-sql-server.adoc[Google Cloud SQL for SQL Server]
 * SingleStore
 
 [#9-8-0-sw-pkce]
