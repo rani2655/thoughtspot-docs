@@ -160,23 +160,14 @@ image::query-execution.png[Liveboard displaying query execution status as visual
 
 // Mark -- scal-161954, scal-161429, scal-159842
 
-[#9-8-0-sw-dbt]
-[discrete]
-=== dbt integration
 
-// Naomi -- scal-157152
-
-[#9-8-0-sw-incremental]
-[discrete]
-=== dbt incremental sync
-
-// Naomi -- scal-149212
-
+////
 [#9-8-0-sw-api]
 [discrete]
 === dbt integration: public API
 
 // Naomi -- scal-132886
+////
 
 ////
 [#9-8-0-sw-worksheet]
@@ -233,11 +224,31 @@ We added support for the following connections:
 
 // Naomi -- scal-136661
 
+[#9-8-0-sw-dbt]
+[discrete]
+=== dbt Worksheet join rule
+
+// Naomi -- scal-157152
+
+Previously, when a Worksheet was created from a dbt model, the default worksheet join rule was "apply all joins". Now, "apply joins progressively" is the default. This means that when a Search is done on the Worksheet, joins are applied as each search term is added, rather than applying all joins to every Search.
+
+[#9-8-0-sw-incremental]
+[discrete]
+=== dbt sync
+
+// Naomi -- scal-149212
+
+In the past, ThoughtSpot generated a new Worksheet every time a user edited an existing dbt data model. Now, ThoughtSpot maintains a persistent connection with dbt and provides realtime updates. Users can update an object, update an object and create a new object, or simply create a new object.
+For more information, see xref:dbt-integration.adoc[].
+
+
 [#9-8-0-sw-v1]
 [discrete]
-=== dbt integration, version 1.6
+=== dbt
 
 // Naomi -- scal-119947, scal-132902
+
+ThoughtSpot now supports dbt version 1.6.
 
 // IT / Ops engineer
 
