@@ -72,6 +72,17 @@ We made the following enhancements to verified Liveboards:
 
 // Mary -- scal-158469
 
+[#9-8-0-sw-hidden]
+[discrete]
+=== Hidden columns in tables
+
+// Naomi -- scal-154258
+
+
+You can now hide a column from your table without removing it from your current Search. If you hide the column you’re using to sort results, the sorting order is unchanged. To try it out, create an Answer, open the chart configuration menu gear icon, and drag the selected column to *Hidden Columns*. For more information, see xref:chart-table.adoc#hidden-column[Hide a column].
+
+image::hidden-column.png[Hidden column section]
+
 [#9-8-0-sw-mobile]
 [discrete]
 === Mobile UI revamp
@@ -179,11 +190,7 @@ image::query-execution.png[Liveboard displaying query execution status as visual
 
 // Mark -- scal-154758
 
-[#9-8-0-sw-hidden]
-[discrete]
-=== Hidden columns in table configuration
 
-// Naomi -- scal-154258
 
 [#9-8-0-sw-filter]
 [discrete]

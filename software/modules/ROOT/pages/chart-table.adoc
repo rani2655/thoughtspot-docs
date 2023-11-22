@@ -32,6 +32,23 @@ The order of columns in the *Configure* menu reflects the column order of the ta
 
 image::table-config-drag-drop.gif[Drag and drop gif]
 
+[#hidden-column]
+== Hide a column
+
+You can hide a column from your table without affecting the underlying search. For example, you can search for `product` `item type` `sales` `sort by product`, and then hide the product column from your table. Hiding the product column does not affect the sorting of the items.
+
+To hide a column from a table, follow these steps:
+
+. Enter your search in the search bar and press *Enter*.
+
+. Select the table view of the results, and click the chart configuration icon image:icon-gear-10px.png[gear icon].
+
+. From the *Visualized Columns* section, select the column you want to hide, and drag it to the *Hidden Columns* section.
+
+. Click *Apply*.
+
+image::hidden-column.png[Hidden column section]
+
 == Resize column widths
 
 You can resize the column widths of your table after adding all of your search terms.
