@@ -42,6 +42,20 @@ For a complete list of issues that we fixed in this release, see xref:fixed.adoc
 //Naomi-- scal-174354. Hadoop 3
 Updated Network ports:: We have updated the static ports used to communicate between services within a cluster. To see the updated list, refer to xref:ports.adoc#intracluster[Network ports].
 
+
+// Naomi -- scal-157152
+
+dbt Worksheet join rule:: Previously, when a Worksheet was created from a dbt model, the default worksheet join rule was "apply all joins". Now, "apply joins progressively" is the default. This means that when a Search is done on the Worksheet, joins are applied as each search term is added, rather than applying all joins to every Search.
+
+// Naomi -- scal-149212
+
+dbt sync:: In the past, ThoughtSpot generated a new Worksheet every time a user edited an existing dbt data model. Now, ThoughtSpot maintains a persistent connection with dbt and provides realtime updates. Users can update an object, update an object and create a new object, or simply create a new object.
+For more information, see xref:dbt-integration.adoc[].
+
+// Naomi -- scal-119947, scal-132902
+
+dbt:: ThoughtSpot now supports dbt version 1.6.
+
 [#business-user-9-8-0-sw]
 === For the Business User
 
@@ -60,8 +74,25 @@ Improved error messaging for Liveboard visualizations:: Previously, ThoughtSpot 
 // Naomi -- scal-139411
 Query performance visibility [.badge.badge-beta-relnotes]#Beta#:: You can now see the state of query execution for any Liveboard visualization while it loads. If a visualization takes longer than three seconds to load, ThoughtSpot displays the current query execution status (executing query, waiting for connection, or processing query) to help users identify the reason for the delay.
 
+// Naomi -- scal-154258
+Hidden columns in tables::
+You can now hide a column from your table without removing it from your current Search. If you hide the column you’re using to sort results, the sorting order is unchanged. To try it out, create an Answer, open the chart configuration menu gear icon, and drag the selected column to *Hidden Columns*. For more information, see xref:chart-table.adoc#hidden-column[Hide a column].
+
 [#data-engineer-9-8-0-sw]
 === For the Data Engineer
+
+// Naomi -- scal-79850, scal-164909, scal-166159, scal-166160,scal-166161
+Connections::
+We added support for the following connections:
+
+* xref:connections-amazon-athena.adoc[Amazon Athena]
+* xref:connections-google-alloydb-postgresql.adoc[Google AlloyDB for PostreSQL]
+* xref:connections-google-cloud-sql-postgresql.adoc[Google Cloud SQL for PostgreSQL]
+* xref:connections-google-cloud-sql-sql-server.adoc[Google Cloud SQL for SQL Server]
+* xref:connections-singlestore.adoc[SingleStore]
+
+//Naomi -- scal-136661
+OAuth for Databricks using Proof Key for Code Exchange (PKCE):: We now support xref:connections-databricks-add.adoc[OAuth with PKCE for Databricks].
 
 [#it-ops-engineer-9-8-0-sw]
 === For the IT Ops Engineer

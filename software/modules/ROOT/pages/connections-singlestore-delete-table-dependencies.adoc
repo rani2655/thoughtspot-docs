@@ -12,7 +12,7 @@
 If you attempt to delete a table with dependent objects, the operation is blocked.
 A _Cannot delete_ window appears, with a list of links to dependent objects.
 
-NOTE: SingleStore is in Early Access. To enable this feature, contact {support-url}.
+//NOTE: SingleStore is in Early Access. To enable this feature, contact {support-url}.
 
 
 In the _Cannot delete_ window, select the link for each object to modify or delete it.

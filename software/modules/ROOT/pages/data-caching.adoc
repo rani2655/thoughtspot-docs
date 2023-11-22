@@ -22,6 +22,7 @@ You can connect to the following external databases:
 
 [cols="15,~",frame=none,grid=none]
 |===
+a| image::amazon-athena-icon.png[Amazon Athena logo] .^a|xref:connections-amazon-athena.adoc[Amazon Athena]
 a| image::amazon-aurora-icon.png[Amazon Aurora logo] .^a|xref:connections-amazon-aurora-mysql.adoc[Amazon Aurora MySQL]
 a| image::amazon-aurora-icon.png[Amazon Aurora logo] .^a|xref:connections-amazon-aurora-postgresql.adoc[Amazon Aurora PostgreSQL]
 a| image::amazon-rds-icon.png[Amazon RDS logo] .^a|xref:connections-amazon-rds-mysql.adoc[Amazon RDS MySQL]
@@ -31,8 +32,11 @@ a| image::logo-synapse.png[Azure Synapse logo]  .^a|xref:connections-synapse.ado
 a|  image::logo-databricks.png[Databricks logo] .^a|xref:connections-databricks.adoc[Databricks]
 a|  image::logo-denodo.png[Denodo logo] .^a|xref:connections-denodo.adoc[Denodo]
 a|  image::logo-dremio.png[Dremio logo] .^a|xref:connections-dremio.adoc[Dremio]
-a| image::java-jdbc-icon.png[Generic JDBC logo] .^a|xref:connections-genericjdbc.adoc[Generic JDBC]
+//a| image::java-jdbc-icon.png[Generic JDBC logo] .^a|xref:connections-genericjdbc.adoc[Generic JDBC]
+a| image::gcp-alloydb-icon.png[Google AlloyDB for PostgreSQL logo] .^a|xref:connections-google-alloydb-postgresql.adoc[Google AlloyDB for PostgreSQL]
 a| image::logo-gcp.png[Google BigQuery logo] .^a|xref:connections-gbq.adoc[Google Big Query]
+a| image::google-cloud-sql.png[Google Cloud SQL for PostgreSQL logo] .^a|xref:connections-google-cloud-sql-postgresql.adoc[Google Cloud SQL for PostgreSQL]
+a| image::google-cloud-sql.png[Google Cloud SQL for SQL Server logo] .^a|xref:connections-google-cloud-sql-sql-server.adoc[Google Cloud SQL for SQL Server]
 a| image::mysql-icon.png[MySQL logo] .^a|xref:connections-mysql.adoc[MySQL]
 a| image::logo-oracle.png[Oracle logo] .^a|xref:connections-adw.adoc[Oracle]
 a| image::logo-postgresql.png[PostgreSQL logo] .^a|xref:connections-postgresql.adoc[PostgreSQL]

@@ -72,17 +72,30 @@ We made the following enhancements to verified Liveboards:
 
 // Mary -- scal-158469
 
+[#9-8-0-sw-hidden]
+[discrete]
+=== Hidden columns in tables
+
+// Naomi -- scal-154258
+
+
+You can now hide a column from your table without removing it from your current Search. If you hide the column you’re using to sort results, the sorting order is unchanged. To try it out, create an Answer, open the chart configuration menu gear icon, and drag the selected column to *Hidden Columns*. For more information, see
+ifndef::pendo-links[]
+xref:chart-table.adoc#hidden-column[Hide a column].
+endif::[]
+ifdef::pendo-links[]
+xref:chart-table.adoc#hidden-column[Hide a column,window=_blank].
+endif::[]
+
+image::hidden-column.png[Hidden column section]
+
 [#9-8-0-sw-mobile]
 [discrete]
 === Mobile UI revamp
 
 // Mary -- scal-159709
 
-[#9-8-0-sw-magiclink]
-[discrete]
-=== Magic Link on mobile
 
-// Naomi -- scal-111883
 
 [#9-8-0-sw-html]
 [discrete]
@@ -98,7 +111,7 @@ We made the following enhancements to verified Liveboards:
 
 [#9-8-0-sw-error]
 [discrete]
-=== Improve error messaging for Liveboard visualizations
+=== Improved error messaging for Liveboard visualizations
 
 // Naomi -- scal-150635
 
@@ -149,29 +162,22 @@ image::query-execution.png[Liveboard displaying query execution status as visual
 
 // Mark -- scal-161954, scal-161429, scal-159842
 
-[#9-8-0-sw-dbt]
-[discrete]
-=== dbt integration
 
-// Naomi -- scal-157152
-
-[#9-8-0-sw-incremental]
-[discrete]
-=== dbt incremental sync
-
-// Naomi -- scal-149212
-
+////
 [#9-8-0-sw-api]
 [discrete]
 === dbt integration: public API
 
 // Naomi -- scal-132886
+////
 
+////
 [#9-8-0-sw-worksheet]
 [discrete]
 === Support worksheet-level joins
 
 // Naomi -- scal-137306
+////
 
 [#9-8-0-sw-looker]
 [discrete]
@@ -179,11 +185,7 @@ image::query-execution.png[Liveboard displaying query execution status as visual
 
 // Mark -- scal-154758
 
-[#9-8-0-sw-hidden]
-[discrete]
-=== Hidden columns in table configuration
 
-// Naomi -- scal-154258
 
 [#9-8-0-sw-filter]
 [discrete]
@@ -212,31 +214,78 @@ image::query-execution.png[Liveboard displaying query execution status as visual
 
 We added support for the following connections:
 
-* Amazon Athena
-* Google AlloyDB for PostreSQL
-* Google Cloud SQL for PostgreSQL
-* Google Cloud SQL for SQL Server
-* SingleStore
+ifndef::pendo-links[]
+* xref:connections-amazon-athena.adoc[Amazon Athena]
+* xref:connections-google-alloydb-postgresql.adoc[Google AlloyDB for PostreSQL]
+* xref:connections-google-cloud-sql-postgresql.adoc[Google Cloud SQL for PostgreSQL]
+* xref:connections-google-cloud-sql-sql-server.adoc[Google Cloud SQL for SQL Server]
+* xref:connections-singlestore.adoc[SingleStore]
+endif::[]
+ifdef::pendo-links[]
+* xref:connections-amazon-athena.adoc[Amazon Athena,window=_blank]
+* xref:connections-google-alloydb-postgresql.adoc[Google AlloyDB for PostreSQL,window=_blank]
+* xref:connections-google-cloud-sql-postgresql.adoc[Google Cloud SQL for PostgreSQL,window=_blank]
+* xref:connections-google-cloud-sql-sql-server.adoc[Google Cloud SQL for SQL Server,window=_blank]
+* xref:connections-singlestore.adoc[SingleStore,window=_blank]
+endif::[]
 
-[#9-8-0-sw-pkce]
+
+[#9-7-0-cl-oauth]
 [discrete]
-=== OAuth for Databricks using PKCE
+=== OAuth for Databricks using Proof Key for Code Exchange (PKCE)
 
-// Naomi -- scal-136661
+// Naomi-- scal-136661
+
+We now support
+ifndef::pendo-links[]
+xref:connections-databricks-add.adoc[OAuth with PKCE for Databricks].
+endif::[]
+ifdef::pendo-links[]
+xref:connections-databricks-add.adoc[OAuth with PKCE for Databricks,window=_blank].
+endif::[]
+
+
+[#9-8-0-sw-dbt]
+[discrete]
+=== dbt Worksheet join rule
+
+// Naomi -- scal-157152
+
+Previously, when a Worksheet was created from a dbt model, the default worksheet join rule was "apply all joins". Now, "apply joins progressively" is the default. This means that when a Search is done on the Worksheet, joins are applied as each search term is added, rather than applying all joins to every Search.
+
+[#9-8-0-sw-incremental]
+[discrete]
+=== dbt sync
+
+// Naomi -- scal-149212
+
+In the past, ThoughtSpot generated a new Worksheet every time a user edited an existing dbt data model. Now, ThoughtSpot maintains a persistent connection with dbt and provides realtime updates. Users can update an object, update an object and create a new object, or simply create a new object.
+For more information, see
+ifndef::pendo-links[]
+xref:dbt-integration.adoc[Integrate with dbt].
+endif::[]
+ifdef::pendo-links[]
+xref:dbt-integration.adoc[Integrate with dbt,window=_blank].
+endif::[]
+
 
 [#9-8-0-sw-v1]
 [discrete]
-=== dbt integration, version 1.6
+=== dbt
 
 // Naomi -- scal-119947, scal-132902
 
+ThoughtSpot now supports dbt version 1.6.
+
 // IT / Ops engineer
 
+////
 [#9-8-0-sw-deleted]
 [discrete]
 === Remove deleted visualizations from object usage count
 
 // Naomi -- scal-161589
+////
 
 [#9-8-0-sw-oel8]
 [discrete]
