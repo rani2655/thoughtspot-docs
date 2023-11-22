@@ -6,7 +6,7 @@
 :description: You can edit a SingleStore connection to add tables and columns.
 :connection: SingleStore
 
-NOTE: SingleStore is in Early Access. To enable this feature, contact {support-url}.
+//NOTE: SingleStore is in Early Access. To enable this feature, contact {support-url}.
 
 
 To edit a {connection} connection:

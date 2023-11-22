@@ -89,7 +89,7 @@ We added support for the following connections:
 * xref:connections-google-alloydb-postgresql.adoc[Google AlloyDB for PostreSQL]
 * xref:connections-google-cloud-sql-postgresql.adoc[Google Cloud SQL for PostgreSQL]
 * xref:connections-google-cloud-sql-sql-server.adoc[Google Cloud SQL for SQL Server]
-* SingleStore
+* xref:connections-singlestore.adoc[SingleStore]
 
 [#it-ops-engineer-9-8-0-sw]
 === For the IT Ops Engineer
