@@ -10,7 +10,7 @@
 
 You can now add your own custom charts to ThoughtSpot. This article describes how you can add, edit, and delete custom charts.
 
-For developers who want to create custom charts, refer to the https://ts-chart-sdk-docs.vercel.app/[ThoughtSpot chart SDK documentation^].
+For developers who want to create custom charts, refer to the https://github.com/thoughtspot/ts-chart-sdk/blob/main/README.md/[ThoughtSpot charts SDK documentation^].
 
 == Adding a custom chart
 
