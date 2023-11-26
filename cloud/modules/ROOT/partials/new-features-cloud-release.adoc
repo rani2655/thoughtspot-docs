@@ -93,7 +93,7 @@ Looker Modeler connection:: You can now create a connection to Looker Modeler. F
 
 // Mark -- SCAL-179003
 
-Custom charts:: Your ThoughtSpot administrator can now add custom charts your ThoughtSpot cluster.  For more information, see xref:chart-byoc.adoc[].
+Custom charts:: ThoughtSpot administrators can now add custom charts to a ThoughtSpot cluster.  For more information, see xref:chart-byoc.adoc[].
 
 [#9-9-0-cl-developer]
 === For the Developer
