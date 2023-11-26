@@ -167,14 +167,7 @@ Previously, ThoughtSpot supported the `ts_username` variable for use in row-leve
 
 When creating a filter on a Liveboard or Answer, you must have access to the underlying data source. Users can now request access to the underlying Worksheet through the filter modal on a Liveboard or Answer.
 
-image::filter-request-access.png[]
-
-[#9-7-0-cl-coms]
-[discrete]
-=== ThoughtSpot Slack bot integration
-ThoughtSpot delivers a Slack bot integration. Get notified in Slack when Liveboards are updated.  ThoughtSpot's Slack integration lets you preview Liveboard and Answer links directly in Slack.
-
-// Mary-- ask for clarification on what this means since we already have Slack integration with Sync. internal name is Coms, external name is Notifications. are the notifications now pushed to Slack from the Liveboard? What notifications are there-- someone requested access/ shared? Or other updates? may add in language "get notified when x happens in Slack"
+image::filter-request-access.png[]s
 
 [#9-7-0-cl-data-fluency-ga]
 // SCAL-161459

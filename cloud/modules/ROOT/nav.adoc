@@ -263,19 +263,6 @@
 **** xref:connections-google-cloud-sql-sql-server-delete.adoc[Delete connection]
 **** xref:connections-google-cloud-sql-sql-server-reference.adoc[Connection reference]
 **** xref:connections-google-cloud-sql-sql-server-passthrough.adoc[]
-
-////
-*** xref:connections-google-sheets.adoc[Connect to Google Sheets]
-**** xref:connections-google-sheets-add.adoc[Add connection]
-**** xref:connections-google-sheets-edit.adoc[Edit connection]
-**** xref:connections-google-sheets-remap.adoc[Remap connection]
-**** xref:connections-google-sheets-delete-table.adoc[Delete table]
-**** xref:connections-google-sheets-delete-table-dependencies.adoc[Delete table with dependencies]
-**** xref:connections-google-sheets-delete.adoc[Delete connection]
-**** xref:connections-google-sheets-reference.adoc[Connection reference]
-**** xref:connections-google-sheets-passthrough.adoc[]
-////
-
 *** xref:connections-looker.adoc[Connect to Looker Modeler]
 **** xref:connections-looker-add.adoc[Add connection]
 **** xref:connections-looker-edit.adoc[Edit connection]
@@ -548,6 +535,7 @@
 *** xref:chart-gridlines.adoc[Display gridlines]
 *** xref:chart-zoom.adoc[Zoom into chart]
 *** xref:chart-settings-advanced.adoc[Advanced chart customization settings]
+** xref:chart-byoc.adoc[Custom charts]
 * xref:formulas.adoc[Formulas]
 ** xref:formula-add.adoc[Add formula to search]
 ** xref:formula-answer-edit.adoc[View or edit formula in search]
@@ -572,6 +560,7 @@
 ** xref:personalized-liveboard-views.adoc[Personalized Liveboard views]
 ** xref:liveboard-verify.adoc[Verified Liveboards]
 ** xref:answer-explorer.adoc[Answer Explorer]
+** xref:liveboard-ai-highlights.adoc[AI highlights]
 ** xref:liveboard-schedule.adoc[Schedule a Liveboard job]
 ** xref:liveboard-search.adoc[Search actions within a Liveboard]
 ** xref:liveboard-copy.adoc[Copy a Liveboard]
@@ -747,3 +736,15 @@
 ** xref:reaggregation-scenarios.adoc[Reaggregation in practice]
 ** xref:liveboard-gating-condition-example.adoc[Liveboard schedule gating conditions in practice]
 ** xref:liveboard-hyperlink.adoc[Add a hyperlink to a search]
+
+////
+*** xref:connections-google-sheets.adoc[Connect to Google Sheets]
+**** xref:connections-google-sheets-add.adoc[Add connection]
+**** xref:connections-google-sheets-edit.adoc[Edit connection]
+**** xref:connections-google-sheets-remap.adoc[Remap connection]
+**** xref:connections-google-sheets-delete-table.adoc[Delete table]
+**** xref:connections-google-sheets-delete-table-dependencies.adoc[Delete table with dependencies]
+**** xref:connections-google-sheets-delete.adoc[Delete connection]
+**** xref:connections-google-sheets-reference.adoc[Connection reference]
+**** xref:connections-google-sheets-passthrough.adoc[]
+////

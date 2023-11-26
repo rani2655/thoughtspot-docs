@@ -8,7 +8,9 @@
 :description: With custom charts, you can add your own custom charts to ThoughtSpot.
 :jira: SCAL-179003
 
-You can now your own custom charts to ThoughtSpot. This article describes how you can add and edit your custom charts.
+You can now add your own custom charts to ThoughtSpot. This article describes how you can add, edit, and delete custom charts.
+
+For developers who want to create custom charts, refer to the https://github.com/thoughtspot/ts-chart-sdk/blob/main/README.md/[ThoughtSpot charts SDK documentation^].
 
 == Adding a custom chart
 
@@ -18,11 +20,38 @@ To add a custom chart, do the following:
 . Under _Application settings_, Select *Chart customization*.
 . Select the *Custom charts* tab.
 . Click *Add chart*
++
+The Add custom chart window appears.
++
+image::chart-custom.png[]
+
+
 . Enter the following fields:
-- Chart Name
+- Name
 - Description (optional)
-- Chart Application Url
-- Icon Url (optional)
-- Chart author's name (optional)
-- Chart author's email (optional)
-. Click *Continue*.
+- Application URL
+- Icon URL (optional)
+- Author name (optional)
+- Author email (optional)
+- Author organization (optional)
+. Click *Add chart*.
++
+Your new chart appears on the _Custom charts_ page, and is now available for use when creating a chart in ThoughtSpot.
+
+== Editing a custom chart
+
+. Select *Admin* in the top navigation bar.
+. Under _Application settings_, Select *Chart customization*.
+. Select the *Custom charts* tab.
+. Find the name of the chart you want to change, and click *Edit*.
+. In the the _Update custom chart_ window, make any changes necessary, then click *Update chart*.
+
+== Deleting a custom chart
+
+. Select *Admin* in the top navigation bar.
+. Under _Application settings_, Select *Chart customization*.
+. Select the *Custom charts* tab.
+. Find the name of the chart you want to delete, and click *Delete*.
++
+. In the _Delete custom chart_ warning message which appears, click *Delete*.
+

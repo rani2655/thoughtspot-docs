@@ -27,7 +27,7 @@ ThoughtSpot Sync from unsaved Answers:: You can now create syncs from Answers wi
 === For the Business User
 
 // Naomi -- scal-175860. actually beta
-Glean integration:: You can now use Glean to search unstructured data, such as documents, powerpoints, and excel files, directly from a Liveboard. Add a Glean tile to your Liveboard to easily add context to your ThoughtSpot data insights. Glean inherits the filters and query terms defined by your Liveboard. You can configure Glean results to include or exclude these terms from your search. Glean results are tailored to each user based on their team, search activity, and preferences. For more information, see xref:glean-integration.adoc[Glean integration].
+Glean integration:: You can now use Glean to search unstructured data, such as documents, PowerPoint, and Excel files, directly from a Liveboard. Add a Glean tile to your Liveboard to easily add context to your ThoughtSpot data insights. Glean inherits the filters and query terms defined by your Liveboard. You can configure Glean results to include or exclude these terms from your search. Glean results are tailored to each user based on their team, search activity, and preferences. For more information, see xref:glean-integration.adoc[Glean integration].
 
 
 // Naomi -- scal-175485, scal-177391. actually EA.
@@ -51,6 +51,7 @@ Run change analysis iteratively:: You can now drill down on specific columns in 
 // Naomi -- scal-156247
 Natural language search chart type:: You can now specify the answering chart type when you use Natural Language Search. For example, search for "sales by region pie chart", and the results appear in pie chart format. For more information, see xref:ai-answers.adoc[].
 
+
 //Mary -- scal-134503
 Functional enhancements for verified Liveboards:: Easily find verified Liveboards marked with banners, and icons. Sort search results to view content tagged as verified. Request verification of Liveboards and cancel requests when needed. For more information, see xref:liveboard-verify.adoc[Verify Liveboards].
 
@@ -71,11 +72,14 @@ To access this feature, go to your KPI chart and select the caret icon to the ri
 * You can now receive ThoughtSpot mobile push notifications. Receive push notifications when a Liveboard or Answer is shared with you. Monitor scheduled and threshold alerts with push notifications.
 
 
+=======
+// Mark -- SCAL-178264
+AI highlights:: Now, highlights are automatically generated for the top metrics in your Liveboards. They give you a quick summary of how your top metrics have changed since the last time you viewed your Liveboard, and reduce the time dramatically in deriving insights from your KPIs.
+For more information, see xref:liveboard-ai-highlights.adoc[].
+
 
 [#9-9-0-cl-data-engineer]
 === For the Data Engineer
-
-
 
 // Naomi -- scal-166158
 
@@ -84,6 +88,15 @@ Google Cloud SQL for MySQL connection:: We added support for xref:connections-go
 // Naomi -- scal-158415
 Row-level security in custom calendars:: We now support row-level security in custom calendars.
 
+// Mark -- SCAL-161198
+Looker Modeler connection:: You can now create a connection to Looker Modeler. For more information, see xref:connections-looker.adoc[Looker Modeler].
+
+[#9-9-0-cl-it-ops]
+=== For the IT/Ops Engineer
+
+// Mark -- SCAL-179003
+
+Custom charts:: Your ThoughtSpot administrator can now add custom charts your ThoughtSpot cluster.  For more information, see xref:chart-byoc.adoc[].
 
 [#9-9-0-cl-developer]
 === For the Developer
