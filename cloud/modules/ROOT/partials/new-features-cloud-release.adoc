@@ -95,8 +95,10 @@ To access this feature, go to your KPI chart and select the caret icon to the ri
 
 Google Cloud SQL for MySQL connection:: We added support for xref:connections-google-cloud-sql-mysql.adoc[Google Cloud SQL for MySQL].
 
+////
 // Naomi -- scal-158415
 Row-level security in custom calendars:: We now support row-level security in custom calendars.
+////
 
 // Mark -- SCAL-161198
 Looker Modeler connection:: You can now create a connection to Looker Modeler. For more information, see xref:connections-looker.adoc[Looker Modeler].
