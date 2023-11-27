@@ -285,10 +285,10 @@ endif::[]
 with regions that are specific to you and your organization.
 
 For more information, see
-ifndef::pendo-links
+ifndef::pendo-links[]
 xref:geomaps-custom.adoc[Upload custom geo maps].
 endif::[]
-ifdef::pendo-links
+ifdef::pendo-links[]
 xref:geomaps-custom.adoc[Upload custom geo maps,window=_blank].
 endif::[]
 
