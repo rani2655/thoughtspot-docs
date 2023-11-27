@@ -74,7 +74,7 @@ For more information, see xref:liveboard-ai-highlights.adoc[].
 
 //Mary scal-174139, scal-158579, scal-174139
 Roles and more granular access privileges:: ThoughtSpot introduces role-based access control (RBAC) to allow for more granular access privileges. Use roles to apply privileges customized for your organizational needs.
-ThoughtSpot includes some standard roles to help existing customers transition to RBAC. RBAC is supported in Primary Orgs. To enable RBAC, contact ThoughtSpot Support. For more information, see xref:rbac.adoc[Understand RBAC and privileges].
+ThoughtSpot includes some standard roles to help existing customers transition to RBAC. RBAC is supported in Primary Orgs. To enable RBAC, contact {support-url}. For more information, see xref:rbac.adoc[Understand RBAC and privileges].
 
 
 //scal-159581, scal-102588, scal-95381, scal-165060, scal-161325, scal-154973, scal-142097, scal-102588, scal-158204

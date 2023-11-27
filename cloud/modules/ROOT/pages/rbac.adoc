@@ -12,7 +12,7 @@ Roles can be assigned to groups.
 A group can have one or more roles assigned to it.
 When multiple roles are assigned to a group, the privileges available to users within that group are a union of the privileges in each role assigned to the group.
 
-RBAC is disabled by default. To enable this feature, contact ThoughtSpot Support.
+RBAC is disabled by default. To enable this feature, contact {support-url}.
 
 CAUTION: Once you enable RBAC it cannot be disabled.
 
