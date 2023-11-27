@@ -209,13 +209,25 @@ When users are invited to ThoughtSpot via a Share link, they can now click the *
 [#9-5-0-sw-legend]
 [discrete]
 === Ability to change legend position
-You can now configure the legend position of a chart, or hide the legend. The available options are left, right, above, and below the visualization. To try it out, open the chart configuration menu, select Settings, and choose between Legend on right, Legend on left, Legend on top, and Legend on bottom. You can select the Show legend toggle to hide or show the legend. See xref:chart-change.adoc [Changing charts].
+You can now configure the legend position of a chart, or hide the legend. The available options are left, right, above, and below the visualization. To try it out, open the chart configuration menu, select Settings, and choose between Legend on right, Legend on left, Legend on top, and Legend on bottom. You can select the Show legend toggle to hide or show the legend. See
+ifndef::pendo-links[]
+xref:chart-change.adoc[Changing charts].
+endif::[]
+ifdef::pendo-links[]
+xref:chart-change.adoc[Changing charts,window=_blank].
+endif::[]
 // Mary -- scal-135812
 
 [#9-5-0-sw-download]
 [discrete]
 === Specify format when downloading charts and tables
-We streamlined the file format options when downloading tables and charts from ThoughtSpot. You can download tables in XLSX, CSV, or PDF format, and download charts in XLSX, CSV, or PNG format. To try it out, open a chart or table, and select Download from the more options menu ellipsis icon. For more information, see xref:search-download.adoc [Download a chart or table].
+We streamlined the file format options when downloading tables and charts from ThoughtSpot. You can download tables in XLSX, CSV, or PDF format, and download charts in XLSX, CSV, or PNG format. To try it out, open a chart or table, and select Download from the more options menu ellipsis icon. For more information, see
+ifndef::pendo-links[]
+xref:search-download.adoc[Download a chart or table].
+endif::[]
+ifdef::pendo-links[]
+xref:search-download.adoc[Download a chart or table,window=_blank].
+endif::[]
 // Mary -- scal-132859
 
 
@@ -229,7 +241,13 @@ We streamlined the file format options when downloading tables and charts from T
 
 // Naomi
 
-You can now set your KPI chart to display a percent change comparison between the most recent data point and a custom comparison point. For example, when searching for sales monthly, you can choose to see percent change between this month and the previous month, previous quarter, or previous year. For more information, see xref:chart-kpi.adoc#kpi-custom-comparison[Custom comparison points].
+You can now set your KPI chart to display a percent change comparison between the most recent data point and a custom comparison point. For example, when searching for sales monthly, you can choose to see percent change between this month and the previous month, previous quarter, or previous year. For more information, see
+ifndef::pendo-links[]
+xref:chart-kpi.adoc#kpi-custom-comparison[Custom comparison points].
+endif::[]
+ifdef::pendo-links[]
+xref:chart-kpi.adoc#kpi-custom-comparison[Custom comparison points,window=_blank].
+endif::[]
 
 image::kpi-comparison-point.gif[KPI comparison point]
 
@@ -256,9 +274,22 @@ When you create bar and column charts and slice by color, ThoughtSpot automatica
 [#9-5-0-sw-custom]
 [discrete]
 === Upload custom geo maps
-Upload your own custom maps and visualize data on xref:chart-geo.adoc [geo charts] with regions that are specific to you and your organization.
+Upload your own custom maps and visualize data on
+ifndef::pendo-links[]
+xref:chart-geo.adoc[geo charts]
+endif::[]
+ifdef::pendo-links[]
+xref:chart-geo.adoc[geo charts,window=_blank]
+endif::[]
+with regions that are specific to you and your organization.
 
-For more information, see xref:geomaps-custom.adoc [Upload custom geo maps].
+For more information, see
+ifndef::pendo-links[]
+xref:geomaps-custom.adoc[Upload custom geo maps].
+endif::[]
+ifdef::pendo-links[]
+xref:geomaps-custom.adoc[Upload custom geo maps,window=_blank].
+endif::[]
 // Mary -- scal-135569
 
 [#9-5-0-sw-geomap]
@@ -266,7 +297,7 @@ For more information, see xref:geomaps-custom.adoc [Upload custom geo maps].
 === Geomap chart enhancements
 ThoughtSpot now supports the following enhancements for geomap visualizations:
 
-* We now provide geomap data for all countries. For a full list, see https://wiki.openstreetmap.org/wiki/List_of_territory_based_projects[Openstreetmap supported countries].
+* We now provide geomap data for all countries. For a full list, see link:https://wiki.openstreetmap.org/wiki/List_of_territory_based_projects[Openstreetmap supported countries].
 
 * We now support multiple levels of subdivisions within a country, rather than just city and zip code.
 
@@ -274,34 +305,71 @@ ThoughtSpot now supports the following enhancements for geomap visualizations:
 
 To enable these features, the Geo config property in the underlying Worksheet must be set to Auto select.
 
-For more information, see xref:chart-geo.adoc[Geo chart enhancements].
+For more information, see
+ifndef::pendo-links[]
+xref:chart-geo.adoc[Geo chart enhancements].
+endif::[]
+ifdef::pendo-links[]
+xref:chart-geo.adoc[Geo chart enhancements,window=_blank].
+endif::[]
 // Mary -- scal-115329
 
 
 [#9-5-0-sw-pdf]
 [discrete]
 === Scheduled or downloaded Liveboard PDF width
-By default, scheduled and downloaded Liveboard PDFs now render at a width of 1920 px. This ensures that most Liveboard PDFs you download or schedule look the same as the Liveboards you see in ThoughtSpot. You can also change this default width to a different width for your company, by contacting {support-url}. See xref:liveboard-download-pdf.adoc [Download a Liveboard as a PDF] and xref:liveboard-schedule.adoc [Schedule a Liveboard job].
+By default, scheduled and downloaded Liveboard PDFs now render at a width of 1920 px. This ensures that most Liveboard PDFs you download or schedule look the same as the Liveboards you see in ThoughtSpot. You can also change this default width to a different width for your company, by contacting {support-url}. See
+ifndef::pendo-links[]
+xref:liveboard-download-pdf.adoc[Download a Liveboard as a PDF]
+endif::[]
+ifndef::pendo-links[]
+xref:liveboard-download-pdf.adoc[Download a Liveboard as a PDF,window=_blank]
+endif::[]
+and
+ifndef::pendo-links[]
+xref:liveboard-schedule.adoc[Schedule a Liveboard job].
+endif::[]
+ifdef::pendo-links[]
+xref:liveboard-schedule.adoc[Schedule a Liveboard job,window=_blank].
+endif::[]
 // Mary -- scal-143888, 136076
 
 [#9-5-0-sw-reorder]
 [discrete]
 === Change filter order for Answer filters
 Change filter order for Answer filters
-Arrange Answer filters in the filter bar so that they are in a logical, coherent order, by dragging and dropping them to different spots in the list. This makes it easier for viewers of the Answer to understand and use the filters on the Answer. For more information, see xref:filters.adoc [Change the filter order].
+Arrange Answer filters in the filter bar so that they are in a logical, coherent order, by dragging and dropping them to different spots in the list. This makes it easier for viewers of the Answer to understand and use the filters on the Answer. For more information, see
+ifndef::pendo-links[]
+xref:filters.adoc[Change the filter order].
+endif::[]
+ifdef::pendo-links[]
+xref:filters.adoc[Change the filter order,window=_blank].
+endif::[]
 // Mary -- scal-139847
 
 [#9-5-0-sw-filter-order]
 [discrete]
 === Change filter order for Liveboard filters
-Arrange Liveboard filters in the filter bar so that they are in a logical, coherent order, by dragging and dropping them to different spots in the list. This makes it easier for viewers of the Liveboard to understand and use the filters on the Liveboard. For more information, see see xref:liveboard-filters.adoc [Change the filter order].
+Arrange Liveboard filters in the filter bar so that they are in a logical, coherent order, by dragging and dropping them to different spots in the list. This makes it easier for viewers of the Liveboard to understand and use the filters on the Liveboard. For more information,  see
+ifndef::pendo-links[]
+xref:liveboard-filters.adoc[Change the filter order].
+endif::[]
+ifdef::pendo-links[]
+xref:liveboard-filters.adoc[Change the filter order,window=_blank].
+endif::[]
 // Mary -- scal-134604
 
 [#9-5-0-sw-attribute]
 [discrete]
 === Attributes in pivot table cells
 Attributes in pivot table cells
-You can now include attributes in the pivot table cells as well as measures. This is useful for cases when you want to summarize text data such as user role, pass/fail, or other attributes. For more information, see xref:chart-pivot-table.adoc [Pivot table charts].
+You can now include attributes in the pivot table cells as well as measures. This is useful for cases when you want to summarize text data such as user role, pass/fail, or other attributes. For more information, see
+ifndef::pendo-links[]
+xref:chart-pivot-table.adoc[Pivot table charts].
+endif::[]
+ifdef::pendo-links[]
+xref:chart-pivot-table.adoc[Pivot table charts,window=_blank].
+endif::[]
 // Mary -- scal-139353
 
 [#9-5-0-sw-sticky]
@@ -351,7 +419,13 @@ endif::[]
 
 You can now create custom groups, which can be used to classify values in a list you can then reuse across multiple analyses. As an example, you can use custom groups to search for which products are most popular, and define them by sales volume as “gold”, “silver”, or “bronze” level products. Custom groups are community objects which remain when you navigate away from the Search Data page and can be viewed by any user with view access to the underlying Worksheet.
 
-For more information, see xref:custom-groups.adoc[Custom groups].
+For more information, see
+ifndef::pendo-links[]
+xref:custom-groups.adoc[Custom groups].
+endif::[]
+ifdef::pendo-links[]
+xref:custom-groups.adoc[Custom groups,window=_blank].
+endif::[]
 
 image::custom-groups.gif[Custom groups]
 
@@ -365,7 +439,13 @@ image::custom-groups.gif[Custom groups]
 
 We added support for rolling, fixed, and custom date filters when creating an Answer or filtering a Liveboard. Previously, when adding a date filter to a Search, ThoughtSpot supported the conditions `ON` (=), `ON OR AFTER` (>=), `BEFORE` (<), and `BETWEEN`. Now, you can additionally filter for `ON OR BEFORE` (\<=), `NOT BETWEEN`, `ON LAST`, and `ON NEXT`.
 
-To try it out, click the filter icon next to the Date column in the left side menu, or click the date filter below the Answer or Liveboard title. For more information, see xref:date-filter.adoc[Date filters for Answers and Liveboards].
+To try it out, click the filter icon next to the Date column in the left side menu, or click the date filter below the Answer or Liveboard title. For more information, see
+ifndef::pendo-links[]
+xref:date-filter.adoc[Date filters for Answers and Liveboards].
+endif::[]
+ifdef::pendo-links[]
+xref:date-filter.adoc[Date filters for Answers and Liveboards,window=_blank].
+endif::[]
 
 image::date-picker.png[Date picker]
 
@@ -420,7 +500,13 @@ When scheduling Liveboards, you can now specify your timezone.
 [#9-5-0-sw-heatmap]
 [discrete]
 === Disable heatmap data labels
-Optionally disable heatmap charts' data labels, and understand the chart quickly by scanning the heatmap colors. This makes complex heatmap charts with many data values easier to read. See xref:chart-heatmap.adoc [Heatmap charts].
+Optionally disable heatmap charts' data labels, and understand the chart quickly by scanning the heatmap colors. This makes complex heatmap charts with many data values easier to read. See
+ifndef::pendo-links[]
+xref:chart-heatmap.adoc[Heatmap charts].
+endif::[]
+ifdef::pendo-links[]
+xref:chart-heatmap.adoc[Heatmap charts,window=_blank].
+endif::[]
 // Mary -- scal-137431
 
 [#9-5-0-sw-dark]
@@ -432,13 +518,25 @@ Data labels on a dark background are now GA and on by default. Labels that appea
 [#9-5-0-sw-apply]
 [discrete]
 === Apply multiple chart changes at once
-The apply multiple changes feature is now GA and on by default. In previous releases, every time a user reordered the fields in the chart configuration panel, the chart reloaded. When creating a visualization with multiple fields, users often need to make multiple rearrangements to reach a desired chart. Now users can make multiple configurations and apply them at the same time rather than waiting in between each configuration. For more information, see xref:chart-x-axis.adoc [Reorder labels on the axis or legend].
+The apply multiple changes feature is now GA and on by default. In previous releases, every time a user reordered the fields in the chart configuration panel, the chart reloaded. When creating a visualization with multiple fields, users often need to make multiple rearrangements to reach a desired chart. Now users can make multiple configurations and apply them at the same time rather than waiting in between each configuration. For more information, see
+ifndef::pendo-links[]
+xref:chart-x-axis.adoc[Reorder labels on the axis or legend].
+endif::[]
+ifdef::pendo-links[]
+xref:chart-x-axis.adoc[Reorder labels on the axis or legend,window=_blank].
+endif::[]
 // Mary -- scal-136519
 
 [#9-5-0-sw-attached]
 [discrete]
 === Remove attached files from scheduled emails
-For data security, you may choose to remove attached files from scheduled Liveboard emails. When this feature is enabled, scheduled Liveboard email recipients will receive an email with a link to the Liveboard, which they will need to sign in to see.To ensure that only signed-in users can access your data, contact {support-url} Support to enable this option. For more information, see xref:schedule-liveboards.adoc [Scheduled Liveboards].
+For data security, you may choose to remove attached files from scheduled Liveboard emails. When this feature is enabled, scheduled Liveboard email recipients will receive an email with a link to the Liveboard, which they will need to sign in to see.To ensure that only signed-in users can access your data, contact {support-url} Support to enable this option. For more information, see
+ifndef::pendo-links[]
+xref:schedule-liveboards.adoc[Scheduled Liveboards].
+endif::[]
+ifdef::pendo-links[]
+xref:schedule-liveboards.adoc[Scheduled Liveboards,window=_blank].
+endif::[]
 // Mary -- scal-136282
 
 ifdef::pendo-links[]
@@ -486,10 +584,10 @@ Under the new aggregation behavior, the formula result will continue to display 
 
 For more information, see
 ifndef::pendo-links[]
-xref:formulas-aggregation-flexible.adoc#reaggregation-enhancment[Flexible aggregation functions].
+xref:formulas-aggregation-flexible.adoc#reaggregation-enhancement[Flexible aggregation functions].
 endif::[]
 ifdef::pendo-links[]
-xref:formulas-aggregation-flexible.adoc#reaggregation-enhancment[Flexible aggregation functions,window=_blank].
+xref:formulas-aggregation-flexible.adoc#reaggregation-enhancement[Flexible aggregation functions,window=_blank].
 endif::[]
 
 ifndef::pendo-links[]
