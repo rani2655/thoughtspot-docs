@@ -8,7 +8,7 @@ These release notes include information about new features, fixed issues from th
 
 * Support for SpotIQ analysis to directly identify the key drivers for recent change in your KPIs.
 * Support for IAMv2 login on ThoughtSpot Mobile.
-* Introductions of ThoughtSpot mobile push notifications.
+* Introduction of ThoughtSpot mobile push notifications.
 
 
 [#2-8-new]
