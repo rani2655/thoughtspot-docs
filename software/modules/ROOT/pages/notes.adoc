@@ -91,6 +91,10 @@ You can now hide a column from your table without removing it from your current 
 Change analysis: More insights::
 When running change analysis, you can now see additional insights. For example, ThoughtSpot will detect values that underwent the highest percentage change between the two data points defined in your analysis, and values whose share of the total changed the most. The additional insights appear below the main analysis in the change analysis pop-up window.
 
+//Mary -- scal-158469
+Functional enhancements for verified Liveboards::
+Easily find verified Liveboards marked with banners, and icons. Sort search results to view content tagged as verified. Request verification of Liveboards and cancel requests when needed. For more information, see Verify Liveboards.
+
 [#data-engineer-9-8-0-sw]
 === For the Data Engineer
 
