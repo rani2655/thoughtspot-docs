@@ -114,6 +114,15 @@ Atlan data catalog:: You can now import metadata information related to your tab
 For more information, see
 xref:catalog-integration-atlan.adoc[Atlan catalog integration].
 
+// Naomi -- scal-169065
+dbt public API:: You can now use the dbt public API to perform the following tasks:
+
+* Create a dbt connection
+* Delete a dbt connection
+* Search a list of dbt connections
+* Update a dbt connection
+* Run dbt Sync
+* Update dbt Sync
 
 
 [#9-9-0-cl-it-ops]
