@@ -83,11 +83,12 @@ image::additional-insight.png[SpotIQ additional insights]
 
 You can now drill down on the results of change analysis to learn more about change drivers in your data. To run iterative change analysis, follow these steps:
 
-. Select two points on a KPI chart and right-click to select *Run change analysis*.
+. Select two points on a chart and right-click to select *Run change analysis*.
 
-. Right-click on a column in the resulting change analysis and select *Identify change drivers for <column_name>*.
+. Right-click on an attribute value in the resulting change analysis and select *Analyze  <attribute_value>*. For example, if you want to deep-dive to understand what’s driving change in "California" in "State" attribute, right click on "California" and click "Analyze California".
 
-. ThoughtSpot adds the specified column as a filter and re-calculates change analysis for the original comparison points specified in your search.
+. ThoughtSpot adds the specified attribute value as a filter and re-calculates change analysis for the original comparison points.
+
 
 // actually Early Access
 === Natural language narratives
