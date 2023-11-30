@@ -81,7 +81,11 @@ image::additional-insight.png[SpotIQ additional insights]
 [#iterative]
 === Iterative change analysis
 
-You can now drill down on the results of change analysis to learn more about change drivers in your data. To run iterative change analysis, follow these steps:
+You can now drill down on the results of change analysis to learn more about change drivers in your data.
+
+image::change-analysis-iterative.png[Iterative change analysis]
+
+To run iterative change analysis, follow these steps:
 
 . Select two points on a chart and right-click to select *Run change analysis*.
 
