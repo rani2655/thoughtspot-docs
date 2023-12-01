@@ -114,6 +114,8 @@ Find topics for the common types of ThoughtSpot users.
       <li><a href="https://docs.thoughtspot.com/cloud/latest/liveboards">Liveboards and Answers</a></li>
       <li><a href="https://docs.thoughtspot.com/cloud/latest/search-answers">Search Answers</a></li>
       <li><a href="https://docs.thoughtspot.com/cloud/latest/search-data">Search Data</a></li>
+        <li><a href="https://docs.thoughtspot.com/cloud/latest/monitor">Monitor Key Performance Indicators in your data</a></li>
+        <li><a href="https://docs.thoughtspot.com/cloud/latest/spotiq-change">Change analysis</a></li>
 <li><a href="https://docs.thoughtspot.com/cloud/latest/search-sage">ThoughtSpot Sage</a></li>
 <li><a href="https://docs.thoughtspot.com/cloud/latest/thoughtspot-sync">ThoughtSpot Sync</a></li>
 <li><a href="https://docs.thoughtspot.com/cloud/latest/thoughtspot-sheets">Add-ons for Google Sheets&trade;</a></li>
