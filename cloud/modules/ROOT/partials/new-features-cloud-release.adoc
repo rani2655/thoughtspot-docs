@@ -53,6 +53,7 @@ Chart customizations:: You can now access advanced chart customization settings 
 
 Run change analysis iteratively:: You can now drill down on specific columns in change analysis, in order to identify change drivers within your data. When you right-click on an attribute value in the change analysis window to drill down, ThoughtSpot adds the attribute value as a filter and re-calculates change analysis for the specific window of time specified in your original search. For more information, see xref:spotiq-change.adoc#iterative[Iterative change analysis].
 
+// scal-
 Alation metadata::
 Users can now see verification status and descriptions on tables and columns imported from Alation. This information appears when you click on the corresponding table or column in *Search data*. Once connected, this information is visible to all users. To enable this feature, contact {support-url}. For more information, see xref:catalog-integration.adoc[Catalog integration].
 
