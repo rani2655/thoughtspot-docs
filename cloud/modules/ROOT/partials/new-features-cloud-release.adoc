@@ -1,19 +1,19 @@
 The latest release of ThoughtSpot Cloud contains several new and enhanced features.
 
-* <<9-9-0-cl-first,For the First User>>
-* <<9-9-0-cl-analyst,For the Analyst>>
-* <<9-9-0-cl-business-user,For the Business User>>
-* <<9-9-0-cl-data-engineer,For the Data Engineer>>
-* <<9-9-0-cl-developer,For the Developer>>
+* <<9-10-0-cl-first,For the First User>>
+* <<9-10-0-cl-analyst,For the Analyst>>
+* <<9-10-0-cl-business-user,For the Business User>>
+* <<9-10-0-cl-data-engineer,For the Data Engineer>>
+* <<9-10-0-cl-developer,For the Developer>>
 
-[#9-9-0-cl-first]
+[#9-10-0-cl-first]
 === For the First User
 
 Getting started with ThoughtSpot Cloud::
 The first user on the account has to complete a series of steps before other people can start using ThoughtSpot with your organization's data.
 For these instructions, see xref:ts-cloud-getting-started.adoc[Getting Started with ThoughtSpot Cloud].
 
-[#9-9-0-cl-analyst]
+[#9-10-0-cl-analyst]
 === For the Analyst
 
 // Naomi -- scal-176730
@@ -23,7 +23,7 @@ ThoughtSpot Sync from unsaved Answers:: You can now create syncs from Answers wi
 //Customized Tooltips:: You can now customize the tooltips that are displayed on charts to provide users with information that leads to better insights.
 
 
-[#9-9-0-cl-business-user]
+[#9-10-0-cl-business-user]
 === For the Business User
 
 // Naomi -- scal-175860. actually beta
@@ -89,7 +89,7 @@ To access this feature, go to your KPI chart and select the caret icon to the ri
 * We introduced improved deep linking to ThoughtSpot mobile. When you click a link you no longer need to choose whether you want to view the link in your default mobile browser or the ThoughtSpot app. The default behavior is to open the link in ThoughtSpot if it is supported.
 * You can now receive ThoughtSpot mobile push notifications. Receive push notifications when a Liveboard or Answer is shared with you. Monitor scheduled and threshold alerts with push notifications.
 
-[#9-9-0-cl-data-engineer]
+[#9-10-0-cl-data-engineer]
 === For the Data Engineer
 
 // Naomi -- scal-166158
@@ -126,7 +126,7 @@ dbt public API:: You can now use the dbt public API to perform the following tas
 * Update dbt Sync
 
 
-[#9-9-0-cl-it-ops]
+[#9-10-0-cl-it-ops]
 === For the IT/Ops Engineer
 
 
@@ -135,7 +135,7 @@ dbt public API:: You can now use the dbt public API to perform the following tas
 
 Custom charts:: ThoughtSpot administrators can now add custom charts to a ThoughtSpot cluster.  For more information, see xref:chart-byoc.adoc[].
 
-[#9-9-0-cl-developer]
+[#9-10-0-cl-developer]
 === For the Developer
 
 ThoughtSpot Everywhere:: For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].

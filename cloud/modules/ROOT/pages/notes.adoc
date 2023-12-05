@@ -1,4 +1,4 @@
-= 9.9.0.cl Release Notes
+= 9.10.0.cl Release Notes
 :experimental:
 :last_updated: 10/23/2023
 :linkattrs:
@@ -7,7 +7,7 @@
 :page-layout: default-cloud
 :description: These release notes include information about new and enhanced features.
 
-ThoughtSpot Cloud 9.9.0.cl is now available.
+ThoughtSpot Cloud 9.10.0.cl is now available.
 
 These release notes include information about new and enhanced features.
 
@@ -21,6 +21,14 @@ To see our feature deprecation plans, please see xref:deprecation.adoc[Deprecati
 == New Features and Functionality
 
 include::partial$new-features-cloud-release.adoc[]
+
+== ThoughtSpot 9.8.0.cl Release
+
+* <<9-8-0-cl-first,For the First User>>
+* <<9-8-0-cl-analyst,For the Analyst>>
+* <<9-8-0-cl-business-user,For the Business User>>
+* <<9-8-0-cl-data-engineer,For the Data Engineer>>
+* <<9-8-0-cl-developer,For the Developer>>
 
 
 == ThoughtSpot 9.7.0.cl Release

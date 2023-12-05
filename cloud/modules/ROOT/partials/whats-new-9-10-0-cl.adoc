@@ -1,0 +1,308 @@
+ifndef::pendo-links[]
+February 2024 [label label-dep]#9.10.0.cl#
+endif::[]
+ifdef::pendo-links[]
+[month-year-whats-new]#February 2024#
+[label label-dep-whats-new]#9.10.0.cl#
+endif::[]
+
+ifndef::free-trial-feature[]
+NOTE: Features marked as [.badge.badge-update-note]#Beta# are off by default. To enable them, contact {support-url}.
+endif::free-trial-feature[]
+
+[#primary-9-10-0-cl]
+
+// Business User
+
+ifndef::free-trial-feature[]
+[#9-10-0-cl-ask-sage]
+[discrete]
+=== Ask Sage
+
+// Naomi -- scal-175485, scal-177391. actually EA.
+
+You can now conversationally search ThoughtSpot using natural language, asking follow-up questions for further clarification or to take your analysis in a new direction. To access Ask Sage, ask a question using the Natural Language Search interface on the Home page, and click *Ask a follow up*. For more information, see
+ifndef::pendo-links[]
+xref:ask-sage.adoc[Ask Sage].
+endif::[]
+ifdef::pendo-links[]
+xref:ask-sage.adoc[Ask Sage,window=_blank].
+endif::[]
+
+endif::free-trial-feature[]
+
+[#9-10-0-cl-homepage]
+[discrete]
+=== User customization for homepage revamp
+
+// Mark -- scal-160332
+
+ifndef::free-trial-feature[]
+[#9-10-0-cl-glean]
+[discrete]
+=== Glean integration
+
+// Naomi -- scal-175860. actually beta
+
+You can now use Glean to search unstructured data, such as documents, PowerPoint, and Excel files, directly from a Liveboard. Add a Glean tile to your Liveboard to easily add context to your ThoughtSpot data insights. Glean inherits the filters and query terms defined by your Liveboard. You can configure Glean results to include or exclude these terms from your search. Glean results are tailored to each user based on their team, search activity, and preferences. For more information, see
+ifndef::pendo-links[]
+xref:glean-integration.adoc[Glean integration].
+endif::[]
+ifdef::pendo-links[]
+xref:glean-integration.adoc[Glean integration,window=_blank].
+endif::[]
+endif::free-trial-feature[]
+
+
+
+[#9-10-0-cl-commenting]
+[discrete]
+=== Commenting on Liveboards
+
+// Naomi -- scal-15915
+
+You can now add or reply to comments, tag other users, or subscribe to comment threads directly on a Liveboard. Users can point out insights or reach out for clarification without leaving ThoughtSpot. To try it out, click the comment icon to the right of the edit icon, and select the data point you would like to comment on. For more information, see
+ifndef::pendo-links[]
+xref:liveboard-comment.adoc[Collaborative Liveboards].
+endif::[]
+ifdef::pendo-links[]
+xref:liveboard-comment.adoc[Collaborative Liveboards,window=_blank].
+endif::[]
+
+image:liveboard-comment.gif[Create a comment on a Liveboard and add a reaction]
+
+
+[#9-10-0-cl-anomaly]
+[discrete]
+=== Anomaly detection for time-series KPI charts
+
+// Naomi -- scal-130327
+
+You can now see anomalies in time-series KPI charts. Our new anomaly detection algorithm detects data which does not fall within the expected confidence intervals, while allowing for seasonal changes and growth over time. To try it out, open your KPI chart as an Answer, open the chart configuration menu, and select *Show anomalies*. For more information, see
+ifndef::pendo-links[]
+xref:time-series-anomaly.adoc[Anomaly detection].
+endif::[]
+ifdef::pendo-links[]
+xref:time-series-anomaly.adoc[Anomaly detection,window=_blank].
+endif::[]
+
+ifndef::free-trial-feature[]
+[#9-10-0-cl-highcharts]
+[discrete]
+=== Chart customizations
+
+// Naomi -- scal-166121. actually EA.
+
+You can now access advanced chart customization settings for Answers by selecting the gear icon image:icon-gear-10px.png[chart customization icon] and selecting *Advanced settings*. Use these settings to adjust the size and appearance of tooltips, regression lines, gridlines, and chart backgrounds. For more information, see
+ifndef::pendo-links[]
+xref:chart-settings-advanced.adoc[Advanced chart settings].
+endif::[]
+ifdef::pendo-links[]
+xref:chart-settings-advanced.adoc[Advanced chart settings,window=_blank].
+endif::[]
+endif::free-trial-feature[]
+
+ifndef::free-trial-feature[]
+[#9-10-0-cl-change]
+[discrete]
+=== Run change analysis iteratively
+
+// Naomi -- scal-141936. actually beta. spotiq-change.adoc#iterative
+
+You can now drill down on specific columns in change analysis, in order to identify change drivers within your data. When you right-click on an attribute value in the change analysis window to drill down, ThoughtSpot adds the attribute value as a filter and re-calculates change analysis for the specific window of time specified in your original search. For more information, see
+ifndef::pendo-links[]
+xref:spotiq-change.adoc#iterative[Iterative change analysis].
+endif::[]
+ifdef::pendo-links[]
+xref:spotiq-change.adoc#iterative[Iterative change analysis,window=_blank].
+endif::[]
+endif::free-trial-feature[]
+
+
+[#9-10-0-cl-chart]
+[discrete]
+=== Natural language search chart type
+
+// Naomi -- scal-156247
+
+You can now specify the answering chart type when you use Natural Language Search. For example, search for "sales by region pie chart", and the results appear in pie chart format. For more information, see
+ifndef::pendo-links[]
+xref:ai-answers.adoc[Natural language search].
+endif::[]
+ifdef::pendo-links[]
+xref:ai-answers.adoc[Natural language search,window=_blank].
+endif::[]
+
+
+[#9-10-0-cl-spotiq]
+[discrete]
+=== SpotIQ Liveboard summaries
+
+// Mark -- scal-162712
+
+[#9-10-0-cl-summary]
+[discrete]
+=== Worksheet summary
+
+// Mark -- scal-161991
+
+
+
+[#9-10-0-cl-mobile]
+[discrete]
+=== Chart and library changes for mobile localization
+
+// Mary -- scal-165060
+
+[#9-10-0-cl-i18n]
+[discrete]
+=== Mobile localization
+
+// Mary -- scal-161325, scal-95381
+
+[#9-10-0-cl-deep-link]
+[discrete]
+=== Improve the deep link experience
+
+// Mary -- scal-154973
+
+// Analyst
+
+
+[#9-10-0-cl-byoc]
+[discrete]
+=== Bring Your Own Charts (BYOC)
+
+// Mark -- scal-171984
+
+[#9-10-0-cl-tooltip]
+[discrete]
+=== Tooltip customization
+
+// Mary -- scal-143396
+
+
+
+
+
+[#9-10-0-cl-parameters]
+[discrete]
+=== Formulas, Filter, and Parameters screen
+
+// Mark -- scal-142019
+
+
+
+
+
+[#9-10-0-cl-verified]
+[discrete]
+=== Liveboard verification enhancements
+
+// Mary -- scal-134503
+
+
+
+[#9-10-0-cl-granular]
+[discrete]
+=== Granular privileges for data workspace
+
+// Mary -- scal-174139
+
+'''
+[#secondary-9-10-0-cl]
+[discrete]
+=== _Other features and enhancements_
+
+// Data Engineer
+
+[#9-10-0-cl-connections]
+[discrete]
+=== Google Cloud SQL for MySQL connection
+
+// Naomi -- scal-166158
+
+We added support for
+ifndef::pendo-links[]
+xref:connections-google-cloud-sql-mysql.adoc[Google Cloud SQL for MySQL].
+endif::[]
+ifdef::pendo-links[]
+xref:connections-google-cloud-sql-mysql.adoc[Google Cloud SQL for MySQL,window=_blank].
+endif::[]
+
+
+
+[#9-10-0-cl-dbt]
+[discrete]
+=== dbt public API
+
+// Naomi -- scal-169065
+
+You can now use the dbt public API to perform the following tasks:
+
+* Create a dbt connection
+* Delete a dbt connection
+* Search a list of dbt connections
+* Update a dbt connection
+* Run dbt Sync
+* Update dbt Sync
+
+
+// IT/ Ops Engineer
+
+[#9-10-0-cl-saml]
+[discrete]
+=== SAML assertion to include both Orgs and Groups information
+
+// Mary -- scal-138809
+
+[#9-10-0-cl-enterprise]
+[discrete]
+=== Granular privileges for Free Trial, Team Edition, Enterprise - Orgs
+
+// Mary -- scal-155689
+
+[#9-10-0-cl-modeling]
+[discrete]
+=== Granular privileges for data modeling
+
+// Mary -- scal-154299
+
+[#9-10-0-cl-neighbors]
+[discrete]
+=== Handling neighbors in shared clusters (essentials and pro edition)
+
+// Mary -- scal-154107
+
+
+
+[#9-10-0-cl-preview]
+[discrete]
+=== Preview mode
+
+// Mark -- scal-149592
+
+[#9-10-0-cl-worksheet-v2]
+[discrete]
+=== Worksheet v2
+
+// Mark -- scal-155276
+
+[#9-10-0-cl-logging]
+[discrete]
+=== Runaway logging leads to P0
+
+// Mark -- scal-39685
+
+[#9-10-0-cl-delta]
+[discrete]
+=== Build Upgrade Delta Migration
+
+// Mark -- scal-168350
+
+ifndef::free-trial-feature[]
+[discrete]
+=== ThoughtSpot Everywhere
+
+For new features and enhancements introduced in this release of ThoughtSpot Everywhere, see https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
+endif::[]
