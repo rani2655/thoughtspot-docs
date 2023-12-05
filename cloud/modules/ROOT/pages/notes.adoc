@@ -31,6 +31,88 @@ include::partial$new-features-cloud-release.adoc[]
 * <<9-8-0-cl-developer,For the Developer>>
 
 
+[#9-8-0-cl-first]
+=== For the First User
+
+Getting started with ThoughtSpot Cloud::
+The first user on the account has to complete a series of steps before other people can start using ThoughtSpot with your organization's data.
+For these instructions, see xref:ts-cloud-getting-started.adoc[Getting Started with ThoughtSpot Cloud].
+
+[#9-8-0-cl-analyst]
+=== For the Analyst
+
+
+
+[#9-8-0-cl-business-user]
+=== For the Business User
+
+// SCAL-154204
+Sage Coach:: When giving feedback to AI-generated Answers in Sage, you now tell ThoughtSpot what search tokens to use to signify certain key terms. For example, when you search for "best performing products this year", ThoughtSpot responds with the top five products sorted by sum of sales. You can correct top five to top ten by clicking the thumbs-down icon and editing the Answer. ThoughtSpot then stores that feedback, and admin users and Worksheet owners can decide to apply the feedback globally, so that every time someone searches for "best" products, they receive the top ten results.
++
+For more information, see xref:sage-coach.adoc[Sage Coach].
+
+
+// SCAL-127727
+Contextual alert creation on KPI charts [.badge.badge-early-access-relnotes]#Early Access#:: ThoughtSpot now preserves the filters you use on a KPI when you create a Monitor alert. Users with view access to the underlying Liveboard can now receive alert emails for filtered KPIs without saving the filters on the Liveboard. For more information, see xref:monitor.adoc[Monitor alerts].
+
+// SCAL-172513
+Change analysis: More insights:: Change analysis _More insights_ are now available to all customers and are enabled by default. For example, ThoughtSpot finds values that underwent the highest percentage change between the two data points defined in your analysis, and values whose share of the total changed the most. The insights appear below the main analysis in the change analysis pop-up window. For more information, see xref:spotiq-change.adoc#additional[Change analysis].
+
+// SCAL-89341
+Anomaly insights with Monitor alerts for time-series KPI [.badge.badge-early-access-relnotes]#Early Access#:: When you receive an email alert about a threshold or scheduled alert, ThoughtSpot now surfaces any anomalies found in your KPI. You can see the expected range of values, and click a link to view your KPI in the original Liveboard.
+
+// SCAL-177812
+KPI scheduled watchlist alert:: When you add a KPI to your homepage watchlist, ThoughtSpot automatically creates a scheduled alert. You receive emails with updates to the KPI on a periodic basis. You can edit all scheduled alerts from the *Monitor* tab.
+
+////
+// SCAL-159818
+ThoughtSpot for Slack::
+You can now ask ThoughtSpot questions using Slack. Install the ThoughtSpot Slack app, add it to a Slack channel, and you can ask questions of your data sources in natural language. ThoughtSpot answers in chart format. For more information, see xref:spotdev.adoc[ThoughtSpot Slack app].
+////
+
+// SCAL-169279
+Atlan:: Atlan is now available to all customers and is on by default. You can now see verification status and descriptions on tables and columns imported from Atlan. This information appears when you click on the corresponding table or column in *Search data*. Once connected, this information is visible to all users. For more information, see xref:catalog-integration-atlan.adoc[Atlan catalog integration].
+
+
+
+
+// scal-162075
+Donut charts:: We have renamed the pie chart as donut chart.
+
+[#9-8-0-cl-data-engineer]
+=== For the Data Engineer
+
+// SCAL-166161, SCAL-166160, SCAL-166159, SCAL-164909
+Connections::
+The following connections are now available to all customers and are on by default:
+
+* xref:connections-google-alloydb-postgresql.adoc[Google AlloyDB for PostgreSQL]
+* xref:connections-google-cloud-sql-postgresql.adoc[Google Cloud SQL for PostgreSQL]
+* xref:connections-google-cloud-sql-sql-server.adoc[Google Cloud SQL for SQL Server]
+* xref:connections-singlestore.adoc[SingleStore]
+
+// SCAL-169279
+Atlan catalog integration:: You can now import metadata information related to your tables and columns from Atlan into ThoughtSpot. From the Data tab, you can set up a connection to Atlan to import column descriptions, column verification status, table descriptions, and table verification status. For more information, see xref:catalog-integration-atlan.adoc[Atlan catalog integration].
+
+// SCAL-160062
+Embrace OAuth connection improvements:: If you do not have a valid OAuth access token, you can now directly navigate to the OAuth authorization screen when performing one of the following actions on a connection shared with you:
+
+** View sample data
+** Create a custom SQL view
+** Edit the connection
+** Upload a CSV file (Snowflake connections only)
+
+// scal-164805
+Disable SQL passthrough functions::
+Admin users can now ban passthrough functions for all connections on their cluster, to prevent SQL injection attacks. This option is available under the *Search & SpotIQ* section of the *Admin* tab.
+
+
+
+[#9-8-0-cl-developer]
+=== For the Developer
+
+ThoughtSpot Everywhere:: For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
+
 == ThoughtSpot 9.7.0.cl Release
 
 
