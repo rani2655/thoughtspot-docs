@@ -78,6 +78,12 @@ Query performance visibility [.badge.badge-beta-relnotes]#Beta#:: You can now se
 Hidden columns in tables::
 You can now hide a column from your table without removing it from your current Search. If you hide the column you’re using to sort results, the sorting order is unchanged. To try it out, create an Answer, open the chart configuration menu gear icon, and drag the selected column to *Hidden Columns*. For more information, see xref:chart-table.adoc#hidden-column[Hide a column].
 
+//scal-161459
+New data panel with tag-based filtering::
+The new data panel experience is available for all customers in this release, and is enabled by default. In this release, you can now filter data sources by how they are tagged.
++
+For more information, see xref:search-start.adoc[Start a new search].
+
 [#data-engineer-9-8-0-sw]
 === For the Data Engineer
 

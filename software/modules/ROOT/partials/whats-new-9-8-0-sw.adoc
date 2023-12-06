@@ -44,15 +44,11 @@ endif::[]
 
 [#9-8-0-sw-tag]
 [discrete]
-=== Literacy: data fluency - tag-based filtering in source selection experience
+=== New data panel with tag-based filtering
 
-// Mark -- scal-152804
+The new data panel experience is available for all customers in this release, and is enabled by default. In this release, you can now filter data sources by how they are tagged.
 
-[#9-8-0-sw-falcon]
-[discrete]
-=== Allow Falcon CSV Upload on Cloud
-
-// Mark -- scal-161857 (is this Cloud-only?)
+// Mark -- scal-161459
 
 [#9-8-0-sw-verified]
 [discrete]
@@ -105,7 +101,13 @@ image::hidden-column.png[Hidden column section]
 
 [#9-8-0-sw-custom]
 [discrete]
-=== Enable custom calendar by default
+=== Custom calendar enabled by default
+
+In this release, custom calendar is enabled by default for all connections, except for the following which don’t support custom calendar:
+
+- Dremio
+- Denodo
+- Looker Modeler
 
 // Mark -- scal-138688
 
