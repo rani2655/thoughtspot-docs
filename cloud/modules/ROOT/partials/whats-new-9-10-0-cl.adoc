@@ -15,9 +15,16 @@ endif::free-trial-feature[]
 // Business User
 
 ifndef::free-trial-feature[]
+ifndef::pendo-links[]
 [#9-10-0-cl-ask-sage]
 [discrete]
-=== Ask Sage
+=== Ask Sage [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-10-0-cl-ask-sage]
+[discrete]
+=== Ask Sage [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
 
 // Naomi -- scal-175485, scal-177391. actually EA.
 
@@ -29,7 +36,17 @@ ifdef::pendo-links[]
 xref:ask-sage.adoc[Ask Sage,window=_blank].
 endif::[]
 
+image::ask-sage.gif[Ask Sage]
+
 endif::free-trial-feature[]
+
+[#9-10-0-cl-coach]
+[discrete]
+=== Sage Coach
+
+// Naomi -- scal-154204
+
+When giving feedback to AI-generated Answers in Sage, you now tell ThoughtSpot what search tokens to use to signify certain key terms. For example, when you search for "best performing products this year", ThoughtSpot responds with the top five products sorted by sum of sales. You can correct top five to top ten by clicking the thumbs-down icon and editing the Answer. ThoughtSpot then stores that feedback, and admin users can decide to apply the feedback globally, so that every time someone searches for "best" products, they receive the top ten results.
 
 [#9-10-0-cl-homepage]
 [discrete]
@@ -38,9 +55,16 @@ endif::free-trial-feature[]
 // Mark -- scal-160332
 
 ifndef::free-trial-feature[]
+ifndef::pendo-links[]
 [#9-10-0-cl-glean]
 [discrete]
-=== Glean integration
+=== Glean integration [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#9-10-0-cl-glean]
+[discrete]
+=== Glean integration [.badge.badge-beta-whats-new]#Beta#
+endif::[]
 
 // Naomi -- scal-175860. actually beta
 
@@ -74,22 +98,23 @@ image:liveboard-comment.gif[Create a comment on a Liveboard and add a reaction]
 
 [#9-10-0-cl-anomaly]
 [discrete]
-=== Anomaly detection for time-series KPI charts
+=== Anomaly insights with Monitor alerts
 
-// Naomi -- scal-130327
+// Naomi -- scal-173345
 
-You can now see anomalies in time-series KPI charts. Our new anomaly detection algorithm detects data which does not fall within the expected confidence intervals, while allowing for seasonal changes and growth over time. To try it out, open your KPI chart as an Answer, open the chart configuration menu, and select *Show anomalies*. For more information, see
-ifndef::pendo-links[]
-xref:time-series-anomaly.adoc[Anomaly detection].
-endif::[]
-ifdef::pendo-links[]
-xref:time-series-anomaly.adoc[Anomaly detection,window=_blank].
-endif::[]
+
 
 ifndef::free-trial-feature[]
+ifndef::pendo-links[]
 [#9-10-0-cl-highcharts]
 [discrete]
-=== Chart customizations
+=== Chart customizations [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-10-0-cl-highcharts]
+[discrete]
+=== Chart customizations [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
 
 // Naomi -- scal-166121. actually EA.
 
@@ -102,12 +127,25 @@ xref:chart-settings-advanced.adoc[Advanced chart settings,window=_blank].
 endif::[]
 endif::free-trial-feature[]
 
+[#9-10-0-cl-null]
+[discrete]
+=== Null and missing values in charts
+
+// Naomi -- scal-169683
+
 ifndef::free-trial-feature[]
+ifndef::pendo-links[]
 [#9-10-0-cl-change]
 [discrete]
-=== Run change analysis iteratively
+=== Run change analysis iteratively [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-10-0-cl-change]
+[discrete]
+=== Run change analysis iteratively [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
 
-// Naomi -- scal-141936. actually beta. spotiq-change.adoc#iterative
+// Naomi -- scal-141936, scal-176265. spotiq-change.adoc#iterative
 
 You can now drill down on specific columns in change analysis, in order to identify change drivers within your data. When you right-click on an attribute value in the change analysis window to drill down, ThoughtSpot adds the attribute value as a filter and re-calculates change analysis for the specific window of time specified in your original search. For more information, see
 ifndef::pendo-links[]
@@ -134,11 +172,22 @@ xref:ai-answers.adoc[Natural language search,window=_blank].
 endif::[]
 
 
-[#9-10-0-cl-spotiq]
-[discrete]
-=== SpotIQ Liveboard summaries
 
-// Mark -- scal-162712
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-10-0-cl-highlight]
+[discrete]
+=== Liveboard Highlights [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-10-0-cl-highlight]
+[discrete]
+=== Liveboard Highlights [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
+// Mark -- scal-178483, scal-162712
+
+endif::free-trial-feature[]
 
 [#9-10-0-cl-summary]
 [discrete]
@@ -168,20 +217,94 @@ endif::[]
 
 // Analyst
 
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-10-0-cl-worksheet]
+[discrete]
+=== Worksheet v2 [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-10-0-cl-worksheet]
+[discrete]
+=== Worksheet v2 [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
+// Mark -- scal-158357
+
+endif::free-trial-feature[]
+
+[#9-10-0-cl-conditional]
+[discrete]
+=== Advanced conditional formatting
+
+// Naomi -- scal-177005
+
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-10-0-cl-personalized]
+[discrete]
+=== Change analysis: remember personalized columns [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-10-0-cl-personalized]
+[discrete]
+=== Change analysis: remember personalized columns [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
+
+// Naomi -- scal-147558
+
+endif::free-trial-feature[]
+
+[#9-10-0-cl-custom]
+[discrete]
+=== Custom sorting
+
+// Mary -- scal-181962
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-10-0-cl-join]
+[discrete]
+=== Join recommendation [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#9-10-0-cl-join]
+[discrete]
+=== Join recommendation [.badge.badge-beta-whats-new]#Beta#
+endif::[]
+
+
+// Mark -- scal-154588
+
+endif::free-trial-feature[]
+
+[#9-10-0-cl-renaming]
+[discrete]
+=== Renaming column names
+
+// Naomi -- scal-182100
+
+You can now rename columns in an Answer and see the new name reflected on the table header, tooltips, legend, and chart configuration menu. Changes made on an Answer are not reflected in the underlying Worksheet.
 
 [#9-10-0-cl-byoc]
 [discrete]
 === Bring Your Own Charts (BYOC)
 
-// Mark -- scal-171984
+// Mark -- scal-171984, scal-67410
 
 [#9-10-0-cl-tooltip]
 [discrete]
 === Tooltip customization
 
-// Mary -- scal-143396
+// Mary -- scal-143396, scal-163885
 
+[#9-10-0-cl-sync]
+[discrete]
+=== ThoughtSpot Sync for Google BigQuery
 
+// Naomi -- scal-174127
 
 
 
@@ -208,6 +331,18 @@ endif::[]
 === Granular privileges for data workspace
 
 // Mary -- scal-174139
+
+[#9-10-0-cl-filter]
+[discrete]
+=== Number of filter values shown in string filter modal
+
+// Mary -- scal-177212
+
+[#9-10-0-cl-explore]
+[discrete]
+=== Uplevel "Make a copy" in Explore mode
+
+// Mark -- scal-161135 (may be none needed)
 
 '''
 [#secondary-9-10-0-cl]
@@ -247,6 +382,14 @@ You can now use the dbt public API to perform the following tasks:
 * Run dbt Sync
 * Update dbt Sync
 
+[#9-10-0-cl-dbt-v]
+[discrete]
+=== dbt version 1.7
+
+// Naomi -- scal-169614
+
+ThoughtSpot now supports dbt version 1.7.
+
 
 // IT/ Ops Engineer
 
@@ -274,6 +417,23 @@ You can now use the dbt public API to perform the following tasks:
 
 // Mary -- scal-154107
 
+[#9-10-0-cl-oidc]
+[discrete]
+=== Implement OIDC - Orgs on IAM v1 for Pricenow
+
+// Mary -- scal-181443
+
+[#9-10-0-cl-iam]
+[discrete]
+=== IAM v2 - OIDC support
+
+// Mary -- scal-119837
+
+[#9-10-0-cl-bridge]
+[discrete]
+=== Bridge connection to Cloud data warehouse from ThoughtSpot
+
+// Mark -- scal-170548
 
 
 [#9-10-0-cl-preview]
