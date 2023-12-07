@@ -47,6 +47,8 @@ endif::[]
 ifdef::pendo-links[]
 xref:glean-integration.adoc[Glean integration,window=_blank].
 endif::[]
+
+image::glean-integration.gif[Glean integration]
 endif::free-trial-feature[]
 
 
