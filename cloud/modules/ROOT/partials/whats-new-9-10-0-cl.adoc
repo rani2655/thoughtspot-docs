@@ -125,6 +125,8 @@ endif::[]
 ifdef::pendo-links[]
 xref:chart-settings-advanced.adoc[Advanced chart settings,window=_blank].
 endif::[]
+
+image::advanced-options-axis.png[Advanced settings for axes]
 endif::free-trial-feature[]
 
 [#9-10-0-cl-null]
