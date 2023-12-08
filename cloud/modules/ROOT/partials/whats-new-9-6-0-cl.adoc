@@ -91,18 +91,12 @@ image::query-execution.png[Liveboard displaying query execution status as visual
 
 endif::free-trial-feature[]
 
-ifndef::pendo-links[]
-[#9-6-0-cl-metadata]
-[discrete]
-=== Alation metadata [.badge.badge-beta]#Beta#
-endif::[]
-ifdef::pendo-links[]
-[#9-6-0-cl-metadata]
-[discrete]
-=== Alation metadata [.badge.badge-beta-whats-new]#Beta#
-endif::[]
 
-Users can now see metadata information on tables and columns imported from Alation. This information appears when you click on the corresponding table or column in *Search data*. Once connected, metadata information is visible to all users. For more information, see
+[#9-6-0-cl-metadata]
+[discrete]
+=== Alation metadata
+
+Alation metadata is now available to all users and on by default. Users can now see metadata information on tables and columns imported from Alation. This information appears when you click on the corresponding table or column in *Search data*. Once connected, metadata information is visible to all users. For more information, see
 ifndef::pendo-links[]
 xref:catalog-integration.adoc[Catalog integration].
 endif::[]
@@ -184,20 +178,14 @@ endif::[]
 [discrete]
 === _Other features and enhancements_
 
-ifndef::pendo-links[]
+
 [#9-6-0-cl-alation]
 [discrete]
-=== Alation catalog integration [.badge.badge-beta]#Beta#
-endif::[]
-ifdef::pendo-links[]
-[#9-6-0-cl-alation]
-[discrete]
-=== Alation catalog integration [.badge.badge-beta-whats-new]#Beta#
-endif::[]
+=== Alation catalog integration
 
 // Naomi
 
-You can now import metadata information related to your tables and columns from Alation into ThoughtSpot. From the *Data governance* section of the *Data* tab, you can set up a connection to Alation to import column descriptions, column verification status, table descriptions, and table verification status.
+Alation catalog integration is now available to all users and on by default. You can now import metadata information related to your tables and columns from Alation into ThoughtSpot. From the *Data governance* section of the *Data* tab, you can set up a connection to Alation to import column descriptions, column verification status, table descriptions, and table verification status.
 
 For more information, see
 ifndef::pendo-links[]
