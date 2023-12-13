@@ -3,6 +3,7 @@
 :linkattrs:
 :experimental:
 :description: With a custom calendar, you can choose when the year, quarter, or week starts, and search using date-related keywords.
+:jira: SCAL-172330
 
 With a custom calendar, you can choose when the year, quarter, or week starts, and search using date-related keywords.
 
@@ -39,16 +40,11 @@ There are many reasons users may choose to set up a custom calendar rather than 
 
 == Supported cloud data warehouses
 
-Custom calendar currently supports the following:
+Custom calendar is supported on all cloud data warehouses except:
 
-* Amazon Redshift
-* Databricks
-* Google BigQuery
-* Microsoft Azure Synapse
-* Oracle
-* SAP HANA
-* Snowflake
-* Teradata
+- Dremio
+- Denodo
+- Looker Modeler
 
 == Search features
 
@@ -85,7 +81,6 @@ NOTE: Maximum calendar length is determined by the cloud data warehouse you conn
 
 == Prerequisites
 
-* Before you can create a custom calendar, you must contact {support-url} to enable the custom calendar feature on your cluster.
 * For a user to create a custom calendar, they must have the required permissions to create a table in the database used in the connection where they want to create their custom calendar.
 
 '''
