@@ -4,6 +4,7 @@
 :experimental:
 :author: Teresa Killmond
 :description: With SQL views, you can quickly start using ThoughtSpot to get insights from your data by creating a connection and running SQL queries against it.
+:jira: SCAL-185661
 
 With SQL views, you can quickly start using ThoughtSpot to get insights from your data. Simply create a connection to your external data warehouse, and you can run SQL queries against it. When you save these queries as SQL views, they become data sources that you can run traditional ThoughtSpot xref:search.adoc[searches] on, allowing you to create charts, tables, and Liveboards from the data.
 
