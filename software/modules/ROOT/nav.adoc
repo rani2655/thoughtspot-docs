@@ -138,6 +138,7 @@ span.badge.badge-new {
 *** xref:liveboard-filters-selective.adoc[Selective Liveboard filters]
 *** xref:liveboard-filters-mandatory.adoc[Mandatory Liveboard filters]
 *** xref:liveboard-filters-cross.adoc[]
+*** xref:personalized-liveboard-views.adoc[]
 *** xref:liveboard-verify.adoc[]
 *** xref:answer-explorer.adoc[Answer Explorer]
 *** xref:liveboard-schedule.adoc[Schedule a Liveboard job]

@@ -49,7 +49,21 @@ To add a hyperlink to your note tile, follow these steps:
 . Select *Add*.
 . When you are finished editing the note tile, select *Save* in the top menu bar of the Liveboard.
 
+[#embed]
+=== Embedding content with iFrames
 
+[#iFrame]
+
+
+To embed content using an iFrame, follow these steps:
+
+. Navigate to the Liveboard with the note tile you would like to edit.
+. Select the *Edit* button at the upper right of the Liveboard. If this button is grayed out, you do not have edit privileges for the Liveboard. To resolve this, contact your administrator or the creator of the Liveboard.
+. Select the note. The formatting bar at the top of the note tile appears.
+. Select the *Embed* button image:embed-icon.png[Embed icon].
+. Paste the embed code for your content. This can be a video, a PDF, or a Figma file.
+. Select the edges of the embedded content and drag to resize the content. Select the edges of the tile and drag to resize the note tile.
+. When you are finished editing the note tile, select *Save* in the top menu bar of the Liveboard.
 
 [#image]
 === Inserting images

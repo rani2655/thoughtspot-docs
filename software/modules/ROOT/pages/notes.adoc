@@ -53,8 +53,17 @@ dbt sync:: In the past, ThoughtSpot generated a new Worksheet every time a user 
 For more information, see xref:dbt-integration.adoc[].
 
 // Naomi -- scal-119947, scal-132902
-
 dbt:: ThoughtSpot now supports dbt version 1.6.
+
+//Mary -- scal-165262
+Embedding in note tiles::
+Embedding in note tiles is now available to all users and is on by default. You can now embed interactive content such as videos, pdfs, or Figma files into Liveboards using the note tile format. To try it out, enter a Liveboard, select the edit icon, and select *Add note* from the top bar. You can then click the embed icon and enter the URL or iFrame code for your content. You can interact with the content embedded in a Liveboard like you would with a website. For more information, see xref:liveboard-notes.adoc#embed[Embedding content with iFrames].
+
+//Mary -- scal-163617
+Personalized Liveboard Views::
+Personalized Liveboard views allow you to save your own set of values for filters and parameters in a Liveboard without creating a copy of the Liveboard. When you change the values of the already present filters in a Liveboard, you can save the personalized view for future use. The personalized Liveboard view inherits any changes made to the master Liveboard, including changes made to pinned visualizations, tabs, filter chips, and re-ordering.
+For more information, see xref:personalized-liveboard-views.adoc[Personalized Liveboard views].
+
 
 [#business-user-9-8-0-sw]
 === For the Business User
@@ -78,6 +87,19 @@ Query performance visibility [.badge.badge-beta-relnotes]#Beta#:: You can now se
 Hidden columns in tables::
 You can now hide a column from your table without removing it from your current Search. If you hide the column you’re using to sort results, the sorting order is unchanged. To try it out, create an Answer, open the chart configuration menu gear icon, and drag the selected column to *Hidden Columns*. For more information, see xref:chart-table.adoc#hidden-column[Hide a column].
 
+
+//Mary -- scal-172513
+Change analysis: More insights::
+When running change analysis, you can now see additional insights. For example, ThoughtSpot will detect values that underwent the highest percentage change between the two data points defined in your analysis, and values whose share of the total changed the most. The additional insights appear below the main analysis in the change analysis pop-up window.
+
+//Mary -- scal-158469
+Functional enhancements for verified Liveboards::
+Easily find verified Liveboards marked with banners, and icons. Sort search results to view content tagged as verified. Request verification of Liveboards and cancel requests when needed. For more information, see Verify Liveboards.
+
+//Mary -- scal-112787
+Pivot table improvements::
+Previously, the summary values in ThoughtSpot pivot tables were not always calculated correctly. Enhancements to the pivot table summary calculations now ensure that the values are calculated correctly.
+=======
 //scal-161459
 New data panel with tag-based filtering::
 The new data panel experience is available for all customers in this release, and is enabled by default. In this release, you can now filter data sources by how they are tagged.
