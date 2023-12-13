@@ -4,6 +4,7 @@
 :experimental:
 :author: Teresa Killmond
 :description: With SQL views, you can quickly start using ThoughtSpot to get insights from your data by creating a connection and running SQL queries against it.
+:jira: SCAL-185661
 
 With SQL views, you can quickly start using ThoughtSpot to get insights from your data. Simply create a connection to your external data warehouse, and you can run SQL queries against it. When you save these queries as SQL views, they become data sources that you can run traditional ThoughtSpot xref:search.adoc[searches] on, allowing you to create charts, tables, and Liveboards from the data.
 
@@ -67,6 +68,8 @@ image::sql-view-autocomplete.gif[SQL view autocomplete gif]
 If you have *can edit* privileges on a SQL view, you see the *Edit View* button on the details page for the view. To edit the SQL query that the view is based on, select *Edit View*.
 
 image::sql-view-edit.png[Edit SQL view]
+
+For information about how to edit the metadata of your view, see xref:data-modeling-settings.adoc[Data modeling settings].
 
 [#copy]
 == Make a copy of a SQL view
