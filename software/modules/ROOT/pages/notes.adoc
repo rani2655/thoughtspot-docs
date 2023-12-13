@@ -95,6 +95,10 @@ When running change analysis, you can now see additional insights. For example, 
 Functional enhancements for verified Liveboards::
 Easily find verified Liveboards marked with banners, and icons. Sort search results to view content tagged as verified. Request verification of Liveboards and cancel requests when needed. For more information, see Verify Liveboards.
 
+//Mary -- scal-112787
+Pivot table improvements::
+Previously, the summary values in ThoughtSpot pivot tables were not always calculated correctly. Enhancements to the pivot table summary calculations now ensure that the values are calculated correctly.
+
 [#data-engineer-9-8-0-sw]
 === For the Data Engineer
 
