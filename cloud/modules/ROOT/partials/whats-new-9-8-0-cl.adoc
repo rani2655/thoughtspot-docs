@@ -50,7 +50,7 @@ ThoughtSpot now preserves the filters you use on a KPI when you create a Monitor
 
 // Naomi -- SCAL-172513. is More insights capitalized in product?
 
-Change analysis _more insights_ are now available to all customers and are enabled by default. For example, ThoughtSpot finds values that underwent the highest percentage change between the two data points defined in your analysis, and values whose share of the total changed the most. The insights appear below the main analysis in the change analysis pop-up window.
+Change analysis _more insights_ are now available to all customers and are enabled by default. For example, ThoughtSpot finds values that underwent the highest percentage change between the two data points defined in your analysis, and values whose share of the total changed the most. The insights appear below the main analysis in the change analysis pop-up window. Note that insights do not appear for measures of type `count` and `ratios`.
 
 image::additional-insight.png[More insights]
 
