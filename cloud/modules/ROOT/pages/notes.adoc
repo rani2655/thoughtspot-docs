@@ -150,7 +150,9 @@ System Variables in Answer and Worksheet formulas:: Previously, ThoughtSpot supp
 `ts_orgname`, `ts_username`, and `ts_email_domain` variables are available to use in Answer and Worksheet formulas. These variables are helpful for data masking.
 
 //scal-140692
-Request access to data source from filter:: When creating a filter on a Liveboard or Answer, you must have access to the underlying data source. Users can now request access to the underlying Worksheet through the filter modal on a Liveboard or Answer.
+Request access to data source from filter:: When creating a filter on a Liveboard or Answer, you must have access to the underlying data source. Users can now request access to the underlying Worksheet through the filter modal on a Liveboard or Answer. For more information, see
+xref:liveboard-filters.adoc#filter-request[Liveboard filters].
+
 
 //scal-142071
 ////

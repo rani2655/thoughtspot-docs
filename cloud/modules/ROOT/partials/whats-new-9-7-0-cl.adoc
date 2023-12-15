@@ -165,7 +165,13 @@ Previously, ThoughtSpot supported the `ts_username` variable for use in row-leve
 
 // Naomi-- add image. is it only requesting access to worksheet or are other data sources included?-- scal-140692
 
-When creating a filter on a Liveboard or Answer, you must have access to the underlying data source. Users can now request access to the underlying Worksheet through the filter modal on a Liveboard or Answer.
+When creating a filter on a Liveboard or Answer, you must have access to the underlying data source. Users can now request access to the underlying Worksheet through the filter modal on a Liveboard or Answer. For more information, see
+ifndef::pendo-links[]
+xref:liveboard-filters.adoc#filter-request[Liveboard filters].
+endif::[]
+ifdef::pendo-links[]
+xref:liveboard-filters.adoc#filter-request[Liveboard filters,window=_blank].
+endif::[]
 
 image::filter-request-access.png[]s
 
