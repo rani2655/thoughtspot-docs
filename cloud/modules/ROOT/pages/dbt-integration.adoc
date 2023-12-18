@@ -4,7 +4,7 @@
 :experimental:
 :page-layout: default-cloud
 :author: Teresa Killmond, Naomi
-:jira: SCAL-157885, SCAL-157886, SCAL-157887, SCAL-157890, SCAL-157889, SCAL-119947, SCAL-182271, SCAL-182987, SCAL-186187
+:jira: SCAL-157885, SCAL-157886, SCAL-157887, SCAL-157890, SCAL-157889, SCAL-119947, SCAL-182271, SCAL-182987, SCAL-186187, SCAL-132886
 :description: ThoughtSpot's dbt sync allows you to provide your existing dbt models and create ThoughtSpot Worksheets, which you can use to search your data.
 
 
@@ -132,6 +132,20 @@ NOTE: This process may replace existing dbt tables you imported into ThoughtSpot
 
 . If you select any of the tables or Worksheets you created, and then click *Joins*, you can see the joins ThoughtSpot created, based on the relationships in dbt.
 
+////
+[#public-api]
+== dbt Sync with dbt public API
+
+You can now use the dbt public API to perform the following tasks:
+
+* Create a dbt connection
+* Delete a dbt connection
+* Search a list of dbt connections
+* Update a dbt connection
+* Run dbt Sync
+* Update dbt Sync
+For more information, see link:https://developers.thoughtspot.com/docs[ThoughtSpot Developer documentation].
+////
 
 == How the dbt integration works
 

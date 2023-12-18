@@ -283,6 +283,8 @@ You can now use the dbt public API to perform the following tasks:
 * Run dbt Sync
 * Update dbt Sync
 
+//For more information, see link:https://developers.thoughtspot.com/docs[dbt public API].
+
 [#9-8-0-cl-embrace]
 [discrete]
 === OAuth connection improvements

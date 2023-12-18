@@ -131,6 +131,9 @@ You can now use the dbt public API to perform the following tasks:
 * Run dbt Sync
 * Update dbt Sync
 
+//For more information, see xref:dbt-integration.adoc#public-api[dbt public API].
+
+
 // SCAL-160062
 Embrace OAuth connection improvements:: If you do not have a valid OAuth access token, you can now directly navigate to the OAuth authorization screen when performing one of the following actions on a connection shared with you:
 
