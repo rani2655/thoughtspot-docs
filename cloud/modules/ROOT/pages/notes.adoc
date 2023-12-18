@@ -75,7 +75,7 @@ Anomaly insights with Monitor alerts for time-series KPI [.badge.badge-early-acc
 
 
 // SCAL-177812
-KPI scheduled watchlist alert:: When you add a KPI to your homepage watchlist, ThoughtSpot automatically creates a scheduled alert. You receive emails with updates to the KPI on a periodic basis. You can edit all scheduled alerts from the *Monitor* tab.
+KPI scheduled watchlist alert:: When you add a KPI to your homepage watchlist, ThoughtSpot automatically creates a scheduled alert. You receive emails with updates to the KPI on a periodic basis. You can edit all scheduled alerts from the *Monitor* tab. For more information, see xref:thoughtspot-one-homepage.adoc#monitor[Track important KPIs].
 
 ////
 // SCAL-159818
