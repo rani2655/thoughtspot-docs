@@ -70,7 +70,13 @@ endif::[]
 
 // Naomi -- SCAL-89341.
 
-When you receive an email alert about a threshold or scheduled alert, ThoughtSpot now surfaces any anomalies found in your KPI. You can see the expected range of values, and click a link to view your KPI in the original Liveboard. To enable this feature, reach out to your administrator.
+When you receive an email alert about a threshold or scheduled alert, ThoughtSpot now surfaces any anomalies found in your KPI. You can see the expected range of values, and click a link to view your KPI in the original Liveboard. To enable this feature, reach out to your administrator. For more information, see
+ifndef::pendo-links[]
+xref:monitor.adoc#early-access[Monitor].
+endif::[]
+ifdef::pendo-links[]
+xref:monitor.adoc#early-access[Monitor,window=_blank].
+endif::[]
 
 image::kpi-alert-anomaly.png[KPI alert with surfaced anomaly]
 

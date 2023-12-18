@@ -8,6 +8,7 @@
 
 ThoughtSpot now supports alerts for changes in xref:chart-kpi.adoc[Key Performance Indicators (KPIs)] in your data. Use the Monitor function to receive notifications when your KPI satisfies a certain threshold condition, or to schedule notifications for your KPIs on an hourly, daily, weekly, or monthly basis.
 
+[#early-access]
 .[.badge.badge-early-access]#Early Access#
 ****
 The following features are Early Access:

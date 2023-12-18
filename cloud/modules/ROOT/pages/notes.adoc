@@ -71,7 +71,8 @@ Contextual alert creation on KPI charts [.badge.badge-early-access-relnotes]#Ear
 Change analysis: More insights:: Change analysis _More insights_ are now available to all customers and are enabled by default. For example, ThoughtSpot finds values that underwent the highest percentage change between the two data points defined in your analysis, and values whose share of the total changed the most. The insights appear below the main analysis in the change analysis pop-up window. Note that insights do not appear for measures of type `count` and `ratios`. For more information, see xref:spotiq-change.adoc#additional[Change analysis].
 
 // SCAL-89341
-Anomaly insights with Monitor alerts for time-series KPI [.badge.badge-early-access-relnotes]#Early Access#:: When you receive an email alert about a threshold or scheduled alert, ThoughtSpot now surfaces any anomalies found in your KPI. You can see the expected range of values, and click a link to view your KPI in the original Liveboard.
+Anomaly insights with Monitor alerts for time-series KPI [.badge.badge-early-access-relnotes]#Early Access#:: When you receive an email alert about a threshold or scheduled alert, ThoughtSpot now surfaces any anomalies found in your KPI. You can see the expected range of values, and click a link to view your KPI in the original Liveboard. For more information, see xref:monitor.adoc#early-access[Monitor].
+
 
 // SCAL-177812
 KPI scheduled watchlist alert:: When you add a KPI to your homepage watchlist, ThoughtSpot automatically creates a scheduled alert. You receive emails with updates to the KPI on a periodic basis. You can edit all scheduled alerts from the *Monitor* tab.
