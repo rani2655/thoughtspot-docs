@@ -57,24 +57,6 @@ This article provides information about the capabilities administrators have in 
 ^.^|
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
-
-|ThoughtSpot Sage preview
-^.^|image:checkmark_black.svg[Yes,15]
-^.^|image:checkmark_black.svg[Yes,15]
-^.^|image:checkmark_black.svg[Yes,15]
-^.^|image:checkmark_black.svg[Yes,15]
-
-|Data management privileges
-^.^|image:checkmark_black.svg[Yes,15]
-^.^|image:checkmark_black.svg[Yes,15]
-^.^|image:checkmark_black.svg[Yes,15]
-^.^|image:checkmark_black.svg[Yes,15]
-
-|SpotIQ privileges
-^.^|
-^.^|image:checkmark_black.svg[Yes,15]
-^.^|image:checkmark_black.svg[Yes,15]
-^.^|image:checkmark_black.svg[Yes,15]
 |===
 
 +*+ _Requires license for ThoughtSpot Everywhere or internal analytics add-on._
