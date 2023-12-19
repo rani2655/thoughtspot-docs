@@ -15,15 +15,15 @@ endif::free-trial-feature[]
 // Business User
 
 
-//[#9-8-0-cl-sage-coach]
-//[discrete]
-// === Sage Coach
+[#9-8-0-cl-sage-coach]
+[discrete]
+=== Sage Coach
 
 // Naomi -- SCAL-154204. Santiago is waiting to confirm whether Admin users or Worksheet owners will have access to make feedback apply globally. split into two? new user experience and data workspace part.
 
-// When giving feedback to AI-generated Answers in Sage, you now tell ThoughtSpot what search tokens to use to signify certain key terms. For example, when you search for "best performing products this year", ThoughtSpot responds with the top five products sorted by sum of sales. You can correct top five to top ten by clicking the thumbs-down icon and editing the Answer. ThoughtSpot then stores that feedback, and admin users can decide to apply the feedback globally, so that every time someone searches for "best" products, they receive the top ten results.
+When giving feedback to AI-generated Answers in Sage, you now tell ThoughtSpot what search tokens to use to signify certain key terms. For example, when you search for "best performing products this year", ThoughtSpot responds with the top five products sorted by sum of sales. You can correct top five to top ten by clicking the thumbs-down icon and editing the Answer. ThoughtSpot then stores that feedback, and admin users can decide to apply the feedback globally, so that every time someone searches for "best" products, they receive the top ten results.
 
-// image::sage-coach.gif[]
+image::sage-coach.gif[]
 // hidden for now because we were told on dec 8, 2023 that it has been pushed out to the 9.10.0.cl release.
 
 

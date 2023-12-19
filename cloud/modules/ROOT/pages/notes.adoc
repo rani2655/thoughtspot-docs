@@ -57,12 +57,12 @@ ThoughtSpot introduces custom sorting of attributes to sort all chart types in a
 [#9-8-0-cl-business-user]
 === For the Business User
 
-////
+
 // SCAL-154204
 Sage Coach:: When giving feedback to AI-generated Answers in Sage, you now tell ThoughtSpot what search tokens to use to signify certain key terms. For example, when you search for "best performing products this year", ThoughtSpot responds with the top five products sorted by sum of sales. You can correct top five to top ten by clicking the thumbs-down icon and editing the Answer. ThoughtSpot then stores that feedback, and admin users and Worksheet owners can decide to apply the feedback globally, so that every time someone searches for "best" products, they receive the top ten results.
 +
 For more information, see xref:sage-coach.adoc[Sage Coach].
-////
+
 
 // SCAL-127727
 Contextual alert creation on KPI charts [.badge.badge-early-access-relnotes]#Early Access#:: ThoughtSpot now preserves the filters you use on a KPI when you create a Monitor alert. Users with view access to the underlying Liveboard can now receive alert emails for filtered KPIs without saving the filters on the Liveboard. For more information, see xref:monitor.adoc[Monitor alerts].
