@@ -30,7 +30,7 @@ This article provides information about the capabilities administrators have in 
 
 |Group management
 ^.^|
-^.^|
+^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 
@@ -55,24 +55,6 @@ This article provides information about the capabilities administrators have in 
 |Developer privileges*
 ^.^|
 ^.^|
-^.^|image:checkmark_black.svg[Yes,15]
-^.^|image:checkmark_black.svg[Yes,15]
-
-|ThoughtSpot Sage preview
-^.^|image:checkmark_black.svg[Yes,15]
-^.^|image:checkmark_black.svg[Yes,15]
-^.^|image:checkmark_black.svg[Yes,15]
-^.^|image:checkmark_black.svg[Yes,15]
-
-|Data management privileges
-^.^|image:checkmark_black.svg[Yes,15]
-^.^|image:checkmark_black.svg[Yes,15]
-^.^|image:checkmark_black.svg[Yes,15]
-^.^|image:checkmark_black.svg[Yes,15]
-
-|SpotIQ privileges
-^.^|
-^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 |===
