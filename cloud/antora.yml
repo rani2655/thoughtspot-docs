@@ -1,7 +1,7 @@
 name: cloud
 title: Cloud
-version: '9.9.0.cl'
-display_version: '9.9.0.cl'
+version: '9.10.0.cl'
+display_version: '9.10.0.cl'
 nav:
 - modules/ROOT/nav.adoc
 #asciidoc:
