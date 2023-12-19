@@ -1,6 +1,6 @@
 = Fixed issues
 :keywords: fixed issues
-:last_updated: 10/4/2023
+:last_updated: 12/18/2023
 :experimental:
 :linkattrs:
 :description: These are the issues we fixed in recent ThoughtSpot Software releases.
@@ -9,6 +9,121 @@
 These are the issues we fixed in recent ThoughtSpot Software releases.
 
 [#releases-9-5-x]
+== 9.5.0.sw.cu1 release fixed issues
+
+[cols="20%,80%"]
+|===
+|Issue ID |Description
+
+|SCAL-182743
+|Updates to runtime filters in a Liveboard do not appear in the downloaded Liveboard.
+
+|SCAL-182316
+|tbd
+
+|SCAL-182280
+|tbd
+
+|SCAL-175970
+|`POST tspublic/v1/user` returns a 500 error if null is passed on under the group parameter for the tspublic V1 user API property.
+
+|SCAL-175240
+|tbd
+
+|SCAL-174649
+|tbd
+
+|SCAL-173805
+|The error `TypeError: runtimeFilterParams.set is not a function. (In 'runtimeFilterParams.set(I,b)', 'runtimeFilterParams.set' is undefined)` occurs when using runtime filters along with cookieless authentication.
+
+|SCAL-173537
+|Incorrect date bucketing occurs on windowing and group functions, when date bucketing on windowing or group functions is defined over chasm trap worksheets.
+
+|SCAL-173139
+|Adding values in bulk does not work on Liveboard filters.
+
+|SCAL-170042
+|A worksheet which does not have a dependency cannot be deleted.
+
+|SCAL-168585
+|Filter is not applied before aggregation when  `enableGroupAggregateNewReaggregation` is enabled.
+
+|SCAL-167402
+|tbd
+
+|SCAL-167188
+|tbd
+
+|SCAL-167159
+|Passthrough functions cannot be executed on Falcon objects.
+
+|SCAL-164846
+|Pivot table display "Undefined" when user clicks Edit button in a Liveboard or opens the visualization in edit mode.
+
+|SCAL-163668
+|tbd
+
+|SCAL-160065
+|tbd
+
+|SCAL-159531
+|tbd
+
+|SCAL-159335
+|tbd
+
+|SCAL-159308
+|tbd
+
+|SCAL-155174
+|tbd
+
+|SCAL-151590
+|tbd
+
+|SCAL-148123
+|tbd
+
+|SCAL-147691
+|tbd
+
+|SCAL-146968
+|tbd
+
+|SCAL-145485
+|tbd
+
+|SCAL-142085
+|tbd
+
+|SCAL-141596
+|tbd
+
+|SCAL-141234
+|tbd
+
+|SCAL-139866
+|tbd
+
+|SCAL-138905
+|tbd
+
+|SCAL-137993
+|tbd
+
+|SCAL-137873
+|tbd
+
+|SCAL-137487
+|tbd
+
+|SCAL-129104
+|tbd
+
+|SCAL-124499
+|tbd
+|===
+
 == 9.5.0.sw release fixed issues
 
 [cols="20%,80%"]
