@@ -5,6 +5,7 @@
 :page-layout: default-cloud
 :connection: Denodo
 :description: Learn how to configure OAuth for a Denodo connection in ThoughtSpot.
+:jira: SCAL-160062
 
 ThoughtSpot supports OAuth for a {connection} connection.
 
