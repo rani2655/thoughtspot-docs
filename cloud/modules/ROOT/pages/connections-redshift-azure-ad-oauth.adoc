@@ -7,6 +7,7 @@
 :page-aliases: /admin/ts-cloud/ts-cloud-embrace-redshift-azure-ad-oauth.adoc
 :connection: Redshift
 :description: ThoughtSpot supports Microsoft Azure Active Directory (AD) OAuth for a Redshift connection.
+:jira: SCAL-160062
 
 ThoughtSpot supports Microsoft Azure Active Directory (AD) OAuth for a {connection} connection.
 With Azure AD OAuth, the authorization server generates an access token from Azure AD on behalf of the ThoughtSpot user which authenticates them with {connection} and authorizes ThoughtSpot to query the database using their {connection} user account.
@@ -336,6 +337,13 @@ For example:
 grant select on all tables in schema public to "oauth_aad:john@azent.org";
 ----
 
+== OAuth connection improvements
+
+If you do not have a valid OAuth access token, you can now directly navigate to the OAuth authorization screen when performing one of the following actions on a connection shared with you:
+
+** View sample data
+** Create a custom SQL view
+** Edit the connection
 
 '''
 > **Related information**

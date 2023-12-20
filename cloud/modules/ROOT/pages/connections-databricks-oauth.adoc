@@ -6,6 +6,7 @@
 :page-layout: default-cloud
 :connection: Databricks
 :description: ThoughtSpot supports OAuth for a Databricks connection.
+:jira: SCAL-160062
 
 ThoughtSpot supports OAuth for a {connection} connection. This page describes the setup and configuration required.
 
@@ -92,6 +93,14 @@ image:oauth-error.png[Error reading “Error in loading data. Connection to Snow
 . Enter your login credentials.
 
 . You will now have access to edit the connection.
+
+== OAuth connection improvements
+
+If you do not have a valid OAuth access token, you can now directly navigate to the OAuth authorization screen when performing one of the following actions on a connection shared with you:
+
+** View sample data
+** Create a custom SQL view
+** Edit the connection
 
 '''
 > **Related information**

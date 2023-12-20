@@ -6,6 +6,7 @@
 :page-aliases: /admin/ts-cloud/ts-cloud-embrace-snowflake-azure-ad-oauth.adoc
 :connection: Snowflake
 :description: ThoughtSpot supports Microsoft Azure Active Directory (AD) OAuth for a Snowflake connection.
+:jira: SCAL-160062
 
 ThoughtSpot supports Microsoft Azure Active Directory (AD) OAuth for a {connection} connection.
 With Azure AD OAuth, the authorization server generates an access token from Azure AD on behalf of the ThoughtSpot user which authenticates them with {connection} and authorizes ThoughtSpot to query the database using their {connection} user account.
@@ -320,6 +321,15 @@ image:oauth-error.png[Error reading “Error in loading data. Connection to Snow
 . Enter your login credentials.
 
 . You will now have access to edit the connection.
+
+== OAuth connection improvements
+
+If you do not have a valid OAuth access token, you can now directly navigate to the OAuth authorization screen when performing one of the following actions on a connection shared with you:
+
+** View sample data
+** Create a custom SQL view
+** Edit the connection
+** Upload a CSV file
 
 '''
 > **Related information**
