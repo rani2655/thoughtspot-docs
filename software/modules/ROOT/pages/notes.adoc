@@ -99,7 +99,7 @@ Easily find verified Liveboards marked with banners, and icons. Sort search resu
 //Mary -- scal-112787
 Pivot table improvements::
 Previously, the summary values in ThoughtSpot pivot tables were not always calculated correctly. Enhancements to the pivot table summary calculations now ensure that the values are calculated correctly.
-=======
+
 //scal-161459
 New data panel with tag-based filtering::
 The new data panel experience is available for all customers in this release, and is enabled by default. In this release, you can now filter data sources by how they are tagged.
