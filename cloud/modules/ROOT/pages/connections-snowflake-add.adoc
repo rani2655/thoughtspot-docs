@@ -33,7 +33,7 @@ To connect to {connection}:
 +
 image::embrace-snowflake-connection-type-ts-cloud.png[Add a {connection} connection]
 
-. Enter the connection details for your {connection} data source using either OAuth, Microsoft Azure AD OAuth, or Service Account authentication:
+. Enter the connection details for your {connection} data source using either OAuth, Microsoft Azure AD OAuth, Service Account, or Key Pair authentication:
 +
 The Use OAuth option uses https://docs.snowflake.com/en/user-guide/oauth-partner.html[{connection} OAuth authentication].
 +
