@@ -47,6 +47,13 @@ Database as a destination for Answer sync:: Using ThoughtSpot Sync you can now s
 Enhancements for TS Sync::
 ThoughtSpot Sync allows you to connect and share complete Liveboards using Microsoft Teams and Slack. Previously, only Answers could be shared.
 
+//SCAL-154204
+
+Sage Coach feedback review::
+You can now review user feedback from the Data workspace, and determine whether it should apply to only that user’s queries, or to the entire cluster. Use the *Query Feedback* modal to review feedback given to individual natural language queries, and use the *Query Term Feedback* modal to review the translation of individual natural language terms to search tokens.
+For more information, see
+xref:sage-coach.adoc[Sage Coach].
+
 //  SCAL-156895
 Custom Sorting [.badge.badge-early-access]#Early Access#::
 ThoughtSpot introduces custom sorting of attributes to sort all chart types in a way that helps users to consume charts more efficiently. Previously custom sorting could only be applied to an Answer using custom columns and the search bar, and could not be applied to some chart types. You can now sort on any column in a chart, in ascending or descending order, from the column heading menu. To enable this feature, contact your administrator.
