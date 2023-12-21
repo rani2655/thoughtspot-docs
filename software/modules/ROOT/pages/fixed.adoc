@@ -122,6 +122,10 @@ These are the issues we fixed in recent ThoughtSpot Software releases.
 
 |SCAL-124499
 |Long-running services without a restart have increased stdout and stderr files due to an issue with the way logs are rotated, causing issues when a file is temporarily staged into memory or disk.
+
+|SCAL-175970
+|`POST tspublic/v1/user` returns 500 if null is provided for the "groups" property.
+
 |===
 
 == 9.5.0.sw release fixed issues

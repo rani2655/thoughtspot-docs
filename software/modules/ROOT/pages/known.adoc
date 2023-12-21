@@ -46,20 +46,6 @@ Using a group aggregate grouping on a column with unique count in the same query
 
 Disable the `enableGroupingByGroupAggregrates` feature.
 
-|SCAL-175970
-|`POST tspublic/v1/user` returns 500 if null is provided for the "groups" property`
-a|*Symptoms*:
-
-Returns 500 error
-
-*Conditions*:
-
-When null is passed on under group parameter for tspublic V1 user API
-
-*Workaround*:
-
-Instead of null, the blank parameter can be passed.
-
 |===
 
 [#releases-9-0-x]
