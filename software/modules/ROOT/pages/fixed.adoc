@@ -1,13 +1,13 @@
 = Fixed issues
 :keywords: fixed issues
-:last_updated: 12/18/2023
+:last_updated: 12/20/2023
 :experimental:
 :linkattrs:
 :description: These are the issues we fixed in recent ThoughtSpot Software releases.
 :jira: SCAL-177831
 
 These are the issues we fixed in recent ThoughtSpot Software releases.
-////
+
 [#releases-9-5-x]
 == 9.5.0.sw.cu1 release fixed issues
 
@@ -19,19 +19,19 @@ These are the issues we fixed in recent ThoughtSpot Software releases.
 |Updates to runtime filters in a Liveboard do not appear in the downloaded Liveboard.
 
 |SCAL-182316
-|tbd
+|Extra page added and footer is distorted in PDF export after puppeteer upgrade.
 
 |SCAL-182280
-|tbd
+|R pinboards do not load in the Liveboard new experience after upgrade to 8.8.1.sw.cu1.
 
 |SCAL-175970
 |`POST tspublic/v1/user` returns a 500 error if null is passed on under the group parameter for the tspublic V1 user API property.
 
 |SCAL-175240
-|tbd
+|ThoughtSpot Everywhere: PDF downloads do not work after applying `9.3.0.cl-261-349-default-PR908.2023-09-14T103600` patch.
 
 |SCAL-174649
-|tbd
+|`logicalModelManager.getLogicalColumn` returns null for some columns after 9.6 upgrade causing columns to be dropped in sage metadata.
 
 |SCAL-173805
 |The error `TypeError: runtimeFilterParams.set is not a function. (In 'runtimeFilterParams.set(I,b)', 'runtimeFilterParams.set' is undefined)` occurs when using runtime filters along with cookieless authentication.
@@ -49,10 +49,10 @@ These are the issues we fixed in recent ThoughtSpot Software releases.
 |Filter is not applied before aggregation when  `enableGroupAggregateNewReaggregation` is enabled.
 
 |SCAL-167402
-|tbd
+|Transferring ownership of objects in a secondary org does not work though the API indicates it is successful.
 
 |SCAL-167188
-|tbd
+|Worksheet generates an error when multiple metrics are used after upgrade to 9.4.0.cl.
 
 |SCAL-167159
 |Passthrough functions cannot be executed on Falcon objects.
@@ -61,69 +61,69 @@ These are the issues we fixed in recent ThoughtSpot Software releases.
 |Pivot table display "Undefined" when user clicks Edit button in a Liveboard or opens the visualization in edit mode.
 
 |SCAL-163668
-|tbd
+|`sage_usage_based_index` fills up the disk.
 
 |SCAL-160065
-|tbd
+|Metadata upgrade report is not generated.
 
 |SCAL-159531
-|tbd
+|Data displayed in a KPI tile is cut off when using a custom tile size.
 
 |SCAL-159335
-|tbd
+|A query with multiple `group_*` formulas mixed with other attribute formulas, and using a worksheet with multiple roots returns data where the same combinations of attribute values correspond to different measure values.
 
 |SCAL-159308
-|tbd
+|Columns appear to be missing for a connection in different operations such as editing and remapping, causing these operations to fail.
 
 |SCAL-155174
-|tbd
+|An Answer using the `group_aggregate` function (or versus), and having a mix of formula grouping columns and base column grouping columns fails when the formula comes after the base column in the search bar.
 
 |SCAL-151590
-|tbd
+|Parameter value is not retained after Liveboard is imported.
 
 |SCAL-148123
-|tbd
+|Active Directory groups are duplicated when using Active Directory sync after upgrade to 8.8.1.sw.cu1.
 
 |SCAL-147691
-|tbd
+|Cannot search by display name when sharing an object in 8.4.1.sw.
 
 |SCAL-146968
-|tbd
+|Using a filter in a Liveboard and typing in *&* as a search word, generates *\&amp;* as a result.
 
 |SCAL-145485
-|tbd
+|Join type used between two tables is not honored because the joins which share the same source and destination table do not have different join types. Also, the RLS rule on the destination table and the user executing a query involving the two tables is not an admin user and does not have Bypass RLS privileges.
 
 |SCAL-142085
-|tbd
+|Pivot table with group aggregate formula displays incorrect numbers.
 
 |SCAL-141596
-|tbd
+|Pivot table is in an error state after upgrade to 8.8.1.sw.
 
 |SCAL-141234
-|tbd
+|Autocomplete does not provide completions if the token has a leading whitespace.
 
 |SCAL-139866
-|tbd
+|Indexing of Metadata is slow and memory usage is high.
 
 |SCAL-138905
-|tbd
+|DataFlow sync fails after upgrade to 8.4.1.cu1
 
 |SCAL-137993
-|tbd
+|Graph labels in exported PDFs have issues with overlapping and missing values on certain bars.
 
 |SCAL-137873
-|tbd
+|ThoughtSpot Everywhere: Locale parameter does not work in SearchEmbed.
 
 |SCAL-137487
-|tbd
+|Pivot charts cannot be downloaded.
 
 |SCAL-129104
-|tbd
+|ThoughtSpot Everywhere:  Powered by Thoughtspot footer is not disabled in Liveboard V2.
 
 |SCAL-124499
-|tbd
+|Long-running services without a restart have increased stdout and stderr files due to an issue with the way logs are rotated, causing issues when a file is temporarily staged into memory or disk.
 |===
-////
+
 == 9.5.0.sw release fixed issues
 
 [cols="20%,80%"]
