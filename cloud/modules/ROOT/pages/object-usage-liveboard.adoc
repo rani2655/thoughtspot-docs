@@ -30,4 +30,4 @@ The Object Usage Liveboard contains information about the following topics:
 * Displays a pivot table of most frequent usage by object type, and by user
 * Displays monthly usage of Worksheets, tables and views to help identify objects with low or no usage (Monthly Worksheet Volume, Monthly Table Volume, Monthly View Volume)
 
-//NOTE: When an object is deleted, it no longer appears in the Object Usage Liveboard. This ensures a more accurate count of objects in use on your cluster.
+NOTE: When an object is deleted, it no longer appears in the Object Usage Liveboard. This ensures a more accurate count of objects in use on your cluster.
