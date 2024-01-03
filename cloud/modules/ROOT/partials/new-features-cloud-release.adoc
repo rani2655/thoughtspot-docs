@@ -49,6 +49,7 @@ xref:time-series-anomaly.adoc[Anomaly detection].
 Chart customizations:: You can now access advanced chart customization settings for Answers by selecting the gear icon image:icon-gear-10px.png[chart customization icon] and selecting *Advanced settings*. Use these settings to adjust the size and appearance of tooltips, regression lines, gridlines, and chart backgrounds. For more information, see xref:chart-settings-advanced.adoc[Advanced chart settings].
 
 
+<<<<<<< HEAD
 // Naomi -- scal-141936. actually beta. spotiq-change.adoc#iterative
 
 Run change analysis iteratively:: You can now drill down on specific columns in change analysis, in order to identify change drivers within your data. When you right-click on an attribute value in the change analysis window to drill down, ThoughtSpot adds the attribute value as a filter and re-calculates change analysis for the specific window of time specified in your original search. For more information, see xref:spotiq-change.adoc#iterative[Iterative change analysis].
@@ -90,6 +91,7 @@ To access this feature, go to your KPI chart and select the caret icon to the ri
 * You can now receive ThoughtSpot mobile push notifications. Receive push notifications when a Liveboard or Answer is shared with you. Monitor scheduled and threshold alerts with push notifications.
 
 [#9-10-0-cl-data-engineer]
+
 === For the Data Engineer
 
 // Naomi -- scal-166158
