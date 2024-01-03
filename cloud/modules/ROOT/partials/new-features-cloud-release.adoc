@@ -50,6 +50,7 @@ Chart customizations:: You can now access advanced chart customization settings 
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Naomi -- scal-141936. actually beta. spotiq-change.adoc#iterative
 
 Run change analysis iteratively:: You can now drill down on specific columns in change analysis, in order to identify change drivers within your data. When you right-click on an attribute value in the change analysis window to drill down, ThoughtSpot adds the attribute value as a filter and re-calculates change analysis for the specific window of time specified in your original search. For more information, see xref:spotiq-change.adoc#iterative[Iterative change analysis].
