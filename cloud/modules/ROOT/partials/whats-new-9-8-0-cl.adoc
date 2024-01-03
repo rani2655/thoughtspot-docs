@@ -56,7 +56,7 @@ image::additional-insight.png[More insights]
 
 
 
-
+////
 ifndef::pendo-links[]
 [#9-8-0-cl-anomaly]
 [discrete]
@@ -79,6 +79,7 @@ xref:monitor.adoc#early-access[Monitor,window=_blank].
 endif::[]
 
 image::kpi-alert-anomaly.png[KPI alert with surfaced anomaly]
+////
 
 [#9-8-0-cl-watchlist]
 [discrete]
