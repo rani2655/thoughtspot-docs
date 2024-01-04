@@ -37,11 +37,11 @@ Ask Sage:: You can now conversationally search ThoughtSpot using natural languag
 // Naomi -- scal-159515
 Commenting on Liveboards:: You can now add or reply to comments, tag other users, or subscribe to comment threads directly on a Liveboard. Users can point out insights or reach out for clarification without leaving ThoughtSpot. To try it out, click the comment icon to the right of the edit icon, and select the data point you would like to comment on. For more information, see xref:liveboard-comment.adoc[].
 
+// Naomi -- scal-173345, scal-89341
 
-// Naomi -- scal-130327
-Anomaly detection for time-series KPI charts::
-You can now see anomalies in time-series KPI charts. Our new anomaly detection algorithm detects data which does not fall within the expected confidence intervals, while allowing for seasonal changes and growth over time. To try it out, open your KPI chart as an Answer, open the chart configuration menu, and select *Show anomalies*. For more information, see
-xref:time-series-anomaly.adoc[Anomaly detection].
+Anomaly insights with Monitor alerts for time-series KPI::
+When you receive an email alert about a threshold or scheduled alert, ThoughtSpot now surfaces any anomalies found in your KPI. You can see the expected range of values, and click a link to view your KPI in the original Liveboard. To enable this feature, contact your administrator. For more information, see
+xref:monitor.adoc#early-access[Monitor].
 
 
 

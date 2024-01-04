@@ -91,18 +91,9 @@ endif::[]
 image:liveboard-comment.gif[Create a comment on a Liveboard and add a reaction]
 
 
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
 [#9-10-0-cl-anomaly]
 [discrete]
-=== Anomaly insights with Monitor alerts for time-series KPI [.badge.badge-early-access]#Early Access#
-endif::[]
-ifdef::pendo-links[]
-[#9-10-0-cl-anomaly]
-[discrete]
-=== Anomaly insights with Monitor alerts for time-series KPI [.badge.badge-early-access-whats-new]#Early Access#
-endif::[]
-
+=== Anomaly insights with Monitor alerts for time-series KPI
 // Naomi -- scal-173345, scal-89341
 
 When you receive an email alert about a threshold or scheduled alert, ThoughtSpot now surfaces any anomalies found in your KPI. You can see the expected range of values, and click a link to view your KPI in the original Liveboard. To enable this feature, contact your administrator. For more information, see
@@ -114,7 +105,7 @@ xref:monitor.adoc#early-access[Monitor,window=_blank].
 endif::[]
 
 image::kpi-alert-anomaly.png[KPI alert with surfaced anomaly]
-endif::free-trial-feature[]
+
 
 
 
