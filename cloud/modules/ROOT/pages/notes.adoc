@@ -148,6 +148,11 @@ OAuth connection improvements:: If you do not have a valid OAuth access token, y
 ** Edit the connection
 ** Upload a CSV file (Snowflake connections only)
 
+// Naomi-- scal-187049
+
+Snowflake account name restrictions::
+In accordance with link:https://community.snowflake.com/s/article/Behaviour-Change-Release-information-associated-with-Snowflake-JDBC-driver-version-3-13-25#:~:text=This%20change%20was%20made%20to,my_account.snowflakecomputing.com[Snowflake's recent JDBC update], ThoughtSpot does not support Snowflake account names that contain underscores for connections that use Private Link. For more information on how to adjust your account name behavior to avoid this restriction, see xref:connections-snowflake-private-link.adoc#account-name[Snowflake Private Link].
+
 // SCAL-134057
 Support for deletion of Orgs::
 You can now delete an Org without first removing all users, connections and objects.
