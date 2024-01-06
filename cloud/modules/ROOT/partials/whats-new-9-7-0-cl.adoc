@@ -173,7 +173,7 @@ ifdef::pendo-links[]
 xref:liveboard-filters.adoc#filter-request[Liveboard filters,window=_blank].
 endif::[]
 
-image::filter-request-access.png[]s
+image::filter-request-access.png[Request access to the filter]
 
 [#9-7-0-cl-data-fluency-ga]
 // SCAL-161459

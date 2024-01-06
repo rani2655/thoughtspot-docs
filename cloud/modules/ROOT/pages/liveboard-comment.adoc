@@ -16,9 +16,9 @@ You can comment on data points in a Liveboard to bring information to the attent
 image:liveboard-comment.gif[Create a comment on a Liveboard and add a reaction]
 
 
-All previous comments appear in the right sidebar. To move the sidebar, select the dot icon image:icon-dot.png[]  and drag across the screen.
+All previous comments appear in the right sidebar. To move the sidebar, select the dot icon image:icon-dot.png[dot icon] and drag across the screen.
 
-image::comment-sidebar.png[]
+image::comment-sidebar.png[Comment sidebar]
 
 
 
@@ -31,7 +31,7 @@ Users can reply to comments by clicking on the comment, and selecting the *Reply
 
 Data in a Liveboard may change after you add a comment. ThoughtSpot stores the data point at the time you commented. To see the original data behind a comment, click on the data point below the comment.
 
-image::comment-data-point.png[]
+image::comment-data-point.png[Comment data point]
 
 
 
