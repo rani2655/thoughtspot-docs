@@ -96,7 +96,7 @@ xref:thoughtspot-one-homepage.adoc#monitor[Track important KPIs,window=_blank].
 endif::[]
 
 
-image::kpi-alert-homepage.png[]
+image::kpi-alert-homepage.png[KPI alert homepage]
 
 [#9-8-0-cl-view]
 [discrete]

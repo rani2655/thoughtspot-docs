@@ -124,7 +124,7 @@ endif::[]
 
 AI highlights provides you with quick insights on how top metrics changed in your Liveboard, helping you to focus on the changes that are most important to you. Just open your Liveboard, and click *View AI Highlights*. ThoughtSpot generates a summary of the changes in your KPIs.
 
-image::ai-highlights-window.png[]
+image::ai-highlights-window.png[AI Highlights window]
 
 // Mark -- scal-162712. add article link. make sure to highlight icon in article.
 

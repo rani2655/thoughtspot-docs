@@ -18,10 +18,10 @@ For developers who want to create custom charts, refer to the https://github.com
 
 To use a custom chart, do the following:
 
-. Click the *Change visualization* button image:icon-chart-type-10px.png[].
+. Click the *Change visualization* button image:icon-chart-type-10px.png[chart type].
 . Below the list of default charts, select a custom chart.
 +
-image::custom-chart-select.png[]
+image::custom-chart-select.png[Select custom chart]
 
 == Administering custom charts
 
@@ -38,7 +38,7 @@ To add a custom chart, the ThoughtSpot administrator does the following:
 +
 The Add custom chart window appears.
 +
-image::chart-custom.png[]
+image::chart-custom.png[Add custom chart]
 
 . Enter the following fields:
 - Name
@@ -72,4 +72,3 @@ To delete a custom chart, the ThoughtSpot administrator does the following:
 . Find the name of the chart you want to delete, and click *Delete*.
 +
 . In the _Delete custom chart_ warning message which appears, click *Delete*.
-
