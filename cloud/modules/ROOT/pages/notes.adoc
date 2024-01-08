@@ -157,6 +157,10 @@ In accordance with link:https://community.snowflake.com/s/article/Behaviour-Chan
 Support for deletion of Orgs::
 You can now delete an Org without first removing all users, connections and objects.
 
+// scal-187722
+Org name limitations:: When an Org name is created, it becomes a subdomain of the cluster URL. As a DNS subdomain, an Org name cannot contain a space (' ') as a character. When used as a subdomain, any spaces in the Org name will be replaced with hyphens ('-').
+
+
 
 // scal-164805
 Disable SQL passthrough functions::
