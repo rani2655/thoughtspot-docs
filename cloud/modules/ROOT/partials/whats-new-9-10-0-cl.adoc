@@ -231,7 +231,10 @@ endif::free-trial-feature[]
 [discrete]
 === Advanced conditional formatting
 
-// Naomi -- scal-177005
+// Naomi -- scal-177005. add gif?
+
+Rather than simply using conditional formatting comparing a column's measures to a single value (for example, `sales > 10000`), you can now use conditional formatting to compare a column's measures to another column or to a parameter. For column-based conditional formatting, you can set a rule to color a column's cells red if they are less than, greater than, less than or equal to, greater than or equal to, equal to, or not equal to, another column. For parameter-based conditional formatting, you can set a rule to color a column's cells red if they are less than, greater than, less than or equal to, greater than or equal to, equal to, or not equal to, a table parameter. You can set multiple conditional formatting rules to a single table.
+
 
 
 ifndef::free-trial-feature[]
