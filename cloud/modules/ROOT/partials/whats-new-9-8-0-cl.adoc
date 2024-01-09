@@ -137,13 +137,14 @@ ThoughtSpot has renamed pie charts as donut charts.
 image::pie_chart_example.png[Donut chart example]
 ////
 
+////
 [#9-8-0-cl-verified]
 [discrete]
 === Functional enhancements for verified Liveboards
 Easily find verified Liveboards with trusted content by filtering search results to return only verified content. Request verification of Liveboards and cancel requests when needed.
 
 // Mary -- SCAL-158469.
-
+////
 
 
 

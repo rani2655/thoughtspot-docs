@@ -207,7 +207,12 @@ endif::free-trial-feature[]
 
 
 
+[#9-8-0-cl-verified]
+[discrete]
+=== Functional enhancements for verified Liveboards
+Easily find verified Liveboards with trusted content and sort Liveboards to view verified content. Request verification of Liveboards and cancel requests when needed.
 
+// Mary -- SCAL-158469. moved to 9.10 re:Sarib
 
 // Analyst
 
