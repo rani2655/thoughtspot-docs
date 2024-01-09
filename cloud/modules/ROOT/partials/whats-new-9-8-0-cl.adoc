@@ -332,11 +332,13 @@ In accordance with link:https://community.snowflake.com/s/article/Behaviour-Chan
 
 // Mary -- SCAL-148215 - Confirmed no doc needed with Aditya Gupta that this was a validation epic.
 
+////
 [#9-8-0-cl-orgs]
 [discrete]
 === Support for deletion of Orgs
 You can now delete an Org without first removing all users, connections and objects.
-// Mary -- SCAL-134057
+// Mary -- SCAL-134057. moved to 9.12
+////
 
 ////
 [#9-8-0-cl-viz]
