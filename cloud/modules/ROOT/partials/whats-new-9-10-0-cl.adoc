@@ -139,7 +139,7 @@ endif::free-trial-feature[]
 [discrete]
 === Null and missing values in charts
 
-// Naomi -- scal-169683
+// Naomi -- scal-169683. waiting on Manan for clarifying video.
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
@@ -300,7 +300,8 @@ You can now rename columns in an Answer and see the new name reflected on the ta
 
 // Naomi -- scal-174127
 
-
+You can now use ThoughtSpot Sync to sync data directly from
+an Answer or custom SQL view to Google BigQuery. Using ThoughtSpot Sync, you can push insights directly to your Google BigQuery, notify your teams, and view data in context. ThoughtSpot Sync automatically establishes a secure pipeline to the destination app and thus eliminates the need for building custom connectors.
 
 [#9-10-0-cl-parameters]
 [discrete]
@@ -345,7 +346,7 @@ You can now rename columns in an Answer and see the new name reflected on the ta
 
 // Naomi -- scal-166158
 
-We added support for
+You can now create connections from ThoughtSpot to
 ifndef::pendo-links[]
 xref:connections-google-cloud-sql-mysql.adoc[Google Cloud SQL for MySQL].
 endif::[]
