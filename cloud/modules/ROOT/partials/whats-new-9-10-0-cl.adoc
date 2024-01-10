@@ -270,7 +270,9 @@ endif::free-trial-feature[]
 [#9-10-0-cl-custom]
 [discrete]
 === Custom sorting
+ThoughtSpot introduces custom sorting of attributes to sort all chart types in a way that helps users to consume charts more efficiently. You can now sort on any attribute in a chart, using the custom sort column. Enter the attributes in order to set up a custom sort order.
 
+image::custom-sort-order.png[Custom Sorting]
 // Mary -- scal-181962
 
 ifndef::free-trial-feature[]
@@ -307,6 +309,8 @@ You can now rename columns in an Answer and see the new name reflected on the ta
 [#9-10-0-cl-tooltip]
 [discrete]
 === Tooltip customization
+Customize tooltips to make charts easier to read and reduce the time to insights for business users. Use customized tooltips to add measures, attributes, and formulas that are not visualized in the chart. Tooltips can also be customized to remove certain fields from the tooltips in a complex chart so that users are not overwhelmed with irrelevant information.
+Configure the tooltip in *Chart configuration* > *Settings*. By default, fields visualized in charts are included in the tooltip. You can remove fields or add fields that are not visualized.
 
 // Mary -- scal-143396, scal-163885
 
@@ -332,7 +336,7 @@ an Answer or custom SQL view to Google BigQuery. Using ThoughtSpot Sync, you can
 [#9-10-0-cl-verified]
 [discrete]
 === Liveboard verification enhancements
-
+Easily find verified Liveboards with trusted content by filtering search results to return only verified content. Request verification of Liveboards and cancel requests when needed.
 // Mary -- scal-134503
 
 
@@ -340,7 +344,8 @@ an Answer or custom SQL view to Google BigQuery. Using ThoughtSpot Sync, you can
 [#9-10-0-cl-filter]
 [discrete]
 === Number of filter values shown in string filter modal
-
+The number of filter values shown in the string filter modal can now be changed from the default of 500 to any number up to 1000.
+//TSCLI Flag called maxNumFilterValuesInModal
 // Mary -- scal-177212
 
 [#9-10-0-cl-explore]
@@ -398,7 +403,7 @@ ThoughtSpot now supports dbt version 1.7.
 [#9-10-0-cl-mobile]
 [discrete]
 === Mobile app updates
-// Mary -- scal-165060, scal-161325, scal-95381, scal-154973, scal-165060, consolidate all mobile updates into one heading
+// Mary -- scal-165060, scal-161325, scal-95381, scal-154973, scal-165060, consolidate all mobile updates into one heading. Mobile What's New with detailed descriptions is available in the other file.
 
 * Chart and library changes for mobile localization
 * Mobile localization
@@ -410,7 +415,7 @@ ThoughtSpot now supports dbt version 1.7.
 [#9-10-0-cl-granular]
 [discrete]
 === Granular privileges for data workspace
-
+//TBD - Aashica
 // Mary -- scal-174139
 
 
@@ -419,37 +424,37 @@ ThoughtSpot now supports dbt version 1.7.
 [#9-10-0-cl-saml]
 [discrete]
 === SAML assertion to include both Orgs and Groups information
-
+//TBD
 // Mary -- scal-138809
 
 [#9-10-0-cl-enterprise]
 [discrete]
 === Granular privileges for Free Trial, Team Edition, Enterprise - Orgs
-
+//TBD - Aashica
 // Mary -- scal-155689
 
 [#9-10-0-cl-modeling]
 [discrete]
 === Granular privileges for data modeling
-
+//TBD - Aashica
 // Mary -- scal-154299
 
 [#9-10-0-cl-neighbors]
 [discrete]
 === Handling neighbors in shared clusters (essentials and pro edition)
-
+//waiting for confirmation from Aashica but this may be no doc required as customers won't be aware of this change.
 // Mary -- scal-154107. clarify title.
 
 [#9-10-0-cl-oidc]
 [discrete]
 === Implement OIDC - Orgs on IAM v1 for Pricenow
-
+//TBD
 // Mary -- scal-181443
 
 [#9-10-0-cl-iam]
 [discrete]
 === IAM v2 - OIDC support
-
+//TBD
 // Mary -- scal-119837
 
 [#9-10-0-cl-bridge]
