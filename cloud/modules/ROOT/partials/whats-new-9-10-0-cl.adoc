@@ -197,7 +197,8 @@ ifdef::pendo-links[]
 === Liveboard Highlights [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 
-// Mark -- scal-178483, scal-162712
+// Mark -- scal-178483, scal-162712, SCAL-158409
+// PM: Manan
 
 endif::free-trial-feature[]
 
