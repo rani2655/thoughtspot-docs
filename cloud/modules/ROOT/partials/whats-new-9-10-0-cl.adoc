@@ -395,14 +395,7 @@ endif::[]
 // Naomi -- scal-169065. see if there are any changes from 9.8. may not need to be in what's new.
 // PM: Samridh
 
-You can now use the dbt public API to perform the following tasks:
-
-* Create a dbt connection
-* Delete a dbt connection
-* Search a list of dbt connections
-* Update a dbt connection
-* Run dbt Sync
-* Update dbt Sync
+dbt core users can now use the dbt public API to upload dbt project files to ThoughtSpot. Use the dbt sync API to upload your dbt project's zip files.
 
 [#9-10-0-cl-dbt-v]
 [discrete]
