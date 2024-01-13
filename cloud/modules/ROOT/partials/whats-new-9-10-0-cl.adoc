@@ -42,15 +42,6 @@ image::ask-sage.gif[Ask Sage]
 endif::free-trial-feature[]
 ////
 
-[#9-10-0-cl-homepage]
-[discrete]
-=== User customization for homepage revamp
-
-// Mark -- scal-160332
-
-
-
-
 [#9-10-0-cl-commenting]
 [discrete]
 === Commenting on Liveboards
@@ -205,13 +196,16 @@ ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-10-0-cl-highlight]
 [discrete]
-=== Liveboard Highlights [.badge.badge-early-access]#Early Access#
+=== AI Highlights [.badge.badge-early-access]#Early Access#
 endif::[]
 ifdef::pendo-links[]
 [#9-10-0-cl-highlight]
 [discrete]
-=== Liveboard Highlights [.badge.badge-early-access-whats-new]#Early Access#
+=== AI Highlights [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
+
+With AI highlights, you get quick insights on how top metrics have changed in your Liveboard, dramatically reducing the time to derive insights from your KPIs.
+// For more information, see xref:liveboard-ai-highlights.adoc[AI highlights].
 
 // Mark -- scal-178483, scal-162712, SCAL-158409
 // PM: Manan
@@ -222,7 +216,10 @@ endif::free-trial-feature[]
 [discrete]
 === Worksheet summary
 
+With Worksheet summary, when you search you get a natural language description of any worksheet you select, summarizing the purpose of that worksheet. You can also see the most popular columns, measures and attributes in the worksheet, which can help as you enter a natural language query.
+
 // Mark -- scal-161991
+// PM: Santiago
 
 
 
@@ -235,42 +232,6 @@ Easily find verified Liveboards with trusted content and sort Liveboards to view
 
 // Analyst
 
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
-[#9-10-0-cl-worksheet]
-[discrete]
-=== Worksheet v2 [.badge.badge-early-access]#Early Access#
-endif::[]
-ifdef::pendo-links[]
-[#9-10-0-cl-worksheet]
-[discrete]
-=== Worksheet v2 [.badge.badge-early-access-whats-new]#Early Access#
-endif::[]
-
-// Mark -- scal-158357. might require a tscli flag to enable.
-
-endif::free-trial-feature[]
-
-
-
-
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
-[#9-10-0-cl-join]
-[discrete]
-=== Join recommendation [.badge.badge-beta]#Beta#
-endif::[]
-ifdef::pendo-links[]
-[#9-10-0-cl-join]
-[discrete]
-=== Join recommendation [.badge.badge-beta-whats-new]#Beta#
-endif::[]
-
-
-// Mark -- scal-154588
-
-endif::free-trial-feature[]
-
 [#9-10-0-cl-renaming]
 [discrete]
 === Renaming columns
@@ -282,7 +243,10 @@ You can now rename columns in an Answer and see the new name reflected on the ta
 
 [#9-10-0-cl-byoc]
 [discrete]
-=== Bring Your Own Charts (BYOC)
+=== Custom charts
+
+ThoughtSpot administrators can now add custom charts to a ThoughtSpot cluster.
+// For more information, see xref:chart-byoc.adoc[Custom charts].
 
 // Mark -- scal-171984, scal-67410. possibly below "other features"
 
@@ -303,11 +267,13 @@ Configure the tooltip in *Chart configuration* > *Settings*. By default, fields 
 
 Using ThoughtSpot Sync, you can now sync data directly from an Answer or a custom SQL view, to your Google BigQuery cloud data warehouse.
 
-[#9-10-0-cl-parameters]
-[discrete]
-=== Formulas, Filter, and Parameters screen
+// [#9-10-0-cl-parameters]
+// [discrete]
+// === Formulas, Filter, and Parameters screen
 
 // Mark -- scal-142019
+// Contacted Vineet Sharma for info
+// probably worksheet v2 (no doc for 9.10.0.cl)
 
 
 
@@ -320,9 +286,12 @@ The number of filter values shown in the string filter modal can now be changed 
 
 [#9-10-0-cl-explore]
 [discrete]
-=== Uplevel "Make a copy" in Explore mode
+=== Easier to make a copy in explore mode
 
-// Mark -- scal-161135 (may be none needed)
+When in explore mode, you can now more easily make a copy by clicking the *Make a copy* button now located next to the *more options* menu icon image:icon-more-10px.png[more menu icon image].
+
+
+// Mark -- scal-161135
 
 [#9-10-0-cl-mobile]
 [discrete]
@@ -454,36 +423,32 @@ ThoughtSpot now supports dbt version 1.7.
 //TBD
 // Mary -- scal-119837
 
-[#9-10-0-cl-bridge]
-[discrete]
-=== Bridge connection to Cloud data warehouse from ThoughtSpot
+// [#9-10-0-cl-bridge]
+// [discrete]
+// === Bridge connection to Cloud data warehouse from ThoughtSpot
 
 // Mark -- scal-170548
+// Contacted Rahul for more info
 
 
-[#9-10-0-cl-preview]
-[discrete]
-=== Preview mode
+// [#9-10-0-cl-preview]
+// [discrete]
+// === Preview mode
 
 // Mark -- scal-149592
 
-[#9-10-0-cl-worksheet-v2]
-[discrete]
-=== Worksheet v2
-
-// Mark -- scal-155276
-
-[#9-10-0-cl-logging]
-[discrete]
-=== Runaway logging leads to P0
+// [#9-10-0-cl-logging]
+// [discrete]
+// === Runaway logging leads to P0
 
 // Mark -- scal-39685
 
-[#9-10-0-cl-delta]
-[discrete]
-=== Build Upgrade Delta Migration
-__
+// [#9-10-0-cl-delta]
+// [discrete]
+// === Build Upgrade Delta Migration
+
 // Mark -- scal-168350
+// Contacted Guarav for more info
 
 ifndef::free-trial-feature[]
 [discrete]
