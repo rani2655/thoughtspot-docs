@@ -47,6 +47,7 @@ endif::free-trial-feature[]
 === Commenting on Liveboards
 
 // Naomi -- scal-15915
+// PM: Vanshree
 
 Commenting on Liveboards is now on by default and available to all users. You can now add or reply to comments, tag other users, or subscribe to comment threads directly on a Liveboard. Users can point out insights or reach out for clarification without leaving ThoughtSpot. To try it out, click the comment icon to the right of the edit icon, and select the data point you would like to comment on. For more information, see
 ifndef::pendo-links[]
@@ -65,7 +66,7 @@ image:liveboard-comment.gif[Create a comment on a Liveboard and add a reaction]
 // Naomi -- scal-173345, scal-89341. confirm if GA.
 // PM: Vikas
 
-When you receive an email alert about a threshold or scheduled alert, ThoughtSpot now surfaces any anomalies found in your KPI. You can see the expected range of values, and click a link to view your KPI in the original Liveboard. To enable this feature, contact your administrator. For more information, see
+When you receive an email about a threshold or scheduled alert, ThoughtSpot now surfaces any anomalies found in your KPI. You can see the expected range of values, and click a link to view your KPI in the original Liveboard. To enable this feature, contact your administrator. For more information, see
 ifndef::pendo-links[]
 xref:monitor.adoc#early-access[Monitor].
 endif::[]
@@ -93,7 +94,7 @@ endif::[]
 
 // Naomi -- scal-166121. actually EA. add image of tooltips or font settings.
 
-You can now access advanced chart customization settings for Answers by selecting the gear icon image:icon-gear-10px.png[chart customization icon] and selecting *Advanced settings*. Use these settings to adjust the size and appearance of tooltips, regression lines, gridlines, and chart backgrounds. For more information, see
+You can now access advanced chart customization settings for Answers by selecting the *Edit chart configuration* icon image:icon-gear-10px.png[chart customization icon] and selecting *Advanced settings*. Use these settings to adjust the size and appearance of tooltips, regression lines, gridlines, and chart backgrounds. For more information, see
 ifndef::pendo-links[]
 xref:chart-settings-advanced.adoc[Advanced chart settings].
 endif::[]
@@ -103,6 +104,14 @@ endif::[]
 
 image::advanced-options-axis.png[Advanced settings for axes]
 endif::free-trial-feature[]
+
+[#9-10-0-cl-tooltip]
+[discrete]
+=== Tooltip customization
+Customize tooltips to make charts easier to read and reduce the time to insights for business users. Use customized tooltips to add measures, attributes, and formulas that are not visualized in the chart. You can also customize tooltips to remove certain fields from the tooltips in a complex chart so that you are not overwhelmed with irrelevant information.
+Configure the tooltip by selecting the *Edit chart configuration* icon image:icon-gear-10px.png[chart customization icon] and selecting *Settings*. By default, fields visualized in charts are included in the tooltip. You can remove fields or add fields that are not visualized.
+
+// Mary -- scal-143396, scal-163885. pare down a bit, add an image. What is the effect of adding a measure to a tooltip without adding it to a chart? What does it look like? Couldn't figure out how to add a field-- is that in scope for 9.10? - pending (Manan Shah)
 
 [#9-10-0-cl-conditional]
 [discrete]
@@ -129,7 +138,7 @@ endif::[]
 
 // Naomi -- scal-175860. actually beta. does the customer need to have a Glean account? Is there an admin experience different from the user experience? add gif with just searching the Glean tile. keep it short.
 
-You can now use Glean to search unstructured data, such as documents, PowerPoint, and Excel files, directly from a Liveboard. Add a Glean tile to your Liveboard to easily add context to your ThoughtSpot data insights. Glean inherits the filters and query terms defined by your Liveboard. You can configure Glean results to include or exclude these terms from your search. Glean results are tailored to each user based on their team, search activity, and preferences. For more information, see
+You can now use Glean to search unstructured data, such as documents, PowerPoint presentations, and Excel files, directly from a Liveboard. Add a Glean tile to your Liveboard to easily add context to your ThoughtSpot data insights. Glean inherits the filters and query terms defined by your Liveboard. You can configure Glean results to include or exclude these terms from your search. Glean results are tailored to each user based on their team, search activity, and preferences. For more information, see
 ifndef::pendo-links[]
 xref:glean-integration.adoc[Glean integration].
 endif::[]
@@ -144,7 +153,7 @@ endif::free-trial-feature[]
 [discrete]
 === Null and missing values in charts
 
-// Naomi -- scal-169683. waiting on Manan for clarifying video. change to reflect that you have flexibility on how null values are displayed. show an image of a line chart with a break, add an article link. remove "previously" sentence.
+// Naomi -- scal-169683. waiting on Manan for clarifying video. change to reflect that you have flexibility on how null values are displayed. show an image of a line chart with a break, add an article link. remove "previously" sentence. Add a concrete example. Mention how null values work.
 // PM: Manan
 
 You can now choose how null and missing values appear in line, column, and bar charts in ThoughtSpot. Null and missing values appear as bars of 1 pixel width on bar and column charts. You can choose whether to display null date values as zero values, line breaks, or an average of proximate values on a line chart.
@@ -161,7 +170,7 @@ ifdef::pendo-links[]
 === Iterative change analysis [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 
-// Naomi -- scal-141936, scal-176265. spotiq-change.adoc#iterative. add gif. simplify, highlight value rather than the process. combine two sentences into one, remove mechanical process of what ThoughtSpot does. change analysis is no longer static, you can drill down.
+// Naomi -- scal-141936, scal-176265. spotiq-change.adoc#iterative. add gif. simplify, highlight value rather than the process. combine two sentences into one, remove mechanical process of what ThoughtSpot does. change analysis is no longer static, you can drill down. may need to zoom into the gif in final.
 // PM: Vikas
 
 You can now drill down on specific columns in change analysis, in order to identify change drivers within your data. For example, if you run an analysis on sales monthly and find out that the 'jacket' item type changed the most, you can easily drill down on jacket sales and identify which region contributed the most to the change in sales. For more information, see
@@ -205,7 +214,7 @@ ifdef::pendo-links[]
 endif::[]
 
 With AI highlights, you get quick insights on how top metrics have changed in your Liveboard, dramatically reducing the time to derive insights from your KPIs.
-// For more information, see xref:liveboard-ai-highlights.adoc[AI highlights].
+For more information, see xref:liveboard-ai-highlights.adoc[AI highlights].
 
 // Mark -- scal-178483, scal-162712, SCAL-158409
 // PM: Manan
@@ -216,9 +225,9 @@ endif::free-trial-feature[]
 [discrete]
 === Worksheet summary
 
-With Worksheet summary, when you search you get a natural language description of any worksheet you select, summarizing the purpose of that worksheet. You can also see the most popular columns, measures and attributes in the worksheet, which can help as you enter a natural language query.
+With Worksheet summary, when you search you get a natural language description of any Worksheet you select, summarizing the purpose of that Worksheet. You can also see the most popular columns, measures and attributes in the Worksheet, which can help as you enter a natural language query.
 
-// Mark -- scal-161991
+// Mark -- scal-161991. clarify if this is Search data or natural language search
 // PM: Santiago
 
 
@@ -226,7 +235,7 @@ With Worksheet summary, when you search you get a natural language description o
 [#9-8-0-cl-verified]
 [discrete]
 === Functional enhancements for verified Liveboards
-You can now easily search for verified Liveboards with trusted content, and filter to view only verified content. Verified Liveboards are idenitfied with a tag visible in all screens.
+You can now easily search for verified Liveboards with trusted content, and filter to view only verified content. Verified Liveboards are identified with a tag visible in all screens.
 You can also cancel verification requests when needed.
 
 // Mary -- SCAL-158469. moved to 9.10 re:Sarib. rewrite as more conversational. "you can now" etc. Is the new part of the feature the filter content? what is the new part of the "request verification"? Is it that you can cancel a request? It looks like you can already withdraw a verification request in 9.8. Add an image of canceling a request?
@@ -240,24 +249,17 @@ You can also cancel verification requests when needed.
 // Naomi -- scal-182100
 // PM: Manan
 
-You can now rename columns in an Answer and see the new name reflected on the table header, tooltips, legend, and chart configuration menu. Changes made on an Answer are not reflected in the underlying Worksheet.
+You can now rename columns in an Answer and see the new name reflected on the table header, tooltips, legend, and chart configuration menu. Changes made to an Answer are not reflected in the underlying Worksheet.
 
 [#9-10-0-cl-byoc]
 [discrete]
 === Custom charts
 
 ThoughtSpot administrators can now add custom charts to a ThoughtSpot cluster.
-// For more information, see xref:chart-byoc.adoc[Custom charts].
+For more information, see xref:chart-byoc.adoc[Custom charts].
 
 // Mark -- scal-171984, scal-67410. possibly below "other features"
 
-[#9-10-0-cl-tooltip]
-[discrete]
-=== Tooltip customization
-Customize tooltips to make charts easier to read and reduce the time to insights for business users. Use customized tooltips to add measures, attributes, and formulas that are not visualized in the chart. Tooltips can also be customized to remove certain fields from the tooltips in a complex chart so that users are not overwhelmed with irrelevant information.
-Configure the tooltip in *Chart configuration* > *Settings*. By default, fields visualized in charts are included in the tooltip. You can remove fields or add fields that are not visualized.
-
-// Mary -- scal-143396, scal-163885. pare down a bit, add an image. What is the effect of adding a measure to a tooltip without adding it to a chart? What does it look like? Couldn't figure out how to add a field-- is that in scope for 9.10? - pending (Manan Shah)
 
 [#9-10-0-cl-sync]
 [discrete]
@@ -278,12 +280,7 @@ Using ThoughtSpot Sync, you can now sync data directly from an Answer or a custo
 
 
 
-[#9-10-0-cl-filter]
-[discrete]
-=== Number of filter values shown in string filter modal
-The number of filter values shown can now be changed from the default of 500 to any number up to 1000.
-//TSCLI Flag called maxNumFilterValuesInModal
-// Mary -- scal-177212. remove mentions of string filter modal or define what it is.
+
 
 [#9-10-0-cl-explore]
 [discrete]
@@ -292,12 +289,12 @@ The number of filter values shown can now be changed from the default of 500 to 
 In explore mode, you can now more easily make a copy by clicking the *Make a copy* button now located next to the *more options* menu icon image:icon-more-10px.png[more menu icon image].
 
 
-// Mark -- scal-161135
+// Mark -- scal-161135. add image. clarify that it's on a visualization in Explore mode, not a Liveboard copy.
 
 [#9-10-0-cl-mobile]
 [discrete]
 === Mobile app updates
-// Mary -- scal-102588, scal-165060, scal-161325, scal-95381, scal-154973, scal-165060, consolidate all mobile updates into one heading. Mobile What's New with detailed descriptions is available in the other file. Change to full sentences/ full paragraph.
+// Mary -- scal-102588, scal-165060, scal-161325, scal-95381, scal-154973, scal-165060, consolidate all mobile updates into one heading. Mobile What's New with detailed descriptions is available in the other file. Change to full sentences/ full paragraph. specify which mobile version it is?? Add a link to mobile release notes when ready.
 
 * Support OIDC authentication with IAMv2 on mobile
   ** If IAMv2 login is enabled on your cluster, you will now be able to log in from your mobile app.
@@ -314,10 +311,17 @@ In explore mode, you can now more easily make a copy by clicking the *Make a cop
 
 // Data Engineer
 
+[#9-10-0-cl-filter]
+[discrete]
+=== Number of filter values shown in string filter modal
+Admin users can now change the number of filter values shown from the default of 500 to any number up to 1000.
+//TSCLI Flag called maxNumFilterValuesInModal
+// Mary -- scal-177212. remove mentions of string filter modal or define what it is. How does admin do this, since they can't use tscli flag. Do they have to contact Support? Can they do it in the UI? Clarify where in the UI this is.
+
 [#9-10-0-cl-custom]
 [discrete]
 === Custom sorting
-ThoughtSpot introduces custom sorting of attributes to sort all chart types in a way that helps users to consume charts more efficiently. You can now sort on any attribute in a chart, using the custom sort column. Enter the attributes in order to set up a custom sort order.
+Custom sorting is now available to all users and is on by default. ThoughtSpot introduces custom sorting of attributes to sort all chart types in a way that helps users to consume charts more efficiently. You can now sort on any attribute in a chart, using the custom sort column. Enter the attributes in order to set up a custom sort order.
 
 image::custom-sort-order.png[Custom Sorting]
 // Mary -- scal-181962. if non-admin user can do part of this, put above the fold. If this is only a worksheet-level setting, keep below the fold.
@@ -335,7 +339,7 @@ ifdef::pendo-links[]
 endif::[]
 
 
-// Naomi -- scal-147558.
+// Naomi -- scal-147558. make image more selective.
 // PM: Vikas
 
 Users with edit permissions on a Liveboard can set their preferred attribute columns through the change analysis window and select *Apply to all users* to keep those selections for any subsequent change analysis calculations on that Liveboard. Individual users can still override these preferences for their own calculations.
@@ -364,7 +368,7 @@ endif::[]
 [discrete]
 === dbt public API
 
-// Naomi -- scal-169065. see if there are any changes from 9.8. may not need to be in what's new.
+// Naomi -- scal-169065. see if there are any changes from 9.8. may not need to be in what's new. there will be a developer docs link.
 // PM: Samridh
 
 dbt core users can now use the dbt public API to upload dbt project files to ThoughtSpot. Use the dbt sync API to upload your dbt project's zip files.
