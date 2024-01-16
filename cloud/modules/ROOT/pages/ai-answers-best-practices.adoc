@@ -20,7 +20,7 @@ ThoughtSpot’s natural language capability in general works well with a well-st
 * Column names
 ** It is best to avoid similar column names. However, similar column names don't necessarily impact the accuracy if you have good usage of columns in *Search Data* or saved Answers or Liveboards. The usage data helps Sage disambiguate effectively amongst similar columns.
 ** Sage prefers use of underscores or spaces when naming columns.
-** We advise using easily understandable names, and avoiding abbreviations.
+** We advise using easily understandable names. Avoid abbreviations and specific terms used within the business unit or organization.
 * Synonyms
 ** Use of synonyms significantly helps Sage accuracy.
 ** Add synonyms by enabling the xref:data-modeling-visibility.adoc#automatic-synonyms[AI-generated Worksheet synonyms] feature, or you can xref:data-modeling-visibility.adoc#create-synonyms[create your own synonyms].
