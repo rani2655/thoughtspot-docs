@@ -226,7 +226,8 @@ With Worksheet summary, when you search you get a natural language description o
 [#9-8-0-cl-verified]
 [discrete]
 === Functional enhancements for verified Liveboards
-Easily find verified Liveboards with trusted content and sort Liveboards to view verified content. Request verification of Liveboards and cancel requests when needed.
+You can now easily search for verified Liveboards with trusted content, and filter to view only verified content. Verified Liveboards are idenitfied with a tag visible in all screens.
+You can also cancel verification requests when needed.
 
 // Mary -- SCAL-158469. moved to 9.10 re:Sarib. rewrite as more conversational. "you can now" etc. Is the new part of the feature the filter content? what is the new part of the "request verification"? Is it that you can cancel a request? It looks like you can already withdraw a verification request in 9.8. Add an image of canceling a request?
 
@@ -256,7 +257,7 @@ ThoughtSpot administrators can now add custom charts to a ThoughtSpot cluster.
 Customize tooltips to make charts easier to read and reduce the time to insights for business users. Use customized tooltips to add measures, attributes, and formulas that are not visualized in the chart. Tooltips can also be customized to remove certain fields from the tooltips in a complex chart so that users are not overwhelmed with irrelevant information.
 Configure the tooltip in *Chart configuration* > *Settings*. By default, fields visualized in charts are included in the tooltip. You can remove fields or add fields that are not visualized.
 
-// Mary -- scal-143396, scal-163885. pare down a bit, add an image. What is the effect of adding a measure to a tooltip without adding it to a chart? What does it look like? Couldn't figure out how to add a field-- is that in scope for 9.10?
+// Mary -- scal-143396, scal-163885. pare down a bit, add an image. What is the effect of adding a measure to a tooltip without adding it to a chart? What does it look like? Couldn't figure out how to add a field-- is that in scope for 9.10? - pending (Manan Shah)
 
 [#9-10-0-cl-sync]
 [discrete]
@@ -280,7 +281,7 @@ Using ThoughtSpot Sync, you can now sync data directly from an Answer or a custo
 [#9-10-0-cl-filter]
 [discrete]
 === Number of filter values shown in string filter modal
-The number of filter values shown in the string filter modal can now be changed from the default of 500 to any number up to 1000.
+The number of filter values shown can now be changed from the default of 500 to any number up to 1000.
 //TSCLI Flag called maxNumFilterValuesInModal
 // Mary -- scal-177212. remove mentions of string filter modal or define what it is.
 
@@ -296,12 +297,14 @@ When in explore mode, you can now more easily make a copy by clicking the *Make 
 [#9-10-0-cl-mobile]
 [discrete]
 === Mobile app updates
-// Mary -- scal-165060, scal-161325, scal-95381, scal-154973, scal-165060, consolidate all mobile updates into one heading. Mobile What's New with detailed descriptions is available in the other file. Change to full sentences/ full paragraph.
+// Mary -- scal-102588, scal-165060, scal-161325, scal-95381, scal-154973, scal-165060, consolidate all mobile updates into one heading. Mobile What's New with detailed descriptions is available in the other file. Change to full sentences/ full paragraph.
 
-* Chart and library changes for mobile localization
-* Mobile localization
+* Support OIDC authentication with IAMv2 on mobile
+  ** If IAMv2 login is enabled on your cluster, you will now be able to log in from your mobile app.
+* Internationalization and localization
+  ** You can now change your ThoughtSpot locale through the Mobile app. When your locale is updated, ThoughtSpot translates labels, date formats and number formats to match the default for your country and language.
 * Improve the deep link experience
-* Chart and library changes for mobile localization
+  ** You can share a link to objects in ThoughtSpot using instant messaging or email and the recipient can open the link in the mobile app or the web. If a user has the mobile app, the link will open directly in the mobile app. If they don't have the mobile app, they are presented with the option to download it or to view it on the web.
 
 
 '''
