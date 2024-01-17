@@ -112,7 +112,8 @@ endif::free-trial-feature[]
 Customize tooltips to make charts easier to read and reduce the time to insights for business users. Use customized tooltips to add measures, attributes, and formulas that are not visualized in the chart. You can also customize tooltips to remove certain fields from the tooltips in a complex chart so that you are not overwhelmed with irrelevant information.
 Configure the tooltip by selecting the *Edit chart configuration* icon image:icon-gear-10px.png[chart customization icon] and selecting *Settings*. By default, fields visualized in charts are included in the tooltip. You can remove fields or add fields that are not visualized.
 
-// Mary -- scal-143396, scal-163885. pare down a bit, add an image. What is the effect of adding a measure to a tooltip without adding it to a chart? What does it look like? Couldn't figure out how to add a field-- is that in scope for 9.10? - pending (Manan Shah)
+// Mary -- scal-143396, scal-163885.
+//Pending (Manan Shah) - screen cap to follow
 
 [#9-10-0-cl-conditional]
 [discrete]
@@ -241,7 +242,7 @@ With Worksheet summary, when you search using the home page search, you get a na
 You can now easily search for verified Liveboards with trusted content, and filter to view only verified content. Verified Liveboards are identified with a tag visible in all screens.
 You can also cancel verification requests when needed.
 
-// Mary -- SCAL-158469. moved to 9.10 re:Sarib. rewrite as more conversational. "you can now" etc. Is the new part of the feature the filter content? what is the new part of the "request verification"? Is it that you can cancel a request? It looks like you can already withdraw a verification request in 9.8. Add an image of canceling a request?
+// Mary -- SCAL-158469. moved to 9.10 re:Sarib.
 
 // Analyst
 
@@ -297,7 +298,8 @@ In explore mode, you can now more easily make a copy by clicking the *Make a cop
 [#9-10-0-cl-mobile]
 [discrete]
 === Mobile app updates
-// Mary -- scal-102588, scal-165060, scal-161325, scal-95381, scal-154973, scal-165060, consolidate all mobile updates into one heading. Mobile What's New with detailed descriptions is available in the other file. Change to full sentences/ full paragraph. specify which mobile version it is?? Add a link to mobile release notes when ready.
+// Mary -- scal-102588,
+//Pending list from Vaibhav Sharma. Will add a link to the mobile release notes onece the mobile versions and compatibility are confirmed.
 
 * Support OIDC authentication with IAMv2 on mobile
   ** If IAMv2 login is enabled on your cluster, you will now be able to log in from your mobile app.
@@ -314,12 +316,12 @@ In explore mode, you can now more easily make a copy by clicking the *Make a cop
 
 // Data Engineer
 
-[#9-10-0-cl-filter]
-[discrete]
-=== Number of filter values shown in string filter modal
-Admin users can now change the number of filter values shown from the default of 500 to any number up to 1000.
-//TSCLI Flag called maxNumFilterValuesInModal
-// Mary -- scal-177212. remove mentions of string filter modal or define what it is. How does admin do this, since they can't use tscli flag. Do they have to contact Support? Can they do it in the UI? Clarify where in the UI this is.
+//[#9-10-0-cl-filter]
+//[discrete]
+//=== Number of filter values shown in string filter modal
+//Admin users can now change the number of filter values shown from the default of 500 to any number up to 1000.
+//Pending feedback from Vanshree regarding where this is configured.
+// Mary -- scal-177212.
 
 [#9-10-0-cl-custom]
 [discrete]
@@ -327,7 +329,7 @@ Admin users can now change the number of filter values shown from the default of
 Custom sorting is now available to all users and is on by default. ThoughtSpot introduces custom sorting of attributes to sort all chart types in a way that helps users to consume charts more efficiently. You can now sort on any attribute in a chart, using the custom sort column. Enter the attributes in order to set up a custom sort order.
 
 image::custom-sort-order.png[Custom Sorting]
-// Mary -- scal-181962. if non-admin user can do part of this, put above the fold. If this is only a worksheet-level setting, keep below the fold.
+// Mary -- scal-181962.
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
@@ -386,10 +388,10 @@ dbt core users can now use the dbt public API to upload dbt project files to Tho
 
 ThoughtSpot now supports dbt version 1.7.
 
-[#9-10-0-cl-granular]
-[discrete]
-=== Granular privileges for data workspace
-//TBD - Aashica
+//[#9-10-0-cl-granular]
+//[discrete]
+//=== Granular privileges for data workspace
+//Moved to 9.11.0.cl
 // Mary -- scal-174139
 
 
@@ -398,37 +400,44 @@ ThoughtSpot now supports dbt version 1.7.
 [#9-10-0-cl-saml]
 [discrete]
 === SAML assertion to include both Orgs and Groups information
-//TBD
+Previously ThoughtSpot supported either group sync or org sync but not both together. You can now sync both group and org together. You can sync users that are part of given groups in given orgs from the SAML response.
+//Aashica to follow up.
 // Mary -- scal-138809
 
 [#9-10-0-cl-enterprise]
 [discrete]
 === Granular privileges for Free Trial, Team Edition, Enterprise - Orgs
-//TBD - Aashica
+ThoughtSpot role-based access control (RBAC) is now available to all users. RBAC allows for more granular access privileges. Use roles to apply privileges customized for your organizational needs.
+
+To enable RBAC, contact {support-url}.
+
+NOTE: Once you enable RBAC it cannot be disabled.
+//Going from Beta to GA.
+//Customers still have to contact support to enable even though it’s GA.
 // Mary -- scal-155689
 
-[#9-10-0-cl-modeling]
-[discrete]
-=== Granular privileges for data modeling
-//TBD - Aashica
+//[#9-10-0-cl-modeling]
+//[discrete]
+//=== Granular privileges for data modeling
+//Moved to 9.11.0.cl
 // Mary -- scal-154299
 
-[#9-10-0-cl-neighbors]
-[discrete]
-=== Handling neighbors in shared clusters (essentials and pro edition)
-//waiting for confirmation from Aashica but this may be no doc required as customers won't be aware of this change.
+//[#9-10-0-cl-neighbors]
+//[discrete]
+//=== Handling neighbors in shared clusters (essentials and pro edition)
+//No doc needed - not customer facing.
 // Mary -- scal-154107. clarify title.
 
-[#9-10-0-cl-oidc]
-[discrete]
-=== Implement OIDC - Orgs on IAM v1 for Pricenow
-//TBD
+//[#9-10-0-cl-oidc]
+//[discrete]
+//=== Implement OIDC - Orgs on IAM v1 for Pricenow
+//Moved to 9.12.0.cl
 // Mary -- scal-181443
 
-[#9-10-0-cl-iam]
-[discrete]
-=== IAM v2 - OIDC support
-//TBD
+//[#9-10-0-cl-iam]
+//[discrete]
+//=== IAM v2 - OIDC support
+//Awaiting information from Aashica & access to Eng doc.
 // Mary -- scal-119837
 
 // [#9-10-0-cl-bridge]
