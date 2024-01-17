@@ -274,7 +274,14 @@ endif::[]
 === Custom charts
 
 ThoughtSpot administrators can now add custom charts to a ThoughtSpot cluster.
-For more information, see xref:chart-byoc.adoc[Custom charts].
+For more information, see
+ifndef::pendo-links[]
+xref:chart-byoc.adoc[Custom charts].
+endif::[]
+ifdef::pendo-links[]
+xref:chart-byoc.adoc[Custom charts,window=_blank].
+endif::[]
+
 
 // Mark -- scal-171984, scal-67410. possibly below "other features"
 
