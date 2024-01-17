@@ -16,6 +16,15 @@ For these instructions, see xref:ts-cloud-getting-started.adoc[Getting Started w
 [#9-10-0-cl-analyst]
 === For the Analyst
 
+// Naomi -- scal-182100
+Renaming columns::
+You can now rename columns in an Answer and see the new name reflected on the table header, tooltips, legend, and chart configuration menu. Changes made to an Answer are not reflected in the underlying Worksheet. For more information, see xref:chart-column-axis-rename.adoc#column-rename[Rename a table column].
+
+// Naomi -- scal-174127
+ThoughtSpot Sync for Google BigQuery::
+Using ThoughtSpot Sync, you can now sync data directly from an Answer or a custom SQL view, to your Google BigQuery cloud data warehouse.
+For more information, see xref:sync-gbq.adoc[Sync to Google BigQuery].
+
 // Naomi -- scal-176730
 ThoughtSpot Sync from unsaved Answers:: You can now create syncs from Answers without saving first.
 
@@ -32,11 +41,21 @@ Easily find verified Liveboards with trusted content and sort Liveboards to view
 === For the Business User
 
 // Naomi -- scal-175860. actually beta
-Glean integration:: You can now use Glean to search unstructured data, such as documents, PowerPoint, and Excel files, directly from a Liveboard. Add a Glean tile to your Liveboard to easily add context to your ThoughtSpot data insights. Glean inherits the filters and query terms defined by your Liveboard. You can configure Glean results to include or exclude these terms from your search. Glean results are tailored to each user based on their team, search activity, and preferences. For more information, see xref:glean-integration.adoc[Glean integration].
+Glean integration [.badge.badge-beta-relnotes]#Beta#:: You can now use Glean to search unstructured data, such as documents, PowerPoint, and Excel files, directly from a Liveboard. Add a Glean tile to your Liveboard to easily add context to your ThoughtSpot data insights. Glean inherits the filters and query terms defined by your Liveboard. You can configure Glean results to include or exclude these terms from your search. Glean results are tailored to each user based on their team, search activity, and preferences. For more information, see xref:glean-integration.adoc[Glean integration].
 
 
+// Naomi -- scal-169683
+Null and missing values in charts::
+You can now choose how null and missing values appear in line, column, and bar charts in ThoughtSpot. Null and missing values appear as bars of 1 pixel width on bar and column charts. You can choose whether to display null date values as zero values, line breaks, or an average of proximate values on a line chart. Rather than showing a sharp decline to zero every time there is null or missing data on your line chart, you can see the missing values represented as line breaks or averages of the closest values instead.
+
+////
 // Naomi -- scal-175485, scal-177391. actually EA.
 Ask Sage:: You can now conversationally search ThoughtSpot using natural language, asking follow-up questions for further clarification or to take your analysis in a new direction. To access Ask Sage, ask a question using the Natural Language Search interface on the Home page, and click *Ask a follow up*. For more information, see xref:ask-sage.adoc[Ask Sage].
+////
+
+// Naomi -- scal-141936, scal-176265
+Iterative change analysis [.badge.badge-early-access-relnotes]#Early Access#::
+You can now drill down on specific columns in change analysis, in order to identify change drivers within your data. For example, if you run an analysis on sales monthly and find out that the 'jacket' item type changed the most, you can easily drill down on jacket sales and identify which region contributed the most to the change in sales. For more information, see xref:spotiq-change.adoc#iterative[Iterative change analysis].
 
 
 // Naomi -- scal-159515
@@ -57,14 +76,6 @@ Chart customizations:: You can now access advanced chart customization settings 
 
 Run change analysis iteratively:: You can now drill down on specific columns in change analysis, in order to identify change drivers within your data. When you right-click on an attribute value in the change analysis window to drill down, ThoughtSpot adds the attribute value as a filter and re-calculates change analysis for the specific window of time specified in your original search. For more information, see xref:spotiq-change.adoc#iterative[Iterative change analysis].
 
-// scal-
-Alation metadata::
-Users can now see verification status and descriptions on tables and columns imported from Alation. This information appears when you click on the corresponding table or column in *Search data*. Once connected, this information is visible to all users. To enable this feature, contact {support-url}. For more information, see xref:catalog-integration.adoc[Catalog integration].
-
-//scal-158463
-Atlan metadata:: You can now see verification status and descriptions on tables and columns imported from Atlan. This information appears when you click on the corresponding table or column in *Search data*. Once connected, this information is visible to all users.
-For more information, see
-xref:catalog-integration-atlan.adoc[Atlan catalog integration].
 
 // Naomi -- scal-156247
 Natural language search chart type:: You can now specify the answering chart type when you use Natural Language Search. For example, search for "sales by region pie chart", and the results appear in pie chart format. For more information, see xref:ai-answers.adoc[].
@@ -97,8 +108,11 @@ To access this feature, go to your KPI chart and select the caret icon to the ri
 
 === For the Data Engineer
 
-// Naomi -- scal-166158
+// Naomi -- scal-147558
+Change analysis: remember personalized columns [.badge.badge-early-access-relnotes]#Early Access#::
+Users with edit permissions on a Liveboard can set their preferred attribute columns through the change analysis window and select *Apply to all users* to keep those selections for any subsequent change analysis calculations on that Liveboard. Individual users can still override these preferences for their own calculations. For more information, see xref:spotiq-change.adoc#remember-personalized[Remember personalized columns].
 
+// Naomi -- scal-166158
 Google Cloud SQL for MySQL connection:: We added support for xref:connections-google-cloud-sql-mysql.adoc[Google Cloud SQL for MySQL].
 
 ////
@@ -109,26 +123,12 @@ Row-level security in custom calendars:: We now support row-level security in cu
 // Mark -- SCAL-161198
 Looker Modeler connection:: You can now create a connection to Looker Modeler. For more information, see xref:connections-looker.adoc[Looker Modeler].
 
-//scal-158049
-Alation data catalog::
-You can now import metadata information related to your tables and columns from Alation into ThoughtSpot. From the Data tab, you can set up a connection to Alation to import column descriptions, column verification status, table descriptions, and table verification status. This information appears when you click on the corresponding table or column in *Search data*. Once connected, metadata information is visible to all users. +
-For more information, see xref:catalog-integration.adoc[Alation catalog integration].
-
-//scal-158463
-Atlan data catalog:: You can now import metadata information related to your tables and columns from Atlan into ThoughtSpot. From the *Data* tab, you can set up a connection to Atlan to import column descriptions, column verification status, table descriptions, and table verification status. This information appears when you click on the corresponding table or column in *Search data*. Once connected, metadata information is visible to all users.
-+
-For more information, see
-xref:catalog-integration-atlan.adoc[Atlan catalog integration].
 
 // Naomi -- scal-169065
-dbt public API:: You can now use the dbt public API to perform the following tasks:
+dbt public API:: dbt core users can now use the dbt public API to upload dbt project files to ThoughtSpot. Use the dbt sync API to upload your dbt project's zip files.
 
-* Create a dbt connection
-* Delete a dbt connection
-* Search a list of dbt connections
-* Update a dbt connection
-* Run dbt Sync
-* Update dbt Sync
+// Naomi -- scal-169614
+dbt version 1.7:: ThoughtSpot now supports dbt version 1.7.
 
 
 [#9-10-0-cl-it-ops]
