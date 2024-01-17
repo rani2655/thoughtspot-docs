@@ -2,7 +2,7 @@
 :last_updated: 5/10/2022
 :linkattrs:
 :page-partial:
-:page-aliases: admin-portal-user-adoption-pinboard.adoc
+:page-aliases: admin-portal-user-adoption-pinboard.adoc, user-adoption.adoc
 :experimental:
 :description: Use the User Adoption Liveboard to understand how your users are interacting with ThoughtSpot, and how your user adoption is changing over time.
 
