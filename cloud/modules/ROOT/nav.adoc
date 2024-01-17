@@ -39,6 +39,7 @@
 //*** xref:ask-sage.adoc[Ask Sage]
 *** xref:thoughtspot-sync.adoc[ThoughtSpot Sync]
 **** xref:sync-gainsight.adoc[Sync data to Gainsight]
+**** xref:sync-gbq.adoc[Sync to Google BigQuery]
 **** xref:sync-sheets.adoc[Sync data to Google Sheets]
 **** xref:sync-hubspot.adoc[Sync data to HubSpot]
 **** xref:sync-ms-teams.adoc[Sync data to Microsoft Teams]
