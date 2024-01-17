@@ -4,7 +4,7 @@
 :experimental:
 :page-layout: default-cloud
 :author: Teresa Killmond, Naomi
-:jira: SCAL-157885, SCAL-157886, SCAL-157887, SCAL-157890, SCAL-157889, SCAL-119947, SCAL-182271, SCAL-182987, SCAL-186187, SCAL-132886
+:jira: SCAL-157885, SCAL-157886, SCAL-157887, SCAL-157890, SCAL-157889, SCAL-119947, SCAL-182271, SCAL-182987, SCAL-186187, SCAL-132886, SCAL-169614
 :description: ThoughtSpot's dbt sync allows you to provide your existing dbt models and create ThoughtSpot Worksheets, which you can use to search your data.
 
 
@@ -80,7 +80,7 @@ Unable to connect to dbt project. Please verify API key and retry
 +
 image::dbt-error-message.png[Error message saying "Unable to connect to dbt project. Please verify API key and retry"]
 
-. If you receive the following error, you may need to switch to an older version of dbt. ThoughtSpot supports dbt for versions 1.6 and earlier. Navigate to dbt and go to *Deploy > Environments > Environment_Name > Settings*. Click the dbt Version menu and scroll down to select 1.6.
+. If you receive the following error, you may need to switch to an older version of dbt. ThoughtSpot supports dbt for versions 1.7 and earlier. Navigate to dbt and go to *Deploy > Environments > Environment_Name > Settings*. Click the dbt Version menu and scroll down to select 1.7.
 +
 ----
 Unable to fetch dbt models
