@@ -225,7 +225,7 @@ endif::free-trial-feature[]
 [discrete]
 === Worksheet summary
 
-With Worksheet summary, when you search using the home page search, you get a natural language description of any Worksheet you select, summarizing the purpose of that Worksheet. You can also see the most popular columns, measures and attributes in the Worksheet, which can help as you enter a natural language query.
+With Worksheet summary, when you search using the home page search, you get a natural language description of any Worksheet you select, summarizing the purpose of that Worksheet. You can also see the most popular columns, measures and attributes in the Worksheet, which can help you find the right worksheet.
 
 // Mark -- scal-161991. clarify if this is Search data or natural language search
 // PM: Santiago
@@ -286,7 +286,7 @@ Using ThoughtSpot Sync, you can now sync data directly from an Answer or a custo
 [discrete]
 === Easier to make a copy in explore mode
 
-In explore mode, you can now more easily make a copy by clicking the *Make a copy* button now located next to the *more options* menu icon image:icon-more-10px.png[more menu icon image].
+In explore mode, you can now more easily make a copy by clicking the *Make a copy* button now located next to the *More* menu icon image:icon-more-10px.png[more menu icon image].
 
 
 // Mark -- scal-161135. add image. clarify that it's on a visualization in Explore mode, not a Liveboard copy.
