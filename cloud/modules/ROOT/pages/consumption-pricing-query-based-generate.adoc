@@ -200,7 +200,7 @@ To reduce the number of queries, ThoughtSpot has two options:
 ThoughtSpot recommends turning off the summary function for the table if you plan limit the number of queries, at least temporarily.
 
 . Select the table in the Liveboard to open it in Answer mode.
-. Select the gear icon (chart configuration) image:icon-gear-10px.png[chart configuration icon].
+. Select the *Edit chart configuration* icon image:icon-gear-10px.png[chart configuration icon].
 . Under the Edit table heading, select *Settings*.
 . Under Display, deselect the *Column summary* option.
 

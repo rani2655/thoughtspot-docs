@@ -3,13 +3,13 @@
 :author: Naomi
 :page-layout: default-cloud
 :jira: SCAL-166121
-:description: You can now access advanced chart customization settings by selecting the gear icon and clicking *Advanced settings*.
+:description: You can now access advanced chart customization settings by selecting the *Edit chart configuration* icon and clicking *Advanced settings*.
 
-You can now access advanced chart customization settings by selecting the gear icon image:icon-gear-10px.png[chart customization icon] and selecting *Advanced settings*. Use these settings to adjust the size and appearance of tooltips, regression lines, gridlines, and chart backgrounds. All choices persist only for the Answer you are currently customizing.
+You can now access advanced chart customization settings by selecting the *Edit chart configuration* icon image:icon-gear-10px.png[chart customization icon] and selecting *Advanced settings*. Use these settings to adjust the size and appearance of tooltips, regression lines, gridlines, and chart backgrounds. All choices persist only for the Answer you are currently customizing.
 
 == Answer-level advanced settings
 
-For the following settings, select the chart customization icon image:icon-gear-10px.png[gear icon], navigate to the *Settings* header, and click *Advanced settings* on the bottom of the screen. These settings are relevant to the Answer as a whole.
+For the following settings, select the *Edit chart configuration* icon image:icon-gear-10px.png[gear icon], navigate to the *Settings* header, and click *Advanced settings* on the bottom of the screen. These settings are relevant to the Answer as a whole.
 
 === Tooltip options
 
@@ -84,7 +84,7 @@ image:advanced-options-other.png[Other advanced options]
 
 == X-axis options
 
-To configure the x- and y-axis options, select the gear icon image:icon-gear-10px.png[chart customization icon].
+To configure the x- and y-axis options, select the *Edit chart configuration* icon image:icon-gear-10px.png[chart customization icon].
 
 To configure the x-axis options, select the edit icon image:icon-edit-10px.png[edit icon] to the right of the x-axis label. From the x-axis configuration menu, you can change the name of the measure or attribute mapped on the x-axis.
 

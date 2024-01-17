@@ -112,7 +112,7 @@ image::catalog-integration.png[Column with description and verification status s
 
 // Naomi
 
-You can now hide a column from your table without removing it from your current Search. If you hide the column you're using to sort results, the sorting order is unchanged. To try it out, create an Answer, open the chart configuration menu image:icon-gear-10px.png[gear icon], and drag the selected column to *Hidden Columns*.
+You can now hide a column from your table without removing it from your current Search. If you hide the column you're using to sort results, the sorting order is unchanged. To try it out, create an Answer, open the *Edit chart configuration* menu image:icon-gear-10px.png[gear icon], and drag the selected column to *Hidden Columns*.
 
 image::hidden-column.png[A table with product as a hidden column]
 
