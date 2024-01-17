@@ -115,16 +115,18 @@ Configure the tooltip by selecting the *Edit chart configuration* icon image:ico
 // Mary -- scal-143396, scal-163885.
 //Pending (Manan Shah) - screen cap to follow
 
+////
 [#9-10-0-cl-conditional]
 [discrete]
 === Advanced conditional formatting
 
-// Naomi -- scal-177005.
+// Naomi -- scal-177005. moved to 9.11
 // PM: Manan
 
 Rather than simply using conditional formatting comparing a column's measures to a single value (for example, `sales > 10000`), you can now use conditional formatting to compare a column's measures to another column or to a parameter. For example, if you search for `sales this year` versus `sales last year`, you can highlight where sales this year were less than last year. You can set multiple conditional formatting rules to a single table.
 
 image::advanced-conditional-formatting.gif[Advanced conditional formatting comparing sales of state to sales of region]
+////
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
@@ -218,7 +220,13 @@ ifdef::pendo-links[]
 endif::[]
 
 With AI highlights, you get quick insights on how top metrics have changed in your Liveboard, dramatically reducing the time to derive insights from your KPIs.
-For more information, see xref:liveboard-ai-highlights.adoc[AI highlights].
+For more information, see
+ifndef::pendo-links[]
+xref:liveboard-ai-highlights.adoc[AI highlights].
+endif::[]
+ifdef::pendo-links[]
+xref:liveboard-ai-highlights.adoc[AI highlights,window=_blank].
+endif::[]
 
 // Mark -- scal-178483, scal-162712, SCAL-158409
 // PM: Manan
@@ -253,7 +261,13 @@ You can also cancel verification requests when needed.
 // Naomi -- scal-182100
 // PM: Manan
 
-You can now rename columns in an Answer and see the new name reflected on the table header, tooltips, legend, and chart configuration menu. Changes made to an Answer are not reflected in the underlying Worksheet.
+You can now rename columns in an Answer and see the new name reflected on the table header, tooltips, legend, and chart configuration menu. Changes made to an Answer are not reflected in the underlying Worksheet. For more information, see
+ifndef::pendo-links[]
+xref:chart-column-axis-rename.adoc#column-rename[Rename a table column].
+endif::[]
+ifdef::pendo-links[]
+xref:chart-column-axis-rename.adoc#column-rename[Rename a table column,window=_blank].
+endif::[]
 
 [#9-10-0-cl-byoc]
 [discrete]
@@ -273,6 +287,15 @@ For more information, see xref:chart-byoc.adoc[Custom charts].
 // PM: Vijay
 
 Using ThoughtSpot Sync, you can now sync data directly from an Answer or a custom SQL view, to your Google BigQuery cloud data warehouse.
+////
+For more information, see
+ifndef::pendo-links[]
+xref:sync-gbq.adoc[Sync to Google BigQuery].
+endif::[]
+ifdef::pendo-links[]
+xref:sync-gbq.adoc[Sync to Google BigQuery,window=_blank].
+endif::[]
+////
 
 // [#9-10-0-cl-parameters]
 // [discrete]
@@ -347,7 +370,13 @@ endif::[]
 // Naomi -- scal-147558.
 // PM: Vikas
 
-Users with edit permissions on a Liveboard can set their preferred attribute columns through the change analysis window and select *Apply to all users* to keep those selections for any subsequent change analysis calculations on that Liveboard. Individual users can still override these preferences for their own calculations.
+Users with edit permissions on a Liveboard can set their preferred attribute columns through the change analysis window and select *Apply to all users* to keep those selections for any subsequent change analysis calculations on that Liveboard. Individual users can still override these preferences for their own calculations. For more information, see
+ifndef::pendo-links[]
+xref:spotiq-change.adoc#remember-personalized[Remember personalized columns].
+endif::[]
+ifdef::pendo-links[]
+xref:spotiq-change.adoc#remember-personalized[Remember personalized columns,window=_blank].
+endif::[]
 
 image::personalized-column.png[Personalized columns]
 

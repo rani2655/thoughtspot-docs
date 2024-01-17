@@ -1,12 +1,12 @@
 = Change analysis
-:last_updated: 11/13/2023
+:last_updated: 1/17/2024
 :author: Naomi
 :experimental:
 :page-aliases: /spotiq/comparative-analysis.adoc, spotiq-comparative.adoc
 :page-layout: default-cloud
 :linkattrs:
 :description: With SpotIQ change analysis, you can compare two data points for change and identify key change drivers from the underlying attribute columns
-:jira: SCAL-175535, SCAL-175265, SCAL-172513, SCAL-141936
+:jira: SCAL-175535, SCAL-175265, SCAL-172513, SCAL-141936, SCAL-147558
 
 With SpotIQ change analysis, you can compare any two data points in a visualization for change and identify key change drivers from the underlying attribute columns.
 
@@ -78,8 +78,32 @@ When you run SpotIQ change analysis, ThoughtSpot detects additional insights and
 
 image::additional-insight.png[SpotIQ additional insights]
 
+[#remember-personalized]
+=== Remember personalized columns [.badge.badge-early-access]#Early Access#
+
+Admin users with edit permissions on a Liveboard can set their preferred attribute columns through the change analysis window and select to keep those selections for any subsequent change analysis calculations on that Liveboard.
+
+To set personalized attribute columns that will persist on the Liveboard, follow these steps:
+
+. . On an area, line, column, bar, line-column, pie, or KPI chart, hold down the command key (MacOS) or control key (Linux or Windows).
+. Select the two columns or data points you plan to compare. +
+Note that if you are analyzing a KPI chart, you must either click the percent change label or select two points from the sparkline visualization. You cannot run change analysis on a KPI chart with no sparkline visualization.
+
+. Right-click to see the dropdown menu, and select *Run change analysis*.
+
+. The SpotIQ window modal appears with the results of your analysis.
+By default, SpotIQ picks the top 5 most relevant columns, based on what it learned from your past activity.
+
+. In the lower left corner of the SpotIQ window, select *Customize attributes*. Select your desired columns from the list that appears.
+
+. In the lower right corner of the *Customize attributes* window, click *Apply to all users*.
++
+image::personalized-column.png[Personalized column selection]
++
+NOTE: Individual users can still override these preferred columns on their own SpotIQ analysis by running the calculation and selecting *Customize attributes*.
+
 [#iterative]
-=== Iterative change analysis
+=== Iterative change analysis [.badge.badge-early-access]#Early Access#
 
 You can now drill down on the results of change analysis to learn more about change drivers in your data.
 
