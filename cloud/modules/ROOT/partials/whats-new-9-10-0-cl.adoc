@@ -294,7 +294,6 @@ endif::[]
 // PM: Vijay
 
 Using ThoughtSpot Sync, you can now sync data directly from an Answer or a custom SQL view, to your Google BigQuery cloud data warehouse.
-////
 For more information, see
 ifndef::pendo-links[]
 xref:sync-gbq.adoc[Sync to Google BigQuery].
@@ -302,7 +301,7 @@ endif::[]
 ifdef::pendo-links[]
 xref:sync-gbq.adoc[Sync to Google BigQuery,window=_blank].
 endif::[]
-////
+
 
 // [#9-10-0-cl-parameters]
 // [discrete]
