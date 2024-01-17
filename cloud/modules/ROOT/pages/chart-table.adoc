@@ -39,7 +39,7 @@ To hide a column from a table, follow these steps:
 
 . Enter your search in the search bar and press *Enter*.
 
-. Select the table view of the results, and click the chart configuration icon image:icon-gear-10px.png[gear icon].
+. Select the table view of the results, and click the *Edit chart configuration* icon image:icon-gear-10px.png[gear icon].
 
 . From the *Visualized Columns* section, select the column you want to hide, and drag it to the *Hidden Columns* section.
 
