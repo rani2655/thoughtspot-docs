@@ -18,7 +18,7 @@ To create a sync to Google BigQuery from an Answer, follow these steps:
 +
 //NOTE: You cannot create a sync from an unsaved Answer. If the *Sync to other apps* option appears grayed-out in the menu, first save the Answer before trying again.
 
-. From the *Choose an existing connection* window, select your data warehouse. If you do not have an existing connection to Google BigQuery, click *Select here* under *Data warehouse* and select *Add new connection*.
+. From the *Choose an existing connection* window, select your data warehouse and click *Allow*. If you do not have an existing connection to Google BigQuery, click *Select here* under *Data warehouse* and select *Add new connection*.
 +
 The *Create connection* page appears. For more information on creating a connection to Google Bigquery, see xref:connections-gbq-add.adoc[].
 +
@@ -27,9 +27,10 @@ Once you create your connection, you are directed back to the Sync page.
 . Within ThoughtSpot, fill in the following parameters:
 
 * Edit the *Pipeline name* if needed. By default, this field populates with _PL-[Answer Name]_.
-* If you have more than one Google BigQuery destination set up, then the *Destination* field appears, and you will have to select a Google BigQuery destination from the dropdown menu available. However, if no destinations have been set up before or if you have only one Google BigQuery destination, the *Destination* field will not appear.
-* Select your Google BigQuery *Object* from the dropdown menu.
-* Select *Operation* from the dropdown menu. You can choose between *Insert* and *Upsert*.
+* If you have more than one Google BigQuery database set up, then the *Database* field appears and you have to select a Google BigQuery database from the dropdown menu available. However, if no databases have been set up before or if you have only one Google BigQuery destination, the *Database* field will not appear.
+* Select *Schema* from the dropdown menu.
+. Select *Table* from the dropdown menu.
+* Select *Operation* from the dropdown menu. You can choose between *Insert*, *Update*, *Upsert*, and *Delete*.
 
 * Map the *Source* and *Destination* columns from the dropdown menus provided. Note that the Source column refers to the column in ThoughtSpot, while the Destination column refers to the column in Google BigQuery.
 +
@@ -57,7 +58,7 @@ To sync to Google BigQuery from a custom SQL view, follow these steps:
 
 . In the upper-right corner, click the *more options* menu icon image:icon-more-10px.png[more options menu icon] and select *Sync to Google BigQuery*.
 
-. From the *Choose an existing connection* window, select your data warehouse. If you do not have an existing connection to Google BigQuery, click *Select here* under *Data warehouse* and select *Add new connection*.
+. From the *Choose an existing connection* window, select your data warehouse and click *Allow*. If you do not have an existing connection to Google BigQuery, click *Select here* under *Data warehouse* and select *Add new connection*.
 +
 The *Create connection* page appears. For more information on creating a connection to Google Bigquery, see xref:connections-gbq-add.adoc[].
 +
@@ -66,9 +67,10 @@ Once you create your connection, you are directed back to the Sync page.
 . Fill in the following parameters:
 
 * Edit the *Pipeline name* if needed. By default, this field populates with _PL-[Answer Name]_.
-* If you have more than one Google BigQuery destination set up, then the *Destination* field appears and you have to select a Google BigQuery destination from the dropdown menu available. However, if no destinations have been set up before or if you have only one Google BigQuery destination, the *Destination* field will not appear.
-* Select *Object* from the dropdown menu.
-* Select *Operation* from the dropdown menu. You can choose between *Insert* and *Upsert*.
+* If you have more than one Google BigQuery database set up, then the *Database* field appears and you have to select a Google BigQuery database from the dropdown menu available. However, if no databases have been set up before or if you have only one Google BigQuery destination, the *Database* field will not appear.
+* Select *Schema* from the dropdown menu.
+. Select *Table* from the dropdown menu.
+* Select *Operation* from the dropdown menu. You can choose between *Insert*, *Update*, *Upsert*, and *Delete*.
 
 * Map the *Source* and *Destination* columns from the dropdown menus provided.
 +
