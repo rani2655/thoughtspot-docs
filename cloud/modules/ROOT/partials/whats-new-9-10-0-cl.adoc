@@ -211,15 +211,15 @@ ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-10-0-cl-highlight]
 [discrete]
-=== AI Highlights [.badge.badge-early-access]#Early Access#
+=== AI highlights [.badge.badge-beta]#Beta#
 endif::[]
 ifdef::pendo-links[]
 [#9-10-0-cl-highlight]
 [discrete]
-=== AI Highlights [.badge.badge-early-access-whats-new]#Early Access#
+=== AI highlights [.badge.badge-beta-whats-new]#Beta#]
 endif::[]
 
-With AI highlights, you get quick insights on how top metrics have changed in your Liveboard, dramatically reducing the time to derive insights from your KPIs.
+With AI highlights, you get quick insights on how top metrics have changed in your Liveboard, dramatically reducing the time to derive insights from your KPIs. To enable this feature, contact {support-url}.
 For more information, see
 ifndef::pendo-links[]
 xref:liveboard-ai-highlights.adoc[AI highlights].
@@ -319,7 +319,7 @@ endif::[]
 [discrete]
 === Easier to make a copy in explore mode
 
-In explore mode, you can now more easily make a copy by clicking the *Make a copy* button now located next to the *More* menu icon image:icon-more-10px.png[more menu icon image].
+In explore mode, you can now more easily make a copy of an Answer by clicking the *Make a copy* button which is now located next to the *More* menu icon image:icon-more-10px.png[more menu icon image].
 
 
 // Mark -- scal-161135. add image. clarify that it's on a visualization in Explore mode, not a Liveboard copy.
@@ -475,9 +475,11 @@ NOTE: Once you enable RBAC it cannot be disabled.
 //Awaiting information from Aashica & access to Eng doc.
 // Mary -- scal-119837
 
-// [#9-10-0-cl-bridge]
-// [discrete]
-// === Bridge connection to Cloud data warehouse from ThoughtSpot
+[#9-10-0-cl-bridge]
+[discrete]
+=== Bridge connector for Google Big Query
+
+Sometimes connecting ThoughtSpot directly to your Google Big Query database or changing your VPN/firewall configuration is not possible. For those situations, you can use Bridge to create a connection to your BigQuery database. The Bridge connector is easy to install, configure, and maintain.
 
 // Mark -- scal-170548
 // Contacted Rahul for more info
