@@ -54,7 +54,7 @@ Ask Sage:: You can now conversationally search ThoughtSpot using natural languag
 ////
 
 // Naomi -- scal-141936, scal-176265
-Iterative change analysis [.badge.badge-early-access-relnotes]#Early Access#::
+Iterative change analysis [.badge.badge-beta-relnotes]#Beta#::
 You can now drill down on specific columns in change analysis, in order to identify change drivers within your data. For example, if you run an analysis on sales monthly and find out that the 'jacket' item type changed the most, you can easily drill down on jacket sales and identify which region contributed the most to the change in sales. For more information, see xref:spotiq-change.adoc#iterative[Iterative change analysis].
 
 
@@ -75,6 +75,11 @@ Chart customizations:: You can now access advanced chart customization settings 
 // Naomi -- scal-141936. actually beta. spotiq-change.adoc#iterative
 
 Run change analysis iteratively:: You can now drill down on specific columns in change analysis, in order to identify change drivers within your data. When you right-click on an attribute value in the change analysis window to drill down, ThoughtSpot adds the attribute value as a filter and re-calculates change analysis for the specific window of time specified in your original search. For more information, see xref:spotiq-change.adoc#iterative[Iterative change analysis].
+
+// Naomi -- scal-147558
+Change analysis: remember personalized columns [.badge.badge-early-access-relnotes]#Early Access#::
+Users with edit permissions on a Liveboard can set their preferred attribute columns through the change analysis window and select *Apply to all users* to keep those selections for any subsequent change analysis calculations on that Liveboard. Individual users can still override these preferences for their own calculations. For more information, see xref:spotiq-change.adoc#remember-personalized[Remember personalized columns].
+
 
 
 // Naomi -- scal-156247
@@ -107,10 +112,6 @@ To access this feature, go to your KPI chart and select the caret icon to the ri
 [#9-10-0-cl-data-engineer]
 
 === For the Data Engineer
-
-// Naomi -- scal-147558
-Change analysis: remember personalized columns [.badge.badge-early-access-relnotes]#Early Access#::
-Users with edit permissions on a Liveboard can set their preferred attribute columns through the change analysis window and select *Apply to all users* to keep those selections for any subsequent change analysis calculations on that Liveboard. Individual users can still override these preferences for their own calculations. For more information, see xref:spotiq-change.adoc#remember-personalized[Remember personalized columns].
 
 // Naomi -- scal-166158
 Google Cloud SQL for MySQL connection:: We added support for xref:connections-google-cloud-sql-mysql.adoc[Google Cloud SQL for MySQL].
