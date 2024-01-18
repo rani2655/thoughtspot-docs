@@ -128,31 +128,7 @@ Rather than simply using conditional formatting comparing a column's measures to
 image::advanced-conditional-formatting.gif[Advanced conditional formatting comparing sales of state to sales of region]
 ////
 
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
-[#9-10-0-cl-glean]
-[discrete]
-=== Glean integration [.badge.badge-beta]#Beta#
-endif::[]
-ifdef::pendo-links[]
-[#9-10-0-cl-glean]
-[discrete]
-=== Glean integration [.badge.badge-beta-whats-new]#Beta#
-endif::[]
 
-// Naomi -- scal-175860. actually beta. does the customer need to have a Glean account? Is there an admin experience different from the user experience? add gif with just searching the Glean tile. keep it short.
-// PM: Vanshree
-
-You can now use Glean to search unstructured data, such as documents, PowerPoint presentations, and Excel files, directly from a Liveboard. Add a Glean tile to your Liveboard to easily add context to your ThoughtSpot data insights. Glean inherits the filters and query terms defined by your Liveboard. You can configure Glean results to include or exclude these terms from your search. Glean results are tailored to each user based on their team, search activity, and preferences. For more information, see
-ifndef::pendo-links[]
-xref:glean-integration.adoc[Glean integration].
-endif::[]
-ifdef::pendo-links[]
-xref:glean-integration.adoc[Glean integration,window=_blank].
-endif::[]
-
-image::glean-integration.gif[Glean integration]
-endif::free-trial-feature[]
 
 [#9-10-0-cl-null]
 [discrete]
@@ -306,7 +282,7 @@ ifndef::pendo-links[]
 === Custom charts [.badge.badge-early-access]#Early Access#
 endif::[]
 ifdef::pendo-links[]
-[#9-10-0-cl-glean]
+[#9-10-0-cl-byoc]
 [discrete]
 === Custom charts [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]

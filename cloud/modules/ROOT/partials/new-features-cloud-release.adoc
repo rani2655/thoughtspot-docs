@@ -40,8 +40,6 @@ Easily find verified Liveboards with trusted content and sort Liveboards to view
 [#9-10-0-cl-business-user]
 === For the Business User
 
-// Naomi -- scal-175860. actually beta
-Glean integration [.badge.badge-beta-relnotes]#Beta#:: You can now use Glean to search unstructured data, such as documents, PowerPoint, and Excel files, directly from a Liveboard. Add a Glean tile to your Liveboard to easily add context to your ThoughtSpot data insights. Glean inherits the filters and query terms defined by your Liveboard. You can configure Glean results to include or exclude these terms from your search. Glean results are tailored to each user based on their team, search activity, and preferences. For more information, see xref:glean-integration.adoc[Glean integration].
 
 
 // Naomi -- scal-169683

@@ -65,7 +65,6 @@
 *** xref:automated-answer-creation.adoc[Create Answers in Setup]
 *** xref:liveboard.adoc[Create a Liveboard]
 *** xref:liveboard-notes.adoc[]
-*** xref:glean-integration.adoc[]
 *** xref:liveboard-comment.adoc[Collaborative Liveboards]
 *** xref:liveboard-filters-linked.adoc[Linked Liveboard filters]
 *** xref:liveboard-filters-selective.adoc[Selective Liveboard filters]
