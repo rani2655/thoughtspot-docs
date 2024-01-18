@@ -1,7 +1,7 @@
 = Glean integration
 :last_updated: 11/21/23
 :author: Naomi
-:page-layout: default-cloud
+:page-layout: default-cloud-beta
 :description: You can now use Glean to search unstructured data, such as documents, powerpoints, and excel files, directly from a Liveboard.
 :linkattrs:
 :experimental:

@@ -1,7 +1,7 @@
 = Advanced chart settings
 :last_updated: 11/13/2023
 :author: Naomi
-:page-layout: default-cloud
+:page-layout: default-cloud-early-access
 :jira: SCAL-166121
 :description: You can now access advanced chart customization settings by selecting the *Edit chart configuration* icon and clicking *Advanced settings*.
 
