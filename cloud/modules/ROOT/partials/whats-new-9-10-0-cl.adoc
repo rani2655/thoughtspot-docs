@@ -310,7 +310,7 @@ ifdef::pendo-links[]
 endif::[]
 
 
-ThoughtSpot administrators can now add custom charts to a ThoughtSpot cluster.
+You can now use custom charts created outside of ThoughtSpot. Developers with your company can create custom charts using the ThoughtSpot Charts SDK, and your administrator can add them to your cluster.
 For more information, see
 ifndef::pendo-links[]
 xref:chart-byoc.adoc[Custom charts].
@@ -319,6 +319,8 @@ ifdef::pendo-links[]
 xref:chart-byoc.adoc[Custom charts,window=_blank].
 endif::[]
 endif::free-trial-feature[]
+
+image::custom-chart-select.png[Custom Chart]
 
 // Mark -- scal-171984, scal-67410. possibly below "other features"
 
@@ -354,9 +356,9 @@ endif::[]
 
 [#9-10-0-cl-explore]
 [discrete]
-=== Easier to make a copy in explore mode
+=== Easier to make a copy in Explore mode
 
-In explore mode, you can now more easily make a copy of an Answer by clicking the *Make a copy* button which is now located next to the *More* menu icon image:icon-more-10px.png[more menu icon image].
+In Explore mode, you can now more easily make a copy of an Answer by clicking the *Make a copy* button which is now located next to the *More* menu icon image:icon-more-10px.png[more menu icon image].
 
 
 // Mark -- scal-161135. add image. clarify that it's on a visualization in Explore mode, not a Liveboard copy.
