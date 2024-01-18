@@ -256,6 +256,8 @@ ifdef::pendo-links[]
 xref:liveboard-ai-highlights.adoc[AI highlights,window=_blank].
 endif::[]
 
+image::ai-highlights-window.png[Personalized columns]
+
 // Mark -- scal-178483, scal-162712, SCAL-158409
 // PM: Manan
 
