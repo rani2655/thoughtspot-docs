@@ -103,7 +103,7 @@ image::personalized-column.png[Personalized column selection]
 NOTE: Individual users can still override these preferred columns on their own SpotIQ analysis by running the calculation and selecting *Customize attributes*.
 
 [#iterative]
-=== Iterative change analysis [.badge.badge-early-access]#Early Access#
+=== Iterative change analysis [.badge.badge-beta]#Beta#
 
 You can now drill down on the results of change analysis to learn more about change drivers in your data.
 
@@ -116,6 +116,8 @@ To run iterative change analysis, follow these steps:
 . Right-click on an attribute value in the resulting change analysis and select *Analyze  <attribute_value>*. For example, if you want to deep-dive to understand what’s driving change in "California" in "State" attribute, right click on "California" and click "Analyze California".
 
 . ThoughtSpot adds the specified attribute value as a filter and re-calculates change analysis for the original comparison points.
+
+NOTE: Iterative change analysis does not work on visualizations created with custom calendars.
 
 
 // actually Early Access

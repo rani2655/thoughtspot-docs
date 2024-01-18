@@ -46,7 +46,7 @@ endif::free-trial-feature[]
 [discrete]
 === Commenting on Liveboards
 
-// Naomi -- scal-15915
+// Naomi -- scal-159515
 // PM: Vanshree
 
 Commenting on Liveboards is now on by default and available to all users. You can now add or reply to comments, tag other users, or subscribe to comment threads directly on a Liveboard. Users can point out insights or reach out for clarification without leaving ThoughtSpot. To try it out, click the comment icon to the right of the edit icon, and select the data point you would like to comment on. For more information, see
@@ -167,12 +167,12 @@ ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-10-0-cl-change]
 [discrete]
-=== Iterative change analysis [.badge.badge-early-access]#Early Access#
+=== Iterative change analysis [.badge.badge-beta]#Beta#
 endif::[]
 ifdef::pendo-links[]
 [#9-10-0-cl-change]
 [discrete]
-=== Iterative change analysis [.badge.badge-early-access-whats-new]#Early Access#
+=== Iterative change analysis [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
 // Naomi -- scal-141936, scal-176265. spotiq-change.adoc#iterative. add gif. simplify, highlight value rather than the process. combine two sentences into one, remove mechanical process of what ThoughtSpot does. change analysis is no longer static, you can drill down. may need to zoom into the gif in final.
@@ -187,6 +187,34 @@ xref:spotiq-change.adoc#iterative[Iterative change analysis,window=_blank].
 endif::[]
 
 image::iterative-analysis.gif[Iterative change analysis]
+endif::free-trial-feature[]
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-10-0-cl-personalized]
+[discrete]
+=== Change analysis: remember personalized columns [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-10-0-cl-personalized]
+[discrete]
+=== Change analysis: remember personalized columns [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
+
+// Naomi -- scal-147558.
+// PM: Vikas
+
+Users with edit permissions on a Liveboard can set their preferred attribute columns through the change analysis window and select *Apply to all users* to keep those selections for any subsequent change analysis calculations on that Liveboard. Individual users can still override these preferences for their own calculations. For more information, see
+ifndef::pendo-links[]
+xref:spotiq-change.adoc#remember-personalized[Remember personalized columns].
+endif::[]
+ifdef::pendo-links[]
+xref:spotiq-change.adoc#remember-personalized[Remember personalized columns,window=_blank].
+endif::[]
+
+image::personalized-column.png[Personalized columns]
+
 endif::free-trial-feature[]
 
 
@@ -360,33 +388,6 @@ Custom sorting is now available to all users and is on by default. ThoughtSpot i
 image::custom-sort-order.png[Custom Sorting]
 // Mary -- scal-181962.
 
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
-[#9-10-0-cl-personalized]
-[discrete]
-=== Change analysis: remember personalized columns [.badge.badge-early-access]#Early Access#
-endif::[]
-ifdef::pendo-links[]
-[#9-10-0-cl-personalized]
-[discrete]
-=== Change analysis: remember personalized columns [.badge.badge-early-access-whats-new]#Early Access#
-endif::[]
-
-
-// Naomi -- scal-147558.
-// PM: Vikas
-
-Users with edit permissions on a Liveboard can set their preferred attribute columns through the change analysis window and select *Apply to all users* to keep those selections for any subsequent change analysis calculations on that Liveboard. Individual users can still override these preferences for their own calculations. For more information, see
-ifndef::pendo-links[]
-xref:spotiq-change.adoc#remember-personalized[Remember personalized columns].
-endif::[]
-ifdef::pendo-links[]
-xref:spotiq-change.adoc#remember-personalized[Remember personalized columns,window=_blank].
-endif::[]
-
-image::personalized-column.png[Personalized columns]
-
-endif::free-trial-feature[]
 
 [#9-10-0-cl-connections]
 [discrete]
