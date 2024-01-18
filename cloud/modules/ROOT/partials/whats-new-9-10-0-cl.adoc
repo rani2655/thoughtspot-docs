@@ -269,9 +269,18 @@ ifdef::pendo-links[]
 xref:chart-column-axis-rename.adoc#column-rename[Rename a table column,window=_blank].
 endif::[]
 
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
 [#9-10-0-cl-byoc]
 [discrete]
-=== Custom charts
+=== Custom charts [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-10-0-cl-glean]
+[discrete]
+=== Custom charts [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
 
 ThoughtSpot administrators can now add custom charts to a ThoughtSpot cluster.
 For more information, see
@@ -281,7 +290,7 @@ endif::[]
 ifdef::pendo-links[]
 xref:chart-byoc.adoc[Custom charts,window=_blank].
 endif::[]
-
+endif::free-trial-feature[]
 
 // Mark -- scal-171984, scal-67410. possibly below "other features"
 
