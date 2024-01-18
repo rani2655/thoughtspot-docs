@@ -493,7 +493,7 @@ NOTE: Once you enable RBAC it cannot be disabled.
 [discrete]
 === Bridge connector for Google Big Query
 
-Sometimes connecting ThoughtSpot directly to your Google BigQuery database or changing your VPN/firewall configuration is not possible. For those situations, you can use Bridge to create a connection to your BigQuery database. The Bridge connector is easy to install, configure, and maintain.
+Sometimes connecting ThoughtSpot directly to your Google BigQuery database or changing your VPN/firewall configuration is not possible. For those situations, you can use Bridge to create a connection to your BigQuery database. The Bridge connector is easy to install, configure, and maintain. To enable this feature, contact {support-url}.
 
 // Mark -- scal-170548
 // Contacted Rahul for more info
