@@ -239,15 +239,15 @@ ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-10-0-cl-highlight]
 [discrete]
-=== AI highlights [.badge.badge-beta]#Beta#
+=== AI Highlights [.badge.badge-beta]#Beta#
 endif::[]
 ifdef::pendo-links[]
 [#9-10-0-cl-highlight]
 [discrete]
-=== AI highlights [.badge.badge-beta-whats-new]#Beta#
+=== AI Highlights [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
-With AI highlights, you get quick insights on how top metrics have changed in your Liveboard, dramatically reducing the time to derive insights from your KPIs. To enable this feature, contact {support-url}.
+With AI Highlights, you get quick insights on how top metrics have changed in your Liveboard, dramatically reducing the time to derive insights from your KPIs. To enable this feature, contact {support-url}.
 For more information, see
 ifndef::pendo-links[]
 xref:liveboard-ai-highlights.adoc[AI highlights].
