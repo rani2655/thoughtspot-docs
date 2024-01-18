@@ -296,12 +296,12 @@ endif::[]
 ifdef::pendo-links[]
 xref:chart-byoc.adoc[Custom charts,window=_blank].
 endif::[]
-endif::free-trial-feature[]
+
 
 image::custom-chart-select.png[Custom Chart]
 
 // Mark -- scal-171984, scal-67410. possibly below "other features"
-
+endif::free-trial-feature[]
 
 [#9-10-0-cl-sync]
 [discrete]
