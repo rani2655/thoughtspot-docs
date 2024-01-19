@@ -627,7 +627,9 @@
 *** xref:tml-worksheets.adoc[TML for Worksheets]
 * xref:administration.adoc[Administration]
 ** xref:support-handbook.adoc[Support Handbook]
-** xref:editions-admin.adoc[ThoughtSpot editions]
+** ThoughtSpot editions
+*** xref:editions-admin.adoc[Administration]
+*** xref:editions-usage-limits.adoc.adoc[Usage limits]
 ** xref:high-availability.adoc[High Availability and resilience]
 ** xref:business-continuity.adoc[Data Protection and Disaster Recovery]
 ** xref:orgs-overview.adoc[Multi-tenancy with Orgs]
