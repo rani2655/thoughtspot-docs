@@ -96,7 +96,7 @@ Roles and more granular access privileges:: ThoughtSpot introduces role-based ac
 ThoughtSpot includes some standard roles to help existing customers transition to RBAC. RBAC is supported in Primary Orgs. To enable RBAC, contact {support-url}. For more information, see xref:rbac.adoc[Understand RBAC and privileges].
 
 // Mark -- SCAL-179003
-Custom charts [.badge.badge-early-access-relnotes]#Early Access#:: ThoughtSpot administrators can now add custom charts to a ThoughtSpot cluster.  For more information, see xref:chart-byoc.adoc[].
+Custom charts [.badge.badge-early-access-relnotes]#Early Access#:: You can now use custom charts created outside of ThoughtSpot. Developers with your company can create custom charts using the ThoughtSpot Charts SDK, and your administrator can add them to your cluster.  For more information, see xref:chart-byoc.adoc[].
 
 //scal-159581, scal-102588, scal-95381, scal-165060, scal-161325, scal-154973, scal-142097, scal-102588, scal-158204
 Mobile enhancements:: We made the following improvements to ThoughtSpot mobile:
