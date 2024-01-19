@@ -8,11 +8,11 @@
 :description: With custom charts, you can add your own custom charts to ThoughtSpot.
 :jira: SCAL-179003
 
-You can now use custom charts in ThoughtSpot.
+You can now use custom charts created outside of ThoughtSpot.
 
 This article describes how you use a custom chart and how your ThoughtSpot administrator can add, edit, and delete custom charts.
 
-For developers who want to create custom charts, refer to the https://github.com/thoughtspot/ts-chart-sdk/blob/main/README.md/[ThoughtSpot charts SDK documentation^].
+Developers can create custom charts using the https://github.com/thoughtspot/ts-chart-sdk/blob/main/README.md/[ThoughtSpot charts SDK documentation^].
 
 == Using custom charts
 
