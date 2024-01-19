@@ -68,7 +68,7 @@ xref:monitor.adoc#early-access[Monitor].
 
 
 // Naomi -- scal-166121. actually EA.
-Chart customizations:: You can now access advanced chart customization settings for Answers by selecting the *Edit chart configuration* icon image:icon-gear-10px.png[chart customization icon] and selecting *Advanced settings*. Use these settings to adjust the size and appearance of tooltips, regression lines, gridlines, and chart backgrounds. For more information, see xref:chart-settings-advanced.adoc[Advanced chart settings].
+Chart customizations [.badge.badge-early-access-relnotes]#Early Access#:: You can now access advanced chart customization settings for Answers by selecting the *Edit chart configuration* icon image:icon-gear-10px.png[chart customization icon] and selecting *Advanced settings*. Use these settings to adjust the size and appearance of tooltips, regression lines, gridlines, and chart backgrounds. For more information, see xref:chart-settings-advanced.adoc[Advanced chart settings].
 
 // Naomi -- scal-141936. actually beta. spotiq-change.adoc#iterative
 
@@ -88,13 +88,15 @@ Natural language search chart type:: You can now specify the answering chart typ
 Functional enhancements for verified Liveboards:: Easily find verified Liveboards marked with banners, and icons. Sort search results to view content tagged as verified. Request verification of Liveboards and cancel requests when needed. For more information, see xref:liveboard-verify.adoc[Verify Liveboards].
 
 // Mark -- SCAL-178264
-AI highlights:: With AI highlights, you get quick insights on how top metrics have changed in your Liveboard, dramatically reducing the time to derive insights from your KPIs.
+AI Highlights [.badge.badge-beta-relnotes]#Beta#:: With AI Highlights, you get quick insights on how top metrics have changed in your Liveboard, dramatically reducing the time to derive insights from your KPIs.
 For more information, see xref:liveboard-ai-highlights.adoc[].
 
 //Mary scal-174139, scal-158579, scal-174139
 Roles and more granular access privileges:: ThoughtSpot introduces role-based access control (RBAC) to allow for more granular access privileges. Use roles to apply privileges customized for your organizational needs.
 ThoughtSpot includes some standard roles to help existing customers transition to RBAC. RBAC is supported in Primary Orgs. To enable RBAC, contact {support-url}. For more information, see xref:rbac.adoc[Understand RBAC and privileges].
 
+// Mark -- SCAL-179003
+Custom charts [.badge.badge-early-access-relnotes]#Early Access#:: ThoughtSpot administrators can now add custom charts to a ThoughtSpot cluster.  For more information, see xref:chart-byoc.adoc[].
 
 //scal-159581, scal-102588, scal-95381, scal-165060, scal-161325, scal-154973, scal-142097, scal-102588, scal-158204
 Mobile enhancements:: We made the following improvements to ThoughtSpot mobile:
@@ -128,16 +130,6 @@ dbt public API:: dbt core users can now use the dbt public API to upload dbt pro
 
 // Naomi -- scal-169614
 dbt version 1.7:: ThoughtSpot now supports dbt version 1.7.
-
-
-[#9-10-0-cl-it-ops]
-=== For the IT/Ops Engineer
-
-
-
-// Mark -- SCAL-179003
-
-Custom charts:: ThoughtSpot administrators can now add custom charts to a ThoughtSpot cluster.  For more information, see xref:chart-byoc.adoc[].
 
 [#9-10-0-cl-developer]
 === For the Developer
