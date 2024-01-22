@@ -333,7 +333,7 @@ endif::[]
 
 
 
-
+////
 [#9-10-0-cl-explore]
 [discrete]
 === Easier to make a copy in Explore mode
@@ -342,6 +342,8 @@ In Explore mode, you can now more easily make a copy of an Answer by clicking th
 
 
 // Mark -- scal-161135. add image. clarify that it's on a visualization in Explore mode, not a Liveboard copy.
+// re: Mohil and Adi, no docs needed
+////
 
 [#9-10-0-cl-mobile]
 [discrete]
