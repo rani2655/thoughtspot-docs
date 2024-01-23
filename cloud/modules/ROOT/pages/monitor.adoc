@@ -8,13 +8,9 @@
 
 ThoughtSpot now supports alerts for changes in xref:chart-kpi.adoc[Key Performance Indicators (KPIs)] in your data. Use the Monitor function to receive notifications when your KPI satisfies a certain threshold condition, or to schedule notifications for your KPIs on an hourly, daily, weekly, or monthly basis.
 
-[#early-access]
-.Ad-hoc filters for Liveboards [.badge.badge-early-access]#Early Access#
-****
-You can now add ad-hoc filters to the Liveboard underlying your KPI and set an alert that preserves those filters, all without saving the filter to the Liveboard.
+You can now add ad-hoc filters to the Liveboard underlying your KPI and set a threshold or scheduled alert that preserves those filters, all without saving the filter to the Liveboard.
 
-To enable this feature, contact your ThoughtSpot administrator. For more about Early Access features, see xref:release-lifecycle.adoc#early-access[ThoughtSpot Cloud release life cycle].
-****
+NOTE: Monitor emails do not contain mention of the filters used on the underlying Liveboard.
 
 When you receive an email alert about a threshold or scheduled alert, ThoughtSpot now surfaces any anomalies found in your KPI. You can see the expected range of values, and click a link to view your KPI in the original Liveboard.
 
