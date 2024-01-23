@@ -277,34 +277,6 @@ ifdef::pendo-links[]
 xref:chart-column-axis-rename.adoc#column-rename[Rename a table column,window=_blank].
 endif::[]
 
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
-[#9-10-0-cl-byoc]
-[discrete]
-=== Custom charts [.badge.badge-early-access]#Early Access#
-endif::[]
-ifdef::pendo-links[]
-[#9-10-0-cl-byoc]
-[discrete]
-=== Custom charts [.badge.badge-early-access-whats-new]#Early Access#
-endif::[]
-
-
-You can now use custom charts created outside of ThoughtSpot. Developers with your company can create custom charts using the ThoughtSpot Charts SDK, and your administrator can add them to your cluster.
-For more information, see
-ifndef::pendo-links[]
-xref:chart-byoc.adoc[Custom charts].
-endif::[]
-ifdef::pendo-links[]
-xref:chart-byoc.adoc[Custom charts,window=_blank].
-endif::[]
-
-
-image::custom-chart-select.png[Custom Chart]
-
-// Mark -- scal-171984, scal-67410. possibly below "other features"
-endif::free-trial-feature[]
-
 [#9-10-0-cl-sync]
 [discrete]
 === ThoughtSpot Sync for Google BigQuery
