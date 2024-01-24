@@ -43,7 +43,7 @@ At the bottom of the expanded AI Highlights window, you can let ThoughtSpot know
 +
 .[.badge.badge-early-access]#Early Access#
 ****
-Customizing and saving the attribute columns is available as an Early Access feature in the 9.10.0.cl release. To enable the feature, contact your administrator.
+Customizing and saving the attribute columns is available as an Early Access feature of SpotIQ in the 9.10.0.cl release. To enable the feature, contact your administrator.
 ****
 
 
