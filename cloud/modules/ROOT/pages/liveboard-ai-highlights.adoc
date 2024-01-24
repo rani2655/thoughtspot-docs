@@ -36,6 +36,17 @@ image::ai-highlights-expanded.png[AI highlights expanded window]
 +
 At the bottom of the expanded AI Highlights window, you can let ThoughtSpot know if the information was useful.
 
+=== How to get the most ouf of AI Highlights
+
+- Ensure you have at least five time-series KPI charts on the Liveboard tab for which you are trying to generate highlights.
+- AI Highlights uses SpotIQ’s change analysis feature to generate the top change contributor's insights. To get insights for only relevant attributes, customize the attribute columns using the change analysis feature.
++
+.[.badge.badge-early-access]#Early Access#
+****
+Customizing and saving the attribute columns is available as an Early Access feature in the 9.10.0.cl release. To enable the feature, contact your administrator.
+****
+
+
 === How AI Highlights are generated
 
 AI Highlights are calculated for the first five time-series KPIs on a particular Liveboard tab. Each tab gets its own summary.
