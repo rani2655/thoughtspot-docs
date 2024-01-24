@@ -208,9 +208,12 @@ Do the following to escalate a case.
 
 . Go to your case and click *Escalate My Case* to escalate the case.
 
-If you attempt to escalate a case that is less than an hour old, the following message appears.
+If you try to escalate a case before the defined SLA timeframe has passed, you will encounter the following message:
 
 image::escalate-case1.png[Escalate a case immediately after creation]
+
+NOTE: The escalation option for P0 cases is available one day after the case is created. Escalation is available after 3 days for P1 cases, 5 days for P2 cases, and 7 days for P3 cases.
+
 [start=2]
 . Select a *Case Escalation Reason* from the drop-down list.
 . Optionally, enter any *Additional Comments*.
