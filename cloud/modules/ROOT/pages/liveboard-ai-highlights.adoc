@@ -63,8 +63,13 @@ NOTE: This insight may not highlight the top change contributor. To identify the
 - Clicking the KPI card reveals a detailed natural language summary of the change, and the change contributors for the selected KPI.
 - ThoughtSpot leverages the xref:time-series-anomaly.adoc[anomaly detection engine] to identify the expected bounds that are communicated on the header of the right side panel and the Change contribution for the KPI is powered by ThoughtSpot’s xref:spotiq-change.adoc[Change analysis].
 
+=== Limitations
 
+The following are current limitations of AI Highlights:
 
+- AI Highlights are only generated for time-series KPI charts.
+- Only the first five time-series KPIs are displayed in AI Highlights.
+- AI Highlights are calculated at the tab level in a Liveboard.
 
 
 
