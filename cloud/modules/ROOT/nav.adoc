@@ -560,7 +560,7 @@
 ** xref:personalized-liveboard-views.adoc[Personalized Liveboard views]
 ** xref:liveboard-verify.adoc[Verified Liveboards]
 ** xref:answer-explorer.adoc[Answer Explorer]
-** xref:liveboard-ai-highlights.adoc[AI highlights]
+** xref:liveboard-ai-highlights.adoc[AI Highlights]
 ** xref:liveboard-schedule.adoc[Schedule a Liveboard job]
 ** xref:liveboard-search.adoc[Search actions within a Liveboard]
 ** xref:liveboard-copy.adoc[Copy a Liveboard]
