@@ -23,6 +23,13 @@ image::save-view.png[Save view]
 [start=3]
 . Enter a name for your personalized Liveboard view.
 . Select *Make view available to all users* if you want the view to be visible to others.
+
+* If you have edit permission for the Liveboard, you can select *Make view available to all users* to share your view. Your view is then available to all users.
+* If you have view only permissions for the Liveboard, you will not see the *Make view available to all users* option.
+
+NOTE: Where row level security is applied to the data, unauthorized users will see the Liveboard but not the restricted data.
+
+[start=5]
 . Click *Save*.
 
 image::personalized-views.png[Save view of filtered Liveboard]
