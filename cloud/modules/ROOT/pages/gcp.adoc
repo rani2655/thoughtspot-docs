@@ -15,3 +15,5 @@ Certain features supported for ThoughtSpot on AWS are not available for ThoughtS
 * xref:security-thoughtspot-lifecycle.adoc#advanced-data-ear[Encryption at rest]
 * xref:business-continuity.adoc#high-availability[Multi-node (High Availability)]
 * xref:connections-ipsec-vpn.adoc[IPSec VPN], xref:connections-gbq-open-vpn.adoc[GBQ Open VPN] and xref:connections-synapse-open-vpn.adoc[Synapse VPN]
+* xref:connections-ipsec-vpn.adoc[IPSec VPN], xref:connections-gbq-open-vpn.adoc[GBQ Open VPN] and xref:connections-synapse-open-vpn.adoc[Synapse VPN]
+* xref:spotapps.adoc[SpotApps]
