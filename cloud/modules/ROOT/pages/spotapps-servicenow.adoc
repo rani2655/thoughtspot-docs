@@ -89,7 +89,7 @@ The following table describes the schema for the {spotapp}.
 | incident| close_code| VARCHAR| Y
 | incident| closed_at| DATE_TIME| Y
 | incident| closed_by| VARCHAR| Y
-| incident| close_Ntes| VARCHAR| Y
+| incident| close_notes| VARCHAR| Y
 | incident| cmdb_ci| VARCHAR| Y
 | incident| company| VARCHAR| Y
 | incident| escalation| VARCHAR| Y
