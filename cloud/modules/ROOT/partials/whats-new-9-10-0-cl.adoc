@@ -410,19 +410,19 @@ ThoughtSpot now supports dbt version 1.7.
 [#9-10-0-cl-saml]
 [discrete]
 === SAML assertion to include both Orgs and Groups information
-Previously ThoughtSpot supported either group sync or org sync but not both together. You can now sync both group and org together. You can sync users that are part of given groups in given orgs from the SAML response.
+ThoughtSpot now allows SAML assertion that include Orgs and Groups attributes.
 //Aashica to follow up.
 // Mary -- scal-138809
 
-[#9-10-0-cl-enterprise]
-[discrete]
-=== Granular privileges for Free Trial, Team Edition, Enterprise - Orgs
-ThoughtSpot role-based access control (RBAC) is now available to all users. RBAC allows for more granular access privileges. Use roles to apply privileges customized for your organizational needs.
+//[#9-10-0-cl-enterprise]
+//[discrete]
+//=== Granular privileges for Free Trial, Team Edition, Enterprise - Orgs
+//ThoughtSpot role-based access control (RBAC) is now available to all users. RBAC allows for more granular access privileges. Use roles to apply privileges customized for your organizational needs.
 
-To enable RBAC, contact {support-url}.
+//To enable RBAC, contact {support-url}.
 
-NOTE: Once you enable RBAC it cannot be disabled.
-//Going from Beta to GA.
+//NOTE: Once you enable RBAC it cannot be disabled.
+//Remaining Beta until 9.11.0.cl.
 //Customers still have to contact support to enable even though it’s GA.
 // Mary -- scal-155689
 
@@ -444,10 +444,11 @@ NOTE: Once you enable RBAC it cannot be disabled.
 //Moved to 9.12.0.cl
 // Mary -- scal-181443
 
-//[#9-10-0-cl-iam]
-//[discrete]
-//=== IAM v2 - OIDC support
-//Awaiting information from Aashica & access to Eng doc.
+[#9-10-0-cl-iam]
+[discrete]
+=== IAM v2 - OIDC support
+OIDC for SSO which was previously supported only with IAM v1 is now supported with IAM v2 with ThoughtSpot.  We support multiple IDPs with OIDC such as Google , Microsoft, and Okta.
+
 // Mary -- scal-119837
 
 [#9-10-0-cl-bridge]
