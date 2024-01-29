@@ -6,6 +6,7 @@
 :description: Deploy the Snowflake Query Profile SpotApp, an out-of-the-box solution template built specifically for Snowflake.
 :spotapp: Snowflake Query Profile SpotApp
 :application: Snowflake
+:jira: SCAL-179716
 
 include::partial$spotapps-intro.adoc[]
 
@@ -168,7 +169,7 @@ CREATE or replace TASK query_stats_task
             q_h.USER_NAME,
             q_p.STEP_ID,
             q_p.OPERATOR_ID,
-            q_p.PARENT_OPERATOR_ID,
+            q_p.PARENT_OPERATORS,
             q_p.OPERATOR_TYPE,
             q_p.OPERATOR_STATISTICS,
             q_p.EXECUTION_TIME_BREAKDOWN,
@@ -212,7 +213,7 @@ CREATE or replace TASK query_stats_task
             query_stats.USER_NAME,
             STEP_ID,
             OPERATOR_ID,
-            PARENT_OPERATOR_ID,
+            cast(PARENT_OPERATORS[0] as number(38,0)) as PARENT_OPERATOR_ID,
             OPERATOR_TYPE,
             OPERATOR_STATISTICS,
             EXECUTION_TIME_BREAKDOWN,
