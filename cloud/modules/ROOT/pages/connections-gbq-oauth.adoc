@@ -6,7 +6,7 @@
 :page-layout: default-cloud
 :description: Learn how to configure OAuth for Google BigQuery.
 :connection: BigQuery
-:jira: SCAL-160062
+:jira: SCAL-160062, SCAL-180837
 
 Learn how to configure OAuth in your Google Cloud project. In order to use the OAuth authentication type for a Google {connection} connection in ThoughtSpot, you must complete these steps. These steps are a representative example that serve as a guide to set up OAuth credentials in your Google Cloud project. For more information, refer to the official Google documentation links provided at the end of this article.
 
@@ -89,6 +89,8 @@ For example, +
 `\https://thoughtspot.cloud/callosum/v1/connection/generateTokens`.
 +
 image:authorized-redirect-uri.png[Authorized redirect URI]
++
+NOTE: If your IdP supports rotation of refresh tokens with every usage, please ensure that this option is NOT chosen. ThoughtSpot does not support one-time use refresh tokens.
 
 . Click *Create*. Google displays your *Client ID* and your *Client Secret* in a pop-up dialog box.
 +

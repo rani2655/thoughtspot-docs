@@ -5,7 +5,7 @@
 :page-layout: default-cloud
 :connection: Denodo
 :description: Learn how to configure OAuth for a Denodo connection in ThoughtSpot.
-:jira: SCAL-160062
+:jira: SCAL-160062, SCAL-180837
 
 ThoughtSpot supports OAuth for a {connection} connection.
 
@@ -39,6 +39,8 @@ It should follow this format:
 `\https://<your-thoughtspot-instance-host>/callosum/v1/connection/generateTokens`
 +
 image::dremio-oauth3.png[Add the ThoughtSpot redirect URI]
++
+NOTE: If your IdP supports rotation of refresh tokens with every usage, please ensure that this option is NOT chosen. ThoughtSpot does not support one-time use refresh tokens.
 
 . Assign the application to everyone in the organization or to specific groups. This step may vary for other IdPs.
 +
