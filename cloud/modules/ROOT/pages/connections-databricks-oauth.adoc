@@ -6,7 +6,7 @@
 :page-layout: default-cloud
 :connection: Databricks
 :description: ThoughtSpot supports OAuth for a Databricks connection.
-:jira: SCAL-160062
+:jira: SCAL-160062, SCAL-180837
 
 ThoughtSpot supports OAuth for a {connection} connection. This page describes the setup and configuration required.
 
@@ -29,6 +29,8 @@ image::databricks-oauth-config-1.png[Click Add and select App registration]
 This is where the call is redirected upon successful login to AAD when creating a connection in ThoughtSpot.
 +
 image::databricks-oauth-config-2.png[Register an application]
++
+NOTE: If your IdP supports rotation of refresh tokens with every usage, please ensure that this option is NOT chosen. ThoughtSpot does not support one-time use refresh tokens.
 
 . After you register your application, make a note of the *Application (client) ID* in the Essentials section of the app’s overview page. Also, make a note of the OAuth 2.0 authorization and token endpoints. These are required later when configuring the {connection} connection in ThoughtSpot.
 +
