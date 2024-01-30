@@ -409,8 +409,8 @@ ThoughtSpot now supports dbt version 1.7.
 
 [#9-10-0-cl-saml]
 [discrete]
-=== OpenID Connect (OIDC) support with IAMv2
-Thoughtspot now supports OpenID Connect (OIDC) for SSO with IAMv2. Multiple identity providers with OIDC such as Google , Microsoft, and Okta are now supported.
+=== SAML group mapping with Orgs
+You can now map your SAML groups and Orgs from your IDP to ThoughtSpot groups.
 // Mary -- scal-138809
 
 //[#9-10-0-cl-enterprise]
@@ -445,9 +445,8 @@ Thoughtspot now supports OpenID Connect (OIDC) for SSO with IAMv2. Multiple iden
 
 [#9-10-0-cl-iam]
 [discrete]
-=== IAM v2 - OIDC support
-OIDC for SSO which was previously supported only with IAM v1 is now supported with IAM v2 with ThoughtSpot.  We support multiple IDPs with OIDC such as Google , Microsoft, and Okta.
-
+=== OpenID Connect (OIDC) support with IAMv2
+Thoughtspot now supports OpenID Connect (OIDC) for SSO with IAMv2. Multiple identity providers with OIDC such as Google , Microsoft, and Okta are now supported.
 // Mary -- scal-119837
 
 [#9-10-0-cl-bridge]
