@@ -409,9 +409,8 @@ ThoughtSpot now supports dbt version 1.7.
 
 [#9-10-0-cl-saml]
 [discrete]
-=== SAML assertion to include both Orgs and Groups information
-ThoughtSpot now allows SAML assertion that include Orgs and Groups attributes.
-//Aashica to follow up.
+=== OpenID Connect (OIDC) support with IAMv2
+Thoughtspot now supports OpenID Connect (OIDC) for SSO with IAMv2. Multiple identity providers with OIDC such as Google , Microsoft, and Okta are now supported.
 // Mary -- scal-138809
 
 //[#9-10-0-cl-enterprise]
