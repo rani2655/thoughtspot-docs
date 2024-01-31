@@ -32,7 +32,7 @@ image:ai-answer-edit.png[Click the Answer title to edit]
 [#sage-coach]
 == Sage Coach
 
-You can leave feedback on the accuracy of the AI-generated Answer by clicking the ‘like’ and ‘dislike’ buttons in the lower-right corner of the Answer. Giving feedback allows ThoughtSpot’s LLM to learn and increase the accuracy of its AI-generated Answers.
+You can leave feedback on the accuracy of the AI-generated Answer by clicking the ‘like’ and ‘dislike’ buttons in the lower-right corner of the Answer. Giving feedback allows ThoughtSpot’s LLM to learn and increase the accuracy of its AI-generated Answers, and provides analysts the ability to review feedback using Sage Coach.
 
 When giving feedback to AI-generated Answers in Sage, you tell ThoughtSpot precisely what search tokens to use to signify certain key terms. For example, when you search for "best performing products this year", ThoughtSpot responds with the top five products sorted by sum of sales. You can correct top five to top ten by clicking the thumbs-down icon and editing the Answer. ThoughtSpot then stores that feedback, and admin users and Worksheet owners can decide to apply the feedback globally, so that every time someone searches for "best" products, they receive the top ten results.
 
