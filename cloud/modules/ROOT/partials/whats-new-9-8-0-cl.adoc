@@ -17,7 +17,7 @@ endif::free-trial-feature[]
 
 [#9-8-0-cl-sage-coach]
 [discrete]
-=== Sage Coach
+=== Give feedback to AI-generated Answers
 
 // Naomi -- SCAL-154204. Santiago is waiting to confirm whether Admin users or Worksheet owners will have access to make feedback apply globally. split into two? new user experience and data workspace part.
 
