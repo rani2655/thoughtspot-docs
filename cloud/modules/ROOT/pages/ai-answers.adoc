@@ -30,7 +30,7 @@ If you want to make any changes to the AI-generated Answer, click the blue title
 image:ai-answer-edit.png[Click the Answer title to edit]
 
 [#sage-coach]
-== Sage Coach
+== Give feedback to AI-generated Answers
 
 You can leave feedback on the accuracy of the AI-generated Answer by clicking the ‘like’ and ‘dislike’ buttons in the lower-right corner of the Answer. Giving feedback allows ThoughtSpot’s LLM to learn and increase the accuracy of its AI-generated Answers, and provides analysts the ability to review feedback using Sage Coach.
 

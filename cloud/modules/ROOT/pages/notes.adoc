@@ -66,8 +66,8 @@ ThoughtSpot introduces custom sorting of attributes to sort all chart types in a
 
 
 // SCAL-154204
-Sage Coach:: When giving feedback to AI-generated Answers in Sage, you now tell ThoughtSpot what search tokens to use to signify certain key terms. For example, when you search for "best performing products this year", ThoughtSpot responds with the top five products sorted by sum of sales. You can correct top five to top ten by clicking the thumbs-down icon and editing the Answer. ThoughtSpot then stores that feedback, and admin users and Worksheet owners can decide to apply the feedback globally, so that every time someone searches for "best" products, they receive the top ten results.
-For more information, see xref:ai-answers.adoc#sage-coach[Sage Coach].
+Give feedback to AI-generated Answers:: When giving feedback to AI-generated Answers in Sage, you now tell ThoughtSpot what search tokens to use to signify certain key terms. For example, when you search for "best performing products this year", ThoughtSpot responds with the top five products sorted by sum of sales. You can correct top five to top ten by clicking the thumbs-down icon and editing the Answer. ThoughtSpot then stores that feedback, and admin users and Worksheet owners can decide to apply the feedback globally, so that every time someone searches for "best" products, they receive the top ten results.
+For more information, see xref:ai-answers.adoc#sage-coach[Give feedback to AI-generated Answers].
 
 
 // SCAL-127727
