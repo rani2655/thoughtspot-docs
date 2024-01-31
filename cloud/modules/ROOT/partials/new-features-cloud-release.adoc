@@ -45,7 +45,8 @@ Easily find verified Liveboards with trusted content and sort Liveboards to view
 
 // Naomi -- scal-169683
 Null and missing values in charts::
-You can now choose how null and missing values appear in line, column, and bar charts in ThoughtSpot. Null and missing values appear as bars of 1 pixel width on bar and column charts. You can choose whether to display null date values as zero values, line breaks, or an average of proximate values on a line chart. Rather than showing a sharp decline to zero every time there is null or missing data on your line chart, you can see the missing values represented as line breaks or averages of the closest values instead.
+You can now choose how null and missing values appear in line, column, and bar charts in ThoughtSpot. Null and missing values appear as bars of 1 pixel width on bar and column charts. You can choose whether to display null date values as zero values, line breaks, or an average of proximate values on a line chart. Rather than showing a sharp decline to zero every time there is null or missing data on your line chart, you can see the missing values represented as line breaks or averages of the closest values instead. For more information, see
+xref:chart-null-missing.adoc[Null and missing values in charts].
 
 ////
 // Naomi -- scal-175485, scal-177391. actually EA.
