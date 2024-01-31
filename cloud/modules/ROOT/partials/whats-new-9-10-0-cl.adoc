@@ -177,6 +177,16 @@ image::advanced-conditional-formatting.gif[Advanced conditional formatting compa
 
 You can now choose how null and missing values appear in line, column, and bar charts in ThoughtSpot. Null and missing values appear as bars of 1 pixel width on bar and column charts. You can choose whether to display null date values as zero values, line breaks, or an average of proximate values on a line chart. Rather than showing a sharp decline to zero every time there is null or missing data on your line chart, you can see the missing values represented as line breaks or averages of the closest values instead.
 
+For more information, see
+ifndef::pendo-links[]
+xref:chart-null-missing.adoc[Null and missing values in charts].
+endif::[]
+ifdef::pendo-links[]
+xref:chart-null-missing.adoc[Null and missing values in charts,window=_blank].
+endif::[]
+
+image::null-missing-line.gif[Possible display format for missing dates in line charts]
+
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-10-0-cl-change]
