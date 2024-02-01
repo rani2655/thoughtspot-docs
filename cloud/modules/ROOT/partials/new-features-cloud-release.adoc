@@ -57,7 +57,7 @@ Ask Sage:: You can now conversationally search ThoughtSpot using natural languag
 Iterative change analysis [.badge.badge-beta-relnotes]#Beta#::
 You can now drill down on specific columns in change analysis, in order to identify change drivers within your data. For example, if you run an analysis on sales monthly and find out that the 'jacket' item type changed the most, you can easily drill down on jacket sales and identify which region contributed the most to the change in sales. For more information, see xref:spotiq-change.adoc#iterative[Iterative change analysis].
 
-// Naomi -- SCAL-127727
+// Naomi -- SCAL-127727, SCAL-164086
 Contextual alert creation on KPI charts:: ThoughtSpot now preserves the filters you use on a KPI when you create a Monitor alert. Users with view access to the underlying Liveboard can now receive alert emails for filtered KPIs without saving the filters on the Liveboard. For more information, see xref:monitor.adoc[Monitor alerts].
 
 

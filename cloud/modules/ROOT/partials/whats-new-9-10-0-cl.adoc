@@ -110,9 +110,15 @@ image::kpi-alert-anomaly.png[KPI alert with surfaced anomaly]
 [discrete]
 === Contextual alert creation on KPI charts
 
-// Naomi -- SCAL-127727. add a gif. ask if the filter appears in your email alerts, so users know the data they're getting is filtered. (they don't)
+// Naomi -- SCAL-127727, SCAL-164086. add a gif. ask if the filter appears in your email alerts, so users know the data they're getting is filtered. (they don't)
 
-ThoughtSpot now preserves the filters you use on a KPI when you create a Monitor alert. Users with view-only access to the underlying Liveboard can now receive alert emails for filtered KPIs without saving the filters on the Liveboard.
+ThoughtSpot now preserves the filters you use on a KPI when you create a Monitor alert. Users with view-only access to the underlying Liveboard can now receive alert emails for filtered KPIs without saving the filters on the Liveboard. For more information, see
+ifndef::pendo-links[]
+xref:monitor.adoc#early-access[Monitor].
+endif::[]
+ifdef::pendo-links[]
+xref:monitor.adoc#early-access[Monitor,window=_blank].
+endif::[]
 
 
 
