@@ -59,7 +59,7 @@ Key-value pairs are case-sensitive.
 
 +
 [#bridge]
-NOTE: The Bridge connector for {connection} is in beta and off by default. To enable this feature, contact {support-url}. ThoughtSpot Support will provide you with the bridge token, token secret, and "host:port" of the bridge public load balancer for your cluster. To use the Bridge connector for {connection}, you must run a Bridge Client on a network that connects to your {connection} database.
+NOTE: The Bridge connector for {connection} is off by default. To enable this feature, contact {support-url}. ThoughtSpot Support will provide you with the bridge token, token secret, and "host:port" of the bridge public load balancer for your cluster. To use the Bridge connector for {connection}, you must run a Bridge Client on a network that connects to your {connection} database.
 . Select *Continue*.
 . Select tables (on the left) and the columns from each table (on the right), and then select *Create connection*.
 +
