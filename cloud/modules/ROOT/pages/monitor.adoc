@@ -12,6 +12,7 @@ You can now add ad-hoc filters to the Liveboard underlying your KPI and set a th
 
 NOTE: Monitor emails do not contain mention of the filters used on the underlying Liveboard.
 
+[#early-access]
 When you receive an email alert about a threshold or scheduled alert, ThoughtSpot now surfaces any anomalies found in your KPI. You can see the expected range of values, and click a link to view your KPI in the original Liveboard.
 
 
