@@ -200,6 +200,7 @@ ThoughtSpot Sync allows you to connect and share complete Liveboards using Micro
 // Mary - SCAL-158473.
 
 ifndef::pendo-links[]
+
 [#9-8-0-cl-custom]
 [discrete]
 === Custom Sorting [.badge.badge-early-access]#Early Access#
