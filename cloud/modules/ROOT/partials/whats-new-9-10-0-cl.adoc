@@ -370,6 +370,7 @@ In Explore mode, you can now more easily make a copy of an Answer by clicking th
 Custom sorting is now available to all users and is on by default. ThoughtSpot introduces custom sorting of attributes to sort all chart types in a way that helps users to consume charts more efficiently. You can now sort on any attribute in a chart, using the custom sort column. Enter the attributes in order to set up a custom sort order.
 
 image::custom-sort-order.png[Custom Sorting]
+
 // Mary -- scal-181962.
 
 
@@ -421,6 +422,7 @@ ThoughtSpot now supports dbt version 1.7.
 [discrete]
 === SAML group mapping with Orgs
 You can now map your SAML groups and Orgs from your IDP to ThoughtSpot.
+For more information see, xref:saml-group-mapping.adoc[SAML group and Org mapping] .
 // Mary -- scal-138809
 
 //[#9-10-0-cl-enterprise]
