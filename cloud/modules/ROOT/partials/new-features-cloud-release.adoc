@@ -21,8 +21,8 @@ Renaming columns::
 You can now rename columns in an Answer and see the new name reflected on the table header, tooltips, legend, and chart configuration menu. Changes made to an Answer are not reflected in the underlying Worksheet. For more information, see xref:chart-column-axis-rename.adoc#column-rename[Rename a table column].
 
 // Naomi -- scal-174127
-ThoughtSpot Sync for Google BigQuery::
-Using ThoughtSpot Sync, you can now sync data directly from an Answer or a custom SQL view, to your Google BigQuery cloud data warehouse.
+ThoughtSpot Sync for Google BigQuery [.badge.badge-beta-relnotes]#Beta#::
+Using ThoughtSpot Sync, you can now sync data directly from an Answer or a custom SQL view, to your Google BigQuery cloud data warehouse. To enable this feature, contact {support-url}.
 For more information, see xref:sync-gbq.adoc[Sync to Google BigQuery].
 
 // Naomi -- scal-176730
