@@ -239,15 +239,15 @@ xsi:type="xs:string">testorg
 </saml2:Attribute>
 ----
 
-NOTE: If you map Orgs with SAML, you can't also map groups.
+NOTE: You can map Orgs and groups with SAML.
 
-== SAML group mapping
+== SAML group and Org mapping
 
-You can map your SAML groups from your IDP to your ThoughtSpot groups, unless you are using xref:orgs-overview.adoc[Orgs].
-SAML group mapping means that you do not have to manually recreate your groups in ThoughtSpot, if they are already present in your IDP.
+You can map your SAML groups and Orgs from your IDP to your ThoughtSpot. For more information about Orgs, see xref:orgs-overview.adoc[Orgs].
+SAML group and Org mapping means that you do not have to manually recreate your groups and Orgs in ThoughtSpot, if they are already present in your IDP.
 Refer to xref:saml-group-mapping.adoc[Configure SAML group mapping].
 
-NOTE: If you are using xref:orgs-overview.adoc[] or xref:okta-iam.adoc[], we do not currently support SAML group mapping.
+NOTE: We support mapping of xref:orgs-overview.adoc[Orgs] with xref:okta-iam.adoc[IAMv2].
 
 == Use SSO login by default
 After you configure SAML authentication, a new option appears on the login page that allows users to sign in using SSO, while still allowing local users to sign in.
