@@ -25,7 +25,13 @@ endif::free-trial-feature[]
 // Naomi -- SCAL-180691
 // PM: Vijay
 
-ThoughtSpot Sync for Google BigQuery is now on by default and available to all users. Using ThoughtSpot Sync, you can now sync data directly from an Answer or a custom SQL view, to your Google BigQuery cloud data warehouse.
+ThoughtSpot Sync for Google BigQuery is now on by default and available to all users. Using ThoughtSpot Sync, you can now sync data directly from an Answer or a custom SQL view, to your Google BigQuery cloud data warehouse. For more information, see
+ifndef::pendo-links[]
+xref:sync-gbq.adoc[Sync data from ThoughtSpot to Google BigQuery].
+endif::[]
+ifdef::pendo-links[]
+xref:sync-gbq.adoc[Sync data from ThoughtSpot to Google BigQuery,window=_blank].
+endif::[]
 
 
 '''
