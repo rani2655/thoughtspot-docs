@@ -23,8 +23,10 @@ image::sheets-connected-slides.png[A google slide displaying ThoughtSpot add-in 
 
 === Details
 
-- Requires a ThoughtSpot license and an email linked to a ThoughtSpot user ID
-- You can sign up for a ThoughtSpot free trial to use this add-on
+- Requires a ThoughtSpot license and an email linked to a ThoughtSpot user ID.
+- If you don't currently have a User ID, you can sign up for ThoughtSpot free trial to use this add-on.
+- Requires the `Can download data` privilege in ThoughtSpot to use this add-on, and to export ThoughtSpot data into your Google Slide.
+- Only compatible with ThoughtSpot Cloud.
 
 === First-time setup
 
