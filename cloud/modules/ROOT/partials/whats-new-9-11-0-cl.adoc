@@ -10,7 +10,7 @@ ifndef::free-trial-feature[]
 NOTE: Features marked as [.badge.badge-update-note]#Beta# are off by default. To enable them, contact {support-url}.
 endif::free-trial-feature[]
 
-[#primary-9-10-0-cl]
+[#primary-9-11-0-cl]
 
 // Business User
 
@@ -18,9 +18,18 @@ endif::free-trial-feature[]
 // Analyst
 
 
+[#9-11-0-cl-sync]
+[discrete]
+=== ThoughtSpot Sync for Google BigQuery
+
+// Naomi -- SCAL-180691
+// PM: Vijay
+
+ThoughtSpot Sync for Google BigQuery is now on by default and available to all users. Using ThoughtSpot Sync, you can now sync data directly from an Answer or a custom SQL view, to your Google BigQuery cloud data warehouse.
+
 
 '''
-[#secondary-9-10-0-cl]
+[#secondary-9-11-0-cl]
 [discrete]
 === _Other features and enhancements_
 
