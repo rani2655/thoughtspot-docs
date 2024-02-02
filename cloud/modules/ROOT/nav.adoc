@@ -421,7 +421,7 @@
 *** xref:okta-iam.adoc[Identity and Access Management V2]
 *** xref:authentication-integration.adoc[Managing authentication with SAML]
 *** xref:saml-okta.adoc[Managing authentication with SAML using IAMv2]
-*** xref:saml-group-mapping.adoc[Configure SAML group mapping]
+*** xref:saml-group-mapping.adoc[Configure SAML group and Org mapping]
 *** xref:search-spotiq-settings.adoc[Search and SpotIQ settings]
 *** xref:onboarding-email-settings.adoc[Email and onboarding settings]
 *** xref:scheduled-maintenance.adoc[Scheduled maintenance]
