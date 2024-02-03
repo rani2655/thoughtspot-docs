@@ -14,9 +14,173 @@ endif::free-trial-feature[]
 
 // Business User
 
+[#9-11-0-cl-liveboard]
+[discrete]
+=== Impact Communication Liveboard
+
+// Naomi -- SCAL-179763
+// PM: Mohil
+
+[#9-11-0-cl-percentage]
+[discrete]
+=== Keywords "of" and "percentage of"
+
+// Naomi -- SCAL-151987
+// PM: Damian
+
+[#9-11-0-cl-feedback]
+[discrete]
+=== Feedback Review (Sage Coach)
+
+// Naomi -- SCAL-154204
+// PM: Santiago
+
+[#9-11-0-cl-conv-assist]
+[discrete]
+=== ConvAssist
+
+// Naomi -- SCAL-181233, SCAL-169033, SCAL-176361
+// PM: Alok
+
+* ConvAssist UI changes for 9.11
+* ConvAssist Revamped UI 9.11
+* ConvAssist New UI Design
+
+
+
+[#9-11-0-cl-library]
+[discrete]
+=== [Homepage] New Table component in the Library module
+
+// Mark -- SCAL-179372
+// PM: Adi
+
+[#9-11-0-cl-fav]
+[discrete]
+=== [Homepage] FAV + Trending Modules
+
+// Mark -- SCAL-178835
+// PM: Adi
+
+[#9-11-0-cl-revamp]
+[discrete]
+=== User customisation for homepage revamp
+
+// Mark -- SCAL-160332
+// PM: Adi
+
+[#9-11-0-cl-note]
+[discrete]
+=== Note tiles on Mobile
+
+// Mary -- SCAL-182153
+// PM: Vaibhav
+
+[#9-11-0-cl-mt]
+[discrete]
+=== MT Cortex hardening and Anomaly Hardening
+
+// Mark -- SCAL-182058
+// PM:
+
+[#9-11-0-cl-data-panel]
+[discrete]
+=== Data panel V2 - UX improvements - Phase 1
+
+// Mark -- SCAL-179810
+// PM: Alok, Akshay
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-11-0-cl-spotiq]
+[discrete]
+=== SpotIQ AI Highlights [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-11-0-cl-spotiq]
+[discrete]
+=== SpotIQ AI Highlights [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
+// Mark -- SCAL-162712
+// PM: Manan
+
+endif::free-trial-feature[]
+
+
+[#9-11-0-cl-query]
+[discrete]
+=== Display the current state of a query execution for Liveboard Viz
+
+// Mark -- SCAL-157244
+// PM:
+
+[#9-11-0-cl-org]
+[discrete]
+=== Configuration related to onboarding should be at Org level in admin panel
+
+// Mary -- SCAL-145362
+// PM: Adi
 
 // Analyst
 
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-11-0-cl-forecasting]
+[discrete]
+=== Forecasting [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#9-11-0-cl-forecasting]
+[discrete]
+=== Forecasting [.badge.badge-beta-whats-new]#Beta#
+endif::[]
+
+// Naomi -- SCAL-153878
+// PM: Vikas
+
+endif::free-trial-feature[]
+
+[#9-11-0-cl-gradient]
+[discrete]
+=== Gradient based color formatting
+
+// Mary -- SCAL-177333
+// PM: Manan
+
+
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-11-0-cl-cohorts]
+[discrete]
+=== Cohorts [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#9-11-0-cl-cohorts]
+[discrete]
+=== Cohorts [.badge.badge-beta-whats-new]#Beta#
+endif::[]
+
+// Mary -- SCAL-158899
+// PM: Damian
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-11-0-cl-simple-cohorts]
+[discrete]
+=== Cohorts [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-11-0-cl-simple-cohorts]
+[discrete]
+=== Cohorts [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
+// Mary -- SCAL-150356
+// PM: Damian
+
+endif::free-trial-feature[]
 
 [#9-11-0-cl-sync]
 [discrete]
@@ -33,6 +197,70 @@ ifdef::pendo-links[]
 xref:sync-gbq.adoc[Sync data from ThoughtSpot to Google BigQuery,window=_blank].
 endif::[]
 
+[#9-11-0-cl-collibra]
+[discrete]
+=== Collibra catalog integration
+
+// Naomi -- SCAL-174136
+// PM: Sarib
+
+[#9-11-0-cl-dbt-share]
+[discrete]
+=== dbt integration: sharing dbt connections
+
+// Naomi -- SCAL-126451
+// PM: Sarib
+
+[#9-11-0-cl-dbt-error]
+[discrete]
+=== dbt error message handling
+
+// Naomi -- SCAL-180960
+// PM: Sarib
+
+[#9-11-0-cl-ts-groups]
+[discrete]
+=== Ts_Groups system variable
+
+// Naomi -- SCAL-164290
+// PM: Damian
+
+[#9-11-0-cl-bulk]
+[discrete]
+=== Bulk editing Worksheet column properties
+
+// Mark -- SCAL-158660
+// PM: Samridh
+
+[#9-11-0-cl-tml]
+[discrete]
+=== TML performance improvements for TS10
+
+// Naomi -- SCAL-111124
+// PM: Yuvraj (asking for real PM)
+
+[#9-11-0-cl-performance]
+[discrete]
+=== 3x Performance Backend
+
+// Mark -- SCAL-182927
+// PM:
+
+[#9-11-0-cl-worksheet]
+[discrete]
+=== Worksheet V2 Drag and Connect to create joins
+
+// Mark -- SCAL-180588
+// PM: Samridh
+
+[#9-11-0-cl-tscli]
+[discrete]
+=== [Papercut] [Customer commit] Implement tscli flag to allow the user to remove additional info while exporting LB as a CSV
+
+// Mary -- SCAL-179229
+// PM: Vanshree
+
+
 
 '''
 [#secondary-9-11-0-cl]
@@ -41,9 +269,156 @@ endif::[]
 
 // Data Engineer
 
+[#9-11-0-cl-pkce]
+[discrete]
+=== OAuth for Snowflake using PKCE
 
+// Mary -- SCAL-177859
+// PM: Sara Vredevoogd
+
+[#9-11-0-cl-join-enhance]
+[discrete]
+=== dbt integration: join enhancement (local/ws joins)
+
+// Naomi -- SCAL-126453
+// PM: Sarib
 
 // IT/ Ops Engineer
+
+[#9-11-0-cl-IAM]
+[discrete]
+=== IAMV2 - Support AD Sync on IAM V2 for sync of Users and groups
+
+// Mary -- SCAL-137342
+// PM:
+
+[#9-11-0-cl-dremio]
+[discrete]
+=== Support for OAuth for Dremio on-prem
+
+// Mary -- SCAL-181886
+// PM: Sara Vredevoogd
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-11-0-cl-mode]
+[discrete]
+=== Mode connector [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-11-0-cl-mode]
+[discrete]
+=== Mode connector [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
+// Naomi -- SCAL-176923
+// PM: Sara Vredevoogd
+
+endif::free-trial-feature[]
+
+[#9-11-0-cl-custom-link]
+[discrete]
+=== [Papercut] [Customer commit] Custom link for view liveboard button in schedule
+
+// Mary -- SCAL-168830
+// PM: Vanshree
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-11-0-cl-data-modeling]
+[discrete]
+=== Granular privileges for data modeling [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-11-0-cl-data-modeling]
+[discrete]
+=== Granular privileges for data modeling [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
+// Mary -- SCAL-168830
+// PM: Vijay
+
+endif::free-trial-feature[]
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-11-0-cl-granular]
+[discrete]
+=== Granular privileges: addition of granular privileges for can-manage-data[.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-11-0-cl-granular]
+[discrete]
+=== Granular privileges: addition of granular privileges for can-manage-data[.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
+// Mary -- SCAL-139496
+// PM: Vijay
+
+endif::free-trial-feature[]
+
+[#9-11-0-cl-question]
+[discrete]
+=== Suggested question org awareness
+
+// Mary -- SCAL-187695
+// PM:
+
+[#9-11-0-cl-unilever]
+[discrete]
+=== Unilever requires responses on fixes and timelines for the vulnerabilities found in scans
+
+// Mark -- SCAL-177977
+// PM:
+
+[#9-11-0-cl-worksheet-v2]
+[discrete]
+=== Worksheet V2 Completion: Paper cuts
+
+// Mark -- SCAL-176255
+// PM: Samridh
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-11-0-cl-global]
+[discrete]
+=== Global navigation [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-11-0-cl-global]
+[discrete]
+=== Global navigation [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
+// Mark -- SCAL-168741
+// PM: Anjali
+
+endif::free-trial-feature[]
+
+[#9-11-0-cl-orgs]
+[discrete]
+=== Orgs 1.5: Per Org URL (Enterprise) for sharing links
+
+// Mary -- SCAL-164989
+// PM: Kiran, Vijay
+
+[#9-11-0-cl-trusted-auth]
+[discrete]
+=== Trusted Auth security updates
+
+// Mark -- SCAL-164988
+// PM:
+
+[#9-11-0-cl-iam]
+[discrete]
+=== IAMv2 NS - Design and POCs
+
+// Mary -- SCAL-130202
+// PM: 
+
+
+
+
 
 
 ifndef::free-trial-feature[]
