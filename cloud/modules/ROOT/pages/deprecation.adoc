@@ -36,7 +36,7 @@ Beginning in the 9.12.0.cl release, you will no longer be able to use the SpotAp
 The 9.10.0.cl release of ThoughtSpot Cloud, targeted for February 2024 (GA), will deprecate the following feature. ThoughtSpot will drop support for this feature in a later release.
 
 SpotApps::
-Beginning in the 9.10.0.cl release, you will still be able to use SpotApps, but ThoughtSpot will remove them in a subsequent release.
+Beginning in the 9.10.0.cl release, you will still be able to use SpotApps, but ThoughtSpot will remove them in a later release.
 
 == Removed in 9.8.0.cl
 

@@ -35,6 +35,10 @@ ThoughtSpot Sync from unsaved Answers:: You can now create syncs from Answers wi
 Functional enhancements for verified Liveboards::
 Easily find verified Liveboards with trusted content and sort Liveboards to view verified content. Request verification of Liveboards and cancel requests when needed.
 
+// Mark -- SCAL-
+Deprecation of SpotApps::
+In this release, you will still be able to use SpotApps, but ThoughtSpot will remove the SpotApps UI in a later release. Though we will be removing the UI, you will still be able to upload pre-built SpotApp templates. For details, see xref:deprecation.adoc[Deprecated and removed features].
+
 
 
 [#9-10-0-cl-business-user]
