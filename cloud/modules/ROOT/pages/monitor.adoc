@@ -4,7 +4,7 @@
 :linkattrs:
 :page-layout: default-cloud
 :experimental:
-:jira: SCAL-127727, SCAL-89341, SCAL-173345
+:jira: SCAL-127727, SCAL-89341, SCAL-173345, SCAL-164086
 
 ThoughtSpot now supports alerts for changes in xref:chart-kpi.adoc[Key Performance Indicators (KPIs)] in your data. Use the Monitor function to receive notifications when your KPI satisfies a certain threshold condition, or to schedule notifications for your KPIs on an hourly, daily, weekly, or monthly basis.
 
