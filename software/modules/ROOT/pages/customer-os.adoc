@@ -5,7 +5,7 @@
 :experimental:
 :description: Run ThoughtSpot on your own internally managed Amazon Linux 2 (AL2), RedHat Enterprise Linux (RHEL), or Oracle Enterprise Linux (OEL) image.
 :page-aliases: /appliance/amazon-linux-2/al2-overview.adoc
-:jira: SCAL-186047
+:jira: SCAL-186047, SCAL-192433
 
 Run ThoughtSpot on an Amazon Linux 2 (AL2), RedHat Enterprise Linux (RHEL), or Oracle Enterprise Linux (OEL) image that your organization manages internally.
 
@@ -30,10 +30,10 @@ ThoughtSpot certifies *RHEL 7.8 and 7.9* on the following platforms:
 ThoughtSpot certifies *RHEL 8.1, 8.2, 8.3, 8.4, 8.5, 8.6, 8.7, and 8.8* on the following platforms:
 
 * Bare metal deployments on the ThoughtSpot-certified hardware appliance: xref:smc.adoc[SMC]
-* Cloud deployments: xref:aws-configuration-options.adoc[Amazon Web Services (AWS) EC2], xref:azure-configuration-options.adoc[Microsoft Azure]
+* Cloud deployments: xref:aws-configuration-options.adoc[Amazon Web Services (AWS) EC2], xref:azure-configuration-options.adoc[Microsoft Azure], and xref:gcp-configuration-options.adoc[Google Cloud Platform (GCP)]
 * xref:vmware.adoc[VMware]
 
-ThoughtSpot does *_not_* certify RHEL 8 versions on GCP or Dell.
+ThoughtSpot does *_not_* certify RHEL 8 versions on Dell.
 
 NOTE: If your organization requires that privilege escalation take place through an external tool that integrates with ansible, refer to xref:rhel-ansible.adoc[].
 
