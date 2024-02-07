@@ -159,18 +159,34 @@ Configure the tooltip by selecting the *Edit chart configuration* icon image:ico
 // Mary -- scal-143396, scal-163885.
 //Pending (Manan Shah) - screen cap to follow
 
-////
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
 [#9-10-0-cl-conditional]
 [discrete]
-=== Advanced conditional formatting
+=== Advanced conditional formatting [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-10-0-cl-conditional]
+[discrete]
+=== Advanced conditional formatting [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
 
-// Naomi -- scal-177005. moved to 9.11
+// Naomi -- scal-177005.
 // PM: Manan
 
-Rather than simply using conditional formatting comparing a column's measures to a single value (for example, `sales > 10000`), you can now use conditional formatting to compare a column's measures to another column or to a parameter. For example, if you search for `sales this year` versus `sales last year`, you can highlight where sales this year were less than last year. You can set multiple conditional formatting rules to a single table.
+Rather than simply using conditional formatting comparing a column's measures to a single value (for example, `sales > 10000`), you can now use conditional formatting to compare a column's measures to another column or to a parameter. For example, if you search for `sales this year` versus `sales last year`, you can highlight where sales this year were less than last year. You can set multiple conditional formatting rules to a single table or chart.
+
+For more information, see
+ifndef::pendo-links[]
+xref:search-conditional-formatting.adoc#advanced-conditional-formatting[Advanced conditional formatting].
+endif::[]
+ifdef::pendo-links[]
+xref:search-conditional-formatting.adoc#advanced-conditional-formatting[Advanced conditional formatting,window=_blank].
+endif::[]
 
 image::advanced-conditional-formatting.gif[Advanced conditional formatting comparing sales of state to sales of region]
-////
+endif::free-trial-feature[]
+
 
 
 
