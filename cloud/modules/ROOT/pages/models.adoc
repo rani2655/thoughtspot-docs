@@ -48,13 +48,18 @@ To create a data model:
 .. To import the TML for a model, select *TML*, and upload your tml files. For more information, refer to xref:tml-worksheets[TML for Worksheets].
 .. To use an existing SpotApp as a model, select *SpotApps*, and select a SpotApp.
 
-. <<build-data-model,Build your data model>>.
+. <<build-model,Build your data model>>.
 
-[#build-data-model]
-== Build your data model
+[#build-model]
+== Build your {model}
 
-After creating a data model, you need to add the sources that contain the data.
-A source is another name for a table.
+After creating your {model}, you need to add the sources that contain the data.
+A source is another name for a table. You do that using the {model} editor.
+
+With the {model} editor, creating a data model is as easy as dragging and dropping tables.
+
+image::model_empty.png[]
+
 The sources you choose are typically related to one another by foreign keys.
 
 To add sources to your {model}, follow these steps.
