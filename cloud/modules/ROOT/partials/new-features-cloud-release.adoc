@@ -33,7 +33,7 @@ ThoughtSpot Sync from unsaved Answers:: You can now create syncs from Answers wi
 
 // Naomi -- scal-177005
 Advanced conditional formatting [.badge.badge-early-access-relnotes]#Early Access#::
-Rather than simply using conditional formatting comparing a column's measures to a single value (for example, `sales > 10000`), you can now use conditional formatting to compare a column's measures to another column or to a parameter. For example, if you search for `sales this year` versus `sales last year`, you can highlight where sales this year were less than last year. You can set multiple conditional formatting rules to a single table.
+Rather than simply using conditional formatting comparing a column's measures to a single value (for example, `sales > 10000`), you can now use conditional formatting to compare a column's measures to another column or to a parameter. For example, if you search for `sales this year` versus `sales last year`, you can highlight where sales this year were less than last year. You can set multiple conditional formatting rules to a single table. For more information, see xref:search-conditional-formatting.adoc#advanced-conditional-formatting[Advanced conditional formatting].
 
 // Mary -- SCAL-158469.
 Functional enhancements for verified Liveboards::
