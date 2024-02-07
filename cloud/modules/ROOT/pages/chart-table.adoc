@@ -5,6 +5,7 @@
 :page-layout: default-cloud
 :page-aliases: /end-user/search/about-tables.adoc
 :description: Tables display your Answer in a format similar to an Excel spreadsheet.
+:jira: SCAL-177005
 
 In the table view, your search identifies attributes and/or columns, and presents them as a table.
 ThoughtSpot aggregates the results based on the level of aggregation that you specify in the search.
@@ -137,6 +138,8 @@ These elements include conditional formatting for table summaries and improved c
 The new Answer experience is on by default.
 You can toggle it on or off from the *Experience manager* in your profile.
 If that option is not available, contact your administrator.
+
+Note that if xref:search-conditional-formatting.adoc#advanced-conditional-formatting[advanced conditional formatting] is on in your environment, you can set conditional formatting rules for your table that compare a column's values to another column or to a Parameter, as well as to a value. To enable this feature, contact your administrator.
 
 == Sort columns
 
