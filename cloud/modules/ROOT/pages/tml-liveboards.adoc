@@ -24,9 +24,13 @@ a| <<answer,answer>>
 
 <<column,column>>
 
+<<date_filter,date_filter>>
+
 <<description,description>>
 
 <<display_headline_column,display_headline_column>>
+
+<<display_name,display_name>>
 
 <<excluded_visualizations,excluded_visualizations>>
 
@@ -36,7 +40,15 @@ a| <<answer,answer>>
 
 <<height,height>>
 
+<<html_parsed_string, html_parsed_string>>
+
 <<id,id>>
+
+<<is_mandatory,is_mandatory>>
+
+<<is_public,is_public>>
+
+<<is_single_value,is_single_value>>
 
 a| <<key,key>>
 
@@ -59,6 +71,10 @@ a| <<key,key>>
 a| <<value,value>>
 
 <<values,values>>
+
+<<view_filters, view_filters>>
+
+<<view_parameters, view_parameters>>
 
 <<visualization_id,visualization_id>>
 
@@ -92,6 +108,10 @@ Top-level container for all object definitions within an answer or visualization
 column::
 The id of the column(s) being filtered on. When a Liveboard contains xref:liveboard-filters-linked.adoc[linked filters], or filters that affect visualizations based on more than one Worksheet, the primary filter column appears first in the list of columns in the TML. The linked filter column appears after the primary filter column.
 
+[#date_filter]
+date_filter::
+Populated only if the filter column is of the date type.
+
 [#description]
 description::
 The text that describes an object: a `liveboard`, `tab`, and so on.
@@ -99,6 +119,10 @@ The text that describes an object: a `liveboard`, `tab`, and so on.
 [#display_headline_column]
 display_headline_column::
 If the visualization is a headline, this parameter specifies the column the headline comes from.
+
+[#display_name]
+display_name::
+The display name of a filter.
 
 [#excluded_visualizations]
 excluded_visualizations::
@@ -116,6 +140,10 @@ The GUID for the Liveboard. You can find this string of letters and numbers at t
 height::
 The height of the Liveboard visualization.
 
+[#html_parsed_string]
+html_parsed_string::
+HTML parsed string of the note tile.
+
 [#id]
 id::
 Specifies the id of an object, such as `visualizations`.
@@ -126,6 +154,18 @@ For example, if you sorted by `Quarter` in your search, from the `Commit Date` c
 For formulas within Answers, `id` refers to the display name of the formula. If you do not give your formula a name, it appears as 'Untitled Formula'.
 +
 In the <<parameter_overrides,parameter_overrides>> section, `id` refers to the Parameter's GUID.
+
+[#is_mandatory]
+is_mandatory::
+Indicates if a filter is marked as mandatory.
+
+[#is_public]
+is_public::
+Indicates if a view is public or not.
+
+[#is_single_value]
+is_single_value::
+Indicates if a filter is marked as single value.
 
 [#key]
 key::
@@ -182,6 +222,18 @@ The configured value of the Parameter referenced in a formula in the last saved 
 [#values]
 values::
 The values being filtered (excluded or included) in a Liveboard.
+
+[#views]
+views::
+List of personalised views for the user.
+
+[#view_filters]
+view_filters::
+List of personalised view filters.
+
+[#view_parameters]
+view_parameters::
+List of personalised view parameters.
 
 [#visualization_id]
 visualization_id::
