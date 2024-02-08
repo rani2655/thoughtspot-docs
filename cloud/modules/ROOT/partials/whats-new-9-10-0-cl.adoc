@@ -281,6 +281,16 @@ xref:ai-answers.adoc[Natural language search,window=_blank].
 endif::[]
 
 
+[#9-10-0-cl-add]
+[discrete]
+=== Add formula or parameter to Answer
+
+// Naomi -- scal-177253
+// PM: Damian
+
+You can now add a formula or parameter to an Answer by navigating to the *Category* image:icon-by-category.png[Category view] or *A to Z* image:icon-a-to-z.png[Alphabetical view] view of the Data panel, clicking *+ Add*, and selecting *Formula* or *Parameter*.
+
+image:add-formula-parameter.png[Add a formula or Parameter to an Answer]
 
 
 [#9-10-0-cl-summary]
