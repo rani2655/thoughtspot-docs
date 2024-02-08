@@ -22,7 +22,9 @@ To create a Worksheet parameter, follow these steps:
 
 . Navigate to the Worksheet to which you would like to add a parameter.
 . Select *Edit Worksheet* in the upper right corner.
-. In the panel on the top of your screen, select the *Parameters* section and click *Add Parameter*.
+. In the *Data* panel on the left of your screen, select the *+* button that appears when you hover over the *Parameters* section.
++
+image:parameter-add.png[Select the + button to add a parameter]
 
 include::partial$param-create.adoc[]
 
@@ -49,14 +51,14 @@ NOTE: You can only delete parameters that are not in use in any formula, Answer,
 
 . Navigate to the Worksheet with the parameter you would like to edit or delete.
 . Select *Edit Worksheet* in the upper right corner.
-. In the panel on the top of your screen, select the *Parameters* section. This expands the list of parameters.
-. To *edit* a parameter, scroll down to the parameter name and select *Edit*.
+. In the *Data* panel on the left of your screen, select the *Down* arrow to the right of the *Parameters* section. This expands the list of parameters.
+. To *edit* a parameter, select the edit icon image:icon-edit-10px.png[edit icon image] to the right of the parameter name.
 +
 Note that you may not be able to edit all fields, if the parameter is in use in formulas, Answers or Liveboards. For parameters that are in use, you can edit the following fields: *Name*, *Description*, *Allowed values*, and *Default value*. You can also add or delete values from a list parameter while it's in use, or increase or decrease the minimum and maximum values in a range parameter.
 +
 To edit other fields, you must first remove it from these Answers and Liveboards. To see which Answers and Liveboards use the parameter, select *View Details* in the *Edit parameter* dialog that appears.
 . Make your changes, and select *Save*.
-. To *delete* a parameter, scroll to the parameter name and click *Delete*.
+. To *delete* a parameter, select the delete icon image:icon-delete-10px.png[Delete icon image] to the left of the parameter name.
 +
 Note that you may not be able to delete the parameter, if the parameter is in use in Answers or Liveboards. You must first remove it from these Answers and Liveboards. To see which Answers and Liveboards use the parameter, select *View Details* in the *Delete this parameter* dialog that appears.
 . Select *Delete* in the dialog that appears.
