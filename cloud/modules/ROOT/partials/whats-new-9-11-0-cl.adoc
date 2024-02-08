@@ -312,12 +312,7 @@ endif::[]
 
 // IT/ Ops Engineer
 
-[#9-11-0-cl-IAM]
-[discrete]
-=== IAMV2 - Support AD Sync on IAM V2 for sync of Users and groups
 
-// Mary -- SCAL-137342
-// PM:
 
 [#9-11-0-cl-dremio]
 [discrete]
@@ -384,12 +379,7 @@ endif::[]
 
 endif::free-trial-feature[]
 
-[#9-11-0-cl-question]
-[discrete]
-=== Suggested question org awareness
 
-// Mary -- SCAL-187695
-// PM:
 
 [#9-11-0-cl-unilever]
 [discrete]
