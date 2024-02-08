@@ -56,58 +56,88 @@ To create a data model:
 After creating your {model}, you need to add the sources that contain the data.
 A source is another name for a table. You do that using the {model} editor.
 
-With the {model} editor, creating a data model is as easy as dragging and dropping tables.
-
 image::model_empty.png[]
 
 The sources you choose are typically related to one another by foreign keys.
 
-To add sources to your {model}, follow these steps.
-The {model} creation UI also guides you through the process.
+The first step to building your {model}, is to add tables.
 
-. Select the *+* icon next to *Sources*.
+=== Adding tables
+
+To add tables to your {model}, do the following:
+
+. Drag tables from the list on the left, and drop them into the right pane.
 +
-image::worksheet-create-add-sources.png[Add sources to your Model]
-
-. Select the checkbox next to each of the sources you want to include in the {model}.
-You can search for specific Views or tables.
-You can also select every data source that has a specific tag, like *Retail*.
+image::model_tables.png[]
 +
-Note that the list of sources only shows the data sources on which you have view or edit privileges.
+If joins were already created between the tables you added, you'll see a line connecting the tables.
 +
-image::worksheet-create-choose-sources.png[Choose sources]
+Example:
++
+image::model_suggest_join.png[]
++
+This is an example of a join suggestion, which you can choose to accept, edit, or clear.
 
-. Choose the xref:worksheet-progressive-joins.adoc#[Model join rule].
-Either *apply joins progressively* or *apply all joins*.
-Applying joins progressively speeds up performance.
-. If you want to disable xref:security-rls-concept.adoc[row-level security] for this {model}, select the checkbox to disable it.
-. Select *CLOSE* to save your changes.
-. Expand the table names under *Sources* and select the columns to add to the {model}, by doing any of the following:
-* To add all of the columns from a table, click the table name and select *+ Add Columns*.
-* To add a single column, double-click its name.
-* To add multiple columns, kbd:[Control] + click each column you want to add and select *+ Add Columns*.
+. (Optional) If there is a suggested join, click the join icon image:model_join_icon.png[] and do one of the following:
+
+- To accept the join, select *Accept Join*.
+- To edit the join, select *Edit Join*.
+- To clear the join, select *Clear Join*.
++
+NOTE: The appearance of the join icon will vary depending on the type of join.
+
+. To add a new join between tables, click the More menu image:model_table_join_more.png[] in the upper right of a table, and select *Add Join*.
+. In the _Create Join_ window for _Table 2_, select the table you want to join to the first table (_Table 1_).
+. For _Column from Table 1_, select the column you want to join to another column in _Table 2_.
+. For _Column from Table 2_, select the column in _Table 2_ which you want to join to the selected column in _Table 1_.
+. For _Join Type_, select a join type. Options include:
+- INNER image:model_join_icon.png[]
+- FULL OUTER image:model_join_full_outer_icon.png[]
+- LEFT OUTER image:model_join_suggestion_icon.png[]
+- RIGHT OUTER image:model_join_right_outer_icon.png[]
+. For _Cardinality_, select the cardinality. Options include:
+- Many:1
+- 1:Many
+- 1:1
+. Click *Save*.
++
+The join is created.
++
+image::model_tables_joined.png[]
+
+. Add additional tables and joins, as needed.
+. (Recommended) Name your {model} by clicking *Add name* and entering a name.
+. (Optional) Add a description of your {model} by clicking *Add description* and entering a description.
+. When you are finished adding tables and joins to your {model}, the next step is to add columns.
+
+=== Adding columns
+
+To add columns to your {model}, do the following:
+
+. Click the *Columns* tab.
++
+image::model_columns.png[]
++
+Table names are highlighted in blue, and their associated columns appear underneath them.
+
+. Add columns by doing either of the following:
+- To add all the columns from a table, drag the table name from the list on the left and drop it into the right pane.
+- To add an individual column from a table, drag the column name from the list on the left and drop it into the right pane.
 
 +
-Note that after you add a column, non-related tables (those without a primary/foreign key relationship) become hidden.
-If you are working with two tables that should be related, but are not, you can xref:relationships.adoc#[add a relationship between them].
-. (Optional) xref:join-worksheet-edit.adoc#[Modify the join types] within the {model}.
-. (Optional) xref:worksheet-formula.adoc#[Create formulas].
-. (Optional) xref:worksheet-filter.adoc#[Create Model filters].
-. Select the *more options* icon image:icon-more-10px.png[more options menu icon], and select *Save*.
-. In the Save {model} window, enter a name and description for your {model} and select *SAVE*.
-. (Optional) Select each column name and enter a more user-friendly name for searching.
-You can tab through the list of columns to rename them quickly. ThoughtSpot automatically optimizes column names to make searching easier. When you add a column to a {model}, ThoughtSpot automatically converts it to title case, and replaces any underscores with spaces. For example, `customer_age` automatically becomes `Customer Age`.
-. (Optional) If you want to add a prefix to the name of several columns, select them, click the *Add prefix* button, and type in the prefix.
+image::model_columns_added.png[]
+
+. (Optional) Edit column properties, as needed.
+. To save the columns in your {model}, click *Save changes*.
 +
-image::worksheet-create-add-prefix.png[Add a prefix to column names]
-
-. Select the *more options* icon image:icon-more-10px.png[more options menu icon], and select *Save*.
+You are prompted to edit the title and description of your {model}.
+. Edit the title and description if needed.
+. Click *Save*.
 +
-image::worksheet-create-save.png[Save your Model]
+Your model is saved, and you have the option to add formulas, filters, parameter, and adjust settings.
+. If you don't want to do those things now, click *Exit data model*.
 
-. The {model} details page appears. Review your {model}, and make any additional changes you would like. Note that if any of your columns contain aggregate formulas, or if your {model} contains a chasm or fan trap, ThoughtSpot does not show data samples.
 
-. xref:share-worksheets.adoc#[Share your Model], if you want other people to be able to use it.
 
 [#role-playing-dimensions]
 == Role-playing dimensions
