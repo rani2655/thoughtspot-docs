@@ -115,6 +115,9 @@ Users with edit permissions on a Liveboard can set their preferred attribute col
 // Naomi -- scal-156247
 Natural language search chart type:: You can now specify the answering chart type when you use Natural Language Search. For example, search for "sales by region pie chart", and the results appear in pie chart format. For more information, see xref:ai-answers.adoc[].
 
+// Naomi -- scal-177253
+Add formula or parameter to Answer::
+You can now add a formula or parameter to an Answer by navigating to the *Category* image:icon-by-category.png[Category view] or *A to Z* image:icon-a-to-z.png[Alphabetical view] view of the Data panel, clicking *+ Add*, and selecting *Formula* or *Parameter*.
 
 //Mary -- scal-134503
 Functional enhancements for verified Liveboards:: Easily find verified Liveboards marked with banners, and icons. Sort search results to view content tagged as verified. Request verification of Liveboards and cancel requests when needed. For more information, see xref:liveboard-verify.adoc[Verify Liveboards].
