@@ -253,6 +253,23 @@ NOTE: Even though the button currently says _Edit Worksheet_, it allows you to e
 . Make your changes to the {model}.
 . Select *Save changes*.
 
+=== Make a copy of a {model}
+
+To make a copy of a {model}:
+
+. Select *Data* on the top navigation bar.
+. Select the name of the {model} you want to make a copy of.
+. Open the *More* menu icon image:icon-more-10px.png[more options menu icon] and select *Make a copy*.
+
++
+The *make a copy* dialog appears.
+
+. Change the name and description, as needed, and select *Save*.
++
+When you navigate back to the Worksheet page, your new {model} name appears in the list.
++
+NOTE: Even though the page currently only uses the term _Worksheet_, it does show both Worksheets and Models. Any models will appear in the list of Worksheets.
+
 
 [#role-playing-dimensions]
 == Role-playing dimensions
