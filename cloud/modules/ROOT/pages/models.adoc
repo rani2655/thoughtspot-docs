@@ -3,7 +3,7 @@
 :linkattrs:
 :experimental:
 :page-layout: default-cloud-early-access
-:description: Data models are logical views created on top of a more complex data model, to enable business users to more easily consume data.
+:description: Models are logical views created on top of a more complex data model, to enable business users to more easily consume data.
 :model: Model
 :jira: SCAL-158357
 
@@ -26,11 +26,7 @@ This data might be contained in several tables (sales, customers, products, stor
 An administrator who is familiar with the data model can create a retail sales {model}, that combines all of the related fact and dimension tables into a single, easy-to-use view, and share it with the sales executive.
 This provides access to the data without requiring an understanding of how it is structured.
 
-== Guidelines for {model}s
-
-TBD
-
-[#create-worksheet]
+[#create-model]
 == Creating a {model}
 
 To create a data model:
@@ -38,6 +34,10 @@ To create a data model:
 . Select *Data*, on the top navigation bar.
 . Select the *+ Create new* button in the side navigation bar.
 . Select *Model*.
++
+image::model_choose.png[]
+
+
 . Choose how you want to model your data, using one of the following options:
 .. To create your own model, select *Build your own with cloud data*.
 ... To create a new connection, refer to xref:connections.adoc[About connections]
@@ -46,6 +46,8 @@ To create a data model:
 ... To create a new dbt connection, click *Add dbt connection* and refer to step 5 of xref:dbt-integration#integrate[Integrating with dbt].
 ... To use an existing connection, select it from the list, and click *Connect*.
 .. To import the TML for a model, select *TML*, and upload your tml files. For more information, refer to xref:tml-worksheets[TML for Worksheets].
++
+NOTE: The information at this link also applies to {model}s.
 .. To use an existing SpotApp as a model, select *SpotApps*, and select a SpotApp.
 
 . <<build-model,Build your data model>>.
@@ -54,7 +56,7 @@ To create a data model:
 == Build your {model}
 
 After creating your {model}, you need to add the sources that contain the data.
-A source is another name for a table. You do that using the {model} editor.
+A source is another name for a table. You do that using the {model} editor. If you chose an existing model, you can make changes to your model.
 
 image::model_empty.png[]
 
@@ -135,33 +137,109 @@ You are prompted to edit the title and description of your {model}.
 . Click *Save*.
 +
 Your model is saved, and you have the option to add formulas, filters, parameter, and adjust settings.
-. If you don't want to do those things now, click *Exit data model*.
+. If you don't want to add those now, click *Exit data model*.
 
+=== Adding formulas
 
+To add formulas to your {model}, do the following:
+
+. Click the *Formulas* tab.
+. Click *Add Formula*.
++
+. Create a name for your formula.
+. Enter a formula, using the formula assistant (at right) if needed.
++
+image::model_formulas_2.png[]
++
+With the formula assistant, you can see a list of formula operators with examples.
++
+If you want to change what your formula returns, click the Advanced settings button image:icon_formula_gear_32px.png[].
++
+Depending on your formula, you may be able to change:
+
+- Data type: Determines the type of data that the formula generates. For example, use date for an add_days formula.
+- Measure or attribute: Determines if the output of the formula is a measure or an attribute. For example, choose attribute for a formula that generates age groups, and choose measure for a formula that generates profit.
+- Aggregation: Determines the default aggregation of the formula output. For example, choose min to see minimum profit.
+
+. Click *Save*.
+. Click *Save changes*.
+
+=== Adding filters
+
+To add filters to your {model}, do the following:
+
+. Click the *Filters* tab.
+. Click *Add filter*.
+. Choose the column you want to filter on.
++
+image::model_filters.png[]
+. Select the values to include in your Answer.
++
+image::model_filters_2.png[]
+. If you want to exclude values, select *Exclude* and choose values to exclude.
++
+You can also include values in bulk, by clicking *+ Add values in bulk*, and adding values separated by a comma (,) or a semicolon (;) or by putting them on separate lines.
+. Click *Submit*.
+. Click *Save changes*.
+
+=== Adding parameters
+
+To add parameters to your {model}, do the following:
+
+. Click the *Parameters* tab.
+. Click *Add Parameter*.
++
+image::model_parameters.png[]
+. In the _Parameter name_ text box, enter a name for your Parameter. This name should be unique for the object, and easy for users to understand.
+. Optionally, enter a description for the Parameter in the _Add a description_ text box. Use this field to add additional information users might need before using this Parameter in their analysis. It is a best practice to use this field to specify the formulas this Parameter is used in, in addition to any other information you add.
+. Under _Data settings_, specify the data type the Parameter must be: Integer, Double, String, Boolean, or Date. For more information about data types, refer to xref:data-types.adoc[Data types].
+. For integer, double, or date data types, specify the allowed values: Any, List, or Range. For the string data type, specify either _Any_ or _List_.
++
+[horizontal]
+Any::
+Allows any value within the data type's constraints.
+List:: Allows values only in the list you create. Enter a value in the *Enter value...* text box, and optionally enter what the value should display as in the *Display as...* text box. To add more values, select *+ Add row*. To delete values, select the *x* to the right of the row the value is in.
++
+image::parameter-list.png[Create a list of allowed values]
+Range:: Allows values only within the range you specify. In the *Minimum value* and *Maximum value* text boxes, specify the values the range begins and ends with.
++
+image::parameter-range.png[Create a range of allowed values]
+. For the boolean data type, optionally set custom names for `true` and `false`; for example, `0` and `1`.
+. Set the default value for your Parameter. In the default value text box, enter the value this Parameter should default to. For the boolean data type, the *Default value* option is a dropdown.  `true` and `false` are the only options.
+. Select *Save*.
+
+=== Settings
+
+You can set properties for your model, including join rules and security.
+
+To set properties for your {model}, do the following:
+
+. Click the *Settings* tab.
+. For _Data model join rule_ choose one of the following:
+- Apply joins progressively (recommended for most cases)
+- Apply all joins
+. For _Security_ you have the option to disable row level security for your data model.
++
+image::model_settings.png[]
+. Click *Save changes*.
+
+==== Understanding progressive joins
+
+Often, a {model} includes several dimension tables and a fact table.
+With progressive joins, if your search only includes terms from the fact table, you can see all of the rows that satisfy your search.
+But as you add terms from dimension tables, the total number of rows shown may be reduced, as the joins to each dimension table are applied.
+It works like this:
+
+* If you choose *Apply joins progressively (recommended for most cases)*, joins are only applied for tables whose columns are included in the search.
+* If you choose *Apply all joins*, all possible joins are applied, regardless of which tables are included in the search.
+
+When using *Apply joins progressively*, the number of rows in a search using the {model} depends on which tables are part of the search.
+The {model} contains the results of a defined query in the form of a table.
+So if a particular dimension table is left out of the search, its joins are not applied.
 
 [#role-playing-dimensions]
 == Role-playing dimensions
 
 A role-playing dimension is when a single physical dimension is referenced multiple times in a fact table, with each reference linking to a logically distinct role for the dimension. ThoughtSpot supports role-playing dimensions, or multiple join paths, for {model}s. For example, you may have a fact table joined to a dimension table more than once. This is useful for cases such as when you have a sales fact table and an employee dimension table, where the sales table may record the employee ID who created, updated, and owned a record. In this case, you would want to join these three columns to the employee dimension table on employee ID.
 
-When adding attribute columns from that dimension table to your {model}, ThoughtSpot prompts you to choose which join path you would like to use for that column. To use role-playing dimensions, select that attribute again, modify the name, and choose the other join path when ThoughtSpot prompts you to select one. For more information, see link:https://community.thoughtspot.com/customers/s/article/How-do-you-model-role-playing-dimensions[Model role-playing dimensions].
-
-== Where to go next
-
-* *xref:worksheet-progressive-joins.adoc[How the Model join rule works]* +
-Use the {model} join rule to specify when to apply joins when a search is done on a {model}.
-You can either apply joins progressively, as each search term is added (recommended), or apply all joins to every search.
-
-'''
-> **Related information**
->
-> * xref:worksheet-edit.adoc[Edit a Worksheet]
-> * xref:worksheet-formula.adoc[Create a formula in a Worksheet]
-> * xref:worksheet-filter.adoc[Create a Worksheet filter]
-> * xref:worksheet-progressive-joins.adoc[How the Worksheet join rule works]
-> * xref:worksheet-inclusion.adoc[Create join rule or RLS for a Worksheet]
-> * xref:join-add.adoc[Create a join relationship]
-> * xref:join-worksheet-edit.adoc[Modify joins between Worksheet tables]
-> * xref:worksheet-delete.adoc[Delete Worksheets or tables]
-> * xref:scriptability.adoc[Migrate or restore Worksheets]
-> * xref:tml-worksheets.adoc[Worksheet TML specification]
+When adding attribute columns from that dimension table to your {model}, ThoughtSpot prompts you to choose which join path you would like to use for that column. To use role-playing dimensions, select that attribute again, modify the name, and choose the other join path when ThoughtSpot prompts you to select one.
