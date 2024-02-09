@@ -53,7 +53,7 @@ NOTE: The information at this link also applies to {model}s.
 . <<build-model,Build your data model>>.
 
 [#build-model]
-== Build your {model}
+== Building your {model}
 
 After creating your {model}, you need to add the sources that contain the data.
 A source is another name for a table. You do that using the {model} editor. If you chose an existing model, you can make changes to your model.
@@ -237,11 +237,9 @@ When using *Apply joins progressively*, the number of rows in a search using the
 The {model} contains the results of a defined query in the form of a table.
 So if a particular dimension table is left out of the search, its joins are not applied.
 
-== Edit a {model}
+== Editing a {model}
 
 If you created a {model}, or you have edit permissions on it, you can make changes such as adding sources and columns, adding or editing formulas, changing relationships, and changing column names. You can also rename a {model} or change its description.
-
-=== Edit a {model}
 
 To edit a {model}:
 
@@ -253,7 +251,7 @@ NOTE: Even though the button currently says _Edit Worksheet_, it allows you to e
 . Make your changes to the {model}.
 . Select *Save changes*.
 
-=== Make a copy of a {model}
+== Making a copy of a {model}
 
 To make a copy of a {model}:
 
