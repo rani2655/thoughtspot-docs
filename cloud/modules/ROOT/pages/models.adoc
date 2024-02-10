@@ -249,6 +249,38 @@ To edit a {model}:
 +
 NOTE: Even though the button currently says _Edit Worksheet_, it allows you to edit a {model} if you selected one in the previous step.
 . Make your changes to the {model}.
++
+****
+*Edit tables*
+
+Using the More menu image:model_table_join_more.png[] in the upper right of a table, you can edit a table in the following ways:
+
+- Add Join
+- Rename table
+- Duplicate table
+- Remove table
+- Show Join Recommendation
+****
++
+****
+*Edit columns*
+
+You can edit columns in the following ways:
+
+- Add columns by dragging and dropping them
+- Edit fields in columns
+- Delete any column by checking it and selecting *Delete*
+****
++
+****
+*Edit formulas, filters, parameters, and settings*
+
+You can edit in the following ways:
+
+- Delete formulas, filters, and settings
+- Modify properties
+****
+
 . Select *Save changes*.
 
 == Making a copy of a {model}
