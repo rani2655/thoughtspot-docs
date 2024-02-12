@@ -20,7 +20,7 @@ Benefits of Model editor include:
 - Building a schema by dragging and dropping tables and columns
 - Creating joins between tables is easier
 - Seeing the data model as you create it
-- Using the tabbed interface allows you to switch between tables, columns, formulas, filters, parameters, and settings
+- Using the tabbed interface allows you to switch between tables, columns, formulas, filters, parameters, and settings more intuitively
 
 === About Models
 
