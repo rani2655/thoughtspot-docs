@@ -388,6 +388,18 @@ ifdef::pendo-links[]
 xref:connections-google-cloud-sql-mysql.adoc[Google Cloud SQL for MySQL,window=_blank].
 endif::[]
 
+[#9-10-0-cl-metadata]
+[discrete]
+=== Validate metadata for connections
+
+// Naomi -- scal-118895
+// PM: Sara V.
+
+You can now validate connections to discover any changes in metadata after the connection was created. When you validate a connection, ThoughtSpot provides a JSON file containing details on the metadata changes. Once alerted to a metadata change, you can use TML to update the connection.
+
+image::validate-metadata.png[Validate metadata for connections]
+
+
 
 
 [#9-10-0-cl-dbt]
