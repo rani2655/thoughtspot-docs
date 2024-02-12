@@ -133,6 +133,10 @@ To access this feature, go to your KPI chart and select the caret icon to the ri
 // Naomi -- scal-166158
 Google Cloud SQL for MySQL connection:: We added support for xref:connections-google-cloud-sql-mysql.adoc[Google Cloud SQL for MySQL].
 
+// Naomi -- scal-118895
+Validate metadata for connections::
+You can now validate connections to discover any changes in metadata after the connection was created. When you validate a connection, ThoughtSpot provides a JSON file containing details on the metadata changes. Once alerted to a metadata change, you can use TML to update the connection.
+
 ////
 // Naomi -- scal-158415
 Row-level security in custom calendars:: We now support row-level security in custom calendars.
