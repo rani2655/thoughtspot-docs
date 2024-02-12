@@ -7,7 +7,24 @@
 :model: Model
 :jira: SCAL-158357
 
-ThoughtSpot uses Models, which are logical views of data, to model complex datasets. These data models simplify access to data for end-users and application services by incorporating these key features, and more:
+== Introducing Models
+
+Models are a new, easier way of creating what previously were called Worksheets. You can create Models from the *Data* tab, just like Worksheets.
+
+For this release, your ThoughtSpot administrator must enable Models. ThoughtSpot plans to replace Worksheets with Models in a future release, but for now you can create both Models and Worksheets.
+
+Models are created in the new Model editor which provides a more visual and intuitive experience for creating data models.
+
+Benefits of Model editor include:
+
+- Building a schema by dragging and dropping tables and columns
+- Creating joins between tables is easier
+- Seeing the data model as you create it
+- Using the tabbed interface allows you to switch between tables, columns, formulas, filters, parameters, and settings more intuitively
+
+=== About Models
+
+Models are logical views of data which allow you to model complex datasets. These data models simplify access to data for end-users and application services by incorporating these key features, and more:
 
 * *Table joins* supplement the primary data with information from various other data sources.
 * *Changing data types* ensures that you can handle mismatches gracefully, For example, conversions of date/time type formats, and processing of numeric codes (such as event IDs) correctly.
@@ -31,18 +48,19 @@ This provides access to the data without requiring an understanding of how it is
 
 To create a data model:
 
-. Select *Data*, on the top navigation bar.
+. Select *Data* on the top navigation bar.
 . Select the *+ Create new* button in the side navigation bar.
 . Select *Model*.
 +
 image::model_choose.png[]
 
 
+
 . Choose how you want to model your data, using one of the following options:
 .. To create your own model, select *Build your own with cloud data*.
 ... To create a new connection, refer to xref:connections.adoc[About connections]
 ... To use an existing connection, select it from the list, and select *Connect*.
-.. To create a model from tables originally created from dbt models, select *dbt*
+.. To build a model from tables originally created from dbt models, select *dbt*
 ... To create a new dbt connection, select *Add dbt connection* and refer to step 5 of xref:dbt-integration#integrate[Integrating with dbt].
 ... To use an existing connection, select it from the list, and select *Connect*.
 .. To import the TML for a model, select *TML*, and upload your tml files. For more information, refer to xref:tml-worksheets[TML for Worksheets].
