@@ -78,7 +78,7 @@ ifndef::pendo-links[]
 === Models [.badge.badge-early-access]#Early Access#
 endif::[]
 ifdef::pendo-links[]
-[#9-10-0-cl-highlight]
+[#9-10-0-cl-models]
 [discrete]
 === Models [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
