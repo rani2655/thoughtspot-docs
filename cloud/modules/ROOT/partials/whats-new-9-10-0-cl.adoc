@@ -71,6 +71,34 @@ image::liveboard-highlight.gif[AI Highlights]
 
 endif::free-trial-feature[]
 
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-10-0-cl-models]
+[discrete]
+=== Models [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-10-0-cl-models]
+[discrete]
+=== Models [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
+With Models, we've completely redesigned how you model your data in ThoughtSpot. With the Model editor, you can drag and drop tables and columns, create joins, and much more in an intuitive, tabbed interface which streamlines your workflow. Models will replace Worksheets in the future, but in this release you can create and use Models or Worksheets. To enable this feature, contact your administrator.
+For more information, see
+ifndef::pendo-links[]
+xref:models.adoc[Models].
+endif::[]
+ifdef::pendo-links[]
+xref:models.adoc[Models,window=_blank].
+endif::[]
+
+image::models_whats_new.png[Models]
+
+// Mark -- SCAL-158357
+// PM: Samridh
+
+endif::free-trial-feature[]
+
 [#9-10-0-cl-commenting]
 [discrete]
 === Commenting on Liveboards
@@ -424,7 +452,7 @@ Custom sorting is now available to all users and is on by default. ThoughtSpot i
 * Area
 * Stacked Area
 * Line stacked Column Scatter
-* Bubble,
+* Bubble
 * Waterfall
 * Funnel
 * Pie

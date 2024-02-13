@@ -15,7 +15,7 @@ Models are created in the new Model editor which provides a more visual and intu
 
 Benefits of the Model editor include:
 
-- Building a schema visually, by dragging and dropping tables and columns
+- Building a data model visually, by dragging and dropping tables and columns
 - Creating joins between tables is faster and easier
 - Using the tabbed interface allows you to quickly switch between table and column views, as well as formulas, filters, parameters, and settings.
 
