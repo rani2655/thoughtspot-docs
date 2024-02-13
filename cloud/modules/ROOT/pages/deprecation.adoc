@@ -38,6 +38,9 @@ The 9.10.0.cl release of ThoughtSpot Cloud, targeted for February 2024 (GA), wil
 SpotApps::
 Beginning in the 9.10.0.cl release, you will still be able to use SpotApps, but ThoughtSpot will remove them in a later release.
 
+IAMv1::
+Beginning in the 9.10.0.cl release, you will still be able to use IAMv1, but ThoughtSpot will remove support for IAMv1 in a later release.
+
 == Removed in 9.8.0.cl
 
 The 9.8.0.cl release of ThoughtSpot Cloud, targeted for January 2024 (GA), will remove the following feature:

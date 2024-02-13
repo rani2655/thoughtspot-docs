@@ -412,7 +412,25 @@ In Explore mode, you can now more easily make a copy of an Answer by clicking th
 [#9-10-0-cl-custom]
 [discrete]
 === Custom sorting
-Custom sorting is now available to all users and is on by default. ThoughtSpot introduces custom sorting of attributes to sort all chart types in a way that helps users to consume charts more efficiently. You can now sort on any attribute in a chart, using the custom sort column. Enter the attributes in order to set up a custom sort order.
+Custom sorting is now available to all users and is on by default. ThoughtSpot introduces custom sorting of attributes to sort most chart types in a way that helps users to consume charts more efficiently. The following chart types are supported:
+
+* Table
+* Column
+* Stacked column
+* Line
+* Bar
+* Stacked Bar
+* Line Column
+* Area
+* Stacked Area
+* Line stacked Column Scatter
+* Bubble,
+* Waterfall
+* Funnel
+* Pie
+* Heatmap
+
+You can now sort on any attribute in a chart, using the custom sort column. Enter the attributes in order to set up a custom sort order.
 
 image::custom-sort-order.png[Custom Sorting]
 
