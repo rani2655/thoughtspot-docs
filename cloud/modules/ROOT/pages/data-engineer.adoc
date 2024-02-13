@@ -220,16 +220,16 @@ The following list provides information about connecting to your data in support
 * xref:connections-google-sheets-reference.adoc[Connection reference]
 ////
 
-== image:looker.svg[Looker icon, 130]
+// == image:looker.svg[Looker icon, 130]
 
-* xref:connections-looker-add.adoc[Add connection]
-* xref:connections-looker-edit.adoc[Edit connection]
-* xref:connections-looker-remap.adoc[Remap  connection]
-* xref:connections-looker-delete-table.adoc[Delete a table]
-* xref:connections-looker-delete-table-dependencies.adoc[Delete a table with object dependencies]
-* xref:connections-looker-delete.adoc[Delete connection]
-* xref:connections-looker-passthrough.adoc[Passthrough functions]
-* xref:connections-looker-reference.adoc[Connection reference]
+// * xref:connections-looker-add.adoc[Add connection]
+// * xref:connections-looker-edit.adoc[Edit connection]
+// * xref:connections-looker-remap.adoc[Remap  connection]
+// * xref:connections-looker-delete-table.adoc[Delete a table]
+// * xref:connections-looker-delete-table-dependencies.adoc[Delete a table with object dependencies]
+// * xref:connections-looker-delete.adoc[Delete connection]
+// * xref:connections-looker-passthrough.adoc[Passthrough functions]
+//* xref:connections-looker-reference.adoc[Connection reference]
 
 == image:mysql-icon.png[MySQL icon] MySQL
 
