@@ -512,8 +512,10 @@ For more information see, xref:saml-group-mapping.adoc[SAML group and Org mappin
 
 [#9-10-0-cl-iam]
 [discrete]
-=== OpenID Connect (OIDC) support with IAMv2
-Thoughtspot now supports OpenID Connect (OIDC) for SSO with IAMv2. Multiple identity providers with OIDC such as Google , Microsoft, and Okta are now supported.
+=== OpenID Connect (OIDC) support with IAMv2 [.badge.badge-early-access]#Early Access#
+endif::[]
+Thoughtspot now supports OpenID Connect (OIDC) for SSO with IAMv2. Multiple identity providers with OIDC such as Google , Microsoft, and Amazon are now supported.
+For more information, see xref:oidc-iamv2.adoc[Managing authentication with OIDC using IAMv2]
 // Mary -- scal-119837
 
 [#9-10-0-cl-bridge]
