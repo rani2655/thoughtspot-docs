@@ -9,19 +9,24 @@
 
 == Introducing Models
 
-Models are a new, easier way of creating what previously were called Worksheets. You can create Models from the *Data* tab, just like Worksheets.
-
-For this release, your ThoughtSpot administrator must enable Models. ThoughtSpot plans to replace Worksheets with Models in a future release, but for now you can create both Models and Worksheets.
+Models are a new, easier way of creating what previously were called Worksheets. You can create Models from the *Data* tab, just like Worksheets. You can still create and use Worksheets, but ThoughtSpot plans to deprecate and remove Worksheets in a future release.
 
 Models are created in the new Model editor which provides a more visual and intuitive experience for creating data models.
 
-Benefits of Model editor include:
+Benefits of the Model editor include:
 
 - Building a schema by dragging and dropping tables and columns
-- Creating joins between tables is easier
-- Seeing the data model as you create it
-- Using the tabbed interface allows you to switch between tables, columns, formulas, filters, parameters, and settings more intuitively
+- Creating joins between tables is faster and easier
+- Using the tabbed interface allows you to switch between table and column views, as well as formulas, filters, parameters, and settings.
 
+=== Limitations
+
+You can create either Models or Worksheets, however you cannot do the following:
+
+- Switch an individual Worksheet to a Model
+- Switch all Worksheets to Models in a cluster
+
+////
 === About Models
 
 Models are logical views of data which allow you to model complex datasets. These data models simplify access to data for end-users and application services by incorporating these key features, and more:
@@ -42,7 +47,7 @@ For example, a sales executive might need to search for information about retail
 This data might be contained in several tables (sales, customers, products, stores, etc.), with foreign key relationships between them.
 An administrator who is familiar with the data model can create a retail sales {model}, that combines all of the related fact and dimension tables into a single, easy-to-use view, and share it with the sales executive.
 This provides access to the data without requiring an understanding of how it is structured.
-
+////
 [#create-model]
 == Creating a {model}
 
@@ -69,6 +74,11 @@ NOTE: The information at this link also applies to {model}s.
 .. To use an existing SpotApp as a model, select *SpotApps*, and select a SpotApp.
 
 . <<build-model,Build your data model>>.
+
+.[.badge.badge-early-access]#Early Access#
+****
+If you are not able to see the Models feature, contact your ThoughtSpot administrator to enable it. For more about Early Access features, see xref:release-lifecycle.adoc#early-access[ThoughtSpot Cloud release life cycle].
+****
 
 [#build-model]
 == Building your {model}
