@@ -3,10 +3,10 @@ NOTE: Location keywords only work for searches where the data source includes la
 include::partial$keywords/list-location.adoc[]
 
 include::partial$keywords/farther_than_distance_from.adoc[]
-Svenska;; längre än inom _n_ miles|km|meter från
+русский;; дальше чем _n_ мили|км|метры от
 
 include::partial$keywords/near.adoc[]
-Svenska;; nära
+русский;; около
 
 include::partial$keywords/near_within_distance.adoc[]
-Svenska;; nära... inom _n_ miles|km|meter
+русский;; около ... в пределах _n_ мили|км|метры
