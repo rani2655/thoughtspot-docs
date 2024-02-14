@@ -32,6 +32,7 @@ Currently, we offer the following keyword translations.
 - xref:keywords-fr-FR.adoc[Français (France)]
 - xref:keywords-pt-BR.adoc[Português (Brasil)]
 - xref:keywords-pt-PT.adoc[Português (Portugal)]
+- xref:keywords-ru-RU.adoc[русский (ограниченный выпуск)]
 - xref:keywords-it-IT.adoc[Italiano]
 - xref:keywords-da-DK.adoc[Dansk]
 - xref:keywords-fi-FI.adoc[Suomi]
