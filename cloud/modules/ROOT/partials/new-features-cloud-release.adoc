@@ -33,6 +33,9 @@ For more information, see xref:sync-gbq.adoc[Sync to Google BigQuery].
 [#9-11-0-cl-business-user]
 === For the Business User
 
+Keywords "of", "percentage of":: To enable business users to answer questions related to mix, contribution, share of, percentage, and total ratios, we added the keywords “of” and “percentage of”. These keywords help answer questions such as “What is the share of a certain store’s sales as a percentage of the regional whole?” Previously, searches such as these required the use of a group aggregate formula, which presented a barrier to users. +
+For more information, see
+xref:formulas-keywords.adoc[Keywords: Of and Percentage of].
 
 
 
