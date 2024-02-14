@@ -143,8 +143,11 @@ Row-level security in custom calendars:: We now support row-level security in cu
 ////
 
 // Mark -- SCAL-161198
-Looker Modeler connection:: You can now create a connection to Looker Modeler. For more information, see xref:connections-looker.adoc[Looker Modeler].
+//Looker Modeler connection:: You can now create a connection to Looker Modeler. For more information, see xref:connections-looker.adoc[Looker Modeler].
 
+Models [.badge.badge-early-access-relnotes]#Early Access#::
+With Models, we've completely redesigned how you model your data in ThoughtSpot. With the Model editor, you can drag and drop tables and columns, create joins, and much more in an intuitive, tabbed interface which streamlines your workflow. Models will replace Worksheets in the future, but in this release you can create and use Models or Worksheets. To enable this feature, contact your administrator.
+For more information, see xref:models.adoc[Models].
 
 // Naomi -- scal-169065
 dbt public API:: dbt core users can now use the dbt public API to upload dbt project files to ThoughtSpot. Use the dbt sync API to upload your dbt project's zip files.

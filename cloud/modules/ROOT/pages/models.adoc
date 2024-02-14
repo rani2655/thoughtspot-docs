@@ -100,21 +100,7 @@ To add tables to your {model}, do the following:
 +
 image::model_tables.png[]
 +
-If joins were already created between the tables you added, you'll see a line connecting the tables.
-+
-Example:
-+
-image::model_suggest_join.png[]
-+
-This is an example of a join suggestion, which you can choose to accept, edit, or clear.
 
-. (Optional) If there is a suggested join, click the join icon image:model_join_icon.png[] and do one of the following:
-
-- To accept the join, select *Accept Join*.
-- To edit the join, select *Edit Join*.
-- To clear the join, select *Clear Join*.
-+
-NOTE: The appearance of the join icon will vary depending on the type of join.
 
 . To add a new join between tables, select the More menu image:model_table_join_more.png[] in the upper right of a table, and select *Add Join*.
 . In the _Create Join_ window for _Table 2_, select the table you want to join to the first table (_Table 1_).
@@ -317,7 +303,7 @@ To make a copy of a {model}:
 
 . Select *Data* on the top navigation bar.
 . Select the name of the {model} you want to make a copy of.
-. Open the *More* menu icon image:icon-more-10px.png[more options menu icon] and select *Make a copy*.
+. Open the *More* menu image:icon-more-10px.png[more menu icon] and select *Make a copy*.
 
 +
 The *make a copy* dialog appears.
@@ -332,6 +318,20 @@ NOTE: Even though the page currently only uses the term _Worksheet_, it does sho
 [#role-playing-dimensions]
 == Role-playing dimensions
 
-A role-playing dimension is when a single physical dimension is referenced multiple times in a fact table, with each reference linking to a logically distinct role for the dimension. ThoughtSpot supports role-playing dimensions, or multiple join paths, for {model}s. For example, you may have a fact table joined to a dimension table more than once. This is useful for cases such as when you have a sales fact table and an employee dimension table, where the sales table may record the employee ID who created, updated, and owned a record. In this case, you would want to join these three columns to the employee dimension table on employee ID.
+A role-playing dimension is when a single physical dimension is referenced multiple times in a fact table, with each reference linking to a logically distinct role for the dimension. ThoughtSpot supports role-playing dimensions for {model}s. For example, you may have a fact table joined to a dimension table more than once. This is useful for cases such as when you have a sales fact table and an employee dimension table, where the sales table may record the employee ID who created, updated, and owned a record. In this case, you would want to join these three columns to the employee dimension table on employee ID.
 
-When adding attribute columns from that dimension table to your {model}, ThoughtSpot prompts you to choose which join path you would like to use for that column. To use role-playing dimensions, select that attribute again, modify the name, and choose the other join path when ThoughtSpot prompts you to select one.
+=== Implementing role-playing dimensions with {model}s
+
+To implement role-playing dimensions with Models, do the following in the Model editor:
+
+. Go to the *Tables* tab.
+. Click the More menu image:icon-more-10px.png[more menu icon] of the dimension table that you want to use in a different role.
+. Select *Duplicate Table*.
+. Assign an alias (since 2 tables cannot have the same name).
+. Join this logical copy of the dimension table to the fact table with the join condition corresponding to the new role.
++
+. Go to the *Columns* tab.
+. Add columns from the new role-playing dimension.
++
+It will appear as a new table (with the alias assigned in step 4) on the left panel in the *Columns* tab of the model.
+
