@@ -21,7 +21,7 @@ These are the issues we fixed in recent ThoughtSpot Software releases.
 |SCAL-182316
 |Extra page added and footer is distorted in PDF export after puppeteer upgrade.
 
-|SCAL-182280
+|SCAL-180280
 |R pinboards do not load in the Liveboard new experience after upgrade to 8.8.1.sw.cu1.
 
 |SCAL-175970
