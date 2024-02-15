@@ -1,0 +1,54 @@
+= Known issues
+:keywords: known issues
+:last_updated: 2/15/2024
+:author: Mark Plummer
+:experimental:
+:page-layout: default-cloud
+:linkattrs:
+:jira: SCAL-193766
+
+These are the known issues in this release of ThoughtSpot Cloud.
+
+[#releases-9-10-x]
+== 9.10.0.cl known issues
+
+[cols="17%,39%,38%"]
+|===
+|Issue ID |Description|Symptoms, conditions, and workaround
+
+|SCAL-189185
+|Scheduled CSV Email from a liveboard does not get updated.
+a|*Symptoms*:
+
+Scheduled CSV reports with rolling filters applied on a Liveboard might not get the latest data with updated rolling filter values.
+
+*Conditions*:
+
+Liveboard has a rolling date filter applied and a CSV schedule is created on it. After days or weeks, when the rolling filter changes the data on a Liveboard, the next job run generates a CSV with the last rolling in the filter, and does not update it.
+
+9.10.0.cl release.
+
+*Workaround*:
+
+Open and save the Liveboard once before the next scheduled run.
+
+|Issue ID |Description|Symptoms, conditions, and workaround
+
+|SCAL-185098
+|SeekWell service down
+a|*Symptoms*:
+
+Users cannot use Sync functionality to sync to Slack, Sheets, Teams, Salesforce and other external destinations.
+
+Navigating to *DATA > SYNC* displays the error message: _Seekwell service down_.
+
+*Conditions*:
+
+SeekWell service for ThoughtSpot is down.
+
+9.10.0.cl release.
+
+*Workaround*:
+
+Contact {support-url} for assistance.
+|===
