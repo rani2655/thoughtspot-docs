@@ -1,5 +1,4 @@
 =  Managing authentication with OIDC using IAMv2 [.badge.badge-early-access]#Early Access#
-endif::[]
 :last_updated: 12/2/2024
 :linkattrs:
 :experimental:
