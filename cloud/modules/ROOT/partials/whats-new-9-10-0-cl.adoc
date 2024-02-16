@@ -90,6 +90,7 @@ endif::[]
 
 image:comment-liveboard.gif[Create a comment on a Liveboard and add a reaction]
 
+endif::free-trial-feature[]
 
 [#9-10-0-cl-anomaly]
 [discrete]
@@ -402,6 +403,7 @@ In Explore mode, you can now more easily make a copy of an Answer by clicking th
 [discrete]
 === _Other features and enhancements_
 
+ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-10-0-cl-models]
 [discrete]
@@ -557,13 +559,29 @@ For more information see, xref:saml-group-mapping.adoc[SAML group and Org mappin
 //Moved to 9.12.0.cl
 // Mary -- scal-181443
 
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
 [#9-10-0-cl-iam]
 [discrete]
 === OpenID Connect (OIDC) support with IAMv2 [.badge.badge-early-access]#Early Access#
 endif::[]
-Thoughtspot now supports OpenID Connect (OIDC) for SSO with IAMv2. Multiple identity providers with OIDC such as Google , Microsoft, and Amazon are now supported.
-For more information, see xref:oidc-iamv2.adoc[Managing authentication with OIDC using IAMv2]
+ifdef::pendo-links[]
+[#9-10-0-cl-iam]
+[discrete]
+=== OpenID Connect (OIDC) support with IAMv2 [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
 // Mary -- scal-119837
+
+ThoughtSpot now supports OpenID Connect (OIDC) for SSO with IAMv2. Multiple identity providers with OIDC such as Google , Microsoft, and Amazon are now supported.
+For more information, see
+ifndef::pendo-links[]
+xref:oidc-iamv2.adoc[Managing authentication with OIDC using IAMv2].
+endif::[]
+ifdef::pendo-links[]
+xref:oidc-iamv2.adoc[Managing authentication with OIDC using IAMv2,window=_blank].
+endif::[]
+endif::free-trial-feature[]
 
 [#9-10-0-cl-bridge]
 [discrete]
@@ -600,4 +618,4 @@ ifndef::free-trial-feature[]
 === ThoughtSpot Everywhere
 
 For new features and enhancements introduced in this release of ThoughtSpot Everywhere, see https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
-endif::[]
+endif::free-trial-feature[]
