@@ -71,7 +71,6 @@ image::liveboard-highlight.gif[AI Highlights]
 
 endif::free-trial-feature[]
 
-ifndef::free-trial-feature[]
 
 [#9-10-0-cl-commenting]
 [discrete]
@@ -90,7 +89,6 @@ endif::[]
 
 image:comment-liveboard.gif[Create a comment on a Liveboard and add a reaction]
 
-endif::free-trial-feature[]
 
 [#9-10-0-cl-anomaly]
 [discrete]
