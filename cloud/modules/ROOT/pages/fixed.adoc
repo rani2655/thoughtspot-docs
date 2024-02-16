@@ -34,7 +34,7 @@ These are the issues we fixed in this release of ThoughtSpot Cloud.
 |SCAL-181252
 |Cluster remains in maintenance mode even after upgrade completes.
 |SCAL-180968
-|The Y-Axis for a line chart is plotted incorrectly when it is resized.
+|The Y-axis for a line chart is plotted incorrectly when it is resized.
 |SCAL-178240
 |The custom color palette is not used when picking colors to create a chart, nor is it displayed in the chart color picker in an Answer. Also _disable color rotation_ does not work.
 |SCAL-177151
