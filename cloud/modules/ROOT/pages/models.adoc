@@ -9,7 +9,7 @@
 
 == Introducing Models
 
-Models are a new, easier way of creating what previously were called Worksheets. You can create Models from the *Data* tab, just like Worksheets. You can still create and use Worksheets, but ThoughtSpot plans to deprecate and remove Worksheets in a future release.
+Models are a new, easier way of creating what previously were called Worksheets. You can create Models from the *Data* tab, just like Worksheets. You can still create and use Worksheets, but ThoughtSpot plans to deprecate and remove Worksheets in a future release. All worksheets can be migrated to Models in a future release.
 
 Models are created in the new Model editor which provides a more visual and intuitive experience for creating data models.
 
@@ -25,6 +25,8 @@ You can create either Models or Worksheets, however you cannot do the following:
 
 - Switch an individual Worksheet to a Model
 - Switch all Worksheets to Models in a cluster
++
+NOTE: When the {model} feature is available to all customers by default in a future release, you will have the option to request ThoughtSpot to migrate all the Worksheets on your cluster to {model}s.
 
 ////
 === About Models
