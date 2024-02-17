@@ -1,8 +1,9 @@
 = End-of-service announcement
-:last_updated: 10/14/2022
+:last_updated: 2/16/2024
 :linkattrs:
 :experimental:
 :description: The timelines of how long ThoughtSpot will provide support for Software releases.
+:jira: SCAL-194793
 
 This page provides the end-of-service dates for each ThoughtSpot Software release.  After a release version reaches its end-of-service date, ThoughtSpot continues to provide documentation for that version, but it no longer provides feature patches for it.
 
@@ -48,21 +49,33 @@ This page provides the end-of-service dates for each ThoughtSpot Software releas
 
 |7.2.1.apr.sw
 |April 30, 2022
-|September 23, 2022
+|January 24, 2023
 
 |7.2.1.CU1
-|July 5, 2022
-|September 23, 2022
+|June, 2022
+|January 24, 2023
 
 |8.4.1.sw
 |September 1, 2022
-|May 15, 2023
+|June 12, 2023
 
 |8.8.1.sw
 |December 14, 2022
-|September 2023 (planned)
+|December 21, 2023
 
 |9.0.1.sw
-|May 15, 2023
+|June 12, 2023
 |March 2024 (planned)
+
+|9.0.1.sw.CU1
+|July, 2023
+|March 2024 (planned)
+
+|9.0.1.sw.CU2
+|August, 2023
+|March 2024 (planned)
+
+|9.5.0.sw.CU1
+|December 21, 2023
+|May, 2024 (Planned)
 |===
