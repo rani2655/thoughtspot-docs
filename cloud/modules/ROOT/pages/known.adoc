@@ -32,8 +32,6 @@ Liveboard has a rolling date filter applied and a CSV schedule is created on it.
 
 Open and save the Liveboard once before the next scheduled run.
 
-|Issue ID |Description|Symptoms, conditions, and workaround
-
 |SCAL-185098
 |SeekWell service down
 a|*Symptoms*:
