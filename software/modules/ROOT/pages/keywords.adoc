@@ -26,6 +26,7 @@ Currently, we offer the following keyword languages:
 * xref:keywords-nb-NO.adoc[Norwegian, Norsk]
 * xref:keywords-pt-PT.adoc[Portuguese, Português (Portugal)]
 * xref:keywords-pt-BR.adoc[Portuguese (Brazil), Português (Brasil)]
+* xref:keywords-ru-RU.adoc[русский (ограниченный выпуск)]
 * xref:keywords-es-ES.adoc[Spanish, Español (España)]
 * xref:keywords-es-US.adoc[Spanish, Español (Latinoamérica)]
 * xref:keywords-sv-SE.adoc[Swedish, Svenska]
