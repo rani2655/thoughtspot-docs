@@ -913,6 +913,7 @@ span.badge.badge-new {
 *** xref:keywords-nb-NO.adoc[Norsk: Norwegian keyword reference]
 *** xref:keywords-pt-PT.adoc[Português (Portugal): Portuguese keyword reference]
 *** xref:keywords-pt-BR.adoc[Português (Brasil): Portuguese Brazilian keyword reference]
+*** xref:keywords-ru-RU.adoc[русский (ограниченный выпуск): Russian (Limited Edition) keyword reference]
 *** xref:keywords-es-ES.adoc[Español (España): Spanish keyword reference]
 *** xref:keywords-es-US.adoc[Español (Latinoamérica): Spanish Latin American keyword reference]
 *** xref:keywords-sv-SE.adoc[Svenska: Swedish keyword reference]
