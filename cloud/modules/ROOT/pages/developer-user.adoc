@@ -7,8 +7,9 @@
 :page-aliases: /admin/ts-cloud/developer-user.adoc
 :description: Developer users embed ThoughtSpot content in their applications by using ThoughtSpot SDK and APIs.
 
+ThoughtSpot Everywhere offers a robust API framework with Visual Embed SDK and REST APIs to embed and customize ThoughtSpot components and automate deployments.
 By embedding ThoughtSpot Analytics in your app, you can enrich your application experience with ThoughtSpot’s search and live analytics capabilities.
-To learn about the different embedding methods, see https://developers.thoughtspot.com/docs/embed-ts[Embedding Overview,window=_blank].
+
 
 == Embed Licenses
 ThoughtSpot provides various licensing schemes to embed ThoughtSpot features in your application. For more information, see the following pages:
@@ -47,6 +48,8 @@ a trusted host by https://developers.thoughtspot.com/docs/security-settings[addi
 The Visual Embed SDK is the most convenient way to embed different types of ThoughtSpot content. However, if your portal or system does not have a way to use the Visual Embed SDK JavaScript library, you can embed ThoughtSpot components using an iFrame element.
 For example, to embed a Liveboard or Visualization in portals such as Salesforce, SharePoint, Google Sites, or WordPress, you may want to use an iFrame element.
 for more information, see the following page https://developers.thoughtspot.com/docs/embed-without-sdk[Embed without SDK,window=_blank].
+
+To learn about the different embedding methods, see https://developers.thoughtspot.com/docs/embed-ts[Embedding Overview,window=_blank].
 
 == REST APIs
 ThoughtSpot https://developers.thoughtspot.com/docs/rest-apis[REST API,window=_blank] framework supports several resource collections and operations in two distinct versions. You can explore and access the API endpoints in both these versions:
