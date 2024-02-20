@@ -33,7 +33,7 @@ You can use the Visual Embed SDK for the following purposes:
 IMPORTANT: Only users with developer or administrator privileges can access the *Develop* tab.
 
 ==== Authentication
-To authenticate and authorize embed users, you must also configure an authentication method in the SDK.
+To authenticate and authorize embed users, you must also configure an authentication method in the SDK .
 The following page lists the general recommendations for choosing an authentication method to authenticate embedded application users https://developers.thoughtspot.com/docs/embed-auth[Authentication].
 
 ==== Security Settings
