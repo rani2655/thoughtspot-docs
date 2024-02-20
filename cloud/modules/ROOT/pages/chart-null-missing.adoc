@@ -8,13 +8,15 @@
 :description: You can now choose how to display null and missing values in bar, column, and line charts.
 :jira: SCAL-169683
 
-You can now choose how null and missing date values appear in line, column, and bar charts in ThoughtSpot. From the *Chart configuration* menu image:icon-gear-10px.png[gear icon] for the date column, you can decide to show or hide null values in column, line, and bar charts. You can also decide how to display missing date values from the *Chart configuration* menu for each measure column.
+You can now choose how null and missing date values appear in line, line column, line stacked column, column, and bar charts in ThoughtSpot. From the *Chart configuration* menu image:icon-gear-10px.png[gear icon] for the date column, you can decide to show or hide null values in column, line, and bar charts. You can also decide how to display missing date values from the *Chart configuration* menu for each measure column.
+
+Previously, ThoughtSpot displayed null and zero values as empty spaces on bar and column charts. To make it easier to identify null and zero values, you can now choose to display null and zero values as bars of 1 pixel width on bar and column charts.
 
 == Show or hide null values
 
 To choose to show or hide null values, follow these steps:
 
-. Choose your measure and attribute values for your Answer. You must include a Date value to access the option on whether to display null values. Click the *Change visualization* icon image:icon-chart-type-10px.png[chart icon] to select the chart type as Line, Column, or Bar. You must include at least one attribute and one measure column.
+. Choose your measure and attribute values for your Answer. You must include a Date value to access the option on whether to display null values. Click the *Change visualization* icon image:icon-chart-type-10px.png[chart icon] to select the chart type as Line, Line Column, Line Stacked Column, Column, Stacked Column,  Bar, or Stacked Bar. You must include at least one attribute and one measure column.
 
 . Click on the *Chart configuration* menu icon image:icon-gear-10px.png[gear icon] and select the *Date* measure column.
 
@@ -26,11 +28,11 @@ image:hide-null.png[Deselect *Hide null values* to show null values]
 
 == Choose how to display missing values for line charts
 
-You can choose whether to display missing date values as zero values, line breaks, or an average of proximate values on a line chart. Rather than showing a sharp decline to zero every time there is null or missing data on your line chart, you can see the missing values represented as line breaks or averages of the closest values instead.
+You can choose whether to display missing date values as zero values, line breaks, or an average of proximate values on a line, line column, or line stacked column chart. Rather than showing a sharp decline to zero every time there is null or missing data on your line chart, you can see the missing values represented as line breaks or averages of the closest values instead.
 
-To choose how to display missing date values in line charts, follow these steps:
+To choose how to display missing date values in line, line column, or line stacked column charts, follow these steps:
 
-. Choose your measure and attribute values for your Answer. You must include a Date value to access the option on how to display missing values. Click the *Change visualization* icon image:icon-chart-type-10px.png[chart icon] to select the chart type as Line. You must include at least one attribute and one measure column.
+. Choose your measure and attribute values for your Answer. You must include a Date value to access the option on how to display missing values. Click the *Change visualization* icon image:icon-chart-type-10px.png[chart icon] to select the chart type as Line, Line Column, or Line Stacked Column. You must include at least one attribute and one measure column.
 
 . Click on the *Chart configuration* menu icon image:icon-gear-10px.png[gear icon] and select your attribute column (for example, `Sales`).
 
@@ -46,9 +48,9 @@ image::null-missing-line.gif[Possible display format for missing dates in line c
 
 == Choose how to display missing values for bar and column charts
 
-To choose how to display missing date values in bar and column charts, follow these steps:
+To choose how to display missing date values in bar, stacked bar, column, and stacked column charts, follow these steps:
 
-. Choose your measure and attribute values for your Answer. You must include a Date value to access the option on how to display missing values. Click the *Change visualization* icon image:icon-chart-type-10px.png[chart icon] to select the chart type as Bar or Column. You must include at least one attribute and one measure column.
+. Choose your measure and attribute values for your Answer. You must include a Date value to access the option on how to display missing values. Click the *Change visualization* icon image:icon-chart-type-10px.png[chart icon] to select the chart type as Bar, Stacked Bar, Column, or Stacked Column. You must include at least one attribute and one measure column.
 
 . Click on the *Chart configuration* menu icon image:icon-gear-10px.png[gear icon] and select your attribute column (for example, `Sales`).
 
