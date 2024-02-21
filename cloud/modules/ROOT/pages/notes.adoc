@@ -783,8 +783,7 @@ New London cloud region for AWS:: ThoughtSpot Cloud now supports the London regi
 
 [#9-4-0-cl-developer]
 === For the Developer
-
-ThoughtSpot Everywhere:: For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
+For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
 
 
 [#9-3-0-cl]
@@ -928,7 +927,7 @@ In-app billing reporting:: Admin users will be able to access a Liveboard reflec
 [#9-3-0-cl-developer]
 === For the Developer
 
-ThoughtSpot Everywhere:: For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
+For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
 
 
 [#9-2-0-cl]
@@ -1156,7 +1155,7 @@ Object Usage Liveboard:: Use the Object Usage Liveboard to easily track how spec
 [#9-2-0-cl-developer]
 === For the Developer
 
-ThoughtSpot Everywhere:: For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
+For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
 
 [#9-0-0-cl]
 == ThoughtSpot 9.0.0.cl Release
@@ -1272,7 +1271,7 @@ In this release, administrators can selectively enable or disable Early Access f
 [#9-0-0-cl-developer]
 === For the Developer
 
-ThoughtSpot Everywhere:: For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
+For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
 
 
 [#8-10-0-cl]
@@ -1341,7 +1340,7 @@ Use the Object Usage Liveboard to easily track how specific objects (Liveboards,
 [#8-10-0-cl-developer]
 === For the Developer
 
-ThoughtSpot Everywhere:: For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
+For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
 
 [#8-9-0-cl]
 == ThoughtSpot 8.9.0.cl Release
@@ -1434,7 +1433,7 @@ The new Billable Query Stats Liveboard allows administrators of customers who ha
 [#8-9-0-cl-developer]
 === For the Developer
 
-ThoughtSpot Everywhere:: For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
+For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
 
 [#8-8-0-cl]
 == ThoughtSpot 8.8.0.cl Release
@@ -1569,7 +1568,7 @@ For more information, see link:https://www.thoughtspot.com/legal/thoughtspot-clo
 [#8-8-0-cl-developer]
 === For the Developer
 
-ThoughtSpot Everywhere:: For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
+For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
 
 
 
@@ -1755,8 +1754,7 @@ See xref:connections-denodo-private-link.adoc[Enabling an AWS PrivateLink betwee
 
 [#8-6-0-cl-developer]
 === For the Developer
-
-ThoughtSpot Everywhere:: For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
+For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
 
 [#8-5-0-cl]
 == ThoughtSpot 8.5.0.cl Release
@@ -1876,8 +1874,7 @@ This option was already available for xref:connections-redshift-private-link.ado
 
 [#8-5-0-cl-developer]
 === For the Developer
-
-ThoughtSpot Everywhere:: For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
+For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
 
 [#8-4-0-cl]
 == ThoughtSpot 8.4.0.cl Release
@@ -1928,8 +1925,7 @@ We now support more detailed geographic maps for France. You can now create maps
 
 [#8-4-0-cl-developer]
 === For the Developer
-
-ThoughtSpot Everywhere:: For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
+For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
 
 [#8-3-0-cl]
 == ThoughtSpot 8.3.0.cl Release
@@ -2021,8 +2017,7 @@ To enable Advanced EAR in your environment, contact {support-url}.
 
 [#8-3-0-cl-developer]
 === For the Developer
-
-ThoughtSpot Everywhere:: For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
+For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
 
 [#8-2-0-cl]
 == ThoughtSpot 8.2.0.cl Release
@@ -2111,8 +2106,7 @@ If you have the new <<data-tab,redesigned data tab>> enabled, you can see the ne
 
 [#8-2-0-cl-developer]
 === For the Developer
-
-ThoughtSpot Everywhere:: For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
+For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
 
 [#8-1-0-cl]
 == ThoughtSpot 8.1.0.cl Release
@@ -2208,8 +2202,7 @@ ThoughtSpot provides advanced data encryption at rest (EAR) that allows for gran
 
 [#8-1-0-cl-developer]
 === For the Developer
-
-ThoughtSpot Everywhere:: For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
+For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
 
 [#8-0-0-cl]
 == ThoughtSpot 8.0.0.cl Release
@@ -2308,8 +2301,7 @@ To configure OIDC, refer to xref:oidc-configure.adoc[OpenID Connect authenticati
 
 [#january-cloud-2022-developer]
 === For the Developer
-
-ThoughtSpot Everywhere:: For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
+For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
 
 [#november-2021]
 == ThoughtSpot 8 Cloud November Release (ts8.nov.cl)
@@ -2439,8 +2431,7 @@ To learn how to configure a VPN connection for your Google BigQuery or Azure Syn
 
 [#november-cloud-2021-developer]
 === For the Developer
-
-ThoughtSpot Everywhere:: For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation].
+ For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation].
 
 [#october-2021]
 == ThoughtSpot 7 Cloud October Release (ts7.oct.cl)
@@ -2488,8 +2479,7 @@ This release improves the UI and user experience of the xref:user-profile.adoc[u
 
 [#october-cloud-2021-developer]
 === For the Developer
-
-ThoughtSpot Everywhere:: For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation].
+For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation].
 
 [#september-2021]
 == ThoughtSpot 7 Cloud September Release (ts7.sep.cl)
