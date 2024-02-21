@@ -274,6 +274,10 @@ The following connections are now available to all customers and are on by defau
 * xref:connections-google-cloud-sql-sql-server.adoc[Google Cloud SQL for SQL Server]
 * xref:connections-singlestore.adoc[SingleStore]
 
+// SCAL-192459
+Redshift-managed PrivateLink:: You can now create Redshift Connections using Redshift-managed PrivateLink, as well as AWS PrivateLink. For more information, see xref:connections-redshift-managed-private-link.adoc[].
+
+
 // SCAL-169279
 Atlan catalog integration:: You can now import metadata information related to your tables and columns from Atlan into ThoughtSpot. From the Data tab, you can set up a connection to Atlan to import column descriptions, column verification status, table descriptions, and table verification status. For more information, see xref:catalog-integration-atlan.adoc[Atlan catalog integration].
 
