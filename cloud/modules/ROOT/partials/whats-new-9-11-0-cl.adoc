@@ -16,7 +16,7 @@ endif::free-trial-feature[]
 
 [#9-11-0-cl-liveboard]
 [discrete]
-=== Impact Communication Liveboard
+=== Object Usage Liveboard
 
 // Naomi -- SCAL-179763
 // PM: Mohil
@@ -135,6 +135,7 @@ endif::free-trial-feature[]
 
 // Analyst
 
+////
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-11-0-cl-forecasting]
@@ -147,10 +148,12 @@ ifdef::pendo-links[]
 === Forecasting [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
-// Naomi -- SCAL-153878
+// Naomi -- SCAL-153878. moved to 9.12
 // PM: Vikas
 
+
 endif::free-trial-feature[]
+////
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
@@ -270,12 +273,7 @@ endif::[]
 // Mark -- SCAL-158660
 // PM: Samridh
 
-[#9-11-0-cl-tml]
-[discrete]
-=== TML performance improvements for TS10
 
-// Naomi -- SCAL-111124
-// PM: Yuvraj (asking for real PM)
 
 [#9-11-0-cl-performance]
 [discrete]
@@ -348,6 +346,13 @@ endif::[]
 // PM: Sara Vredevoogd
 
 endif::free-trial-feature[]
+
+[#9-11-0-cl-embrace]
+[discrete]
+=== Improve error messaging related to Embrace for Search & Answers
+
+// Naomi -- SCAL-178532
+// PM: Sara Vredevoogd
 
 [#9-11-0-cl-custom-link]
 [discrete]
