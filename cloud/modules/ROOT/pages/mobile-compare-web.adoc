@@ -62,10 +62,18 @@ The following section compares the features available in the ThoughtSpot mobile 
 
 |
 ^.^|image:checkmark_black.svg[Yes,15]
+|Note tiles
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
+
 |Custom tile sizes
 
 |
 ^.^|image:checkmark_black.svg[Yes,15]
+|Filters
+^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
+
 |Mandatory filters
 
 |
@@ -96,7 +104,7 @@ The following section compares the features available in the ThoughtSpot mobile 
 ^.^|image:checkmark_black.svg[Yes,15]
 
 |SpotIQ
-|
+^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 
 |Monitor KPI
@@ -120,9 +128,9 @@ The following section compares the features available in the ThoughtSpot mobile 
 
 ^.^|image:checkmark_black.svg[Yes,15]
 |Search Answers and Liveboards
-|
-
 ^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
+
 |Create/edit Liveboard
 |
 
