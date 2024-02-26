@@ -2431,7 +2431,7 @@ To learn how to configure a VPN connection for your Google BigQuery or Azure Syn
 
 [#november-cloud-2021-developer]
 === For the Developer
- For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation].
+For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation].
 
 [#october-2021]
 == ThoughtSpot 7 Cloud October Release (ts7.oct.cl)
@@ -3160,7 +3160,6 @@ Select *App performance* from the side navigation bar in the Admin Console.
 [#mar-cloud-developer]
 === For the Developer
 [#thoughtspot-embed]
-ThoughtSpot Embed::
 ThoughtSpot cloud now supports embedding ThoughtSpot content in third-party applications.
 
 In this release, ThoughtSpot introduces the Visual Embed SDK package [.badge.badge-beta]#Beta# to help developers embed the ThoughtSpot search functionality, Liveboards, visualizations, or the full application in their web page, portal, or business solution.  For more information on embedding ThoughtSpot, see xref:intro-embed.adoc[ThoughtSpot embedding solution].
