@@ -1,7 +1,14 @@
 
 
-ThoughtSpot mobile 2.8.1 is now available.
+ThoughtSpot mobile 2.9.0 is now available.
 These release notes include information about new features, fixed issues from the previous releases, and any known issues.
+
+[#2-9-0-new]
+== 2.9.0 New Features and Functionality
+
+* You can now view note tiles for Liveboards in the mobile app.
+* Improved loading of priority information when opening Liveboards and Answers in ThoughtSpot mobile.
+
 
 [#2-8-1-new]
 == 2.8.1 New Features and Functionality
