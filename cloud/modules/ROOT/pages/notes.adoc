@@ -2564,8 +2564,8 @@ To set up a custom domain in your ThoughtSpot Cloud URL, contact {support-url}.
 [#september-cloud-2021-developer]
 === For the Developer
 [#thoughtspot-everywhere]
-ThoughtSpot Everywhere::  This release introduces the ThoughtSpot Everywhere Edition license, Visual Embed SDK version 1.4.0, and new REST APIs for programmatic management of data connections, metadata objects, user accounts, user groups and privileges, and object sharing permissions.
-+
+This release introduces the ThoughtSpot Everywhere Edition license, Visual Embed SDK version 1.4.0, and new REST APIs for programmatic management of data connections, metadata objects, user accounts, user groups and privileges, and object sharing permissions.
+
 For more information, refer to https://docs.thoughtspot.com/visual-embed-sdk/release/en/?pageid=whats-new[ThoughtSpot Developer Documentation].
 
 [#august-2021]
