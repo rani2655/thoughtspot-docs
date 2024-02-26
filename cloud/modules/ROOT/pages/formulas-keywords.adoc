@@ -1,5 +1,5 @@
 = Keywords “of”, “percentage of”
-:last_updated: 5/1/23
+:last_updated: 2/26/24
 :linkattrs:
 :page-layout: default-cloud
 :experimental:
