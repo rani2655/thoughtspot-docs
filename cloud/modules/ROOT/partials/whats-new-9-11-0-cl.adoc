@@ -21,6 +21,8 @@ endif::free-trial-feature[]
 // Naomi -- SCAL-179763
 // PM: Mohil
 
+You can now use the Object Usage Liveboard to understand how ThoughtSpot is saving you time with ad-hoc insights, and how many users are accessing ThoughtSpot and creating new insights every month.
+
 [#9-11-0-cl-percentage]
 [discrete]
 === Keywords "of" and "percentage of"
@@ -39,6 +41,7 @@ ifdef::pendo-links[]
 xref:formulas-keywords.adoc[Keywords: Of and Percentage of,window=_blank].
 endif::[]
 
+////
 [#9-11-0-cl-feedback]
 [discrete]
 === Feedback Review (Sage Coach)
@@ -56,7 +59,7 @@ endif::[]
 * ConvAssist UI changes for 9.11
 * ConvAssist Revamped UI 9.11
 * ConvAssist New UI Design
-
+////
 
 
 [#9-11-0-cl-library]
@@ -238,12 +241,32 @@ ifdef::pendo-links[]
 xref:sync-gbq.adoc[Sync data from ThoughtSpot to Google BigQuery,window=_blank].
 endif::[]
 
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
 [#9-11-0-cl-collibra]
 [discrete]
-=== Collibra catalog integration
+=== Collibra integration [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#9-11-0-cl-collibra]
+[discrete]
+=== Collibra integration [.badge.badge-beta-whats-new]#Beta#
+endif::[]
 
 // Naomi -- SCAL-174136
 // PM: Sarib
+
+You can now import metadata information related to your tables and columns from Collibra into ThoughtSpot. From the Data tab, you can set up a connection to Collibra to import column descriptions, column verification status, table descriptions, and table verification status. To enable this feature, contact {support-url}.
+
+For more information, see
+ifndef::pendo-links[]
+xref:catalog-integration-collibra.adoc[Collibra integration].
+endif::[]
+ifdef::pendo-links[]
+xref:catalog-integration-collibra.adoc[Collibra integration,window=_blank].
+endif::[]
+
+endif::free-trial-feature[]
 
 [#9-11-0-cl-dbt-share]
 [discrete]
@@ -345,14 +368,19 @@ endif::[]
 // Naomi -- SCAL-176923
 // PM: Sara Vredevoogd
 
+ThoughtSpot now supports connections to Mode. You can import reusable data sets created in Mode as tables, which you can then use to create Worksheets, add row-level security, and search.
+
 endif::free-trial-feature[]
 
 [#9-11-0-cl-embrace]
 [discrete]
-=== Improve error messaging related to Embrace for Search & Answers
+=== Improve error messaging related to Connections for Search & Answers
 
 // Naomi -- SCAL-178532
 // PM: Sara Vredevoogd
+
+To increase clarity when an error prevents data from loading, we now classify failed searches as either "Error in connecting to data source" or "Error in executing query." Our improved error messages surface details about why the error occurred. You can click "copy error details" to download and send a file to your administrators.
+
 
 [#9-11-0-cl-custom-link]
 [discrete]
