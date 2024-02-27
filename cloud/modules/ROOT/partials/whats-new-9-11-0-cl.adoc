@@ -57,7 +57,7 @@ We made the following changes to ThoughtSpot feedback review:
 ////
 [#9-11-0-cl-conv-assist]
 [discrete]
-=== Feedback review
+=== ConvAssist
 
 // Naomi -- SCAL-181233, SCAL-169033, SCAL-176361
 // PM: Alok
