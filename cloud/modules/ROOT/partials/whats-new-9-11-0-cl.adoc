@@ -47,14 +47,14 @@ endif::[]
 [discrete]
 === Feedback Review
 
-// Naomi -- SCAL-154204
+// Naomi -- SCAL-154204. move to secondary features. mention Sage AI Answers. check if sage is internal.
 // PM: Santiago
 
-We made the following changes to ThoughtSpot feedback review:
+We made the following changes to ThoughtSpot feedback review for Sage AI Answers:
 
-* Feedback for AI Answers is now org-aware.
-* When you make a change to a Worksheet, ThoughtSpot now alerts you if this will affect any query feedback. If you accept this and make the change, the feedback depending on that Worksheet is deleted.
-* You can now import query feedback when you move information from a dev cluster to a production cluster.
+* Feedback for AI Answers is now Org-aware.
+* When you make a change to a Worksheet, ThoughtSpot now alerts you if this will affect any related query feedback. If you accept this and make the change, the feedback depending on that Worksheet is deleted.
+* You can now import query feedback when you move information from a development cluster to a production cluster.
 
 ////
 [#9-11-0-cl-conv-assist]
@@ -95,7 +95,7 @@ We made the following changes to ThoughtSpot feedback review:
 [discrete]
 === Note tiles on Mobile
 You can now view note tiles for Liveboards in the mobile app.
-// Mary -- SCAL-182153 - Note: Deliverred in 9.2.0 mobile release notes. ? regarding requirement for user documentation as it is view/consumption only.
+// Mary -- SCAL-182153 - Note: Delivered in 9.2.0 mobile release notes. ? regarding requirement for user documentation as it is view/consumption only. Call out the exact mobile version the feature is live in.
 // PM: Vaibhav
 
 [#9-11-0-cl-data-panel]
@@ -105,27 +105,37 @@ You can now view note tiles for Liveboards in the mobile app.
 In this release we've made the following improvements to the new Answer data panel:
 
 - Filtering is now available when you hover on a column.
-- The group _By category_ view is shown by default (instead of the Popular columns view)
+- The group _By category_ view is shown by default (instead of the Popular columns view).
 - When you click a column, the column information panel opens by default.
 You can request to have the column information panel disabled, by contacting {support-url}.
 
 
-// Mark -- SCAL-179810
+// Mark -- SCAL-179810. add gif. shorten to a couple sentences
 // PM: Alok, Akshay
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-11-0-cl-spotiq]
 [discrete]
-=== SpotIQ AI Highlights [.badge.badge-early-access]#Early Access#
+=== AI Highlights [.badge.badge-early-access]#Early Access#
 endif::[]
 ifdef::pendo-links[]
 [#9-11-0-cl-spotiq]
 [discrete]
-=== SpotIQ AI Highlights [.badge.badge-early-access-whats-new]#Early Access#
+=== AI Highlights [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 
-AI Highlights is now Early Access in this release. To enable this feature, contact your ThoughtSpot administrator.
+With AI Highlights, you get quick insights on how top metrics have changed in your Liveboard, dramatically reducing the time to derive insights from your KPIs. To enable this feature, contact your administrator.
+For more information, see
+ifndef::pendo-links[]
+xref:liveboard-ai-highlights.adoc[AI highlights].
+endif::[]
+ifdef::pendo-links[]
+xref:liveboard-ai-highlights.adoc[AI highlights,window=_blank].
+endif::[]
+
+image::liveboard-highlight.gif[AI Highlights]
+
 
 // Mark -- SCAL-162712
 // PM: Manan
@@ -139,7 +149,7 @@ endif::free-trial-feature[]
 
 // Mary -- SCAL-145362
 // PM: Adi - ETV changed to 9.12.0.cl
-///
+////
 
 // Analyst
 
@@ -155,13 +165,10 @@ ifdef::pendo-links[]
 [discrete]
 === Forecasting [.badge.badge-beta-whats-new]#Beta#
 endif::[]
-
 // Naomi -- SCAL-153878. moved to 9.12
 // PM: Vikas
-
-
 endif::free-trial-feature[]
-///
+////
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
@@ -175,10 +182,10 @@ ifdef::pendo-links[]
 === Advanced conditional formatting [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 
-// Naomi -- scal-177005. moved to 9.11
+// Naomi -- scal-177005. move up higher? is it visualization as well as table? check if it's in early access panel.
 // PM: Manan
 
-Rather than simply using conditional formatting comparing a column's measures to a single value (for example, `sales > 10000`), you can now use conditional formatting to compare a column's measures to another column or to a parameter. For example, if you search for `sales this year` versus `sales last year`, you can highlight where sales this year were less than last year. You can set multiple conditional formatting rules to a single table.
+Rather than simply using conditional formatting comparing a column's measures to a single value (for example, `sales > 10000`), you can now use conditional formatting to compare a column's measures to another column or to a parameter. For example, if you search for `sales this year` compared to `sales last year`, you can highlight where sales this year were less than last year. You can set multiple conditional formatting rules to a single table. To enable this feature, contact your administrator.
 
 For more information, see
 ifndef::pendo-links[]
@@ -211,16 +218,21 @@ ifdef::pendo-links[]
 [discrete]
 === Cohorts [.badge.badge-beta-whats-new]#Beta#
 endif::[]
-You can create custom sets, which can be used to classify values in a list you can then reuse across multiple analyses. As an example, you can use custom sets to search for which products are most popular, and define them by sales volume as “gold”, “silver”, or “bronze” level products. Custom sets are community objects which remain when you navigate away from the Search Data page and can be viewed by any user with view access to the underlying Worksheet.
+You can create custom sets, which can be used to classify values in a list you can then reuse across multiple analyses. As an example, you can search for which products are most popular, and use custom sets to define them by sales volume as "gold", "silver", or "bronze" level products. Custom sets are community objects which remain when you navigate away from the Search Data page and can be used by any user with view access to the underlying Worksheet. To enable this feature, contact {support-url}.
 
 NOTE: Query sets are BETA in 9.11.0.cl.
 
 For more information, see
+ifndef::pendo-links[]
 xref:custom-groups.adoc[Custom sets].
+endif::[]
+ifdef::pendo-links[]
+xref:custom-groups.adoc[Custom sets,window=_blank].
+endif::[]
 
 image::custom-groups.gif[Reusable set creation process]
 // Mary -- SCAL-158899
-// PM: Damian - 9.4.0.cl BETA, updated terminology, needs new .gif as the UI has changed.
+// PM: Damian - 9.4.0.cl BETA, updated terminology, needs new .gif as the UI has changed. Confirm whether Cohorts the full feature is EA.
 
 ////
 ifndef::free-trial-feature[]
@@ -288,7 +300,7 @@ ifdef::pendo-links[]
 === Collibra integration [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
-// Naomi -- SCAL-174136
+// Naomi -- SCAL-174136. does not need images.
 // PM: Sarib
 
 You can now import metadata information related to your tables and columns from Collibra into ThoughtSpot. From the Data tab, you can set up a connection to Collibra to import column descriptions, column verification status, table descriptions, and table verification status. To enable this feature, contact {support-url}.
@@ -310,18 +322,20 @@ endif::free-trial-feature[]
 // Naomi -- SCAL-126451
 // PM: Sarib
 
+////
 [#9-11-0-cl-dbt-error]
 [discrete]
 === dbt error message handling
 
-// Naomi -- SCAL-180960
+// Naomi -- SCAL-180960. may not need docs?
 // PM: Sarib
+////
 
 [#9-11-0-cl-ts-groups]
 [discrete]
 === Ts_Groups system variable
 
-// Naomi -- SCAL-164290
+// Naomi -- SCAL-164290. add what the formula means.
 // PM: Damian
 
 ThoughtSpot now supports the `ts_groups` system variable in Answer and Worksheet formulas. You can use the `ts_groups` variable for deciding whether to display the value of a column based on the group value. For example, you could create a formula such as: `masked sales = if ( 'all data' in ts_groups) then sales else null`.
@@ -335,22 +349,31 @@ ThoughtSpot now supports the `ts_groups` system variable in Answer and Worksheet
 // Mark -- SCAL-158660
 // PM: Samridh
 
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
 [#9-11-0-cl-worksheet]
 [discrete]
 === Click and drag to create joins with Models [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-11-0-cl-worksheet]
+[discrete]
+=== Click and drag to create joins with Models [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
 
-In this release, you can now create joins in your Model by clicking and dragging from one table to another.
+You can now create joins in your Model by clicking and dragging from one table to another.
 
-// Mark -- SCAL-180588
+// Mark -- SCAL-180588. add gif? gif could clarify any steps.
 // PM: Samridh
+endif::free-trial-feature[]
 
 [#9-11-0-cl-tscli]
 [discrete]
 === [Papercut] [Customer commit] Implement tscli flag to allow the user to remove additional info while exporting LB as a CSV
-ThoughtSpot allows users to export a Liveboard as CSV. By default, the exported CSV has some additional information, such as filters applied, and user information. ThoughtSpot introduces the ability to remove this additional information when exporting a Liveboard as a CSV.
+ThoughtSpot allows users to export a Liveboard as a CSV. By default, the exported CSV has some additional information, such as filters applied, and user information. ThoughtSpot introduces the ability to remove this additional information when exporting a Liveboard as a CSV.
 By default, this feature is turned off. To enable this feature, contact {support-url}.
 // Mary -- SCAL-179229
-// PM: Vanshree - TSCLI flag to allow users to remove the additional information while exporting/scheduling Liveboard as a CSV. By default, the flag will be set to false. If the customer wants to remove the additional information, they will contact the SRE team to run the command.
+// PM: Vanshree - TSCLI flag to allow users to remove the additional information while exporting/scheduling Liveboard as a CSV. By default, the flag will be set to false. If the customer wants to remove the additional information, they will contact the SRE team to run the command. Simplify heading, do we call this beta?
 
 
 
@@ -363,8 +386,8 @@ By default, this feature is turned off. To enable this feature, contact {support
 
 [#9-11-0-cl-pkce]
 [discrete]
-=== OAuth for Snowflake using PKCE
-ThoughtSpot incorporates Proof Key for Code Exchange (PKCE) for Snowflake. The addition of PKCE as an extension of the OAuth 2.0 protocol provides an added layer of security.
+=== OAuth for Snowflake using Proof Key for Code Exchange (PKCE)
+ThoughtSpot incorporates PKCE for Snowflake. The addition of PKCE as an extension of the OAuth 2.0 protocol provides an added layer of security.
 // Mary -- SCAL-177859
 // PM: Sara Vredevoogd
 
@@ -382,10 +405,10 @@ ThoughtSpot incorporates Proof Key for Code Exchange (PKCE) for Snowflake. The a
 [#9-11-0-cl-dremio]
 [discrete]
 === Support for OAuth for Dremio on-prem
-Initially Dremio supported OAuth only for cloud. Dreamio now supports use with Dremio On-prem as well. This method of authentication enables Thoughtspot to submit queries on behalf of users.
+Initially Dremio supported OAuth only for Cloud. Dremio now supports use with Dremio on-prem as well. This method of authentication enables ThoughtSpot to submit queries on behalf of users.
 
 // Mary -- SCAL-181886
-// PM: Sara Vredevoogd - Requires OIDC setup for Dremio with Okta IdP - details to follow.
+// PM: Sara Vredevoogd - Requires OIDC setup for Dremio with Okta IdP - details to follow. May be software-only? Does this refer to on-prem/software of Dremio?
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
@@ -399,7 +422,7 @@ ifdef::pendo-links[]
 === Mode connector [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 
-// Naomi -- SCAL-176923
+// Naomi -- SCAL-176923. clarify whether it supports data models as well as worksheets.
 // PM: Sara Vredevoogd
 
 ThoughtSpot now supports connections to Mode. Import reusable Datasets created in Mode as table extracts to leverage the full ThoughtSpot product, from Worksheet creation to Sage Search, Answer creation, and KPI monitoring.
@@ -410,7 +433,7 @@ endif::free-trial-feature[]
 [discrete]
 === Improve error messaging related to Connections for Search & Answers
 
-// Naomi -- SCAL-178532
+// Naomi -- SCAL-178532. mention that you can download it earlier?
 // PM: Sara Vredevoogd
 
 To increase clarity when an error prevents data from loading, we now classify failed searches as either "Error in connecting to data source" or "Error in executing query." Our improved error messages surface details about why the error occurred. You can click "copy error details" to download and send a file to your administrators.
@@ -418,15 +441,16 @@ To increase clarity when an error prevents data from loading, we now classify fa
 
 [#9-11-0-cl-custom-link]
 [discrete]
-=== [Papercut] [Customer commit] Custom link for view liveboard button in schedule
+=== [Papercut] [Customer commit] Custom link for view Liveboard button in schedule
 ThoughtSpot introduces support for custom URL links in scheduled Liveboard emails. If your organization has set a custom URL for your clusters, the links in scheduled emails now include the custom URL.
-// Mary -- SCAL-168830
+// Mary -- SCAL-168830. should view liveboard be capitalized?
 // PM: Vanshree
 
+////
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 
-////
+
 [#9-11-0-cl-data-modeling]
 [discrete]
 === Granular privileges for data modeling [.badge.badge-early-access]#Early Access#
@@ -439,9 +463,10 @@ endif::[]
 
 // Mary -- SCAL-154299
 // PM: Vijay/Aashica - Awaiting confirmation regarding this one (PRD has not been updated. SCAL-139496 Can manage data and data modeling share the same eng doc and the same privileges)
-////
+
 
 endif::free-trial-feature[]
+////
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
@@ -464,7 +489,7 @@ USERDATAUPLOADING|Can upload user data
 |===
 
 RBAC is disabled by default. To enable this feature, contact {support-url}.
-// Mary -- SCAL-139496 - See Mark regarding table column widths.
+// Mary -- SCAL-139496 - See Mark regarding table column widths. What are the external names for the RBAC privileges?
 // PM: Vijay/Aashica
 
 endif::free-trial-feature[]
