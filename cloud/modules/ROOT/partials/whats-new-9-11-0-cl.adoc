@@ -93,7 +93,7 @@ We made the following changes to ThoughtSpot feedback review:
 [discrete]
 === Note tiles on Mobile
 You can now view note tiles for Liveboards in the mobile app.
-// Mary -- SCAL-182153 - Note: Deliverred in 9.2.0 mobile release notes.
+// Mary -- SCAL-182153 - Note: Deliverred in 9.2.0 mobile release notes. ? regarding requirement for user documentation as it is view/consumption only.
 // PM: Vaibhav
 
 [#9-11-0-cl-mt]
@@ -193,14 +193,14 @@ endif::[]
 
 image::advanced-conditional-formatting.gif[Advanced conditional formatting comparing sales of state to sales of region]
 
-
+////
 [#9-11-0-cl-gradient]
 [discrete]
 === Gradient based color formatting
 
 // Mary -- SCAL-177333
-// PM: Manan - awaiting confirmation about including this in 9.11.0.cl as the JIRA has no ETV.
-
+// PM: Manan - Moved out of 9.11.0.cl. No new ETV.
+////
 
 
 ifndef::free-trial-feature[]
@@ -326,9 +326,10 @@ ThoughtSpot now supports the `ts_groups` system variable in Answer and Worksheet
 [#9-11-0-cl-tscli]
 [discrete]
 === [Papercut] [Customer commit] Implement tscli flag to allow the user to remove additional info while exporting LB as a CSV
-
+ThoughtSpot allows users to export a Liveboard as CSV. By default, the exported CSV has some additional information, such as filters applied, and user information. ThoughtSpot is introducing the ability to remove this additional information when exporting a Liveboard as a CSV.
+By default, this feature will be turned off. To enable this feautre, contact {support-url}.
 // Mary -- SCAL-179229
-// PM: Vanshree
+// PM: Vanshree - TSCLI flag to allow users to remove the additional information while exporting/scheduling Liveboard as a CSV. By default, the flag will be set to false. If the customer wants to remove the additional information, they will contact the SRE team to run the command.
 
 
 
@@ -397,12 +398,14 @@ To increase clarity when an error prevents data from loading, we now classify fa
 [#9-11-0-cl-custom-link]
 [discrete]
 === [Papercut] [Customer commit] Custom link for view liveboard button in schedule
-
+ThoughtSpot introduces support for custom URL links to scheduled Liveboard emails. If users have set a custom URL for their clusters, the links in the scheduled emails will now include the custom URL.
 // Mary -- SCAL-168830
 // PM: Vanshree
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
+
+////
 [#9-11-0-cl-data-modeling]
 [discrete]
 === Granular privileges for data modeling [.badge.badge-early-access]#Early Access#
@@ -413,8 +416,9 @@ ifdef::pendo-links[]
 === Granular privileges for data modeling [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 
-// Mary -- SCAL-168830 - wrong JIRA#
-// PM: Vijay
+// Mary -- SCAL-154299
+// PM: Vijay/Aashica - Awaiting confirmation regarding this one (PRD has not been updated. SCAL-139496 Can manage data and data modeling share the same eng doc and the same privileges)
+////
 
 endif::free-trial-feature[]
 
@@ -440,7 +444,7 @@ USERDATAUPLOADING|Can upload user data
 
 RBAC is disabled by default. To enable this feature, contact {support-url}.
 // Mary -- SCAL-139496
-// PM: Vijay
+// PM: Vijay/Aashica
 
 endif::free-trial-feature[]
 
@@ -496,7 +500,7 @@ endif::free-trial-feature[]
 === IAMv2 NS - Design and POCs
 
 // Mary -- SCAL-130202
-// PM:Aashica - Waiting for verification that there is no doc required. Currently no ETV - No doc required for 9.11.0.cl this is a design Epic.
+// PM:Aashica - No doc required for 9.11.0.cl this is a design Epic.
 ////
 
 
