@@ -68,23 +68,23 @@ We made the following changes to ThoughtSpot feedback review:
 ////
 
 
-[#9-11-0-cl-library]
-[discrete]
-=== [Homepage] New Table component in the Library module
+// [#9-11-0-cl-library]
+// [discrete]
+// === [Homepage] New Table component in the Library module
 
 // Mark -- SCAL-179372
 // PM: Adi
 
-[#9-11-0-cl-fav]
-[discrete]
-=== [Homepage] FAV + Trending Modules
+//[#9-11-0-cl-fav]
+//[discrete]
+//=== [Homepage] FAV + Trending Modules
 
 // Mark -- SCAL-178835
 // PM: Adi
 
-[#9-11-0-cl-revamp]
-[discrete]
-=== User customisation for homepage revamp
+// [#9-11-0-cl-revamp]
+// [discrete]
+// === User customisation for homepage revamp
 
 // Mark -- SCAL-160332
 // PM: Adi
@@ -96,16 +96,17 @@ You can now view note tiles for Liveboards in the mobile app.
 // Mary -- SCAL-182153 - Note: Deliverred in 9.2.0 mobile release notes. ? regarding requirement for user documentation as it is view/consumption only.
 // PM: Vaibhav
 
-[#9-11-0-cl-mt]
-[discrete]
-=== MT Cortex hardening and Anomaly Hardening
-
-// Mark -- SCAL-182058
-// PM:
-
 [#9-11-0-cl-data-panel]
 [discrete]
-=== Data panel V2 - UX improvements - Phase 1
+=== Answer data panel enhancements
+
+In this release we've made the following improvements to the new Answer data panel:
+
+- Filtering is now available when you hover on a column.
+- The group _By category_ view is shown by default (instead of the Popular columns view)
+- When you click a column, the column information panel opens by default.
+You can request to have the column information panel disabled, by contacting {support-url}.
+
 
 // Mark -- SCAL-179810
 // PM: Alok, Akshay
@@ -122,18 +123,12 @@ ifdef::pendo-links[]
 === SpotIQ AI Highlights [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 
+AI Highlights is now Early Access in this release. To enable this feature, contact your ThoughtSpot administrator.
+
 // Mark -- SCAL-162712
 // PM: Manan
 
 endif::free-trial-feature[]
-
-
-[#9-11-0-cl-query]
-[discrete]
-=== Display the current state of a query execution for Liveboard Viz
-
-// Mark -- SCAL-157244
-// PM:
 
 ////
 [#9-11-0-cl-org]
@@ -329,25 +324,20 @@ endif::free-trial-feature[]
 
 ThoughtSpot now supports the `ts_groups` system variable in Answer and Worksheet formulas. You can use the `ts_groups` variable for deciding whether to display the value of a column based on the group value. For example, you could create a formula such as: `masked sales = if ( 'all data' in ts_groups) then sales else null`.
 
-[#9-11-0-cl-bulk]
-[discrete]
-=== Bulk editing Worksheet column properties
+// [#9-11-0-cl-bulk]
+// [discrete]
+// === Bulk editing Worksheet column properties
+
+// TBD - waiting for a response from Samridh
 
 // Mark -- SCAL-158660
 // PM: Samridh
 
-
-
-[#9-11-0-cl-performance]
-[discrete]
-=== 3x Performance Backend
-
-// Mark -- SCAL-182927
-// PM:
-
 [#9-11-0-cl-worksheet]
 [discrete]
-=== Worksheet V2 Drag and Connect to create joins
+=== Click and drag to create joins with Models [.badge.badge-early-access]#Early Access#
+
+In this release, you can now create joins in your Model by clicking and dragging from one table to another.
 
 // Mark -- SCAL-180588
 // PM: Samridh
@@ -455,12 +445,12 @@ ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-11-0-cl-granular]
 [discrete]
-=== Granular privileges: addition of granular privileges for can-manage-data[.badge.badge-early-access]#Early Access#
+=== Granular privileges: addition of granular privileges for can-manage-data [.badge.badge-early-access]#Early Access#
 endif::[]
 ifdef::pendo-links[]
 [#9-11-0-cl-granular]
 [discrete]
-=== Granular privileges: addition of granular privileges for can-manage-data[.badge.badge-early-access-whats-new]#Early Access#
+=== Granular privileges: addition of granular privileges for can-manage-data [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 ThoughtSpot Role-Based Access Control (RBAC) enhances the granularity of permissions with the addition of new data management privileges. The following privileges have been added:
 |===
@@ -477,51 +467,20 @@ RBAC is disabled by default. To enable this feature, contact {support-url}.
 
 endif::free-trial-feature[]
 
+// [#9-11-0-cl-worksheet-v2]
+// [discrete]
+// === Worksheet V2 Completion: Paper cuts
 
-
-[#9-11-0-cl-unilever]
-[discrete]
-=== Unilever requires responses on fixes and timelines for the vulnerabilities found in scans
-
-// Mark -- SCAL-177977
-// PM:
-
-[#9-11-0-cl-worksheet-v2]
-[discrete]
-=== Worksheet V2 Completion: Paper cuts
+// TBD - waiting for response from Samridh
 
 // Mark -- SCAL-176255
 // PM: Samridh
-
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
-[#9-11-0-cl-global]
-[discrete]
-=== Global navigation [.badge.badge-early-access]#Early Access#
-endif::[]
-ifdef::pendo-links[]
-[#9-11-0-cl-global]
-[discrete]
-=== Global navigation [.badge.badge-early-access-whats-new]#Early Access#
-endif::[]
-
-// Mark -- SCAL-168741
-// PM: Anjali
-
-endif::free-trial-feature[]
 
 //[#9-11-0-cl-orgs]
 //[discrete]
 //=== Orgs 1.5: Per Org URL (Enterprise) for sharing links
 // Mary -- SCAL-164989
 // PM: Kiran, Vijay - ETV is now 9.12.0.cl
-
-[#9-11-0-cl-trusted-auth]
-[discrete]
-=== Trusted Auth security updates
-
-// Mark -- SCAL-164988
-// PM:
 
 ////
 [#9-11-0-cl-iam]
