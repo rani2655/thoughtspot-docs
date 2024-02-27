@@ -41,17 +41,23 @@ ifdef::pendo-links[]
 xref:formulas-keywords.adoc[Keywords: Of and Percentage of,window=_blank].
 endif::[]
 
-////
 [#9-11-0-cl-feedback]
 [discrete]
-=== Feedback Review (Sage Coach)
+=== Feedback Review
 
 // Naomi -- SCAL-154204
 // PM: Santiago
 
+We made the following changes to ThoughtSpot feedback review:
+
+* Feedback for AI Answers is now org-aware.
+* When you make a change to a Worksheet, ThoughtSpot now alerts you if this will affect any query feedback. If you accept this and make the change, the feedback depending on that Worksheet is deleted.
+* You can now import query feedback when you move information from a dev cluster to a production cluster.
+
+////
 [#9-11-0-cl-conv-assist]
 [discrete]
-=== ConvAssist
+=== Feedback review
 
 // Naomi -- SCAL-181233, SCAL-169033, SCAL-176361
 // PM: Alok
@@ -288,6 +294,8 @@ endif::free-trial-feature[]
 
 // Naomi -- SCAL-164290
 // PM: Damian
+
+ThoughtSpot now supports the `ts_groups` system variable in Answer and Worksheet formulas. You can use the `ts_groups` variable for deciding whether to display the value of a column based on the group value. For example, you could create a formula such as: `masked sales = if ( 'all data' in ts_groups) then sales else null`.
 
 [#9-11-0-cl-bulk]
 [discrete]
