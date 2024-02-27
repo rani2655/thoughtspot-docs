@@ -223,7 +223,7 @@ xref:custom-groups.adoc[Custom sets].
 
 image::custom-groups.gif[Reusable set creation process]
 // Mary -- SCAL-158899
-// PM: Damian - Moved from 9.4.0.cl BETA, updated terminology, needs new .gif as the UI has changed slightly.
+// PM: Damian - 9.4.0.cl BETA, updated terminology, needs new .gif as the UI has changed.
 
 ////
 ifndef::free-trial-feature[]
@@ -355,8 +355,8 @@ ThoughtSpot now supports the `ts_groups` system variable in Answer and Worksheet
 [#9-11-0-cl-tscli]
 [discrete]
 === [Papercut] [Customer commit] Implement tscli flag to allow the user to remove additional info while exporting LB as a CSV
-ThoughtSpot allows users to export a Liveboard as CSV. By default, the exported CSV has some additional information, such as filters applied, and user information. ThoughtSpot is introducing the ability to remove this additional information when exporting a Liveboard as a CSV.
-By default, this feature will be turned off. To enable this feautre, contact {support-url}.
+ThoughtSpot allows users to export a Liveboard as CSV. By default, the exported CSV has some additional information, such as filters applied, and user information. ThoughtSpot introduces the ability to remove this additional information when exporting a Liveboard as a CSV.
+By default, this feature is turned off. To enable this feature, contact {support-url}.
 // Mary -- SCAL-179229
 // PM: Vanshree - TSCLI flag to allow users to remove the additional information while exporting/scheduling Liveboard as a CSV. By default, the flag will be set to false. If the customer wants to remove the additional information, they will contact the SRE team to run the command.
 
@@ -393,7 +393,7 @@ ThoughtSpot incorporates Proof Key for Code Exchange (PKCE) for Snowflake. The a
 Initially Dremio supported OAuth only for cloud. Dreamio now supports use with Dremio On-prem as well. This method of authentication enables Thoughtspot to submit queries on behalf of users.
 
 // Mary -- SCAL-181886
-// PM: Sara Vredevoogd - Requires OIDC setup for Dremio with Okta IdP - details to come.
+// PM: Sara Vredevoogd - Requires OIDC setup for Dremio with Okta IdP - details to follow.
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
@@ -427,7 +427,7 @@ To increase clarity when an error prevents data from loading, we now classify fa
 [#9-11-0-cl-custom-link]
 [discrete]
 === [Papercut] [Customer commit] Custom link for view liveboard button in schedule
-ThoughtSpot introduces support for custom URL links to scheduled Liveboard emails. If users have set a custom URL for their clusters, the links in the scheduled emails will now include the custom URL.
+ThoughtSpot introduces support for custom URL links in scheduled Liveboard emails. If your organization has set a custom URL for your clusters, the links in scheduled emails now include the custom URL.
 // Mary -- SCAL-168830
 // PM: Vanshree
 
@@ -472,7 +472,7 @@ USERDATAUPLOADING|Can upload user data
 |===
 
 RBAC is disabled by default. To enable this feature, contact {support-url}.
-// Mary -- SCAL-139496
+// Mary -- SCAL-139496 - See Mark regarding table column widths.
 // PM: Vijay/Aashica
 
 endif::free-trial-feature[]
