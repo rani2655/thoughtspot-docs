@@ -14,14 +14,16 @@ endif::free-trial-feature[]
 
 // Business User
 
+////
 [#9-11-0-cl-liveboard]
 [discrete]
 === Object Usage Liveboard
 
-// Naomi -- SCAL-179763
+// Naomi -- SCAL-179763. moved to 9.12
 // PM: Mohil
 
 You can now use the Object Usage Liveboard to understand how ThoughtSpot is saving you time with ad-hoc insights, and how many users are accessing ThoughtSpot and creating new insights every month.
+////
 
 [#9-11-0-cl-percentage]
 [discrete]
@@ -400,7 +402,7 @@ endif::[]
 // Naomi -- SCAL-176923
 // PM: Sara Vredevoogd
 
-ThoughtSpot now supports connections to Mode. You can import reusable data sets created in Mode as tables, which you can then use to create Worksheets, add row-level security, and search.
+ThoughtSpot now supports connections to Mode. Import reusable Datasets created in Mode as table extracts to leverage the full ThoughtSpot product, from Worksheet creation to Sage Search, Answer creation, and KPI monitoring.
 
 endif::free-trial-feature[]
 
