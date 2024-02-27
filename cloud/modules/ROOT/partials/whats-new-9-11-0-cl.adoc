@@ -214,10 +214,18 @@ ifdef::pendo-links[]
 [discrete]
 === Cohorts [.badge.badge-beta-whats-new]#Beta#
 endif::[]
+You can create custom sets, which can be used to classify values in a list you can then reuse across multiple analyses. As an example, you can use custom sets to search for which products are most popular, and define them by sales volume as “gold”, “silver”, or “bronze” level products. Custom sets are community objects which remain when you navigate away from the Search Data page and can be viewed by any user with view access to the underlying Worksheet.
 
+NOTE: Query sets are BETA in 9.11.0.cl.
+
+For more information, see
+xref:custom-groups.adoc[Custom sets].
+
+image::custom-groups.gif[Reusable set creation process]
 // Mary -- SCAL-158899
-// PM: Damian
+// PM: Damian - Moved from 9.4.0.cl BETA, updated terminology, needs new .gif as the UI has changed slightly.
 
+////
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-11-0-cl-simple-cohorts]
@@ -230,8 +238,29 @@ ifdef::pendo-links[]
 === Cohorts [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 
+. From the *Data* panel, click *Add* and select either *Column set* or *Query set*.
+
+NOTE: Query set remains BETA in 9.11.0.cl so no UI is available - see below steps to create a Query set using formulas.
+
+A column set is a custom group of values from a single column.
+
+. Select the column to create groups based on.
+. Define the *Conditions* or *Bins*.
+Note: If your selected column is based on numerical values, *Bins* will be selected instead of *Conditions*.
+  . Optionally add additional conditions, or add additional groups.
+  . Rank/order the conditions by drag & drop. If multiple conditions are true the highest ranked is the one that will be used.
+  . Choose to return remaining values as *Individual values*, or as a *Group*.
+. Define a *Set name* and a *Set description* for the set.
+. Click *Create*.
+The set is now available from the left menu for use in this and other answers.
+
+A query set is a custom query
+
+
+//add image/animated gif to demonstrate the steps above as an example. Remove the detailed steps from WN.
 // Mary -- SCAL-150356
-// PM: Damian
+// PM: Damian - Waiting for clarification from Damian as to whether or not we should document Query sets for 9.11.0.cl as it is BETA and no UI will be released. Currently it must be done using Formulas which may be confusing to the user.
+////
 
 endif::free-trial-feature[]
 
