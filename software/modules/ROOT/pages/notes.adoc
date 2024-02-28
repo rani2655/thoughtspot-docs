@@ -21,7 +21,7 @@ These release notes include information about new and enhanced features.
 
 To see our feature deprecation plans, please see xref:deprecation.adoc[].
 
-For a complete list of issues that we fixed in this release, see xref:fixed.adoc#releases-9-5-x[Fixed issues].
+For a complete list of issues that we fixed in this release, see xref:fixed.adoc#releases-9-8-x[Fixed issues].
 
 * <<new-9-8-0,9.8.0.sw New Features and Functionality>>
 * <<upgrade-paths,Supported Upgrade Paths>>
