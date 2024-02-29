@@ -569,6 +569,7 @@ span.badge.badge-new {
 *** xref:connections-databricks-delete.adoc[Delete connection]
 *** xref:connections-databricks-oauth.adoc[Configure OAuth]
 *** xref:connections-databricks-reference.adoc[Reference]
+*** xref:connections-databricks-best.adoc[Databricks best practices]
 ** xref:connections-denodo.adoc[Denodo]
 *** xref:connections-denodo-add.adoc[Add connection]
 *** xref:connections-denodo-edit.adoc[Edit connection]
