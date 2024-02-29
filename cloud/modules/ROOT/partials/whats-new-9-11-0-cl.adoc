@@ -102,12 +102,7 @@ You can now view note tiles for Liveboards in the mobile app.
 [discrete]
 === Answer data panel enhancements
 
-In this release we've made the following improvements to the new Answer data panel:
-
-- Filtering is now available when you hover on a column.
-- The group _By category_ view is shown by default (instead of the Popular columns view).
-- When you click a column, the column information panel opens by default.
-You can request to have the column information panel disabled, by contacting {support-url}.
+We've made improvements to the new Answer data panel, including filtering as you hover on a column, _By category_ grouping by default, and displaying the information panel when you click a column.
 
 
 // Mark -- SCAL-179810. add gif. shorten to a couple sentences
