@@ -23,11 +23,14 @@ Based on your embedding requirements and integration setup, you can use one of t
 
 === Embedding with Visual Embed SDK
 The Visual Embed SDK provides a Javascript library to embed ThoughtSpot elements in your host application.The Visual Embed SDK is available for installation as a Node Package Manager (NPM) package.
-You can use the Visual Embed SDK for the following purposes:
+You can use the Visual Embed SDK to embed the following components:
 
-* Embed specific components of the ThoughtSpot application; for example, the https://developers.thoughtspot.com/docs/embed-searchbar[Search bar, window=_blank], https://developers.thoughtspot.com/docs/search-embed[Search page, window=_blank],
-https://developers.thoughtspot.com/docs/embed-nls[Natural Language Search capability, window=_blank], https://developers.thoughtspot.com/docs/embed-liveboard[Liveboards, window=_blank], and https://developers.thoughtspot.com/docs/embed-a-viz[visualizations, window=_blank].
-* Render the https://developers.thoughtspot.com/docs/full-embed[entire ThoughtSpot app,window=_blank] within the context of your host application.
+* Use the LiveboardEmbed component to embed a https://developers.thoughtspot.com/docs/embed-a-viz[single visualization, window=_blank] or a full https://developers.thoughtspot.com/docs/embed-liveboard[Liveboard, window=_blank] with multiple visualizations
+* Use the AppEmbed library to embed https://developers.thoughtspot.com/docs/full-embed[full ThoughtSpot application, window=_blank] in your app
+* Use the SageEmbed package to embed https://developers.thoughtspot.com/docs/embed-nls[Natural Language Search, window=_blank] interface
+* Use the SearchEmbed package to embed the ThoughtSpot https://developers.thoughtspot.com/docs/getting-started?pageid=embed-search[Search page, window=_blank] with a pre-selected data source
+* Use the SearchBarEmbed component to embed only the ThoughtSpot https://developers.thoughtspot.com/docs/embed-searchbar[Search bar, window=_blank] and data panel
+
 
 ==== Developer Playground
 ThoughtSpot provides users with the access to the *Develop* page in the UI.
