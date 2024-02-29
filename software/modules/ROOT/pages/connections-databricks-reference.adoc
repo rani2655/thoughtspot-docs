@@ -60,4 +60,4 @@ Example;; sample_db
 > * xref:connections-databricks-delete-table-dependencies.adoc[]
 > * xref:connections-databricks-oauth.adoc[]
 > * xref:connections-databricks-delete.adoc[]
-
+> * xref:connections-databricks-best.adoc[]

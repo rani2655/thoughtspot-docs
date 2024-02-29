@@ -102,6 +102,7 @@ To share a connection with another user, follow these steps:
 . Select *Done*.
 
 Note that to remove share access from a connection, you must navigate to the *Share connection* dialog and select *Remove access* to the left of the user group or name.
+
 '''
 > **Related information**
 >
@@ -112,4 +113,4 @@ Note that to remove share access from a connection, you must navigate to the *Sh
 > * xref:connections-databricks-delete.adoc[]
 > * xref:connections-databricks-oauth.adoc[]
 > * xref:connections-databricks-reference.adoc[]
-
+> * xref:connections-databricks-best.adoc[]
