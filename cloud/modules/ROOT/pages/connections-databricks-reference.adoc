@@ -62,3 +62,4 @@ Example;; sample_db
 > * xref:connections-databricks-oauth.adoc[Configure OAuth for a {connection} connection]
 > * xref:connections-databricks-private-link.adoc[]
 > * xref:connections-databricks-passthrough.adoc[]
+> * xref:connections-databricks-best.adoc[]

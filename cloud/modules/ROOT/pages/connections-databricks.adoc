@@ -6,7 +6,7 @@
 :experimental:
 :connection: Databricks
 :description: You can add a connection to a Databricks database in ThoughtSpot Cloud, and perform live queries to create Answers and Liveboards.
-
+:jira: SCAL-191528
 
 
 You can add a connection to a {connection} database in ThoughtSpot Cloud, and perform live queries to create Answers and Liveboards.
@@ -20,4 +20,5 @@ You can add a connection to a {connection} database in ThoughtSpot Cloud, and pe
 * xref:connections-databricks-oauth.adoc[Configure OAuth for a {connection} connection]
 * xref:connections-databricks-private-link.adoc[]
 * xref:connections-databricks-reference.adoc[Connection reference for {connection}]
+* xref:connections-databricks-best.adoc[]
 * xref:connections-databricks-passthrough.adoc[]
