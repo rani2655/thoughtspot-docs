@@ -117,3 +117,4 @@ If you do not have a valid OAuth access token, you can now directly navigate to 
 > * xref:connections-databricks-reference.adoc[Connection reference for {connection}]
 > * xref:connections-databricks-passthrough.adoc[]
 > * xref:connections-column-indexing-oauth.adoc[]
+> * xref:connections-databricks-best.adoc[]

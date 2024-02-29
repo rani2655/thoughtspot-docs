@@ -184,6 +184,7 @@
 **** xref:connections-databricks-oauth.adoc[Configure OAuth]
 **** xref:connections-databricks-private-link.adoc[Enable a PrivateLink]
 **** xref:connections-databricks-reference.adoc[Connection reference]
+**** xref:connections-databricks-best.adoc[Databricks best practices]
 **** xref:connections-databricks-partner.adoc[Databricks Partner Connect overview]
 **** xref:connections-databricks-passthrough.adoc[]
 *** xref:connections-denodo.adoc[Connect to Denodo]
