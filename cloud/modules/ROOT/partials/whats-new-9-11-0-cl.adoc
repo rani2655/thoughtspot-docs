@@ -104,6 +104,7 @@ You can now view note tiles for Liveboards in the mobile app.
 
 We've made improvements to the new Answer data panel, including filtering as you hover on a column, _By category_ grouping by default, and displaying the information panel when you click a column.
 
+image::answer-panel-new.gif[Information panel appears when you click on a column, filter appears when you hover over a column]
 
 // Mark -- SCAL-179810. add gif. shorten to a couple sentences
 // PM: Alok, Akshay
