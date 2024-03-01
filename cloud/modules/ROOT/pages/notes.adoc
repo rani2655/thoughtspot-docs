@@ -466,6 +466,10 @@ For these instructions, see xref:ts-cloud-getting-started.adoc[Getting Started w
 Embedding in note tiles [.badge.badge-early-access-relnotes]#Early Access#::
 You can now embed interactive content such as videos, pdfs, or Figma files into Liveboards using the note tile format. To try it out, enter a Liveboard, select the edit icon, and select Add note from the top bar. You can then click the embed icon and enter the URL or iFrame code for your content. You can interact with the content embedded in a Liveboard like you would with a website. To enable this feature, contact {support-url}. For more information, see xref:liveboard-notes.adoc#embed[Embedding content with an iFrame].
 
+// SCAL-174031
+Multi-date bucketing:: Previously, when adding multiple date keywords to a Search, ThoughtSpot accepted the last entered date keyword as the bucket. For example, if you searched for `revenue` `monthly` `yearly`, ThoughtSpot would interpret `monthly` as `month of year`, rather than using the `monthly` bucket. +
+Now, when you add multiple date keywords to a Search, ThoughtSpot preserves the date bucketing implied by the first date keyword. If you would like to change the default date bucket, you can use the *more options* menu for the column and select *Time Bucket* for more options. For more information, see xref:chart-table-change.adoc#multi-bucket[Multi-date bucketing].
+
 [#9-6-0-cl-business-user]
 === For the Business User
 
