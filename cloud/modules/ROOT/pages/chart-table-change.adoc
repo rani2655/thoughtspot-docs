@@ -5,6 +5,7 @@
 :page-layout: default-cloud
 :page-aliases: /complex-search/change-the-view.adoc
 :description: You can change how your search results (Answers) appear.
+:jira: SCAL-174031
 
 Your search results, or Answers, have various display options.
 You can change the visualization used to display your results, their sort order, how ThoughtSpot groups the data, and what data ThoughtSpot includes.
@@ -81,6 +82,31 @@ image::changeview-chartbucket.png[Choose a date bucket on a chart]
 ThoughtSpot chooses a default date bucket for you when you search.
 This default takes the entire search result into account.
 For example, if your search includes last month, dates are bucketed daily instead of monthly.
+
+[#multi-bucket]
+Previously, when adding multiple date keywords to a Search, ThoughtSpot accepted the last entered date keyword as the bucket. For example, if you searched for `revenue` `monthly` `yearly`, ThoughtSpot would interpret `monthly` as `month of year`, rather than using the `monthly` bucket. This meant you would see results like the following:
+
+[options="header"]
+|===
+| Month of year order date | Yearly order date | Total revenue
+
+| January | 1992 | 102.4 Million
+
+| February | 1992 | 104.4 Million
+|===
+
+Now, when you add multiple date keywords to a Search, ThoughtSpot preserves the date bucketing implied by the first date keyword. If you search for `revenue` `monthly` `yearly`, you see the results using the `monthly` date bucketing, and the results look like the following:
+
+[options="header"]
+|===
+| Monthly order date | Yearly order date | Total revenue
+
+| Jan 1992 | 1992 | 102.4 Million
+
+| Feb 1992 | 1992 | 104.4 Million
+|===
+
+If you would like to change the date bucketing to be `month of year` instead, you can do so by hovering over the Monthly order date column title, clicking the *more options* icon image:icon-more-10px.png[ellipsis icon], and selecting *Time Bucket > Month > Month of Year*.
 
 [#exclude-and-include-row-values]
 == Exclude and include row values
