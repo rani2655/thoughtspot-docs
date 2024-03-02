@@ -374,6 +374,8 @@ endif::[]
 
 You can now create joins in your Model by clicking and dragging from one table to another.
 
+image::join-drag.gif[Click and drag to create a join]
+
 // Mark -- SCAL-180588. add gif? gif could clarify any steps.
 // PM: Samridh
 endif::free-trial-feature[]
