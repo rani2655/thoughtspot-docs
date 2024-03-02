@@ -5,17 +5,16 @@
 :linkattrs:
 :page-layout: default-cloud
 :description: Certain features supported for ThoughtSpot on AWS are not available for ThoughtSpot on GCP.
-:jira: SCAL-192404, SCAL-196074, SCAL-196296
+:jira: SCAL-192404, SCAL-196074, SCAL-196296, SCAL-196860
 
 Certain features supported for ThoughtSpot on AWS are not available for ThoughtSpot on GCP. Note that the following features are currently not supported for ThoughtSpot on GCP:
 
-
-* xref:ts-cloud-requirements-support.adoc#restrict_cluster_access_only_to_certain_ip_addresses[Allowed origin]
-* xref:custom-domains.adoc[Custom domains]
-* Catalog integration (xref:catalog-integration.adoc[Alation] and xref:catalog-integration-atlan.adoc[Atlan])
-* xref:business-continuity.adoc#disaster-recovery[Disaster Recovery]
 * xref:security-thoughtspot-lifecycle.adoc#advanced-data-ear[Advanced encryption at rest]
+* xref:ts-cloud-requirements-support.adoc#restrict_cluster_access_only_to_certain_ip_addresses[Allowed origin]
+* Catalog integration (xref:catalog-integration.adoc[Alation] and xref:catalog-integration-atlan.adoc[Atlan])
+* xref:custom-domains.adoc[Custom domains]
+* xref:business-continuity.adoc#disaster-recovery[Disaster Recovery]
+* xref:connections-gbq-open-vpn.adoc[GBQ Open VPN] and xref:connections-synapse-open-vpn.adoc[Synapse VPN]
 * xref:business-continuity.adoc#high-availability[Multi-node (High Availability)]
 * xref:spotiq-change.adoc#natural[Natural language narratives for SpotIQ]
-* xref:connections-ipsec-vpn.adoc[IPSec VPN], xref:connections-gbq-open-vpn.adoc[GBQ Open VPN] and xref:connections-synapse-open-vpn.adoc[Synapse VPN]
 * xref:spotapps.adoc[SpotApps]
