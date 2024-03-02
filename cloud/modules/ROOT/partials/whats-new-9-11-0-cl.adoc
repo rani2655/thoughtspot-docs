@@ -43,18 +43,6 @@ ifdef::pendo-links[]
 xref:formulas-keywords.adoc[Keywords: Of and Percentage of,window=_blank].
 endif::[]
 
-[#9-11-0-cl-feedback]
-[discrete]
-=== Feedback Review
-
-// Naomi -- SCAL-154204. move to secondary features. mention Sage AI Answers. check if sage is internal.
-// PM: Santiago
-
-We made the following changes to ThoughtSpot feedback review for Sage AI Answers:
-
-* Feedback for AI Answers is now Org-aware.
-* When you make a change to a Worksheet, ThoughtSpot now alerts you if this will affect any related query feedback. If you accept this and make the change, the feedback depending on that Worksheet is deleted.
-* You can now import query feedback when you move information from a development cluster to a production cluster.
 
 ////
 [#9-11-0-cl-conv-assist]
@@ -108,6 +96,34 @@ image::answer-panel-new.gif[Information panel appears when you click on a column
 
 // Mark -- SCAL-179810. add gif. shorten to a couple sentences
 // PM: Alok, Akshay
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-10-0-cl-conditional]
+[discrete]
+=== Advanced conditional formatting [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-10-0-cl-conditional]
+[discrete]
+=== Advanced conditional formatting [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
+// Naomi -- scal-177005. is it visualization as well as table? check if it's in early access panel.
+// PM: Manan
+
+Rather than simply using conditional formatting comparing a column's measures to a single value (for example, `sales > 10000`), you can now use conditional formatting to compare a column's measures to another column or to a parameter. For example, if you search for `sales this year` compared to `sales last year`, you can highlight where sales this year were less than last year. You can set multiple conditional formatting rules to a single table. To enable this feature, contact your administrator.
+
+For more information, see
+ifndef::pendo-links[]
+xref:search-conditional-formatting.adoc#advanced-conditional-formatting[Advanced conditional formatting].
+endif::[]
+ifdef::pendo-links[]
+xref:search-conditional-formatting.adoc#advanced-conditional-formatting[Advanced conditional formatting,window=_blank].
+endif::[]
+
+image::advanced-conditional-formatting.gif[Advanced conditional formatting comparing sales of state to sales of region]
+endif::free-trial-feature[]
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
@@ -166,32 +182,6 @@ endif::[]
 endif::free-trial-feature[]
 ////
 
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
-[#9-10-0-cl-conditional]
-[discrete]
-=== Advanced conditional formatting [.badge.badge-early-access]#Early Access#
-endif::[]
-ifdef::pendo-links[]
-[#9-10-0-cl-conditional]
-[discrete]
-=== Advanced conditional formatting [.badge.badge-early-access-whats-new]#Early Access#
-endif::[]
-
-// Naomi -- scal-177005. move up higher? is it visualization as well as table? check if it's in early access panel.
-// PM: Manan
-
-Rather than simply using conditional formatting comparing a column's measures to a single value (for example, `sales > 10000`), you can now use conditional formatting to compare a column's measures to another column or to a parameter. For example, if you search for `sales this year` compared to `sales last year`, you can highlight where sales this year were less than last year. You can set multiple conditional formatting rules to a single table. To enable this feature, contact your administrator.
-
-For more information, see
-ifndef::pendo-links[]
-xref:search-conditional-formatting.adoc#advanced-conditional-formatting[Advanced conditional formatting].
-endif::[]
-ifdef::pendo-links[]
-xref:search-conditional-formatting.adoc#advanced-conditional-formatting[Advanced conditional formatting,window=_blank].
-endif::[]
-
-image::advanced-conditional-formatting.gif[Advanced conditional formatting comparing sales of state to sales of region]
 
 ////
 [#9-11-0-cl-gradient]
@@ -397,6 +387,19 @@ By default, this feature is turned off. To enable this feature, contact {support
 
 // Data Engineer
 
+[#9-11-0-cl-feedback]
+[discrete]
+=== Feedback Review
+
+// Naomi -- SCAL-154204. check if sage is internal.
+// PM: Santiago
+
+We made the following changes to ThoughtSpot feedback review for Sage AI Answers:
+
+* Feedback for AI Answers is now Org-aware.
+* When you make a change to a Worksheet, ThoughtSpot now alerts you if this will affect any related query feedback. If you accept this and make the change, the feedback depending on that Worksheet is deleted.
+* You can now import query feedback when you move information from a development cluster to a production cluster.
+
 [#9-11-0-cl-pkce]
 [discrete]
 === OAuth for Snowflake using Proof Key for Code Exchange (PKCE)
@@ -437,10 +440,10 @@ ifdef::pendo-links[]
 === Mode connector [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 
-// Naomi -- SCAL-176923. clarify whether it supports data models as well as worksheets.
+// Naomi -- SCAL-176923. clarify whether it supports data models as well as worksheets. (It does)
 // PM: Sara Vredevoogd
 
-ThoughtSpot now supports connections to Mode. Import reusable Datasets created in Mode as table extracts to leverage the full ThoughtSpot product, from Worksheet creation to Sage Search, Answer creation, and KPI monitoring.
+ThoughtSpot now supports connections to Mode. Import reusable Datasets created in Mode as table extracts to leverage the full ThoughtSpot product, from Worksheet/Model creation to Sage Search, Answer creation, and KPI monitoring.
 
 endif::free-trial-feature[]
 
@@ -451,7 +454,7 @@ endif::free-trial-feature[]
 // Naomi -- SCAL-178532. mention that you can download it earlier?
 // PM: Sara Vredevoogd
 
-To increase clarity when an error prevents data from loading, we now classify failed searches as either "Error in connecting to data source" or "Error in executing query." Our improved error messages surface details about why the error occurred. You can click "copy error details" to download and send a file to your administrators.
+To increase clarity when an error prevents data from loading, we now classify failed searches as either "Error in connecting to data source" or "Error in executing query," and you can click "Copy error details" to download and send a file to your administrators. Our improved error messages surface details about why the error occurred.
 
 
 [#9-11-0-cl-custom-link]
