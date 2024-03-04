@@ -14,6 +14,35 @@ endif::free-trial-feature[]
 
 // Business User
 
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-11-0-cl-spotiq]
+[discrete]
+=== AI Highlights [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-11-0-cl-spotiq]
+[discrete]
+=== AI Highlights [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
+With AI Highlights, you get quick insights on how top metrics have changed in your Liveboard, dramatically reducing the time to derive insights from your KPIs. To enable this feature, contact your administrator.
+For more information, see
+ifndef::pendo-links[]
+xref:liveboard-ai-highlights.adoc[AI highlights].
+endif::[]
+ifdef::pendo-links[]
+xref:liveboard-ai-highlights.adoc[AI highlights,window=_blank].
+endif::[]
+
+image::liveboard-highlight.gif[AI Highlights]
+
+
+// Mark -- SCAL-162712
+// PM: Manan
+
+endif::free-trial-feature[]
+
 ////
 [#9-11-0-cl-liveboard]
 [discrete]
@@ -25,23 +54,6 @@ endif::free-trial-feature[]
 You can now use the Object Usage Liveboard to understand how ThoughtSpot is saving you time with ad-hoc insights, and how many users are accessing ThoughtSpot and creating new insights every month.
 ////
 
-[#9-11-0-cl-percentage]
-[discrete]
-=== Keywords "of" and "percentage of"
-
-// Naomi -- SCAL-151987
-// PM: Damian
-
-
-The "of" and "percentage of" keywords are now on by default and available to all users. You can use the "of" and "percentage of" keywords to answer questions related to mix, contribution, share of, percentage, and total ratios. These keywords help answer questions such as "What is the share of a certain store’s sales as a percentage of the regional whole?" Previously, these kinds of questions required the use of a group aggregate formula, which presented a barrier to users. To try out this feature, enter a search phrase in the search bar containing the keyword, such as `sales percentage of store region`, and press *Go*.
-
-For more information, see
-ifndef::pendo-links[]
-xref:formulas-keywords.adoc[Keywords: Of and Percentage of].
-endif::[]
-ifdef::pendo-links[]
-xref:formulas-keywords.adoc[Keywords: Of and Percentage of,window=_blank].
-endif::[]
 
 
 ////
@@ -79,21 +91,26 @@ endif::[]
 // Mark -- SCAL-160332
 // PM: Adi
 
-[#9-10-1-cl-mobile]
-[discrete]
-=== Mobile app updates
-* Note tiles on mobile
-** You can now view note tiles for Liveboards in the mobile app. This feature is available in version 9.2.0 of the ThoughtSpot mobile app.
-// Mary -- SCAL-182153
-// PM: Vaibhav
-
 [#9-11-0-cl-data-panel]
 [discrete]
 === Answer data panel enhancements
 
+// change "we've made improvements" to "now, in the data panel"
+
 We've made improvements to the new Answer data panel, including filtering as you hover on a column, _By category_ grouping by default, and displaying the information panel when you click a column.
 
 image::answer-panel-new.gif[Information panel appears when you click on a column, filter appears when you hover over a column]
+
+[#9-10-1-cl-mobile]
+[discrete]
+=== Mobile app updates
+* Note tiles on mobile
+** You can now view note tiles for Liveboards in the mobile app. This feature is available in version 2.9.0 of the ThoughtSpot mobile app.
+
+// Mary -- SCAL-182153. add image.
+// PM: Vaibhav
+
+
 
 // Mark -- SCAL-179810. add gif. shorten to a couple sentences
 // PM: Alok, Akshay
@@ -129,34 +146,7 @@ image::advanced-conditional-formatting.gif[Advanced conditional formatting compa
 endif::free-trial-feature[]
 ////
 
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
-[#9-11-0-cl-spotiq]
-[discrete]
-=== AI Highlights [.badge.badge-early-access]#Early Access#
-endif::[]
-ifdef::pendo-links[]
-[#9-11-0-cl-spotiq]
-[discrete]
-=== AI Highlights [.badge.badge-early-access-whats-new]#Early Access#
-endif::[]
 
-With AI Highlights, you get quick insights on how top metrics have changed in your Liveboard, dramatically reducing the time to derive insights from your KPIs. To enable this feature, contact your administrator.
-For more information, see
-ifndef::pendo-links[]
-xref:liveboard-ai-highlights.adoc[AI highlights].
-endif::[]
-ifdef::pendo-links[]
-xref:liveboard-ai-highlights.adoc[AI highlights,window=_blank].
-endif::[]
-
-image::liveboard-highlight.gif[AI Highlights]
-
-
-// Mark -- SCAL-162712
-// PM: Manan
-
-endif::free-trial-feature[]
 
 ////
 [#9-11-0-cl-org]
@@ -226,18 +216,18 @@ image::custom-groups.gif[Reusable set creation process]
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
-[#9-10-0-cl-byoc]
+[#9-11-0-cl-byoc]
 [discrete]
 === Custom charts [.badge.badge-beta]#Beta#
 endif::[]
 ifdef::pendo-links[]
-[#9-10-0-cl-byoc]
+[#9-11-0-cl-byoc]
 [discrete]
 === Custom charts [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
 
-You can now use custom charts created outside of ThoughtSpot. Developers with your company can create custom charts using the ThoughtSpot Charts SDK. To enable this feature, contact {support-url}.
+You can now use custom charts created outside of ThoughtSpot. Developers in your company can create custom charts using the ThoughtSpot Charts SDK. To enable this feature, contact {support-url}.
 For more information, see
 ifndef::pendo-links[]
 xref:chart-byoc.adoc[Custom charts].
@@ -249,26 +239,36 @@ endif::[]
 
 image::custom-chart-select.png[Custom Chart]
 
-// Mark -- scal-171984, scal-67410. possibly below "other features"
+// Mark -- scal-171984, scal-67410. possibly below "other features". emphasize the vast range of charts you can now use? split into two blurbs-- business user / developer? include names of third-party providers?
 endif::free-trial-feature[]
+
+
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-11-0-cl-simple-cohorts]
 [discrete]
-=== Cohorts [.badge.badge-early-access]#Early Access#
+=== Custom sets [.badge.badge-early-access]#Early Access#
 endif::[]
 ifdef::pendo-links[]
 [#9-11-0-cl-simple-cohorts]
 [discrete]
-=== Cohorts [.badge.badge-early-access-whats-new]#Early Access#
+=== Custom sets [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 
-You can create custom sets, which can be used to classify values in a list that you can then reuse across multiple analyses. ThoughtSpot introduces custom column sets in this release. A column set is a custom group of values from a single column. As an example, you can use custom sets to define regions with specific countries included or excluded. Custom sets are community objects which remain when you navigate away from the Search Data page and can be used by any user with view access to the underlying Worksheet. To enable this feature, contact {support-url}.
+You can create custom sets, which can be used to classify values in a list that you can then reuse across multiple analyses. ThoughtSpot introduces custom column sets in this release. A column set is a custom group of values from a single column. For example, you can use custom sets to define regions with specific countries included or excluded. Custom sets are community objects which remain when you navigate away from the Search Data page and can be used by any user with view access to the underlying Worksheet. To enable this feature, contact {support-url}.
+
+For more information, see
+ifndef::pendo-links[]
+xref:custom-groups.adoc[Custom sets].
+endif::[]
+ifdef::pendo-links[]
+xref:custom-groups.adoc[Custom sets,window=_blank].
+endif::[]
 
 image::column-set.gif[Column set creation process]
 
-For more information, see xref:custom-groups.adoc[Custom sets].
+
 
 // Mary -- SCAL-150356
 // PM: Damian
@@ -276,6 +276,25 @@ For more information, see xref:custom-groups.adoc[Custom sets].
 
 
 endif::free-trial-feature[]
+
+[#9-11-0-cl-percentage]
+[discrete]
+=== Keywords "of" and "percentage of"
+
+// Naomi -- SCAL-151987
+// PM: Damian
+
+
+The "of" and "percentage of" keywords are now on by default and available to all users. You can use the "of" and "percentage of" keywords to answer questions related to mix, contribution, share of, percentage, and total ratios. These keywords help answer questions such as "What is the share of a certain store’s sales as a percentage of the regional whole?" To try out this feature, enter a search phrase in the search bar containing the keyword, such as `sales percentage of store region`, and press *Go*.
+
+For more information, see
+ifndef::pendo-links[]
+xref:formulas-keywords.adoc[Keywords: Of and Percentage of].
+endif::[]
+ifdef::pendo-links[]
+xref:formulas-keywords.adoc[Keywords: Of and Percentage of,window=_blank].
+endif::[]
+
 
 [#9-11-0-cl-sync]
 [discrete]
@@ -304,7 +323,7 @@ ifdef::pendo-links[]
 === Collibra integration [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
-// Naomi -- SCAL-174136. does not need images.
+// Naomi -- SCAL-174136. does not need images. split between business user and data engineer.
 // PM: Sarib
 
 You can now import metadata information related to your tables and columns from Collibra into ThoughtSpot. From the Data tab, you can set up a connection to Collibra to import column descriptions, column verification status, table descriptions, and table verification status. To enable this feature, contact {support-url}.
@@ -318,6 +337,116 @@ xref:catalog-integration-collibra.adoc[Collibra integration,window=_blank].
 endif::[]
 
 endif::free-trial-feature[]
+
+
+
+// [#9-11-0-cl-bulk]
+// [discrete]
+// === Bulk editing Worksheet column properties
+
+// TBD - waiting for a response from Samridh
+
+// Mark -- SCAL-158660
+// PM: Samridh
+
+
+
+[#9-11-0-cl-tscli]
+[discrete]
+=== Remove additional information when exporting a Liveboard as a CSV
+ThoughtSpot allows users to export a Liveboard as a CSV. By default, the exported CSV has some additional information, such as filters applied, and user information. ThoughtSpot introduces the ability to remove this additional information when exporting a Liveboard as a CSV.
+By default, this feature is turned off. To enable this feature, contact {support-url}.
+// Mary -- SCAL-179229
+// PM: Vanshree - TSCLI flag to allow users to remove the additional information while exporting/scheduling Liveboard as a CSV. By default, the flag will be set to false. If the customer wants to remove the additional information, they will contact the SRE team to run the command. Awaiting confirmation from Vanshree as to whether or not this should be considered Beta in 9.11.0.cl.
+
+
+
+'''
+[#secondary-9-11-0-cl]
+[discrete]
+=== _Other features and enhancements_
+
+// Data Engineer
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-11-0-cl-mode]
+[discrete]
+=== Mode connector [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-11-0-cl-mode]
+[discrete]
+=== Mode connector [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
+// Naomi -- SCAL-176923. clarify whether it supports data models as well as worksheets. (It does). now support federated data sources. check in about availability. how is it enabled.
+// PM: Sara Vredevoogd
+
+ThoughtSpot now supports connections to Mode. Import reusable Datasets created in Mode as table extracts to leverage the full ThoughtSpot product, from Worksheet/Model creation to Search, Answer creation, and KPI monitoring.
+
+endif::free-trial-feature[]
+
+
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-11-0-cl-worksheet]
+[discrete]
+=== Click and drag to create joins with Models [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-11-0-cl-worksheet]
+[discrete]
+=== Click and drag to create joins with Models [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
+You can now create joins in your Model by clicking and dragging from one table to another.
+
+image::join-drag.gif[Click and drag to create a join]
+
+// Mark -- SCAL-180588. add gif? gif could clarify any steps.
+// PM: Samridh
+endif::free-trial-feature[]
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-11-0-cl-granular]
+[discrete]
+=== Granular privileges: addition of granular privileges for can-manage-data [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#9-11-0-cl-granular]
+[discrete]
+=== Granular privileges: addition of granular privileges for can-manage-data [.badge.badge-beta-whats-new]#Beta#
+endif::[]
+ThoughtSpot Role-Based Access Control (RBAC) enhances the granularity of permissions with the addition of new data management privileges. The following data management privileges have been added:
+|===
+|ThoughtSpot RBAC privileges|Description
+|CAN_CREATE_OR_EDIT_CONNECTIONS|Can create or edit connections|
+CAN_MANAGE_WORKSHEET_VIEWS_TABLES|Can manage data models|
+CAN_MANAGE_CUSTOM_CALENDAR|Can manage custom calendars|
+USERDATAUPLOADING|Can upload user data
+|===
+
+RBAC is disabled by default. To enable this feature, contact {support-url}.
+// Mary -- SCAL-139496 - See Mark regarding table column widths. What are the external names for the RBAC privileges - awaiting cluster from @Abhijit Deka. make title more succinct
+// PM: Vijay/Aashica
+
+endif::free-trial-feature[]
+
+[#9-11-0-cl-feedback]
+[discrete]
+=== Feedback review
+
+// Naomi -- SCAL-154204. check if sage is internal.
+// PM: Santiago
+
+We made the following changes to ThoughtSpot feedback review for AI Answers:
+
+* Feedback for AI Answers is now Org-aware.
+* When you make a change to a Worksheet, ThoughtSpot now alerts you if this will affect any related query feedback. If you accept this and make the change, the feedback depending on that Worksheet is deleted.
+* You can now import query feedback when you move information from a development cluster to a production cluster.
 
 [#9-11-0-cl-dbt-share]
 [discrete]
@@ -350,73 +479,28 @@ ifdef::pendo-links[]
 xref:dbt-integration.adox#errors[dbt error messages].
 endif::[]
 
+////
+[#9-11-0-cl-join-enhance]
+[discrete]
+=== dbt integration: join enhancement
+
+// Naomi -- SCAL-126453
+// PM: Sarib
+
+When creating a Worksheet from a dbt connection, ThoughtSpot joins the tables based on the relationships defined in the underlying .yml schema file. These relationships are respected for Worksheets and Models.
+////
+
 [#9-11-0-cl-ts-groups]
 [discrete]
 === Ts_Groups system variable
 
-// Naomi -- SCAL-164290. add what the formula means.
+// Naomi -- SCAL-164290. add what the formula means. add article.
 // PM: Damian
 
-ThoughtSpot now supports the `ts_groups` system variable in Answer and Worksheet formulas. You can use the `ts_groups` variable for deciding whether to display the value of a column based on the group value. For example, you could create a formula such as: `masked sales = if ( 'all data' in ts_groups) then sales else null`. The formula checks if you are a member of the 'all data' group. If you are a member, the formula returns the sales column. If not, it returns null.
-
-// [#9-11-0-cl-bulk]
-// [discrete]
-// === Bulk editing Worksheet column properties
-
-// TBD - waiting for a response from Samridh
-
-// Mark -- SCAL-158660
-// PM: Samridh
-
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
-[#9-11-0-cl-worksheet]
-[discrete]
-=== Click and drag to create joins with Models [.badge.badge-early-access]#Early Access#
-endif::[]
-ifdef::pendo-links[]
-[#9-11-0-cl-worksheet]
-[discrete]
-=== Click and drag to create joins with Models [.badge.badge-early-access-whats-new]#Early Access#
-endif::[]
-
-You can now create joins in your Model by clicking and dragging from one table to another.
-
-image::join-drag.gif[Click and drag to create a join]
-
-// Mark -- SCAL-180588. add gif? gif could clarify any steps.
-// PM: Samridh
-endif::free-trial-feature[]
-
-[#9-11-0-cl-tscli]
-[discrete]
-=== Remove additional information when exporting a Liveboard as a CSV
-ThoughtSpot allows users to export a Liveboard as a CSV. By default, the exported CSV has some additional information, such as filters applied, and user information. ThoughtSpot introduces the ability to remove this additional information when exporting a Liveboard as a CSV.
-By default, this feature is turned off. To enable this feature, contact {support-url}.
-// Mary -- SCAL-179229
-// PM: Vanshree - TSCLI flag to allow users to remove the additional information while exporting/scheduling Liveboard as a CSV. By default, the flag will be set to false. If the customer wants to remove the additional information, they will contact the SRE team to run the command. Awaiting confirmation from Vanshree as to whether or not this should be considered Beta in 9.11.0.cl.
-
-
-
-'''
-[#secondary-9-11-0-cl]
-[discrete]
-=== _Other features and enhancements_
-
-// Data Engineer
-
-[#9-11-0-cl-feedback]
-[discrete]
-=== Feedback Review
-
-// Naomi -- SCAL-154204. check if sage is internal.
-// PM: Santiago
-
-We made the following changes to ThoughtSpot feedback review for Sage AI Answers:
-
-* Feedback for AI Answers is now Org-aware.
-* When you make a change to a Worksheet, ThoughtSpot now alerts you if this will affect any related query feedback. If you accept this and make the change, the feedback depending on that Worksheet is deleted.
-* You can now import query feedback when you move information from a development cluster to a production cluster.
+ThoughtSpot now supports the `ts_groups` system variable in Answer and Worksheet formulas. You can use the `ts_groups` variable for data masking, or deciding whether to display the value of a column to a user based on their group membership.
+////
+For example, you could create a formula such as: `masked sales = if ( 'all data' in ts_groups) then sales else null`. The formula checks if you are a member of the 'all data' group. If you are a member, the formula returns the sales column. If not, it returns null.
+////
 
 [#9-11-0-cl-pkce]
 [discrete]
@@ -427,14 +511,7 @@ ThoughtSpot incorporates PKCE for Snowflake. The addition of PKCE as an extensio
 // Mary -- SCAL-177859
 // PM: Sara Vredevoogd
 
-[#9-11-0-cl-join-enhance]
-[discrete]
-=== dbt integration: join enhancement
 
-// Naomi -- SCAL-126453
-// PM: Sarib
-
-When creating a Worksheet from a dbt connection, ThoughtSpot joins the tables based on the relationships defined in the underlying .yml schema file. These relationships are respected for Worksheets and Models.
 
 // IT/ Ops Engineer
 
@@ -443,38 +520,27 @@ When creating a Worksheet from a dbt connection, ThoughtSpot joins the tables ba
 [#9-11-0-cl-dremio]
 [discrete]
 === Dremio on-premises support for OAuth
-Dremio now supports use of OAuth with Dremio on-premises. This method of authentication enables ThoughtSpot to submit queries on behalf of users. For more information, see xref:connectiontio-dremio-oauth.adoc[Configure OAuth for a Dremio connection].
-
-// Mary -- SCAL-181886
-// PM: Sara Vredevoogd - Requires OIDC setup for Dremio with Okta IdP - details to follow.
-
-ifndef::free-trial-feature[]
+Dremio now supports use of OAuth with Dremio on-premises. For more information, see
 ifndef::pendo-links[]
-[#9-11-0-cl-mode]
-[discrete]
-=== Mode connector [.badge.badge-early-access]#Early Access#
+xref:connection-dremio-oauth.adoc[Configure OAuth for a Dremio connection].
 endif::[]
 ifdef::pendo-links[]
-[#9-11-0-cl-mode]
-[discrete]
-=== Mode connector [.badge.badge-early-access-whats-new]#Early Access#
+xref:connection-dremio-oauth.adoc[Configure OAuth for a Dremio connection,window=_blank].
 endif::[]
 
-// Naomi -- SCAL-176923. clarify whether it supports data models as well as worksheets. (It does)
-// PM: Sara Vredevoogd
+// Mary -- SCAL-181886
+// PM: Sara Vredevoogd - Requires OIDC setup for Dremio with Okta IdP - details to follow. self-managed dremio??
 
-ThoughtSpot now supports connections to Mode. Import reusable Datasets created in Mode as table extracts to leverage the full ThoughtSpot product, from Worksheet/Model creation to Sage Search, Answer creation, and KPI monitoring.
 
-endif::free-trial-feature[]
 
 [#9-11-0-cl-embrace]
 [discrete]
-=== Improve error messaging related to Connections for Search & Answers
+=== Connections for Search and Answers error messages
 
 // Naomi -- SCAL-178532. mention that you can download it earlier?
 // PM: Sara Vredevoogd
 
-To increase clarity when an error prevents data from loading, we now classify failed searches as either "Error in connecting to data source" or "Error in executing query," and you can click "Copy error details" to download and send a file to your administrators. Our improved error messages surface details about why the error occurred.
+To increase clarity when an error prevents data from loading, we classify failed searches as either "Error in connecting to data source" or "Error in executing query." You can click "Copy error details" to download and send a file to your administrators.
 
 
 [#9-11-0-cl-custom-link]
@@ -506,31 +572,7 @@ endif::[]
 endif::free-trial-feature[]
 ////
 
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
-[#9-11-0-cl-granular]
-[discrete]
-=== Granular privileges: addition of granular privileges for can-manage-data [.badge.badge-beta]#Beta#
-endif::[]
-ifdef::pendo-links[]
-[#9-11-0-cl-granular]
-[discrete]
-=== Granular privileges: addition of granular privileges for can-manage-data [.badge.badge-beta-whats-new]#Beta#
-endif::[]
-ThoughtSpot Role-Based Access Control (RBAC) enhances the granularity of permissions with the addition of new data management privileges. The following data management privileges have been added:
-|===
-|ThoughtSpot RBAC privileges|Description
-|CAN_CREATE_OR_EDIT_CONNECTIONS|Can create or edit connections|
-CAN_MANAGE_WORKSHEET_VIEWS_TABLES|Can manage data models|
-CAN_MANAGE_CUSTOM_CALENDAR|Can manage custom calendars|
-USERDATAUPLOADING|Can upload user data
-|===
 
-RBAC is disabled by default. To enable this feature, contact {support-url}.
-// Mary -- SCAL-139496 - See Mark regarding table column widths. What are the external names for the RBAC privileges - awaiting cluster from @Abhijit Deka.
-// PM: Vijay/Aashica
-
-endif::free-trial-feature[]
 
 // [#9-11-0-cl-worksheet-v2]
 // [discrete]
