@@ -25,7 +25,7 @@ An https://developers.thoughtspot.com/docs/?pageid=app-actions[app action] allow
 ////
 
 Callback actions::
-A https://developers.thoughtspot.com/docs/?pageid=custom-action-callback[callback action,window=_blank] triggers a callback event to the parent application and pushes the Answer or visualization data in a response payload. Callback actions are supported only on embedded instances and require a ThoughtSpot Everywhere Edition license.
+A https://developers.thoughtspot.com/docs/?pageid=custom-action-callback[callback action,window=_blank] triggers a callback event to the parent application and pushes the Answer or visualization data in a response payload. Callback actions are supported only on embedded instances and require a ThoughtSpot Embedded Edition license.
 
 == Global and local actions
 

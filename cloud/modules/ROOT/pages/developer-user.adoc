@@ -13,7 +13,7 @@ To learn about the different embedding methods, see https://developers.thoughtsp
 Developer users can access the *Develop* tab in the ThoughtSpot UI, explore the SDK and APIs in the Playground, and customize the embedded content.
 
 == Embed Licenses
-To embed ThoughtSpot in your app using the Visual Embed SDK and REST APIs, you must purchase the Embed Add-on or ThoughtSpot Everywhere Edition license. For more information on embedding licenses and features available with ThoughtSpot Analytics, see the following pages:
+To embed ThoughtSpot in your app using the Visual Embed SDK and REST APIs, you must purchase the Embed Add-on or ThoughtSpot Embedded Edition license. For more information on embedding licenses and features available with ThoughtSpot Analytics, see the following pages:
 
 * https://developers.thoughtspot.com/docs/get-started-tse[Embed licenses, window=_blank]
 * https://developers.thoughtspot.com/docs/license-feature-matrix[Feature matrix, window=_blank]
@@ -88,7 +88,7 @@ background color of the UI, background color of the top navigation panel, the co
 in the Admin tab or navigating to Develop > Customizations > Styles.
 
 https://developers.thoughtspot.com/docs/custom-css[Custom CSS] allows developers to override the default styles and UI element specifications in their deployments. Custom CSS provides granular control over the UI appearance and allows you
-to modify design elements such as buttons, labels, text styles, and typography. This feature is available only with the ThoughtSpot Everywhere Edition license.
+to modify design elements such as buttons, labels, text styles, and typography. This feature is available only with the ThoughtSpot Embedded Edition license.
 
 === Customize Links
 ThoughtSpot users receive system-generated links in email notifications, which allow them to access objects such as Liveboards, visualizations or saved answers.
