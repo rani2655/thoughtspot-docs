@@ -79,11 +79,12 @@ endif::[]
 // Mark -- SCAL-160332
 // PM: Adi
 
-[#9-11-0-cl-note]
+[#9-10-1-cl-mobile]
 [discrete]
-=== Note tiles on Mobile
-You can now view note tiles for Liveboards in the mobile app.
-// Mary -- SCAL-182153 - Note: Delivered in 9.2.0 mobile release notes. ? regarding requirement for user documentation as it is view/consumption only. Call out the exact mobile version the feature is live in.
+=== Mobile app updates
+* Note tiles on mobile
+** You can now view note tiles for Liveboards in the mobile app. This feature is available in version 9.2.0 of the ThoughtSpot mobile app.
+// Mary -- SCAL-182153
 // PM: Vaibhav
 
 [#9-11-0-cl-data-panel]
@@ -192,7 +193,7 @@ endif::free-trial-feature[]
 // PM: Manan - Moved out of 9.11.0.cl. No new ETV.
 ////
 
-
+////
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-11-0-cl-cohorts]
@@ -206,7 +207,6 @@ ifdef::pendo-links[]
 endif::[]
 You can create custom sets, which can be used to classify values in a list you can then reuse across multiple analyses. As an example, you can search for which products are most popular, and use custom sets to define them by sales volume as "gold", "silver", or "bronze" level products. Custom sets are community objects which remain when you navigate away from the Search Data page and can be used by any user with view access to the underlying Worksheet. To enable this feature, contact {support-url}.
 
-NOTE: Query sets are BETA in 9.11.0.cl.
 
 For more information, see
 ifndef::pendo-links[]
@@ -218,9 +218,9 @@ endif::[]
 
 image::custom-groups.gif[Reusable set creation process]
 // Mary -- SCAL-158899
-// PM: Damian - 9.4.0.cl BETA, updated terminology, needs new .gif as the UI has changed. Confirm whether Cohorts the full feature is EA.
-
+// PM: Damian - 9.4.0.cl BETA, updated terminology, needs new .gif as the UI has changed. Query sets remain beta for 9.11.0.cl. Damian has requeted that we don't mention the beta feature for this release as it will go EA in 9.12.0.cl, so this entry will be removed from the 9.11.0.cl WN.
 ////
+
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-11-0-cl-simple-cohorts]
@@ -233,29 +233,14 @@ ifdef::pendo-links[]
 === Cohorts [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 
-. From the *Data* panel, click *Add* and select either *Column set* or *Query set*.
+You can create custom sets, which can be used to classify values in a list that you can then reuse across multiple analyses. ThoughtSpot introduces custom column sets in this release. A column set is a custom group of values from a single column. As an example, you can use custom sets to define regions with specific countries included or excluded. Custom sets are community objects which remain when you navigate away from the Search Data page and can be used by any user with view access to the underlying Worksheet. To enable this feature, contact {support-url}.
 
-NOTE: Query set remains BETA in 9.11.0.cl so no UI is available - see below steps to create a Query set using formulas.
+image::column-set.gif[Column set creation process]
 
-A column set is a custom group of values from a single column.
-
-. Select the column to create groups based on.
-. Define the *Conditions* or *Bins*.
-Note: If your selected column is based on numerical values, *Bins* will be selected instead of *Conditions*.
-  . Optionally add additional conditions, or add additional groups.
-  . Rank/order the conditions by drag & drop. If multiple conditions are true the highest ranked is the one that will be used.
-  . Choose to return remaining values as *Individual values*, or as a *Group*.
-. Define a *Set name* and a *Set description* for the set.
-. Click *Create*.
-The set is now available from the left menu for use in this and other answers.
-
-A query set is a custom query
-
-
-//add image/animated gif to demonstrate the steps above as an example. Remove the detailed steps from WN.
 // Mary -- SCAL-150356
-// PM: Damian - Waiting for clarification from Damian as to whether or not we should document Query sets for 9.11.0.cl as it is BETA and no UI will be released. Currently it must be done using Formulas which may be confusing to the user.
-////
+// PM: Damian
+
+
 
 endif::free-trial-feature[]
 
@@ -372,11 +357,11 @@ endif::free-trial-feature[]
 
 [#9-11-0-cl-tscli]
 [discrete]
-=== [Papercut] [Customer commit] Implement tscli flag to allow the user to remove additional info while exporting LB as a CSV
+=== Remove additional information when exporting a Liveboard as a CSV
 ThoughtSpot allows users to export a Liveboard as a CSV. By default, the exported CSV has some additional information, such as filters applied, and user information. ThoughtSpot introduces the ability to remove this additional information when exporting a Liveboard as a CSV.
 By default, this feature is turned off. To enable this feature, contact {support-url}.
 // Mary -- SCAL-179229
-// PM: Vanshree - TSCLI flag to allow users to remove the additional information while exporting/scheduling Liveboard as a CSV. By default, the flag will be set to false. If the customer wants to remove the additional information, they will contact the SRE team to run the command. Simplify heading, do we call this beta?
+// PM: Vanshree - TSCLI flag to allow users to remove the additional information while exporting/scheduling Liveboard as a CSV. By default, the flag will be set to false. If the customer wants to remove the additional information, they will contact the SRE team to run the command. Awaiting confirmation from Vanshree as to whether or not this should be considered Beta in 9.11.0.cl.
 
 
 
@@ -422,11 +407,11 @@ When creating a Worksheet from a dbt connection, ThoughtSpot joins the tables ba
 
 [#9-11-0-cl-dremio]
 [discrete]
-=== Support for OAuth for Dremio on-prem
-Initially Dremio supported OAuth only for Cloud. Dremio now supports use with Dremio on-prem as well. This method of authentication enables ThoughtSpot to submit queries on behalf of users.
+=== Dremio on-premises support for OAuth
+Dremio now supports use of OAuth with Dremio on-premises. This method of authentication enables ThoughtSpot to submit queries on behalf of users.
 
 // Mary -- SCAL-181886
-// PM: Sara Vredevoogd - Requires OIDC setup for Dremio with Okta IdP - details to follow. May be software-only? Does this refer to on-prem/software of Dremio?
+// PM: Sara Vredevoogd - Requires OIDC setup for Dremio with Okta IdP - details to follow.
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
@@ -459,9 +444,9 @@ To increase clarity when an error prevents data from loading, we now classify fa
 
 [#9-11-0-cl-custom-link]
 [discrete]
-=== [Papercut] [Customer commit] Custom link for view Liveboard button in schedule
+=== Support for custom URLs in scheduled Liveboard emails
 ThoughtSpot introduces support for custom URL links in scheduled Liveboard emails. If your organization has set a custom URL for your clusters, the links in scheduled emails now include the custom URL.
-// Mary -- SCAL-168830. should view liveboard be capitalized?
+// Mary -- SCAL-168830.
 // PM: Vanshree
 
 ////
@@ -480,7 +465,7 @@ ifdef::pendo-links[]
 endif::[]
 
 // Mary -- SCAL-154299
-// PM: Vijay/Aashica - Awaiting confirmation regarding this one (PRD has not been updated. SCAL-139496 Can manage data and data modeling share the same eng doc and the same privileges)
+// PM: Vijay/Aashica - Awaiting confirmation regarding this one (PRD has not been updated. SCAL-139496 Can manage data and data modeling share the same eng doc and the same privileges). Remains in Beta, moved to EA in 9.12.0.cl.
 
 
 endif::free-trial-feature[]
@@ -490,14 +475,14 @@ ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-11-0-cl-granular]
 [discrete]
-=== Granular privileges: addition of granular privileges for can-manage-data [.badge.badge-early-access]#Early Access#
+=== Granular privileges: addition of granular privileges for can-manage-data [.badge.badge-beta]#Beta#
 endif::[]
 ifdef::pendo-links[]
 [#9-11-0-cl-granular]
 [discrete]
-=== Granular privileges: addition of granular privileges for can-manage-data [.badge.badge-early-access-whats-new]#Early Access#
+=== Granular privileges: addition of granular privileges for can-manage-data [.badge.badge-beta-whats-new]#Beta#
 endif::[]
-ThoughtSpot Role-Based Access Control (RBAC) enhances the granularity of permissions with the addition of new data management privileges. The following privileges have been added:
+ThoughtSpot Role-Based Access Control (RBAC) enhances the granularity of permissions with the addition of new data management privileges. The following data management privileges have been added:
 |===
 |ThoughtSpot RBAC privileges|Description
 |CAN_CREATE_OR_EDIT_CONNECTIONS|Can create or edit connections|
@@ -507,7 +492,7 @@ USERDATAUPLOADING|Can upload user data
 |===
 
 RBAC is disabled by default. To enable this feature, contact {support-url}.
-// Mary -- SCAL-139496 - See Mark regarding table column widths. What are the external names for the RBAC privileges?
+// Mary -- SCAL-139496 - See Mark regarding table column widths. What are the external names for the RBAC privileges - awaiting cluster from @Abhijit Deka.
 // PM: Vijay/Aashica
 
 endif::free-trial-feature[]
