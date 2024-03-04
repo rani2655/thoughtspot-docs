@@ -98,6 +98,7 @@ image::answer-panel-new.gif[Information panel appears when you click on a column
 // Mark -- SCAL-179810. add gif. shorten to a couple sentences
 // PM: Alok, Akshay
 
+////
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-10-0-cl-conditional]
@@ -110,7 +111,8 @@ ifdef::pendo-links[]
 === Advanced conditional formatting [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 
-// Naomi -- scal-177005. is it visualization as well as table? check if it's in early access panel.
+// Naomi -- scal-177005. is it visualization as well as table? check if it's in early access panel. moved to 9.12.0.cl
+
 // PM: Manan
 
 Rather than simply using conditional formatting comparing a column's measures to a single value (for example, `sales > 10000`), you can now use conditional formatting to compare a column's measures to another column or to a parameter. For example, if you search for `sales this year` compared to `sales last year`, you can highlight where sales this year were less than last year. You can set multiple conditional formatting rules to a single table. To enable this feature, contact your administrator.
@@ -125,6 +127,7 @@ endif::[]
 
 image::advanced-conditional-formatting.gif[Advanced conditional formatting comparing sales of state to sales of region]
 endif::free-trial-feature[]
+////
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
@@ -354,7 +357,7 @@ endif::[]
 // Naomi -- SCAL-164290. add what the formula means.
 // PM: Damian
 
-ThoughtSpot now supports the `ts_groups` system variable in Answer and Worksheet formulas. You can use the `ts_groups` variable for deciding whether to display the value of a column based on the group value. For example, you could create a formula such as: `masked sales = if ( 'all data' in ts_groups) then sales else null`.
+ThoughtSpot now supports the `ts_groups` system variable in Answer and Worksheet formulas. You can use the `ts_groups` variable for deciding whether to display the value of a column based on the group value. For example, you could create a formula such as: `masked sales = if ( 'all data' in ts_groups) then sales else null`. The formula checks if you are a member of the 'all data' group. If you are a member, the formula returns the sales column. If not, it returns null.
 
 // [#9-11-0-cl-bulk]
 // [discrete]
