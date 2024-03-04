@@ -223,6 +223,34 @@ image::custom-groups.gif[Reusable set creation process]
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
+[#9-10-0-cl-byoc]
+[discrete]
+=== Custom charts [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#9-10-0-cl-byoc]
+[discrete]
+=== Custom charts [.badge.badge-beta-whats-new]#Beta#
+endif::[]
+
+
+You can now use custom charts created outside of ThoughtSpot. Developers with your company can create custom charts using the ThoughtSpot Charts SDK. To enable this feature, contact {support-url}.
+For more information, see
+ifndef::pendo-links[]
+xref:chart-byoc.adoc[Custom charts].
+endif::[]
+ifdef::pendo-links[]
+xref:chart-byoc.adoc[Custom charts,window=_blank].
+endif::[]
+
+
+image::custom-chart-select.png[Custom Chart]
+
+// Mark -- scal-171984, scal-67410. possibly below "other features"
+endif::free-trial-feature[]
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
 [#9-11-0-cl-simple-cohorts]
 [discrete]
 === Cohorts [.badge.badge-early-access]#Early Access#
