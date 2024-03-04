@@ -237,6 +237,8 @@ You can create custom sets, which can be used to classify values in a list that 
 
 image::column-set.gif[Column set creation process]
 
+For more information, see xref:custom-groups.adoc[Custom sets].
+
 // Mary -- SCAL-150356
 // PM: Damian
 
@@ -389,6 +391,8 @@ We made the following changes to ThoughtSpot feedback review for Sage AI Answers
 [discrete]
 === OAuth for Snowflake using Proof Key for Code Exchange (PKCE)
 ThoughtSpot incorporates PKCE for Snowflake. The addition of PKCE as an extension of the OAuth 2.0 protocol provides an added layer of security.
+
+//For more information, see xref: TBD
 // Mary -- SCAL-177859
 // PM: Sara Vredevoogd
 
@@ -408,7 +412,7 @@ When creating a Worksheet from a dbt connection, ThoughtSpot joins the tables ba
 [#9-11-0-cl-dremio]
 [discrete]
 === Dremio on-premises support for OAuth
-Dremio now supports use of OAuth with Dremio on-premises. This method of authentication enables ThoughtSpot to submit queries on behalf of users.
+Dremio now supports use of OAuth with Dremio on-premises. This method of authentication enables ThoughtSpot to submit queries on behalf of users. For more information, see xref:connectiontio-dremio-oauth.adoc[Configure OAuth for a Dremio connection].
 
 // Mary -- SCAL-181886
 // PM: Sara Vredevoogd - Requires OIDC setup for Dremio with Okta IdP - details to follow.
