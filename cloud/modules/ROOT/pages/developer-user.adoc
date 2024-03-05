@@ -1,99 +1,28 @@
-= Embedding ThoughtSpot for Developers
-:last_updated: 11/16/2023
+= For Developers
+:last_updated: 4/3/2021
 :linkattrs:
 :experimental:
-:jira: SCAL-193994
 :page-layout: default-cloud
 :page-aliases: /admin/ts-cloud/developer-user.adoc
 :description: Developer users embed ThoughtSpot content in their applications by using ThoughtSpot SDK and APIs.
 
-ThoughtSpot provides Visual Embed SDK to embed Search bar, Search page, Liveboard, visualizations, or the full ThoughtSpot experience in your web application or portal. By embedding ThoughtSpot Analytics in your app, you can enrich your application experience with ThoughtSpot’s search and live analytics capabilities.
-To learn about the different embedding methods, see https://developers.thoughtspot.com/docs/embed-ts[Embedding Overview,window=_blank].
+Developers embed ThoughtSpot Liveboards, visualizations, Search components, individual application pages, or the full application in their app, web page, or portal. Developer users can access the *Develop* tab in the ThoughtSpot UI, explore the SDK and APIs in the Playground, and customize the embedded content.
 
-Developer users can access the *Develop* tab in the ThoughtSpot UI, explore the SDK and APIs in the Playground, and customize the embedded content.
+Browse through the following topics to get started with embedding ThoughtSpot:
 
-== Embed Licenses
-To embed ThoughtSpot in your app using the Visual Embed SDK and REST APIs, you must purchase the Embed Add-on or ThoughtSpot Embedded Edition license. For more information on embedding licenses and features available with ThoughtSpot Analytics, see the following pages:
-
-* https://developers.thoughtspot.com/docs/get-started-tse[Embed licenses, window=_blank]
-* https://developers.thoughtspot.com/docs/license-feature-matrix[Feature matrix, window=_blank]
-
-
-== Embedding Methods
-ThoughtSpot provides Visual Embed SDK to embed Search bar, Search page, Liveboard, visualizations, or the full ThoughtSpot experience in your web application or portal.
-Based on your embedding requirements and integration setup, you can use one of the following methods:
-
-=== Embedding with Visual Embed SDK
-The Visual Embed SDK is available for installation as a Node Package Manager (NPM) package. The https://developers.thoughtspot.com/docs/getting-started[Visual Embed SDK, window=_blank] provides a Javascript library to embed ThoughtSpot elements in your host application.
-You can use the Visual Embed SDK for the following purposes:
-
-* Embed specific components of the ThoughtSpot application; for example, the Search bar,Search page, Liveboards, and visualizations.
-* Render the https://developers.thoughtspot.com/docs/full-embed[entire ThoughtSpot app] within the context of your host application.
+* xref:intro-embed.adoc[Embedded Analytics with ThoughtSpot]
+* xref:integration-overview.adoc[ThoughtSpot Integration guidelines]
+* xref:spotdev-portal.adoc[ThoughtSpot Developer Portal]
+* xref:auth-overview.adoc[Authentication and security]
+* xref:visual-embed-sdk.adoc[Visual Embed SDK]
+* xref:custom-actions.adoc[Custom action configuration]
+* xref:customization-rebranding.adoc[Customization and rebranding]
+* xref:rest-api.adoc[REST APIs]
+* xref:runtime-filters.adoc[Runtime filters]
 
 IMPORTANT: Only users with developer or administrator privileges can access the *Develop* tab.
 
-==== Authentication
-To authenticate and authorize embed users, you must also configure an authentication method in the SDK .
-The following page lists the general recommendations for choosing an authentication method to authenticate embedded application users https://developers.thoughtspot.com/docs/embed-auth[Authentication].
+Before you get started with embedding, review the license types and feature support. For more information, see the following pages:
 
-==== Security Settings
-To allow your application users to access the embedded content from web browsers, you must set your application as
-a trusted host by https://developers.thoughtspot.com/docs/security-settings[adding your application domain and the URL endpoints to the CORS and CSP allowed list] in ThoughtSpot.
-
-=== iFrame embedding without SDK
-The Visual Embed SDK is the most convenient way to embed different types of ThoughtSpot content. However, if your portal or system does not have a way to use the Visual Embed SDK JavaScript library, you can embed ThoughtSpot components using an iFrame element.
-For example, to embed a Liveboard or Visualization in portals such as Salesforce, SharePoint, Google Sites, or WordPress, you may want to use an iFrame element.
-for more information, see the following page https://developers.thoughtspot.com/docs/embed-without-sdk[Embed without SDK].
-
-== REST APIs
-ThoughtSpot https://developers.thoughtspot.com/docs/rest-apis[REST API] framework supports several resource collections and operations in two distinct versions. You can explore and access the API endpoints in both these versions:
-
-* *REST API v1* is the legacy framework with several endpoints to create, edit, administer, and manage ThoughtSpot objects and data.
-* *REST API v2.0* framework provides enhanced functionality compared to v1 and API experience with an interactive Playground.
-
-For a complete list of API endpoints and information about how to make an API call to these endpoints, see the following reference pages:
-
-* https://developers.thoughtspot.com/docs/rest-api-reference[REST API v1 Reference]
-
-* https://developers.thoughtspot.com/docs/rest-api-getstarted[REST API v1 Getting Started]
-
-*  https://developers.thoughtspot.com/docs/restV2-playground[REST API v2 Reference]
-
-* https://developers.thoughtspot.com/docs/rest-apiv2-getstarted[REST API v2 Getting Started]
-
-ThoughtSpot users with Developer or Administrator privileges can access the REST API v1 and v2.0 endpoints from the *Develop* tab. The portal provides a separate Playground for each REST API version and lets you explore the API endpoints, and request and response workflows.
-
-* https://try-everywhere.thoughtspot.cloud/v2/#/everywhere/api/rest/playgroundV1[REST API v1 Playground]
-
-* https://developers.thoughtspot.com/docs/restV2-playground?apiResourceId=http%2Fgetting-started%2Fintroduction[REST API v2 Playground]
-
-==== Authentication
-The following pages list the general recommendations for choosing an authentication method while using REST APIs.
-
-* https://developers.thoughtspot.com/docs/api-auth-session[REST API v1 authentication]
-
-* https://developers.thoughtspot.com/docs/api-authv2[REST API v2.0 authentication]
-
-== Customizations
-
-=== Custom Actions
-ThoughtSpot supports adding https://developers.thoughtspot.com/docs/custom-action-intro[custom actions] to an Answer or visualization page. For example, you may want to create a custom action that
-allows pushing business insights from ThoughtSpot to an external app or a specific URL. Similarly, if you have embedded ThoughtSpot in
-another app, you can add a custom action to trigger a callback event to the host application and initiate a response payload.
-
-=== Customize Style
-ThoughtSpot allows you to customize the look and feel of embedded pages and elements to match the UI style and design of the host application and branding guidelines of your organization.
-You can https://developers.thoughtspot.com/docs/style-customization[customize key UI components], such as your application logo, favicon, font style for charts and tables,
-background color of the UI, background color of the top navigation panel, the color palette for your charts, page title, and footer text by either using the Style customization menu
-in the Admin tab or navigating to Develop > Customizations > Styles.
-
-https://developers.thoughtspot.com/docs/custom-css[Custom CSS] allows developers to override the default styles and UI element specifications in their deployments. Custom CSS provides granular control over the UI appearance and allows you
-to modify design elements such as buttons, labels, text styles, and typography. This feature is available only with the ThoughtSpot Embedded Edition license.
-
-=== Customize Links
-ThoughtSpot users receive system-generated links in email notifications, which allow them to access objects such as Liveboards, visualizations or saved answers.
-To get more information on this, visit https://developers.thoughtspot.com/docs/customize-links[Customize links].
-
-== Runtime Overrides
-https://developers.thoughtspot.com/docs/runtime-filters[Runtime filters] and https://developers.thoughtspot.com/docs/runtime-params[Parameter overrides] apply filters or Parameter values to a Liveboard or Answer by passing the filter or Parameter properties as query parameters in a Liveboard or visualization URL.
-On embedded instances, you can use the Visual Embed SDK to apply filters to an embedded Liveboard or Answer, and update filters using events.
+* https://developers.thoughtspot.com/docs/?pageid=get-started-tse[Get started with ThoughtSpot, window=_blank]
+* https://developers.thoughtspot.com/docs/?pageid=license-feature-matrix[Feature matrix and license types, window=_blank]
