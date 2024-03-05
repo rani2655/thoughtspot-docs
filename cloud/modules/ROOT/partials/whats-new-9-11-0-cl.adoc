@@ -483,7 +483,8 @@ We made the following changes to ThoughtSpot feedback review for AI Answers:
 // Naomi -- SCAL-126451
 // PM: Sarib
 
-You can now select a dbt connection and click *Share* to share the connection with other users or groups. You can select whether to allow edit access to the dbt user from the *Share connection* dialog box. For more information, see
+You can now select a dbt connection and click *Share* to share the connection with other users or groups. By default, the underlying Cloud data warehouse connection is shared. Note that you need *Can manage data* privileges to access and share dbt connections.
+For more information, see
 ifndef::pendo-links[]
 xref:dbt-integration.adoc#share[Share a dbt connection].
 endif::[]
