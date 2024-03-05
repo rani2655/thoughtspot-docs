@@ -1,7 +1,7 @@
 = Delete a table with dependent objects from an {connection} connection
 :last_updated: 3/5/2024
 :linkattrs:
-:page-layout: default-cloud
+:page-layout: default-cloud-early-access
 :page-aliases:
 :experimental:
 :connection: Mode
@@ -10,7 +10,11 @@
 
 
 If you attempt to delete a table with dependent objects, the operation is blocked.
+
+NOTE: Mode connector is in Early Access and off by default. To enable it, contact your administrator.
+
 A _Cannot delete_ window appears, with a list of links to dependent objects.
+
 
 * In the _Cannot delete_ window, select the link for each object to modify or delete it.
 +

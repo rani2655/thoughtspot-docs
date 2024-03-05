@@ -2,7 +2,7 @@
 :last_updated: 4/7/2023
 :linkattrs:
 :experimental:
-:page-layout: default-cloud
+:page-layout: default-cloud-early-access
 :page-aliases:
 :connection: Mode
 :description: Passthrough functions allow you to send SQL expressions directly to Mode without being interpreted by ThoughtSpot.
@@ -10,6 +10,8 @@
 
 Passthrough functions allow you to send SQL expressions directly to {connection} without being interpreted by ThoughtSpot.
 If you have custom database functions that ThoughtSpot doesn't support, you can use these new passthrough functions in the ThoughtSpot Formula Assistant to call your custom functions.
+
+NOTE: Mode connector is in Early Access and off by default. To enable it, contact your administrator.
 
 A passthrough function serves as a wrapper around the specific {connection} SQL function.
 To use a specific {connection} SQL function, match the data type that the function returns with the Connections passthrough function that returns that data type.

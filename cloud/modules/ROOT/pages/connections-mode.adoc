@@ -10,7 +10,7 @@
 
 
 
-You can connect to a {connection} database in ThoughtSpot Cloud, and perform live queries to create Answers and Liveboards.
+You can connect to a {connection} database in ThoughtSpot Cloud, and perform live queries to create Answers and Liveboards. When you import data from multiple sources into Mode (for example, from tables in Snowflake and Google Sheets), you can combine them into data sets that you can then send to ThoughtSpot. This allows you to create visualizations and Liveboards from multiple sources using one connection.
 
 NOTE: Mode connector is in Early Access and off by default. To enable it, contact your administrator.
 
@@ -22,5 +22,4 @@ NOTE: Mode connector is in Early Access and off by default. To enable it, contac
 * xref:connections-mode-delete-table-dependencies.adoc[Delete a table with dependent objects]
 * xref:connections-mode-delete.adoc[Delete a {connection} connection]
 * xref:connections-mode-reference.adoc[{connection} connection reference]
-//* xref:connections-query-tags.adoc#tag-saphana[ThoughtSpot query tags in SAP HANA]
 * xref:connections-mode-passthrough.adoc[]

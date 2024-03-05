@@ -1,7 +1,7 @@
 = Edit a {connection} connection
 :last_updated: 3/5/2024
 :linkattrs:
-:page-layout: default-cloud
+:page-layout: default-cloud-early-access
 :page-aliases:
 :experimental:
 :connection: Mode
@@ -9,6 +9,8 @@
 :jira: SCAL-176923
 
 You can edit a {connection} connection to add tables and columns.
+
+NOTE: Mode connector is in Early Access and off by default. To enable it, contact your administrator.
 
 To edit a {connection} connection:
 

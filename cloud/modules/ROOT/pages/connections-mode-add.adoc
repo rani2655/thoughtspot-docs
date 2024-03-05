@@ -1,7 +1,7 @@
 = Add a {connection} connection
 :last_updated: 3/5/2024
 :linkattrs:
-:page-layout: default-cloud
+:page-layout: default-cloud-early-access
 :page-aliases:
 :experimental:
 :connection: Mode
@@ -10,6 +10,24 @@
 
 Once ThoughtSpot Connections is enabled, you can add a connection to a {connection} database.
 This allows you to perform a live query of the external database to create Answers and Liveboards, without having to bring the data into ThoughtSpot.
+
+NOTE: Mode connector is in Early Access and off by default. To enable it, contact your administrator.
+
+== Prerequisites
+
+Before you create a connection to Mode, you must first create an API credential. To cerate a new API token, you must have a paid Mode plan and Admin access. Follow these steps:
+
+. Enter {connection} and select *Workspace settings* from the left menu.
+
+. Select *Privacy & Security*.
+
+. Click *API* in the top menu.
+
+. Select the cog icon to the right of *Workspace API Tokens* and click *Create new API token*.
+
+. Enter a display name and save the token. You will need the API token and secret to create your connection in ThoughtSpot.
+
+== Connect to ThoughtSpot
 
 To add a connection to {connection}:
 
@@ -21,16 +39,22 @@ image::Mode-connectiontype.png[Add a Mode connection]
 
 . Enter the connection details for your {connection} data source.
 +
+Note that you will use the API token as the user name and the secret as the password.
++
 image::Mode-connectiondetails.png[Enter connection details]
 
 +
-Refer to the xref:connections-hana-reference.adoc[{connection} connection reference] for more information on each of the specific attributes you must enter for your connection.
+Refer to the xref:connections-mode-reference.adoc[{connection} connection reference] for more information on each of the specific attributes you must enter for your connection.
 
 . (Optional) Provide additional key-value pairs that you need to set up your connection to {connection} or customize additional JDBC parameters supported by {connection}, by doing the following:
 .. Select the *Advanced Config* menu to reveal the *Key* and *Value* fields.
 .. Enter your key and value information.
 .. To add more keys and values, select the plus sign (+), and enter them.
++
+We recommend using the following key-value pair:
 
+Key:: useSystemTrustStore
+Value:: false
 +
 [NOTE]
 ====
