@@ -28,13 +28,16 @@ ThoughtSpot Sync for Google BigQuery is now on by default and available to all u
 For more information, see xref:sync-gbq.adoc[Sync to Google BigQuery].
 
 // Mark -- SCAL-179003
-Custom charts [.badge.badge-beta-relnotes]#Beta#:: You can now use custom charts created outside of ThoughtSpot. Developers with your company can create custom charts using the ThoughtSpot Charts SDK, and your administrator can add them to your cluster.  For more information, see xref:chart-byoc.adoc[].
-
-
-
+Custom charts [.badge.badge-beta-relnotes]#Beta#::
+You can now use custom charts created outside of ThoughtSpot, including third-party chart libraries. To enable this feature, contact {support-url}.For more information, see xref:chart-byoc.adoc[Custom charts].
 
 [#9-11-0-cl-business-user]
 === For the Business User
+// Mark -- SCAL-162712
+AI Highlights [.badge.badge-early-access-relnotes]#Early Access#::
+
+With AI Highlights, you get quick insights on how top metrics have changed in your Liveboard, dramatically reducing the time to derive insights from your KPIs. To enable this feature, contact your administrator.
+For more information, see xref:liveboard-ai-highlights.adoc[AI Highlights].
 
 Keywords "of", "percentage of":: To enable business users to answer questions related to mix, contribution, share of, percentage, and total ratios, we added the keywords “of” and “percentage of”. These keywords help answer questions such as “What is the share of a certain store’s sales as a percentage of the regional whole?” Previously, searches such as these required the use of a group aggregate formula, which presented a barrier to users. +
 For more information, see
@@ -45,8 +48,15 @@ xref:formulas-keywords.adoc[Keywords: Of and Percentage of].
 [#9-11-0-cl-data-engineer]
 === For the Data Engineer
 
+Click and drag to create joins with Models [.badge.badge-early-access-relnotes]#Early Access#::
+
+You can now create joins in your Model by clicking and dragging from one table to another. To enable the Models feature, contact your administrator. For more information, see xref:models.adoc[Create models].
+
+// Mark -- SCAL-180588
 
 [#9-11-0-cl-developer]
 === For the Developer
 
-ThoughtSpot Everywhere:: For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
+Develop custom charts [.badge.badge-beta-relnotes]#Beta#:: Developers can now create custom charts for ThoughtSpot using the ThoughtSpot Charts SDK. To enable this feature, contact {support-url}. For more information, see xref:chart-byoc.adoc[Custom charts].
+
+ThoughtSpot Embedded:: For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].

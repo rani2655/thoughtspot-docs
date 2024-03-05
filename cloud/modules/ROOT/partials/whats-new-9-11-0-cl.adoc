@@ -29,10 +29,10 @@ endif::[]
 With AI Highlights, you get quick insights on how top metrics have changed in your Liveboard, dramatically reducing the time to derive insights from your KPIs. To enable this feature, contact your administrator.
 For more information, see
 ifndef::pendo-links[]
-xref:liveboard-ai-highlights.adoc[AI highlights].
+xref:liveboard-ai-highlights.adoc[AI Highlights].
 endif::[]
 ifdef::pendo-links[]
-xref:liveboard-ai-highlights.adoc[AI highlights,window=_blank].
+xref:liveboard-ai-highlights.adoc[AI Highlights,window=_blank].
 endif::[]
 
 image::liveboard-highlight.gif[AI Highlights]
@@ -109,11 +109,6 @@ image::answer-panel-new.gif[Information panel appears when you click on a column
 
 // Mary -- SCAL-182153. add image. Vaibhav is unable to access the app to help with a screen cap due to a known issue (as of RC date) - will work with him to get something appropriate for GA.
 // PM: Vaibhav
-
-
-
-// Mark -- SCAL-179810. add gif. shorten to a couple sentences
-// PM: Alok, Akshay
 
 ////
 ifndef::free-trial-feature[]
@@ -227,7 +222,7 @@ ifdef::pendo-links[]
 endif::[]
 
 
-You can now use custom charts created outside of ThoughtSpot, including 3rd-party chart libaries. To enable this feature, contact {support-url}.
+You can now use custom charts created outside of ThoughtSpot, including third-party chart libraries. To enable this feature, contact {support-url}.
 For more information, see
 ifndef::pendo-links[]
 xref:chart-byoc.adoc[Custom charts].
@@ -624,5 +619,5 @@ ifndef::free-trial-feature[]
 [discrete]
 === ThoughtSpot Everywhere
 
-For new features and enhancements introduced in this release of ThoughtSpot Everywhere, see https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
+For new features and enhancements introduced in this release of ThoughtSpot Embedded, see https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
 endif::[]
