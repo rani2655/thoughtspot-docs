@@ -16,19 +16,46 @@ These are the known issues in this release of ThoughtSpot Cloud.
 |===
 |Issue ID |Description|Symptoms, conditions, and workaround
 
-|SCAL-XXXXXX
+|SCAL-184583
 |TBD
 a|*Symptoms*:
 
-TBD.
+Fail to generate query
 
 *Conditions*:
 
-TBD.
+ This change was introduced in 9.4. This only impacts in certain edge case and that too for software → cloud migration.
+2. columns under the aggregate expression span multiple non-shared dimensions
 
 TBD.
 
 *Workaround*:
 
+Modify the query to add a no-op
+
+|SCAL-169186
+|TBD
+a|*Symptoms*:
+
+User is expecting to happen is that the filter = 8 is applied to the CTE query_0.
+
+This does not seem to be the case.
+
+*Conditions*:
+
+The following is testing conducted with the new group reaggregation logic.
+
+tscli service --adv add-javaopt tomcat.tomcat D orion.dataGenRules.enableGroupAggregateNewReaggregation true
+
+Assuming I have a formula defined as the following:
+
+groupFX = group_aggregate ( sum ( Quantity ) , { Line Number , OrderKey } , query_filters ( ) )
+
+then I have a search such as: [quantiy] [orderkey] groupFX = 8
+
 TBD.
+
+*Workaround*:
+
+disable 'tscli service --adv add-javaopt tomcat.tomcat D orion.dataGenRules.enableGroupAggregateNewReaggregation false'
 |===
