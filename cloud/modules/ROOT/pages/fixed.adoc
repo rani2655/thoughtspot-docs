@@ -1,0 +1,44 @@
+= Fixed issues
+:keywords: fixed issues
+:last_updated: 3/5/2024
+:author: Mark Plummer
+:experimental:
+:linkattrs:
+:page-layout: default-cloud
+:description: These are the issues we fixed in recent ThoughtSpot Cloud releases.
+:jira: SCAL-197719
+
+These are the issues we fixed in this release of ThoughtSpot Cloud.
+
+[#releases-9-11 -0-x]
+== 9.11.0.cl release fixed issues
+
+[cols="20%,80%"]
+|===
+|Issue ID |Description
+
+|SCAL-190895
+|Liveboards which load as expected on ThoughtSpot Cloud, do not load in the embedded version and the error "Pinboard has failed to load" is displayed. In addition, the search does not work in the embedded version.
+|SCAL-188172
+|Unable to sign in to ThoughtSpot Cloud.
+|SCAL-186191
+|Unable to download large Answers and Liveboards. Slow performance after trying to download.
+|SCAL-185632
+|ThoughtSpot Cloud cluster goes down unexpectedly.
+|SCAL-185098
+|Customers navigating to Data > Sync occasionally see "Seekwell Service down" error and are unable to use this feature.
+|SCAL-184586
+|Snowflake JDBC connection suddenly fails and the error message "request timed out after 30000ms" appears.
+|SCAL-183845
+|Unable to sign in using SAML even though SAML authentication passes.
+|SCAL-183160
+|Error in `IN` subquery using custom calendar.
+|SCAL-182743
+|Runtime filter updates are not reflected in a downloaded Liveboard.
+|SCAL-182316
+|Extra page and distorted footer appear in exported PDF.
+|SCAL-180968
+|The Y-axis for a line chart is plotted incorrectly when it is resized.
+|SCAL-139139
+|When joining multiple tables sometimes the count quantity is not correct.
+|===
