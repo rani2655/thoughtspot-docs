@@ -33,7 +33,7 @@ You can now use custom charts created outside of ThoughtSpot, including third-pa
 
 [#9-11-0-cl-business-user]
 === For the Business User
-
+// Mark -- SCAL-162712
 AI Highlights [.badge.badge-early-access-relnotes]#Early Access#::
 
 With AI Highlights, you get quick insights on how top metrics have changed in your Liveboard, dramatically reducing the time to derive insights from your KPIs. To enable this feature, contact your administrator.
@@ -51,6 +51,8 @@ xref:formulas-keywords.adoc[Keywords: Of and Percentage of].
 Click and drag to create joins with Models [.badge.badge-early-access-relnotes]#Early Access#::
 
 You can now create joins in your Model by clicking and dragging from one table to another. To enable the Models feature, contact your administrator. For more information, see xref:models.adoc[Create models].
+
+// Mark -- SCAL-180588
 
 [#9-11-0-cl-developer]
 === For the Developer
