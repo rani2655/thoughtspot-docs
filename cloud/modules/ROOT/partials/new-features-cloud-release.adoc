@@ -27,6 +27,9 @@ ThoughtSpot Sync for Google BigQuery::
 ThoughtSpot Sync for Google BigQuery is now on by default and available to all users. Using ThoughtSpot Sync, you can now sync data directly from an Answer or a custom SQL view, to your Google BigQuery cloud data warehouse.
 For more information, see xref:sync-gbq.adoc[Sync to Google BigQuery].
 
+// Mark -- SCAL-179003
+Custom charts [.badge.badge-beta-relnotes]#Beta#:: You can now use custom charts created outside of ThoughtSpot. Developers with your company can create custom charts using the ThoughtSpot Charts SDK, and your administrator can add them to your cluster.  For more information, see xref:chart-byoc.adoc[].
+
 
 
 
