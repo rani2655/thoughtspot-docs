@@ -152,6 +152,33 @@ endif::free-trial-feature[]
 // PM: Adi - ETV changed to 9.12.0.cl
 ////
 
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-11-0-cl-collibra]
+[discrete]
+=== Collibra integration [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#9-11-0-cl-collibra]
+[discrete]
+=== Collibra integration [.badge.badge-beta-whats-new]#Beta#
+endif::[]
+
+// Naomi -- SCAL-174136. does not need images. split between business user and data engineer.
+// PM: Sarib
+
+You can now see verification status and descriptions on tables and columns imported from Collibra. This information appears when you click on the corresponding table or column in *Search data*. Once connected, this information is visible to all users. To enable this feature, contact {support-url}.
+
+For more information, see
+ifndef::pendo-links[]
+xref:catalog-integration-collibra.adoc[Collibra integration].
+endif::[]
+ifdef::pendo-links[]
+xref:catalog-integration-collibra.adoc[Collibra integration,window=_blank].
+endif::[]
+
+endif::free-trial-feature[]
+
 // Analyst
 
 ////
@@ -306,32 +333,7 @@ ifdef::pendo-links[]
 xref:sync-gbq.adoc[Sync data from ThoughtSpot to Google BigQuery,window=_blank].
 endif::[]
 
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
-[#9-11-0-cl-collibra]
-[discrete]
-=== Collibra integration [.badge.badge-beta]#Beta#
-endif::[]
-ifdef::pendo-links[]
-[#9-11-0-cl-collibra]
-[discrete]
-=== Collibra integration [.badge.badge-beta-whats-new]#Beta#
-endif::[]
 
-// Naomi -- SCAL-174136. does not need images. split between business user and data engineer.
-// PM: Sarib
-
-You can now import metadata information related to your tables and columns from Collibra into ThoughtSpot. From the Data tab, you can set up a connection to Collibra to import column descriptions, column verification status, table descriptions, and table verification status. To enable this feature, contact {support-url}.
-
-For more information, see
-ifndef::pendo-links[]
-xref:catalog-integration-collibra.adoc[Collibra integration].
-endif::[]
-ifdef::pendo-links[]
-xref:catalog-integration-collibra.adoc[Collibra integration,window=_blank].
-endif::[]
-
-endif::free-trial-feature[]
 
 
 
@@ -379,6 +381,33 @@ endif::[]
 // PM: Sara Vredevoogd
 
 ThoughtSpot now supports connections to Mode. Import reusable Datasets created in Mode as table extracts to leverage the full ThoughtSpot product, from Worksheet/Model creation to Search, Answer creation, and KPI monitoring.
+
+endif::free-trial-feature[]
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-11-0-cl-collibra-metadata]
+[discrete]
+=== Collibra catalog integration [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#9-11-0-cl-collibra-metadata]
+[discrete]
+=== Collibra catalog integration [.badge.badge-beta-whats-new]#Beta#
+endif::[]
+
+// Naomi -- SCAL-174136. does not need images. split between business user and data engineer.
+// PM: Sarib
+
+You can now import metadata information related to your tables and columns from Collibra into ThoughtSpot. From the Data tab, you can set up a connection to Collibra to import column descriptions, column verification status, table descriptions, and table verification status. To enable this feature, contact {support-url}.
+
+For more information, see
+ifndef::pendo-links[]
+xref:catalog-integration-collibra.adoc[Collibra integration].
+endif::[]
+ifdef::pendo-links[]
+xref:catalog-integration-collibra.adoc[Collibra integration,window=_blank].
+endif::[]
 
 endif::free-trial-feature[]
 

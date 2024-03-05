@@ -16,11 +16,12 @@ For these instructions, see xref:ts-cloud-getting-started.adoc[Getting Started w
 [#9-11-0-cl-analyst]
 === For the Analyst
 
+////
 // Naomi -- scal-177005
 Advanced conditional formatting [.badge.badge-early-access-relnotes]#Early Access#::
 Rather than simply using conditional formatting comparing a column's measures to a single value (for example, `sales > 10000`), you can now use conditional formatting to compare a column's measures to another column or to a parameter. For example, if you search for `sales this year` versus `sales last year`, you can highlight where sales this year were less than last year. You can set multiple conditional formatting rules to a single table.
 For more information, see xref:search-conditional-formatting.adoc#advanced-conditional-formatting[Advanced conditional formatting].
-
+////
 
 // Naomi -- scal-174127
 ThoughtSpot Sync for Google BigQuery::
@@ -39,20 +40,54 @@ AI Highlights [.badge.badge-early-access-relnotes]#Early Access#::
 With AI Highlights, you get quick insights on how top metrics have changed in your Liveboard, dramatically reducing the time to derive insights from your KPIs. To enable this feature, contact your administrator.
 For more information, see xref:liveboard-ai-highlights.adoc[AI Highlights].
 
-Keywords "of", "percentage of":: To enable business users to answer questions related to mix, contribution, share of, percentage, and total ratios, we added the keywords “of” and “percentage of”. These keywords help answer questions such as “What is the share of a certain store’s sales as a percentage of the regional whole?” Previously, searches such as these required the use of a group aggregate formula, which presented a barrier to users. +
+Keywords "of", "percentage of":: To enable business users to answer questions related to mix, contribution, share of, percentage, and total ratios, we added the keywords “of” and “percentage of”. These keywords help answer questions such as “What is the share of a certain store’s sales as a percentage of the regional whole?” To try out this feature, enter a search phrase in the search bar containing the keyword, such as `sales percentage of store region`, and press *Go*. +
 For more information, see
 xref:formulas-keywords.adoc[Keywords: Of and Percentage of].
 
+// Naomi -- SCAL-174136
+Collibra integration [.badge.badge-beta-relnotes]#Beta#::
+You can now see verification status and descriptions on tables and columns imported from Collibra. This information appears when you click on the corresponding table or column in *Search data*. Once connected, this information is visible to all users. To enable this feature, contact {support-url}.
++
+For more information, see xref:catalog-integration-collibra.adoc[Collibra integration].
 
 
 [#9-11-0-cl-data-engineer]
 === For the Data Engineer
+
+// Naomi -- SCAL-176923
+Mode connector [.badge.badge-early-access-relnotes]#Early Access#:: ThoughtSpot now supports connections to Mode. Import reusable Datasets created in Mode as table extracts to leverage the full ThoughtSpot product, from Worksheet/Model creation to Search, Answer creation, and KPI monitoring.
 
 Click and drag to create joins with Models [.badge.badge-early-access-relnotes]#Early Access#::
 
 You can now create joins in your Model by clicking and dragging from one table to another. To enable the Models feature, contact your administrator. For more information, see xref:models.adoc[Create models].
 
 // Mark -- SCAL-180588
+
+// Naomi -- SCAL-154204
+Feedback review::
+We made the following changes to ThoughtSpot feedback review for AI Answers:
+
+* Feedback for AI Answers is now Org-aware.
+* When you make a change to a Worksheet, ThoughtSpot now alerts you if this will affect any related query feedback. If you accept this and make the change, the feedback depending on that Worksheet is deleted.
+* You can now import query feedback when you move information from a development cluster to a production cluster.
+
+// Naomi -- SCAL-126451
+dbt integration: sharing dbt connections::
+You can now select a dbt connection and click *Share* to share the connection with other users or groups. You can select whether to allow edit access to the dbt user from the *Share connection* dialog box. For more information, see
+xref:dbt-integration.adoc#share[Share a dbt connection].
+
+// Naomi -- SCAL-180960
+dbt error message handling::
+ThoughtSpot displays dbt error messages that clearly describe whether the error originated in dbt or in ThoughtSpot, where the error was encountered, and what steps users should take to resolve the issue. For a list of the error messages ThoughtSpot supports, see
+xref:dbt-integration.adoc#errors[dbt error messages].
+
+// Naomi -- SCAL-164290
+Ts_Groups system variable::
+ThoughtSpot now supports the `ts_groups` system variable in Answer and Worksheet formulas. You can use the `ts_groups` variable for data masking, or deciding whether to display the value of a column to a user based on their group membership.
+
+// Naomi -- SCAL-178532
+Connections for Search and Answers error messages::
+To increase clarity when an error prevents data from loading, we classify failed searches as either "Error in connecting to data source" or "Error in executing query." You can click "Copy error details" to download and send a file to your administrators.
 
 [#9-11-0-cl-developer]
 === For the Developer
