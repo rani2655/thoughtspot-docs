@@ -104,7 +104,10 @@ image::model_tables.png[]
 +
 
 
-. To add a new join between tables, select the More menu image:model_table_join_more.png[] in the upper right of a table, and select *Add Join*.
+. To add a new join between tables, do one of the following:
+
+- Select the More menu image:model_table_join_more.png[] in the upper right of a table, and select *Add Join*.
+- Hover over the table until you see a *\+* appear on the edge of the table, then click the *+* and drag to the table you want to join.
 . In the _Create Join_ window for _Table 2_, select the table you want to join to the first table (_Table 1_).
 . For _Column from Table 1_, select the column you want to join to another column in _Table 2_.
 . For _Column from Table 2_, select the column in _Table 2_ which you want to join to the selected column in _Table 1_.
