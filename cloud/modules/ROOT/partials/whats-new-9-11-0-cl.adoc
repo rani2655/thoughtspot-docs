@@ -227,7 +227,7 @@ ifdef::pendo-links[]
 endif::[]
 
 
-You can now use custom charts created outside of ThoughtSpot. Developers in your company can create custom charts using the ThoughtSpot Charts SDK. To enable this feature, contact {support-url}.
+You can now use custom charts created outside of ThoughtSpot, including 3rd-party chart libaries. To enable this feature, contact {support-url}.
 For more information, see
 ifndef::pendo-links[]
 xref:chart-byoc.adoc[Custom charts].
@@ -598,9 +598,29 @@ endif::free-trial-feature[]
 // PM:Aashica - No doc required for 9.11.0.cl this is a design Epic.
 ////
 
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-11-0-cl-byoc]
+[discrete]
+=== Develop custom charts [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#9-11-0-cl-byoc]
+[discrete]
+=== Develop custom charts [.badge.badge-beta-whats-new]#Beta#
+endif::[]
 
-
-
+Developers can now create custom charts for ThoughtSpot using the ThoughtSpot Charts SDK. To enable this feature, contact {support-url}.
+For more information, see
+ifndef::pendo-links[]
+xref:chart-byoc.adoc[Custom charts].
+endif::[]
+ifdef::pendo-links[]
+xref:chart-byoc.adoc[Custom charts,window=_blank].
+endif::[]
+ifndef::free-trial-feature[]
+// Mark -- scal-171984, scal-67410.
+endif::free-trial-feature[]
 
 ifndef::free-trial-feature[]
 [discrete]
