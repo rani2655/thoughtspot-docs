@@ -1,0 +1,26 @@
+= {connection} overview
+:last_updated: 03/5/2024
+:linkattrs:
+:page-layout: default-cloud-early-access
+:page-aliases:
+:experimental:
+:connection: Mode
+:description: You can add a connection to a Mode database in ThoughtSpot Cloud, and perform live queries to create Answers and Liveboards.
+:jira: SCAL-176923
+
+
+
+You can connect to a {connection} database in ThoughtSpot Cloud, and perform live queries to create Answers and Liveboards.
+
+NOTE: Mode connector is in Early Access and off by default. To enable it, contact your administrator.
+
+
+* xref:connections-mode-add.adoc[Add a connection]
+* xref:connections-mode-edit.adoc[Edit a connection]
+* xref:connections-mode-remap.adoc[Remap a {connection} connection]
+* xref:connections-mode-delete-table.adoc[Delete a table from a {connection} connection]
+* xref:connections-mode-delete-table-dependencies.adoc[Delete a table with dependent objects]
+* xref:connections-mode-delete.adoc[Delete a {connection} connection]
+* xref:connections-mode-reference.adoc[{connection} connection reference]
+//* xref:connections-query-tags.adoc#tag-saphana[ThoughtSpot query tags in SAP HANA]
+* xref:connections-mode-passthrough.adoc[]
