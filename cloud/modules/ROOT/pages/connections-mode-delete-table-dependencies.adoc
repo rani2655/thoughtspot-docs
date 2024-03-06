@@ -35,6 +35,5 @@ Select a dependent object to modify or delete it.
 > * xref:connections-mode-remap.adoc[Remap a {connection} connection]
 > * xref:connections-mode-delete-table.adoc[Delete a table from a {connection} connection]
 > * xref:connections-mode-delete.adoc[Delete a {connection} connection]
-> * xref:connections-mode-private-link.adoc[]
 > * xref:connections-mode-reference.adoc[{connection} connection reference]
 > * xref:connections-mode-passthrough.adoc[]
