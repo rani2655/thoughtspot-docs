@@ -91,8 +91,8 @@ Ts_Groups system variable::
 ThoughtSpot now supports the `ts_groups` system variable in Answer and Worksheet formulas. You can use the `ts_groups` variable for data masking, or deciding whether to display the value of a column to a user based on their group membership.
 
 // Naomi -- SCAL-178532
-Connections for Search and Answers error messages::
-To increase clarity when an error prevents data from loading, we classify failed searches as either "Error in connecting to data source" or "Error in executing query." You can click "Copy error details" to download and send a file to your administrators.
+Enhancements to error messages for Search and Answers::
+To improve our error messaging when an error prevents data from loading, we introduced a broader classification that allows you to understand issues more clearly. You can click "Copy error details" to download and send a file to your administrators.
 
 [#9-11-0-cl-developer]
 === For the Developer
