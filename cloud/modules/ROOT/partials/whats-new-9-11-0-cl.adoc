@@ -508,7 +508,7 @@ ifdef::pendo-links[]
 xref:dbt-integration.adox#errors[dbt error messages].
 endif::[]
 
-////
+
 [#9-11-0-cl-join-enhance]
 [discrete]
 === dbt integration: join enhancement
@@ -516,8 +516,8 @@ endif::[]
 // Naomi -- SCAL-126453
 // PM: Sarib
 
-When creating a Worksheet from a dbt connection, ThoughtSpot joins the tables based on the relationships defined in the underlying .yml schema file. These relationships are respected for Worksheets and Models.
-////
+When creating a Worksheet from a dbt connection, ThoughtSpot joins the tables based on the relationships defined in the underlying .yml schema file. Now, joins between the tables will be created local to the Worksheet instead of creating a global join between the tables.
+
 
 [#9-11-0-cl-ts-groups]
 [discrete]
