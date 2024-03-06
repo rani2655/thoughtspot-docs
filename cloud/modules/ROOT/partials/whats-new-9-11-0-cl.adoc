@@ -91,6 +91,31 @@ You can now use the Object Usage Liveboard to understand how ThoughtSpot is savi
 // Mark -- SCAL-160332
 // PM: Adi
 
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-11-0-cl-mode]
+[discrete]
+=== Mode connector [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-11-0-cl-mode]
+[discrete]
+=== Mode connector [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
+// Naomi -- SCAL-176923. clarify whether it supports data models as well as worksheets. (It does). now support federated data sources. check in about availability. how is it enabled.
+// PM: Sara Vredevoogd
+
+ThoughtSpot now supports connections to Mode. Import reusable Datasets created in Mode as table extracts to leverage the full ThoughtSpot product, from Worksheet/Model creation to Search, Answer creation, and KPI monitoring. For more information, see
+ifndef::pendo-links[]
+xref:connections-mode.adoc[Connect to Mode].
+endif::pendo-links[]
+ifdef::pendo-links[]
+xref:connections-mode.adoc[Connect to Mode,window=_blank].
+endif::pendo-links[]
+
+endif::free-trial-feature[]
+
 [#9-11-0-cl-data-panel]
 [discrete]
 === Answer data panel enhancements
@@ -365,30 +390,7 @@ By default, this feature is turned off. To enable this feature, contact {support
 
 // Data Engineer
 
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
-[#9-11-0-cl-mode]
-[discrete]
-=== Mode connector [.badge.badge-early-access]#Early Access#
-endif::[]
-ifdef::pendo-links[]
-[#9-11-0-cl-mode]
-[discrete]
-=== Mode connector [.badge.badge-early-access-whats-new]#Early Access#
-endif::[]
 
-// Naomi -- SCAL-176923. clarify whether it supports data models as well as worksheets. (It does). now support federated data sources. check in about availability. how is it enabled.
-// PM: Sara Vredevoogd
-
-ThoughtSpot now supports connections to Mode. Import reusable Datasets created in Mode as table extracts to leverage the full ThoughtSpot product, from Worksheet/Model creation to Search, Answer creation, and KPI monitoring. For more information, see
-ifndef::pendo-links[]
-xref:connections-mode.adoc[Connect to Mode].
-endif::pendo-links[]
-ifdef::pendo-links[]
-xref:connections-mode.adoc[Connect to Mode,window=_blank].
-endif::pendo-links[]
-
-endif::free-trial-feature[]
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
