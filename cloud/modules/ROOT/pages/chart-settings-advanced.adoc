@@ -2,7 +2,7 @@
 :last_updated: 11/13/2023
 :author: Naomi
 :page-layout: default-cloud-early-access
-:jira: SCAL-166121
+:jira: SCAL-166121, SCAL-197922
 :description: You can now access advanced chart customization settings by selecting the *Edit chart configuration* icon and clicking *Advanced settings*.
 
 You can now access advanced chart customization settings by selecting the *Edit chart configuration* icon image:icon-gear-10px.png[chart customization icon] and selecting *Advanced settings*. Use these settings to adjust the size and appearance of tooltips, regression lines, gridlines, and chart backgrounds. All choices persist only for the Answer you are currently customizing.
@@ -61,11 +61,13 @@ You can make the following selections for x- and y-axis gridlines.
 image:advanced-gridlines-options.png[Advanced gridlines options]
 
 For x-axis gridlines:
+
 * Select the color
 * Enter the line width in pixels
 * Select the line style: Solid, Dot, or Dash
 
 For y-axis gridlines:
+
 * Select the color
 * Enter the line width in pixels
 * Select the line style: Solid, Dot, or Dash
@@ -80,6 +82,8 @@ image:advanced-options-other.png[Other advanced options]
 * Select the chart background color
 * Select the background color for the plotted area
 * Enter the background image for the plotted area
++
+NOTE: You must enter the URL of the background image. ThoughtSpot only displays images from whitelisted domains.
 
 
 == X-axis options
