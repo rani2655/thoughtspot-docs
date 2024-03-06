@@ -1,6 +1,9 @@
 [#top-n]
 top _n_::
 Generates the top *n* items from a sorted result. If your search has more than 1 measure, ThoughtSpot generates the top *n* items from the first measure in the search.
++
+NOTE: If you search for "top _n_ by <column>", ThoughtSpot sorts by the column, then takes the top _n_ results. If you specify an attribute column, ThoughtSpot selects the results by reverse alphabetical order. We recommend using measure columns with the "top _n_ by" keyword.
++
 Examples;;
 +
 ----
