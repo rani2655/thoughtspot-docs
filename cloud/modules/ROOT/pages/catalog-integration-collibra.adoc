@@ -1,7 +1,7 @@
 = Collibra catalog integration
 :last_updated: 3/5/24
 :author: Naomi
-:page-layout: default-cloud
+:page-layout: default-cloud-beta
 :linkattrs:
 :experimental:
 :description: Use ThoughtSpot’s connection to Collibra to import column- and table-level metadata and surface the data in the Search data knowledge cards.
