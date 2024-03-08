@@ -509,7 +509,7 @@ ifndef::pendo-links[]
 xref:dbt-integration.adoc#errors[dbt error messages].
 endif::[]
 ifdef::pendo-links[]
-xref:dbt-integration.adox#errors[dbt error messages].
+xref:dbt-integration.adoc#errors[dbt error messages].
 endif::[]
 
 
