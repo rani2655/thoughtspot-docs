@@ -35,7 +35,7 @@ ifdef::pendo-links[]
 xref:liveboard-ai-highlights.adoc[AI Highlights,window=_blank].
 endif::[]
 
-image::liveboard-highlight.gif[AI Highlights]
+image::ai-highlight.gif[AI Highlights]
 
 
 // Mark -- SCAL-162712
