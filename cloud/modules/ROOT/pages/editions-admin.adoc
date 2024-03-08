@@ -12,11 +12,12 @@ This article provides information about the capabilities administrators have in 
 
 == Administrator capabilities by edition
 
-[cols="30%,10%,10%,10%,10%" stripes="even"]
+[cols="30%,10%,10%,10%,10%,10%" stripes="even"]
 |===
-.^|Capability ^.^|Team ^.^|Essentials ^.^|Pro ^.^|Enterprise
+.^|Capability ^.^|Team ^.^|Essentials ^.^|Build ^.^|Pro ^.^|Enterprise
 
 |Org creation and management
+^.^|
 ^.^|
 ^.^|
 ^.^|
@@ -27,14 +28,17 @@ This article provides information about the capabilities administrators have in 
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
 
 |Group management
 ^.^|
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
 
 |Role management (RBAC)
+^.^|
 ^.^|
 ^.^|
 ^.^|image:checkmark_black.svg[Yes,15]
@@ -45,8 +49,10 @@ This article provides information about the capabilities administrators have in 
 ^.^|
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
+^.^|image:checkmark_black.svg[Yes,15]
 
 |System Liveboards
+^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
@@ -55,6 +61,7 @@ This article provides information about the capabilities administrators have in 
 |Developer privileges*
 ^.^|
 ^.^|
+^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 ^.^|image:checkmark_black.svg[Yes,15]
 |===

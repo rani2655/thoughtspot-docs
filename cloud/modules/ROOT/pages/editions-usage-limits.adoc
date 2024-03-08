@@ -6,11 +6,11 @@
 :page-aliases:
 :page-toclevels: -1
 :description: This article provides information about the capabilities administrators have in each ThoughtSpot edition.
-:jira: SCAL-189809
+:jira: SCAL-189809, SCAL-197738
 
 This article provides information about the usage limits in each ThoughtSpot edition. For details on the specific features of the Team, Essentials, Pro, and Enterprise editions, see the https://www.thoughtspot.com/pricing[pricing page^] on ThoughtSpot.com. _Edition_ refers to the ThoughtSpot license your company has purchased.
 
-== Usage limits by edition
+== ThoughtSpot Analytics usage limits by edition
 
 [cols="30%,10%,10%,10%,10%" stripes="even"]
 |===
@@ -39,11 +39,41 @@ This article provides information about the usage limits in each ThoughtSpot edi
 ^.^|25 million
 ^.^|500 million
 ^.^|Unlimited
-
-|Max search suggestions
-^.^|1 million
-^.^|1 million
-^.^|10 million
-^.^|200 million
 |===
 
+== ThoughtSpot Embedded usage limits by edition
+
+[cols="30%,10%,10%,10%,10%" stripes="even"]
+|===
+.^|Capability ^.^|Developer ^.^|Build ^.^|Pro ^.^|Enterprise
+
+|Max number of users
+^.^|5
+^.^|Unlimited
+^.^|Unlimited
+^.^|Unlimited
+
+|Capacity in rows
+^.^|3 million
+^.^|25 million
+^.^|5 billion
+^.^|Unlimited
+
+|Max number of permission groups
+^.^|2
+^.^|20
+^.^|500
+^.^|Unlimited
+
+|Row-level security
+^.^|Yes
+^.^|Yes
+^.^|Yes
+^.^|Yes
+
+|Orgs
+^.^|1
+^.^|1
+^.^|1
+^.^|400
+|===
