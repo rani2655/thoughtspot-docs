@@ -1,4 +1,4 @@
-= Period-to-date keywords
+= Period to-date keywords
 :last_updated: 3/22/2023
 :linkattrs:
 :experimental:
@@ -20,7 +20,7 @@ These filters have two behaviors that depend upon how they are used in conjuncti
 
 === For each period
 
-When a *_to date_* keyword is used in combination with a secondary date keyword at the same grain or higher, then the behavior is modified to as a FOR EACH period.
+When a *_to date_* keyword is used in combination with a secondary date keyword at the same grain or higher, then the behavior is modified to  a FOR EACH period.
 
 === Current period
 
