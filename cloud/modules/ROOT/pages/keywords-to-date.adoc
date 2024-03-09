@@ -153,9 +153,9 @@ Chart settings include the ability to set tokens as not visualized. A not-visual
 
 === Current period
 
-[cols="15%,15%,20%", stripes="even", options="header"]
+[cols="30%,20%,40%", stripes="even", options="header"]
 |====================
-|Search|Secondary Keyword|Example
+|Search|Secondary keyword|Example
 |[amount] [week to date]  |n/a |Amount of sales for the *current week* (as defined by the calendar) with a transaction date of *less than today*. 
 |[amount] [month to date] |n/a  |Amount of sales for the *current month* (as defined by the calendar) with a transaction date of *less than today*.  
 |[amount] [quarter to date]  |n/a  |Amount of sales for the *current quarter* (as defined by the calendar) with a transaction date of *less than today*.
@@ -167,7 +167,7 @@ Chart settings include the ability to set tokens as not visualized. A not-visual
 
 === For each period
 
-[cols="15%,15%,20%", stripes="even", options="header"]
+[cols="30%,20%,40%", stripes="even", options="header"]
 |====================
 |Search|Secondary keyword|Example
 |[amount] [week to date] [weekly] |For each week a|Amount of sales *for each week*, where
