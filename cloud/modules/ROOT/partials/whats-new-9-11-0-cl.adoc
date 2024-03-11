@@ -555,10 +555,10 @@ ThoughtSpot incorporates PKCE for Snowflake. The addition of PKCE as an extensio
 === Dremio on-premises support for OAuth
 Dremio now supports use of OAuth with Dremio on-premises. For more information, see
 ifndef::pendo-links[]
-xref:connection-dremio-oauth.adoc[Configure OAuth for a Dremio connection].
+xref:connections-dremio-oauth.adoc[Configure OAuth for a Dremio connection].
 endif::[]
 ifdef::pendo-links[]
-xref:connection-dremio-oauth.adoc[Configure OAuth for a Dremio connection,window=_blank].
+xref:connections-dremio-oauth.adoc[Configure OAuth for a Dremio connection,window=_blank].
 endif::[]
 
 // Mary -- SCAL-181886
