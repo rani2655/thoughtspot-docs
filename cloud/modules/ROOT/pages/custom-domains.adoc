@@ -11,7 +11,7 @@
 ThoughtSpot supports the configuration of custom domains for your ThoughtSpot Cloud URL.
 
 This article primarily discusses custom domains for a non-embedded environment.
-To set up a custom domain in an embedded environment with ThoughtSpot Everywhere, refer to https://developers.thoughtspot.com/docs/?pageid=custom-domain-config[the developer documentation,window=_blank].
+To set up a custom domain in an embedded environment with ThoughtSpot Embedded, refer to https://developers.thoughtspot.com/docs/?pageid=custom-domain-config[the developer documentation,window=_blank].
 
 NOTE: Custom domains are not supported for ThoughtSpot on GCP.
 
