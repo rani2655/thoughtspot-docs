@@ -26,7 +26,7 @@ NOTE: This feature is now deprecated. You may not use it starting with release 7
 
 == Removed in 9.12.0.cl
 
-The 9.12.0.cl release of ThoughtSpot Cloud, targeted for April 2024 (GA), will remove the following feature:.
+The 9.12.0.cl release of ThoughtSpot Cloud, targeted for April 2024 (GA), will remove the following feature:
 
 SpotApps::
 Beginning in the 9.12.0.cl release, you will no longer be able to use the SpotApps UI. Though we are retiring the UI, you will still be able to upload pre-built SpotApp templates. You can download the SpotApp templates, which are TML files, from our developer website, https://developers.thoughtspot.com/codespot?type=TML[CodeSpot^]. You can then modify (if applicable) and import these TML files into your cluster using our TML import/export utility from the data workspace to achieve the same result as using the original SpotApp.
