@@ -1,4 +1,4 @@
-= 9.11.0.cl Release Notes
+= 9.10.5.cl Release Notes
 :experimental:
 :last_updated: 10/23/2023
 :linkattrs:
@@ -7,7 +7,7 @@
 :page-layout: default-cloud
 :description: These release notes include information about new and enhanced features.
 
-ThoughtSpot Cloud 9.11.0.cl is now available.
+ThoughtSpot Cloud 9.10.5.cl is now available.
 
 These release notes include information about new and enhanced features.
 
