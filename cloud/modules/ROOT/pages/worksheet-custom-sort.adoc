@@ -1,5 +1,5 @@
 = Define a custom sort order for a Worksheet
-:last_updated: 02/29/2024
+:last_updated: 03/21/2024
 :linkattrs:
 :experimental:
 :page-layout: default-cloud
@@ -16,7 +16,9 @@ To define a custom sort order for a Worksheet:
 
 image::custom-sort-order.png[Custom sort order]
 
-Users can switch between standard or custom sort order.
+Users can apply the sort order to any answer, using the search keyword *sort by …*, or using the sort options on the axis menu.
+
+Users can switch between *Alphanumeric* and *Custom* sort order in the *Edit Column Properties* menu.
 
 == Limitations
 
