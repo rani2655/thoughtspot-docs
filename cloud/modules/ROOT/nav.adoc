@@ -50,7 +50,7 @@
 **** xref:sync-slack.adoc[Sync data to Slack]
 **** xref:sync-zoho.adoc[Sync data to Zoho]
 *** xref:privileges-end-user.adoc[Privileges]
-*** xref:thoughtspot-sheets.adoc[Google Sheets add-ons]
+*** xref:thoughtspot-sheets.adoc[Google Sheets add-on]
 *** xref:thoughtspot-slides.adoc[Google Slides add-on]
 *** xref:spotdev.adoc[ThoughtSpot Dev Slack app]
 ** xref:analyst.adoc[Analysts]
