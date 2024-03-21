@@ -73,6 +73,36 @@ To test your rule, sign in as users in different groups.
 Search within the table for data that your test user can and can't access.
 Make sure your test users can see the appropriate rows.
 
+== Limitations
+
+When creating an RLS rule for a table, you must use a specific format to allow ThoughtSpot to index columns from that table.
+
+Expressions in RLS rules should follow a format like the following, where `OP` can be `IN`, `EQUALS`, or `EQUALS_NOCASE`:
+
+* `ts_groups OP f(x)`
+* `f(x) OP ts_groups`
+* `ts_username OP f(x)`
+* `f(x) OP constant`
+* `constant OP f(x)`
+* `f(x) OP g(x)`
+* `g(x) OP f(x)`
+
+The following example will not work:
+
+[source]
+----
+if (ts_groups = 'a' or ts_groups = 'b' or tsgroups = 'c') then col1 = 'x' else false
+----
+
+The following example works:
+
+[source]
+----
+ts_groups = if (col1 = 'x') 'a' else 'none' or
+ts_groups = if (col1 = 'x') 'b' else 'none' or
+ts_groups = if (col1 = 'x') 'c' else 'none'
+----
+
 '''
 > **Related information**
 >
