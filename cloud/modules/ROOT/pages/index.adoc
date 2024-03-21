@@ -109,6 +109,7 @@ Find topics for the common types of ThoughtSpot users.
       <a href="https://docs.thoughtspot.com/cloud/latest/business-user">Business User</a>
     </h2>
     <ul>
+<<<<<<< HEAD
       <li><a href="https://docs.thoughtspot.com/cloud/latest/business-user-onboarding">Onboard</a></li>
       <li><a href="https://docs.thoughtspot.com/cloud/latest/thoughtspot-one-homepage">Home page</a></li>
       <li><a href="https://docs.thoughtspot.com/cloud/latest/liveboards">Liveboards and Answers</a></li>
@@ -118,7 +119,7 @@ Find topics for the common types of ThoughtSpot users.
         <li><a href="https://docs.thoughtspot.com/cloud/latest/spotiq-change">Change analysis</a></li>
 <li><a href="https://docs.thoughtspot.com/cloud/latest/search-sage">ThoughtSpot Sage</a></li>
 <li><a href="https://docs.thoughtspot.com/cloud/latest/thoughtspot-sync">ThoughtSpot Sync</a></li>
-<li><a href="https://docs.thoughtspot.com/cloud/latest/thoughtspot-sheets">Add-ons for Google Sheets&trade;</a></li>
+<li><a href="https://docs.thoughtspot.com/cloud/latest/thoughtspot-sheets">Add-on for Google Sheets&trade;</a></li>
 <li><a href="https://docs.thoughtspot.com/cloud/latest/thoughtspot-slides">Add-on for Google Slides&trade;</a></li>
     </ul>
     </div>
