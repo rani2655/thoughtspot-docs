@@ -109,7 +109,6 @@ Find topics for the common types of ThoughtSpot users.
       <a href="https://docs.thoughtspot.com/cloud/latest/business-user">Business User</a>
     </h2>
     <ul>
-<<<<<<< HEAD
       <li><a href="https://docs.thoughtspot.com/cloud/latest/business-user-onboarding">Onboard</a></li>
       <li><a href="https://docs.thoughtspot.com/cloud/latest/thoughtspot-one-homepage">Home page</a></li>
       <li><a href="https://docs.thoughtspot.com/cloud/latest/liveboards">Liveboards and Answers</a></li>
