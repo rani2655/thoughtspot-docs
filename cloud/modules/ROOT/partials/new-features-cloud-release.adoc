@@ -32,6 +32,11 @@ For more information, see xref:sync-gbq.adoc[Sync to Google BigQuery].
 Custom charts [.badge.badge-beta-relnotes]#Beta#::
 You can now use custom charts created outside of ThoughtSpot, including third-party chart libraries. To enable this feature, contact {support-url}. For more information, see xref:chart-byoc.adoc[Custom charts].
 
+
+// Mary -- SCAL-150356
+Custom sets [.badge.badge-early-access-whats-new]#Early Access#::
+You can create custom sets, which can be used to classify values in a list that you can then reuse across multiple analyses. ThoughtSpot introduces custom column sets in this release. A column set is a custom group of values from a single column. For example, you can use custom sets to define regions with specific countries included or excluded. Custom sets are community objects which remain when you navigate away from the Search Data page and can be used by any user with view access to the underlying Worksheet. To enable this feature, contact {support-url}. For more information, see xref:custom-groups.adoc[Custom sets].
+
 [#9-11-0-cl-business-user]
 === For the Business User
 // Mark -- SCAL-162712
