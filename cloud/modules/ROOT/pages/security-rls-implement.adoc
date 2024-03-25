@@ -99,9 +99,7 @@ The following example works:
 
 [source]
 ----
-ts_groups = if (col1 = 'x') 'a' else 'none' or
-ts_groups = if (col1 = 'x') 'b' else 'none' or
-ts_groups = if (col1 = 'x') 'c' else 'none'
+ts_groups = if (col1 = 'x') then 'a' else 'none' or ts_groups = if (col1 = 'x') then 'b' else 'none' or ts_groups = if (col1 = 'x') then 'c' else 'none'
 ----
 
 Note that if an RLS rule is preventing indexing on a table, you can check the xref:index-statistics-liveboard.adoc[Index Statistics Liveboard] to find the problem.
