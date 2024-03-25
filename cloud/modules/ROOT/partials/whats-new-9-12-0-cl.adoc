@@ -1,0 +1,393 @@
+ifndef::pendo-links[]
+April 2024 [label label-dep]#9.12.0.cl#
+endif::[]
+ifdef::pendo-links[]
+[month-year-whats-new]#April 2024#
+[label label-dep-whats-new]#9.12.0.cl#
+endif::[]
+
+ifndef::free-trial-feature[]
+NOTE: Features marked as [.badge.badge-update-note]#Beta# are off by default. To enable them, contact {support-url}.
+endif::free-trial-feature[]
+
+[#primary-9-12-0-cl]
+
+// Business User
+
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-10-0-cl-conditional]
+[discrete]
+=== Advanced conditional formatting [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-10-0-cl-conditional]
+[discrete]
+=== Advanced conditional formatting [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
+// Naomi -- scal-177005. is it visualization as well as table? check if it's in early access panel. moved to 9.12.0.cl
+
+// PM: Manan
+
+Rather than simply using conditional formatting comparing a column's measures to a single value (for example, `sales > 10000`), you can now use conditional formatting to compare a column's measures to another column or to a parameter. For example, if you search for `sales this year` compared to `sales last year`, you can highlight where sales this year were less than last year. You can set multiple conditional formatting rules to a single table. To enable this feature, contact your administrator.
+////
+For more information, see
+ifndef::pendo-links[]
+xref:search-conditional-formatting.adoc#advanced-conditional-formatting[Advanced conditional formatting].
+endif::[]
+ifdef::pendo-links[]
+xref:search-conditional-formatting.adoc#advanced-conditional-formatting[Advanced conditional formatting,window=_blank].
+endif::[]
+////
+image::advanced-conditional-formatting.gif[Advanced conditional formatting comparing sales of state to sales of region]
+endif::free-trial-feature[]
+
+[#9-12-0-cl-homepage]
+[discrete]
+=== [HomePage] Improvements for favorites, trendings, library, and filtered list page
+// Mark – SCAL-189291
+// PM: Adi
+
+
+[#9-12-0-cl-collibra]
+[discrete]
+=== Collibra integration
+
+// Naomi -- SCAL-187745.
+// PM: Sarib
+
+Collibra integration is now available to all users and on by default. You can now see verification status and descriptions on tables and columns imported from Collibra. This information appears when you click on the corresponding table or column in *Search data*. Once connected, this information is visible to all users.
+
+[#9-12-0-cl-user-adoption]
+[discrete]
+=== User Adoption Liveboard
+// Naomi – SCAL-179763
+// PM: Mohil
+
+[#9-12-0-cl-sage-coach]
+[discrete]
+=== Sage Coach improvements for 9.12
+// Naomi – SCAL-179981
+// PM: Santiago
+
+[#9-12-0-cl-email]
+[discrete]
+=== Email digest
+// Mary – SCAL-179683
+// PM: Adi
+
+[#9-12-0-cl-watchlist]
+[discrete]
+=== [Modular home page] Phase 1 Watchlist UI changes
+// Mark – SCAL-181295
+// PM: Rahul P J P
+
+[#9-12-0-cl-embrace]
+[discrete]
+=== Embrace error message improvements - phase 1
+// Naomi – SCAL-178764
+// PM: Aaghran
+
+[#9-12-0-cl-worksheet]
+[discrete]
+=== [Papercut] Show underlying worksheets
+// Mary – SCAL-190726
+// PM: Vanshree
+
+[#9-12-0-cl-data-panel]
+[discrete]
+=== Data Panel V2 - Unify CTA for Columns/ Formula/ Params and Cohorts in data panel
+// Mark – SCAL-179816
+// PM: Alok
+
+[#9-12-0-cl-module]
+[discrete]
+=== [Homepage] General Modules improvements
+// Mark – SCAL-177334
+// PM: Adi
+
+[#9-12-0-cl-filters]
+[discrete]
+=== [Customer commit] Allow users to apply filters on Liveboards even if hidden objects are included in a visualization within the Liveboard
+// Mary – SCAL-157372
+// PM: Vanshree
+
+[#9-12-0-cl-configuration]
+[discrete]
+=== Configuration related to onboarding should be at Org level in Admin panel
+// Mary – SCAL-145362
+// PM: ?
+
+// Analyst
+
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-12-0-cl-forecasting]
+[discrete]
+=== Forecasting [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#9-12-0-cl-forecasting]
+[discrete]
+=== Forecasting [.badge.badge-beta-whats-new]#Beta#
+endif::[]
+// Naomi -- SCAL-153878. moved to 9.12
+// PM: Vikas
+
+endif::free-trial-feature[]
+
+[#9-12-0-cl-change-analysis]
+[discrete]
+=== Change analysis: remember personalized columns
+// Naomi – SCAL-181312
+// PM: Vikas
+
+Personalized columns are now available to all users and on by default. Users with edit permissions on a Liveboard can set their preferred attribute columns through the change analysis window and select *Apply to all users* to keep those selections for any subsequent change analysis calculations on that Liveboard. Individual users can still override these preferences for their own calculations.
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-12-0-cl-iterative]
+[discrete]
+=== Iterative change analysis [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-11-0-cl-iterative]
+[discrete]
+=== Iterative change analysis [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+// Naomi – SCAL-181312
+// PM: Vikas
+
+You can now drill down on specific columns in change analysis, in order to identify change drivers within your data. For example, if you run an analysis on sales monthly and find out that the 'jacket' item type changed the most, you can easily drill down on jacket sales and identify which region contributed the most to the change in sales. To enable this feature, contact your administrator.
+
+endif::free-trial-feature[]
+
+[#9-12-0-cl-sync]
+[discrete]
+=== Excel Sync
+// Naomi – SCAL-130010
+// PM: Sarib
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-12-0-cl-falcon]
+[discrete]
+=== Falcon Connection [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-12-0-cl-falcon]
+[discrete]
+=== Falcon Connection [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+// Naomi – SCAL-149828
+// PM: Ali Alladin
+
+
+endif::free-trial-feature[]
+
+[#9-12-0-cl-filter]
+[discrete]
+=== Sort and filter on all object lists in the model editor
+// Mark – SCAL-180806
+// PM: Samridh
+
+[#9-12-0-cl-looker]
+[discrete]
+=== Use updated JDBC driver for Looker connection
+// Mark – SCAL-181022
+// PM: Samridh
+
+[#9-12-0-cl-xlsx]
+[discrete]
+=== [Customer Commit] Add support for XLSX in Liveboard schedule
+// Mary – SCAL-140254
+// PM: Vanshree
+
+[#9-12-0-cl-improvements]
+[discrete]
+=== Data workspace Customer experience improvements
+// Naomi – SCAL-180961
+// PM: Sarib
+
+'''
+[#secondary-9-12-0-cl]
+[discrete]
+=== _Other features and enhancements_
+
+// Data Engineer
+
+[#9-12-0-cl-collibra-metadata]
+[discrete]
+=== Collibra catalog integration
+
+// Naomi -- SCAL-187745.
+// PM: Sarib
+
+Collibra catalog integration is now available to all users and on by default. You can now import metadata information related to your tables and columns from Collibra into ThoughtSpot. From the Data tab, you can set up a connection to Collibra to import column descriptions, column verification status, table descriptions, and table verification status.
+
+
+[#9-12-0-cl-secondary]
+[discrete]
+=== Default secondary role config for Snowflake connections
+// Naomi – SCAL-191462, scal-196178
+// PM: Aaghran
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-12-0-cl-config]
+[discrete]
+=== Support for multiple configurations per connection[.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-12-0-cl-config]
+[discrete]
+=== Support for multiple configurations per connection [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+// Mark – SCAL-94921
+// PM: ?
+
+
+endif::free-trial-feature[]
+
+[#9-12-0-cl-spotapps]
+[discrete]
+=== Sunset SpotApps
+// Mark – SCAL-189591
+// PM: ?
+
+// IT/ Ops Engineer'
+
+[#9-12-0-cl-product-usage]
+[discrete]
+=== Report product usage based on query stats - Worksheet changes
+// Naomi – SCAL-161240
+// PM: Sahar
+
+[#9-12-0-cl-nls]
+[discrete]
+=== Sage Adoption Liveboard
+// Naomi – SCAL-140363
+// PM: Santiago, Kevin Shi
+
+[#9-12-0-cl-connection-tml]
+[discrete]
+=== Connection TML UI support
+// Naomi – SCAL-148626
+// PM: Samridh
+
+[#9-12-0-cl-remapping-tml]
+[discrete]
+=== Support embrace table remapping and data-type sync via TML import
+// Naomi – SCAL-132544
+// PM: Samridh
+
+[#9-12-0-cl-tml]
+[discrete]
+=== Export/import of users/groups/roles/privileges using TML
+// Mary – SCAL-176799
+// PM: Vijay
+
+[#9-12-0-cl-oidc]
+[discrete]
+=== Implement OIDC - Org + Groups on IAMv2 for Orgs Clusters
+// Mary – SCAL-156211
+// PM: Vijay
+
+[#9-12-0-cl-sharing]
+[discrete]
+=== Orgs 1.5: Per Org URL (Enterprise) - For sharing links
+// Mary – SCAL-164989
+// PM: Vijay
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-12-0-cl-first-last]
+[discrete]
+=== Support first/last for the semi-additive use case [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-12-0-cl-first-last]
+[discrete]
+=== Support first/last for the semi-additive use case [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+// Naomi – SCAL-180544
+// PM: Damian
+
+To enable this feature, contact your administrator.
+
+endif::free-trial-feature[]
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-12-0-cl-react]
+[discrete]
+=== Implement React Shell in Business user application [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-12-0-cl-react]
+[discrete]
+=== Implement React Shell in Business user application [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+// Mark – SCAL-141136
+// PM: Anjali
+
+
+endif::free-trial-feature[]
+
+[#9-12-0-cl-conv-assist]
+[discrete]
+=== Conv Assist UI Quality 9.12
+// Naomi – SCAL-188039
+// PM: ?
+
+[#9-12-0-cl-spotiq]
+[discrete]
+=== Default password change for SW clusters - Script change required for SpotIQ
+// Mary – SCAL-180903
+// PM: ?
+
+[#9-12-0-cl-search-data]
+[discrete]
+=== Default password change for SW clusters - Script change required for Search Data
+// Mary – SCAL-180897
+// PM: ?
+
+[#9-12-0-cl-data-workspace]
+[discrete]
+=== Default password change for SW clusters - Script change required for Data Workspace
+// Mary – SCAL-180882
+// PM: ?
+
+[#9-12-0-cl-data-platform]
+[discrete]
+=== Default password change for SW clusters - Script change required for Data platform
+// Mary – SCAL-180881
+// PM: ?
+
+[#9-12-0-cl-script]
+[discrete]
+=== Default password change for SW clusters - Script change required for datamodeling
+// Mary – SCAL-180884
+// PM: ?
+
+[#9-12-0-cl-demo]
+[discrete]
+=== Demo data publishing on Enterprise Orgs
+// Mary – SCAL-180008
+// PM: ?
+
+[#9-12-0-cl-org]
+[discrete]
+=== Org Deletion - Default enablement
+// Mary – SCAL-179795, SCAL-134057
+// PM: Vijay
+
+ifndef::free-trial-feature[]
+[discrete]
+=== For the Developer
+
+For new features and enhancements introduced in this release of ThoughtSpot Embedded, see https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
+endif::[]
