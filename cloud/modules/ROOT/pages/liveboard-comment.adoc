@@ -41,6 +41,6 @@ NOTE: Liveboard comments are stored in the CORD app. If you are on a dark cluste
 
 Cord is SOC2 Type II certified and is completely secure. For more information, here are some of the links on CORD's portal which cover data privacy and security:
 
-- https://cord.com/legal/data-processing-agreement[Data Processing Agreement]
-- https://cord.com/legal/security-policy[Cord Security Standard]
-- https://cord.com/security[Security]
+- https://cord.com/legal/data-processing-agreement[Data Processing Agreement^]
+- https://cord.com/legal/security-policy[Cord Security Standard^]
+- https://cord.com/security[Security^]
