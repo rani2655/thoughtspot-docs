@@ -38,3 +38,9 @@ image::comment-data-point.png[Comment data point]
 If you filter data, modify a visualization, or delete a visualization on a Liveboard after commenting on it, the comment is classified as unattached, and is available for viewing in the comment sidebar.
 
 NOTE: Liveboard comments are stored in the CORD app. If you are on a dark cluster and want to enable Liveboard comments, you must whitelist the domains listed link:https://docs.cord.com/reference/csp-settings[here].
+
+Cord is SOC2 Type II certified and is completely secure. For more information, here are some of the links on CORD's portal which cover data privacy and security:
+
+- https://cord.com/legal/data-processing-agreement[Data Processing Agreement]
+- https://cord.com/legal/security-policy[Cord Security Standard]
+- https://cord.com/security[Security]
