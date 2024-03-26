@@ -1,0 +1,36 @@
+= Custom sets
+:last_updated: 3/26/24
+:author: Mary
+:linkattrs:
+
+:page-layout: default-cloud
+:experimental:
+
+:description: You can now create custom sets, which can be used to classify values in a list that you can then reuse across multiple analyses.
+
+You can create custom sets, which can be used to classify values in a list that you can then reuse across multiple analyses. ThoughtSpot now supports custom column sets. A column set is a custom group of values from a single column. Custom sets are community objects which remain when you navigate away from the Search Data page and can be used by any user with view access to the underlying Worksheet.
+
+NOTE: Custom sets are in early access and off by default. To enable this feature, contact {support-url}.
+
+To create a custom set, first define the business question you wish to answer. For example, you can use custom sets to define regions with specific countries included or excluded. To create a custom column set showcasing this defined list of values, follow these steps:
+
+. Navigate to the *Search Data* page by clicking the *Search data* button in the top navigation bar.
+
+. Click *Add* and select *Column set*.
+
+. Select a *Base column* from the drop down.
+
+. Select either *Conditions* or *Bins* under *Define groups*.
+Conditions allow you to create groups based on conditional values such as less than <, greater than >, or equal to =. Bins allow you to create groups based on bins of specified sizes with a minimum and maximum value.
+
+. Enter your desired parameters for the condition or bin. You can add multiple conditions by clicking *Add condition*. You can add multiple groups by clicking *Add group*.
+
+. For conditions, select to show remaining values as either *Individual values* or as a *Group*. If you choose to group the remaining values, you can enter a name for the group.
+
+. Enter a *Set name*. This is the name for the set that appears for future use.
+
+. Optionally, enter a *Set description*.
+
+. Click *Create*.
+
+
