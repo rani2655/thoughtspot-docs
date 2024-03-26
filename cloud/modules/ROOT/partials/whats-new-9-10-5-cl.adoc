@@ -309,10 +309,10 @@ You can create custom sets, which can be used to classify values in a list that 
 
 For more information, see
 ifndef::pendo-links[]
-xref:custom-groups.adoc[Custom sets].
+xref:custom-sets.adoc[Custom sets].
 endif::[]
 ifdef::pendo-links[]
-xref:custom-groups.adoc[Custom sets,window=_blank].
+xref:custom-sets.adoc[Custom sets,window=_blank].
 endif::[]
 
 image::column-set.gif[Column set creation process]
