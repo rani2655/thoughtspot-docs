@@ -152,10 +152,10 @@ Databricks connections now support OAuth. See xref:connections-databricks-oauth.
 
 // image
 [discrete]
-=== ThoughtSpot Everywhere
+=== ThoughtSpot Embedded
 
-Starting from the 8.4.0-sw release (Limited Availability), customers licensed to embed ThoughtSpot can use ThoughtSpot Everywhere features and the Visual Embed SDK.
+Starting from the 8.4.0-sw release (Limited Availability), customers licensed to embed ThoughtSpot can use ThoughtSpot Embedded features and the Visual Embed SDK.
 
-To enable ThoughtSpot Everywhere on your cluster, contact {support-url}.
+To enable ThoughtSpot Embedded on your cluster, contact {support-url}.
 
-For new features and enhancements introduced in this release for ThoughtSpot Everywhere, see https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
+For new features and enhancements introduced in this release for ThoughtSpot Embedded, see https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].

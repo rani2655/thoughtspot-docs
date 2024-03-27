@@ -28,7 +28,7 @@ These are the issues we fixed in recent ThoughtSpot Software releases.
 |`POST tspublic/v1/user` returns a 500 error if null is passed on under the group parameter for the tspublic V1 user API property.
 
 |SCAL-175240
-|ThoughtSpot Everywhere: PDF downloads do not work after applying `9.3.0.cl-261-349-default-PR908.2023-09-14T103600` patch.
+|ThoughtSpot Embedded: PDF downloads do not work after applying `9.3.0.cl-261-349-default-PR908.2023-09-14T103600` patch.
 
 |SCAL-174649
 |`logicalModelManager.getLogicalColumn` returns null for some columns after 9.6 upgrade causing columns to be dropped in sage metadata.
@@ -112,13 +112,13 @@ These are the issues we fixed in recent ThoughtSpot Software releases.
 |Graph labels in exported PDFs have issues with overlapping and missing values on certain bars.
 
 |SCAL-137873
-|ThoughtSpot Everywhere: Locale parameter does not work in SearchEmbed.
+|ThoughtSpot Embedded: Locale parameter does not work in SearchEmbed.
 
 |SCAL-137487
 |Pivot charts cannot be downloaded.
 
 |SCAL-129104
-|ThoughtSpot Everywhere:  Powered by Thoughtspot footer is not disabled in Liveboard V2.
+|ThoughtSpot Embedded:  Powered by Thoughtspot footer is not disabled in Liveboard V2.
 
 |SCAL-124499
 |Long-running services without a restart have increased stdout and stderr files due to an issue with the way logs are rotated, causing issues when a file is temporarily staged into memory or disk.
@@ -138,7 +138,7 @@ These are the issues we fixed in recent ThoughtSpot Software releases.
 |Passthrough functions cannot be executed on Falcon objects.
 
 |SCAL-167113
-|ThoughtSpot Everywhere: Popup does not close automatically after the authentication is complete.
+|ThoughtSpot Embedded: Popup does not close automatically after the authentication is complete.
 
 |SCAL-166260
 |Change analysis feature is available even after disabling the change analysis feature in the admin panel.
@@ -193,7 +193,7 @@ These are the issues we fixed in recent ThoughtSpot Software releases.
 |Using Windows, saving a formula no longer adds extra blank lines in the formula.
 
 |SCAL-132991
-|ThoughtSpot Everywhere customers see a red error banner at the top of search when doing their first search.
+|ThoughtSpot Embedded customers see a red error banner at the top of search when doing their first search.
 
 |SCAL-132347
 |REST API v2: gettoken returns a 404 error.
@@ -295,10 +295,10 @@ These are the issues we fixed in recent ThoughtSpot Software releases.
 * Backup through tscli fails because space is not found in /tmp directory.
 * When downloading an answer in Excel, CSV, or PDF, the date range changes.
 * List of pinboards is very slow to display.
-* ThoughtSpot Everywhere: Login fails intermittently.
+* ThoughtSpot Embedded: Login fails intermittently.
 * Axis values exceeding 20,000 are partially visualized in a bar chart.
 * Scheduled pinboard invalid when using an OAuth connection.
-* ThoughtSpot Everywhere: `disableMobileDeeplink` flag does not work on the login page.
+* ThoughtSpot Embedded: `disableMobileDeeplink` flag does not work on the login page.
 * CSV upload on Free Trial takes a long time to index.
 * ThoughtSpot installation erases AWS EC2 profile credentials.
 * When a user requests access to a pinboard, the email is not sent to the administrator.
