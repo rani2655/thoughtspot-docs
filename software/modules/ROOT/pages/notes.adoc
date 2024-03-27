@@ -139,11 +139,11 @@ link:https://developers.thoughtspot.com/docs/?pageid=runtime-params[Runtime Para
 [#developer-9-8-0-sw]
 === For the Developer
 
-Customers licensed to embed ThoughtSpot can use ThoughtSpot Everywhere features and Visual Embed SDK.
+Customers licensed to embed ThoughtSpot can use ThoughtSpot Embedded features and Visual Embed SDK.
 
-To enable ThoughtSpot Everywhere on your cluster, contact {support-url}.
+To enable ThoughtSpot Embedded on your cluster, contact {support-url}.
 
-For information about ThoughtSpot Everywhere, refer to  link:https://developers.thoughtspot.com/docs[ThoughtSpot Everywhere Documentation, window=_blank].
+For information about ThoughtSpot Embedded, refer to  link:https://developers.thoughtspot.com/docs[ThoughtSpot Embedded Documentation, window=_blank].
 
 [#upgrade-paths]
 == Supported Upgrade Paths

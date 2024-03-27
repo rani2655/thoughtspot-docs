@@ -7,9 +7,9 @@
 
 Developer users embed ThoughtSpot content in their application, web page, portal, or business solution.
 
-If ThoughtSpot Everywhere is enabled on your instance, developer users can access the *Develop* tab and explore the embedding and customization workflows.
+If ThoughtSpot Embedded is enabled on your instance, developer users can access the *Develop* tab and explore the embedding and customization workflows.
 
-For information about ThoughtSpot Everywhere, visit the link:https://developers.thoughtspot.com/docs[ThoughtSpot Everywhere documentation, window=_blank] site.
+For information about ThoughtSpot Embedded, visit the link:https://developers.thoughtspot.com/docs[ThoughtSpot Developer documentation, window=_blank] site.
 
 To view the embedding, SDK, and REST API documentation in the ThoughtSpot UI, go to the *Develop* tab and select **Guide**.
 

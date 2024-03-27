@@ -8,8 +8,8 @@
 
 ThoughtSpot supports embedding Search, Liveboard, visualizations, and the full ThoughtSpot experience in a web application, product, or portal.
 
-NOTE: Starting from the 8.4.0-sw release (Limited Availability), customers licensed to embed ThoughtSpot can use ThoughtSpot Everywhere features and Visual Embed SDK. +
-To enable ThoughtSpot Everywhere on your cluster, contact {support-url}.
+NOTE: Starting from the 8.4.0-sw release (Limited Availability), customers licensed to embed ThoughtSpot can use ThoughtSpot Embedded features and Visual Embed SDK. +
+To enable ThoughtSpot Embedded on your cluster, contact {support-url}.
 
 == Supported embedding methods
 
@@ -21,17 +21,17 @@ Based on your embedding requirements and integration setup, you can use one of t
 
 To determine the method that best fits your embedding requirement, refer to the link:https://visual-embed-sdk-8-4.vercel.app/docs/?pageid=embed-ts[Feature details and recommendations, window=_blank].
 
-== ThoughtSpot Everywhere
+== ThoughtSpot Embedded
 
-ThoughtSpot Everywhere provides a low-code embedded analytics platform for developers and product owners to build interactive data apps and incorporate ThoughtSpot functions and services directly into their apps, products, or services.
+ThoughtSpot Embedded provides a low-code embedded analytics platform for developers and product owners to build interactive data apps and incorporate ThoughtSpot functions and services directly into their apps, products, or services.
 
-ThoughtSpot Everywhere offers several features to enhance your embedding experience:
+It offers several features to enhance your embedding experience:
 
 * Visual Embed SDK for quick and easy embedding
 * A developer portal with interactive developer Playgrounds, customization controls and security settings for the embedded view, and Developer Guides.
 * REST API framework to programmatically create and manage objects, data, and automate deployments
 
-For more information, see link:https://developers.thoughtspot.com/docs/?pageid=embed-analytics[ThoughtSpot Everywhere documentation, window=_blank].
+For more information, see link:https://developers.thoughtspot.com/docs/?pageid=embed-analytics[ThoughtSpot Developer documentation, window=_blank].
 
 == Legacy embedding method
 

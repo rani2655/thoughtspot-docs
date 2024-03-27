@@ -9,17 +9,125 @@
 These are the issues we fixed in recent ThoughtSpot Software releases.
 
 [#releases-9-8-x]
-== 9.5.0.sw release fixed issues
+== 9.8.0.sw release fixed issues
 
 [cols="20%,80%"]
 |===
 |Issue ID |Description
 
-|SCAL-XXXXXX
-|TBD
 
-|SCAL-XXXXXX
-|TBD
+
+|SCAL-182743
+|Updates to runtime filters in a Liveboard do not appear in the downloaded Liveboard.
+
+|SCAL-182316
+|Extra page added and footer is distorted in PDF export after puppeteer upgrade.
+
+|SCAL-180280
+|R pinboards do not load in the Liveboard new experience after upgrade to 8.8.1.sw.cu1.
+
+|SCAL-175970
+|`POST tspublic/v1/user` returns a 500 error if null is passed on under the group parameter for the tspublic V1 user API property.
+
+|SCAL-175240
+|ThoughtSpot Embedded: PDF downloads do not work after applying `9.3.0.cl-261-349-default-PR908.2023-09-14T103600` patch.
+
+|SCAL-174649
+|`logicalModelManager.getLogicalColumn` returns null for some columns after 9.6 upgrade causing columns to be dropped in sage metadata.
+
+|SCAL-173805
+|The error `TypeError: runtimeFilterParams.set is not a function. (In 'runtimeFilterParams.set(I,b)', 'runtimeFilterParams.set' is undefined)` occurs when using runtime filters along with cookieless authentication.
+
+|SCAL-173537
+|Incorrect date bucketing occurs on windowing and group functions, when date bucketing on windowing or group functions is defined over chasm trap worksheets.
+
+|SCAL-173139
+|Adding values in bulk does not work on Liveboard filters.
+
+|SCAL-170042
+|A worksheet which does not have a dependency cannot be deleted.
+
+|SCAL-168585
+|Filter is not applied before aggregation when  `enableGroupAggregateNewReaggregation` is enabled.
+
+|SCAL-167402
+|Transferring ownership of objects in a secondary org does not work though the API indicates it is successful.
+
+|SCAL-167188
+|Worksheet generates an error when multiple metrics are used after upgrade to 9.4.0.cl.
+
+|SCAL-167159
+|Passthrough functions cannot be executed on Falcon objects.
+
+|SCAL-164846
+|Pivot table display "Undefined" when user clicks Edit button in a Liveboard or opens the visualization in edit mode.
+
+|SCAL-163668
+|`sage_usage_based_index` fills up the disk.
+
+|SCAL-160065
+|Metadata upgrade report is not generated.
+
+|SCAL-159531
+|Data displayed in a KPI tile is cut off when using a custom tile size.
+
+|SCAL-159335
+|A query with multiple `group_*` formulas mixed with other attribute formulas, and using a worksheet with multiple roots returns data where the same combinations of attribute values correspond to different measure values.
+
+|SCAL-159308
+|Columns appear to be missing for a connection in different operations such as editing and remapping, causing these operations to fail.
+
+|SCAL-155174
+|An Answer using the `group_aggregate` function (or versus), and having a mix of formula grouping columns and base column grouping columns fails when the formula comes after the base column in the search bar.
+
+|SCAL-151590
+|Parameter value is not retained after Liveboard is imported.
+
+|SCAL-148123
+|Active Directory groups are duplicated when using Active Directory sync after upgrade to 8.8.1.sw.cu1.
+
+|SCAL-147691
+|Cannot search by display name when sharing an object in 8.4.1.sw.
+
+|SCAL-146968
+|Using a filter in a Liveboard and typing in *&* as a search word, generates *\&amp;* as a result.
+
+|SCAL-145485
+|Join type used between two tables is not honored because the joins which share the same source and destination table do not have different join types. Also, the RLS rule on the destination table and the user executing a query involving the two tables is not an admin user and does not have Bypass RLS privileges.
+
+|SCAL-142085
+|Pivot table with group aggregate formula displays incorrect numbers.
+
+|SCAL-141596
+|Pivot table is in an error state after upgrade to 8.8.1.sw.
+
+|SCAL-141234
+|Autocomplete does not provide completions if the token has a leading whitespace.
+
+|SCAL-139866
+|Indexing of Metadata is slow and memory usage is high.
+
+|SCAL-138905
+|DataFlow sync fails after upgrade to 8.4.1.cu1
+
+|SCAL-137993
+|Graph labels in exported PDFs have issues with overlapping and missing values on certain bars.
+
+|SCAL-137873
+|ThoughtSpot Embedded: Locale parameter does not work in SearchEmbed.
+
+|SCAL-137487
+|Pivot charts cannot be downloaded.
+
+|SCAL-129104
+|ThoughtSpot Embedded:  Powered by Thoughtspot footer is not disabled in Liveboard V2.
+
+|SCAL-124499
+|Long-running services without a restart have increased stdout and stderr files due to an issue with the way logs are rotated, causing issues when a file is temporarily staged into memory or disk.
+
+|SCAL-175970
+|`POST tspublic/v1/user` returns 500 if null is provided for the "groups" property.
+
 |===
 
 [#releases-9-5-x]
@@ -33,7 +141,7 @@ These are the issues we fixed in recent ThoughtSpot Software releases.
 |Passthrough functions cannot be executed on Falcon objects.
 
 |SCAL-167113
-|ThoughtSpot Everywhere: Popup does not close automatically after the authentication is complete.
+|ThoughtSpot Embedded: Popup does not close automatically after the authentication is complete.
 
 |SCAL-166260
 |Change analysis feature is available even after disabling the change analysis feature in the admin panel.
@@ -88,7 +196,7 @@ These are the issues we fixed in recent ThoughtSpot Software releases.
 |Using Windows, saving a formula no longer adds extra blank lines in the formula.
 
 |SCAL-132991
-|ThoughtSpot Everywhere customers see a red error banner at the top of search when doing their first search.
+|ThoughtSpot Embedded customers see a red error banner at the top of search when doing their first search.
 
 |SCAL-132347
 |REST API v2: gettoken returns a 404 error.
@@ -190,10 +298,10 @@ These are the issues we fixed in recent ThoughtSpot Software releases.
 * Backup through tscli fails because space is not found in /tmp directory.
 * When downloading an answer in Excel, CSV, or PDF, the date range changes.
 * List of pinboards is very slow to display.
-* ThoughtSpot Everywhere: Login fails intermittently.
+* ThoughtSpot Embedded: Login fails intermittently.
 * Axis values exceeding 20,000 are partially visualized in a bar chart.
 * Scheduled pinboard invalid when using an OAuth connection.
-* ThoughtSpot Everywhere: `disableMobileDeeplink` flag does not work on the login page.
+* ThoughtSpot Embedded: `disableMobileDeeplink` flag does not work on the login page.
 * CSV upload on Free Trial takes a long time to index.
 * ThoughtSpot installation erases AWS EC2 profile credentials.
 * When a user requests access to a pinboard, the email is not sent to the administrator.

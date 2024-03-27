@@ -53,7 +53,7 @@ Role-based access control (RBAC) is enabled and customer is using ThoughtSpot pu
 
 *Workaround*:
 
-Perform the required operations using the admin privilege or use ThoughtSpot Everywhere (TSE) v2 APIs with the User_admin privilege.
+Perform the required operations using the admin privilege or use ThoughtSpot Embedded (TSE) v2 APIs with the User_admin privilege.
 
 |SCAL-163806
 |Group aggregate and unique count in the same query do not work.
