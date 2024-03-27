@@ -6,7 +6,7 @@
 :page-layout: default-cloud
 :connection: Dremio
 :description: You can edit a Dremio connection to add tables and columns.
-:jira: SCAL-118895
+:jira: SCAL-118895, SCAL-201045
 
 You can edit a {connection} connection to add tables and columns.
 

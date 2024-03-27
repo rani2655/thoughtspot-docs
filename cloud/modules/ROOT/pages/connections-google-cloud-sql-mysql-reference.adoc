@@ -7,7 +7,7 @@
 :experimental:
 :connection: Google Cloud SQL for MySQL
 :description: Learn the specific information needed to establish a secure connection to Google Cloud SQL for MySQL.
-:jira: SCAL-166158
+:jira: SCAL-166158, SCAL-201042
 
 You need specific information to establish a seamless and secure connection.
 The following fields are required, except where noted.

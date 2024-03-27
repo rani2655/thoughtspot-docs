@@ -7,7 +7,7 @@
 :experimental:
 :connection: Google Cloud SQL for MySQL
 :description: You can connect to a Google Cloud SQL for MySQL database in ThoughtSpot Cloud, and perform live queries to create Answers and Liveboards.
-:jira: SCAL-166158
+:jira: SCAL-166158, SCAL-201042
 
 
 

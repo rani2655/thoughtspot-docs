@@ -6,7 +6,7 @@
 :experimental:
 :connection: Redshift
 :description: You can edit a Redshift connection to add tables and columns.
-:jira: SCAL-118895
+:jira: SCAL-118895, SCAL-201045
 
 You can edit a {connection} connection to add tables and columns.
 

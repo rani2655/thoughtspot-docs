@@ -4,7 +4,7 @@
 :experimental:
 :page-layout: default-cloud
 :description: You can connect ThoughtSpot to your Google BigQuery account and push CSV tables and charts to Google BigQuery.
-:jira: SCAL-174127
+:jira: SCAL-174127, SCAL-201041
 
 
 

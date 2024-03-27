@@ -6,7 +6,7 @@
 :page-aliases:
 :connection: Google Cloud SQL for MySQL
 :description: Passthrough functions allow you to send SQL expressions directly to Google Cloud SQL for MySQL without being interpreted by ThoughtSpot.
-:jira: SCAL-166158
+:jira: SCAL-166158, SCAL-201042
 
 Passthrough functions allow you to send SQL expressions directly to {connection} without being interpreted by ThoughtSpot.
 If you have custom database functions that ThoughtSpot doesn't support, you can use these new passthrough functions in the ThoughtSpot Formula Assistant to call your custom functions.

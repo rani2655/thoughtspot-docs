@@ -6,7 +6,7 @@
 :page-aliases:
 :description: You can edit an Amazon RDS PostgreSQL connection to add tables and columns.
 :connection: Amazon RDS PostgreSQL
-:jira: SCAL-118895
+:jira: SCAL-118895, SCAL-201045
 
 To edit an {connection} connection:
 

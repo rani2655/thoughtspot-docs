@@ -7,7 +7,7 @@
 :page-aliases:
 :connection: Google Cloud SQL for MySQL
 :description: Learn how to delete a Google Cloud SQL for MySQL connection.
-:jira: SCAL-166158
+:jira: SCAL-166158, SCAL-201042
 
 A connection can be used in multiple data sources or visualizations.
 Because of this, you must delete all of the sources and tasks that use that connection, before you can delete the connection.
