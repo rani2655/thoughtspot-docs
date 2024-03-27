@@ -377,7 +377,7 @@ image::custom-sort-order.png[Custom Sorting]
 [discrete]
 === Google Cloud SQL for MySQL connection
 
-// Naomi -- scal-166158. documentation JIRA scal-166158.
+// Naomi -- scal-166158. documentation JIRA scal-201042.
 // PM: Anjali
 
 You can now create connections from ThoughtSpot to
