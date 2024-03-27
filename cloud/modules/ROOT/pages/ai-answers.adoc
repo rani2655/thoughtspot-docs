@@ -5,7 +5,7 @@
 :linkattrs:
 :page-layout: default-cloud
 :description: You can now use natural language to search for answers to your business questions.
-:jira: SCAL-156247
+:jira: SCAL-156247, SCAL-201037
 
 // persona: business user
 

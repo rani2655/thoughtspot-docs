@@ -6,7 +6,7 @@
 :linkattrs:
 :experimental:
 :description: You can now choose how to display null and missing values in bar, column, and line charts.
-:jira: SCAL-169683
+:jira: SCAL-169683, SCAL-201035
 
 You can now choose how null and missing date values appear in line, line column, line stacked column, column, and bar charts in ThoughtSpot. From the *Chart configuration* menu image:icon-gear-10px.png[gear icon] for the date column, you can decide to show or hide null values in column, line, and bar charts. You can also decide how to display missing date values from the *Chart configuration* menu for each measure column.
 

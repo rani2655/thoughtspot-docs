@@ -7,7 +7,7 @@
 :page-aliases:
 :description: You can edit a Google Cloud SQL for SQL Server connection to add tables and columns.
 :connection: Google Cloud SQL for SQL Server
-:jira: SCAL-166160, SCAL-118895
+:jira: SCAL-166160, SCAL-118895, SCAL-201045
 
 To edit a {connection} connection:
 

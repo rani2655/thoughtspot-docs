@@ -7,7 +7,7 @@
 :page-aliases:
 :description: You can edit a Google Cloud SQL for PostgreSQL connection to add tables and columns.
 :connection: Google Cloud SQL for PostgreSQL
-:jira: SCAL-166159, SCAL-118895
+:jira: SCAL-166159, SCAL-118895, SCAL-201045
 
 To edit a {connection} connection:
 

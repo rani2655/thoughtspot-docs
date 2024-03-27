@@ -2,7 +2,7 @@
 :last_updated: 11/13/2023
 :author: Naomi
 :page-layout: default-cloud-early-access
-:jira: SCAL-166121, SCAL-197922
+:jira: SCAL-166121, SCAL-197922, SCAL-201034
 :description: You can now access advanced chart customization settings by selecting the *Edit chart configuration* icon and clicking *Advanced settings*.
 
 You can now access advanced chart customization settings by selecting the *Edit chart configuration* icon image:icon-gear-10px.png[chart customization icon] and selecting *Advanced settings*. Use these settings to adjust the size and appearance of tooltips, regression lines, gridlines, and chart backgrounds. All choices persist only for the Answer you are currently customizing.

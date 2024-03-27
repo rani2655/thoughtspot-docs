@@ -7,7 +7,7 @@
 :page-aliases:
 :description: You can edit a Google AlloyDB for PostgreSQL connection to add tables and columns.
 :connection: Google AlloyDB for PostgreSQL
-:jira: SCAL-166161, SCAL-118895
+:jira: SCAL-166161, SCAL-118895, SCAL-201045
 
 To edit a {connection} connection:
 
