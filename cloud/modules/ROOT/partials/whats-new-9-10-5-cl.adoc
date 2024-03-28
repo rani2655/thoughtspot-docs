@@ -103,7 +103,7 @@ ifdef::pendo-links[]
 === Mode connector [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 
-// Naomi -- SCAL-176923. clarify whether it supports data models as well as worksheets. (It does). now support federated data sources. check in about availability. how is it enabled.
+// Naomi -- SCAL-176923, documentation JIRA SCAL-201296. clarify whether it supports data models as well as worksheets. (It does). now support federated data sources. check in about availability. how is it enabled.
 // PM: Sara Vredevoogd
 
 ThoughtSpot now supports connections to Mode. Import reusable Datasets created in Mode as table extracts to leverage the full ThoughtSpot product, from Worksheet/Model creation to Search, Answer creation, and KPI monitoring. For more information, see
@@ -191,7 +191,7 @@ ifdef::pendo-links[]
 === Collibra integration [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
-// Naomi -- SCAL-174136. does not need images. split between business user and data engineer.
+// Naomi -- SCAL-174136, documentation JIRA SCAL-201297. does not need images. split between business user and data engineer.
 // PM: Sarib
 
 You can now see verification status and descriptions on tables and columns imported from Collibra. This information appears when you click on the corresponding table or column in *Search data*. Once connected, this information is visible to all users. To enable this feature, contact {support-url}.
@@ -330,7 +330,7 @@ endif::free-trial-feature[]
 [discrete]
 === Keywords "of" and "percentage of"
 
-// Naomi -- SCAL-151987
+// Naomi -- SCAL-151987, documentation JIRA SCAL-201298
 // PM: Damian
 
 
@@ -349,7 +349,7 @@ endif::[]
 [discrete]
 === ThoughtSpot Sync for Google BigQuery
 
-// Naomi -- SCAL-180691
+// Naomi -- SCAL-180691, documentation JIRA SCAL-201295
 // PM: Vijay
 
 ThoughtSpot Sync for Google BigQuery is now on by default and available to all users. Using ThoughtSpot Sync, you can now sync data directly from an Answer or a custom SQL view, to your Google BigQuery cloud data warehouse. For more information, see
@@ -406,7 +406,7 @@ ifdef::pendo-links[]
 === Collibra catalog integration [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
-// Naomi -- SCAL-174136. does not need images. split between business user and data engineer.
+// Naomi -- SCAL-174136, documentation JIRA SCAL-201297. does not need images. split between business user and data engineer.
 // PM: Sarib
 
 You can now import metadata information related to your tables and columns from Collibra into ThoughtSpot. From the Data tab, you can set up a connection to Collibra to import column descriptions, column verification status, table descriptions, and table verification status. To enable this feature, contact {support-url}.
@@ -471,7 +471,7 @@ endif::free-trial-feature[]
 [discrete]
 === Feedback review
 
-// Naomi -- SCAL-154204. check if sage is internal.
+// Naomi -- SCAL-154204. documentation JIRA SCAL-201299. check if sage is internal.
 // PM: Santiago
 
 We made the following changes to ThoughtSpot feedback review for AI Answers:
@@ -484,7 +484,7 @@ We made the following changes to ThoughtSpot feedback review for AI Answers:
 [discrete]
 === dbt integration: sharing dbt connections
 
-// Naomi -- SCAL-126451
+// Naomi -- SCAL-126451. documentation JIRA SCAL-201301
 // PM: Sarib
 
 You can now select a dbt connection and click *Share* to share the connection with other users or groups. By default, the underlying Cloud data warehouse connection is shared. Note that you need *Can manage data* privileges to access and share dbt connections.
@@ -501,7 +501,7 @@ endif::[]
 [discrete]
 === dbt error message handling
 
-// Naomi -- SCAL-180960. may not need docs?
+// Naomi -- SCAL-180960. documentation JIRA SCAL-201304. may not need docs?
 // PM: Sarib
 
 ThoughtSpot displays dbt error messages that clearly describe whether the error originated in dbt or in ThoughtSpot, where the error was encountered, and what steps users should take to resolve the issue. For a list of the error messages ThoughtSpot supports, see
@@ -517,7 +517,7 @@ endif::[]
 [discrete]
 === dbt integration: join enhancement
 
-// Naomi -- SCAL-126453
+// Naomi -- SCAL-126453. documentation JIRA SCAL-201305.
 // PM: Sarib
 
 When creating a Worksheet from a dbt connection, ThoughtSpot joins the tables based on the relationships defined in the underlying .yml schema file. Now, joins between the tables will be created local to the Worksheet instead of creating a global join between the tables.
@@ -527,7 +527,7 @@ When creating a Worksheet from a dbt connection, ThoughtSpot joins the tables ba
 [discrete]
 === Ts_Groups system variable
 
-// Naomi -- SCAL-164290. add what the formula means. add article.
+// Naomi -- SCAL-164290. documentation JIRA SCAL-201306. add what the formula means. add article.
 // PM: Damian
 
 ThoughtSpot now supports the `ts_groups` system variable in Answer and Worksheet formulas. You can use the `ts_groups` variable for data masking, or deciding whether to display the value of a column to a user based on their group membership.
@@ -570,7 +570,7 @@ endif::[]
 [discrete]
 === Enhancements to error messages for Search and Answers
 
-// Naomi -- SCAL-178532. mention that you can download it earlier?
+// Naomi -- SCAL-178532. documentation JIRA SCAL-201307. mention that you can download it earlier?
 // PM: Sara Vredevoogd
 
 To improve our error messaging when an error prevents data from loading, we introduced a broader classification that allows you to understand issues more clearly. You can click "Copy error details" to download and send a file to your administrators.

@@ -6,7 +6,7 @@
 :experimental:
 :connection: Mode
 :description: You can add a connection to a Mode database in ThoughtSpot Cloud, and perform live queries to create Answers and Liveboards.
-:jira: SCAL-176923
+:jira: SCAL-176923, SCAL-201296
 
 
 
