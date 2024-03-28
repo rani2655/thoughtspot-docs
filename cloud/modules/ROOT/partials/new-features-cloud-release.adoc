@@ -49,7 +49,7 @@ Keywords "of", "percentage of":: To enable business users to answer questions re
 For more information, see
 xref:formulas-keywords.adoc[Keywords: Of and Percentage of].
 
-// Naomi -- SCAL-174136
+// Naomi -- SCAL-174136, SCAL-201297
 Collibra integration [.badge.badge-beta-relnotes]#Beta#::
 You can now see verification status and descriptions on tables and columns imported from Collibra. This information appears when you click on the corresponding table or column in *Search data*. Once connected, this information is visible to all users. To enable this feature, contact {support-url}.
 +
@@ -59,7 +59,7 @@ For more information, see xref:catalog-integration-collibra.adoc[Collibra integr
 [#9-11-0-cl-data-engineer]
 === For the Data Engineer
 
-// Naomi -- SCAL-176923
+// Naomi -- SCAL-176923, SCAL-201296
 Mode connector [.badge.badge-early-access-relnotes]#Early Access#:: ThoughtSpot now supports connections to Mode. Import reusable Datasets created in Mode as table extracts to leverage the full ThoughtSpot product, from Worksheet/Model creation to Search, Answer creation, and KPI monitoring. For more information, see
 xref:connections-mode.adoc[Connect to Mode].
 
@@ -69,7 +69,7 @@ You can now create joins in your Model by clicking and dragging from one table t
 
 // Mark -- SCAL-194041
 
-// Naomi -- SCAL-154204
+// Naomi -- SCAL-154204, SCAL-201299
 Feedback review::
 We made the following changes to ThoughtSpot feedback review for AI Answers:
 
@@ -87,15 +87,15 @@ dbt error message handling::
 ThoughtSpot displays dbt error messages that clearly describe whether the error originated in dbt or in ThoughtSpot, where the error was encountered, and what steps users should take to resolve the issue. For a list of the error messages ThoughtSpot supports, see
 xref:dbt-integration.adoc#errors[dbt error messages].
 
-// Naomi -- SCAL-126453
+// Naomi -- SCAL-126453, SCAL-201305
 dbt integration: join enhancement::
 When creating a Worksheet from a dbt connection, ThoughtSpot joins the tables based on the relationships defined in the underlying .yml schema file. Now, joins between the tables will be created local to the Worksheet instead of creating a global join between the tables.
 
-// Naomi -- SCAL-164290
+// Naomi -- SCAL-164290, SCAL-201306
 Ts_Groups system variable::
 ThoughtSpot now supports the `ts_groups` system variable in Answer and Worksheet formulas. You can use the `ts_groups` variable for data masking, or deciding whether to display the value of a column to a user based on their group membership.
 
-// Naomi -- SCAL-178532
+// Naomi -- SCAL-178532, SCAL-201307
 Enhancements to error messages for Search and Answers::
 To improve our error messaging when an error prevents data from loading, we introduced a broader classification that allows you to understand issues more clearly. You can click "Copy error details" to download and send a file to your administrators.
 

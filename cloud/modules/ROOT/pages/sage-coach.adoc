@@ -4,7 +4,7 @@
 :linkattrs:
 :experimental:
 :description:
-:jira: SCAL-154204
+:jira: SCAL-154204, SCAL-201299
 
 // designed specifically for data professionals and analysts
 

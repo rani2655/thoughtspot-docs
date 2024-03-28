@@ -6,7 +6,7 @@
 :experimental:
 :connection: Mode
 :description: Learn how to remap a Mode connection.
-:jira: SCAL-176923
+:jira: SCAL-176923, SCAL-201296
 
 Modify the connection parameters by editing the source mapping `yaml` file that was created when you added the connection.
 For example, you can remap the existing table or column to a different table or column in an existing database connection.
