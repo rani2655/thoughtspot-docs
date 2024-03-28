@@ -137,6 +137,10 @@ endif::[]
 // Naomi -- SCAL-153878. moved to 9.12
 // PM: Vikas
 
+You can now use SpotIQ analysis to forecast future trends for your KPIs. ThoughtSpot uses machine learning models that learn from past trends, growth, and seasonality to project how the target metric will trend in the future. Note that your KPI must include a time keyword to support forecasting.
+
+image::forecasting.gif[Forecasting]
+
 endif::free-trial-feature[]
 
 [#9-12-0-cl-change-analysis]
