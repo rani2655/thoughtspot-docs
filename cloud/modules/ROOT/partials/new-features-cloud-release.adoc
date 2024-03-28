@@ -29,8 +29,8 @@ ThoughtSpot Sync for Google BigQuery is now on by default and available to all u
 For more information, see xref:sync-gbq.adoc[Sync to Google BigQuery].
 
 // Mark -- SCAL-179003
-Custom charts [.badge.badge-beta-relnotes]#Beta#::
-You can now use custom charts created outside of ThoughtSpot, including third-party chart libraries. To enable this feature, contact {support-url}. For more information, see xref:chart-byoc.adoc[Custom charts].
+Bring Your Own Charts [.badge.badge-beta-relnotes]#Beta#::
+You can now use custom charts created outside of ThoughtSpot, including third-party chart libraries. To enable this feature, contact {support-url}. For more information, see xref:chart-byoc.adoc[Bring Your Own Charts].
 
 
 // Mary -- SCAL-150356
@@ -67,7 +67,7 @@ Click and drag to create joins with Models [.badge.badge-early-access-relnotes]#
 
 You can now create joins in your Model by clicking and dragging from one table to another. To enable the Models feature, contact your administrator. For more information, see xref:models.adoc[Create models].
 
-// Mark -- SCAL-180588
+// Mark -- SCAL-194041
 
 // Naomi -- SCAL-154204
 Feedback review::
@@ -102,6 +102,8 @@ To improve our error messaging when an error prevents data from loading, we intr
 [#9-11-0-cl-developer]
 === For the Developer
 
-Develop custom charts [.badge.badge-beta-relnotes]#Beta#:: Developers can now create custom charts for ThoughtSpot using the ThoughtSpot Charts SDK. To enable this feature, contact {support-url}. For more information, see xref:chart-byoc.adoc[Custom charts].
+Develop custom charts [.badge.badge-beta-relnotes]#Beta#:: Developers can now create custom charts for ThoughtSpot using the ThoughtSpot Charts SDK. To enable this feature, contact {support-url}. For more information, see xref:chart-byoc.adoc[Bring Your Own Charts].
+
+// mark -- SCAL-194041
 
 ThoughtSpot Embedded:: For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
