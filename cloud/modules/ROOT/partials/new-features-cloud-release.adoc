@@ -102,8 +102,7 @@ To improve our error messaging when an error prevents data from loading, we intr
 [#9-11-0-cl-developer]
 === For the Developer
 
-Develop custom charts [.badge.badge-beta-relnotes]#Beta#:: Developers can now create custom charts for ThoughtSpot using the ThoughtSpot Charts SDK. To enable this feature, contact {support-url}. For more information, see xref:chart-byoc.adoc[Bring Your Own Charts].
-
 // mark -- SCAL-194041
+Develop custom charts [.badge.badge-beta-relnotes]#Beta#:: Developers can now create custom charts for ThoughtSpot using the ThoughtSpot Charts SDK. To enable this feature, contact {support-url}. For more information, see xref:chart-byoc.adoc[Bring Your Own Charts].
 
 ThoughtSpot Embedded:: For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
