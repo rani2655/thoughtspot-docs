@@ -78,15 +78,8 @@ Make sure your test users can see the appropriate rows.
 
 When creating an RLS rule for a table, you must use a specific format to allow ThoughtSpot to index columns from that table.
 
-Expressions in RLS rules should follow a format like the following, where `OP` can be `IN`, `EQUALS`, or `EQUALS_NOCASE`:
+Expressions in RLS rules can be expressed using `in`, `=`, or `!=`. You can create RLS rules using columns, constants, or sub-expressions, for example, `col1 = 'x'`, or `col1 + col2 = col3`.
 
-* `ts_groups OP f(x)`
-* `f(x) OP ts_groups`
-* `ts_username OP f(x)`
-* `f(x) OP constant`
-* `constant OP f(x)`
-* `f(x) OP g(x)`
-* `g(x) OP f(x)`
 
 The following example will not work:
 
