@@ -1,11 +1,11 @@
 = Create Models
-:last_updated: 3/25/2024
+:last_updated: 3/28/2024
 :linkattrs:
 :experimental:
 :page-layout: default-cloud-early-access
 :description: Models are logical views created on top of a more complex data model, to enable business users to more easily consume data.
 :model: Model
-:jira: SCAL-158357, SCAL-194041 (9.12.5 -drag to create joins)
+:jira: SCAL-158357, SCAL-194041 (9.12.5 -drag to create joins), SCAL-194038 (9.12.5 - bulk edit column properties).
 
 == Introducing Models
 
@@ -101,9 +101,24 @@ To add tables to your {model}, do the following:
 . Drag tables from the list on the left, and drop them into the right pane.
 +
 image::model_tables.png[]
-+
 
 
+==== Suggested joins
+
+If the tables you added to your {model} were joined previously, a join suggestion appears.
+
+image::model_tables_join_suggestion.png[]
+
+You can choose whether to keep, modify or remove the suggested join.
+
+- Click the join icon image:model_join_icon.png[], then select one of the following options:
+.. To keep the join, click *Accept Join*.
+.. To modify the join, click *Edit Join*.
+... Make your changes and click *Save*. For more information, see step 2 of <<add-joins,Addiing joins>>.
+.. To remove the join, click *Clear Join*.
+
+[#add-joins]
+=== Adding joins
 . To add a new join between tables, do one of the following:
 
 - Select the More menu image:model_table_join_more.png[] in the upper right of a table, and select *Add Join*.
@@ -148,7 +163,13 @@ Table names are highlighted in blue, and their associated columns appear underne
 +
 image::model_columns_added.png[]
 
-. (Optional) Edit column properties, as needed.
+. (Optional) Edit column properties, using either of the following methods:
+.. For an individual column:
+... Click the column property you want to edit, and make your changes.
+.. To edit multiple columns:
+... Click the checkbox next to the columns you want to edit.
+... Click the *Edit* menu, and select the property you want to edit.
+... In the window that opens, select the option you want and click *Update*.
 . To save the columns in your {model}, select *Save changes*.
 +
 You are prompted to edit the title and description of your {model}.
