@@ -146,6 +146,13 @@ image::model_tables_joined.png[]
 . (Optional) Add a description of your {model} by clicking *Add description* and entering a description.
 . When you are finished adding tables and joins to your {model}, the next step is to add columns.
 
+==== Global and local joins
+
+{model}s support both global and local joins. It's helpful to understand the difference.
+
+- *Global joins* are created between two tables in a connection and they are available to any {model} created in that connection. If you see a join suggestion when you create a model, it means that join is a global join.
+- *Local joins* are created in a specific {model} and they are only available in that {model}.
+
 === Adding columns
 
 To add columns to your {model}, do the following:
@@ -166,7 +173,7 @@ image::model_columns_added.png[]
 . (Optional) Edit column properties, using either of the following methods:
 .. For an individual column:
 ... Click the column property you want to edit, and make your changes.
-.. To edit multiple columns:
+.. For multiple columns:
 ... Click the checkbox next to the columns you want to edit.
 ... Click the *Edit* menu, and select the property you want to edit.
 ... In the window that opens, select the option you want and click *Update*.
@@ -351,13 +358,14 @@ A role-playing dimension is when a single physical dimension is referenced multi
 To implement role-playing dimensions with Models, do the following in the Model editor:
 
 . Go to the *Tables* tab.
-. Click the More menu image:icon-more-10px.png[more menu icon] of the dimension table that you want to use in a different role.
+. Select the More menu image:model_table_join_more.png[] in the upper right of  the dimension table that you want to use in a different role.
 . Select *Duplicate Table*.
-. Assign an alias (since 2 tables cannot have the same name).
+. In the _Duplicate Table Name_ window that opens, assign an alias (since 2 tables cannot have the same name) by entering a new name (or alias) for that table.
+. Click *Save*.
 . Join this logical copy of the dimension table to the fact table with the join condition corresponding to the new role.
 +
 . Go to the *Columns* tab.
 . Add columns from the new role-playing dimension.
 +
-It will appear as a new table (with the alias assigned in step 4) on the left panel in the *Columns* tab of the model.
+It will appear as a new table (with the alias assigned in step 4) on the left panel in the *Columns* tab of the model. You can tell it's a role-playing dimension because the original table name appears in parentheses *()* next to the new name.
 
