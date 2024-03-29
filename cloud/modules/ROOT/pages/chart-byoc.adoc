@@ -12,7 +12,7 @@ You can now use custom charts created outside of ThoughtSpot.
 
 This article describes how you use a custom chart and how your ThoughtSpot administrator can add, edit, and delete custom charts.
 
-Developers create custom charts using the https://github.com/thoughtspot/ts-chart-sdk/blob/main/README.md/[ThoughtSpot charts SDK documentation^].
+Developers create custom charts in Javascript using charting libraries such as https://www.highcharts.com/[Highcharts^]. For more information, refer to https://github.com/thoughtspot/ts-chart-sdk/blob/main/README.md/[ThoughtSpot charts SDK documentation^].
 
 == Using custom charts
 
