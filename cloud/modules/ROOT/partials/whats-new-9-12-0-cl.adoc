@@ -27,7 +27,7 @@ ifdef::pendo-links[]
 === Advanced conditional formatting [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 
-// Naomi -- scal-177005. is it visualization as well as table? check if it's in early access panel. moved to 9.12.0.cl
+// Naomi -- scal-177005. documentation JIRA scal-201639. is it visualization as well as table? check if it's in early access panel. moved to 9.12.0.cl
 
 // PM: Manan
 
@@ -55,7 +55,7 @@ endif::free-trial-feature[]
 [discrete]
 === Collibra integration
 
-// Naomi -- SCAL-187745.
+// Naomi -- SCAL-187745. documentation JIRA scal-201640.
 // PM: Sarib
 
 Collibra integration is now available to all users and on by default. You can now see verification status and descriptions on tables and columns imported from Collibra. This information appears when you click on the corresponding table or column in *Search data*. Once connected, this information is visible to all users.
@@ -63,16 +63,18 @@ Collibra integration is now available to all users and on by default. You can no
 [#9-12-0-cl-user-adoption]
 [discrete]
 === User Adoption Liveboard
-// Naomi – SCAL-179763
+// Naomi – SCAL-179763. documentation JIRA scal-201642.
 // PM: Mohil
 
 You can now use the Object Usage Liveboard to understand how ThoughtSpot is saving you time with ad-hoc insights, and how many users are accessing ThoughtSpot and creating new insights every month.
 
+////
 [#9-12-0-cl-sage-coach]
 [discrete]
 === Sage Coach improvements for 9.12
-// Naomi – SCAL-179981
+// Naomi – SCAL-179981. waiting on confirmation.
 // PM: Santiago
+////
 
 [#9-12-0-cl-email]
 [discrete]
@@ -86,11 +88,13 @@ You can now use the Object Usage Liveboard to understand how ThoughtSpot is savi
 // Mark – SCAL-181295
 // PM: Rahul P J P
 
+////
 [#9-12-0-cl-embrace]
 [discrete]
 === Embrace error message improvements - phase 1
-// Naomi – SCAL-178764
+// Naomi – SCAL-178764. marked as none needed.
 // PM: Aaghran
+////
 
 [#9-12-0-cl-worksheet]
 [discrete]
@@ -136,7 +140,7 @@ ifdef::pendo-links[]
 [discrete]
 === Forecasting [.badge.badge-beta-whats-new]#Beta#
 endif::[]
-// Naomi -- SCAL-153878. moved to 9.12
+// Naomi -- SCAL-153878. documentation jira SCAL-201644. moved to 9.12
 // PM: Vikas
 
 You can now use SpotIQ analysis to forecast future trends for your KPIs. ThoughtSpot uses machine learning models that learn from past trends, growth, and seasonality to project how the target metric will trend in the future. Note that your KPI must include a time keyword to support forecasting.
@@ -148,7 +152,7 @@ endif::free-trial-feature[]
 [#9-12-0-cl-change-analysis]
 [discrete]
 === Change analysis: remember personalized columns
-// Naomi – SCAL-181312
+// Naomi – SCAL-181312. documentation JIRA scal-201645.
 // PM: Vikas
 
 Personalized columns are now available to all users and on by default. Users with edit permissions on a Liveboard can set their preferred attribute columns through the change analysis window and select *Apply to all users* to keep those selections for any subsequent change analysis calculations on that Liveboard. Individual users can still override these preferences for their own calculations.
@@ -164,7 +168,7 @@ ifdef::pendo-links[]
 [discrete]
 === Iterative change analysis [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
-// Naomi – SCAL-181312
+// Naomi – SCAL-176265. documentation JIRA scal-201646.
 // PM: Vikas
 
 You can now drill down on specific columns in change analysis, in order to identify change drivers within your data. For example, if you run an analysis on sales monthly and find out that the 'jacket' item type changed the most, you can easily drill down on jacket sales and identify which region contributed the most to the change in sales. To enable this feature, contact your administrator.
@@ -173,9 +177,11 @@ endif::free-trial-feature[]
 
 [#9-12-0-cl-sync]
 [discrete]
-=== Excel Sync
-// Naomi – SCAL-130010
+=== Sync to Excel
+// Naomi – SCAL-130010. Documentation JIRA scal-201647.
 // PM: Sarib
+
+Using ThoughtSpot Sync, you can now sync data directly from an Answer or a custom SQL view, to Excel.
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
@@ -188,8 +194,10 @@ ifdef::pendo-links[]
 [discrete]
 === Falcon Connection [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
-// Naomi – SCAL-149828
-// PM: Ali Alladin
+// Naomi – SCAL-149828. documentation JIRA scal-201648
+// PM: Aaghran
+
+ThoughtSpot now supports connections to Falcon. You can use the Falcon connection to easily migrate data from ThoughtSpot Software to ThoughtSpot Cloud. To enable this feature, contact your administrator.
 
 
 endif::free-trial-feature[]
@@ -214,9 +222,19 @@ endif::free-trial-feature[]
 
 [#9-12-0-cl-improvements]
 [discrete]
-=== Data workspace Customer experience improvements
-// Naomi – SCAL-180961
+=== ThoughtSpot Sync
+// Naomi – SCAL-180961. documentation JIRA scal-201649.
 // PM: Sarib
+
+We made the following improvements to ThoughtSpot Sync:
+
+* You can now click the preview link that appears when you create a Sync from the Data Workspace to see a preview of the resulting Answer or Liveboard. Answer and Liveboard previews appear in a new tab.
+* When running a Sync, you can see the following information depending on the destination:
+
+** Slack: channel name
+** Microsoft Teams: team and channel
+** Sheets: file name and spreadsheet name
+** All others: object name and operation name
 
 '''
 [#secondary-9-12-0-cl]
@@ -229,7 +247,7 @@ endif::free-trial-feature[]
 [discrete]
 === Collibra catalog integration
 
-// Naomi -- SCAL-187745.
+// Naomi -- SCAL-187745. documentation JIRA scal-201640.
 // PM: Sarib
 
 Collibra catalog integration is now available to all users and on by default. You can now import metadata information related to your tables and columns from Collibra into ThoughtSpot. From the Data tab, you can set up a connection to Collibra to import column descriptions, column verification status, table descriptions, and table verification status.
@@ -237,9 +255,20 @@ Collibra catalog integration is now available to all users and on by default. Yo
 
 [#9-12-0-cl-secondary]
 [discrete]
-=== Default secondary role config for Snowflake connections
-// Naomi – SCAL-191462, scal-196178
+=== Snowflake secondary role configuration for External OAuth
+// Naomi – SCAL-191462, documentation jira scal-196178
 // PM: Aaghran
+
+ThoughtSpot now supports secondary role configuration when you create a Snowflake connection using External OAuth. When you set secondary roles to `ALL`, you can access all tables that any single role has access to and combine them in a single SQL query without having to switch roles.
+
+For more information on primary and secondary roles, see
+ifndef::pendo-links[]
+link:https://docs.snowflake.com/en/user-guide/security-access-control-overview#enforcement-model-with-primary-role-and-secondary-roles[Enforcement model with primary role and secondary roles].
+endif::[]
+ifdef::pendo-links[]
+link:https://docs.snowflake.com/en/user-guide/security-access-control-overview#enforcement-model-with-primary-role-and-secondary-roles[Enforcement model with primary role and secondary roles,window=_blank].
+endif::[]
+
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
@@ -266,29 +295,35 @@ endif::free-trial-feature[]
 
 // IT/ Ops Engineer'
 
+////
 [#9-12-0-cl-product-usage]
 [discrete]
 === Report product usage based on query stats - Worksheet changes
-// Naomi – SCAL-161240
+// Naomi – SCAL-161240. waiting on info
 // PM: Sahar
+////
 
 [#9-12-0-cl-nls]
 [discrete]
 === Sage Adoption Liveboard
-// Naomi – SCAL-140363
+// Naomi – SCAL-140363. documentation JIRA scal-201655.
 // PM: Santiago, Kevin Shi
 
+You can now use the Sage Adoption Liveboard, previously named the How users are searching Answers Liveboard, to monitor how users are searching on both Search Data and Natural Language Search.
+
+////
 [#9-12-0-cl-connection-tml]
 [discrete]
 === Connection TML UI support
-// Naomi – SCAL-148626
+// Naomi – SCAL-148626. waiting on info
 // PM: Samridh
 
 [#9-12-0-cl-remapping-tml]
 [discrete]
 === Support embrace table remapping and data-type sync via TML import
-// Naomi – SCAL-132544
+// Naomi – SCAL-132544. waiting on info.
 // PM: Samridh
+////
 
 [#9-12-0-cl-tml]
 [discrete]
@@ -319,7 +354,7 @@ ifdef::pendo-links[]
 [discrete]
 === Support first/last for the semi-additive use case [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
-// Naomi – SCAL-180544
+// Naomi – SCAL-180544. waiting on enablement details.
 // PM: Damian
 
 To enable this feature, contact your administrator.
@@ -343,11 +378,26 @@ endif::[]
 
 endif::free-trial-feature[]
 
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
 [#9-12-0-cl-conv-assist]
 [discrete]
-=== Conv Assist UI Quality 9.12
-// Naomi – SCAL-188039
-// PM: ?
+=== Ask Sage [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-12-0-cl-conv-assist]
+[discrete]
+=== Ask Sage [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
+// Naomi – SCAL-188039. documentation jira SCAL-201656
+// PM: Alok
+
+You can now conversationally search ThoughtSpot using natural language, asking follow-up questions for further clarification or to take your analysis in a new direction. This conversational approach allows you to begin with a simple question, and ask successive questions to refine the answer you receive. ThoughtSpot translates each natural language question into a query, and answers in chart format.
+
+image::ask-sage.gif[Ask Sage]
+
+endif::free-trial-feature[]
 
 [#9-12-0-cl-spotiq]
 [discrete]
