@@ -46,10 +46,22 @@ endif::free-trial-feature[]
 
 [#9-12-0-cl-homepage]
 [discrete]
-=== [HomePage] Improvements for favorites, trendings, library, and filtered list page
-// Mark – SCAL-189291
+=== New home page and navigation [.badge.badge-early-access-whats-new]#Early Access#
+// Mark – SCAL-201641
 // PM: Adi
 
+Starting in this release, we have a completely redesigned home page, where you can ask natural-language questions with Sage, view your watchlist, favorites, library of Answers and Liveboards, and more. With the new left-hand navigation, you can go directly to your Liveboards, Answers, SpotIQ Analysis, and Monitor Subscriptions.
+
+// Need new gif
+
+image::scroll_homepage.gif[]
+
+The new global navigation organizes ThoughtSpot into different contextual sections designed for the common types of ThoughtSpot users. Within each app, there is left-hand navigation. These different sections are called apps, and you navigate to them using the app switcher image:app_switcher_icon.png[app switcher icon].
+
+// Need new png
+image::app-switcher.png[]
+
+The new home page navigation is disabled by default. To enable it, contact your ThoughtSpot administrator. After that, open your user profile, and in the _Experience_ section, set the Navigation and Homepage to *New experience*.
 
 [#9-12-0-cl-collibra]
 [discrete]
@@ -81,7 +93,7 @@ Collibra integration is now available to all users and on by default. You can no
 [#9-12-0-cl-watchlist]
 [discrete]
 === [Modular home page] Phase 1 Watchlist UI changes
-// Mark – SCAL-181295
+// Mark – SCAL-201641
 // PM: Rahul P J P
 
 [#9-12-0-cl-embrace]
@@ -102,9 +114,9 @@ Collibra integration is now available to all users and on by default. You can no
 // Mark – SCAL-179816
 // PM: Alok
 
-[#9-12-0-cl-module]
-[discrete]
-=== [Homepage] General Modules improvements
+// [#9-12-0-cl-module]
+// [discrete]
+// === [Homepage] General Modules improvements
 // Mark – SCAL-177334
 // PM: Adi
 
@@ -239,30 +251,24 @@ Collibra catalog integration is now available to all users and on by default. Yo
 // Naomi – SCAL-191462, scal-196178
 // PM: Aaghran
 
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
-[#9-12-0-cl-config]
-[discrete]
-=== Support for multiple configurations per connection[.badge.badge-early-access]#Early Access#
-endif::[]
-ifdef::pendo-links[]
-[#9-12-0-cl-config]
-[discrete]
-=== Support for multiple configurations per connection [.badge.badge-early-access-whats-new]#Early Access#
-endif::[]
+// ifndef::free-trial-feature[]
+// ifndef::pendo-links[]
+// [#9-12-0-cl-config]
+// [discrete]
+// === Support for multiple configurations per connection[.badge.badge-early-access]#Early Access#
+// endif::[]
+// ifdef::pendo-links[]
+// [#9-12-0-cl-config]
+// [discrete]
+// === Support for multiple configurations per connection [.badge.badge-early-access-whats-new]#Early Access#
+//endif::[]
 // Mark – SCAL-94921
 // PM: ?
 
 
 endif::free-trial-feature[]
 
-[#9-12-0-cl-spotapps]
-[discrete]
-=== Sunset SpotApps
-// Mark – SCAL-189591
-// PM: ?
-
-// IT/ Ops Engineer'
+// IT/ Ops Engineer
 
 [#9-12-0-cl-product-usage]
 [discrete]
@@ -321,23 +327,6 @@ endif::[]
 // PM: Damian
 
 To enable this feature, contact your administrator.
-
-endif::free-trial-feature[]
-
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
-[#9-12-0-cl-react]
-[discrete]
-=== Implement React Shell in Business user application [.badge.badge-early-access]#Early Access#
-endif::[]
-ifdef::pendo-links[]
-[#9-12-0-cl-react]
-[discrete]
-=== Implement React Shell in Business user application [.badge.badge-early-access-whats-new]#Early Access#
-endif::[]
-// Mark – SCAL-141136
-// PM: Anjali
-
 
 endif::free-trial-feature[]
 
