@@ -43,13 +43,30 @@ endif::[]
 ////
 image::advanced-conditional-formatting.gif[Advanced conditional formatting comparing sales of state to sales of region]
 endif::free-trial-feature[]
-
+.New home page and navigation [.badge.badge-early-access-whats-new]#Early Access#
+****
 [#9-12-0-cl-homepage]
 [discrete]
-=== [HomePage] Improvements for favorites, trendings, library, and filtered list page
-// Mark – SCAL-189291
+=== New home page
+// Mark – SCAL-201641
 // PM: Adi
 
+Starting in this release, we have a completely redesigned home page, where you can ask natural-language questions with Sage, view your watchlist, favorites, library of Answers and Liveboards, and more. With the new left-hand navigation, you can go directly to your Liveboards, Answers, SpotIQ Analysis, and Monitor Subscriptions.
+
+// Need new gif
+
+image::scroll_homepage.gif[]
+
+[discrete]
+=== New navigation
+
+The new global navigation organizes ThoughtSpot into different contextual sections designed for the common types of ThoughtSpot users. Within each app, there is left-hand navigation. These different sections are called apps, and you navigate to them using the app switcher image:app_switcher_icon.png[app switcher icon].
+
+// Need new png
+image::app-switcher.png[]
+
+The new home page navigation is disabled by default. To enable it, contact your ThoughtSpot administrator. After that, open your user profile, and in the _Experience_ section, set the Navigation and Homepage to *New experience*.
+****
 
 [#9-12-0-cl-collibra]
 [discrete]
@@ -82,6 +99,7 @@ You can now use the Object Usage Liveboard to understand how ThoughtSpot is savi
 // Mary – SCAL-179683
 // PM: Adi
 
+
 [#9-12-0-cl-watchlist]
 [discrete]
 === [Modular home page] Phase 1 Watchlist UI changes
@@ -89,6 +107,7 @@ You can now use the Object Usage Liveboard to understand how ThoughtSpot is savi
 // PM: Rahul P J P
 
 ////
+
 [#9-12-0-cl-embrace]
 [discrete]
 === Embrace error message improvements - phase 1
@@ -102,17 +121,12 @@ You can now use the Object Usage Liveboard to understand how ThoughtSpot is savi
 // Mary – SCAL-190726
 // PM: Vanshree
 
-[#9-12-0-cl-data-panel]
-[discrete]
-=== Data Panel V2 - Unify CTA for Columns/ Formula/ Params and Cohorts in data panel
+//[#9-12-0-cl-data-panel]
+//[discrete]
+//=== New Answer data panel enhancements
 // Mark – SCAL-179816
 // PM: Alok
-
-[#9-12-0-cl-module]
-[discrete]
-=== [Homepage] General Modules improvements
-// Mark – SCAL-177334
-// PM: Adi
+// - Unify CTA for Columns/ Formula/ Params and Cohorts in data panel
 
 [#9-12-0-cl-filters]
 [discrete]
@@ -200,17 +214,19 @@ endif::[]
 ThoughtSpot now supports connections to Falcon. You can use the Falcon connection to easily migrate data from ThoughtSpot Software to ThoughtSpot Cloud. To enable this feature, contact your administrator.
 
 
+
 endif::free-trial-feature[]
 
-[#9-12-0-cl-filter]
-[discrete]
-=== Sort and filter on all object lists in the model editor
+// [#9-12-0-cl-filter]
+// [discrete]
+// === Sort and filter on all object lists in the model editor
 // Mark – SCAL-180806
 // PM: Samridh
+// Waiting for info from Samridh
 
-[#9-12-0-cl-looker]
-[discrete]
-=== Use updated JDBC driver for Looker connection
+// [#9-12-0-cl-looker]
+// [discrete]
+// === Use updated JDBC driver for Looker connection
 // Mark – SCAL-181022
 // PM: Samridh
 
@@ -259,6 +275,7 @@ Collibra catalog integration is now available to all users and on by default. Yo
 // Naomi – SCAL-191462, documentation jira scal-196178
 // PM: Aaghran
 
+
 ThoughtSpot now supports secondary role configuration when you create a Snowflake connection using External OAuth. When you set secondary roles to `ALL`, you can access all tables that any single role has access to and combine them in a single SQL query without having to switch roles.
 
 For more information on primary and secondary roles, see
@@ -281,19 +298,25 @@ ifdef::pendo-links[]
 [discrete]
 === Support for multiple configurations per connection [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
+=======
+// ifndef::free-trial-feature[]
+// ifndef::pendo-links[]
+// [#9-12-0-cl-config]
+// [discrete]
+// === Support for multiple configurations per connection[.badge.badge-early-access]#Early Access#
+// endif::[]
+// ifdef::pendo-links[]
+// [#9-12-0-cl-config]
+// [discrete]
+// === Support for multiple configurations per connection [.badge.badge-early-access-whats-new]#Early Access#
+//endif::[]
 // Mark – SCAL-94921
 // PM: ?
 
 
 endif::free-trial-feature[]
 
-[#9-12-0-cl-spotapps]
-[discrete]
-=== Sunset SpotApps
-// Mark – SCAL-189591
-// PM: ?
-
-// IT/ Ops Engineer'
+// IT/ Ops Engineer
 
 ////
 [#9-12-0-cl-product-usage]
@@ -360,6 +383,7 @@ endif::[]
 To enable this feature, contact your administrator.
 
 endif::free-trial-feature[]
+
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
