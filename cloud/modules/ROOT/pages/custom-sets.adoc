@@ -8,15 +8,16 @@
 
 :description: You can now create custom sets, which can be used to classify values in a list that you can then reuse across multiple analyses.
 
-You can create custom sets, which can be used to classify values in a list that you can then reuse across multiple analyses. ThoughtSpot now supports custom column sets. A column set is a custom group of values from a single column. Custom sets are community objects which remain when you navigate away from the Search Data page and can be used by any user with view access to the underlying Worksheet.
+You can create custom sets, which can be used to classify values in a list that you can then reuse across multiple analyses. ThoughtSpot now supports custom column sets. A column set is a custom group of values from a single column. Custom sets are community objects which remain when you navigate away from the *Search Data* page and can be used by any user with view access to the underlying Worksheet.
 
-NOTE: Custom sets are in early access and off by default. To enable this feature, contact {support-url}.
+NOTE: Custom column sets are in early access and off by default. To enable this feature, contact {support-url}.
 
-To create a custom set, first define the business question you wish to answer. For example, you can use custom sets to define regions with specific countries included or excluded. To create a custom column set showcasing this defined list of values, follow these steps:
+To create a custom column set, first define the business question you wish to answer. For example, you can use custom column sets to define regions with specific countries included or excluded. To create a custom column set showcasing this defined list of values, follow these steps:
 
 . Navigate to the *Search Data* page by clicking the *Search data* button in the top navigation bar.
 
 . Click *Add* and select *Column set*.
+
 
 . Select a *Base column* from the drop down.
 
