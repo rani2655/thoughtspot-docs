@@ -66,6 +66,8 @@ Collibra integration is now available to all users and on by default. You can no
 // Naomi – SCAL-179763
 // PM: Mohil
 
+You can now use the Object Usage Liveboard to understand how ThoughtSpot is saving you time with ad-hoc insights, and how many users are accessing ThoughtSpot and creating new insights every month.
+
 [#9-12-0-cl-sage-coach]
 [discrete]
 === Sage Coach improvements for 9.12
