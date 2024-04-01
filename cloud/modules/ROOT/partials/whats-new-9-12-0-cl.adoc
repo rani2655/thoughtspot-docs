@@ -244,7 +244,7 @@ endif::free-trial-feature[]
 
 We made the following improvements to ThoughtSpot Sync:
 
-* You can now click the preview link that appears when you create a Sync from the Data Workspace to see a preview of the resulting Answer or Liveboard. Answer and Liveboard previews appear in a new tab.
+* You can now click the preview link that appears when you create a Sync from the Data Workspace to see a preview of the resulting Answer, Liveboard, or Custom SQL view. Answer, Liveboard, and Custom SQL view previews appear in a new tab.
 * When running a Sync, you can see the following information depending on the destination:
 
 ** Slack: channel name
