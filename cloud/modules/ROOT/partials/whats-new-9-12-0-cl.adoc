@@ -43,10 +43,11 @@ endif::[]
 ////
 image::advanced-conditional-formatting.gif[Advanced conditional formatting comparing sales of state to sales of region]
 endif::free-trial-feature[]
-
+.New home page and navigation [.badge.badge-early-access-whats-new]#Early Access#
+****
 [#9-12-0-cl-homepage]
 [discrete]
-=== New home page and navigation [.badge.badge-early-access-whats-new]#Early Access#
+=== New home page
 // Mark – SCAL-201641
 // PM: Adi
 
@@ -56,12 +57,16 @@ Starting in this release, we have a completely redesigned home page, where you c
 
 image::scroll_homepage.gif[]
 
+[discrete]
+=== New navigation
+
 The new global navigation organizes ThoughtSpot into different contextual sections designed for the common types of ThoughtSpot users. Within each app, there is left-hand navigation. These different sections are called apps, and you navigate to them using the app switcher image:app_switcher_icon.png[app switcher icon].
 
 // Need new png
 image::app-switcher.png[]
 
 The new home page navigation is disabled by default. To enable it, contact your ThoughtSpot administrator. After that, open your user profile, and in the _Experience_ section, set the Navigation and Homepage to *New experience*.
+****
 
 [#9-12-0-cl-collibra]
 [discrete]
@@ -89,12 +94,6 @@ Collibra integration is now available to all users and on by default. You can no
 === Email digest
 // Mary – SCAL-179683
 // PM: Adi
-
-[#9-12-0-cl-watchlist]
-[discrete]
-=== [Modular home page] Phase 1 Watchlist UI changes
-// Mark – SCAL-201641
-// PM: Rahul P J P
 
 [#9-12-0-cl-embrace]
 [discrete]
