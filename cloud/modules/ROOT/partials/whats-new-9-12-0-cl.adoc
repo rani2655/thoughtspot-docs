@@ -107,17 +107,12 @@ Collibra integration is now available to all users and on by default. You can no
 // Mary – SCAL-190726
 // PM: Vanshree
 
-[#9-12-0-cl-data-panel]
-[discrete]
-=== Data Panel V2 - Unify CTA for Columns/ Formula/ Params and Cohorts in data panel
+//[#9-12-0-cl-data-panel]
+//[discrete]
+//=== New Answer data panel enhancements
 // Mark – SCAL-179816
 // PM: Alok
-
-// [#9-12-0-cl-module]
-// [discrete]
-// === [Homepage] General Modules improvements
-// Mark – SCAL-177334
-// PM: Adi
+// - Unify CTA for Columns/ Formula/ Params and Cohorts in data panel
 
 [#9-12-0-cl-filters]
 [discrete]
@@ -199,19 +194,21 @@ ifdef::pendo-links[]
 endif::[]
 // Naomi – SCAL-149828
 // PM: Ali Alladin
+// Note to Naomi. Since Ali is not a PM, I'd suggest you reach out to Aaghran to confirm if this feature is in 9.12.0.cl or not.
 
 
 endif::free-trial-feature[]
 
-[#9-12-0-cl-filter]
-[discrete]
-=== Sort and filter on all object lists in the model editor
+// [#9-12-0-cl-filter]
+// [discrete]
+// === Sort and filter on all object lists in the model editor
 // Mark – SCAL-180806
 // PM: Samridh
+// Waiting for info from Samridh
 
-[#9-12-0-cl-looker]
-[discrete]
-=== Use updated JDBC driver for Looker connection
+// [#9-12-0-cl-looker]
+// [discrete]
+// === Use updated JDBC driver for Looker connection
 // Mark – SCAL-181022
 // PM: Samridh
 
