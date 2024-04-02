@@ -3,7 +3,7 @@
 
 ////include::7.1@software:ROOT:connections-snowflake-edit.adoc[]
 ////
-= Configure internal OAuth for a {connection} connection
+= Configure internal OAuth or OAuth with PKCE for a {connection} connection
 :last_updated: 11/05/2021
 :experimental:
 :linkattrs:
