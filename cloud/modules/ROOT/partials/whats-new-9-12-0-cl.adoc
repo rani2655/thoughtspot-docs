@@ -96,6 +96,7 @@ You can now use the Object Usage Liveboard to understand how ThoughtSpot is savi
 [#9-12-0-cl-email]
 [discrete]
 === Email digest
+ThoughtSpot delivers email digest to users to provide updates about new and trending Liveboards, favorites, and noteworthy community articles. All users who log into ThoughtSpot are automatically subscribed to email digests. Users can manage their preferences for email digests. Administrators can turn this feature on and off, or change the default frequency to weekly, monthly, or quarterly.
 // Mary – SCAL-179683
 // PM: Adi
 
@@ -118,6 +119,7 @@ You can now use the Object Usage Liveboard to understand how ThoughtSpot is savi
 [#9-12-0-cl-worksheet]
 [discrete]
 === [Papercut] Show underlying worksheets
+ThoughtSpot now shows what data sources are used in a Liveboard. A Liveboard may contain visualizations from many data sources. The data sources and links appear in the *Show Liveboard details* modal under *Underlying data source*. Users can click the link to open the data source in a new tab. If a data source is unavailable due to permissions, a message will appear to indicate this in place of the data source name.
 // Mary – SCAL-190726
 // PM: Vanshree
 
@@ -131,14 +133,18 @@ You can now use the Object Usage Liveboard to understand how ThoughtSpot is savi
 [#9-12-0-cl-filters]
 [discrete]
 === [Customer commit] Allow users to apply filters on Liveboards even if hidden objects are included in a visualization within the Liveboard
+If a Liveboard has at least one visualization that uses a hidden field, or a formula created from a hidden field, the Liveboard filters are now accessible to all the users that have view or edit permission to the underlying data source. These fields remain hidden in Sage search.
 // Mary – SCAL-157372
+//Need more infomration from Vanshree to clarify the use case(s) supported in 9.12.0.cl.
 // PM: Vanshree
 
 [#9-12-0-cl-configuration]
 [discrete]
 === Configuration related to onboarding should be at Org level in Admin panel
+ThoughtSpot introduces onboarding configuration at the Org level. Now an Org administrator can update their onboarding configuration in the Admin panel without the need to contact the tenant administrator. This feature helps to reduce possible service interruptions.
 // Mary – SCAL-145362
-// PM: ?
+//Need more information (PRD link is missing information)
+// PM: Adi Chand
 
 // Analyst
 
@@ -233,6 +239,7 @@ endif::free-trial-feature[]
 [#9-12-0-cl-xlsx]
 [discrete]
 === [Customer Commit] Add support for XLSX in Liveboard schedule
+ThoughtSpot introduces support for scheduling Liveboards with XLSX attachments, in addition to the existing PDF and CSV options. This allows users to explore tabular data from these reports by using the XLSX data files.
 // Mary – SCAL-140254
 // PM: Vanshree
 
@@ -352,18 +359,21 @@ You can now use the Sage Adoption Liveboard, previously named the How users are 
 [discrete]
 === Export/import of users/groups/roles/privileges using TML
 // Mary – SCAL-176799
-// PM: Vijay
+//Need clarification from PM. The same PRD as was linked for all other RBAC related features since 9.5.0.cl with no updates since last summer. Need clarification about what this update is for 9.12.0.cl.
+// PM: Vijay/Aashica
 
 [#9-12-0-cl-oidc]
 [discrete]
 === Implement OIDC - Org + Groups on IAMv2 for Orgs Clusters
 // Mary – SCAL-156211
-// PM: Vijay
+//Need clarification from PM. The same PRD as was linked for all other Org related features since 9.8.0.cl with no updates. Need clarification about what this update is for 9.12.0.cl.
+// PM: Vijay/Aashica
 
 [#9-12-0-cl-sharing]
 [discrete]
 === Orgs 1.5: Per Org URL (Enterprise) - For sharing links
 // Mary – SCAL-164989
+//Need clarification from PM. The same PRD as was linked for all other Org related features since 9.8.0.cl with no updates. Need clarification about what this update is for 9.12.0.cl.
 // PM: Vijay
 
 ifndef::free-trial-feature[]
@@ -423,33 +433,38 @@ image::ask-sage.gif[Ask Sage]
 
 endif::free-trial-feature[]
 
-[#9-12-0-cl-spotiq]
-[discrete]
-=== Default password change for SW clusters - Script change required for SpotIQ
+//[#9-12-0-cl-spotiq]
+//[discrete]
+//=== Default password change for SW clusters - Script change required for SpotIQ
+//No doc required
 // Mary – SCAL-180903
 // PM: ?
 
-[#9-12-0-cl-search-data]
-[discrete]
-=== Default password change for SW clusters - Script change required for Search Data
+//[#9-12-0-cl-search-data]
+//[discrete]
+//=== Default password change for SW clusters - Script change required for Search Data
+//No doc required
 // Mary – SCAL-180897
 // PM: ?
 
-[#9-12-0-cl-data-workspace]
-[discrete]
-=== Default password change for SW clusters - Script change required for Data Workspace
+//[#9-12-0-cl-data-workspace]
+//[discrete]
+//=== Default password change for SW clusters - Script change required for Data Workspace
+//No doc required
 // Mary – SCAL-180882
 // PM: ?
 
-[#9-12-0-cl-data-platform]
-[discrete]
-=== Default password change for SW clusters - Script change required for Data platform
+//[#9-12-0-cl-data-platform]
+//[discrete]
+//=== Default password change for SW clusters - Script change required for Data platform
+//No doc required
 // Mary – SCAL-180881
 // PM: ?
 
-[#9-12-0-cl-script]
-[discrete]
-=== Default password change for SW clusters - Script change required for datamodeling
+//[#9-12-0-cl-script]
+//[discrete]
+//=== Default password change for SW clusters - Script change required for datamodeling
+//No doc required
 // Mary – SCAL-180884
 // PM: ?
 
@@ -457,13 +472,15 @@ endif::free-trial-feature[]
 [discrete]
 === Demo data publishing on Enterprise Orgs
 // Mary – SCAL-180008
+//No PRD. Have requested access to Eng Design doc.
 // PM: ?
 
 [#9-12-0-cl-org]
 [discrete]
 === Org Deletion - Default enablement
+ThoughtSpot introduces support for deleting Orgs. You can now delete an Org without first manually deleting all users, connections, and objects.
 // Mary – SCAL-179795, SCAL-134057
-// PM: Vijay
+// PM: Vijay/Aashica
 
 ifndef::free-trial-feature[]
 [discrete]
