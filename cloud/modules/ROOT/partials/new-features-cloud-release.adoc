@@ -75,7 +75,7 @@ We made the following changes to ThoughtSpot feedback review for AI Answers:
 
 * Feedback for AI Answers is now Org-aware.
 * When you make a change to a Worksheet, ThoughtSpot now alerts you if this will affect any related query feedback. If you accept this and make the change, the feedback depending on that Worksheet is deleted.
-* You can now import query feedback when you move information from a development cluster to a production cluster.
+//* You can now import query feedback when you move information from a development cluster to a production cluster.
 
 // Naomi -- SCAL-126451
 dbt integration: sharing dbt connections::
