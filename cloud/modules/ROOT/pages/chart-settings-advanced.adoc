@@ -2,7 +2,7 @@
 :last_updated: 11/13/2023
 :author: Naomi
 :page-layout: default-cloud-early-access
-:jira: SCAL-166121, SCAL-197922, SCAL-201034
+:jira: SCAL-166121, SCAL-197922, SCAL-201034, SCAL-201830
 :description: You can now access advanced chart customization settings by selecting the *Edit chart configuration* icon and clicking *Advanced settings*.
 
 You can now access advanced chart customization settings by selecting the *Edit chart configuration* icon image:icon-gear-10px.png[chart customization icon] and selecting *Advanced settings*. Use these settings to adjust the size and appearance of tooltips, regression lines, gridlines, and chart backgrounds. All choices persist only for the Answer you are currently customizing.
@@ -190,3 +190,25 @@ image:advanced-options-column.png[Advanced settings for column]
 ** Underline label font
 ** Italicize label font
 ** Enter maximum number of characters
+
+== Limitations
+
+Advanced chart settings are supported only for the following chart types:
+
+* Column charts
+* Stacked column charts
+* Line charts
+* Pie charts
+* Bar charts
+* Stacked bar charts
+* Line column charts
+* Line stacked column charts
+* Area charts
+* Stacked area charts
+* Scatter charts
+* Bubble charts
+* Waterfall charts
+* Funnel charts
+* Radar charts
+* Candlestick charts
+* Pareto charts
