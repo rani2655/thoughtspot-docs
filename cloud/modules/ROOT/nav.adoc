@@ -695,6 +695,7 @@
 *** xref:security-rls.adoc[Row-level security]
 **** xref:security-rls-concept.adoc[How rule-based RLS works]
 **** xref:security-rls-implement.adoc[Set rule-based RLS]
+*** xref:data-masking.adoc[]
 *** xref:security-thoughtspot-lifecycle.adoc[ThoughtSpot lifecycle]
 ** xref:worksheets.adoc[Simplify search with Worksheets]
 *** xref:worksheet-edit.adoc[Edit a Worksheet]
