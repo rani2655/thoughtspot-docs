@@ -14,6 +14,56 @@ endif::free-trial-feature[]
 
 // Business User
 
+.New home page and navigation [.badge.badge-early-access-whats-new]#Early Access#
+****
+[#9-12-0-cl-homepage]
+[discrete]
+=== New home page
+// Mark – SCAL-201641. switch gif for a video (test embedding wistia in a partial)
+// PM: Adi
+
+Starting in this release, we have a completely redesigned home page, where you can ask natural-language questions with Sage, view your watchlist, favorites, library of Answers and Liveboards, and more. With the new left-hand navigation, you can go directly to your Liveboards, Answers, SpotIQ Analysis, and Monitor Subscriptions.
+
+// Need new gif
+
+image::scroll_homepage.gif[]
+
+
+
+[#9-12-0-cl-nav]
+[discrete]
+=== New navigation
+// are new navigation and home page disabled by default? confirm. apparently new homepage and nav are enabled at cluster level but disabled or not enabled for the user. AVAILABLE by default, but users have to enable it. administrators can disable it for their cluster.
+
+The new global navigation organizes ThoughtSpot into different contextual sections designed for the common types of ThoughtSpot users. Within each app, there is left-hand navigation. These different sections are called apps, and you navigate to them using the app switcher image:app_switcher_icon.png[app switcher icon].
+
+// Need new png
+image::app-switcher.png[]
+
+The new home page and navigation are disabled by default. To enable it, contact your ThoughtSpot administrator. After that, open your user profile, and in the _Experience_ section, set the Navigation and Homepage to *New experience*.
+****
+
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-12-0-cl-conv-assist]
+[discrete]
+=== Ask Sage [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-12-0-cl-conv-assist]
+[discrete]
+=== Ask Sage [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
+// Naomi – SCAL-188039. documentation jira SCAL-201656. move up to beginning.
+// PM: Alok
+
+You can now conversationally search ThoughtSpot using natural language, asking follow-up questions for further clarification or to take your analysis in a new direction. This conversational approach allows you to begin with a simple question, and ask successive questions to refine the answer you receive. ThoughtSpot translates each natural language question into a query, and answers in chart format.
+
+image::ask-sage.gif[Ask Sage]
+
+endif::free-trial-feature[]
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
@@ -27,11 +77,11 @@ ifdef::pendo-links[]
 === Advanced conditional formatting [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 
-// Naomi -- scal-177005. documentation JIRA scal-201639. is it visualization as well as table? check if it's in early access panel. moved to 9.12.0.cl
+// Naomi -- scal-177005. documentation JIRA scal-201639. is it visualization as well as table? check if it's in early access panel. moved to 9.12.0.cl. change "compare" to "visually highlight the differences/ threshold..." in the first sentence.
 
 // PM: Manan
 
-Rather than simply using conditional formatting comparing a column's measures to a single value (for example, `sales > 10000`), you can now use conditional formatting to compare a column's measures to another column or to a parameter. For example, if you search for `sales this year` compared to `sales last year`, you can highlight where sales this year were less than last year. You can set multiple conditional formatting rules to a single table. To enable this feature, contact your administrator.
+In addition to using conditional formatting to compare a column's measures to a single value (for example, `sales > 10000`), you can now use conditional formatting to compare a column's measures to another column or to a parameter. For example, if you search for `sales this year` compared to `sales last year`, you can highlight where sales this year were less than last year. You can set multiple conditional formatting rules to a single table. To enable this feature, contact your administrator.
 ////
 For more information, see
 ifndef::pendo-links[]
@@ -43,36 +93,14 @@ endif::[]
 ////
 image::advanced-conditional-formatting.gif[Advanced conditional formatting comparing sales of state to sales of region]
 endif::free-trial-feature[]
-.New home page and navigation [.badge.badge-early-access-whats-new]#Early Access#
-****
-[#9-12-0-cl-homepage]
-[discrete]
-=== New home page
-// Mark – SCAL-201641
-// PM: Adi
 
-Starting in this release, we have a completely redesigned home page, where you can ask natural-language questions with Sage, view your watchlist, favorites, library of Answers and Liveboards, and more. With the new left-hand navigation, you can go directly to your Liveboards, Answers, SpotIQ Analysis, and Monitor Subscriptions.
 
-// Need new gif
-
-image::scroll_homepage.gif[]
-
-[discrete]
-=== New navigation
-
-The new global navigation organizes ThoughtSpot into different contextual sections designed for the common types of ThoughtSpot users. Within each app, there is left-hand navigation. These different sections are called apps, and you navigate to them using the app switcher image:app_switcher_icon.png[app switcher icon].
-
-// Need new png
-image::app-switcher.png[]
-
-The new home page navigation is disabled by default. To enable it, contact your ThoughtSpot administrator. After that, open your user profile, and in the _Experience_ section, set the Navigation and Homepage to *New experience*.
-****
 
 [#9-12-0-cl-collibra]
 [discrete]
 === Collibra integration
 
-// Naomi -- SCAL-187745. documentation JIRA scal-201640.
+// Naomi -- SCAL-187745. documentation JIRA scal-201640. possibly move lower.
 // PM: Sarib
 
 Collibra integration is now available to all users and on by default. You can now see verification status and descriptions on tables and columns imported from Collibra. This information appears when you click on the corresponding table or column in *Search data*. Once connected, this information is visible to all users.
@@ -80,7 +108,7 @@ Collibra integration is now available to all users and on by default. You can no
 [#9-12-0-cl-user-adoption]
 [discrete]
 === User Adoption Liveboard
-// Naomi – SCAL-179763. documentation JIRA scal-201642.
+// Naomi – SCAL-179763. documentation JIRA scal-201642. move below the fold.
 // PM: Mohil
 
 You can now use the Object Usage Liveboard to understand how ThoughtSpot is saving you time with ad-hoc insights, and how many users are accessing ThoughtSpot and creating new insights every month.
@@ -97,14 +125,14 @@ You can now use the Object Usage Liveboard to understand how ThoughtSpot is savi
 [discrete]
 === Email digest
 ThoughtSpot delivers email digest to users to provide updates about new and trending Liveboards, favorites, and noteworthy community articles. All users who log into ThoughtSpot are automatically subscribed to email digests. Users can manage their preferences for email digests. Administrators can turn this feature on and off, or change the default frequency to weekly, monthly, or quarterly.
-// Mary – SCAL-179683
+// Mary – SCAL-179683. move lower possibly?
 // PM: Adi
 
 
 [#9-12-0-cl-watchlist]
 [discrete]
 === [Modular home page] Phase 1 Watchlist UI changes
-// Mark – SCAL-181295
+// Mark – SCAL-181295. should this be added in to new homepage blurb? is it part of the new homepage (early access?) or GA/ on by default??
 // PM: Rahul P J P
 
 ////
@@ -112,15 +140,15 @@ ThoughtSpot delivers email digest to users to provide updates about new and tren
 [#9-12-0-cl-embrace]
 [discrete]
 === Embrace error message improvements - phase 1
-// Naomi – SCAL-178764. marked as none needed.
+// Naomi – SCAL-178764. marked as none needed. release notes only.
 // PM: Aaghran
 ////
 
 [#9-12-0-cl-worksheet]
 [discrete]
-=== [Papercut] Show underlying worksheets
+=== Show underlying worksheets
 ThoughtSpot now shows what data sources are used in a Liveboard. A Liveboard may contain visualizations from many data sources. The data sources and links appear in the *Show Liveboard details* modal under *Underlying data source*. Users can click the link to open the data source in a new tab. If a data source is unavailable due to permissions, a message will appear to indicate this in place of the data source name.
-// Mary – SCAL-190726
+// Mary – SCAL-190726. add an image. is Underlying data source a menu item or a button?
 // PM: Vanshree
 
 //[#9-12-0-cl-data-panel]
@@ -135,14 +163,14 @@ ThoughtSpot now shows what data sources are used in a Liveboard. A Liveboard may
 === [Customer commit] Allow users to apply filters on Liveboards even if hidden objects are included in a visualization within the Liveboard
 If a Liveboard has at least one visualization that uses a hidden field, or a formula created from a hidden field, the Liveboard filters are now accessible to all the users that have view or edit permission to the underlying data source. These fields remain hidden in Sage search.
 // Mary – SCAL-157372
-//Need more infomration from Vanshree to clarify the use case(s) supported in 9.12.0.cl.
+//Need more information from Vanshree to clarify the use case(s) supported in 9.12.0.cl. will it be called Sage search?
 // PM: Vanshree
 
 [#9-12-0-cl-configuration]
 [discrete]
 === Configuration related to onboarding should be at Org level in Admin panel
 ThoughtSpot introduces onboarding configuration at the Org level. Now an Org administrator can update their onboarding configuration in the Admin panel without the need to contact the tenant administrator. This feature helps to reduce possible service interruptions.
-// Mary – SCAL-145362
+// Mary – SCAL-145362. move below the fold. maybe add image of Admin panel with red box around new bit. Allows you to do it per org rather than doing it for the whole cluster/taking the orgs down.
 //Need more information (PRD link is missing information)
 // PM: Adi Chand
 
@@ -160,10 +188,10 @@ ifdef::pendo-links[]
 [discrete]
 === Forecasting [.badge.badge-beta-whats-new]#Beta#
 endif::[]
-// Naomi -- SCAL-153878. documentation jira SCAL-201644. moved to 9.12
+// Naomi -- SCAL-153878. documentation jira SCAL-201644. moved to 9.12. speed up loading and space out labels in new gif. zoom in on menu, zoom out, zoom in on settings.
 // PM: Vikas
 
-You can now use SpotIQ analysis to forecast future trends for your KPIs. ThoughtSpot uses machine learning models that learn from past trends, growth, and seasonality to project how the target metric will trend in the future. Note that your KPI must include a time keyword to support forecasting.
+You can now use SpotIQ analysis to forecast future trends for your KPIs. ThoughtSpot uses machine learning models that learn from past trends, growth, and seasonality to project how the target metric will trend in the future.
 
 image::forecasting.gif[Forecasting]
 
@@ -181,12 +209,12 @@ ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-12-0-cl-iterative]
 [discrete]
-=== Iterative change analysis [.badge.badge-early-access]#Early Access#
+=== Change analysis: drill down [.badge.badge-early-access]#Early Access#
 endif::[]
 ifdef::pendo-links[]
 [#9-11-0-cl-iterative]
 [discrete]
-=== Iterative change analysis [.badge.badge-early-access-whats-new]#Early Access#
+=== Change analysis: drill down [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 // Naomi – SCAL-176265. documentation JIRA scal-201646.
 // PM: Vikas
@@ -214,7 +242,7 @@ ifdef::pendo-links[]
 [discrete]
 === Falcon Connection [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
-// Naomi – SCAL-149828. documentation JIRA scal-201648
+// Naomi – SCAL-149828. documentation JIRA scal-201648. move below the fold. Check in with Aaghran if we want this in the What's New at all. see if it needs to be mentioned on all articles with other connections (getting-started, etc.)
 // PM: Aaghran
 
 ThoughtSpot now supports connections to Falcon. You can use the Falcon connection to easily migrate data from ThoughtSpot Software to ThoughtSpot Cloud. To enable this feature, contact your administrator.
@@ -240,16 +268,16 @@ endif::free-trial-feature[]
 [discrete]
 === [Customer Commit] Add support for XLSX in Liveboard schedule
 ThoughtSpot introduces support for scheduling Liveboards with XLSX attachments, in addition to the existing PDF and CSV options. This allows users to explore tabular data from these reports by using the XLSX data files.
-// Mary – SCAL-140254
+// Mary – SCAL-140254. call out Excel explicitly, move up higher.
 // PM: Vanshree
 
 [#9-12-0-cl-improvements]
 [discrete]
 === ThoughtSpot Sync
-// Naomi – SCAL-180961. documentation JIRA scal-201649.
+// Naomi – SCAL-180961. documentation JIRA scal-201649. shorten description and use images?
 // PM: Sarib
 
-We made the following improvements to ThoughtSpot Sync:
+We made the following enhancements to ThoughtSpot Sync:
 
 * You can now click the preview link that appears when you create a Sync from the Data Workspace to see a preview of the resulting Answer, Liveboard, or Custom SQL view. Answer, Liveboard, and Custom SQL view previews appear in a new tab.
 * When running a Sync, you can see the following information depending on the destination:
@@ -294,18 +322,6 @@ link:https://docs.snowflake.com/en/user-guide/security-access-control-overview#e
 endif::[]
 
 
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
-[#9-12-0-cl-config]
-[discrete]
-=== Support for multiple configurations per connection[.badge.badge-early-access]#Early Access#
-endif::[]
-ifdef::pendo-links[]
-[#9-12-0-cl-config]
-[discrete]
-=== Support for multiple configurations per connection [.badge.badge-early-access-whats-new]#Early Access#
-endif::[]
-=======
 // ifndef::free-trial-feature[]
 // ifndef::pendo-links[]
 // [#9-12-0-cl-config]
@@ -321,7 +337,6 @@ endif::[]
 // PM: ?
 
 
-endif::free-trial-feature[]
 
 // IT/ Ops Engineer
 
@@ -412,26 +427,6 @@ endif::[]
 
 endif::free-trial-feature[]
 
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
-[#9-12-0-cl-conv-assist]
-[discrete]
-=== Ask Sage [.badge.badge-early-access]#Early Access#
-endif::[]
-ifdef::pendo-links[]
-[#9-12-0-cl-conv-assist]
-[discrete]
-=== Ask Sage [.badge.badge-early-access-whats-new]#Early Access#
-endif::[]
-
-// Naomi – SCAL-188039. documentation jira SCAL-201656
-// PM: Alok
-
-You can now conversationally search ThoughtSpot using natural language, asking follow-up questions for further clarification or to take your analysis in a new direction. This conversational approach allows you to begin with a simple question, and ask successive questions to refine the answer you receive. ThoughtSpot translates each natural language question into a query, and answers in chart format.
-
-image::ask-sage.gif[Ask Sage]
-
-endif::free-trial-feature[]
 
 //[#9-12-0-cl-spotiq]
 //[discrete]
