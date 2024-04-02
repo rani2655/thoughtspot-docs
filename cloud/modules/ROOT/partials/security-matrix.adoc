@@ -227,7 +227,58 @@
          <td>N</td>
          <td>N</td>
          <td>N</td></tr>
-      <tr><td>Has Developer privilege</td>
+      <tr><td>Can manage sync</td>
+         <td>Y</td>
+         <td>Y</td>
+         <td>Y</td>
+         <td>Y</td>
+         <td>N</td>
+         <td>Y</td>
+         <td>N</td>
+         <td>N</td>
+         <td><div>Y<sup>4</sup></div></td>
+         <td><div>Y<sup>4</sup></div></td>
+         <td><div>Y<sup>5</sup></div></td>
+         <td>Y</td>
+         <td>N</td>
+         <td>N</td>
+         <td>N</td>
+         <td>N</td></tr>
+<tr><td>Can preview ThoughtSpot Sage</td>
+         <td>Y</td>
+         <td>Y</td>
+         <td>Y</td>
+         <td>Y</td>
+         <td>N</td>
+         <td>Y</td>
+         <td>N</td>
+         <td>N</td>
+         <td><div>Y<sup>4</sup></div></td>
+         <td><div>Y<sup>4</sup></div></td>
+         <td><div>Y<sup>5</sup></div></td>
+         <td>Y</td>
+         <td>N</td>
+         <td>N</td>
+         <td>N</td>
+         <td>N</td></tr>
+<tr><td>Can manage catalog</td>
+         <td>Y</td>
+         <td>Y</td>
+         <td>Y</td>
+         <td>Y</td>
+         <td>N</td>
+         <td>Y</td>
+         <td>N</td>
+         <td>N</td>
+         <td><div>Y<sup>4</sup></div></td>
+         <td><div>Y<sup>4</sup></div></td>
+         <td><div>Y<sup>5</sup></div></td>
+         <td>Y</td>
+         <td>N</td>
+         <td>N</td>
+         <td>N</td>
+         <td>N</td></tr>
+<tr><td>Has Developer privilege</td>
          <td>N</td>
          <td>N</td>
          <td>N</td>

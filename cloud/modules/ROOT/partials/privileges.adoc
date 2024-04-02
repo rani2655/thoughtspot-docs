@@ -27,6 +27,10 @@ Can manage sync:: Can use ThoughtSpot Sync to set up secure pipelines to externa
 [#preview-sage]
 Can preview ThoughtSpot Sage:: Users with this privilege can use the Early Access ThoughtSpot Sage features. These features must first be enabled by your administrator. For more information about Early Access features, see xref:release-lifecycle.adoc#early-access[Early Access features]. These features include xref:ai-answers.adoc[], xref:search-ai-suggested.adoc[], and xref:spotiq-change.adoc#change-analysis-contextual[Contextual change analysis]. You do not need this privilege for the xref:data-modeling-visibility.adoc#automatic-synonyms[AI-generated Worksheet synonyms] feature.
 
+[#manage-catalog]
+Can manage catalog::
+Users with this privilege can set up or edit a connection to a catalog. User setting up the catalog connection can also configure which fields to display or hide on the column and table level knowledge cards.
+
 [#schedule-pinboards]
 Can schedule for others:: Can create Liveboard schedules for other users and groups.
 +
