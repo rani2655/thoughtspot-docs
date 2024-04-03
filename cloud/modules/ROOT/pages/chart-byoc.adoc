@@ -1,4 +1,4 @@
-= Bring Your Own Charts
+= Custom charts
 :last_updated: 3/5/24
 :linkattrs:
 :experimental:
@@ -6,7 +6,7 @@
 :page-layout: default-cloud-beta
 :page-aliases:
 :description: With custom charts, you can add your own custom charts to ThoughtSpot.
-:jira: SCAL-179003
+:jira: SCAL-179003, SCAL-202002
 
 You can now use custom charts created outside of ThoughtSpot.
 
