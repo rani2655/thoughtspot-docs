@@ -478,7 +478,7 @@ We made the following changes to ThoughtSpot feedback review for AI Answers:
 
 * Feedback for AI Answers is now Org-aware.
 * When you make a change to a Worksheet, ThoughtSpot now alerts you if this will affect any related query feedback. If you accept this and make the change, the feedback depending on that Worksheet is deleted.
-* You can now import query feedback when you move information from a development cluster to a production cluster.
+//* You can now import query feedback when you move information from a development cluster to a production cluster.
 
 [#9-11-0-cl-dbt-share]
 [discrete]
@@ -530,7 +530,13 @@ When creating a Worksheet from a dbt connection, ThoughtSpot joins the tables ba
 // Naomi -- SCAL-164290. documentation JIRA SCAL-201306. add what the formula means. add article.
 // PM: Damian
 
-ThoughtSpot now supports the `ts_groups` system variable in Answer and Worksheet formulas. You can use the `ts_groups` variable for data masking, or deciding whether to display the value of a column to a user based on their group membership.
+ThoughtSpot now supports the `ts_groups` system variable in Answer and Worksheet formulas. You can use the `ts_groups` variable for data masking, or deciding whether to display the value of a column to a user based on their group membership. For more information, see
+ifndef::pendo-links[]
+xref:data-masking.adoc[Data masking with system variables].
+endif::[]
+ifdef::pendo-links[]
+xref:data-masking.adoc[Data masking with system variables,window=_blank].
+endif::[]
 ////
 For example, you could create a formula such as: `masked sales = if ( 'all data' in ts_groups) then sales else null`. The formula checks if you are a member of the 'all data' group. If you are a member, the formula returns the sales column. If not, it returns null.
 ////
