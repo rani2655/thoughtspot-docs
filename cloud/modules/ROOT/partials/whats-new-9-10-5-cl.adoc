@@ -267,22 +267,22 @@ ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-11-0-cl-byoc]
 [discrete]
-=== Bring Your Own Charts (BYOC) [.badge.badge-beta]#Beta#
+=== Custom charts [.badge.badge-beta]#Beta#
 endif::[]
 ifdef::pendo-links[]
 [#9-11-0-cl-byoc]
 [discrete]
-=== Bring Your Own Charts (BYOC) [.badge.badge-beta-whats-new]#Beta#
+=== Custom charts [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
 
 You can now use custom charts created outside of ThoughtSpot, including third-party chart libraries. To enable this feature, contact {support-url}.
 For more information, see
 ifndef::pendo-links[]
-xref:chart-byoc.adoc[Bring Your Own Charts].
+xref:chart-byoc.adoc[Custom charts].
 endif::[]
 ifdef::pendo-links[]
-xref:chart-byoc.adoc[Bring Your Own Charts,window=_blank].
+xref:chart-byoc.adoc[Custom charts,window=_blank].
 endif::[]
 
 
