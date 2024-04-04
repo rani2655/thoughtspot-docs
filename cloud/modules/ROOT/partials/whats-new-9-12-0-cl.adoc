@@ -231,6 +231,7 @@ endif::free-trial-feature[]
 
 Using ThoughtSpot Sync, you can now sync data directly from an Answer or a custom SQL view, to Excel.
 
+////
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-12-0-cl-falcon]
@@ -250,6 +251,7 @@ ThoughtSpot now supports connections to Falcon. You can use the Falcon connectio
 
 
 endif::free-trial-feature[]
+////
 
 // [#9-12-0-cl-filter]
 // [discrete]
