@@ -56,7 +56,7 @@ These are the issues we fixed in this release of ThoughtSpot Cloud.
 |SCAL-184586
 |Snowflake JDBC connection suddenly fails and the error message "request timed out after 30000ms" appears.
 |SCAL-184455
-|Custom help menu reset to default values upon restart.
+|Custom help menu reset to default values upon cluster restart.
 |SCAL-183845
 |Unable to sign in using SAML even though SAML authentication passes.
 |SCAL-183160
