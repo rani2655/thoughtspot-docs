@@ -6,11 +6,11 @@
 :page-layout: default-cloud
 :connection: Databricks
 :description: ThoughtSpot supports OAuth for a Databricks connection.
-:jira: SCAL-160062, SCAL-180837, SCAL-199788
+:jira: SCAL-160062, SCAL-180837, SCAL-199788, SCAL-201978
 
 ThoughtSpot supports OAuth for a {connection} connection. This page describes the setup and configuration required.
 
-Databricks SQL warehouses are configured with OAuth 2.0 authentication on the Microsoft Azure platform, using Azure Active Directory (AAD) as the identity provider (IdP).
+Databricks SQL warehouses are configured with OAuth 2.0 authentication. ThoughtSpot supports all IDPs supported by Databricks in OAuth 2.0, including Microsoft Azure’s Azure Active Directory (AAD), AWS, and Okta. As an example, this article documents how to set up OAuth for Microsoft Azure AAD.
 
 NOTE: For OAuth, we recommend checking the {connection} link:https://docs.databricks.com/en/administration-guide/users-groups/single-sign-on/index.html[documentation] to confirm any IDP support and their details. This article documents only the most frequently set-up IDP.
 
