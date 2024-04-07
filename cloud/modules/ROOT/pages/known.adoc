@@ -1,6 +1,6 @@
 = Known issues
 :keywords: known issues
-:last_updated: 3/14/2024
+:last_updated: 4/7/2024
 :author: Mark Plummer
 :experimental:
 :page-layout: default-cloud
@@ -8,7 +8,7 @@
 :jira: SCAL-197719
 
 These are the known issues in this release of ThoughtSpot Cloud.
-////
+
 [#releases-9-10-x]
 == 9.10.5.cl known issues
 
@@ -16,46 +16,37 @@ These are the known issues in this release of ThoughtSpot Cloud.
 |===
 |Issue ID |Description|Symptoms, conditions, and workaround
 
-|SCAL-184583
-|TBD
+|SCAL-196442
+|Sorting with a measure inside a pivot table sorts only by rows.
 a|*Symptoms*:
 
-Fail to generate query
+User can sort by rows, but not by columns.
 
 *Conditions*:
 
- This change was introduced in 9.4. This only impacts in certain edge case and that too for software → cloud migration.
-2. columns under the aggregate expression span multiple non-shared dimensions
+User sorts a pivot table using the search bar or
+they update sorting by the measure.
 
-TBD.
+This only affects pivot tables.
 
 *Workaround*:
 
-Modify the query to add a no-op
+Sort by rows or columns using the respective header.
 
-|SCAL-169186
-|TBD
+|SCAL-191250
+|Pivot table unexpectedly reloads after user expands or collapses rows.
 a|*Symptoms*:
 
-User is expecting to happen is that the filter = 8 is applied to the CTE query_0.
-
-This does not seem to be the case.
+- Table reloads after expanding/collapsing the pivot rows.
+- Visibility of data after row expansion/collapse is delayed.
+- State of the table is lost due to table refresh.
+- No clear indication when the table will be refreshed.
 
 *Conditions*:
 
-The following is testing conducted with the new group reaggregation logic.
-
-tscli service --adv add-javaopt tomcat.tomcat D orion.dataGenRules.enableGroupAggregateNewReaggregation true
-
-Assuming I have a formula defined as the following:
-
-groupFX = group_aggregate ( sum ( Quantity ) , { Line Number , OrderKey } , query_filters ( ) )
-
-then I have a search such as: [quantiy] [orderkey] groupFX = 8
-
-TBD.
+Pivot table with two or more rows.
 
 *Workaround*:
 
-disable 'tscli service --adv add-javaopt tomcat.tomcat D orion.dataGenRules.enableGroupAggregateNewReaggregation false'
+None. Wait for table to refresh after expanding or collapsing any row.
 |===
