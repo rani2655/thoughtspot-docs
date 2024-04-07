@@ -78,7 +78,7 @@ We made the following changes to ThoughtSpot feedback review for AI Answers:
 //* You can now import query feedback when you move information from a development cluster to a production cluster.
 
 // Naomi -- SCAL-126451
-dbt integration: sharing dbt connections::
+Sharing dbt connections::
 You can now select a dbt connection and click *Share* to share the connection with other users or groups. You can select whether to allow edit access to the dbt user from the *Share connection* dialog box. For more information, see
 xref:dbt-integration.adoc#share[Share a dbt connection].
 
@@ -88,7 +88,7 @@ ThoughtSpot displays dbt error messages that clearly describe whether the error 
 xref:dbt-integration.adoc#errors[dbt error messages].
 
 // Naomi -- SCAL-126453, SCAL-201305
-dbt integration: join enhancement::
+dbt connections join enhancement::
 When creating a Worksheet from a dbt connection, ThoughtSpot joins the tables based on the relationships defined in the underlying .yml schema file. Now, joins between the tables will be created local to the Worksheet instead of creating a global join between the tables.
 
 // Naomi -- SCAL-164290, SCAL-201306
