@@ -222,5 +222,6 @@ Find topics for the common types of ThoughtSpot users.
      </div>
   </div>  -->
 ++++
-// == What's new in ThoughtSpot Cloud
+== What's new in ThoughtSpot Cloud
 
+include::partial$whats-new-9-10-5-cl.adoc[]
