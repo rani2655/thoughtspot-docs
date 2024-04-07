@@ -38,7 +38,7 @@ endif::[]
 image::ai-highlight.gif[AI Highlights]
 
 
-// Mark -- SCAL-162712
+// Mark -- SCAL-162712, doc jira: SCAL-178264
 // PM: Manan
 
 endif::free-trial-feature[]
@@ -120,9 +120,9 @@ endif::free-trial-feature[]
 [discrete]
 === Answer data panel enhancements
 
-// change "we've made improvements" to "now, in the data panel"
+// Doc jira: SCAL-202377
 
-We've made improvements to the new Answer data panel, including filtering as you hover on a column, _By category_ grouping by default, and displaying the information panel when you click a column.
+Now in the new Answer data panel, you can filter as you hover on a column, _By category_ grouping by default, and display the information panel when you click a column.
 
 image::answer-panel-new.gif[Information panel appears when you click on a column, filter appears when you hover over a column]
 
@@ -288,7 +288,7 @@ endif::[]
 
 image::custom-chart-select.png[Custom Chart]
 
-// Mark -- scal-171984, scal-67410. possibly below "other features". emphasize the vast range of charts you can now use? split into two blurbs-- business user / developer? include names of third-party providers?
+// Mark -- scal-171984, scal-67410, doc jira: SCAL-179003. possibly below "other features". emphasize the vast range of charts you can now use? split into two blurbs-- business user / developer? include names of third-party providers?
 endif::free-trial-feature[]
 
 
@@ -439,7 +439,7 @@ You can now create joins in your Model by clicking and dragging from one table t
 
 image::join-drag.gif[Click and drag to create a join]
 
-// Mark -- SCAL-180588. add gif? gif could clarify any steps.
+// Mark -- SCAL-180588. doc jira: SCAL-194041 add gif? gif could clarify any steps.
 // PM: Samridh
 endif::free-trial-feature[]
 
@@ -452,7 +452,7 @@ endif::[]
 ifdef::pendo-links[]
 [#9-11-0-cl-granular]
 [discrete]
-=== Granular privileges: addition of data control privileges [.badge.badge-beta-whats-new]#Beta#
+=== Granular privileges for can-manage-data [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 ThoughtSpot Role-Based Access Control (RBAC) enhances the granularity of permissions with the addition of new data management privileges. The following data control privileges have been added:
 
@@ -658,7 +658,7 @@ ifdef::pendo-links[]
 xref:chart-byoc.adoc[Custom charts,window=_blank].
 endif::[]
 ifndef::free-trial-feature[]
-// Mark -- scal-171984, scal-67410.
+// Mark -- scal-171984, scal-67410.  doc jira: SCAL-179003
 endif::free-trial-feature[]
 
 ifndef::free-trial-feature[]
