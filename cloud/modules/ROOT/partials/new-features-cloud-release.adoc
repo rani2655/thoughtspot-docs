@@ -28,7 +28,7 @@ ThoughtSpot Sync for Google BigQuery::
 ThoughtSpot Sync for Google BigQuery is now on by default and available to all users. Using ThoughtSpot Sync, you can now sync data directly from an Answer or a custom SQL view, to your Google BigQuery cloud data warehouse.
 For more information, see xref:sync-gbq.adoc[Sync to Google BigQuery].
 
-// Mark -- SCAL-179003, SCAL-202002
+// Mark -- SCAL-202002, doc jira: SCAL-179003
 Custom charts [.badge.badge-beta-relnotes]#Beta#::
 You can now use custom charts created outside of ThoughtSpot, including third-party chart libraries. To enable this feature, contact {support-url}. For more information, see xref:chart-byoc.adoc[Custom charts].
 
@@ -39,7 +39,7 @@ You can create custom sets, which can be used to classify values in a list that 
 
 [#9-11-0-cl-business-user]
 === For the Business User
-// Mark -- SCAL-162712
+// Mark -- SCAL-162712, doc jira: SCAL-178264
 AI Highlights [.badge.badge-early-access-relnotes]#Early Access#::
 
 With AI Highlights, you get quick insights on how top metrics have changed in your Liveboard, dramatically reducing the time to derive insights from your KPIs. To enable this feature, contact your administrator.
@@ -98,6 +98,12 @@ ThoughtSpot now supports the `ts_groups` system variable in Answer and Worksheet
 // Naomi -- SCAL-178532, SCAL-201307
 Enhancements to error messages for Search and Answers::
 To improve our error messaging when an error prevents data from loading, we introduced a broader classification that allows you to understand issues more clearly. You can click "Copy error details" to download and send a file to your administrators.
+
+// Doc jira: SCAL-202377
+Answer data panel enhancements::
+Now in the new Answer data panel, you can filter as you hover on a column, _By category_ grouping by default, and display the information panel when you click a column.
+
+image::answer-panel-new.gif[Information panel appears when you click on a column, filter appears when you hover over a column]
 
 [#9-11-0-cl-developer]
 === For the Developer
