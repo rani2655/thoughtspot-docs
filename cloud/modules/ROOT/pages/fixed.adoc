@@ -18,29 +18,29 @@ These are the issues we fixed in this release of ThoughtSpot Cloud.
 |Issue ID |Description
 
 |SCAL-198889
-|Prism APIs asked for cookies in cookieless trusted authentication, broke when received bearer token.
+|Prism APIs ask for cookies in cookieless trusted authentication, and break when receiving bearer token.
 |SCAL-198333
 |Query generation error when creating a formula with nested aggregation.
 |SCAL-197542
-|Formula editor and adding columns to search bar in Search Data timed out due to checking table columns for Org-relevance.
+|Formula editor and adding columns to search bar in Search Data time out due to checking table columns for Org-relevance.
 |SCAL-197530
-|Liveboards failing to load intermittently.
+|Liveboards fail to load intermittently.
 |SCAL-196097
-|User_auth_info atlas objects caused high memory usage.
+|`User_auth_info` atlas objects cause high memory usage.
 |SCAL-194741
-|EmbedEvent.CustomAction failed to send data inside data.embedAnswerData.data.
+|EmbedEvent.CustomAction fail to send data inside data.embedAnswerData.data.
 |SCAL-194515
 |Unable to add admin user to multiple Orgs.
 |SCAL-194224
-|GBQ customers unable to download tables as CSV, PDF, or XLSX files when table contains boolean or datetime columns.
+|Customers using a Google BigQuery connection are unable to download tables as CSV, PDF, or XLSX files when table contains boolean or datetime columns.
 |SCAL-193868
-|Profiles in use by other XLSX downloads were deleted while in use.
+|Profiles in use by other XLSX downloads are deleted while in use.
 |SCAL-191966
-|Internal connection was exposed.
+|Internal connection is exposed.
 |SCAL-191717
 |Extra Data embed event emitted in embedded environment when data is fetched.
 |SCAL-191512
-|Snowflake connections failed due to invalid or expired certificates.
+|Snowflake connections fail due to invalid or expired certificates.
 |SCAL-190895
 |Liveboards which load as expected on ThoughtSpot Cloud, do not load in the embedded version and the error "Pinboard has failed to load" is displayed. In addition, the search does not work in the embedded version.
 |SCAL-188172
@@ -52,11 +52,11 @@ These are the issues we fixed in this release of ThoughtSpot Cloud.
 |SCAL-185098
 |Customers navigating to Data > Sync occasionally see "Seekwell Service down" error and are unable to use this feature.
 |SCAL-184640
-|API calls for natural language search failed on embedded environments.
+|API calls for natural language search fail in embedded environments.
 |SCAL-184586
 |Snowflake JDBC connection suddenly fails and the error message "request timed out after 30000ms" appears.
 |SCAL-184455
-|Custom help menu reset to default values upon cluster restart.
+|Custom help menu resets to default values upon cluster restart.
 |SCAL-183845
 |Unable to sign in using SAML even though SAML authentication passes.
 |SCAL-183160
@@ -68,5 +68,5 @@ These are the issues we fixed in this release of ThoughtSpot Cloud.
 |SCAL-180968
 |The Y-axis for a line chart is plotted incorrectly when it is resized.
 |SCAL-139139
-|When joining multiple tables sometimes the count quantity is not correct.
+|When joining multiple tables, sometimes the count quantity is not correct.
 |===
