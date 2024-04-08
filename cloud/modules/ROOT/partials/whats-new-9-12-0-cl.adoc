@@ -62,7 +62,7 @@ endif::[]
 
 You can now conversationally search ThoughtSpot using natural language, asking follow-up questions for further clarification or to take your analysis in a new direction. This conversational approach allows you to begin with a simple question, and ask successive questions to refine the answer you receive. ThoughtSpot translates each natural language question into a query, and answers in chart format.
 
-image::ask-sage.gif[Ask Sage]
+image::ask-sage-save.gif[Ask Sage]
 
 endif::free-trial-feature[]
 
@@ -113,7 +113,7 @@ endif::[]
 
 You can now use SpotIQ analysis to forecast future trends for your KPIs. ThoughtSpot uses machine learning models that learn from past trends, growth, and seasonality to project how the target metric will trend in the future.
 
-image::forecasting.gif[Forecasting]
+image::forecasting-zoom.gif[Forecasting]
 
 endif::free-trial-feature[]
 
