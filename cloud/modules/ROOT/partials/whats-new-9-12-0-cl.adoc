@@ -349,16 +349,16 @@ ThoughtSpot introduces onboarding configuration at the Org level. Now an Org adm
 [#9-12-0-cl-user-adoption]
 [discrete]
 === User Adoption Liveboard
-// Naomi – SCAL-179763. documentation JIRA scal-201642. confirm title -- is this a new Liveboard or an enhancement to Object Usage Liveboard
+// Naomi – SCAL-179763. documentation JIRA scal-201642. confirm title -- is this a new Liveboard or an enhancement to Object Usage Liveboard. confirm with Mohil.
 // PM: Mohil
 
-You can now use the Object Usage Liveboard to understand how ThoughtSpot is saving you time with ad-hoc insights, and how many users are accessing ThoughtSpot and creating new insights every month.
+You can now use the User Adoption Liveboard to understand how ThoughtSpot is saving you time with ad-hoc insights, and how many users are accessing ThoughtSpot and creating new insights every month.
 
 [#9-12-0-cl-nls]
 [discrete]
 === Sage Adoption Liveboard
 // Naomi – SCAL-140363. documentation JIRA scal-201655. is it still Sage Adoption Liveboard
-// PM: Santiago, Kevin Shi new PM Alok.
+// PM: Santiago, Kevin Shi, new PM Alok.
 
 You can now use the Sage Adoption Liveboard, previously named the How users are searching Answers Liveboard, to monitor how users are searching on both Search Data and Natural Language Search.
 
@@ -481,7 +481,7 @@ endif::free-trial-feature[]
 [discrete]
 === Org Deletion - Default enablement
 ThoughtSpot introduces support for deleting Orgs. You can now delete an Org without first manually deleting all users, connections, and objects.
-// Mary – SCAL-179795, SCAL-134057
+// Mary – SCAL-179795, SCAL-134057. title fix.
 // PM: Vijay/Aashica
 
 ifndef::free-trial-feature[]
