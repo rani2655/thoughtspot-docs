@@ -77,11 +77,11 @@ ifdef::pendo-links[]
 === Advanced conditional formatting [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 
-// Naomi -- scal-177005. documentation JIRA scal-201639. is it visualization as well as table? check if it's in early access panel. moved to 9.12.0.cl. change "compare" to "visually highlight the differences/ threshold..." in the first sentence.
+// Naomi -- scal-177005. documentation JIRA scal-201639. is it visualization as well as table? moved to 9.12.0.cl. change "compare" to "visually highlight the differences/ threshold..." in the first sentence.
 
 // PM: Manan
 
-In addition to using conditional formatting to compare a column's measures to a single value (for example, `sales > 10000`), you can now use conditional formatting to compare a column's measures to another column or to a parameter. For example, if you search for `sales this year` compared to `sales last year`, you can highlight where sales this year were less than last year. You can set multiple conditional formatting rules to a single table. To enable this feature, contact your administrator.
+In addition to using conditional formatting to visually highlight a threshold in a measure (for example, `sales > 10000`), you can now use conditional formatting to compare a column's measures to another column or to a parameter. For example, if you search for `sales this year` compared to `sales last year`, you can highlight where sales this year were less than last year. You can set multiple conditional formatting rules to a single table. To enable this feature, contact your administrator.
 ////
 For more information, see
 ifndef::pendo-links[]
@@ -96,22 +96,8 @@ endif::free-trial-feature[]
 
 
 
-[#9-12-0-cl-collibra]
-[discrete]
-=== Collibra integration
 
-// Naomi -- SCAL-187745. documentation JIRA scal-201640. possibly move lower.
-// PM: Sarib
 
-Collibra integration is now available to all users and on by default. You can now see verification status and descriptions on tables and columns imported from Collibra. This information appears when you click on the corresponding table or column in *Search data*. Once connected, this information is visible to all users.
-
-[#9-12-0-cl-user-adoption]
-[discrete]
-=== User Adoption Liveboard
-// Naomi – SCAL-179763. documentation JIRA scal-201642. move below the fold.
-// PM: Mohil
-
-You can now use the Object Usage Liveboard to understand how ThoughtSpot is saving you time with ad-hoc insights, and how many users are accessing ThoughtSpot and creating new insights every month.
 
 ////
 [#9-12-0-cl-sage-coach]
@@ -120,6 +106,15 @@ You can now use the Object Usage Liveboard to understand how ThoughtSpot is savi
 // Naomi – SCAL-179981. waiting on confirmation.
 // PM: Santiago
 ////
+
+[#9-12-0-cl-collibra]
+[discrete]
+=== Collibra integration
+
+// Naomi -- SCAL-187745. documentation JIRA scal-201640. possibly move lower.
+// PM: Sarib
+
+Collibra integration is now available to all users and on by default. You can now see verification status and descriptions on tables and columns imported from Collibra. This information appears when you click on the corresponding table or column in *Search data*. Once connected, this information is visible to all users.
 
 [#9-12-0-cl-email]
 [discrete]
@@ -281,7 +276,7 @@ ThoughtSpot introduces support for scheduling Liveboards with XLSX attachments, 
 
 We made the following enhancements to ThoughtSpot Sync:
 
-* You can now click the preview link that appears when you create a Sync from the Data Workspace to see a preview of the resulting Answer, Liveboard, or Custom SQL view. Answer, Liveboard, and Custom SQL view previews appear in a new tab.
+* You can now click the preview link when you create a Sync from the Data Workspace to see a preview of the resulting Answer, Liveboard, or Custom SQL view. Answer, Liveboard, and Custom SQL view previews appear in a new tab.
 * When running a Sync, you can see the following information depending on the destination:
 
 ** Slack: channel name
@@ -323,6 +318,13 @@ ifdef::pendo-links[]
 link:https://docs.snowflake.com/en/user-guide/security-access-control-overview#enforcement-model-with-primary-role-and-secondary-roles[Enforcement model with primary role and secondary roles,window=_blank].
 endif::[]
 
+[#9-12-0-cl-user-adoption]
+[discrete]
+=== User Adoption Liveboard
+// Naomi – SCAL-179763. documentation JIRA scal-201642. move below the fold.
+// PM: Mohil
+
+You can now use the Object Usage Liveboard to understand how ThoughtSpot is saving you time with ad-hoc insights, and how many users are accessing ThoughtSpot and creating new insights every month.
 
 // ifndef::free-trial-feature[]
 // ifndef::pendo-links[]
@@ -393,6 +395,7 @@ You can now use the Sage Adoption Liveboard, previously named the How users are 
 //Need clarification from PM. The same PRD as was linked for all other Org related features since 9.8.0.cl with no updates. Need clarification about what this update is for 9.12.0.cl.
 // PM: Vijay
 
+////
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-12-0-cl-first-last]
@@ -410,7 +413,7 @@ endif::[]
 To enable this feature, contact your administrator.
 
 endif::free-trial-feature[]
-
+////
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
