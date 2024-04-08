@@ -14,12 +14,13 @@ endif::free-trial-feature[]
 
 // Business User
 
+////
 .New home page and navigation [.badge.badge-early-access-whats-new]#Early Access#
 ****
 [#9-12-0-cl-homepage]
 [discrete]
 === New home page
-// Mark – SCAL-201641. switch gif for a video (test embedding wistia in a partial)
+// Mark – SCAL-201641. switch gif for a video (test embedding wistia in a partial). moved to 9.12.5.cl
 // PM: Adi
 
 Starting in this release, we have a completely redesigned home page, where you can ask natural-language questions with Sage, view your watchlist, favorites, library of Answers and Liveboards, and more. With the new left-hand navigation, you can go directly to your Liveboards, Answers, SpotIQ Analysis, and Monitor Subscriptions.
@@ -42,7 +43,7 @@ image::app-switcher.png[]
 
 The new home page and navigation are disabled by default. To enable it, contact your ThoughtSpot administrator. After that, open your user profile, and in the _Experience_ section, set the Navigation and Homepage to *New experience*.
 ****
-
+////
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
@@ -56,7 +57,7 @@ ifdef::pendo-links[]
 === Ask Sage [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 
-// Naomi – SCAL-188039. documentation jira SCAL-201656. move up to beginning.
+// Naomi – SCAL-188039. documentation jira SCAL-201656. rename to ? move up to beginning.
 // PM: Alok
 
 You can now conversationally search ThoughtSpot using natural language, asking follow-up questions for further clarification or to take your analysis in a new direction. This conversational approach allows you to begin with a simple question, and ask successive questions to refine the answer you receive. ThoughtSpot translates each natural language question into a query, and answers in chart format.
@@ -96,82 +97,6 @@ endif::free-trial-feature[]
 
 
 
-
-
-
-////
-[#9-12-0-cl-sage-coach]
-[discrete]
-=== Sage Coach improvements for 9.12
-// Naomi – SCAL-179981. waiting on confirmation.
-// PM: Santiago
-////
-
-[#9-12-0-cl-collibra]
-[discrete]
-=== Collibra integration
-
-// Naomi -- SCAL-187745. documentation JIRA scal-201640. possibly move lower.
-// PM: Sarib
-
-Collibra integration is now available to all users and on by default. You can now see verification status and descriptions on tables and columns imported from Collibra. This information appears when you click on the corresponding table or column in *Search data*. Once connected, this information is visible to all users.
-
-[#9-12-0-cl-email]
-[discrete]
-=== Email digest
-ThoughtSpot delivers email digest to users to provide updates about new and trending Liveboards, favorites, and noteworthy community articles. All users who log into ThoughtSpot are automatically subscribed to email digests. Users can manage their preferences for email digests. Administrators can turn this feature on and off, or change the default frequency to weekly, monthly, or quarterly.
-// Mary – SCAL-179683. move lower possibly?
-// PM: Adi
-
-
-[#9-12-0-cl-watchlist]
-[discrete]
-=== [Modular home page] Phase 1 Watchlist UI changes
-// Mark – SCAL-181295. should this be added in to new homepage blurb? is it part of the new homepage (early access?) or GA/ on by default??
-// PM: Rahul P J P
-
-////
-
-[#9-12-0-cl-embrace]
-[discrete]
-=== Embrace error message improvements - phase 1
-// Naomi – SCAL-178764. marked as none needed. release notes only.
-// PM: Aaghran
-////
-
-[#9-12-0-cl-worksheet]
-[discrete]
-=== Show underlying worksheets
-ThoughtSpot now shows what data sources are used in a Liveboard. A Liveboard may contain visualizations from many data sources. The data sources and links appear in the *Show Liveboard details* modal under *Underlying data source*. Users can click the link to open the data source in a new tab. If a data source is unavailable due to permissions, a message will appear to indicate this in place of the data source name.
-// Mary – SCAL-190726. add an image. is Underlying data source a menu item or a button?
-// PM: Vanshree
-
-//[#9-12-0-cl-data-panel]
-//[discrete]
-//=== New Answer data panel enhancements
-// Mark – SCAL-179816
-// PM: Alok
-// - Unify CTA for Columns/ Formula/ Params and Cohorts in data panel
-
-[#9-12-0-cl-filters]
-[discrete]
-=== [Customer commit] Allow users to apply filters on Liveboards even if hidden objects are included in a visualization within the Liveboard
-If a Liveboard has at least one visualization that uses a hidden field, or a formula created from a hidden field, the Liveboard filters are now accessible to all the users that have view or edit permission to the underlying data source. These fields remain hidden in Sage search.
-// Mary – SCAL-157372
-//Need more information from Vanshree to clarify the use case(s) supported in 9.12.0.cl. will it be called Sage search?
-// PM: Vanshree
-
-[#9-12-0-cl-configuration]
-[discrete]
-=== Configuration related to onboarding should be at Org level in Admin panel
-ThoughtSpot introduces onboarding configuration at the Org level. Now an Org administrator can update their onboarding configuration in the Admin panel without the need to contact the tenant administrator. This feature helps to reduce possible service interruptions.
-// Mary – SCAL-145362. move below the fold. maybe add image of Admin panel with red box around new bit. Allows you to do it per org rather than doing it for the whole cluster/taking the orgs down.
-//Need more information (PRD link is missing information)
-// PM: Adi Chand
-
-// Analyst
-
-
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-12-0-cl-forecasting]
@@ -192,9 +117,86 @@ image::forecasting.gif[Forecasting]
 
 endif::free-trial-feature[]
 
+
+
+
+////
+[#9-12-0-cl-sage-coach]
+[discrete]
+=== Sage Coach improvements for 9.12
+// Naomi – SCAL-179981. waiting on confirmation.
+// PM: Santiago
+////
+
+[#9-12-0-cl-collibra]
+[discrete]
+=== Collibra integration
+
+// Naomi -- SCAL-187745. documentation JIRA scal-201640. add an image of data side panel. possibly move lower.
+// PM: Sarib
+
+Collibra integration is now available to all users and on by default. You can now see verification status and descriptions on tables and columns imported from Collibra. This information appears when you click on the corresponding table or column in *Search data*. Once connected, this information is visible to all users.
+
+[#9-12-0-cl-email]
+[discrete]
+=== Email digest
+ThoughtSpot delivers an email digest to users to provide updates about new and trending Liveboards, favorites, and noteworthy community articles. All users who sign in to ThoughtSpot are automatically subscribed to email digests. Users can manage their preferences for email digests. Administrators can turn this feature on and off, or change the default frequency to weekly, monthly, or quarterly.
+// Mary – SCAL-179683. move lower possibly? more details on whether email digest is generic (trending liveboards), or specific to user.
+// PM: Adi. new PM Mohil
+
+////
+[#9-12-0-cl-watchlist]
+[discrete]
+=== [Modular home page] Phase 1 Watchlist UI changes
+// Mark – SCAL-181295. should this be added in to new homepage blurb? is it part of the new homepage (early access?) or GA/ on by default??
+// PM: Rahul P J P
+////
+////
+
+[#9-12-0-cl-embrace]
+[discrete]
+=== Embrace error message improvements - phase 1
+// Naomi – SCAL-178764. marked as none needed. release notes only.
+// PM: Aaghran
+////
+
+[#9-12-0-cl-worksheet]
+[discrete]
+=== Show underlying worksheets
+ThoughtSpot now shows which data sources are used in a Liveboard. A Liveboard may contain visualizations from many data sources. The data sources and links appear in the *Show Liveboard details* modal under *Underlying data source*. Users can click the link to open the data source in a new tab. If a data source is unavailable due to permissions, a message will appear to indicate this in place of the data source name.
+// Mary – SCAL-190726. add an image. is Underlying data source a menu item or a button? what is the use case?
+// PM: Vanshree. new pm Arpit?
+
+[#9-12-0-cl-xlsx]
+[discrete]
+=== [Customer Commit] Add support for XLSX in Liveboard schedule
+ThoughtSpot introduces support for scheduling Liveboards with XLSX attachments, in addition to the existing PDF and CSV options. This allows users to explore tabular data from these reports by using the XLSX data files.
+// Mary – SCAL-140254. call out Excel explicitly. fix title.
+// PM: Vanshree. new PM Arpit?
+
+//[#9-12-0-cl-data-panel]
+//[discrete]
+//=== New Answer data panel enhancements
+// Mark – SCAL-179816
+// PM: Alok
+// - Unify CTA for Columns/ Formula/ Params and Cohorts in data panel
+
+[#9-12-0-cl-filters]
+[discrete]
+=== [Customer commit] Allow users to apply filters on Liveboards even if hidden objects are included in a visualization within the Liveboard
+If a Liveboard has at least one visualization that uses a hidden field, or a formula created from a hidden field, the Liveboard filters are now accessible to all users who have view or edit permissions to the underlying data source. These fields remain hidden in Sage search.
+// Mary – SCAL-157372
+//Need more information from Vanshree to clarify the use case(s) supported in 9.12.0.cl. will it be called Sage search? rename the title. is it that you couldn't use any filters on a visualization that had a hidden field? Or is it that you can now filter on the hidden field?
+// PM: Vanshree. new pm Arpit?
+
+
+
+// Analyst
+
+
 [#9-12-0-cl-change-analysis]
 [discrete]
-=== Change analysis: remember personalized columns
+=== Remember personalized columns in change analysis
 // Naomi – SCAL-181312. documentation JIRA scal-201645.
 // PM: Vikas
 
@@ -204,27 +206,21 @@ ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-12-0-cl-iterative]
 [discrete]
-=== Change analysis: drill down [.badge.badge-early-access]#Early Access#
+=== Drill down in change analysis [.badge.badge-early-access]#Early Access#
 endif::[]
 ifdef::pendo-links[]
 [#9-11-0-cl-iterative]
 [discrete]
-=== Change analysis: drill down [.badge.badge-early-access-whats-new]#Early Access#
+=== Drill down in change analysis [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
-// Naomi – SCAL-176265. documentation JIRA scal-201646.
+// Naomi – SCAL-176265. documentation JIRA scal-201646. image.
 // PM: Vikas
 
 You can now drill down on specific columns in change analysis, in order to identify change drivers within your data. For example, if you run an analysis on sales monthly and find out that the 'jacket' item type changed the most, you can easily drill down on jacket sales and identify which region contributed the most to the change in sales. To enable this feature, contact your administrator.
 
 endif::free-trial-feature[]
 
-[#9-12-0-cl-sync]
-[discrete]
-=== Sync to Excel
-// Naomi – SCAL-130010. Documentation JIRA scal-201647.
-// PM: Sarib
 
-Using ThoughtSpot Sync, you can now sync data directly from an Answer or a custom SQL view, to Excel.
 
 ////
 ifndef::free-trial-feature[]
@@ -261,21 +257,17 @@ endif::free-trial-feature[]
 // Mark – SCAL-181022
 // PM: Samridh
 
-[#9-12-0-cl-xlsx]
-[discrete]
-=== [Customer Commit] Add support for XLSX in Liveboard schedule
-ThoughtSpot introduces support for scheduling Liveboards with XLSX attachments, in addition to the existing PDF and CSV options. This allows users to explore tabular data from these reports by using the XLSX data files.
-// Mary – SCAL-140254. call out Excel explicitly, move up higher.
-// PM: Vanshree
+
 
 [#9-12-0-cl-improvements]
 [discrete]
 === ThoughtSpot Sync
-// Naomi – SCAL-180961. documentation JIRA scal-201649. shorten description and use images?
+// Naomi – SCAL-180961. SCAL-130010. Documentation JIRA scal-201647. documentation JIRA scal-201649. shorten description and use images?
 // PM: Sarib
 
 We made the following enhancements to ThoughtSpot Sync:
 
+* Using ThoughtSpot Sync, you can now sync data directly from an Answer or a custom SQL view, to Excel.
 * You can now click the preview link when you create a Sync from the Data Workspace to see a preview of the resulting Answer, Liveboard, or Custom SQL view. Answer, Liveboard, and Custom SQL view previews appear in a new tab.
 * When running a Sync, you can see the following information depending on the destination:
 
@@ -295,7 +287,7 @@ We made the following enhancements to ThoughtSpot Sync:
 [discrete]
 === Collibra catalog integration
 
-// Naomi -- SCAL-187745. documentation JIRA scal-201640.
+// Naomi -- SCAL-187745. documentation JIRA scal-201640. no image needed.
 // PM: Sarib
 
 Collibra catalog integration is now available to all users and on by default. You can now import metadata information related to your tables and columns from Collibra into ThoughtSpot. From the Data tab, you can set up a connection to Collibra to import column descriptions, column verification status, table descriptions, and table verification status.
@@ -318,13 +310,7 @@ ifdef::pendo-links[]
 link:https://docs.snowflake.com/en/user-guide/security-access-control-overview#enforcement-model-with-primary-role-and-secondary-roles[Enforcement model with primary role and secondary roles,window=_blank].
 endif::[]
 
-[#9-12-0-cl-user-adoption]
-[discrete]
-=== User Adoption Liveboard
-// Naomi – SCAL-179763. documentation JIRA scal-201642. move below the fold.
-// PM: Mohil
 
-You can now use the Object Usage Liveboard to understand how ThoughtSpot is saving you time with ad-hoc insights, and how many users are accessing ThoughtSpot and creating new insights every month.
 
 // ifndef::free-trial-feature[]
 // ifndef::pendo-links[]
@@ -352,11 +338,27 @@ You can now use the Object Usage Liveboard to understand how ThoughtSpot is savi
 // PM: Sahar
 ////
 
+[#9-12-0-cl-configuration]
+[discrete]
+=== Configuration related to onboarding should be at Org level in Admin panel
+ThoughtSpot introduces onboarding configuration at the Org level. Now an Org administrator can update their onboarding configuration in the Admin panel without the need to contact the tenant administrator. This feature helps to reduce possible service interruptions.
+// Mary – SCAL-145362. maybe add image of Admin panel with red box around new bit. Allows you to do it per org rather than doing it for the whole cluster/taking the orgs down. fix title.
+//Need more information (PRD link is missing information)
+// PM: Adi Chand. new PM Mohil?
+
+[#9-12-0-cl-user-adoption]
+[discrete]
+=== User Adoption Liveboard
+// Naomi – SCAL-179763. documentation JIRA scal-201642. confirm title -- is this a new Liveboard or an enhancement to Object Usage Liveboard
+// PM: Mohil
+
+You can now use the Object Usage Liveboard to understand how ThoughtSpot is saving you time with ad-hoc insights, and how many users are accessing ThoughtSpot and creating new insights every month.
+
 [#9-12-0-cl-nls]
 [discrete]
 === Sage Adoption Liveboard
-// Naomi – SCAL-140363. documentation JIRA scal-201655.
-// PM: Santiago, Kevin Shi
+// Naomi – SCAL-140363. documentation JIRA scal-201655. is it still Sage Adoption Liveboard
+// PM: Santiago, Kevin Shi new PM Alok.
 
 You can now use the Sage Adoption Liveboard, previously named the How users are searching Answers Liveboard, to monitor how users are searching on both Search Data and Natural Language Search.
 
