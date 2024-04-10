@@ -75,24 +75,23 @@ If you choose to update the query term, the term appears in editable mode in an 
 
 == Permissions
 
-Access to Sage Feedback depends on your access to the underlying data in the form of Worksheets, tables, and views. There are four types of access for any user or group:
+Access to Sage Feedback depends on your access to the underlying data set in the form of Worksheets, tables, and views. The following table clarifies each permission level, the feedback a user can view, and the actions you can take.
 
-. `TABLE_READ_PERMISSION`: A user or group explicitly shares read access to a Worksheet/table/view.
-. `TABLE_MODIFY_PERMISSION`: A user or group explicitly shares write access to a Worksheet/table/view.
-. `NO_ACCESS`: A user or group is denied access to the Worksheet/table/view.
-. `AUTHOR`: Creator of the worksheet/table/view.
+[options="header"]
+|===
+| Permission level | What feedback can you see? | What actions can you take?
 
-The following options describe the hierarchy of how access to Sage feedback entries are determined to be viewable by a user or group:
+| `NO_ACCESS`: User does not have access to a data set. | User cannot see any feedback from this data set, including any feedback they submitted before losing access. | Not applicable. User cannot see the feedback.
 
-. Any user or group who has `AUTHOR` or `TABLE_MODIFY_PERMISSION` on a Worksheet/table/view can view or edit feedback from all users on that particular Worksheet/table/view within an Org. Note that except for System Worksheets, Worksheets are not part of multiple Orgs.
+| `TABLE_READ_PERMISSION`: User has read access to a data set. a| User can view their own feedback for this data set. +
+User cannot see feedback provided by others for this data set. | User can *fix the answer* and *delete* their own feedback for this data set if the access is set as User. +
+User cannot *change access* to global. User cannot *fix the answer* or *delete* after feedback is made global. Once feedback is accepted as global, they cannot modify or delete it.
++
+User cannot take any action on feedback provided by other users.
 
-. Any user or group who has `NO_ACCESS` on a Worksheet/table/view is not permitted to see any feedback, even feedback they submitted for that Worksheet/table/view. This means if access to a Worksheet/table/view is revoked, the user or group is no longer able to see the feedback. The user or group is still able to view or edit feedback on any other Worksheet/table/view they have access to.
+| `TABLE_MODIFY_PERMISSION`: User has edit access to a data set. | User can view feedback submitted by all the users on the data set. | User can *change access*, *fix the answer*, and *delete* the feedback submitted by all users on the data set.
 
-. Any user or group who has `TABLE_READ_PERMISSION` on a Worksheet/table/view can view or edit only their own feedback. The user or group is not able to see feedback from other users on that Worksheet/table/view.
+| Administrator | User can view feedback submitted by all the users for all the data sets in the selected Org. | User can *change access*, *fix the answer*, and *delete* the feedback submitted by all the users for all the data sets in the selected Org.
+|===
 
-. Administrators, specifically users with `ADMINISTRATION` privilege, can view or edit any feedback from any Worksheet/table/view within an Org.
-
-All feedback is isolated to one Org.
-
-Any user or group who can view a feedback entry can *Fix the answer*, *Change access*, or *Delete* the feedback entry.
-
+For an Org-enabled cluster, only the feedback from the selected Org is visible.
