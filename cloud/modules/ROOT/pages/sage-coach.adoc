@@ -24,7 +24,7 @@ A list of the natural language queries for which users gave feedback appears. No
 * the user rating.
 * the search tokens used to create the fixed answer.
 * the level of access the feedback is valid for.
-** Global feedback applies to the entire cluster, while user feedback applies only to the queries that user makes. Unless specified by an administrator or Worksheet editer, feedback applies only to the user level.
+** Global feedback applies to the entire cluster, while user feedback applies only to the queries that user makes. Unless specified by an administrator or Worksheet editor, feedback applies only to the user level.
 * the underlying Worksheet the query was generated from.
 * the user who gave the feedback.
 * the time stamp for when the query was generated.
