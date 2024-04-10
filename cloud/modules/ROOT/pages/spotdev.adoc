@@ -13,8 +13,9 @@ NOTE: ThoughtSpot for Slack is in Early Access and off by default. To enable thi
 
 == Set up ThoughtSpot for Slack
 
-To set up ThoughtSpot in Slack, follow these steps:
+To set up ThoughtSpot for Slack, follow these steps:
 
+////
 . Open *Slack* and click *More*. Select *Automations*.
 
 . Search for ThoughtSpot. Click *ThoughtSpot*.
@@ -24,10 +25,14 @@ image:spotdev.png[Find ThoughtSpot Dev in Slack]
 . Click *Configuration*.
 
 . In the website that appears, click *Open in Slack*.
-
-. Navigate to ThoughtSpot and open your user profile.
+////
+. Navigate to ThoughtSpot and open your user profile by clicking the user icon and selecting *Profile*.
++
+image:profile-button.png[Select Profile]
 
 . Click the *Connect to Slack* button. A permissions screen appears.
++
+image:slack-connect.png[Connect to Slack]
 +
 image:spotdev-permission.png[Permissions for ThoughtSpot]
 
