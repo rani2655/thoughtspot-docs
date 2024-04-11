@@ -142,7 +142,7 @@ We made the following enhancements to Sage Coach:
 === Collibra integration
 
 // Naomi -- SCAL-187745. documentation JIRA scal-201640. add an image of data side panel. possibly move lower.
-// PM: Sarib
+// PM: Sarib. new PM Shruthi.
 
 Collibra integration is now available to all users and on by default. You can now see verification status and descriptions on tables and columns imported from Collibra. This information appears when you click on the corresponding table or column in *Search data*. Once connected, this information is visible to all users.
 
@@ -274,7 +274,7 @@ endif::free-trial-feature[]
 [discrete]
 === ThoughtSpot Sync
 // Naomi – SCAL-180961. SCAL-130010. Documentation JIRA scal-201647. documentation JIRA scal-201649. shorten description and use images?
-// PM: Sarib
+// PM: Sarib. new PM Shruthi
 
 We made the following enhancements to ThoughtSpot Sync:
 
@@ -299,7 +299,7 @@ We made the following enhancements to ThoughtSpot Sync:
 === Collibra catalog integration
 
 // Naomi -- SCAL-187745. documentation JIRA scal-201640. no image needed.
-// PM: Sarib
+// PM: Sarib. new PM Shruthi.
 
 Collibra catalog integration is now available to all users and on by default. You can now import metadata information related to your tables and columns from Collibra into ThoughtSpot. From the Data tab, you can set up a connection to Collibra to import column descriptions, column verification status, table descriptions, and table verification status.
 
