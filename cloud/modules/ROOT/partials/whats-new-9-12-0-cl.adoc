@@ -124,17 +124,17 @@ endif::free-trial-feature[]
 [#9-12-0-cl-sage-coach]
 [discrete]
 === Sage Coach
-// Naomi – SCAL-179981. waiting on confirmation.
-// PM: Santiago. new pm ?
+// Naomi – SCAL-179981. documentation jira SCAL-202909 (approved).
+// PM: Santiago. new pm Alok
 
 We made the following enhancements to Sage Coach:
 
 * Added title and labels to the Sage Coach page.
 * Added an *Edited by* column to indicate the last person to edit specific feedback in both Fragments and Queries pages.
 * Added an *Access* column to the Fragments page to record whether the access level is user-level or global. We added a *Rating* column to the Fragments page to record whether the original answer was rated accurate or inaccurate.
-* Added a *Chart* preference column to the Fragment and Queries pages.
+* Added a *Chart* preference column to the Queries pages.
 * Sage Coach is now Org-aware.
-* Grouped fragment feedback by fragment rating and Worksheet ID. Removed duplicate fragments.
+//* Grouped fragment feedback by fragment rating and Worksheet ID. Removed duplicate fragments.
 
 
 [#9-12-0-cl-collibra]
