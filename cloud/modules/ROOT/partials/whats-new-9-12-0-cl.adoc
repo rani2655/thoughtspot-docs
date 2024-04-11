@@ -146,6 +146,8 @@ We made the following enhancements to Sage Coach:
 
 Collibra integration is now available to all users and on by default. You can now see verification status and descriptions on tables and columns imported from Collibra. This information appears when you click on the corresponding table or column in *Search data*. Once connected, this information is visible to all users.
 
+image:catalog-integration.png[Catalog integration]
+
 [#9-12-0-cl-email]
 [discrete]
 === Email digest
