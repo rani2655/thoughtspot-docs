@@ -1,0 +1,28 @@
+= Ask Sage [.badge.badge-early-access]#Early Access#
+:author: Naomi
+:last_updated: 11/16/23
+:description: You can now ask follow-up questions in Sage to refine your answers or take your analysis in a new direction.
+:page-layout: default-cloud
+:jira: SCAL-175485, SCAL-201656
+
+You can now conversationally search ThoughtSpot using natural language, asking follow-up questions for further clarification or to take your analysis in a new direction. This conversational approach allows you to begin with a simple question, and ask successive questions to refine the answer you receive.
+//ThoughtSpot translates each natural language question into a query, and answers in chart format.
+
+image::ask-sage-save.gif[Ask Sage]
+
+
+== Use Ask Sage
+
+To use Ask Sage, follow these steps:
+
+. Navigate to a Liveboard in ThoughtSpot.
+
+. Choose a visualization to drill down on, select *Ask Sage*, and type your question in natural language in the search bar that appears.
+
+. Your Answer appears.
++
+Type any follow-up question in the bar at the bottom of the window, and click *Enter* or click the arrow icon. For example, you can narrow your results by region, make comparisons between two periods of time, or filter by specific product.
+
+. From *Ask Sage*, you can save the provided Answer, make a copy, or pin to a Liveboard from the *more options* menu.
++
+image::ask-sage-save.png[Save your Ask Sage results]
