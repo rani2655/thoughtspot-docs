@@ -1,10 +1,11 @@
 = Deprecated and removed features
-:last_updated: 1/22/2024
+:last_updated: 4/11/2024
 :linkattrs:
 :experimental:
 :page-layout: default-cloud
 :page-aliases: /release/deprecation.adoc
 :description: In this article, we give you advance notice of features we are discontinuing in future releases.
+:jira: SCAL-198582
 
 ThoughtSpot sometimes deprecates and then removes existing features, replacing them with new and more effective ways to use our products.
 In this article, we provide a list of features we've chosen to deprecate or remove in each release.
@@ -23,6 +24,13 @@ A removed feature no longer exists in the product. When you upgrade to a newer r
 Use following notes above feature that is deprecated. Send a link back to this document for a fuller description.
 NOTE: This feature is now deprecated. You may not use it starting with release 7.1. For details, see xref:deprecation.adoc[Deprecation Announcements].
 ////
+
+== Deprecated in 10.1.0.cl
+
+The 10.1.0.cl release of ThoughtSpot Cloud, targeted for July 2024 (GA), will deprecate the following feature. ThoughtSpot will drop support for this feature in a later release.
+
+SpotApps::
+Beginning in the 10.1.0.cl release, you will still be able to use the Classic experience for Liveboards, Answers, and SpotIQ, but ThoughtSpot will remove them in a subsequent release.
 
 == Removed in 9.12.0.cl
 
