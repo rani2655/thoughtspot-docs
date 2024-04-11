@@ -10,6 +10,8 @@
 
 Sage Coach allows analysts to fine-tune the results of natural language search by examining and validating the feedback users give. Analysts can hand-select examples and pieces of feedback, personalize Sage output for specific users and groups of users, or for the cluster as a whole.
 
+NOTE: When you make a change to a Worksheet, ThoughtSpot now alerts you if this will affect any related query feedback. If you accept this and make the change, the feedback depending on that Worksheet is deleted.
+
 == Review user feedback
 
 You can review user feedback from the Data workspace, and determine whether it should apply to only that user’s queries, or to the entire cluster. Use the query feedback modal to review feedback given to individual natural language queries, and use the query term feedback modal to review the translation of individual natural language terms to search tokens.
