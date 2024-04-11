@@ -87,7 +87,7 @@ Conditional formatting is tied to the specific visualization.
 
 include::partial$conditional-formatting-chart.adoc[]
 
-////
+
 [#advanced-conditional-formatting]
 === Advanced conditional formatting [.badge.badge-early-access]#Early Access#
 
@@ -118,7 +118,7 @@ The system applies the rule to the column.
 . You can edit an existing rule from the *Edit* panel for the column by selecting the rule.
 . You can delete a conditional formatting rule from the *Edit* panel for the column.
 Select the rule from the *Edit* panel and click *Remove*.
-////
+
 '''
 > **Related information**
 >
