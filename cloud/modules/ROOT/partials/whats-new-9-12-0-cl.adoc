@@ -60,7 +60,7 @@ endif::[]
 // Naomi – SCAL-188039. documentation jira SCAL-201656. rename to ? move up to beginning.
 // PM: Alok
 
-You can now conversationally search ThoughtSpot using natural language, asking follow-up questions for further clarification or to take your analysis in a new direction. This conversational approach allows you to begin with a simple question, and ask successive questions to refine the answer you receive. ThoughtSpot translates each natural language question into a query, and answers in chart format.
+You can now conversationally search ThoughtSpot using natural language on a Liveboard visualization, asking follow-up questions for further clarification or to take your analysis in a new direction. This conversational approach allows you to begin with a simple question, and ask successive questions to refine the answer you receive. ThoughtSpot translates each natural language question into a query, and answers in chart format. To enable this feature, contact your administrator.
 
 image::ask-sage-save.gif[Ask Sage]
 
