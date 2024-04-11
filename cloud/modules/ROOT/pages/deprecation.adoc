@@ -29,8 +29,8 @@ NOTE: This feature is now deprecated. You may not use it starting with release 7
 
 The 10.1.0.cl release of ThoughtSpot Cloud, targeted for July 2024 (GA), will deprecate the following feature. ThoughtSpot will drop support for this feature in a later release.
 
-SpotApps::
-Beginning in the 10.1.0.cl release, you will still be able to use the Classic experience for Liveboards, Answers, and SpotIQ, but ThoughtSpot will remove them in a subsequent release.
+Classic experience for Liveboards, Answers, and SpotIQ::
+Beginning in the 10.1.0.cl release, you will still be able to use the Classic experience for Liveboards, Answers, and SpotIQ, but ThoughtSpot will remove them in a subsequent release          .
 
 == Removed in 9.12.0.cl
 
