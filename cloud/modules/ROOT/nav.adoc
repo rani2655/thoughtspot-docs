@@ -30,6 +30,7 @@
 *** xref:answer-experience-new.adoc[New answer experience]
 *** xref:liveboard-experience-new.adoc[New Liveboard experience]
 *** xref:liveboards.adoc[Using Liveboards and Answers]
+*** xref:ask-sage.adoc[Ask Sage]
 *** xref:liveboard-comment.adoc[Collaborative Liveboards]
 *** xref:parameters-use.adoc[Using Parameters]
 *** xref:search-assist.adoc[Search Assist]
