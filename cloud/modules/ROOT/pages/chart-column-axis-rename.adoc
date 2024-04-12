@@ -35,8 +35,9 @@ You can rename a column in a chart in a similar way.
 To rename a column, follow these steps.
 
 . While viewing your Answer as a chart, click the chart configuration icon image:icon-gear-10px.png[chart configuration icon] and click the name of the column you want to rename.
-. Enter the new name in the text box below the column name.
-
+. Enter the new name in the *Column Name* text box.
++
+image:column-rename.png[Rename a column]
 . Click *Enter*.
 
 
