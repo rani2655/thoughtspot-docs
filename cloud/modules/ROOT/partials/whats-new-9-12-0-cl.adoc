@@ -86,7 +86,7 @@ ifdef::pendo-links[]
 === Advanced conditional formatting [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 
-// Naomi -- scal-177005. documentation JIRA scal-201639. is it visualization as well as table? moved to 9.12.0.cl. change "compare" to "visually highlight the differences/ threshold..." in the first sentence.
+// Naomi -- scal-177005. documentation JIRA scal- (approved). is it visualization as well as table? moved to 9.12.0.cl. change "compare" to "visually highlight the differences/ threshold..." in the first sentence.
 
 // PM: Manan
 
