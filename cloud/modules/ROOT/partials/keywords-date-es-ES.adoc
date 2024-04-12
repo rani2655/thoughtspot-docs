@@ -46,31 +46,31 @@ include::partial$keywords/hourly.adoc[]
 Español;; cada hora
 
 include::partial$keywords/last_day_by.adoc[]
-Español;; último día hasta
+Español;; pasado día hasta
 
 include::partial$keywords/last_month_by.adoc[]
-Español;; último mes hasta
+Español;; pasado mes hasta
 
 include::partial$keywords/last_n_days.adoc[]
-Español;; últimos _n_ días
+Español;; pasados _n_ días
 
 include::partial$keywords/last_n_quarters.adoc[]
-Español;; últimos _n_ trimestres
+Español;; pasados _n_ trimestres
 
 include::partial$keywords/last_n_weeks.adoc[]
-Español;; últimas _n_ semanas
+Español;; pasadas _n_ semanas
 
 include::partial$keywords/last_n_years.adoc[]
-Español;; últimos _n_ años
+Español;; pasados _n_ años
 
 include::partial$keywords/last_quarter.adoc[]
-Español;; último trimestre
+Español;; pasado trimestre
 
 include::partial$keywords/last_week.adoc[]
-Español;; última semana
+Español;; pasada semana
 
 include::partial$keywords/last_year.adoc[]
-Español;; último año
+Español;; pasado año
 
 include::partial$keywords/month.adoc[]
 Español;; mes
