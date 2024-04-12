@@ -18,9 +18,9 @@ You can also use these keywords to suit other business use cases, by making the 
 
 == “Of” keyword example
 
-You may want an answer to the question: “What is the revenue of each customer nation?” In this case, you would search for: `Revenue by Customer Nation`, which displays the total revenue at nation level. In order to see the revenue of each customer nation, you add the following filter to your search: `Revenue of Customer Nation`.
+You may want an answer to the question: “What is the revenue of each customer's state?” In this case, you would search for: `Revenue by Customer State`, which displays the total revenue at state level. In order to see the revenue of each customer's country, you add the following filter to your search: `Revenue of Customer Country`.
 
-The “of” keyword creates a group_aggregate formula in order to answer this question. In this case, the formula used would be: `group_aggregate (sum (Revenue), (Customer Nation), query_filters())`. As a result, your Answer will display the sum of revenue at the customer level of detail, and it will include any additional filters you add in the search bar.
+The “of” keyword creates a group_aggregate formula in order to answer this question. In this case, the formula used would be: `group_aggregate (sum (revenue), (customer country), query_filters())`. As a result, your Answer will display the sum of revenue at the customer's country level of detail, and it will include any additional filters you add in the search bar.
 
 == “Percentage of” keyword example
 
@@ -34,7 +34,7 @@ To see the results as a percentage, follow these steps:
 If you search for `Revenue percentage of all`, your search displays the percentage contribution of each customer region to the total revenue. In this case, the keyword creates the following formula: `sum (Revenue) / group_aggregate (sum (Revenue), {}, query_filters())`.
 
 
-== “Average __ of” example
+== “Average _ of” example
 
 Say you want to understand the average revenue of each customer nation and region. In this case, you would search for: `average Revenue` `Customer Nation` `average Revenue of Customer Region`. This query generates the following formula: `group_aggregate (average (Revenue), (Customer Region), query_filters())`.
 
