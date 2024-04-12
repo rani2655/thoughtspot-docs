@@ -137,12 +137,12 @@ endif::free-trial-feature[]
 
 We made the following enhancements to Sage Coach:
 
-* Added title and labels to the Sage Coach page.
+* Sage Coach shows the feedback from the selected Org-ID only.
+* Renamed the labels for Sage Coach under the *Data* tab as *Sage Feedback - Queries* and *Sage Feedback - Fragments*.
 * Added an *Edited by* column to indicate the last person to edit specific feedback in both Fragments and Queries pages.
-* Added an *Access* column to the Fragments page to record whether the access level is user-level or global. We added a *Rating* column to the Fragments page to record whether the original answer was rated accurate or inaccurate.
-* Added a *Chart* preference column to the Queries pages.
-* Sage Coach is now Org-aware.
-//* Grouped fragment feedback by fragment rating and Worksheet ID. Removed duplicate fragments.
+* Added a *Rating* column to the Fragments page to record whether the original Answer was rated accurate or inaccurate.
+* Added a *Chart* preference column to the Queries page.
+* Added an *Access* column to the *Sage Feedback - Fragments* page to record whether the access level is user-level or global to make it consistent with *Sage Feedback - Queries* page.
 
 
 [#9-12-0-cl-collibra]
@@ -385,6 +385,7 @@ You can now manage onboarding configuration at the Org level. Now an Org adminis
 
 You can now use the User Adoption Liveboard to understand how ThoughtSpot is saving you time with ad-hoc insights, and how many users are accessing ThoughtSpot and creating new insights every month.
 
+////
 [#9-12-0-cl-nls]
 [discrete]
 === Sage Adoption Liveboard
@@ -392,6 +393,7 @@ You can now use the User Adoption Liveboard to understand how ThoughtSpot is sav
 // PM: Santiago, Kevin Shi, new PM Alok.
 
 You can now use the Sage Adoption Liveboard, previously named the How users are searching Answers Liveboard, to monitor how users are searching on both Search Data and Natural Language Search.
+////
 
 ////
 [#9-12-0-cl-connection-tml]
