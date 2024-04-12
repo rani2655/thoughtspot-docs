@@ -4,8 +4,8 @@
 :experimental:
 :page-layout: default-cloud
 :page-aliases: /end-user/search/about-tables.adoc
-:description: Tables display your Answer in a format similar to an Excel spreadsheet.
-:jira: SCAL-177005
+:description: Tables display your Answer in a format similar to an Excel spreadsheet. You can create a hidden column to sort by a column without affecting the search.
+:jira: SCAL-177005, SCAL-201612
 
 In the table view, your search identifies attributes and/or columns, and presents them as a table.
 ThoughtSpot aggregates the results based on the level of aggregation that you specify in the search.
