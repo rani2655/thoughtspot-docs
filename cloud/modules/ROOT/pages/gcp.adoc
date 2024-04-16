@@ -20,4 +20,3 @@ Certain features supported for ThoughtSpot on AWS are not available for ThoughtS
 * xref:mobile-push-notifications.adoc[Mobile push notifications]
 * xref:business-continuity.adoc#high-availability[Multi-node (High Availability)]
 * xref:spotiq-change.adoc#natural[Natural language narratives for SpotIQ]
-* xref:spotapps.adoc[SpotApps]

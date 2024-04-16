@@ -1,11 +1,11 @@
 = Create Models
-:last_updated: 3/28/2024
+:last_updated: 4/16/2024
 :linkattrs:
 :experimental:
 :page-layout: default-cloud-early-access
 :description: Models are logical views created on top of a more complex data model, to enable business users to more easily consume data.
 :model: Model
-:jira: SCAL-158357, SCAL-194041 (9.12.5 -drag to create joins), SCAL-194038 (9.12.5 - bulk edit column properties).
+:jira: SCAL-158357, SCAL-194041 (9.12.5 -drag to create joins), SCAL-194038 (9.12.5 - bulk edit column properties). SCAL-189664 (remove spotapps - removed from image in step 3 of creating a model.
 
 == Introducing Models
 
