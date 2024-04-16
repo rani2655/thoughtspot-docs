@@ -64,16 +64,16 @@ image::model_choose.png[]
 
 
 . Choose how you want to model your data, using one of the following options:
-.. To create your own model, select *Build your own with cloud data*.
+.. To create your own model, select *Build your own with cloud data* and click *Next*.
 ... To create a new connection, refer to xref:connections.adoc[About connections]
 ... To use an existing connection, select it from the list, and select *Connect*.
-.. To build a model from tables originally created from dbt models, select *dbt*
+.. To build a model from tables originally created from dbt models, select *dbt*  and click *Next*.
 ... To create a new dbt connection, select *Add dbt connection* and refer to step 5 of xref:dbt-integration#integrate[Integrating with dbt].
 ... To use an existing connection, select it from the list, and select *Connect*.
-.. To import the TML for a model, select *TML*, and upload your tml files. For more information, refer to xref:tml-worksheets[TML for Worksheets].
+.. To import the TML for a model, select *TML* and click *Next*.
+... Upload your tml files. For more information, refer to xref:tml-worksheets[TML for Worksheets].
 +
 NOTE: The information at this link also applies to {model}s.
-.. To use an existing SpotApp as a model, select *SpotApps*, and select a SpotApp.
 
 . <<build-model,Build your data model>>.
 
