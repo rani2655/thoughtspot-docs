@@ -2,7 +2,6 @@
 :last_updated: 3/26/24
 :author: Mary
 :linkattrs:
-
 :page-layout: default-cloud-early-access
 :experimental:
 :jira: SCAL-150356
