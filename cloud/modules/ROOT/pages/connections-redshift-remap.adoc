@@ -6,6 +6,7 @@
 :experimental:
 :connection: Redshift
 :description: Learn how to remap a Redshift connection.
+:jira: SCAL-197304
 
 Modify the connection parameters by editing the source mapping `yaml` file that was created when you added the connection.
 For example, you can remap the existing table or column to a different table or column in an existing database connection.
@@ -35,6 +36,10 @@ For more information, see:
 
 * xref:connections-redshift-delete-table.adoc[Delete a table]
 * xref:connections-redshift-delete-table-dependencies.adoc[Delete a table with dependent objects]
+
+== Limitations
+
+ThoughtSpot does not support connection remapping for Connections authenticated via OAuth.
 
 '''
 > **Related information**

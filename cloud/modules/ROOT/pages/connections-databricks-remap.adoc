@@ -6,6 +6,7 @@
 :experimental:
 :connection: Databricks
 :description: Learn how to remap a Databricks connection.
+:jira: SCAL-197304
 
 Modify the connection parameters by editing the source mapping `yaml` file that was created when you added the connection.
 For example, you can remap the existing table or column to a different table or column in an existing database connection.
@@ -32,6 +33,10 @@ To remove a table from a connection, delete it from the connection details page.
 For more information, see: xref:connections-databricks-delete.adoc[Delete a {connection} connection].
 
 See the xref:connections-databricks-reference.adoc[Connection reference] for details of connection parameters.
+
+== Limitations
+
+ThoughtSpot does not support connection remapping for Connections authenticated via OAuth.
 
 '''
 > **Related information**
