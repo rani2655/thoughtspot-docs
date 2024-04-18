@@ -5,6 +5,7 @@
 :experimental:
 :connection: Redshift
 :description: Learn the specific information needed to establish a secure connection to Amazon Redshift.
+:jira: SCAL-203353
 
 You need specific information to establish a seamless and secure connection.
 The following fields are required, except where noted.
@@ -23,7 +24,7 @@ Database:: Specify the database associated with the account.
 (IAM only) Secret Key:: Specify the secret key associated with the account.
 (OAuth only) OAuth Client ID:: Enter the OAuth client ID associated with the {connection} database.
 (OAuth only) OAuth Client Secret::  Enter the OAuth client secret associated with the {connection} database.
-(OAuth only) Scope:: (External OAuth) Scope maps to a role in your Snowflake database.
+(OAuth only) Scope:: Scope maps to a role in your Snowflake database.
 +
 For OAuth with Azure AD provider, it should be similar to `\https://<APPLICATION_ID_URI>/session:role:developer offline_access openid`.
 For more information, see: xref:connections-redshift-azure-ad-oauth.adoc#step-8[part 1, step 8] in Configure Azure AD external OAuth for a {connection} connection.
