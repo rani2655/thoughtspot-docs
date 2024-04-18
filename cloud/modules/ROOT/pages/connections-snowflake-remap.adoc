@@ -6,6 +6,7 @@
 :experimental:
 :connection: Snowflake
 :description: Learn how to remap a Snowflake connection.
+:jira: SCAL-197304
 
 Modify the connection parameters by editing the source mapping `yaml` file that was created when you added the connection.
 For example, you can remap the existing table or column to a different table or column in an existing database connection.
@@ -35,6 +36,10 @@ For more information, see: xref:connections-snowflake-delete.adoc[Delete a {conn
 See the xref:connections-snowflake-reference.adoc[Connection reference] for details of connection parameters.
 
 We also recommend that you review xref:connections-snowflake-best.adoc[Best practices for {connection} connections].
+
+== Limitations
+
+ThoughtSpot does not support connection remapping for Connections authenticated via OAuth.
 
 '''
 > **Related information**
