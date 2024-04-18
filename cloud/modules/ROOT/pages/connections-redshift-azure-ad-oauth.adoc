@@ -7,7 +7,7 @@
 :page-aliases: /admin/ts-cloud/ts-cloud-embrace-redshift-azure-ad-oauth.adoc
 :connection: Redshift
 :description: ThoughtSpot supports Microsoft Azure Active Directory (AD) OAuth for a Redshift connection.
-:jira: SCAL-160062
+:jira: SCAL-160062, SCAL-203353
 
 ThoughtSpot supports Microsoft Azure Active Directory (AD) OAuth for a {connection} connection.
 With Azure AD OAuth, the authorization server generates an access token from Azure AD on behalf of the ThoughtSpot user which authenticates them with {connection} and authorizes ThoughtSpot to query the database using their {connection} user account.
@@ -52,10 +52,11 @@ Example: `Redshift OAuth User Resource`
 . After the application is created, select *Expose an API* from the left navigation pane. If this is your first setup, *Set* appears to the right of the *Application ID URI*.
 +
 image:redshift-expose-api.png[Expose an API]
-
++
+[#step-8]
 . Next to *Application ID URI*, select *Set* and change its value from `api://<alphanumeric value>` to `\https://<alphanumeric value>` and select *Save*.
 +
-image:redshift-app-uri-oauth-client2.png[Change the Application ID URI value from api:// to https://]
+image:redshift-app-uri-oauth-client2.png[Change the Application ID URI value from api: to https:]
 +
 NOTE: The Application ID URI must be unique within your organization's directory, such as `\https://your.company.com/4d2a8c2b-a5f4-4b86-93ca-ack45667`.
 
