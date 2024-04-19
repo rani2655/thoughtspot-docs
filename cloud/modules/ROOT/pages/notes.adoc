@@ -56,11 +56,11 @@ ThoughtSpot Sync from unsaved Answers:: You can now create syncs from Answers wi
 //Customized Tooltips:: You can now customize the tooltips that are displayed on charts to provide users with information that leads to better insights.
 
 
-
+////
 // Mary -- SCAL-158469.
 Functional enhancements for verified Liveboards::
 Easily find verified Liveboards with trusted content and sort Liveboards to view verified content. Request verification of Liveboards and cancel requests when needed.
-
+////
 
 
 [#9-10-0-cl-business-user]
