@@ -249,7 +249,8 @@ Personalized views are now available to all users and on by default. Personalize
 // SCAL-169279
 Atlan:: Atlan is now available to all customers and is on by default. You can now see verification status and descriptions on tables and columns imported from Atlan. This information appears when you click on the corresponding table or column in *Search data*. Once connected, this information is visible to all users. For more information, see xref:catalog-integration-atlan.adoc[Atlan catalog integration].
 
-
+// SCAL-204112
+Webhooks for KPI monitor alerts:: Webhooks for Monitor are now available to all users and on by default. You can create webhooks to initiate workflows in third-party applications based on KPI changes, or send KPI alert notifications to custom channels. For example, if you are monitoring a "current inventory" KPI for an inventory management use case, you can build a workflow to trigger an order placement in a third-party app when your current inventory drops below a particular threshold value. For more information, see xref:monitor-webhooks.adoc[].
 
 
 // scal-162075
