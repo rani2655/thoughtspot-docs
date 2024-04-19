@@ -1,111 +1,100 @@
 The latest release of ThoughtSpot Cloud contains several new and enhanced features.
 
-* <<9-11-0-cl-first,For the First User>>
-* <<9-11-0-cl-analyst,For the Analyst>>
-* <<9-11-0-cl-business-user,For the Business User>>
-* <<9-11-0-cl-data-engineer,For the Data Engineer>>
-* <<9-11-0-cl-developer,For the Developer>>
+* <<9-12-0-cl-first,For the First User>>
+* <<9-12-0-cl-analyst,For the Analyst>>
+* <<9-12-0-cl-business-user,For the Business User>>
+* <<9-12-0-cl-data-engineer,For the Data Engineer>>
+* <<9-12-0-cl-developer,For the Developer>>
 
-[#9-11-0-cl-first]
+[#9-12-0-cl-first]
 === For the First User
 
 Getting started with ThoughtSpot Cloud::
 The first user on the account has to complete a series of steps before other people can start using ThoughtSpot with your organization's data.
 For these instructions, see xref:ts-cloud-getting-started.adoc[Getting Started with ThoughtSpot Cloud].
 
-[#9-11-0-cl-analyst]
+[#9-12-0-cl-analyst]
 === For the Analyst
 
-////
-// Naomi -- scal-177005
-Advanced conditional formatting [.badge.badge-early-access-relnotes]#Early Access#::
-Rather than simply using conditional formatting comparing a column's measures to a single value (for example, `sales > 10000`), you can now use conditional formatting to compare a column's measures to another column or to a parameter. For example, if you search for `sales this year` versus `sales last year`, you can highlight where sales this year were less than last year. You can set multiple conditional formatting rules to a single table.
-For more information, see xref:search-conditional-formatting.adoc#advanced-conditional-formatting[Advanced conditional formatting].
-////
+// Naomi – SCAL-181312. documentation JIRA scal-201645.
+Remember personalized columns in change analysis::
+Personalized columns are now available to all users and on by default. Users with edit permissions on a Liveboard can set their preferred attribute columns through the change analysis window and select *Apply to all users* to keep those selections for any subsequent change analysis calculations on that Liveboard. Individual users can still override these preferences for their own calculations.
 
-// Naomi -- scal-174127
-ThoughtSpot Sync for Google BigQuery::
-ThoughtSpot Sync for Google BigQuery is now on by default and available to all users. Using ThoughtSpot Sync, you can now sync data directly from an Answer or a custom SQL view, to your Google BigQuery cloud data warehouse.
-For more information, see xref:sync-gbq.adoc[Sync to Google BigQuery].
+// Naomi – SCAL-176265. documentation JIRA scal-201646.
+Drill down in change analysis [.badge.badge-early-access-relnotes]#Early Access#:: You can now drill down on specific columns in change analysis, in order to identify change drivers within your data. For example, if you run an analysis on sales monthly and find out that the 'jacket' item type changed the most, you can easily drill down on jacket sales and identify which region contributed the most to the change in sales. To enable this feature, contact your administrator.
 
-// Mark -- SCAL-202002, doc jira: SCAL-179003
-Custom charts [.badge.badge-beta-relnotes]#Beta#::
-You can now use custom charts created outside of ThoughtSpot, including third-party chart libraries. To enable this feature, contact {support-url}. For more information, see xref:chart-byoc.adoc[Custom charts].
+// Naomi – SCAL-180961. SCAL-130010. Documentation JIRA scal-201647. documentation JIRA scal-201649.
+ThoughtSpot Sync::
+We made the following enhancements to ThoughtSpot Sync:
 
+* Using ThoughtSpot Sync, you can now sync data directly from an Answer or a custom SQL view, to Excel.
+* You can now click the preview link when you create a Sync from the Data Workspace to see a preview of the resulting Answer, Liveboard, or Custom SQL view. Answer, Liveboard, and Custom SQL view previews appear in a new tab.
+* When running a Sync, you can see the following information depending on the destination:
 
-// Mary -- SCAL-150356
-Custom sets [.badge.badge-early-access-whats-new]#Early Access#::
-You can create custom sets, which can be used to classify values in a list that you can then reuse across multiple analyses. ThoughtSpot introduces custom column sets in this release. A column set is a custom group of values from a single column. For example, you can use custom sets to define regions with specific countries included or excluded. Custom sets are community objects which remain when you navigate away from the Search Data page and can be used by any user with view access to the underlying Worksheet. To enable this feature, contact {support-url}. For more information, see xref:custom-sets.adoc[Custom sets].
+** Slack: channel name
+** Microsoft Teams: team and channel
+** Sheets: file name and spreadsheet name
+** All others: object name and operation name
 
-[#9-11-0-cl-business-user]
+[#9-12-0-cl-business-user]
 === For the Business User
-// Mark -- SCAL-162712, doc jira: SCAL-178264
-AI Highlights [.badge.badge-early-access-relnotes]#Early Access#::
 
-With AI Highlights, you get quick insights on how top metrics have changed in your Liveboard, dramatically reducing the time to derive insights from your KPIs. To enable this feature, contact your administrator.
-For more information, see xref:liveboard-ai-highlights.adoc[AI Highlights].
-
-Keywords "of", "percentage of":: To enable business users to answer questions related to mix, contribution, share of, percentage, and total ratios, we added the keywords “of” and “percentage of”. These keywords help answer questions such as “What is the share of a certain store’s sales as a percentage of the regional whole?” To try out this feature, enter a search phrase in the search bar containing the keyword, such as `sales percentage of store region`, and press *Go*. +
-For more information, see
-xref:formulas-keywords.adoc[Keywords: Of and Percentage of].
-
-// Naomi -- SCAL-174136, SCAL-201297
-Collibra integration [.badge.badge-beta-relnotes]#Beta#::
-You can now see verification status and descriptions on tables and columns imported from Collibra. This information appears when you click on the corresponding table or column in *Search data*. Once connected, this information is visible to all users. To enable this feature, contact {support-url}.
+// Naomi – SCAL-188039. documentation jira SCAL-201656.
+Ask Sage [.badge.badge-early-access-relnotes]#Early Access#::
+You can now conversationally search ThoughtSpot using natural language on a Liveboard visualization, asking follow-up questions for further clarification or to take your analysis in a new direction. This conversational approach allows you to begin with a simple question, and ask successive questions to refine the answer you receive. ThoughtSpot translates each natural language question into a query, and answers in chart format. To enable this feature, contact your administrator.
 +
-For more information, see xref:catalog-integration-collibra.adoc[Collibra integration].
+For more information, see xref:ask-sage.adoc[Ask Sage].
 
 
-[#9-11-0-cl-data-engineer]
+// Naomi -- scal-177005. documentation JIRA scal-201639 (approved).
+Advanced conditional formatting [.badge.badge-early-access-relnotes]#Early Access#::
+In addition to using conditional formatting to visually highlight a threshold in a measure (for example, `sales > 10000`), you can now use conditional formatting to compare a column's measures to another column or to a parameter. For example, if you search for `sales this year` compared to `sales last year`, you can highlight where sales this year were less than last year. You can set multiple conditional formatting rules to a single table. To enable this feature, contact your administrator.
++
+For more information, see xref:search-conditional-formatting.adoc#advanced-conditional-formatting[Advanced conditional formatting].
+
+// Naomi -- SCAL-153878. documentation jira SCAL-201644.
+Forecasting [.badge.badge-beta-relnotes]#Beta#::
+You can now use SpotIQ analysis to forecast future trends for your KPIs. ThoughtSpot uses machine learning models that learn from past trends, growth, and seasonality to project how the target metric will trend in the future. To enable this feature, contact {support-url}.
++
+For more information, see xref:forecasting.adoc[Forecasting].
+
+// Naomi – SCAL-179981. documentation jira SCAL-202909 (approved).
+Sage Coach::
+We made the following enhancements to Sage Coach:
+
+* Sage Coach shows the feedback from the selected Org-ID only.
+* Renamed the labels for Sage Coach under the *Data* tab as *Sage Feedback - Queries* and *Sage Feedback - Fragments*.
+* Added an *Edited by* column to indicate the last person to edit specific feedback in both Fragments and Queries pages.
+* Added a *Rating* column to the Fragments page to record whether the original Answer was rated accurate or inaccurate.
+* Added a *Chart* preference column to the Queries page.
+* Added an *Access* column to the *Sage Feedback - Fragments* page to record whether the access level is user-level or global to make it consistent with *Sage Feedback - Queries* page.
+
+// Naomi -- SCAL-187745. documentation JIRA scal-201640
+Collibra integration::
+Collibra integration is now available to all users and on by default. You can now see verification status and descriptions on tables and columns imported from Collibra. This information appears when you click on the corresponding table or column in *Search data*. Once connected, this information is visible to all users. For more information, see xref:catalog-integration-collibra.adoc[Collibra catalog integration].
+
+[#9-12-0-cl-data-engineer]
 === For the Data Engineer
 
-// Naomi -- SCAL-176923, SCAL-201296
-Mode connector [.badge.badge-early-access-relnotes]#Early Access#:: ThoughtSpot now supports connections to Mode. Import reusable Datasets created in Mode as table extracts to leverage the full ThoughtSpot product, from Worksheet/Model creation to Search, Answer creation, and KPI monitoring. For more information, see
-xref:connections-mode.adoc[Connect to Mode].
+// Naomi -- SCAL-187745. documentation JIRA scal-201640.
+Collibra catalog integration::
+Collibra catalog integration is now available to all users and on by default. You can now import metadata information related to your tables and columns from Collibra into ThoughtSpot. From the Data tab, you can set up a connection to Collibra to import column descriptions, column verification status, table descriptions, and table verification status. For more information, see xref:catalog-integration-collibra.adoc[].
 
-Click and drag to create joins with Models [.badge.badge-early-access-relnotes]#Early Access#::
+// Naomi – SCAL-191462, documentation jira scal-196178
+Snowflake secondary role configuration for External OAuth::
+ThoughtSpot now supports secondary role configuration when you create a Snowflake connection using External OAuth. When you set secondary roles to `ALL`, you can access all tables that any single role has access to and combine them in a single SQL query without having to switch roles.
++
+For more information on primary and secondary roles, see link:https://docs.snowflake.com/en/user-guide/security-access-control-overview#enforcement-model-with-primary-role-and-secondary-roles[Enforcement model with primary role and secondary roles].
 
-You can now create joins in your Model by clicking and dragging from one table to another. To enable the Models feature, contact your administrator. For more information, see xref:models.adoc[Create models].
+// Naomi – SCAL-179763. documentation JIRA scal-201642.
+User Adoption Liveboard::
+You can now use the User Adoption Liveboard to understand how ThoughtSpot is saving you time with ad-hoc insights, and how many users are accessing ThoughtSpot and creating new insights every month.
 
-// Mark -- SCAL-194041
+// Naomi – SCAL-148626. documentation jira SCAL-202207 (approved). SCAL-132544. documentation jira SCAL-202209 (approved)
+Connection TML::
+You can now use the table TML file to make changes to connection details like remapping columns and changing data type, rather than using the connection.yaml file. This allows you to make small changes to a Connection without the need to resolve all possible errors first. You can also edit or export the Connection TML file from the Data Workspace.
 
-// Naomi -- SCAL-154204, SCAL-201299
-Feedback review::
-We made the following changes to ThoughtSpot feedback review for AI Answers:
-
-* Feedback for AI Answers is now Org-aware.
-* When you make a change to a Worksheet, ThoughtSpot now alerts you if this will affect any related query feedback. If you accept this and make the change, the feedback depending on that Worksheet is deleted.
-//* You can now import query feedback when you move information from a development cluster to a production cluster.
-
-// Naomi -- SCAL-126451
-Sharing dbt connections::
-You can now select a dbt connection and click *Share* to share the connection with other users or groups. You can select whether to allow edit access to the dbt user from the *Share connection* dialog box. For more information, see
-xref:dbt-integration.adoc#share[Share a dbt connection].
-
-// Naomi -- SCAL-180960
-dbt error message handling::
-ThoughtSpot displays dbt error messages that clearly describe whether the error originated in dbt or in ThoughtSpot, where the error was encountered, and what steps users should take to resolve the issue. For a list of the error messages ThoughtSpot supports, see
-xref:dbt-integration.adoc#errors[dbt error messages].
-
-// Naomi -- SCAL-126453, SCAL-201305
-dbt connections join enhancement::
-When creating a Worksheet from a dbt connection, ThoughtSpot joins the tables based on the relationships defined in the underlying .yml schema file. Now, joins between the tables will be created local to the Worksheet instead of creating a global join between the tables.
-
-// Naomi -- SCAL-164290, SCAL-201306
-Ts_Groups system variable::
-ThoughtSpot now supports the `ts_groups` system variable in Answer and Worksheet formulas. You can use the `ts_groups` variable for data masking, or deciding whether to display the value of a column to a user based on their group membership.
-
-// Naomi -- SCAL-178532, SCAL-201307
-Enhancements to error messages for Search and Answers::
-To improve our error messaging when an error prevents data from loading, we introduced a broader classification that allows you to understand issues more clearly. You can click "Copy error details" to download and send a file to your administrators.
-
-// Doc jira: SCAL-202377
-Answer data panel enhancements::
-Now in the new Answer data panel, you can filter as you hover on a column, _By category_ grouping by default, and display the information panel when you click a column.
-
-image::answer-panel-new.gif[Information panel appears when you click on a column, filter appears when you hover over a column]
-
-[#9-11-0-cl-developer]
+[#9-12-0-cl-developer]
 === For the Developer
 
 // mark -- SCAL-194041

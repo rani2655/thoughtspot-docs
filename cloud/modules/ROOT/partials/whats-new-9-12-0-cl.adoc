@@ -86,7 +86,7 @@ ifdef::pendo-links[]
 === Advanced conditional formatting [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 
-// Naomi -- scal-177005. documentation JIRA scal- (approved). is it visualization as well as table? moved to 9.12.0.cl. change "compare" to "visually highlight the differences/ threshold..." in the first sentence.
+// Naomi -- scal-177005. documentation JIRA scal-201639 (approved). is it visualization as well as table? moved to 9.12.0.cl. change "compare" to "visually highlight the differences/ threshold..." in the first sentence.
 
 // PM: Manan
 
@@ -119,7 +119,15 @@ endif::[]
 // Naomi -- SCAL-153878. documentation jira SCAL-201644. moved to 9.12. speed up loading and space out labels in new gif. zoom in on menu, zoom out, zoom in on settings.
 // PM: Vikas
 
-You can now use SpotIQ analysis to forecast future trends for your KPIs. ThoughtSpot uses machine learning models that learn from past trends, growth, and seasonality to project how the target metric will trend in the future.
+You can now use SpotIQ analysis to forecast future trends for your KPIs. ThoughtSpot uses machine learning models that learn from past trends, growth, and seasonality to project how the target metric will trend in the future. To enable this feature, contact {support-url}.
+
+For more information, see
+ifndef::pendo-links[]
+xref:forecasting.adoc[Forecasting].
+endif::[]
+ifdef::pendo-links[]
+xref:forecasting.adoc[Forecasting,window=_blank].
+endif::[]
 
 image::forecasting-zoom.gif[Forecasting]
 
@@ -152,7 +160,14 @@ We made the following enhancements to Sage Coach:
 // Naomi -- SCAL-187745. documentation JIRA scal-201640. add an image of data side panel. possibly move lower.
 // PM: Sarib. new PM Shruthi.
 
-Collibra integration is now available to all users and on by default. You can now see verification status and descriptions on tables and columns imported from Collibra. This information appears when you click on the corresponding table or column in *Search data*. Once connected, this information is visible to all users.
+Collibra integration is now available to all users and on by default. You can now see verification status and descriptions on tables and columns imported from Collibra. This information appears when you click on the corresponding table or column in *Search data*. Once connected, this information is visible to all users. For more information, see
+ifndef::pendo-links[]
+xref:catalog-integration-collibra.adoc[Collibra catalog integration].
+endif::[]
+ifdef::pendo-links[]
+xref:catalog-integration-collibra.adoc[Collibra catalog integration,window=_blank].
+endif::[]
+
 
 image:catalog-integration.png[Catalog integration]
 
@@ -322,6 +337,13 @@ We made the following enhancements to ThoughtSpot Sync:
 
 Collibra catalog integration is now available to all users and on by default. You can now import metadata information related to your tables and columns from Collibra into ThoughtSpot. From the Data tab, you can set up a connection to Collibra to import column descriptions, column verification status, table descriptions, and table verification status.
 
+For more information, see
+ifndef::pendo-links[]
+xref:catalog-integration-collibra.adoc[Collibra catalog integration].
+endif::[]
+ifdef::pendo-links[]
+xref:catalog-integration-collibra.adoc[Collibra catalog integration,window=_blank].
+endif::[]
 
 [#9-12-0-cl-secondary]
 [discrete]
