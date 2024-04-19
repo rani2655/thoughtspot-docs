@@ -6,7 +6,7 @@
 :page-aliases: /admin/ts-cloud/ts-cloud-embrace-databricks-edit-connection.adoc
 :connection: Databricks
 :description: You can edit a Databricks connection to add tables and columns.
-:jira: SCAL-118895, SCAL-201045
+:jira: SCAL-118895, SCAL-201045, SCAL-203358
 
 You can edit a {connection} connection to add tables and columns.
 
@@ -63,6 +63,7 @@ See the xref:connections-databricks-reference.adoc[Connection reference] for det
 > * xref:connections-databricks-delete-table-dependencies.adoc[Delete a table with dependent objects]
 > * xref:connections-databricks-delete.adoc[Delete a {connection} connection]
 > * xref:connections-databricks-oauth.adoc[Configure OAuth for a {connection} connection]
+> * xref:connections-databricks-oauth-aad.adoc[]
 > * xref:connections-databricks-private-link.adoc[]
 > * xref:connections-databricks-reference.adoc[Connection reference for {connection}]
 > * xref:connections-databricks-passthrough.adoc[]
