@@ -6,7 +6,7 @@
 :page-aliases:
 :connection: Databricks
 :description: Passthrough functions allow you to send SQL expressions directly to {connection} without being interpreted by ThoughtSpot.
-:jira: SCAL-164805
+:jira: SCAL-164805, SCAL-203358
 
 Passthrough functions allow you to send SQL expressions directly to {connection} without being interpreted by ThoughtSpot.
 If you have custom database functions that ThoughtSpot doesn't support, you can use these new passthrough functions in the ThoughtSpot Formula Assistant to call your custom functions.
@@ -90,6 +90,7 @@ By default, ThoughtSpot modifies all text in formulas to lowercase.:: This may c
 > * xref:connections-databricks-delete-table-dependencies.adoc[Delete a table with dependent objects]
 > * xref:connections-databricks-delete.adoc[Delete a {connection} connection]
 > * xref:connections-databricks-oauth.adoc[Configure OAuth for a {connection} connection]
+> * xref:connections-databricks-oauth-aad.adoc[]
 > * xref:connections-databricks-private-link.adoc[]
 > * xref:connections-databricks-reference.adoc[Connection reference for {connection}]
 > * xref:connections-databricks-best.adoc[]

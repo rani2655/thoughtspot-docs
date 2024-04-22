@@ -5,7 +5,7 @@
 :page-layout: default-cloud
 :description: With Databricks Partner Connect you get a free trial of ThoughtSpot that allows you to try out ThoughtSpot Connections to connect to Databricks.
 :connection: Databricks
-:jira: SCAL-185089, SCAL-185892, SCAL-184808
+:jira: SCAL-185089, SCAL-185892, SCAL-184808, SCAL-203358
 
 {connection} Partner Connect allows you to quickly and easily try out ThoughtSpot connected to {connection}, using ThoughtSpot Connections.
 
@@ -93,6 +93,7 @@ image::dbx_pc_c2p_con_ts.png[View your Databricks connection]
 > * xref:connections-databricks-delete-table-dependencies.adoc[Delete a table with dependent objects]
 > * xref:connections-databricks-delete.adoc[Delete a {connection} connection]
 > * xref:connections-databricks-oauth.adoc[Configure OAuth for a {connection} connection]
+> * xref:connections-databricks-oauth-aad.adoc[]
 > * xref:connections-databricks-private-link.adoc[]
 > * xref:connections-databricks-reference.adoc[Connection reference for {connection}]
 > * xref:connections-databricks-passthrough.adoc[]
