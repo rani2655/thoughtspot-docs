@@ -526,9 +526,8 @@ endif::free-trial-feature[]
 === Org Deletion - Default enablement
 ThoughtSpot introduces support for deleting Orgs. You can now delete an Org without first manually deleting all users, connections, and objects.
 
-// Mary – SCAL-179795, SCAL-134057. title fix.
-// PM: Aashica - Removed from 9.12.0.cl per Aashica
-
+// Mary – SCAL-179795, SCAL-134057. title fix. Aashica requested to remove this feature.
+// PM: Vijay/Aashica
 ////
 
 ifndef::free-trial-feature[]
