@@ -448,7 +448,7 @@ You can now use the table TML file to make changes to connection details like re
 === Orgs 1.5: Per Org URL (Enterprise) - For sharing links
 // Mary – SCAL-164989
 //Need clarification from PM. The same PRD as was linked for all other Org related features since 9.8.0.cl with no updates. Need clarification about what this update is for 9.12.0.cl.
-// PM: Vijay
+// PM: Vijay/Aashica
 ////
 
 ////
@@ -509,6 +509,8 @@ endif::free-trial-feature[]
 // Mary – SCAL-180884
 // PM: ?
 
+
+
 ////
 [#9-12-0-cl-demo]
 [discrete]
@@ -523,8 +525,10 @@ endif::free-trial-feature[]
 [discrete]
 === Org Deletion - Default enablement
 ThoughtSpot introduces support for deleting Orgs. You can now delete an Org without first manually deleting all users, connections, and objects.
-// Mary – SCAL-179795, SCAL-134057. title fix. Aashica requested to remove this feature.
-// PM: Vijay/Aashica
+
+// Mary – SCAL-179795, SCAL-134057. title fix.
+// PM: Aashica - Removed from 9.12.0.cl per Aashica
+
 ////
 
 ifndef::free-trial-feature[]
