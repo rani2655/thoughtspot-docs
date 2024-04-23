@@ -428,7 +428,13 @@ You can now manage onboarding configuration at the Org level. Now an Org adminis
 // Naomi – SCAL-179763. documentation JIRA scal-201642. confirm title -- is this a new Liveboard or an enhancement to Object Usage Liveboard. confirm with Mohil.
 // PM: Mohil
 
-You can now use the User Adoption Liveboard to understand how ThoughtSpot is saving you time with ad-hoc insights, and how many users are accessing ThoughtSpot and creating new insights every month.
+You can now use the User Adoption Liveboard to understand how ThoughtSpot is saving you time with ad-hoc insights, and how many users are accessing ThoughtSpot and creating new insights every month. For more information, see
+ifndef::pendo-links[]
+xref:user-adoption.adoc[User Adoption Liveboard].
+endif::pendo-links[]
+ifdef::pendo-links[]
+xref:user-adoption.adoc[User Adoption Liveboard,window=_blank].
+endif::pendo-links[]
 
 ////
 [#9-12-0-cl-nls]
