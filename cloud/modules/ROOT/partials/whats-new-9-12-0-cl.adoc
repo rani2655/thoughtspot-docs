@@ -123,10 +123,10 @@ You can now use SpotIQ analysis to forecast future trends for your KPIs. Thought
 
 For more information, see
 ifndef::pendo-links[]
-xref:forecasting.adoc[Forecasting].
+xref:spotiq-forecasting.adoc[Forecasting].
 endif::[]
 ifdef::pendo-links[]
-xref:forecasting.adoc[Forecasting,window=_blank].
+xref:spotiq-forecasting.adoc[Forecasting,window=_blank].
 endif::[]
 
 image::forecasting-zoom.gif[Forecasting]

@@ -5,7 +5,7 @@
 :linkattrs:
 :page-layout: default-cloud
 :description: Certain features supported for ThoughtSpot on AWS are not available for ThoughtSpot on GCP.
-:jira: SCAL-192404, SCAL-196074, SCAL-196296, SCAL-196860, SCAL-201355
+:jira: SCAL-192404, SCAL-196074, SCAL-196296, SCAL-196860, SCAL-201355, SCAL-201644
 
 Certain features supported for ThoughtSpot on AWS are not available for ThoughtSpot on GCP. Note that the following features are currently not supported for ThoughtSpot on GCP:
 
@@ -15,6 +15,7 @@ Certain features supported for ThoughtSpot on AWS are not available for ThoughtS
 * xref:custom-domains.adoc[Custom domains]
 * xref:business-continuity.adoc#disaster-recovery[Disaster Recovery]
 * Email notifications from GCP clusters do not render HTML elements like header and footers.
+* xref:spotiq-forecasting.adoc[Forecasting]
 * xref:connections-gbq-open-vpn.adoc[GBQ Open VPN] and xref:connections-synapse-open-vpn.adoc[Synapse VPN]
 * xref:web-notifications.adoc[In-app notifications]
 * xref:mobile-push-notifications.adoc[Mobile push notifications]
