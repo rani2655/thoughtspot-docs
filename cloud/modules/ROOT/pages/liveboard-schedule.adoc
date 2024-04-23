@@ -27,7 +27,7 @@ Attached is your scheduled update with the latest data from the <Liveboard name>
 +
 *View Liveboard* button
 Attachment(s)::
-CSVs (one for each table in the Liveboard) or 1 PDF
+CSVs (one for each table in the Liveboard), Excel (XLSX), or 1 PDF
 
 image::liveboard-schedule-email.png[Liveboard schedule email]
 
@@ -53,6 +53,7 @@ If you schedule a Liveboard hourly or every _n_ minutes, ThoughtSpot bases the s
 Make sure to note the *Server time zone*. As of 9.2.0.cl, you can edit your timezone to the right of the *Frequency*.
 Type::
 * *CSV files* provide all data for tables, with one attachment for each table. If your Liveboard has 3 tables and 4 charts, the Liveboard schedule email contains 3 CSVs, one for each table, and no content on the charts in the Liveboard.  Use CSV files to perform further analysis offline.
+* *XLSX files* provide all data for tables, with an Excel attachment. Use XLSX files to share information and perform further analysis offline in Excel.
 * *PDF files* show all visualizations in the Liveboard. Each chart uses a page in the file; tables show only the first 100 rows of a table. Use PDF files to skim the data. The Liveboard schedule email contains 1 PDF with the entire Liveboard.
 * *Show advanced PDF settings* allows you to specify the Liveboard layout in *PDF* format, and which visualizations and tabs to include. For more details about the layout options, refer to xref:liveboard-download-pdf.adoc[].
 +
