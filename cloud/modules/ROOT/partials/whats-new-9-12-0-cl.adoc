@@ -359,10 +359,10 @@ ThoughtSpot now supports secondary role configuration when you create a Snowflak
 
 For more information on primary and secondary roles, see
 ifndef::pendo-links[]
-link:https://docs.snowflake.com/en/user-guide/security-access-control-overview#enforcement-model-with-primary-role-and-secondary-roles[Enforcement model with primary role and secondary roles].
+link:https://docs.snowflake.com/en/user-guide/security-access-control-overview#enforcement-model-with-primary-role-and-secondary-roles[Enforcement model with primary role and secondary roles] and xref:connections-snowflake-add.adoc#secondary[Add a Snowflake connection].
 endif::[]
 ifdef::pendo-links[]
-link:https://docs.snowflake.com/en/user-guide/security-access-control-overview#enforcement-model-with-primary-role-and-secondary-roles[Enforcement model with primary role and secondary roles,window=_blank].
+link:https://docs.snowflake.com/en/user-guide/security-access-control-overview#enforcement-model-with-primary-role-and-secondary-roles[Enforcement model with primary role and secondary roles,window=_blank] and xref:connections-snowflake-add.adoc#secondary[Add a Snowflake connection,window=_blank].
 endif::[]
 
 
