@@ -571,6 +571,7 @@
 ** xref:monitor-webhooks.adoc[Webhooks for Monitor]
 ** xref:spotiq-custom.adoc[Custom SpotIQ analysis]
 ** xref:spotiq-change.adoc[SpotIQ change analysis]
+** xref:spotiq-forecasting.adoc[Forecasting]
 ** xref:time-series-anomaly.adoc[Anomaly detection]
 ** xref:spotiq-preferences.adoc[SpotIQ preferences]
 ** xref:spotiq-feedback.adoc[Insight feedback]

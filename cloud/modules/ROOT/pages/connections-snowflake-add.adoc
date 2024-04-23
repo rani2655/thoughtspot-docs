@@ -10,7 +10,7 @@
 :experimental:
 :connection: Snowflake
 :description: Learn how to add a Snowflake connection.
-:jira: SCAL-91104
+:jira: SCAL-91104, SCAL-196178
 
 == Prerequisites
 
@@ -66,6 +66,10 @@ image:snowflake-connectiondetails-azure-ad-oauth.png[Enter connection details]
 // [Enter connection details]({{ site.baseurl }}/images/gbq-connectiondetails.png "Enter connection details")
  .. If you wish to provide the optional additional key-value pairs for your {connection} connection, complete the procedure in step 5, and then select *Continue*.
 If not, select *Continue*.
+.. To enable link:https://docs.snowflake.com/en/user-guide/security-access-control-overview#enforcement-model-with-primary-role-and-secondary-roles[Snowflake secondary roles], enter the following key-value pair:
+[#secondary]
+... Key: enableSecondaryRoles
+... Value: true
  .. When the Microsoft sign-in screen appears, sign in to your account using the email and password of your Microsoft account associated with Azure.
  .. On the Stay-signed-in screen, select *Yes*.
 

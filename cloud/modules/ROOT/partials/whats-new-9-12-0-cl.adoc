@@ -123,10 +123,10 @@ You can now use SpotIQ analysis to forecast future trends for your KPIs. Thought
 
 For more information, see
 ifndef::pendo-links[]
-xref:forecasting.adoc[Forecasting].
+xref:spotiq-forecasting.adoc[Forecasting].
 endif::[]
 ifdef::pendo-links[]
-xref:forecasting.adoc[Forecasting,window=_blank].
+xref:spotiq-forecasting.adoc[Forecasting,window=_blank].
 endif::[]
 
 image::forecasting-zoom.gif[Forecasting]
@@ -250,6 +250,17 @@ Liveboard filters are now accessible to all users who have view or edit permissi
 
 Personalized columns are now available to all users and on by default. Users with edit permissions on a Liveboard can set their preferred attribute columns through the change analysis window and select *Apply to all users* to keep those selections for any subsequent change analysis calculations on that Liveboard. Individual users can still override these preferences for their own calculations.
 
+For more information, see
+ifndef::pendo-links[]
+xref:spotiq-change.adoc#remember-personalized[Remember personalized columns].
+endif::[]
+ifdef::pendo-links[]
+xref:spotiq-change.adoc#remember-personalized[Remember personalized columns,window=_blank].
+endif::[]
+
+image::personalized-column.png[Personalized columns]
+
+
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-12-0-cl-iterative]
@@ -265,6 +276,16 @@ endif::[]
 // PM: Vikas
 
 You can now drill down on specific columns in change analysis, in order to identify change drivers within your data. For example, if you run an analysis on sales monthly and find out that the 'jacket' item type changed the most, you can easily drill down on jacket sales and identify which region contributed the most to the change in sales. To enable this feature, contact your administrator.
+
+For more information, see
+ifndef::pendo-links[]
+xref:spotiq-change.adoc#iterative[Iterative change analysis].
+endif::[]
+ifdef::pendo-links[]
+xref:spotiq-change.adoc#iterative[Iterative change analysis,window=_blank].
+endif::[]
+
+image::iterative-analysis.gif[Iterative change analysis]
 
 endif::free-trial-feature[]
 
@@ -359,10 +380,10 @@ ThoughtSpot now supports secondary role configuration when you create a Snowflak
 
 For more information on primary and secondary roles, see
 ifndef::pendo-links[]
-link:https://docs.snowflake.com/en/user-guide/security-access-control-overview#enforcement-model-with-primary-role-and-secondary-roles[Enforcement model with primary role and secondary roles].
+link:https://docs.snowflake.com/en/user-guide/security-access-control-overview#enforcement-model-with-primary-role-and-secondary-roles[Enforcement model with primary role and secondary roles] and xref:connections-snowflake-add.adoc#secondary[Add a Snowflake connection].
 endif::[]
 ifdef::pendo-links[]
-link:https://docs.snowflake.com/en/user-guide/security-access-control-overview#enforcement-model-with-primary-role-and-secondary-roles[Enforcement model with primary role and secondary roles,window=_blank].
+link:https://docs.snowflake.com/en/user-guide/security-access-control-overview#enforcement-model-with-primary-role-and-secondary-roles[Enforcement model with primary role and secondary roles,window=_blank] and xref:connections-snowflake-add.adoc#secondary[Add a Snowflake connection,window=_blank].
 endif::[]
 
 
@@ -407,7 +428,13 @@ You can now manage onboarding configuration at the Org level. Now an Org adminis
 // Naomi – SCAL-179763. documentation JIRA scal-201642. confirm title -- is this a new Liveboard or an enhancement to Object Usage Liveboard. confirm with Mohil.
 // PM: Mohil
 
-You can now use the User Adoption Liveboard to understand how ThoughtSpot is saving you time with ad-hoc insights, and how many users are accessing ThoughtSpot and creating new insights every month.
+You can now use the User Adoption Liveboard to understand how ThoughtSpot is saving you time with ad-hoc insights, and how many users are accessing ThoughtSpot and creating new insights every month. For more information, see
+ifndef::pendo-links[]
+xref:user-adoption.adoc[User Adoption Liveboard].
+endif::pendo-links[]
+ifdef::pendo-links[]
+xref:user-adoption.adoc[User Adoption Liveboard,window=_blank].
+endif::pendo-links[]
 
 ////
 [#9-12-0-cl-nls]
