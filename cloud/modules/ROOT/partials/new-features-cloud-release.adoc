@@ -18,10 +18,14 @@ For these instructions, see xref:ts-cloud-getting-started.adoc[Getting Started w
 
 // Naomi – SCAL-181312. documentation JIRA scal-201645.
 Remember personalized columns in change analysis::
-Personalized columns are now available to all users and on by default. Users with edit permissions on a Liveboard can set their preferred attribute columns through the change analysis window and select *Apply to all users* to keep those selections for any subsequent change analysis calculations on that Liveboard. Individual users can still override these preferences for their own calculations.
+Personalized columns are now available to all users and on by default. Users with edit permissions on a Liveboard can set their preferred attribute columns through the change analysis window and select *Apply to all users* to keep those selections for any subsequent change analysis calculations on that Liveboard. Individual users can still override these preferences for their own calculations. +
+For more information, see
+xref:spotiq-change.adoc#remember-personalized[Remember personalized columns].
 
 // Naomi – SCAL-176265. documentation JIRA scal-201646.
-Drill down in change analysis [.badge.badge-early-access-relnotes]#Early Access#:: You can now drill down on specific columns in change analysis, in order to identify change drivers within your data. For example, if you run an analysis on sales monthly and find out that the 'jacket' item type changed the most, you can easily drill down on jacket sales and identify which region contributed the most to the change in sales. To enable this feature, contact your administrator.
+Drill down in change analysis [.badge.badge-early-access-relnotes]#Early Access#:: You can now drill down on specific columns in change analysis, in order to identify change drivers within your data. For example, if you run an analysis on sales monthly and find out that the 'jacket' item type changed the most, you can easily drill down on jacket sales and identify which region contributed the most to the change in sales. To enable this feature, contact your administrator. +
+For more information, see
+xref:spotiq-change.adoc#iterative[Iterative change analysis].
 
 // Naomi – SCAL-180961. SCAL-130010. Documentation JIRA scal-201647. documentation JIRA scal-201649.
 ThoughtSpot Sync::
@@ -56,7 +60,7 @@ For more information, see xref:search-conditional-formatting.adoc#advanced-condi
 Forecasting [.badge.badge-beta-relnotes]#Beta#::
 You can now use SpotIQ analysis to forecast future trends for your KPIs. ThoughtSpot uses machine learning models that learn from past trends, growth, and seasonality to project how the target metric will trend in the future. To enable this feature, contact {support-url}.
 +
-For more information, see xref:forecasting.adoc[Forecasting].
+For more information, see xref:spotiq-forecasting.adoc[Forecasting].
 
 // Naomi – SCAL-179981. documentation jira SCAL-202909 (approved).
 Sage Coach::
@@ -84,11 +88,12 @@ Collibra catalog integration is now available to all users and on by default. Yo
 Snowflake secondary role configuration for External OAuth::
 ThoughtSpot now supports secondary role configuration when you create a Snowflake connection using External OAuth. When you set secondary roles to `ALL`, you can access all tables that any single role has access to and combine them in a single SQL query without having to switch roles.
 +
-For more information on primary and secondary roles, see link:https://docs.snowflake.com/en/user-guide/security-access-control-overview#enforcement-model-with-primary-role-and-secondary-roles[Enforcement model with primary role and secondary roles].
+For more information on primary and secondary roles, see link:https://docs.snowflake.com/en/user-guide/security-access-control-overview#enforcement-model-with-primary-role-and-secondary-roles[Enforcement model with primary role and secondary roles] and xref:connections-snowflake-add.adoc#secondary[Add a Snowflake connection].
 
 // Naomi – SCAL-179763. documentation JIRA scal-201642.
 User Adoption Liveboard::
-You can now use the User Adoption Liveboard to understand how ThoughtSpot is saving you time with ad-hoc insights, and how many users are accessing ThoughtSpot and creating new insights every month.
+You can now use the User Adoption Liveboard to understand how ThoughtSpot is saving you time with ad-hoc insights, and how many users are accessing ThoughtSpot and creating new insights every month. For more information, see
+xref:user-adoption.adoc[User Adoption Liveboard].
 
 // Naomi – SCAL-148626. documentation jira SCAL-202207 (approved). SCAL-132544. documentation jira SCAL-202209 (approved)
 Connection TML::
