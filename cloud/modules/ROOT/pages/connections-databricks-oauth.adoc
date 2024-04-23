@@ -19,8 +19,6 @@ The configuration details on the ThoughtSpot connection form should be derived f
 
 NOTE: For OAuth, we recommend checking the {connection} link:https://docs.databricks.com/en/administration-guide/users-groups/single-sign-on/index.html[documentation] to confirm any IDP support and their details.
 
-IMPORTANT: Each ThoughtSpot instance requires a unique {connection} security integration.
-Each user in {connection} must have a default warehouse and default role.
 
 [#step-1]
 == Step 1: Registering an OAuth application from Databricks Account Console
