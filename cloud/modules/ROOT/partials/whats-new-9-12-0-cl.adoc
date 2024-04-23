@@ -250,6 +250,17 @@ Liveboard filters are now accessible to all users who have view or edit permissi
 
 Personalized columns are now available to all users and on by default. Users with edit permissions on a Liveboard can set their preferred attribute columns through the change analysis window and select *Apply to all users* to keep those selections for any subsequent change analysis calculations on that Liveboard. Individual users can still override these preferences for their own calculations.
 
+For more information, see
+ifndef::pendo-links[]
+xref:spotiq-change.adoc#remember-personalized[Remember personalized columns].
+endif::[]
+ifdef::pendo-links[]
+xref:spotiq-change.adoc#remember-personalized[Remember personalized columns,window=_blank].
+endif::[]
+
+image::personalized-column.png[Personalized columns]
+
+
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-12-0-cl-iterative]
@@ -265,6 +276,16 @@ endif::[]
 // PM: Vikas
 
 You can now drill down on specific columns in change analysis, in order to identify change drivers within your data. For example, if you run an analysis on sales monthly and find out that the 'jacket' item type changed the most, you can easily drill down on jacket sales and identify which region contributed the most to the change in sales. To enable this feature, contact your administrator.
+
+For more information, see
+ifndef::pendo-links[]
+xref:spotiq-change.adoc#iterative[Iterative change analysis].
+endif::[]
+ifdef::pendo-links[]
+xref:spotiq-change.adoc#iterative[Iterative change analysis,window=_blank].
+endif::[]
+
+image::iterative-analysis.gif[Iterative change analysis]
 
 endif::free-trial-feature[]
 
