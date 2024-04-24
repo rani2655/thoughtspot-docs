@@ -96,10 +96,13 @@ ThoughtSpot now supports secondary role configuration when you create a Snowflak
 +
 For more information on primary and secondary roles, see link:https://docs.snowflake.com/en/user-guide/security-access-control-overview#enforcement-model-with-primary-role-and-secondary-roles[Enforcement model with primary role and secondary roles] and xref:connections-snowflake-add.adoc#secondary[Add a Snowflake connection].
 
+// Naomi - SCAL-203459
+Redshift AWS IDC OAuth:: We now support Redshift connections using AWS IDC OAuth.
+
 // Naomi – SCAL-179763. documentation JIRA scal-201642.
 User Adoption Liveboard::
 You can now use the User Adoption Liveboard to understand how ThoughtSpot is saving you time with ad-hoc insights, and how many users are accessing ThoughtSpot and creating new insights every month. For more information, see
-xref:user-adoption.adoc[User Adoption Liveboard].
+xref:user-adoption.adoc[User Adoption Liveboard] and xref:user-productivity.adoc[].
 
 // Naomi – SCAL-148626. documentation jira SCAL-202207 (approved). SCAL-132544. documentation jira SCAL-202209 (approved)
 Connection TML::
