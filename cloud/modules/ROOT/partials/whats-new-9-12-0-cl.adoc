@@ -469,7 +469,7 @@ You can now use the table TML file to make changes to connection details like re
 [discrete]
 === Implement OIDC - Org + Groups on IAMv2 for Orgs Clusters
 // Mary – SCAL-156211
-//Need clarification from PM. The same PRD as was linked for all other Org related features since 9.8.0.cl with no updates. Need clarification about what this update is for 9.12.0.cl.
+//Need clarification from PM. The same PRD as was linked for all other Org related features since 9.8.0.cl with no updates. Need clarification about what this update is for 9.12.0.cl. Confirmed no doc needed for 9.12.0.cl as this will not be avaialble to customers in until 10.1.0.cl with SCAL-203123.
 // PM: Vijay/Aashica
 
 [#9-12-0-cl-sharing]
