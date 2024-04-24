@@ -80,6 +80,12 @@ Collibra integration is now available to all users and on by default. You can no
 [#9-12-0-cl-data-engineer]
 === For the Data Engineer
 
+// Naomi – SCAL-180544. documentation JIRA SCAL-204538 (approved)
+Semi-additive measures with first and last values [.badge.badge-early-access-relnotes]#Early Access#::
+A semi-additive measure, also known as snapshot data, is a measure that is usually aggregated for all attributes except for date and time. For certain measures, like inventory, you want to know what the value was at the beginning or end of a period. In that case, you can use the `last_value` function to find the inventory at the end of a month, rather than aggregating all values over the month. Similarly, you can use the `first_value` function to find out your stock at the beginning of a month. To enable this feature, contact your administrator.
++
+For more information, see xref:semi-additive-measures.adoc[Semi-additive measures with `first_value` and `last_value` functions].
+
 // Naomi -- SCAL-187745. documentation JIRA scal-201640.
 Collibra catalog integration::
 Collibra catalog integration is now available to all users and on by default. You can now import metadata information related to your tables and columns from Collibra into ThoughtSpot. From the Data tab, you can set up a connection to Collibra to import column descriptions, column verification status, table descriptions, and table verification status. For more information, see xref:catalog-integration-collibra.adoc[].
