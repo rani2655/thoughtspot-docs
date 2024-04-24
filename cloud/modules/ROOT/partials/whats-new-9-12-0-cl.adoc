@@ -369,6 +369,13 @@ ifdef::pendo-links[]
 xref:catalog-integration-collibra.adoc[Collibra catalog integration,window=_blank].
 endif::[]
 
+[#9-12-0-cl-redshift]
+[discrete]
+=== Redshift AWS IDC OAuth
+// Naomi - SCAL-203459 (approved)
+
+We now support Redshift connections using AWS IDC OAuth.
+
 [#9-12-0-cl-secondary]
 [discrete]
 === Snowflake secondary role configuration for External OAuth
@@ -425,16 +432,43 @@ You can now manage onboarding configuration at the Org level. Now an Org adminis
 [#9-12-0-cl-user-adoption]
 [discrete]
 === User Adoption Liveboard
-// Naomi – SCAL-179763. documentation JIRA scal-201642. confirm title -- is this a new Liveboard or an enhancement to Object Usage Liveboard. confirm with Mohil.
+// Naomi – SCAL-179763. documentation JIRA scal-201642, scal-201214. confirm title -- is this a new Liveboard or an enhancement to Object Usage Liveboard. confirm with Mohil.
 // PM: Mohil
 
 You can now use the User Adoption Liveboard to understand how ThoughtSpot is saving you time with ad-hoc insights, and how many users are accessing ThoughtSpot and creating new insights every month. For more information, see
 ifndef::pendo-links[]
-xref:user-adoption.adoc[User Adoption Liveboard].
+xref:user-adoption.adoc[User Adoption Liveboard] and xref:user-productivity.adoc[User Productivity].
 endif::pendo-links[]
 ifdef::pendo-links[]
-xref:user-adoption.adoc[User Adoption Liveboard,window=_blank].
+xref:user-adoption.adoc[User Adoption Liveboard,window=_blank] and xref:user-productivity.adoc[User Productivity,window=_blank].
 endif::pendo-links[]
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-12-0-cl-first-last]
+[discrete]
+=== Semi-additive measures with first and last values [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-12-0-cl-first-last]
+[discrete]
+=== Semi-additive measures with first and last values [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+// Naomi – SCAL-180544. documentation JIRA SCAL-204538 (approved)
+// PM: Damian
+
+A semi-additive measure, also known as snapshot data, is a measure that is usually aggregated for all attributes except for date and time. For certain measures, like inventory, you want to know what the value was at the beginning or end of a period. In that case, you can use the `last_value` function to find the inventory at the end of a month, rather than aggregating all values over the month. Similarly, you can use the `first_value` function to find out your stock at the beginning of a month. To enable this feature, contact your administrator.
+
+For more information, see
+ifndef::pendo-links[]
+xref:semi-additive-measures.adoc[Semi-additive measures with `first_value` and `last_value` functions] and xref:semi-additive-modeling.adoc[Modeling data for semi-additive measures].
+endif::pendo-links[]
+ifdef::pendo-links[]
+xref:semi-additive-measures.adoc[Semi-additive measures with `first_value` and `last_value` functions,window=_blank] and xref:semi-additive-modeling.adoc[Modeling data for semi-additive measures,window=_blank].
+endif::pendo-links[]
+
+endif::free-trial-feature[]
+
 
 ////
 [#9-12-0-cl-nls]
@@ -481,31 +515,6 @@ You can now use the table TML file to make changes to connection details like re
 ////
 
 
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
-[#9-12-0-cl-first-last]
-[discrete]
-=== Semi-additive measures with first and last values [.badge.badge-early-access]#Early Access#
-endif::[]
-ifdef::pendo-links[]
-[#9-12-0-cl-first-last]
-[discrete]
-=== Semi-additive measures with first and last values [.badge.badge-early-access-whats-new]#Early Access#
-endif::[]
-// Naomi – SCAL-180544. documentation JIRA SCAL-204538 (approved)
-// PM: Damian
-
-A semi-additive measure, also known as snapshot data, is a measure that is usually aggregated for all attributes except for date and time. For certain measures, like inventory, you want to know what the value was at the beginning or end of a period. In that case, you can use the `last_value` function to find the inventory at the end of a month, rather than aggregating all values over the month. Similarly, you can use the `first_value` function to find out your stock at the beginning of a month. To enable this feature, contact your administrator.
-
-For more information, see
-ifndef::pendo-links[]
-xref:semi-additive-measures.adoc[Semi-additive measures with `first_value` and `last_value` functions] and xref:semi-additive-modeling.adoc[Modeling data for semi-additive measures].
-endif::pendo-links[]
-ifdef::pendo-links[]
-xref:semi-additive-measures.adoc[Semi-additive measures with `first_value` and `last_value` functions,window=_blank] and xref:semi-additive-modeling.adoc[Modeling data for semi-additive measures,window=_blank].
-endif::pendo-links[]
-
-endif::free-trial-feature[]
 
 
 
