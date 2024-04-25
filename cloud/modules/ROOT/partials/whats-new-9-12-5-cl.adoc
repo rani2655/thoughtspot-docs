@@ -1,0 +1,276 @@
+ifndef::pendo-links[]
+May 2024 [label label-dep]#9.12.5.cl#
+endif::[]
+ifdef::pendo-links[]
+[month-year-whats-new]#May 2024#
+[label label-dep-whats-new]#9.12.5.cl#
+endif::[]
+
+ifndef::free-trial-feature[]
+NOTE: Features marked as [.badge.badge-update-note]#Beta# are off by default. To enable them, contact {support-url}.
+endif::free-trial-feature[]
+
+[#primary-9-12-5-cl]
+
+// Business User
+
+[#9-12-5-cl-home]
+[discrete]
+=== [Modular home page] Phase 1 support KPI charts functions
+
+// Mark. epic: SCAL-169016. doc: SCAL-?
+// PM: Rahul P J P
+
+
+[#9-12-5-cl-iterative]
+[discrete]
+=== Drill down in change analysis
+
+// Naomi – SCAL-180942. doc: SCAL-?
+// PM: Vikas
+
+Drill down in change analysis is now on by default and available to all users. You can now drill down on specific columns in change analysis, in order to identify change drivers within your data. For example, if you run an analysis on sales monthly and find out that the 'jacket' item type changed the most, you can easily drill down on jacket sales and identify which region contributed the most to the change in sales.
+
+////
+For more information, see
+ifndef::pendo-links[]
+xref:spotiq-change.adoc#iterative[Iterative change analysis].
+endif::[]
+ifdef::pendo-links[]
+xref:spotiq-change.adoc#iterative[Iterative change analysis,window=_blank].
+endif::[]
+////
+image::iterative-analysis.gif[Iterative change analysis]
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-12-5-cl-forecasting]
+[discrete]
+=== Forecasting [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-12-5-cl-forecasting]
+[discrete]
+=== Forecasting [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
+// Naomi. epic: SCAL-188788. doc: SCAL-?
+// PM: Vikas
+
+You can now use SpotIQ analysis to forecast future trends for your KPIs. ThoughtSpot uses machine learning models that learn from past trends, growth, and seasonality to project how the target metric will trend in the future. To enable this feature, contact your administrator.
+
+endif::free-trial-feature[]
+
+[#9-12-5-cl-ai]
+[discrete]
+=== AI highlights for Liveboards
+
+// Mark. epic: SCAL-180913. doc: SCAL-?
+// PM: Manan
+
+[#9-12-5-cl-i18n]
+[discrete]
+=== Korean language keywords
+
+// Naomi. epic: SCAL-181448. doc: SCAL-?
+// PM: Aashna
+
+[#9-12-5-cl-i18n-synonyms]
+[discrete]
+=== German and French keyword synonyms
+
+// Naomi. epic: SCAL-159833. doc: SCAL-?
+// PM: Aashna
+
+[#9-12-5-cl-group-agg]
+[discrete]
+=== Group Aggregate: Keywords "Of" and "Percentage of" phase 2
+
+// Naomi. epic: SCAL-147509. doc: SCAL-?
+// PM: Damian
+
+[#9-12-5-cl-shortcuts]
+[discrete]
+=== Create shortcuts for data source connection onboarding flow
+
+// Mary. epic: SCAL-197160. doc: SCAL-?
+// PM: Samuel Weick?
+
+[#9-12-5-cl-sage-coach]
+[discrete]
+=== Sage coach improvements for 9.12.5
+
+// Naomi. epic: SCAL-194540. doc: SCAL-?
+// PM: Alok?
+
+[#9-12-5-cl-copilot]
+[discrete]
+=== Ask Sage improvements for 9.12.5
+
+// Naomi. epic: SCAL-194063. doc: SCAL-?
+// PM: Alok
+
+// Analyst
+
+[#9-12-5-cl-model]
+[discrete]
+=== Data Modeling: Worksheet rename to Model
+
+// Mark. epic: SCAL-184056. doc: SCAL-?
+// PM: Samridh
+
+[#9-12-5-cl-note]
+[discrete]
+=== Note tiles 2.0
+
+// Mary. epic: SCAL-142949. doc: SCAL-?
+// PM: ?
+
+[#9-12-5-cl-joins]
+[discrete]
+=== Allow joins with columns of compatible data types
+
+// Mark. epic: SCAL-154405. doc: SCAL-?
+// PM: Samridh
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-12-5-cl-cohorts]
+[discrete]
+=== Advanced Cohorts without grouping and binning [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-12-5-cl-cohorts]
+[discrete]
+=== Advanced Cohorts without grouping and binning [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
+// Mary. epic: SCAL-164083. doc: SCAL-?
+// PM: Damian
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-12-5-cl-falcon]
+[discrete]
+=== Falcon Connection [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-12-5-cl-falcon]
+[discrete]
+=== Falcon Connection [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+// Naomi – SCAL-149828. documentation JIRA scal-201648. move below the fold. Check in with Aaghran if we want this in the What's New at all. see if it needs to be mentioned on all articles with other connections (getting-started, etc.)
+// PM: Aaghran
+
+ThoughtSpot now supports connections to Falcon. You can use the Falcon connection to easily migrate data from ThoughtSpot Software to ThoughtSpot Cloud. To enable this feature, contact your administrator.
+
+endif::free-trial-feature[]
+
+[#9-12-5-cl-schema]
+[discrete]
+=== Save the table layout on schema editor
+
+// Mary. epic: SCAL-180590. doc: SCAL-?
+// PM: Samridh
+
+[#9-12-5-cl-alation]
+[discrete]
+=== Token-based authentication for Alation
+
+// Naomi. epic: SCAL-181350. doc: SCAL-?
+// PM: Shruthi?
+
+[#9-12-5-cl-dependency]
+[discrete]
+=== Dependency management Phase 1
+
+// Mark. epic: SCAL-147696. doc: SCAL-?
+// PM: Samridh
+
+'''
+[#secondary-9-12-5-cl]
+[discrete]
+=== _Other features and enhancements_
+
+// Data Engineer
+
+[#9-12-5-cl-dbt]
+[discrete]
+=== dbt integration: deletion of objects with no downstream dependencies
+
+// Naomi. epic: SCAL-177119. doc: SCAL-?
+// PM: Samridh
+
+[#9-12-5-cl-dbt-integration]
+[discrete]
+=== dbt metricflow integration
+
+// Naomi. epic: SCAL-177118. doc: SCAL-?
+// PM: Samridh
+
+[#9-12-5-cl-tml]
+[discrete]
+=== Rules to order TML
+
+// Mary. epic: SCAL-133208. doc: SCAL-?
+// PM: Samridh
+
+[#9-12-5-cl-join-ui]
+[discrete]
+=== Standardize join UI across the product
+
+// Mark. epic: SCAL-150457. doc: SCAL-?
+// PM: Samridh
+
+// IT/ Ops Engineer
+
+[#9-12-5-cl-models]
+[discrete]
+=== Worksheet v2
+
+// Mark. epic: SCAL-181655. doc: SCAL-?
+// PM: Samridh
+
+[#9-12-5-cl-models-pre-ga]
+[discrete]
+=== Worksheet v2 pre-GA items
+
+// Mark. epic: SCAL-164865. doc: SCAL-?
+// PM: Samridh
+
+[#9-12-5-cl-questions]
+[discrete]
+=== Suggested questions
+
+// Mark. epic: SCAL-186893. doc: SCAL-?
+// PM: Akshay
+
+[#9-12-5-cl-org]
+[discrete]
+=== Default org enablement on TS clusters
+
+// Mary. epic: SCAL-179781. doc: SCAL-?
+// PM: ?
+
+
+
+[#9-12-5-cl-parameters]
+[discrete]
+=== Parameters: Hide/show & enhancements for JWT (TSE) integration
+
+// Mary. epic: SCAL-157950. doc: SCAL-?
+// PM: Damian
+
+[#9-12-5-cl-password]
+[discrete]
+=== Default password change for SW clusters - script change required for FE-infra
+
+// Mary. epic: SCAL-180871. doc: SCAL-?
+// PM: ?
+
+ifndef::free-trial-feature[]
+[discrete]
+=== For the Developer
+
+For new features and enhancements introduced in this release of ThoughtSpot Embedded, see https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
+endif::[]
