@@ -180,7 +180,7 @@ ThoughtSpot delivers an email digest to users to provide updates about new and t
 Users can manage their preferences for email digests.
 
 Administrators can turn this feature on and off, or change the default frequency to weekly, monthly, or quarterly.
-// Mary – SCAL-179683. move lower possibly?
+// Mary – SCAL-179683 Doc JIRA SCAL-201820. move lower possibly?
 // PM: Mohil
 
 
@@ -211,14 +211,14 @@ The data sources appear in the *Show Liveboard details* modal under *Data source
 image::data-source.png[Data source]
 
 NOTE: If a data source is unavailable due to permissions, a message appears to indicate that in place of the data source name.
-// Mary – SCAL-190726.
+// Mary – SCAL-190726 Doc JIRA SCAL-201822.
 // PM: Arpit
 
 [#9-12-0-cl-xlsx]
 [discrete]
-=== Support for Excel attachments in Scheduled Liveboards
-ThoughtSpot introduces support for scheduling Liveboards with XLSX attachments, in addition to the existing PDF and CSV options. This allows users to explore tabular data from these reports by using the XLSX data files.
-// Mary – SCAL-140254. call out Excel explicitly. fix title.
+=== Support for Excel (XLSX) attachments in Scheduled Liveboards
+ThoughtSpot introduces support for scheduling Liveboards with Excel (XLSX) attachments, in addition to the existing PDF and CSV options. This allows users to explore tabular data from these reports by using the XLSX data files.
+// Mary – SCAL-140254 Doc JIRA SCAL-201825 . call out Excel explicitly. fix title.
 // PM: Arpit
 
 //[#9-12-0-cl-data-panel]
@@ -234,7 +234,7 @@ ThoughtSpot introduces support for scheduling Liveboards with XLSX attachments, 
 You can now interact with filters on Liveboards  that have visualizations that include hidden columns, or a formula created from a hidden column.
 
 Liveboard filters are now accessible to all users who have view or edit permissions to the underlying data source.
-// Mary – SCAL-157372
+// Mary – SCAL-157372 Doc JIRA SCAL-201823
 // PM: Arpit
 
 
@@ -418,8 +418,8 @@ endif::[]
 [discrete]
 === Manage onboarding configuration at the Org level
 You can now manage onboarding configuration at the Org level. Now an Org administrator can update their onboarding configuration in the Admin panel without the need to contact the tenant administrator. This feature helps to reduce possible service interruptions by allowing you to make configuration changes per Org instead of taking the whole cluster down.
-//image for Org level admin panel is pending a cluster with Org enabled.
-// Mary – SCAL-145362.
+//image for Org level admin panel is pending a cluster with Org enabled. Verify doc needed with Aashica as this is not indicated in her message April 16.
+// Mary – SCAL-145362 Doc JIRA SCAL-203550.
 // PM: Aashica
 
 [#9-12-0-cl-user-adoption]
@@ -462,21 +462,21 @@ You can now use the table TML file to make changes to connection details like re
 [discrete]
 === Export/import of users/groups/roles/privileges using TML
 // Mary – SCAL-176799
-//Need clarification from PM. The same PRD as was linked for all other RBAC related features since 9.5.0.cl with no updates since last summer. Need clarification about what this update is for 9.12.0.cl.
+//Need clarification from PM. The same PRD as was linked for all other RBAC related features since 9.5.0.cl with no updates since last summer. Need clarification about what this update is for 9.12.0.cl. No doc needed per Aashica April 16.
 // PM: Vijay/Aashica
 
 [#9-12-0-cl-oidc]
 [discrete]
 === Implement OIDC - Org + Groups on IAMv2 for Orgs Clusters
 // Mary – SCAL-156211
-//Need clarification from PM. The same PRD as was linked for all other Org related features since 9.8.0.cl with no updates. Need clarification about what this update is for 9.12.0.cl. Confirmed no doc needed for 9.12.0.cl as this will not be avaialble to customers in until 10.1.0.cl with SCAL-203123.
+//Need clarification from PM. The same PRD as was linked for all other Org related features since 9.8.0.cl with no updates. Need clarification about what this update is for 9.12.0.cl. Confirmed no doc needed for 9.12.0.cl as this will not be avaialble to customers in until 10.1.0.cl with SCAL-203123. No doc needed per Aashica April 16.
 // PM: Vijay/Aashica
 
 [#9-12-0-cl-sharing]
 [discrete]
 === Orgs 1.5: Per Org URL (Enterprise) - For sharing links
 // Mary – SCAL-164989
-//Need clarification from PM. The same PRD as was linked for all other Org related features since 9.8.0.cl with no updates. Need clarification about what this update is for 9.12.0.cl.
+//Need clarification from PM. The same PRD as was linked for all other Org related features since 9.8.0.cl with no updates. Need clarification about what this update is for 9.12.0.cl. No doc needed per Aashica April 16. No doc needed per Aashica April 16.
 // PM: Vijay/Aashica
 ////
 
@@ -501,14 +501,17 @@ endif::free-trial-feature[]
 
 
 
-////
+
 [#9-12-0-cl-demo]
 [discrete]
 === Demo data publishing on Enterprise Orgs
-// Mary – SCAL-180008
+ThoughtSpot now supports demo data access at the Org level. Customers can leverage this functionality to allow users to try building Answers and Liveboards. This is available to all users in the Org, and users are added to *Demo Data Retail group* by default.
+Org administrators can remove users from this group  to remove their access to Demo Data.
+
+// Mary – SCAL-180008 Doc JIRA SCAL-201821
 //No PRD. Have requested access to Eng Design doc.
-// PM: ?
-////
+// PM: Aashica
+
 
 ////
 [#9-12-0-cl-org]
