@@ -11,7 +11,7 @@ Certain features supported for ThoughtSpot on AWS are not available for ThoughtS
 
 * xref:security-thoughtspot-lifecycle.adoc#advanced-data-ear[Advanced encryption at rest]
 * xref:ts-cloud-requirements-support.adoc#restrict_cluster_access_only_to_certain_ip_addresses[Allowed origin]
-* Catalog integration (xref:catalog-integration.adoc[Alation], xref:catalog-integration-atlan.adoc[Atlan], and xref:catalog-integration-collibra.adoc[Collibra]). Data Catalog service is not currently supported in GCP Cloud and should be available by 9.12.0.cl.
+* Catalog integration (xref:catalog-integration.adoc[Alation], xref:catalog-integration-atlan.adoc[Atlan], and xref:catalog-integration-collibra.adoc[Collibra]). Data Catalog service is not currently supported in GCP Cloud and should be available by 9.12.5.cl.
 * xref:custom-domains.adoc[Custom domains]
 * xref:business-continuity.adoc#disaster-recovery[Disaster Recovery]
 * Email notifications from GCP clusters do not render HTML elements like header and footers.
