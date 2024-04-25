@@ -72,7 +72,7 @@ endif::free-trial-feature[]
 [discrete]
 === Korean language keywords
 
-// Naomi. epic: SCAL-181448. doc: SCAL-?
+// Naomi. epic: SCAL-181448. doc: SCAL-199383 (approved)
 // PM: Aashna
 
 [#9-12-5-cl-i18n-synonyms]
