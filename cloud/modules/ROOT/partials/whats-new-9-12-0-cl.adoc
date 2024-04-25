@@ -374,7 +374,13 @@ endif::[]
 === Redshift AWS IDC OAuth
 // Naomi - SCAL-203459 (approved)
 
-We now support Redshift connections using AWS IDC OAuth.
+We now support Redshift connections using AWS IDC OAuth. For more information, see
+ifndef::pendo-links[]
+xref:connections-redshift-aws-idc-oauth.adoc[Configure AWS IDC OAuth for a Redshift connection].
+endif::[]
+ifdef::pendo-links[]
+xref:connections-redshift-aws-idc-oauth.adoc[Configure AWS IDC OAuth for a Redshift connection,window=_blank].
+endif::[]
 
 [#9-12-0-cl-secondary]
 [discrete]
