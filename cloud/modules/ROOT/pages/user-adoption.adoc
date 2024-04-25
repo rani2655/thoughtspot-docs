@@ -24,7 +24,9 @@ Select *User adoption* from the side navigation bar.
 
 If your organization uses xref:orgs-overview.adoc[multi-tenancy with Orgs], ensure that you are in the Primary Org, in the *All orgs* section of the Admin Console.
 
-image::user-adoption.png[User Adoption Liveboard]
+image::user-adoption.png[User Adoption Liveboard, overview]
+
+image::user-adoption-productivity.png[User Adoption Liveboard, User Productivity tab]
 
 Alternatively, search for the Liveboard in the *Search Answers and Liveboards* search bar.
 
@@ -39,6 +41,8 @@ Use this Liveboard to view and analyze information about the following topics:
 ** hourly, daily, weekly, and monthly active users (DAU Last 4 Weeks, WAU Last 4 Weeks, MAU Last 30 days, Weekly Active Users, Daily Active Users, Hourly Active Users)
 ** number of user actions on the Liveboards and Answers in the cluster (Count of Current Liveboards, Count of Current Answers)
 ** which users are most active in ThoughtSpot, and what they do (ThoughtSpot Champions Last 30 Days, Top 10 Liveboard Consumers Last 30 days, Top 10 Adhoc Searchers)
+** Impressions (Count of visualizations generated, last month)
+** Insights Created (Count of object interactions, last month)
 ** popular Liveboards (Popular Liveboards Last 30 Days, Top 10 Liveboards Ratio by Views, Top 10 Liveboards Ratio by Users)
 ** user actions in the last month (User Actions Last 4 Weeks)
 ** unused Answers and Liveboards (Abandoned Answers, Abandoned Liveboards)
