@@ -10,7 +10,7 @@ You can now create custom groups, which can be used to classify values in a list
 
 NOTE: Custom groups are in early access and off by default. The early access version of custom groups is focused on query generation and reusability. To enable this feature, contact {support-url}.
 
-To create a custom group, first define the business question you wish to answer. For example, you may have a data set containing the complete list of products available from a certain chain of stores. You may want to find out which products are most popular, and define them by sales volume as “gold”, “silver”, or “bronze” level products. To create a column showcasing this defined list of values, follow these steps:
+To create a custom group, first define the business question you wish to answer. For example, you may have a data set containing the complete list of products available from a certain chain of stores. You may want to find out which products are most popular, and define them by sales volume as "gold", "silver", or "bronze" level products. To create a column showcasing this defined list of values, follow these steps:
 
 . Navigate to the *Search Data* page by clicking the *Search data* button in the top navigation bar.
 
@@ -32,5 +32,3 @@ To create a custom group, first define the business question you wish to answer.
 .. Default group for all other values: This option is only necessary if you used a filter on the anchor column to take out unwanted values. In this example there are no unwanted values, so you can leave it blank.
 
 . Click *Save*.
-
-

@@ -15,13 +15,13 @@ The `last_value` and `first_value` functions leverage the equivalent SQL functio
 
 The basic syntax of the last_value function is: `last_value(operation(measure or attribute),query_groups(),{column to order by})`. For example: `last_value(sum(balance),query_groups(),{transaction date})`.
 
-The first argument, “sum(balance)” identifies the aggregate type and the measure column. The second argument, “query_groups”, partitions the data by column list; Use query_groups so that all columns in the search bar are included. The final argument “{transaction date}” orders the results by that column.
+The first argument, "sum(balance)" identifies the aggregate type and the measure column. The second argument, "query_groups", partitions the data by column list; Use query_groups so that all columns in the search bar are included. The final argument, "{transaction date}", orders the results by that column.
 
 Note that `last_value` and `first_value` functions support the `query_groups() + ()` and `query groups() - ()` arguments like group aggregate functions do. You can enter multiple columns in the third argument.
 
 You can include an outer aggregate function wrapping around the last_value function. If you don’t supply an outer aggregate, the aggregation defaults to SUM for numeric columns and MAX for non-numeric columns. You can use simple aggregates like sum, min, max, average, or advanced aggregates like group_average, moving_sum, and cumulative_sum.
 
-If you do not specify an outer aggregate function in your formula, you can also add it from the search bar by entering “max”, “min”, “sum”, etc.
+If you do not specify an outer aggregate function in your formula, you can also add it from the search bar by entering "max", "min", "sum", etc.
 
 
 Consider the following example formulas:
@@ -52,7 +52,7 @@ For the following examples, consider a schema where the Stock Balances fact tabl
 
 [#stock-balances]
 .Stock Balances Fact
-[options=”header”]
+[options="header"]
 |===
 | date | sku | balance
 
@@ -79,7 +79,7 @@ For the following examples, consider a schema where the Stock Balances fact tabl
 
 [#date-dim]
 .Date Dimension
-[options=”header”]
+[options="header"]
 |===
 | date
 |1st Jan
@@ -98,7 +98,7 @@ For the following examples, consider a schema where the Stock Balances fact tabl
 |===
 
 .Product Dimension
-[options=”header”]
+[options="header"]
 |===
 | sku | product | category | group
 | ctr1 | red t-shirt | t-shirts | clothing
@@ -119,7 +119,7 @@ If you search for `stock balance` `yearly`, the formula sums the balance values 
 
 If you search for `stock balance` `group` `january`, the formula sums the balance for the last date in the dataset, filtered for January, and separated by group. The formula returns the following table:
 
-[options=”header”]
+[options="header"]
 |===
 | date | balance | group
 | 31st Jan | 8 | footwear
@@ -128,7 +128,7 @@ If you search for `stock balance` `group` `january`, the formula sums the balanc
 
 If you search for `stock balance` `weekly` `january` `group`, the formula shows the sum of all balance values for the last week for each group, filtered by january, and separated by group:
 
-[options=”header”]
+[options="header"]
 |===
 | date | balance | group
 | 7th Jan | 0 | clothing
@@ -140,7 +140,7 @@ If you search for `stock balance` `weekly` `january` `group`, the formula shows 
 
 Note that null or missing transaction data entries are not the same as zero-value data entries. If the balance shows as 0, a balancing transaction took place. Missing or null entries do not show as results for `last_value` or `first_value` functions. If you prefer to zero out the balance for a period, you must enter the data as a zero in the underlying data set for the final date of the period. In this case, you would enter the following data in the Stock Balances fact table:
 
-[options=”header”]
+[options="header"]
 |===
 | date | sku | balance
 | 31st Dec | ctr1 | 0
@@ -149,7 +149,7 @@ Note that null or missing transaction data entries are not the same as zero-valu
 
 Note that groups with separate last values can affect your results. If you search for `stock balance` `monthly`, ThoughtSpot returns the sum of all the balance values for the last date in each month. In this case, you get the following table:
 
-[options=”header”]
+[options="header"]
 |===
 | date | balance
 | January | 12
@@ -162,7 +162,7 @@ Note that the balance for March is the balance for the last date in the data set
 
 If you instead search for `stock balance` `monthly` `group`, ThoughtSpot returns a sum of all the balances for the last date in each month *for each group*. For March, this includes the values from March 31st and March 22nd, since the formula sums the individual values for each column. You get the following table:
 
-[options=”header”]
+[options="header"]
 |===
 | date | balance
 | January | 12

@@ -263,7 +263,7 @@ For help troubleshooting issues with your dbt sync, see https://community.though
 [#error]
 For a full list of dbt errors, see the following table:
 
-[options=”header”]
+[options="header"]
 |===
 | Error ID | Error message
 

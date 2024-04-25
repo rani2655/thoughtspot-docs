@@ -12,7 +12,7 @@ Sometimes, you want to model data for search using a model that captures both th
 
 We recommend using surrogate keys to model slowly-changing dimensions. Surrogate keys are when fact and dimensional tables are joined on the key column rather than on the product unique identifier. For the following table, the surrogate key is the `Productscdkey` column:
 
-[options=”header”]
+[options="header"]
 |===
 | Productscdkey | Productid | Product Name | Partition Date
 | 1_1 | 1 | name1_1 | 01/07/2023
@@ -44,7 +44,7 @@ We do not recommend data models which include slow-changing dimension attributes
 
 Consider the following table:
 
-[options=”header”]
+[options="header"]
 |===
 | Date | Productid | Storeid | Balance | Currentprice | Markdownflag | Regularprice
 | 01/01/2023 | 1 | 1 | 10 | 9 | c | 10
@@ -58,7 +58,7 @@ Consider the following table:
 
 The correct result for the last value of this balance on a weekly granularity is:
 
-[options=”header”]
+[options="header"]
 |===
 | Weekly Transaction Date | Product Name | Total Balance | Partition Date
 | 12/26/2022 | name1 | 10 | 01/01/2023
@@ -70,7 +70,7 @@ Here, ThoughtSpot displays the weekly transaction date as the first date of the 
 However, if you include the attributes `current price` `markdown flag` `regular price` in your search, the following table results:
 
 [#anti-pattern]
-[options=”header”]
+[options="header"]
 |===
 | Weekly Transaction Date | Product Name | Current Price | Markdown flag | Regular Price | Total Balance
 | 12/26/2022 | name1 | 9 | c | 10 | 10
