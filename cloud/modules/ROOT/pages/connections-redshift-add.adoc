@@ -142,6 +142,7 @@ Note that to remove share access from a connection, you must navigate to the *Sh
 > * xref:connections-redshift-external-tables.adoc[]
 > * xref:connections-redshift-private-link.adoc[]
 > * xref:connections-redshift-partner.adoc[Redshift Partner Connect overview]
+> * xref:connections-redshift-aws-idc-oauth.adoc[]
 > * xref:connections-redshift-azure-ad-oauth.adoc[]
 > * xref:connections-query-tags.adoc#tag-redshift[ThoughtSpot query tags in Redshift]
 > * xref:connections-redshift-passthrough.adoc[]

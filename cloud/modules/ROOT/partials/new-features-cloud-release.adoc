@@ -97,7 +97,8 @@ ThoughtSpot now supports secondary role configuration when you create a Snowflak
 For more information on primary and secondary roles, see link:https://docs.snowflake.com/en/user-guide/security-access-control-overview#enforcement-model-with-primary-role-and-secondary-roles[Enforcement model with primary role and secondary roles] and xref:connections-snowflake-add.adoc#secondary[Add a Snowflake connection].
 
 // Naomi - SCAL-203459
-Redshift AWS IDC OAuth:: We now support Redshift connections using AWS IDC OAuth.
+Redshift AWS IDC OAuth:: We now support Redshift connections using AWS IDC OAuth. For more information, see
+xref:connections-redshift-aws-idc-oauth.adoc[Configure AWS IDC OAuth for a Redshift connection].
 
 // Naomi – SCAL-179763. documentation JIRA scal-201642.
 User Adoption Liveboard::
