@@ -19,7 +19,7 @@ When you receive an email alert about a threshold or scheduled alert, ThoughtSpo
 
 Monitor for KPIs is part of the xref:answer-experience-new.adoc[new answer experience]. From the *Monitor* tab, you can view and manage all KPI alerts you create or subscribe to. You can customize other aspects of the alert email, such as the email address ThoughtSpot sends it from, from the *Onboarding* section of the Admin Console. Refer to xref:onboarding-email-settings.adoc[].
 
-ThoughtSpot supports cluster-level admin controls for upper-limit monitoring frequency (option available under *Admin > Search & SpotIQ > SpotIQ Settings*). For example, if your admin defines “Shortest time period to check alerts” as “weekly,” then you will not see “hourly” or “daily” options when you create an alert.
+ThoughtSpot supports cluster-level admin controls for upper-limit monitoring frequency (option available under *Admin > Search & SpotIQ > SpotIQ Settings*). For example, if your admin defines "Shortest time period to check alerts" as "weekly", then you will not see "hourly" or "daily" options when you create an alert.
 
 [#threshold-based-alert]
 == Create a threshold-based KPI alert
@@ -70,7 +70,7 @@ NOTE: You must have _view_ access to the data source underlying the KPI to sched
 . Select *Create alert*.
 . The *Add view access* window appears. If you have added subscribers to your KPI alert that do not have view access to the underlying data source, you can remove them from your KPI alert or give them view access here.
 +
-NOTE: Row-level security applies to your KPI alert subscriptions. For example, if you create a threshold-based alert for a KPI on `Sales` in all regions, you receive a notification when total sales reaches your defined threshold. Another user subscribed to your alert whose access is limited to the “West” region would receive an alert _only_ when sales in the “West” region reached the threshold defined in your alert.
+NOTE: Row-level security applies to your KPI alert subscriptions. For example, if you create a threshold-based alert for a KPI on `Sales` in all regions, you receive a notification when total sales reaches your defined threshold. Another user subscribed to your alert whose access is limited to the "West" region would receive an alert _only_ when sales in the "West" region reached the threshold defined in your alert.
 
 . Select *Done*.
 
@@ -98,7 +98,7 @@ NOTE: When you schedule an alert for a KPI within a Liveboard, you must save any
 .. If **Daily**, select a time of day to receive an alert notification. ThoughtSpot displays the time zone in which your cluster deploys. [Optional] Choose whether to receive an alert notification on weekends.
 .. If **Weekly**, choose a minimum of one weekday to receive an alert notification. Select a time of day to receive an alert notification.
 .. If **Monthly**, choose a minimum of one date to receive an alert notification. +
-Enter the date as a numerical value or a comma-separated list (for example, “5, 10, 15” to receive an alert on the fifth, tenth and fifteenth of each month). Select a time of day to receive an alert notification.
+Enter the date as a numerical value or a comma-separated list (for example, "5, 10, 15" to receive an alert on the fifth, tenth and fifteenth of each month). Select a time of day to receive an alert notification.
 . Your name automatically appears under **Subscribers**. Enter the names of one or more teammates to subscribe them to your KPI alert schedule.
 +
 NOTE: You must have _view_ access to the data source underlying the KPI to schedule notifications for teammates who also have _view_ access to the data source. You must have _edit_ access to the data source underlying the KPI to schedule notifications for teammates regardless of whether they have access to the data source.
@@ -135,7 +135,7 @@ When creating an alert for a KPI, the following limitations apply:
 - You cannot create an alert for a pinned KPI if your Liveboard contains filters applied through the Liveboard **more options** menu. First, remove the Liveboard filters, then refresh the page before creating a scheduled alert for your KPI.
 - If you modify a pinned KPI visualization using the Liveboard’s Explore mode, you must reset the KPI using the reset button before you can create an alert notification.
 - You cannot create an alert for a pinned KPI visualization if the KPI is in edit mode.
-- Row-level security applies to your KPI alert subscriptions. For example, if you create a threshold-based alert for a KPI on Sales in all regions, you receive a notification when total sales reached your defined threshold. Another user subscribed to your alert whose access is limited to the “West” region would receive an alert _only_ when sales in the “West” region reached the threshold defined in your alert.
+- Row-level security applies to your KPI alert subscriptions. For example, if you create a threshold-based alert for a KPI on Sales in all regions, you receive a notification when total sales reached your defined threshold. Another user subscribed to your alert whose access is limited to the "West" region would receive an alert _only_ when sales in the "West" region reached the threshold defined in your alert.
 
 '''
 > **Related information**

@@ -13,8 +13,8 @@
 These are the changes we made to Free Trial this week:
 
 - We fixed an issue causing row count queries on tables loaded through Connections to run every hour, preventing shutdown. The row count queries now run once every 24 hours.
-- Users eligible to sign up for ThoughtSpot Team Edition now see a “pricing options” banner after login. Banner and left navigation bar now display “pricing options” when users begin signup for Team Edition.
-- Users can enter the *Admin* tab and click on “Get started with Team Edition” to see the Team Edition orientation article.
+- Users eligible to sign up for ThoughtSpot Team Edition now see a "pricing options" banner after login. Banner and left navigation bar now display "pricing options" when users begin signup for Team Edition.
+- Users can enter the *Admin* tab and click on "Get started with Team Edition" to see the Team Edition orientation article.
 +
 image::free-trial-pricing.png[Free trial plan options]
 
