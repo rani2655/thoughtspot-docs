@@ -82,12 +82,6 @@ endif::free-trial-feature[]
 // Naomi. epic: SCAL-159833. doc: SCAL-?
 // PM: Aashna
 
-[#9-12-5-cl-group-agg]
-[discrete]
-=== Group Aggregate: Keywords "Of" and "Percentage of" phase 2
-
-// Naomi. epic: SCAL-147509. doc: SCAL-?
-// PM: Damian
 
 [#9-12-5-cl-shortcuts]
 [discrete]
@@ -199,14 +193,14 @@ endif::free-trial-feature[]
 === dbt integration: deletion of objects with no downstream dependencies
 
 // Naomi. epic: SCAL-177119. doc: SCAL-?
-// PM: Samridh
+// PM: Shruthi
 
 [#9-12-5-cl-dbt-integration]
 [discrete]
 === dbt metricflow integration
 
 // Naomi. epic: SCAL-177118. doc: SCAL-?
-// PM: Samridh
+// PM: Shruthi
 
 [#9-12-5-cl-tml]
 [discrete]
