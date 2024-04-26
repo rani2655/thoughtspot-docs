@@ -49,18 +49,18 @@ ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-12-0-cl-conv-assist]
 [discrete]
-=== Ask Sage [.badge.badge-early-access]#Early Access#
+=== Ask Sage [.badge.badge-beta]#Beta#
 endif::[]
 ifdef::pendo-links[]
 [#9-12-0-cl-conv-assist]
 [discrete]
-=== Ask Sage [.badge.badge-early-access-whats-new]#Early Access#
+=== Ask Sage [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
 // Naomi – SCAL-188039. documentation jira SCAL-201656. rename to ? move up to beginning.
 // PM: Alok
 
-You can now conversationally search ThoughtSpot using natural language on a Liveboard visualization, asking follow-up questions for further clarification or to take your analysis in a new direction. This conversational approach allows you to begin with a simple question, and ask successive questions to refine the answer you receive. ThoughtSpot translates each natural language question into a query, and answers in chart format. To enable this feature, contact your administrator.
+You can now conversationally search ThoughtSpot using natural language on a Liveboard visualization, asking follow-up questions for further clarification or to take your analysis in a new direction. This conversational approach allows you to begin with a simple question, and ask successive questions to refine the answer you receive. ThoughtSpot translates each natural language question into a query, and answers in chart format. To enable this feature, contact {support-url}.
 
 For more information, see
 ifndef::pendo-links[]
