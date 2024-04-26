@@ -10,7 +10,7 @@
 :jira: SCAL-203353, SCAL-203459
 
 
-ThoughtSpot supports AWS IDC OAuth for a {connection} connection. Depending on the identity provider, you need to complete different steps to configure the integration. This is a high-level overview. We recommend following the AWS documentation for how to configure AWS or the link:https://docs.aws.amazon.com/redshift/latest/mgmt/redshift-iam-access-control-native-idp.html[IDP].
+ThoughtSpot supports AWS IDC OAuth for a {connection} connection. Depending on the identity provider, you need to complete different steps to configure the integration. This is a high-level overview. We recommend following the AWS documentation for how to configure AWS or the link:https://docs.aws.amazon.com/redshift/latest/mgmt/redshift-iam-access-control-native-idp.html[IDP]. See: link:https://docs.aws.amazon.com/redshift/latest/mgmt/redshift-iam-access-control-idp-connect.html[Connect Redshift with IAM Identity Center to give users a single sign-on experience].
 
 [#part-1]
 == Prerequisites
