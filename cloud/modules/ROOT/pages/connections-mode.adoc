@@ -6,13 +6,14 @@
 :experimental:
 :connection: Mode
 :description: You can add a connection to a Mode database in ThoughtSpot Cloud, and perform live queries to create Answers and Liveboards.
-:jira: SCAL-176923, SCAL-201296
+:jira: SCAL-176923, SCAL-201296, SCAL-204494 (update from Florian)
+
+For customers that use both {connection} and ThoughtSpot Cloud, the {connection} integration provides a way to expose data prepared using {connection}’s code-first data workflows to your business users in ThoughtSpot, or to your customers using ThoughtSpot Embedded. You can connect to a {connection} Workspace in ThoughtSpot Cloud as if it were a database, using {connection} Datasets as tables, and perform live queries against {connection} to create Answers and Liveboards.
+
+Even if your Datasets in {connection} come from different sources (for example, one from a table in Snowflake and one from a Google Sheet), you can create joins across them in ThoughtSpot worksheets or models. This allows you to create visualizations and Liveboards that mash up data from multiple sources.
 
 
-
-You can connect to a {connection} database in ThoughtSpot Cloud, and perform live queries to create Answers and Liveboards. When you import data from multiple sources into Mode (for example, from tables in Snowflake and Google Sheets), you can combine them into data sets that you can then send to ThoughtSpot. This allows you to create visualizations and Liveboards from multiple sources using one connection.
-
-NOTE: Mode connector is in Early Access and off by default. To enable it, contact your administrator.
+NOTE: {connection} connector is in Early Access and off by default. To enable it, contact your administrator.
 
 
 * xref:connections-mode-add.adoc[Add a connection]
