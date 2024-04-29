@@ -49,13 +49,6 @@ You can now conversationally search ThoughtSpot using natural language on a Live
 +
 For more information, see xref:ask-sage.adoc[Ask Sage].
 
-
-// Naomi -- scal-177005. documentation JIRA scal-201639 (approved).
-Advanced conditional formatting [.badge.badge-early-access-relnotes]#Early Access#::
-In addition to using conditional formatting to visually highlight a threshold in a measure (for example, `sales > 10000`), you can now use conditional formatting to compare a column's measures to another column or to a parameter. For example, if you search for `sales this year` compared to `sales last year`, you can highlight where sales this year were less than last year. You can set multiple conditional formatting rules to a single table. To enable this feature, contact your administrator.
-+
-For more information, see xref:search-conditional-formatting.adoc#advanced-conditional-formatting[Advanced conditional formatting].
-
 // Naomi -- SCAL-153878. documentation jira SCAL-201644.
 Forecasting [.badge.badge-beta-relnotes]#Beta#::
 You can now use SpotIQ analysis to forecast future trends for your KPIs. ThoughtSpot uses machine learning models that learn from past trends, growth, and seasonality to project how the target metric will trend in the future. To enable this feature, contact {support-url}.
