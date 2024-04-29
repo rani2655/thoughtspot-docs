@@ -77,6 +77,22 @@ We made the following enhancements to Sage Coach:
 Collibra integration::
 Collibra integration is now available to all users and on by default. You can now see verification status and descriptions on tables and columns imported from Collibra. This information appears when you click on the corresponding table or column in *Search data*. Once connected, this information is visible to all users. For more information, see xref:catalog-integration-collibra.adoc[Collibra catalog integration].
 
+Email digest::
+ThoughtSpot delivers an email digest to users to provide updates about new and trending Liveboards from their cluster based on total views, favorites, and noteworthy community articles. All users who sign in to ThoughtSpot are automatically subscribed to email digests. Users can manage their preferences for email digests. Administrators can turn this feature on and off, or change the default frequency to weekly, monthly, or quarterly.
+    // Mary – SCAL-179683 Doc JIRA SCAL-201820. move lower possibly?
+// PM: Mohil
+
+Show underlying data sources::
+ThoughtSpot now shows you which data sources are used in a Liveboard. A Liveboard may contain visualizations from many data sources. Authors may choose to use this feature to provide other Liveboard editors with access to the underlying data sources.
+
+The data sources appear in the *Show Liveboard details* modal under *Data source*.
+
+image::data-source.png[Data source]
+
+NOTE: If a data source is unavailable due to permissions, a message appears to indicate that in place of the data source name.
+// Mary – SCAL-190726 Doc JIRA SCAL-201822.
+// PM: Arpit
+
 [#9-12-0-cl-data-engineer]
 === For the Data Engineer
 
