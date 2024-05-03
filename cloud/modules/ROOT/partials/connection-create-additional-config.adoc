@@ -1,4 +1,3 @@
-[#additional-configurations-create]
 == Creating additional configurations for your {connection} connection
 
 When you create your {connection} connection, you enter a default configuration. You can create additional configurations for your {connection} connection. With multiple connections you can do the following:
@@ -9,7 +8,7 @@ When you create your {connection} connection, you enter a default configuration.
 
 .[.badge.badge-early-access]#Early Access#
 ****
-Creating additional configurations for your {connection} connection is an Early Access feature and is disabled by default. To enable it, contact your ThoughtSpot administrator. For more about Early Access features, see xref:release.adoc#early-access[ThoughtSpot Cloud release life cycle].
+Creating additional configurations for your {connection} connection is an Early Access feature and is disabled by default. To enable it, contact your ThoughtSpot administrator. For more about Early Access features, see xref:release-lifecycle.adoc#early-access[ThoughtSpot Cloud release life cycle].
 ****
 
 === Create an additional configuration for your {connection} connection
