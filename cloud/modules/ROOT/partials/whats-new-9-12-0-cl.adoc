@@ -401,21 +401,28 @@ endif::[]
 
 
 
-// ifndef::free-trial-feature[]
-// ifndef::pendo-links[]
-// [#9-12-0-cl-config]
-// [discrete]
-// === Support for multiple configurations per connection[.badge.badge-early-access]#Early Access#
-// endif::[]
-// ifdef::pendo-links[]
-// [#9-12-0-cl-config]
-// [discrete]
-// === Support for multiple configurations per connection [.badge.badge-early-access-whats-new]#Early Access#
-//endif::[]
-// Mark – SCAL-94921
-// PM: ?
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-12-0-cl-config]
+[discrete]
+=== Multiple configurations for Snowflake connections[.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-12-0-cl-config]
+[discrete]
+=== Multiple configurations for Snowflake connections [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+// Mark – SCAL-94921, doc jira: SCAL-136317
+// PM: Aagrhan
 
-
+You can now create multiple configurations for each Snowflake connection. This allows you to allocate a separate Snowflake warehouse for different ThoughtSpot users or groups, eliminating the need to duplicate Liveboards and configure multiple Snowflake connections and helping you with cost tracking and chargeback. You can also use this for your search indexing so that you can control and balance the computing load. In addition, this allows you to easily test a set of Liveboards against different environments (dev, qa, prod), and configure different databases for multi-tenancy / multi-org deployments.
+For more information on primary and secondary roles, see
+ifndef::pendo-links[]
+xref:connections-snowflake-add.adoc#additional-configurations-create[Creating additional configurations for your Snowflake connection].
+endif::[]
+ifdef::pendo-links[]
+xref:connections-snowflake-add.adoc#additional-configurations-create[Creating additional configurations for your Snowflake connection,window=_blank].
+endif::[]
 
 // IT/ Ops Engineer
 
