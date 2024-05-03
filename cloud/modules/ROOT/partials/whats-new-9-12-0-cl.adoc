@@ -429,7 +429,7 @@ ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-12-0-cl-config]
 [discrete]
-=== Multiple configurations for Snowflake connections[.badge.badge-early-access]#Early Access#
+=== Multiple configurations for Snowflake connections [.badge.badge-early-access]#Early Access#
 endif::[]
 ifdef::pendo-links[]
 [#9-12-0-cl-config]
