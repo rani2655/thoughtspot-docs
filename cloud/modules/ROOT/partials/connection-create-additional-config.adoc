@@ -7,6 +7,11 @@ When you create your {connection} connection, you enter a default configuration.
 - Use a different configuration, including Snowflake warehouse for your search indexing so that you can control and balance the computing load.
 - Test a set of Liveboards against different environments (dev, qa, prod), and configure different Snowflake warehouses for multi-tenancy / multi-Org deployments.
 
+.[.badge.badge-early-access]#Early Access#
+****
+Creating additional configurations for your {connection} connection is an Early Access feature and is disabled by default. To enable it, contact your ThoughtSpot administrator. For more about Early Access features, see xref:release.adoc#early-access[ThoughtSpot Cloud release life cycle].
+****
+
 === Create an additional configuration for your {connection} connection
 
 To create an additional configuration for your {connection} connection, do the following:
