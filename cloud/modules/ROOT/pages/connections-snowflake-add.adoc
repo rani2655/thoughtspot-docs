@@ -171,7 +171,7 @@ Note that to remove share access from a connection, you must navigate to the *Sh
 [#additional-configurations-create]
 include::partial$connection-create-additional-config.adoc[]
 
-You can edit additional configurations after you create them. For details, see xref:connections-snowflake-edit.adoc#edit-additional-connections[Edit additional connections of your {connection} connection].
+You can edit additional configurations after you create them, including disabling and deleting them. For details, see xref:connections-snowflake-edit.adoc#edit-additional-connections[Edit additional connections of your {connection} connection].
 
 '''
 > **Related information**
