@@ -440,7 +440,7 @@ endif::[]
 // PM: Aagrhan
 
 You can now create multiple configurations for each Snowflake connection. This allows you to allocate a separate Snowflake warehouse for different ThoughtSpot users or groups, eliminating the need to duplicate Liveboards and configure multiple Snowflake connections and helping you with cost tracking and chargeback. You can also use this for your search indexing so that you can control and balance the computing load. In addition, this allows you to easily test a set of Liveboards against different environments (dev, qa, prod), and configure different databases for multi-tenancy / multi-org deployments.
-For more information on primary and secondary roles, see
+For more information, see
 ifndef::pendo-links[]
 xref:connections-snowflake-add.adoc#additional-configurations-create[Creating additional configurations for your Snowflake connection].
 endif::[]
