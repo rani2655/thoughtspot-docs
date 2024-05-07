@@ -171,7 +171,7 @@ endif::[]
 image:catalog-integration.png[Catalog integration]
 
 
-
+////
 [#9-12-0-cl-email]
 [discrete]
 === Email digest
@@ -181,8 +181,8 @@ Users can manage their preferences for email digests.
 
 Administrators can turn this feature on and off, or change the default frequency to weekly, monthly, or quarterly.
 // Mary – SCAL-179683 Doc JIRA SCAL-201820. move lower possibly?
-// PM: Mohil
-
+// PM: Mohil - Update May 6: Remove from 9.12.0.cl per Mohil
+////
 
 ////
 [#9-12-0-cl-watchlist]
