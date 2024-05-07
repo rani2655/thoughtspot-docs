@@ -501,8 +501,7 @@ endif::[]
 // Mark – doc jira: SCAL-196890
 // PM: Nico
 
-Now you can enable version control of Liveboards and Answers, with the new GIT integration feature. You enable version control for your ThoughtSpot Org by connecting it to a Github repository. Once enabled for the Org, any user with edit access to a Liveboard or Answer can enable version control for it. Each time the user saves changes, a new version of the Liveboard is created and stored in your Github repository. Users can easily browse and restore an older version from the Liveboard or Answer itself.
-
+With the new GIT integration feature, administrators can enable version control of Liveboards and Answers. You enable version control for your ThoughtSpot Org by connecting it to a Github repository. Once enabled for the Org, any user with edit access to a Liveboard or Answer can enable version control for it. Each time a user saves changes, a new version of the Liveboard or Answer is created and stored in your Github repository. Users can easily browse and restore an older version from the Liveboard or Answer itself.
 
 endif::free-trial-feature[]
 
