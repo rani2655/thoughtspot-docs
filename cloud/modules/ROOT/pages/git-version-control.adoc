@@ -3,7 +3,7 @@
 :author: Naomi
 :experimental:
 :linkattrs:
-:page-layout: default-cloud
+:page-layout: default-cloud-early-access
 :description: Certain features supported for ThoughtSpot on AWS are not available for ThoughtSpot on GCP.
 :jira: SCAL-196890
 
