@@ -1,3 +1,4 @@
+[#additional-configurations-create]
 == Creating additional configurations for your {connection} connection
 
 When you create your {connection} connection, you enter a default configuration. You can create additional configurations for your {connection} connection. With multiple connections you can do the following:
