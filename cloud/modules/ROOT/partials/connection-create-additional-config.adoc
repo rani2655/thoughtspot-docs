@@ -44,7 +44,7 @@ Processes::
 Choose this if you want to use this configuration for search indexing. Make sure *Sage indexing* is checked.
 . Click *Continue*.
 +
-Your additional configuration is complete and appears below your connection's name on the Connections page.
+Your additional configuration is complete and appears below your connection's name on the Connections page. 
 +
 image::snowflake_multi_conn2.png[]
 
