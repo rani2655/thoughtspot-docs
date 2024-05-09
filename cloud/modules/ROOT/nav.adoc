@@ -450,7 +450,6 @@
 *** xref:index-statistics-liveboard.adoc[Index Statistics Liveboard]
 *** xref:use-agreement.adoc[ThoughtSpot use agreement]
 ** xref:developer-user.adoc[Developers]
-
 * xref:search.adoc[Search]
 ** xref:search-answers.adoc[Search Answers]
 ** xref:search-data.adoc[Search Data]

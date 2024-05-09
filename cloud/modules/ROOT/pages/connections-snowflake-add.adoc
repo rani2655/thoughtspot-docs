@@ -168,6 +168,7 @@ To share a connection with another user, follow these steps:
 . Select *Done*.
 
 Note that to remove share access from a connection, you must navigate to the *Share connection* dialog and select *Remove access* to the left of the user group or name.
+
 [#additional-configurations-create]
 include::partial$connection-create-additional-config.adoc[]
 
@@ -190,4 +191,4 @@ You can edit additional configurations after you create them, including disablin
 > * xref:connections-snowflake-reference.adoc[Connection reference for {connection}]
 > * xref:connections-query-tags.adoc#tag-snowflake[ThoughtSpot query tags in Snowflake]
 > * xref:connections-snowflake-passthrough.adoc[]
-////
+
