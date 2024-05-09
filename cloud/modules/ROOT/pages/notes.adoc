@@ -3038,7 +3038,7 @@ To access this Worksheet, search for *Product Usage Worksheet* from the *Data* t
 [#may-cloud-developer]
 === For the Developer
 [#custom-actions]
-Custom actions in the context menu::  ThoughtSpot now allows you to add a custom action in the contextual menu for embedded visualizations in the *Answers* or *Liveboards* page.  To add a custom action to the contextual menu, you must have the xref:answer-experience-new.adoc[New Answer experience] [.badge.badge-beta]#Beta# (off by default) enabled on your cluster.  For more information, see xref:custom-actions.adoc[Add custom actions].
+Custom actions in the context menu::  ThoughtSpot now allows you to add a custom action in the contextual menu for embedded visualizations in the *Answers* or *Liveboards* page.  To add a custom action to the contextual menu, you must have the xref:answer-experience-new.adoc[New Answer experience] [.badge.badge-beta]#Beta# (off by default) enabled on your cluster.  For more information, see xref:developer-user.adoc[Custom Actions].
 
 [#viz-embed-sdk]
 Visual Embed SDK Version 1.2.0::  The ThoughtSpot 7 Cloud May release introduces the Visual Embed SDK 1.2.0 version with a minor update and backward-compatible improvements.
@@ -3170,7 +3170,7 @@ Refer to the xref:connections-redshift-private-link.adoc[Redshift] and xref:conn
 === For the Developer
 [#developer-privilege]
 Developer privilege::
-You can now grant groups the xref:privileges-end-user.adoc[Developer privilege] from the Admin Console, allowing users in those groups to access and use the xref:spotdev-portal.adoc[Developer Portal].
+You can now grant groups the xref:privileges-end-user.adoc[Developer privilege] from the Admin Console, allowing users in those groups to access and use the Developer Portal.
 In the Developer Portal, users can explore the ThoughtSpot APIs and developer tools, and build web applications with ThoughtSpot content.
 [#tml-api]
 TML APIs::
@@ -3274,13 +3274,13 @@ Select *App performance* from the side navigation bar in the Admin Console.
 [#thoughtspot-embed]
 ThoughtSpot cloud now supports embedding ThoughtSpot content in third-party applications.
 
-In this release, ThoughtSpot introduces the Visual Embed SDK package [.badge.badge-beta]#Beta# to help developers embed the ThoughtSpot search functionality, Liveboards, visualizations, or the full application in their web page, portal, or business solution.  For more information on embedding ThoughtSpot, see xref:intro-embed.adoc[ThoughtSpot embedding solution].
+In this release, ThoughtSpot introduces the Visual Embed SDK package [.badge.badge-beta]#Beta# to help developers embed the ThoughtSpot search functionality, Liveboards, visualizations, or the full application in their web page, portal, or business solution.  For more information on embedding ThoughtSpot, see xref:developer-user.adoc[ThoughtSpot embedding solution].
 [#spotdev-portal]
 SpotDev portal [.badge.badge-beta-relnotes]#Beta#::
 ThoughtSpot cloud now includes the *SpotDev* portal in beta to allow developer users to explore the ThoughtSpot SDK APIs and build sample applications.
 The *SpotDev* tab in the ThoughtSpot application is available for the users with administrator and developer privileges.
 The *SpotDev* portal provides a playground for developers and product owners to evaluate the Visual Embed APIs and preview the results.
-The portal also allows authorized users to rebrand the embedded content, xref:customization-rebranding.adoc[customize styles], and xref:custom-actions.adoc[add custom menu actions] to the embedded instance. For more information, see xref:spotdev-portal.adoc[SpotDev Portal].
+The portal also allows authorized users to rebrand the embedded content, xref:developer-user.adoc[customize styles], and xref:developer-user.adoc[Custom Actions] to the embedded instance. For more information, see ThoughtSpot Developer Portal.
 
 [#february-2021]
 == ThoughtSpot 7 Cloud February Release (ts7.feb.cl)
