@@ -491,17 +491,23 @@ ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-12-0-cl-git-integration-it]
 [discrete]
-=== GIT integration for version control of Liveboards and Answers [.badge.badge-early-access]#Early Access#
+=== Enabling GIT integration for version control of Liveboards and Answers [.badge.badge-early-access]#Early Access#
 endif::[]
 ifdef::pendo-links[]
 [#9-12-0-cl-git-integration-it]
 [discrete]
-=== GIT integration for version control of Liveboards and Answers [.badge.badge-early-access-whats-new]#Early Access#
+=== Enabling GIT integration for version control of Liveboards and Answers [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 // Mark – doc jira: SCAL-196890
 // PM: Nico
 
-With the new GIT integration feature, administrators can enable version control of Liveboards and Answers. You enable version control for your ThoughtSpot Org by connecting it to a Github repository. Once enabled for the Org, any user with edit access to a Liveboard or Answer can enable version control for it. Each time a user saves changes, a new version of the Liveboard or Answer is created and stored in your Github repository. Users can easily browse and restore an older version from the Liveboard or Answer itself.
+Administrators can now enable version control of Liveboards and Answers. You enable version control for your ThoughtSpot Org by connecting it to a Github repository. Once enabled for the Org, version control can be enabled individually for any Liveboard or Answer. Each time a user saves changes, a new version of the Liveboard or Answer is created and stored in your Github repository. Users can easily browse and restore an older version from the Liveboard or Answer itself. For more information, see
+ifndef::pendo-links[]
+xref:git-version-control.adoc[Version control for Liveboards and Answers].
+endif::pendo-links[]
+ifdef::pendo-links[]
+xref:git-version-control.adoc[Version control for Liveboards and Answers,window=_blank].
+endif::pendo-links[]
 
 endif::free-trial-feature[]
 
