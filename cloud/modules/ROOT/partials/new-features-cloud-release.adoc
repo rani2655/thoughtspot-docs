@@ -16,7 +16,7 @@ For these instructions, see xref:ts-cloud-getting-started.adoc[Getting Started w
 [#9-12-0-cl-analyst]
 === For the Analyst
 
-// Naomi – SCAL-181312. documentation JIRA scal-201645.
+// Naomi – SCAL-181312. documentation JIRA scal-201645. 
 Remember personalized columns in change analysis::
 Personalized columns are now available to all users and on by default. Users with edit permissions on a Liveboard can set their preferred attribute columns through the change analysis window and select *Apply to all users* to keep those selections for any subsequent change analysis calculations on that Liveboard. Individual users can still override these preferences for their own calculations. +
 For more information, see
