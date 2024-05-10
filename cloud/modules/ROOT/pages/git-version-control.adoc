@@ -77,7 +77,7 @@ Version control is now enabled for your Org. In order for version control to be 
 To enable version control on a Liveboard or Answer, the following is required:
 
 * Admin or Developer privilege
-* Edit permission on the Liveboard or Answer
+* Edit permission on the Liveboard or Answer and the underlying datasource(s)
 
 === Enabling version control for a Liveboard or Answer
 
