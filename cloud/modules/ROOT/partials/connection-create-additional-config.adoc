@@ -1,10 +1,10 @@
 [#additional-configurations-create]
 == Creating additional configurations for your {connection} connection
 
-When you create your {connection} connection, you enter a default configuration. You can create additional configurations for your {connection} connection. With multiple connections you can do the following:
+When you create your {connection} connection, you enter a default configuration. You can create additional configurations for your {connection} connection. With additional configurations you can do the following:
 
 - Configure a separate Snowflake warehouse for specific ThoughtSpot users or groups, eliminating the need to duplicate Liveboards and configure multiple Snowflake connections. This can help you with cost tracking and chargeback.
-- Use a different configuration, including Snowflake warehouse for your search indexing so that you can control and balance the computing load.
+- Use a different configuration, including Snowflake warehouse, for your search indexing so that you can control and balance the computing load.
 - Test a set of Liveboards against different environments (dev, qa, prod), and configure different Snowflake warehouses for multi-tenancy / multi-Org deployments.
 
 .[.badge.badge-early-access]#Early Access#

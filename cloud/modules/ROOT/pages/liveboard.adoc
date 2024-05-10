@@ -4,9 +4,8 @@
 :linkattrs:
 :page-layout: default-cloud
 :page-aliases: /end-user/pinboard/about-pinboards.adoc
+:feature: Liveboard
 :description: Create a new Liveboard to group and manage related search results. Liveboards are the ThoughtSpot term for a dashboard.
-
-
 
 Liveboards act like live dashboards.
 They are collections of your related charts, tables, and headlines.
@@ -126,6 +125,9 @@ To learn more about Liveboard tabs, refer to xref:liveboard-tabs.adoc[Liveboard 
 As you work with Liveboard visualizations, you may want to undo or redo an action. Use the in-product undo, redo, and reset buttons to reset or go back or forward 1 step each time you make a change in a search, saved Answer, or Liveboard visualization (for example, when you drill down, or sort). These buttons appear to the left of the *Explore* button in a Liveboard visualization. Note that the reset button is only available for saved Answers and visualizations; it resets the Answer to its last saved state.
 
 image::liveboard-viz-reset-new.png[Undo, redo, and reset buttons]
+
+[#version-history]
+include::partial$version-control.adoc[]
 
 == Other Liveboard actions
 
