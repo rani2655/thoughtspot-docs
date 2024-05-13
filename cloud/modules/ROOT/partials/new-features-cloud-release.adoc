@@ -149,9 +149,11 @@ User Adoption Liveboard::
 You can now use the User Adoption Liveboard to understand how ThoughtSpot is saving you time with ad-hoc insights, and how many users are accessing ThoughtSpot and creating new insights every month. For more information, see
 xref:user-adoption.adoc[User Adoption Liveboard] and xref:user-productivity.adoc[].
 
+////
 // Naomi – SCAL-148626. documentation jira SCAL-202207 (approved). SCAL-132544. documentation jira SCAL-202209 (approved)
 Connection TML::
 You can now use the table TML file to make changes to connection details like remapping columns and changing data type, rather than using the connection.yaml file. This allows you to make small changes to a Connection without the need to resolve all possible errors first. You can also edit or export the Connection TML file from the Data Workspace.
+////
 
 Enabling GIT integration for version control of Liveboards and Answers [.badge.badge-early-access-relnotes]#Early Access#::
 // Mark – doc jira: SCAL-196890

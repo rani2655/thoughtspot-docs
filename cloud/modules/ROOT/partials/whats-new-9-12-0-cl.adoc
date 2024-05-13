@@ -57,7 +57,7 @@ ifdef::pendo-links[]
 === Ask Sage [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
-// Naomi – SCAL-188039. documentation jira SCAL-201656. rename to ? move up to beginning.
+// Naomi – SCAL-188039. documentation jira SCAL-201656 (approved). rename to ? move up to beginning.
 // PM: Alok
 
 You can now conversationally search ThoughtSpot using natural language on a Liveboard visualization, asking follow-up questions for further clarification or to take your analysis in a new direction. This conversational approach allows you to begin with a simple question, and ask successive questions to refine the answer you receive. ThoughtSpot translates each natural language question into a query, and answers in chart format. To enable this feature, contact {support-url}.
@@ -74,6 +74,7 @@ image::ask-sage-save.gif[Ask Sage]
 
 endif::free-trial-feature[]
 
+////
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-10-0-cl-conditional]
@@ -102,7 +103,7 @@ endif::[]
 
 image::advanced-conditional-formatting.gif[Advanced conditional formatting comparing sales of state to sales of region]
 endif::free-trial-feature[]
-
+////
 
 
 ifndef::free-trial-feature[]
@@ -279,7 +280,7 @@ ifdef::pendo-links[]
 [discrete]
 === Drill down in change analysis [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
-// Naomi – SCAL-176265. documentation JIRA scal-201646. image.
+// Naomi – SCAL-176265. documentation JIRA scal-201646 (approved). image.
 // PM: Vikas
 
 You can now drill down on specific columns in change analysis, in order to identify change drivers within your data. For example, if you run an analysis on sales monthly and find out that the 'jacket' item type changed the most, you can easily drill down on jacket sales and identify which region contributed the most to the change in sales. To enable this feature, contact your administrator.
@@ -344,7 +345,7 @@ ifdef::pendo-links[]
 [discrete]
 === Semi-additive measures with first and last values [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
-// Naomi – SCAL-180544. documentation JIRA SCAL-204538 (approved)
+// Naomi – SCAL-180544. documentation JIRA SCAL-204538  (approved)
 // PM: Damian
 
 A semi-additive measure, also known as snapshot data, is a measure that is usually aggregated for all attributes except for date and time. For certain measures, like inventory, you want to know what the value was at the beginning or end of a period. In that case, you can use the `last_value` function to find the inventory at the end of a month, rather than aggregating all values over the month. Similarly, you can use the `first_value` function to find out your stock at the beginning of a month. To enable this feature, contact your administrator.
@@ -443,7 +444,7 @@ endif::[]
 [#9-12-0-cl-secondary]
 [discrete]
 === Snowflake secondary role configuration for External OAuth
-// Naomi – SCAL-191462, documentation jira scal-196178
+// Naomi – SCAL-191462, documentation jira scal-196178 (approved)
 // PM: Aaghran
 
 
@@ -527,7 +528,7 @@ endif::free-trial-feature[]
 [#9-12-0-cl-user-adoption]
 [discrete]
 === User Adoption Liveboard
-// Naomi – SCAL-179763. documentation JIRA scal-201642, scal-201214. confirm title -- is this a new Liveboard or an enhancement to Object Usage Liveboard. confirm with Mohil.
+// Naomi – SCAL-179763. documentation JIRA scal-201642 (approved), scal-201214 (approved). confirm title -- is this a new Liveboard or an enhancement to Object Usage Liveboard. confirm with Mohil.
 // PM: Mohil
 
 You can now use the User Adoption Liveboard to understand how ThoughtSpot is saving you time with ad-hoc insights, and how many users are accessing ThoughtSpot and creating new insights every month. For more information, see
@@ -548,7 +549,7 @@ endif::pendo-links[]
 You can now use the Sage Adoption Liveboard, previously named the How users are searching Answers Liveboard, to monitor how users are searching on both Search Data and Natural Language Search.
 ////
 
-
+////
 [#9-12-0-cl-connection-tml]
 [discrete]
 === Connection TML
@@ -556,7 +557,7 @@ You can now use the Sage Adoption Liveboard, previously named the How users are 
 // PM: Samridh
 
 You can now use the table TML file to make changes to connection details like remapping columns and changing data type, rather than using the connection.yaml file. This allows you to make small changes to a Connection without the need to resolve all possible errors first. You can also edit or export the Connection TML file from the Data Workspace.
-
+////
 
 
 ////
