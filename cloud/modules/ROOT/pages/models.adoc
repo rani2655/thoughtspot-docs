@@ -5,7 +5,7 @@
 :page-layout: default-cloud-early-access
 :description: Models are logical views created on top of a more complex data model, to enable business users to more easily consume data.
 :model: Model
-:jira: SCAL-158357, SCAL-194041 (9.10.5 -drag to create joins), SCAL-194038 (9.10.5 - bulk edit column properties). SCAL-189664 (remove spotapps - removed from image in step 3 of creating a model. SCAL-202208 (sort and filter in columns grid - 9.12.0.cl)
+    :jira: SCAL-158357, SCAL-194041 (9.10.5 -drag to create joins), SCAL-194038 (9.10.5 - bulk edit column properties). SCAL-189664 (remove spotapps - removed from image in step 3 of creating a model. SCAL-202208 (sort and filter in columns grid - 9.12.0.cl)
 
 == Introducing Models
 
@@ -211,7 +211,7 @@ image::models_sort_filter_2.png[]
 +
 You can delete the filter by hovering over the label and clicking the (X).
 +
-In the _Edit filter_ window, you can also edit filters, with the following options:
+In the _Edit filter_ window, you also have the following options to use when editing or adding a filter:
 
 - Select all
 - Clear

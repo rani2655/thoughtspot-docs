@@ -64,7 +64,7 @@ You can xref:chart-table-change.adoc[change the view] to fit your needs.
 
 To add a formula, parameter or column set to your search, do the following:
 
-* At the top of the data panel, click the *+ Add* and select any of the following:
+* At the top of the data panel, click *+ Add* and select any of the following:
 
 ** Formula
 ** Parameter
@@ -81,9 +81,14 @@ After you add a formula, parameter, or column set, you can edit it by doing the 
 +
 The options available for each include:
 
-- Formula: Edit or delete
-- Column sets: Add as filter, edit, or delete
-- Parameter
+- Formula:
+** Edit
+** Delete
+- Column set:
+** Add as filter
+** Edit
+** Delete
+- Parameter:
 ** Answer-level: Change value, edit, or delete
 ** Worksheet-level: Change the value
 
