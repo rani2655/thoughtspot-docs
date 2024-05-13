@@ -211,6 +211,8 @@ The data sources appear in the *Show Liveboard details* modal under *Data source
 image::data-source.png[Data source]
 
 NOTE: If a data source is unavailable due to permissions, a message appears to indicate that in place of the data source name.
+
+For more information, see xref:liveboard.adoc[Details about a Liveboard].
 // Mary – SCAL-190726 Doc JIRA SCAL-201822.
 // PM: Arpit
 
@@ -218,6 +220,7 @@ NOTE: If a data source is unavailable due to permissions, a message appears to i
 [discrete]
 === Support for Excel (XLSX) attachments in Scheduled Liveboards
 ThoughtSpot introduces support for scheduling Liveboards with Excel (XLSX) attachments, in addition to the existing PDF and CSV options. This allows users to explore tabular data from these reports by using the XLSX data files.
+For more information, see xref:liveboard-schedule.adoc[Schedule a Liveboard job].
 // Mary – SCAL-140254 Doc JIRA SCAL-201825 . call out Excel explicitly. fix title.
 // PM: Arpit
 
@@ -231,9 +234,13 @@ ThoughtSpot introduces support for scheduling Liveboards with Excel (XLSX) attac
 [#9-12-0-cl-filters]
 [discrete]
 === Filters are now available for Liveboards with hidden columns included in a visualization
-You can now interact with filters on Liveboards  that have visualizations that include hidden columns, or a formula created from a hidden column.
+You can now change the filter values on Liveboards  that have visualizations that include hidden columns, or a formula created from a hidden column.
 
 Liveboard filters are now accessible to all users who have view or edit permissions to the underlying data source.
+
+NOTE: Previously, users who did not have edit access to the underlying worksheet of a Liveboard with filters, could not update the Liveboard filters if the Liveboard used a hidden column. This was the case even if the user had view access to the underlying worksheets.
+
+For more information, see xref:liveboard-filters.adoc[Livebaord filters].
 // Mary – SCAL-157372 Doc JIRA SCAL-201823
 // PM: Arpit
 
