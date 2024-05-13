@@ -52,7 +52,7 @@ Alert and subscription emails are not sent.
 
 *Conditions*:
 
-KPI with a single datapoint.
+KPI comparison with a single datapoint.
 
 *Workaround*:
 
@@ -82,5 +82,5 @@ Chart with forecasting feature enabled.
 
 *Workaround*:
 
-None.
+Contact support to disable the forecasting feature.
 |===
