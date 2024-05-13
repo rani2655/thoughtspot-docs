@@ -98,3 +98,4 @@ Please ensure you have sufficient data points visualized in your time-series met
 * Forecasting can only be done on charts whose data sources are cloud data warehouses.
 * You need at least 15 data points in your time series KPI to forecast.
 * Time-series forecasting is not supported on the Google cloud platform (GCP) yet.
+* Forecasting is not supported on datasets that have xref:connections-cust-cal.adoc[custom calendar] configurations.
