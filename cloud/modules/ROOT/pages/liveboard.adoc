@@ -86,7 +86,7 @@ You can view the following details about a Liveboard:
 |===
 |Name | Name of the Liveboard.
 |Description | Short description of the Liveboard.
-|Data source a| List of underlying data sources used in the Liveboard.
+|Data source a| Indicates the list of underlying data sources used to create the visualizations in the Liveboard.
 
 NOTE: If you don't have access to the underlying data source, a message appears to indicate this.
 
