@@ -406,4 +406,5 @@ To implement role-playing dimensions with Models, do the following in the Model 
 +
 It will appear as a new table (with the alias assigned in step 4) on the left panel in the *Columns* tab of the model. You can tell it's a role-playing dimension because the original table name appears in parentheses *()* next to the new name.
 
-CAUTION: Copies/aliases of tables that are on the "many" side of a join are not supported in models.
+CAUTION: Copies/aliases of tables that are on the "many" side of a join are not supported in {model}s.
+
