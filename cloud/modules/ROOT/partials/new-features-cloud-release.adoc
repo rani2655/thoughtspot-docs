@@ -44,7 +44,7 @@ We made the following enhancements to ThoughtSpot Sync:
 === For the Business User
 
 // Naomi – SCAL-188039. documentation jira SCAL-201656.
-Ask Sage [.badge.badge-early-access-relnotes]#Early Access#::
+Ask Sage [.badge.badge-beta-relnotes]#Beta#::
 You can now conversationally search ThoughtSpot using natural language on a Liveboard visualization, asking follow-up questions for further clarification or to take your analysis in a new direction. This conversational approach allows you to begin with a simple question, and ask successive questions to refine the answer you receive. ThoughtSpot translates each natural language question into a query, and answers in chart format. To enable this feature, contact your administrator.
 +
 For more information, see xref:ask-sage.adoc[Ask Sage].
