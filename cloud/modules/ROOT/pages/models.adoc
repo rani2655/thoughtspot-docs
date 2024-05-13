@@ -1,11 +1,11 @@
 = Create Models
-:last_updated: 4/16/2024
+:last_updated: 5/13/2024
 :linkattrs:
 :experimental:
 :page-layout: default-cloud-early-access
 :description: Models are logical views created on top of a more complex data model, to enable business users to more easily consume data.
 :model: Model
-:jira: SCAL-158357, SCAL-194041 (9.12.5 -drag to create joins), SCAL-194038 (9.12.5 - bulk edit column properties). SCAL-189664 (remove spotapps - removed from image in step 3 of creating a model.
+:jira: SCAL-158357, SCAL-194041 (9.10.5 -drag to create joins), SCAL-194038 (9.10.5 - bulk edit column properties). SCAL-189664 (remove spotapps - removed from image in step 3 of creating a model. SCAL-202208 (sort and filter in columns grid - 9.12.0.cl)
 
 == Introducing Models
 
@@ -185,6 +185,41 @@ You are prompted to edit the title and description of your {model}.
 +
 Your model is saved, and you have the option to add formulas, filters, parameters, and adjust settings.
 . If you don't want to add those now, select *Exit data model*.
+
+==== Sorting and filtering columns
+
+You have the option to sort any column in ascending or descending order, as well as apply a filter to a column by selecting possible values of the column.
+
+image::models_sort_filter.png[]
+
+
+
+To sort a column, do the following:
+
+. Click a column heading
+. From the pop-up menu, select either *Sort ascending* or *Sort descending*.
+
+To filter a column, do the following:
+
+. Click a column heading
+. From the pop-up menu, select *Filter*.
+. In the _Edit filter_ window, select the values you want to filter by and click *Apply*.
++
+A label appears above the table indicating the values used to filter the column.
++
+image::models_sort_filter_2.png[]
++
+You can delete the filter by hovering over the label and clicking the (X).
++
+In the _Edit filter_ window, you can also edit filters, with the following options:
+
+- Select all
+- Clear
+- Search
+- Show selected
+
++
+NOTE: Sort and filter states are not saved when you save your Model, however they do persist when you switch between tabs of the {model} editor.
 
 === Adding formulas
 
@@ -369,3 +404,4 @@ To implement role-playing dimensions with Models, do the following in the Model 
 +
 It will appear as a new table (with the alias assigned in step 4) on the left panel in the *Columns* tab of the model. You can tell it's a role-playing dimension because the original table name appears in parentheses *()* next to the new name.
 
+CAUTION: Copies/aliases of tables that are on the "many" side of a join are not supported in models.
