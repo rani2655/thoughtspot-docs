@@ -44,7 +44,7 @@ See <<limitations,Limitations of working with TML files>> for more information a
 <<connection,connection>> :
   <<name,name>>: <connection_name>
  <<type,type>>: <connection_type>
-<<authentication_type>>: [ SERVICE_ACCOUNT, OAUTH]
+<<authentication_type,authentication_type>>: [SERVICE_ACCOUNT, OAUTH]
 <<properties,properties>>:
 <<key,key>>: <accountName>
 <<value,value>>: <account_name>
@@ -68,7 +68,7 @@ These parameters and their definitions are specific to {object}; this list doesn
 
 [width="100%",grid="none",options="header"]
 |===
-| a - e | f - k| n - v
+| a - e | f - k | n - v
 a| <<authentication_type,authentication_type>>
 
 <<connection,connection>>
