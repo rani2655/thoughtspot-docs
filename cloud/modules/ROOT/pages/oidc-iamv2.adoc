@@ -1,8 +1,8 @@
-=  Managing authentication with OIDC using IAMv2 [.badge.badge-early-access]#Early Access#
+= Managing authentication with OIDC using IAMv2
 :last_updated: 12/2/2024
 :linkattrs:
 :experimental:
-:page-layout: default-cloud
+:page-layout: default-cloud-early-access
 :description: Learn how to integrate with OIDC for authentication.
 
 
