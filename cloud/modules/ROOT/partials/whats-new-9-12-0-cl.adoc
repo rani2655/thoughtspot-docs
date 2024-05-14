@@ -549,15 +549,21 @@ endif::pendo-links[]
 You can now use the Sage Adoption Liveboard, previously named the How users are searching Answers Liveboard, to monitor how users are searching on both Search Data and Natural Language Search.
 ////
 
-////
+
 [#9-12-0-cl-connection-tml]
 [discrete]
 === Connection TML
 // Naomi – SCAL-148626. documentation jira SCAL-202207 (approved). SCAL-132544. documentation jira SCAL-202209 (approved) waiting on info
 // PM: Samridh
 
-You can now use the table TML file to make changes to connection details like remapping columns and changing data type, rather than using the connection.yaml file. This allows you to make small changes to a Connection without the need to resolve all possible errors first. You can also edit or export the Connection TML file from the Data Workspace.
-////
+You can now use the table TML file to make changes to connection details like remapping columns and changing data type, rather than using the connection.yaml file. This allows you to make small changes to a Connection without the need to resolve all possible errors first. You can also edit or export the Connection TML file from the Data Workspace. For more information, see
+ifndef::pendo-links[]
+xref:tml-connections.adoc[TML for connections].
+endif::[]
+ifdef::pendo-links[]
+xref:tml-connections.adoc[TML for connections,window=_blank].
+endif::[]
+
 
 
 ////
