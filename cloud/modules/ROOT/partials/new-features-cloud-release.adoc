@@ -140,7 +140,7 @@ Multiple configurations for Snowflake connections [.badge.badge-early-access-rel
 You can now create multiple configurations for each Snowflake connection. This allows you to allocate a separate Snowflake warehouse for different ThoughtSpot users or groups, eliminating the need to duplicate Liveboards and configure multiple Snowflake connections and helping you with cost tracking and chargeback. You can also use this for your search indexing so that you can control and balance the computing load. In addition, this allows you to easily test a set of Liveboards against different environments (dev, qa, prod), and configure different databases for multi-tenancy / multi-org deployments.
 For more information, see xref:connections-snowflake-add.adoc#additional-configurations-create[Creating additional configurations for your Snowflake connection].
 
-// Naomi - SCAL-203459
+// Naomi - Doc jira: SCAL-203459
 Redshift AWS IDC OAuth:: We now support Redshift connections using AWS IDC OAuth. For more information, see
 xref:connections-redshift-aws-idc-oauth.adoc[Configure AWS IDC OAuth for a Redshift connection].
 
