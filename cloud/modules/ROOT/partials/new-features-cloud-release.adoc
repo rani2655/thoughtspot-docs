@@ -134,7 +134,7 @@ ThoughtSpot now supports secondary role configuration when you create a Snowflak
 +
 For more information on primary and secondary roles, see link:https://docs.snowflake.com/en/user-guide/security-access-control-overview#enforcement-model-with-primary-role-and-secondary-roles[Enforcement model with primary role and secondary roles] and xref:connections-snowflake-add.adoc#secondary[Add a Snowflake connection].
 
-Multiple configurations for Snowflake connections [.badge.badge-early-access--relnotes]#Early Access#::
+Multiple configurations for Snowflake connections [.badge.badge-early-access-relnotes]#Early Access#::
 // Mark – SCAL-94921, doc jira: SCAL-136317
 // PM: Aagrhan
 You can now create multiple configurations for each Snowflake connection. This allows you to allocate a separate Snowflake warehouse for different ThoughtSpot users or groups, eliminating the need to duplicate Liveboards and configure multiple Snowflake connections and helping you with cost tracking and chargeback. You can also use this for your search indexing so that you can control and balance the computing load. In addition, this allows you to easily test a set of Liveboards against different environments (dev, qa, prod), and configure different databases for multi-tenancy / multi-org deployments.
