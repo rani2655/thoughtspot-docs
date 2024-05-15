@@ -14,6 +14,7 @@
 ** xref:user-account-activation-okta.adoc[Activate your account using IAMv2]
 ** xref:user-onboarding-experience.adoc[User onboarding experience]
 ** xref:navigating-thoughtspot.adoc[Finding your way around]
+** xref:thoughtspot-homepage.adoc[] +++<a href="javascript://" class="badge badge-dep-toc" data-toggle="tooltip" data-placement="top" title="Early Access">EA</a>+++
 ** xref:web-notifications.adoc[Web notifications]
 ** xref:accessing.adoc[ThoughtSpot browser access]
 ** xref:user-profile.adoc[Your user preferences]
