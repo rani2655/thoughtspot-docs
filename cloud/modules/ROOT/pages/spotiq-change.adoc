@@ -103,7 +103,7 @@ image::personalized-column.png[Personalized column selection]
 NOTE: Individual users can still override these preferred columns on their own SpotIQ analysis by running the calculation and selecting *Customize attributes*.
 
 [#iterative]
-=== Iterative change analysis [.badge.badge-beta]#Beta#
+=== Iterative change analysis
 
 You can now drill down on the results of change analysis to learn more about change drivers in your data.
 
