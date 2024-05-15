@@ -5,6 +5,7 @@
 :page-layout: default-cloud
 :page-aliases: /admin/data-modeling/change-index.adoc
 :description: ThoughtSpot dynamically indexes Search bar suggestions for column names and values.
+:jira: SCAL-206047
 
 
 When a user searches in the *Search* bar, ThoughtSpot supplies the user with suggestions for column names and their column values.
@@ -16,6 +17,8 @@ Additionally, ThoughtSpot uses a column's *INDEX PRIORITY* value to determine wh
 These values impact the dynamically calculated _usage based ranking (UBR)_.
 
 To configure certain aspects of ThoughtSpot's indexing behavior, refer to xref:search-spotiq-settings.adoc#search[Managing search and SpotIQ settings].
+
+CAUTION: Indexing only works at the table level. If the underlying table column's INDEX TYPE is set to 'DONT INDEX', the respective Worksheet column wont be indexed and be able to 'suggest values'.
 
 == Example of Search suggestion behavior
 
