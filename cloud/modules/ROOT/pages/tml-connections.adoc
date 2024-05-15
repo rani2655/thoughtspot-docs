@@ -44,7 +44,7 @@ See <<limitations,Limitations of working with TML files>> for more information a
 <<connection,connection>> :
   <<name,name>>: <connection_name>
  <<type,type>>: <connection_type>
-<<authentication_type,authentication_type>>: [SERVICE_ACCOUNT, OAUTH]
+<<authentication_type,authentication_type>>: [SERVICE_ACCOUNT, KEY_PAIR, OAUTH]
 <<properties,properties>>:
 <<key,key>>: <accountName>
 <<value,value>>: <account_name>
@@ -92,8 +92,8 @@ a| <<name,name>>
 |===
 
 [#authentication_type]
-authentication_type:: The type of authentication used to connect to the connection.
-//Note that authentication type is usually SERVICE_ACCOUNT, although certain connections also support OAUTH.
+authentication_type:: The type of authentication used to connect to the connection. Note that authentication type is usually SERVICE_ACCOUNT, although certain connections also support KEY_PAIR or OAUTH. For OAUTH, ThoughtSpot supports standard OAuth, AWS IAM, External OAuth, OAuth using PKCE, external OAuth using PKCE, and OAuth using PEZ, depending on the connection.
+
 
 [#connection]
 connection:: A way to identify the external data warehouse connecting to ThoughtSpot.
