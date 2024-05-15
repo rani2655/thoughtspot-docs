@@ -31,7 +31,7 @@ endif::free-trial-feature[]
 
 Drill down in change analysis is now on by default and available to all users. You can now drill down on specific columns in change analysis, in order to identify change drivers within your data. For example, if you run an analysis on sales monthly and find out that the 'jacket' item type changed the most, you can easily drill down on jacket sales and identify which region contributed the most to the change in sales.
 
-////
+
 For more information, see
 ifndef::pendo-links[]
 xref:spotiq-change.adoc#iterative[Iterative change analysis].
@@ -39,7 +39,7 @@ endif::[]
 ifdef::pendo-links[]
 xref:spotiq-change.adoc#iterative[Iterative change analysis,window=_blank].
 endif::[]
-////
+
 image::iterative-analysis.gif[Iterative change analysis]
 
 ifndef::free-trial-feature[]
@@ -75,12 +75,16 @@ endif::free-trial-feature[]
 // Naomi. epic: SCAL-181448. doc: SCAL-199383 (approved)
 // PM: Aashna
 
+ThoughtSpot now supports keywords in Korean.
+
 [#9-12-5-cl-i18n-synonyms]
 [discrete]
 === German and French keyword synonyms
 
 // Naomi. epic: SCAL-159833. doc: SCAL-?
 // PM: Aashna
+
+We have improved the keyword synonyms for German and French.
 
 
 [#9-12-5-cl-shortcuts]
@@ -96,6 +100,8 @@ endif::free-trial-feature[]
 
 // Naomi. epic: SCAL-194540. doc: SCAL-?
 // PM: Alok?
+
+
 
 [#9-12-5-cl-copilot]
 [discrete]
@@ -142,6 +148,31 @@ endif::[]
 // Mary. epic: SCAL-164083. doc: SCAL-?
 // PM: Damian
 
+
+
+[#9-12-5-cl-schema]
+[discrete]
+=== Save the table layout on schema editor
+
+// Mary. epic: SCAL-180590. doc: SCAL-?
+// PM: Samridh
+
+
+
+[#9-12-5-cl-dependency]
+[discrete]
+=== Dependency management Phase 1
+
+// Mark. epic: SCAL-147696. doc: SCAL-?
+// PM: Samridh
+
+'''
+[#secondary-9-12-5-cl]
+[discrete]
+=== _Other features and enhancements_
+
+// Data Engineer
+
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-12-5-cl-falcon]
@@ -160,34 +191,6 @@ ThoughtSpot now supports connections to Falcon. You can use the Falcon connectio
 
 endif::free-trial-feature[]
 
-[#9-12-5-cl-schema]
-[discrete]
-=== Save the table layout on schema editor
-
-// Mary. epic: SCAL-180590. doc: SCAL-?
-// PM: Samridh
-
-[#9-12-5-cl-alation]
-[discrete]
-=== Token-based authentication for Alation
-
-// Naomi. epic: SCAL-181350. doc: SCAL-?
-// PM: Shruthi?
-
-[#9-12-5-cl-dependency]
-[discrete]
-=== Dependency management Phase 1
-
-// Mark. epic: SCAL-147696. doc: SCAL-?
-// PM: Samridh
-
-'''
-[#secondary-9-12-5-cl]
-[discrete]
-=== _Other features and enhancements_
-
-// Data Engineer
-
 [#9-12-5-cl-dbt]
 [discrete]
 === dbt integration: deletion of objects with no downstream dependencies
@@ -201,6 +204,13 @@ endif::free-trial-feature[]
 
 // Naomi. epic: SCAL-177118. doc: SCAL-?
 // PM: Shruthi
+
+[#9-12-5-cl-alation]
+[discrete]
+=== Token-based authentication for Alation
+
+// Naomi. epic: SCAL-181350. doc: SCAL-?
+// PM: Shruthi?
 
 [#9-12-5-cl-tml]
 [discrete]
