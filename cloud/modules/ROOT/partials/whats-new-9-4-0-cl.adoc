@@ -354,13 +354,15 @@ endif::free-trial-feature[]
 
 // Naomi
 
-The Snowflake Query Profile SpotApp is now available. Use this SpotApp to analyze Snowflake query data to understand execution time better and pinpoint key areas for query optimization. For more information, see
-ifndef::pendo-links[]
-xref:spotapps-snowflake-query.adoc[Snowflake Query Profile SpotApp].
-endif::[]
-ifdef::pendo-links[]
-xref:spotapps-snowflake-query.adoc[Snowflake Query Profile SpotApp,window=_blank].
-endif::[]
+The Snowflake Query Profile SpotApp is now available. Use this SpotApp to analyze Snowflake query data to understand execution time better and pinpoint key areas for query optimization.
+
+// For more information, see
+// ifndef::pendo-links[]
+// xref:spotapps-snowflake-query.adoc[Snowflake Query Profile SpotApp].
+// endif::[]
+// ifdef::pendo-links[]
+// xref:spotapps-snowflake-query.adoc[Snowflake Query Profile SpotApp,window=_blank].
+// endif::[]
 
 image::spotapp-snowflake-query.png[Snowflake Query Profile SpotApp Liveboard]
 

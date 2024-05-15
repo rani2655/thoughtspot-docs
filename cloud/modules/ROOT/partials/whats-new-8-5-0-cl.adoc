@@ -120,13 +120,13 @@ image::spotapps-8-4.png[New SpotApps]
 
 // image::spotapps.gif[SpotApps gif] WAITING FOR CLUSTER -- will replace above image if i get credentials to make a gif
 
-For more information,
-ifndef::pendo-links[]
-see xref:spotapps.adoc[SpotApps].
-endif::[]
-ifdef::pendo-links[]
-see xref:spotapps.adoc[SpotApps,window=_blank].
-endif::[]
+// For more information,
+// ifndef::pendo-links[]
+// see xref:spotapps.adoc[SpotApps].
+// endif::[]
+// ifdef::pendo-links[]
+// see xref:spotapps.adoc[SpotApps,window=_blank].
+// endif::[]
 
 [#8-5-0-cl-data-workspace]
 [discrete]
