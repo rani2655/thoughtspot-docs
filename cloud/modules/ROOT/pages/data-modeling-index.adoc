@@ -18,8 +18,6 @@ These values impact the dynamically calculated _usage based ranking (UBR)_.
 
 To configure certain aspects of ThoughtSpot's indexing behavior, refer to xref:search-spotiq-settings.adoc#search[Managing search and SpotIQ settings].
 
-CAUTION: Indexing only works at the table level. If the underlying table column's INDEX TYPE is set to 'DONT INDEX', the respective Worksheet column wont be indexed and be able to 'suggest values'.
-
 == Example of Search suggestion behavior
 
 The following example illustrates how searching for `promotion_last_name t` causes the system to suggest several ways of completing the `t` in the search:
@@ -87,6 +85,8 @@ You cannot choose an index type.
 When viewing a Worksheet, toggle the *SUGGEST VALUES IN SEARCH* option on or off.
 
 image::worksheet-search-indexing.png[Worksheet search indexing]
+
+CAUTION: Indexing only works at the table level. If the underlying table column's INDEX TYPE is set to 'DONT INDEX', the respective Worksheet column wont be indexed and be able to 'suggest values'.
 
 [#override-system-default-column]
 == Override the system default on a column
