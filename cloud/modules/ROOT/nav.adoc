@@ -40,6 +40,7 @@
 *** xref:ai-answers-best-practices.adoc[Best practices]
 //*** xref:ask-sage.adoc[Ask Sage]
 *** xref:thoughtspot-sync.adoc[ThoughtSpot Sync]
+**** xref:sync-ms-excel.adoc[Sync data to Excel]
 **** xref:sync-gainsight.adoc[Sync data to Gainsight]
 **** xref:sync-gbq.adoc[Sync to Google BigQuery]
 **** xref:sync-sheets.adoc[Sync data to Google Sheets]
