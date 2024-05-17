@@ -5,7 +5,7 @@
 :page-layout: default-cloud-beta
 :experimental:
 :description: Use SpotIQ analysis to forecast future trends for your KPIs.
-:jira: SCAL-201644
+:jira: SCAL-201644, SCAL-207677
 
 You can now use SpotIQ analysis to forecast future trends for your KPIs. ThoughtSpot uses machine learning models that learn from past trends, growth, and seasonality to project how the target metric will trend in the future. Note that you can only use forecasting on KPIs that include a time keyword.
 
@@ -90,7 +90,13 @@ For instance, in predicting revenue (Sales), the model considers trends in recen
 
 == Best practices
 
-Please ensure you have sufficient data points visualized in your time-series metric, the machine learning (ML) model needs to see at least two cycles (preferably three or more) of a required seasonality. For example, if you have plotted a Monthly time-series KPI chart, you should have at least 24 data points for the ML model to pick up yearly seasonality.
+The following are practices to get the best quality forecasting results:
+
+* Please ensure you have sufficient data points visualized in your time-series metric, the machine learning (ML) model needs to see at least two cycles (preferably three or more) of a required seasonality. For example, if you have plotted a Monthly time-series KPI chart, you should have at least 24 data points for the ML model to pick up yearly seasonality.
+
+* You can enhance the model by selecting additional measures that could impact the target metric. Exercise caution in this approach; refrain from adding extra columns unless you intend to model the relationships between them and are not solely focused on the trends of the target variable.
++
+image:forecast-select-measures.png[Select measures in analysis settings]
 
 == Limitations
 
