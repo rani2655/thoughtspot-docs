@@ -1,12 +1,12 @@
 = AI-suggested searches
-:last_updated: 4/15/2024
+:last_updated: 5/20/2024
 :linkattrs:
 :experimental:
 :page-layout: default-cloud
 :page-aliases:
 :author: Mark Plummer
 :description: AI-suggested searches help you think of business questions for your data.
-:jira: SCAL-202384 (9.10.5.cl update to seed questions)
+:jira: SCAL-202384 (9.10.5.cl update to seed questions), SCAL-186893
 
 AI-suggested searches are available from the natural language search bar on the Home page of ThoughtSpot. They help you think of relevant questions to ask of your data source, by providing example searches. This feature is designed to help you learn how to use the natural language search, and to gain insights when working with a new data set.
 
@@ -41,14 +41,6 @@ Your feedback is collected by ThoughtSpot, and is used to improve suggested sear
 
 == When AI-suggested searches are not generated
 
-AI-suggested searches are *not* shown under the following conditions:
+AI-suggested searches are *not* shown when ThoughtSpot couldn't generate them.
 
-- Search Assist is configured on the data source
-+
-If Search Assist is configured on some data sources, Search Assist will be displayed on the empty Search Data page. In those cases, AI-suggested searches are not shown.
-- Multiple sources are selected
-+
-AI-suggested searches are not be available when you select multiple sources, because those types of searches are more commonly done by an advanced user, who doesn't rely on suggested searches.
-- ThoughtSpot couldn't generate AI-suggested searches
-+
 AI-generated questions may not be available for some data sources if ThoughtSpot was unable to generate meaningful questions. Currently, this may happen with worksheets containing less than 5**&#8211;**10 columns.
