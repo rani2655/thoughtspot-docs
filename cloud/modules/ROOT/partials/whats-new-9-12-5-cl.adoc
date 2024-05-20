@@ -14,14 +14,6 @@ endif::free-trial-feature[]
 
 // Business User
 
-[#9-12-5-cl-home]
-[discrete]
-=== [Modular home page] Phase 1 support KPI charts functions
-
-// Mark. epic: SCAL-169016. doc: SCAL-?
-// PM: Rahul P J P
-
-
 [#9-12-5-cl-iterative]
 [discrete]
 === Drill down in change analysis
@@ -64,6 +56,17 @@ endif::free-trial-feature[]
 [#9-12-5-cl-ai]
 [discrete]
 === AI highlights for Liveboards
+
+AI Highlights is now on by default and available to all users. With AI Highlights, you get quick insights on how top metrics have changed in your Liveboard, dramatically reducing the time to derive insights from your KPIs. To enable this feature, contact your administrator.
+For more information, see
+ifndef::pendo-links[]
+xref:liveboard-ai-highlights.adoc[AI Highlights].
+endif::[]
+ifdef::pendo-links[]
+xref:liveboard-ai-highlights.adoc[AI Highlights,window=_blank].
+endif::[]
+
+image::ai-highlight.gif[AI Highlights]
 
 // Mark. epic: SCAL-180913. doc: SCAL-?
 // PM: Manan
@@ -111,13 +114,6 @@ We have improved the keyword synonyms for German and French.
 // PM: Alok
 
 // Analyst
-
-[#9-12-5-cl-model]
-[discrete]
-=== Data Modeling: Worksheet rename to Model
-
-// Mark. epic: SCAL-184056. doc: SCAL-?
-// PM: Samridh
 
 [#9-12-5-cl-note]
 [discrete]
@@ -228,13 +224,6 @@ endif::free-trial-feature[]
 
 // IT/ Ops Engineer
 
-[#9-12-5-cl-models]
-[discrete]
-=== Worksheet v2
-
-// Mark. epic: SCAL-181655. doc: SCAL-?
-// PM: Samridh
-
 [#9-12-5-cl-models-pre-ga]
 [discrete]
 === Worksheet v2 pre-GA items
@@ -242,12 +231,6 @@ endif::free-trial-feature[]
 // Mark. epic: SCAL-164865. doc: SCAL-?
 // PM: Samridh
 
-[#9-12-5-cl-questions]
-[discrete]
-=== Suggested questions
-
-// Mark. epic: SCAL-186893. doc: SCAL-?
-// PM: Akshay
 
 [#9-12-5-cl-org]
 [discrete]
