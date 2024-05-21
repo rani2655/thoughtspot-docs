@@ -287,9 +287,9 @@ And
 
 == Using period to date keywords with a calendar
 
-Period-to-date keywords work slightly differently depending on whether you are using the DEFAULT calendar or a custom calendar and whether you're using ThoughtSpot's Falcon in-memory database or Snowflake as your cloud data warehouse.
+Period-to-date keywords work slightly differently depending on whether you are using the DEFAULT calendar or a custom calendar and whether you're using ThoughtSpot's Falcon in-memory database or an external database, like a cloud data warehouse.
 
-When you use the DEFAULT calendar, data is available up to TODAY, whereas when use a custom calendar it is not.
+When you use the DEFAULT calendar, data is available up to TODAY, whereas when you use a custom calendar it is not.
 
 
 |===
@@ -303,11 +303,11 @@ When you use the DEFAULT calendar, data is available up to TODAY, whereas when u
 |Includes current date
 |Excludes current date
 
-|Snowflake, date
+|External database, date
 |Excludes current date
 |Excludes current date
 
-|Snowflake, datetime
+|External database, datetime
 |Includes current date
 |Excludes current date
 |===
