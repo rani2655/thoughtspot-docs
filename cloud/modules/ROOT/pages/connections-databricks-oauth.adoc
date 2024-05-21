@@ -62,7 +62,7 @@ To create a connection to Databricks, follow these steps:
 
 .. Client Secret (generated in <<step-1,Step 1>>).
 
-.. Auth URL (in the format `<databricks-instance-url>/oidc/v1/auth`).
+.. Auth URL (in the format `<databricks-instance-url>/oidc/v1/authorize`).
 
 .. Token URL (in the format `<databricks-instance-url>/oidc/v1/token`).
 
