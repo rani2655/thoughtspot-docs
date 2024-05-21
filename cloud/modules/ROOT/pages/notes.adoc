@@ -264,6 +264,22 @@ You can now create joins in your Model by clicking and dragging from one table t
 
 // Mark -- SCAL-194041
 
+
+Granular privileges for can-manage-data [.badge.badge-beta]#Beta#::
+ThoughtSpot Role-Based Access Control (RBAC) enhances the granularity of permissions with the addition of new data management privileges. The following data control privileges have been added:
+
+* Can create/edit Connections
+* Can manage data models
+* Can manage custom calendars
+* Can upload user data
+
+RBAC is disabled by default. To enable this feature, contact {support-url}.
+// Mary -- SCAL-139496
+
+
+endif::free-trial-feature[]
+
+
 // Naomi -- SCAL-154204, SCAL-201299
 Feedback review::
 We made the following changes to ThoughtSpot feedback review for AI Answers:
