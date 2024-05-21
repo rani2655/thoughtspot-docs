@@ -187,12 +187,6 @@ ThoughtSpot now supports connections to Falcon. You can use the Falcon connectio
 
 endif::free-trial-feature[]
 
-[#9-12-5-cl-dbt]
-[discrete]
-=== dbt integration: deletion of objects with no downstream dependencies
-
-// Naomi. epic: SCAL-177119. doc: SCAL-?
-// PM: Shruthi
 
 [#9-12-5-cl-dbt-integration]
 [discrete]
@@ -201,12 +195,7 @@ endif::free-trial-feature[]
 // Naomi. epic: SCAL-177118. doc: SCAL-?
 // PM: Shruthi
 
-[#9-12-5-cl-alation]
-[discrete]
-=== Token-based authentication for Alation
 
-// Naomi. epic: SCAL-181350. doc: SCAL-?
-// PM: Shruthi?
 
 [#9-12-5-cl-tml]
 [discrete]
