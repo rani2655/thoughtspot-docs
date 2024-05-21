@@ -21,7 +21,7 @@ To create a sync to Excel from an Answer, follow these steps:
 +
 //NOTE: You cannot create a sync from an unsaved Answer. If the *Sync to Google Sheets* option appears grayed-out in the menu, first save the Answer before trying again.
 
-. If this is the first sync you have created for Excel, a pop-up authorization window appears. To give ThoughtSpot permission to send data to your Microsoft Excel account, enter your sign-in credentials and select *Next*.
+. If this is the first sync you have created for Excel, a pop-up authorization window appears. To give ThoughtSpot permission to send data to your Microsoft Excel account, enter your sign-in credentials. Microsoft will ask for a one-time password from your authenticator app.
 +
 NOTE: Granting Microsoft permission allows ThoughtSpot to edit or create files in Microsoft, but does not permit file deletion.
 
@@ -29,13 +29,14 @@ NOTE: Granting Microsoft permission allows ThoughtSpot to edit or create files i
 . Within ThoughtSpot, fill in the following parameters:
 * Edit the *Pipeline name* if needed. By default, this field populates with _PL-[Answer Name]_.
 * If you have more than one Microsoft destination set up, then the *Destination* field appears, and you must select a Microsoft destination from the dropdown menu available. However, if no destinations have been set up before or if you have only one Microsoft destination, the *Destination* field does not appear.
-* Select *File name* from the dropdown menu.
-* Select *Sheet name* from the dropdown menu.
+* Select *Workbook name* from the dropdown menu.
+* Select *Worksheet name* from the dropdown menu.
 * Enter the *Cell* number in A1 format.
++
+image:sync-excel-fields.png[Sync to Microsoft Excel fields]
 
 
-
-. By default, "Sync and save" is selected. Select *Save* to send your data to Excel. Your data immediately appears in the Sheet you specified.
+. By default, *Sync on save* is selected. Select *Save* to send your data to Excel. Your data immediately appears in the Sheet you specified.
 
 . [Optional] To set up a repeated sync, click *Schedule your sync* and select your timezone. From the options provided, choose whether the sync will occur every:
 
@@ -56,16 +57,19 @@ To sync to Excel from a custom SQL view, follow these steps:
 
 . In the upper-right corner, select the *more options* menu icon image:icon-more-10px.png[more options menu icon] and select *Sync to Sheets*.
 
-.  If this is the first sync you have created for the selected app, an authorization page appears. To give ThoughtSpot permission to send data to your Microsoft account, select *Sign in*, enter your sign-in credentials, and click *Next*.
+. If this is the first sync you have created for Excel, a pop-up authorization window appears. To give ThoughtSpot permission to send data to your Microsoft Excel account, enter your sign-in credentials. Microsoft will ask for a one-time password from your authenticator app.
 
 . Fill in the following parameters:
 * Edit the *Pipeline name* if needed. By default, this field populates with _PL-[Answer Name]_.
 * If you have more than one Microsoft destination set up, then the *Destination* field appears, and you must select a Microsoft destination from the dropdown menu available. However, if no destinations have been set up before or if you have only one Microsoft destination, the *Destination* field does not appear.
-* Select *File name* from the dropdown menu.
-* Select *Sheet name* from the dropdown menu.
+* Select *Workbook name* from the dropdown menu.
+* Select *Worksheet name* from the dropdown menu.
 * Enter the *Cell* number in A1 format.
++
+image:sync-excel-fields.png[Sync to Microsoft Excel fields]
 
-. By default, "Sync and save" is selected. Select *Save* to send your data to Excel. Your data immediately appears in the Sheet you specified.
+
+. By default, *Sync on save* is selected. Select *Save* to send your data to Excel. Your data immediately appears in the Sheet you specified.
 
 . [Optional] To set up a repeated sync, click *Schedule your sync* and select your timezone. From the options provided, choose whether the sync will occur every:
 
@@ -94,11 +98,14 @@ To create a sync to Excel from the Data Workspace, follow these steps:
 * Edit the *Pipeline name* if needed. By default, this field populates with _PL-[Answer Name]_.
 * All destinations available appear in the *Destination* dropdown menu.
 * Select your *Source* data. Here, you choose an Answer or a custom SQL view to send through sync.
-* Select *File name* from the dropdown menu.
-* Select *Sheet name* from the dropdown menu.
+* Select *Workbook name* from the dropdown menu.
+* Select *Worksheet name* from the dropdown menu.
 * Enter the *Cell* number in A1 format.
++
+image:sync-excel-fields.png[Sync to Microsoft Excel fields]
 
-.  By default, *Sync and save* is selected. Select *Save* to send your data to Excel. Your data immediately appears in the Sheet you specified.
+
+. By default, *Sync on save* is selected. Select *Save* to send your data to Excel. Your data immediately appears in the Sheet you specified.
 
 . [Optional] To set up a repeated sync, click *Schedule your sync* and select your timezone. From the options provided, choose whether the sync will occur every:
 

@@ -55,7 +55,7 @@ xref:spotiq-change.adoc#iterative[Iterative change analysis].
 ThoughtSpot Sync::
 We made the following enhancements to ThoughtSpot Sync:
 
-* Using ThoughtSpot Sync, you can now sync data directly from an Answer or a custom SQL view, to Excel.
+* Using ThoughtSpot Sync, you can now sync data directly from an Answer or a custom SQL view, to xref:sync-ms-excel.adoc[Excel].
 * You can now click the preview link when you create a Sync from the Data Workspace to see a preview of the resulting Answer, Liveboard, or Custom SQL view. Answer, Liveboard, and Custom SQL view previews appear in a new tab.
 * When running a Sync, you can see the following information depending on the destination:
 
