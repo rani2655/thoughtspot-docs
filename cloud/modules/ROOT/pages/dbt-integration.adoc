@@ -4,7 +4,7 @@
 :experimental:
 :page-layout: default-cloud
 :author: Teresa Killmond, Naomi
-:jira: SCAL-157885, SCAL-157886, SCAL-157887, SCAL-157890, SCAL-157889, SCAL-119947, SCAL-182271, SCAL-182987, SCAL-186187, SCAL-132886, SCAL-169614, SCAL-180960, SCAL-126451, SCAL-201301, SCAL-201304
+:jira: SCAL-157885, SCAL-157886, SCAL-157887, SCAL-157890, SCAL-157889, SCAL-119947, SCAL-182271, SCAL-182987, SCAL-186187, SCAL-132886, SCAL-169614, SCAL-180960, SCAL-126451, SCAL-201301, SCAL-201304, SCAL-208784
 :description: ThoughtSpot's dbt sync allows you to provide your existing dbt models and create ThoughtSpot Worksheets, which you can use to search your data.
 
 
@@ -114,17 +114,17 @@ NOTE: There is no minimum number of Worksheets to select in this step.
 
 . Select *Finish*.
 
-. The *Generated Tables, Worksheets and Liveboards* page appears. ThoughtSpot generates several tables, Worksheets, and Liveboards from your dbt models.
+. The *Generated Tables and Worksheets* page appears. ThoughtSpot generates several tables and Worksheets from your dbt models.
 +
 image::dbt-integration-worksheets.png[dbt integration step 4]
 +
-To inspect the table, Worksheet, and Liveboard details, select any of the table, Worksheet, or Liveboard names. You can view the joins created between the related tables in the Worksheets from the *Joins* tab for the Worksheet.
+To inspect the table and Worksheet details, select any of the table or Worksheet names. You can view the joins created between the related tables in the Worksheets from the *Joins* tab for the Worksheet.
 +
 To xref:search-data.adoc[search the data] on the Worksheets, select *Search worksheet* next to any Worksheet.
 
 . Select *Exit*.
 
-. To see the objects that you just created from dbt, navigate to the *Data > Home* or *Liveboards* pages.
+. To see the objects that you just created from dbt, navigate to the *Data > Home* page.
 +
 image::dbt-integration-home-page.png[dbt integration view Worksheets and tables]
 +
@@ -203,7 +203,7 @@ include::partial$schema-example.adoc[]
 
 [#edit]
 == Editing a dbt project
-If there are any changes to the dbt models that you would like the ThoughtSpot Worksheets, Liveboards, and tables to reflect, you must edit the dbt sync you created. This updates the existing Worksheets, Liveboards, and tables.
+If there are any changes to the dbt models that you would like the ThoughtSpot Worksheets and tables to reflect, you must edit the dbt sync you created. This updates the existing Worksheets and tables.
 
 
 
@@ -219,7 +219,7 @@ NOTE: When you edit a dbt sync, you often add columns and descriptions to your c
 
 . Select *Edit*.
 
-. Run the dbt sync again, making any changes you would like. Follow the steps in <<integrate,Integrating with dbt>>. This updates your Worksheets, tables, and Liveboards, based on the changes in your dbt models.
+. Run the dbt sync again, making any changes you would like. Follow the steps in <<integrate,Integrating with dbt>>. This updates your Worksheets and tables, based on the changes in your dbt models.
 +
 NOTE: You may generate an error if you have removed or renamed a column in dbt before re-syncing to ThoughtSpot. To handle this error, check your dbt models and tables to ensure every column maps correctly to the tables and models in ThoughtSpot.
 
