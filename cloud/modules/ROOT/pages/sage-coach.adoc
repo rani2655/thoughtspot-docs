@@ -86,7 +86,7 @@ Access to Sage Feedback depends on your access to the underlying data set in the
 | `NO_ACCESS`: User does not have access to a data set. | User cannot see any feedback from this data set, including any feedback they submitted before losing access. | Not applicable. User cannot see the feedback.
 
 | `TABLE_READ_PERMISSION`: User has read access to a data set. a| User can view their own feedback for this data set. +
-User cannot see feedback provided by others for this data set. a| User cannot see feedback provided by others for this data set. | User can `change access`, `fix the answer`, and `delete` the feedback submitted by all the users on the dataset.
+User cannot see feedback provided by others for this data set. | User can `change access`, `fix the answer`, and `delete` the feedback submitted by all the users on the dataset.
 
 | `TABLE_MODIFY_PERMISSION`: User has edit access to a data set. | User can view feedback submitted by all the users on the data set. | User can *change access*, *fix the answer*, and *delete* the feedback submitted by all users on the data set.
 
