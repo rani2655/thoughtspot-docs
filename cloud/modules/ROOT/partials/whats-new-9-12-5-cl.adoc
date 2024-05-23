@@ -117,10 +117,13 @@ We have improved the keyword synonyms for German and French.
 
 [#9-12-5-cl-note]
 [discrete]
-=== Note tiles 2.0
+=== Note tile enhancements
+ThoughtSpot introduces the ability to customize note tiles. You can now customize the appearance of note tiles. You can also edit hyperlinks and iFrames that previously had to be deleted and replaced to make changes. Images within note tiles are now responsive to screen size.
+//For the animated gif: Change the background and text colors, adjust the heading size and text indentation, and insert horizontal dividers within note tiles.
+// Mary. epic: SCAL-142949. doc: SCAL-205501. include less words about what you can do and add a gif.
+// PM: Arpit
 
-// Mary. epic: SCAL-142949. doc: SCAL-?
-// PM: ?
+image::note-tile-enhancement.gif[Note tile new features]
 
 [#9-12-5-cl-joins]
 [discrete]
