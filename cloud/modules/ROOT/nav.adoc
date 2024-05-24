@@ -482,6 +482,7 @@
 *** xref:search-conditional-formatting.adoc[Apply conditional formatting]
 *** xref:search-download.adoc[Download your search]
 ** xref:search-sage.adoc[ThoughtSpot Sage]
+** xref:search-flags.adoc[Query and autocomplete options]
 * xref:charts.adoc[Charts]
 ** xref:chart-types.adoc[Chart types]
 *** xref:chart-column.adoc[Column charts]
