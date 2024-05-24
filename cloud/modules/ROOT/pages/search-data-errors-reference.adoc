@@ -14,5 +14,7 @@ This reference identifies the error codes that can appear when you use xref:sear
 
 * xref:search-data-error-11035[11035]
 
+---
+
 include::partial$alerts/search-data-error-11035.adoc[]
 
