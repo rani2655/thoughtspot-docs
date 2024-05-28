@@ -41,7 +41,7 @@ a|
 - Home
 ** Watchlist
 ** Favorites
-**  Trending
+** Trending
 ** Library
 ** Get the most ouf of ThoughtSpot
 - Liveboards
