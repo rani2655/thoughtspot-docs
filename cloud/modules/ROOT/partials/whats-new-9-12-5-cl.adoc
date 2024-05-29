@@ -25,14 +25,13 @@ endif::[]
 // needs new gif. downplay slightly. homepage is being redesigned based on feedback, here's what's been done/ it's a work in progress. There's going to be a button added at the bottom to add feedback.
 // Mark. doc jira: SCAL-151210
 
-In this release, you can try our redesigned home page, where you can ask natural-language questions with Sage, and view your watchlist, favorites, library of Answers and Liveboards, and more. With the new left-hand navigation, you can go directly to your Liveboards, Answers, SpotIQ Analysis, and Monitor Subscriptions.
-
-image::scroll-homepage.gif[New homepage design]
+In this release, you can try our redesigned and customizable home page, where you can ask natural-language questions with Sage, and view your watchlist, favorites, library of Answers and Liveboards, and more. With the new left-hand navigation, you can go directly to your Liveboards, Answers, SpotIQ Analysis, and Monitor Subscriptions.
 
 This new home page experience is disabled by default. Contact your ThoughtSpot administrator to enable this feature for your cluster. After that, open your user profile, and in the _Experience_ section, set the _Navigation and Homepage_ to *New experience*.
 
 ThoughtSpot welcomes your feedback on this new experience. To give feedback, click the *Send feedback* link at the bottom of the home page.
 
+image::scroll-homepage.gif[New homepage design]
 
 ifndef::pendo-links[]
 [#9-12-5-cl-nav]
@@ -50,9 +49,9 @@ endif::[]
 
 In this release, you can try our completely redesigned navigation experience organized by persona. The new app switcher allows business users, analysts, data engineers, administrators, and developers to work in separate contextual sections designed specifically for their needs. In addition, each app has left-hand navigation to create better consistency and ease of use for users switching between the different apps.
 
-image::app-switcher.png[Persona-based navigation]
-
 This new navigation experience is disabled by default. Contact your ThoughtSpot administrator to enable this feature for your cluster. After that, open your user profile, and in the _Experience_ section, set the _Navigation and Homepage_ to *New experience*.
+
+image::app-switcher.png[Persona-based navigation]
 
 [#9-12-5-cl-iterative]
 [discrete]
