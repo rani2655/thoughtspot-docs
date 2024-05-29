@@ -6,7 +6,7 @@
 :experimental:
 :connection: Mode
 :description: Learn how to add a connection to Mode.
-:jira: SCAL-176923, SCAL-201296
+:jira: SCAL-176923, SCAL-201296, SCAL-209201
 
 Once ThoughtSpot Connections is enabled, you can add a connection to a {connection} database.
 This allows you to perform a live query of the external database to create Answers and Liveboards, without having to bring the data into ThoughtSpot.
@@ -38,6 +38,8 @@ To add a connection to {connection}:
 image::Mode-connectiontype.png[Add a Mode connection]
 
 . Enter the connection details for your {connection} data source.
++
+For Host, enter `production-datawarehouse.mode.com`, and for Port, enter `8444`.
 +
 Note that you will use the API token as the user name and the secret as the password.
 +
