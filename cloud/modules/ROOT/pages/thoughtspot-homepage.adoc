@@ -50,8 +50,6 @@ a|
 - Monitor subscriptions
 
 |Data models
-
-(Data workspace)
 |Data engineer
 a|- Worksheets and Models
 - Tables
@@ -103,7 +101,7 @@ Here's a quick reference which compares where things were in the previous naviga
 |Insights > Monitor Subscriptions
 
 |Data
-|Data
+|Data models
 
 |Admin
 |Admin
