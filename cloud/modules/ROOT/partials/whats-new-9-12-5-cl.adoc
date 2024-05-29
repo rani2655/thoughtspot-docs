@@ -100,7 +100,7 @@ endif::free-trial-feature[]
 [discrete]
 === AI Highlights for Liveboards
 
-// Mark. epic: SCAL-180913. doc: SCAL-?
+// Mark. epic: SCAL-180913. doc: SCAL-209562
 // PM: Manan
 
 AI Highlights for Liveboards is now on by default and available to all users. With AI Highlights, you get quick insights on how top metrics have changed in your Liveboard, dramatically reducing the time to derive insights from your KPIs.
@@ -216,6 +216,10 @@ We made the following changes to Sage Coach:
 * Only users with edit access to a given Worksheet can edit feedback on that Worksheet.
 * Only Worksheet editors can promote feedback on a Worksheet to global.
 * While users can delete or edit their own feedback when it is at user-level, they cannot edit or delete their feedback when it is at global-level.
+* You can now edit your fragments as cells in a table when giving feedback. Locked cells signify information you cannot edit.
++
+image:sage-coach-edit.png[Edit feedback]
+
 
 ////
 [#9-12-5-cl-copilot]
