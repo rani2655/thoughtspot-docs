@@ -14,7 +14,7 @@ NOTE: When you make a change to a Worksheet, ThoughtSpot now alerts you if this 
 
 == Review user feedback
 
-You can review user feedback from the Data workspace, and determine whether it should apply to only that user’s queries, or to the entire cluster. Use the query feedback modal to review feedback given to individual natural language queries, and use the query term feedback modal to review the translation of individual natural language terms to search tokens.
+You can review user feedback from the Data workspace, and determine whether it should apply to only that user’s queries, or to the entire cluster. Use the query feedback modal to review feedback given to individual natural language queries, and use the fragment feedback modal to review the translation of individual natural language terms to search tokens.
 
 To give feedback on user queries, follow these steps:
 
@@ -49,31 +49,31 @@ If you choose to fix the answer, the AI-answer appears in editable mode in a pop
 
 To give feedback on specific terms used in natural language queries, follow these steps:
 
-. Navigate to the *Data* tab and select *Query term feedback* from the left menu.
+. Navigate to the *Data* tab and select *Fragment feedback* from the left menu.
 +
 A list of all terms used in queries that users gave feedback for appears.
 +
-image:query-term-feedback.png[Query term feedback page]
+image:query-term-feedback.png[Fragment feedback page]
 
 
 . Note that for each term, the following fields appear:
 
-* Query term, or the string used in the natural language query
+* Fragment, or the string used in the natural language query
 * Related tokens, or the phrasing used to generate the ThoughtSpot visualization for the Answer
 * Original query
 * Example status
 * Worksheet
 * Time stamp for last change
 
-. Administrators and Worksheet editors can make the following changes to the feedback on individual query terms:
+. Administrators and Worksheet editors can make the following changes to the feedback on individual fragments:
 +
 --
-* Update query term
+* Update fragment
 * Use as an example
 * Delete
 --
 +
-If you choose to update the query term, the term appears in editable mode in an AI-answer pop-up window. Click *Submit feedback* to finish.
+If you choose to update the fragment, the term appears in editable mode in an AI-answer pop-up window. Click *Submit feedback* to finish.
 
 == Permissions
 
