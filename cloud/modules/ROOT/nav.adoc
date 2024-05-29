@@ -78,6 +78,7 @@
 *** xref:parameters-create.adoc[Create Parameters]
 *** xref:custom-groups.adoc[Custom Groups]
 *** xref:custom-sets.adoc[Custom Sets]
+*** xref:custom-groups.adoc[Query Sets]
 *** xref:thoughtspot-one-disable-discover-worksheet.adoc[Disable Answer Search for specific Worksheets]
 *** xref:thoughtspot-one-query-intelligence-liveboard.adoc[How Users are searching Answers Liveboard]
 ** xref:data-engineer.adoc[Data Engineers]
