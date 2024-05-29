@@ -16,6 +16,10 @@ For these instructions, see xref:ts-cloud-getting-started.adoc[Getting Started w
 [#9-12-5-cl-analyst]
 === For the Analyst
 
+// Mark -- SCAL-202002, doc jira: SCAL-179003
+Custom charts [.badge.badge-beta-relnotes]#Beta#::
+You can now use custom charts created outside of ThoughtSpot, including third-party chart libraries. To enable this feature, contact {support-url}. For more information, see xref:chart-byoc.adoc[Custom charts].
+
 [#9-12-5-cl-business-user]
 === For the Business User
 
@@ -25,5 +29,7 @@ For these instructions, see xref:ts-cloud-getting-started.adoc[Getting Started w
 [#9-12-5-cl-developer]
 === For the Developer
 
+// mark -- SCAL-194041
+Develop custom charts [.badge.badge-beta-relnotes]#Beta#:: Developers can now create custom charts for ThoughtSpot using the ThoughtSpot Charts SDK. To enable this feature, contact {support-url}. For more information, see xref:chart-byoc.adoc[Custom charts].
 
 ThoughtSpot Embedded:: For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].

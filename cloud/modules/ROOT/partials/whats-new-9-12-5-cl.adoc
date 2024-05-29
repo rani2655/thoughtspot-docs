@@ -147,7 +147,33 @@ endif::[]
 // Mary. epic: SCAL-164083. doc: SCAL-?
 // PM: Damian
 
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-11-0-cl-byoc]
+[discrete]
+=== Custom charts [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#9-11-0-cl-byoc]
+[discrete]
+=== Custom charts [.badge.badge-beta-whats-new]#Beta#
+endif::[]
 
+
+You can now use custom charts created outside of ThoughtSpot, including third-party chart libraries. To enable this feature, contact {support-url}.
+For more information, see
+ifndef::pendo-links[]
+xref:chart-byoc.adoc[Custom charts].
+endif::[]
+ifdef::pendo-links[]
+xref:chart-byoc.adoc[Custom charts,window=_blank].
+endif::[]
+
+
+image::custom-chart-select.png[Custom Chart]
+
+// Mark -- scal-171984, scal-67410, doc jira: SCAL-179003.
+endif::free-trial-feature[]
 
 [#9-12-5-cl-schema]
 [discrete]
@@ -250,6 +276,33 @@ endif::free-trial-feature[]
 ifndef::free-trial-feature[]
 [discrete]
 === For the Developer
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#9-11-0-cl-byoc-develop]
+[discrete]
+=== Develop custom charts [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#9-11-0-cl-byoc-develop]
+[discrete]
+=== Develop custom charts [.badge.badge-beta-whats-new]#Beta#
+endif::[]
+
+Developers can now create custom charts for ThoughtSpot using the ThoughtSpot Charts SDK. To enable this feature, contact {support-url}.
+For more information, see
+ifndef::pendo-links[]
+xref:chart-byoc.adoc[Custom charts].
+endif::[]
+ifdef::pendo-links[]
+xref:chart-byoc.adoc[Custom charts,window=_blank].
+endif::[]
+ifndef::free-trial-feature[]
+// Mark -- scal-171984, scal-67410.  doc jira: SCAL-179003
+endif::free-trial-feature[]
+
+ifndef::free-trial-feature[]
+[discrete]
 
 For new features and enhancements introduced in this release of ThoughtSpot Embedded, see https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
 endif::[]
