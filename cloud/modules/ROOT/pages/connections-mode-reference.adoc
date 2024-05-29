@@ -6,7 +6,7 @@
 :page-aliases:
 :description: Learn about the fields used to create a Mode connection using ThoughtSpot Connections.
 :connection: Mode
-:jira: SCAL-176923, SCAL-201296
+:jira: SCAL-176923, SCAL-201296, SCAL-209201
 
 You need specific information to establish a seamless and secure connection.
 All fields are required, except where noted.
@@ -15,8 +15,8 @@ NOTE: Mode connector is in Early Access and off by default. To enable it, contac
 
 Connection name:: Enter a new {connection} connection name.
 Connection description:: Provide a short description of the connection._(Optional)_
-Host:: Enter the host name associated with the database.
-Port:: Enter the port number associated with the database.
+Host:: Enter `production-datawarehouse.mode.com`.
+Port:: Enter `8444`.
 User:: Enter the user associated with the {connection} database. This will be the API token you created in Mode.
 Password:: Enter the password associated with the user of the {connection} database. This will be the secret you created in Mode.
 
