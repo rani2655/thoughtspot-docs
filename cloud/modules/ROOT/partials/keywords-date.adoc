@@ -80,7 +80,7 @@ include::partial$keywords/last_n_months_for_each_year.adoc[]
 
 include::partial$keywords/last_n_quarters.adoc[]
 
-include::partial$keywords/last_n_quarters_for_each_year.adoc[
+include::partial$keywords/last_n_quarters_for_each_year.adoc[]
 
 include::partial$keywords/last_n_weeks.adoc[]
 
@@ -196,7 +196,7 @@ include::partial$keywords/this_week.adoc[]
 
 include::partial$keywords/this_year.adoc[]
 
-include::partial$keywords/thursday.adoc[]]
+include::partial$keywords/thursday.adoc[]
 
 include::partial$keywords/today.adoc[]
 
