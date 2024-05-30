@@ -27,9 +27,7 @@ endif::[]
 
 In this release, you can try our redesigned and customizable home page, where you can ask natural-language questions with Sage, view your watchlist, favorites, library of Answers and Liveboards, and more. With the new left-hand navigation, you can go directly to your Liveboards, Answers, SpotIQ Analysis, and Monitor Subscriptions.
 
-This new home page experience is disabled by default. Contact your ThoughtSpot administrator to enable this feature for your cluster. After that, open your user profile, and in the _Experience_ section, set the _Navigation and Homepage_ to *New experience*.
-
-ThoughtSpot welcomes your feedback on this new experience. To give feedback, click the *Send feedback* link at the bottom of the home page.
+This new home page experience is disabled by default. Contact your ThoughtSpot administrator to enable this feature for your cluster. After that, open your user profile, and in the _Experience_ section, set the _Navigation and Homepage_ to *New experience*. Note that this setting also enables persona-based navigation.
 
 image::scroll-homepage.gif[New homepage design]
 
@@ -49,7 +47,7 @@ endif::[]
 
 In this release, you can try our completely redesigned navigation experience organized by persona. The new app switcher allows business users, analysts, data engineers, administrators, and developers to work in separate contextual sections designed specifically for their needs. In addition, each app has left-hand navigation to create better consistency and ease of use for users switching between the different apps.
 
-This new navigation experience is disabled by default. Contact your ThoughtSpot administrator to enable this feature for your cluster. After that, open your user profile, and in the _Experience_ section, set the _Navigation and Homepage_ to *New experience*.
+This new navigation experience is disabled by default. Contact your ThoughtSpot administrator to enable this feature for your cluster. After that, open your user profile, and in the _Experience_ section, set the _Navigation and Homepage_ to *New experience*. Note that this setting also enables the redesigned home page.
 
 image::app-switcher.png[Persona-based navigation]
 
@@ -106,14 +104,7 @@ AI Highlights for Liveboards is now on by default and available to all users. Wi
 
 image::ai-highlight.gif[AI Highlights]
 
-[#9-12-5-cl-i18n]
-[discrete]
-=== Language keywords
 
-// Naomi. epic: SCAL-181448. doc: SCAL-199383 (approved). epic: SCAL-159833. doc: SCAL-208059 (approved)
-// PM: Aashna
-
-ThoughtSpot now supports keywords in Korean and we have added new translated keyword synonyms for German and French.
 
 
 ////
@@ -207,15 +198,15 @@ endif::free-trial-feature[]
 [discrete]
 === Sage Coach enhancements
 
-// Naomi. epic: SCAL-194540. doc: SCAL-?
-// PM: Alok?
+// Naomi. epic: SCAL-194540. doc: SCAL-209711
+// PM: Alok, Anant
 
 We made the following changes to Sage Coach:
 
-* Only users with edit access to a given Worksheet can edit feedback on that Worksheet.
+
 * Only Worksheet editors can promote feedback on a Worksheet to global.
 * While users can delete or edit their own feedback when it is at user-level, they cannot edit or delete their feedback when it is at global-level.
-* You can now edit your fragments as cells in a table when giving feedback. Locked cells signify information you cannot edit.
+* You can now edit your fragments as cells in a table when giving feedback.
 +
 image:sage-coach-edit.png[Edit feedback]
 
@@ -238,7 +229,14 @@ ThoughtSpot introduces the ability to save table layouts in the schema viewer. T
 //https://docs.thoughtspot.com/cloud/latest/schema-viewer - steps to access the schema viewer have changed
 // PM: Samridh
 
+[#9-12-5-cl-i18n]
+[discrete]
+=== Language updates
 
+// Naomi. epic: SCAL-181448. doc: SCAL-199383 (approved). epic: SCAL-159833. doc: SCAL-208059 (approved)
+// PM: Aashna
+
+ThoughtSpot now supports Korean and we've also added synonyms for date and time based keywords in German and French for a more accurate experience.
 
 // [#9-12-5-cl-dependency]
 // [discrete]
