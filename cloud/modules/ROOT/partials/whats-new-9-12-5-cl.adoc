@@ -102,7 +102,7 @@ endif::free-trial-feature[]
 
 AI Highlights for Liveboards is now on by default and available to all users. With AI Highlights, you get quick insights on how top metrics have changed in your Liveboard, dramatically reducing the time to derive insights from your KPIs.
 
-image::ai-highlight.gif[AI Highlights]
+image::ai-highlight-process.gif[AI Highlights]
 
 
 
