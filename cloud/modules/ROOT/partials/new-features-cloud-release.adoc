@@ -26,10 +26,12 @@ Query sets [.badge.badge-early-access-relnotes]#Early Access#::
 endif::[]
 You can create query sets, which can be used to classify values in a list that you can then reuse across multiple analyses. A query set is a custom group of values from a collection of objects in your database.
 Query sets are community objects which remain when you navigate away from the *Search Data* page and can be used by any user with view access to the underlying Worksheet. To enable this feature, contact {support-url}. For more information, see xref:custom-groups.adoc[].
+// Mary. epic: SCAL-164083. doc: SCAL-203599.
+// PM: Damian
 
-// Mark -- SCAL-202002, doc jira: SCAL-179003
 Custom charts [.badge.badge-beta-relnotes]#Beta#::
 You can now use custom charts created outside of ThoughtSpot, including third-party chart libraries. To enable this feature, contact {support-url}. For more information, see xref:chart-byoc.adoc[Custom charts].
+// Mark -- SCAL-202002, doc jira: SCAL-179003
 
 Sage Coach enhancements::
 // Naomi. epic: SCAL-194540. doc: SCAL-209711
