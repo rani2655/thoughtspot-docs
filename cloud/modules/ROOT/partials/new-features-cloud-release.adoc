@@ -51,7 +51,7 @@ ThoughtSpot introduces the ability to save table layouts in the schema viewer. T
 Language updates::
 // Naomi. epic: SCAL-181448. doc: SCAL-199383 (approved). epic: SCAL-159833. doc: SCAL-208059 (approved)
 // PM: Aashna
-ThoughtSpot now supports Korean and we've also added synonyms for date and time based keywords in German and French for a more accurate experience. For more information, see xref:keywords-.adoc[Keyword reference].
+ThoughtSpot now supports Korean and we've also added synonyms for date and time based keywords in German and French for a more accurate experience. For more information, see xref:keywords.adoc[Keyword reference].
 
 [#9-12-5-cl-business-user]
 === For the Business User
