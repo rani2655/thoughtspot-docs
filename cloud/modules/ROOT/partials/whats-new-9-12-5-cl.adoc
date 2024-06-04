@@ -252,6 +252,7 @@ ThoughtSpot now supports Korean and we've also added synonyms for date and time 
 
 // Data Engineer
 
+////
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-12-5-cl-falcon]
@@ -269,7 +270,7 @@ endif::[]
 ThoughtSpot now supports connections to Falcon. You can use the Falcon connection to easily migrate data from ThoughtSpot Software to ThoughtSpot Cloud. To enable this feature, contact your administrator.
 
 endif::free-trial-feature[]
-
+////
 
 
 ////
