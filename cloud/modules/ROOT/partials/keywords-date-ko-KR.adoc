@@ -1,438 +1,300 @@
 include::partial$keywords/list-date.adoc[]
 
 include::partial$keywords/after.adoc[]
-日本語;; 以後
+한국어;; 이후
 
 include::partial$keywords/april.adoc[]
-日本語;; 4月
+한국어;; 4월
 
 include::partial$keywords/august.adoc[]
-日本語;; 8月
+한국어;; 8월
 
 include::partial$keywords/before.adoc[]
-日本語;; 以前
+한국어;; 이전
 
 include::partial$keywords/between_and.adoc[]
-日本語;; 間 … および …
+한국어;; 사이 … 그리고
 
 include::partial$keywords/daily.adoc[]
-日本語;; 日単位
+한국어;; 일간
 
 include::partial$keywords/daily_year_over_year.adoc[]
-日本語;; 日単位 前年比
+한국어;; 일간 전년 동기 대비
 
 include::partial$keywords/day_name.adoc[]
-日本語;; _日_
+한국어;; _하루_
+
+include::partial$keywords/day_of_month.adoc[]
+한국어;; 월의 일
+
+include::partial$keywords/day_of_quarter.adoc[]
+한국어;; 분기의 일
 
 include::partial$keywords/day_of_week.adoc[]
-日本語;; 曜日
+한국어;; 요일
 
 include::partial$keywords/day_of_week_name.adoc[]
-日本語;; _曜日_
+한국어;; _요일_
 
 include::partial$keywords/day_of_year.adoc[]
-日本語;; 年の日付
+한국어;; 년의 일
 
 include::partial$keywords/december.adoc[]
-日本語;; 12月
+한국어;; 12월
 
 include::partial$keywords/february.adoc[]
-日本語;; 2月
+한국어;; 2월
 
 include::partial$keywords/friday.adoc[]
-日本語;; 金曜日
+한국어;; 금요일
 
 include::partial$keywords/growth_of_by.adoc[]
-日本語;; 成長率 ...により…
+한국어;; 의 증가 ... 별...
 
 include::partial$keywords/growth_of_by_daily.adoc[]
-日本語;; 成長率 ...により… 日単位
+한국어;; 의 증가 ... 별... 일간
 
 include::partial$keywords/growth_of_by_monthly.adoc[]
-日本語;; 成長率 ...により… 月単位
+한국어;; 의 증가 ... 별... 월간
 
 include::partial$keywords/growth_of_by_quarterly.adoc[]
-日本語;; 成長率 ...により… 四半期単位
+한국어;; 의 증가 ... 별... 분기별
 
 include::partial$keywords/growth_of_by_weekly.adoc[]
-日本語;; 成長率 ...により… 週単位
+한국어;; 의 증가 ... 별... 주간
 
 include::partial$keywords/growth_of_by_yearly.adoc[]
-日本語;; 成長率 ...により… 年単位
+한국어;; 의 증가 ... 별... 연간
 
 include::partial$keywords/hourly.adoc[]
-日本語;; 時間単位
+한국어;; 시간당
 
 include::partial$keywords/january.adoc[]
-日本語;; 1月
+한국어;; 1월
 
 include::partial$keywords/july.adoc[]
-日本語;; 7月
+한국어;; 7월
 
 include::partial$keywords/june.adoc[]
-日本語;; 6月
+한국어;; 6월
 
 include::partial$keywords/last_day_by.adoc[]
-日本語;;
-* 先日
-* 前の日
-* 前日
-* 1日前
-* last day
+한국어;; 최종 하루 별
 
 include::partial$keywords/last_month.adoc[]
-日本語;;
-* 先月
-* 前の月
-* 前月
-* 1か月前
-* 1ヶ月前
-* 1ケ月前
-* 1ヵ月前
-* 1カ月前
-* last month
+한국어;; 최종 월
 
 include::partial$keywords/last_month_by.adoc[]
-日本語;;
-* 先月
-* 前の月
-* 前月
-* 1か月前
-* 1ヶ月前
-* 1ケ月前
-* 1ヵ月前
-* 1カ月前
-* last month
+한국어;; 최종 월 별
 
 include::partial$keywords/last_n_days.adoc[]
-日本語;;
-* 過去 _n_ 日
-* 過去 _n_ 日間
-* last _n_ days
+한국어;; 최종 _n_ 며칠
 
 include::partial$keywords/last_n_days_for_each_month.adoc[]
-日本語;; 毎月の最後の _n_ 日
+한국어;; 최종 _n_ 며칠 각각 월
 
 include::partial$keywords/last_n_days_for_each_quarter.adoc[]
-日本語;; 毎四半期の最後の _n_ 日
+한국어;; 최종 _n_ 며칠 각각 분기
 
 include::partial$keywords/last_n_days_for_each_week.adoc[]
-日本語;; 毎週の最後の _n_ 日
+한국어;; 최종 _n_ 며칠 각각 주
 
 include::partial$keywords/last_n_days_for_each_year.adoc[]
-日本語;; 毎年の最後の _n_ 日
+한국어;; 최종 _n_ 며칠 각각 연도
 
 include::partial$keywords/last_n_hours_for_each_day.adoc[]
-日本語;; 毎日の最後の _n_ 時間
+한국어;; 최종 _n_ 시간 각각 하루
 
 include::partial$keywords/last_n_months.adoc[]
-日本語;;
-* 過去 _n_ 月
-* 過去 _n_ か月
-* last _n_ months
+한국어;; 최종 _n_ 월
 
 include::partial$keywords/last_n_months_for_each_quarter.adoc[]
-日本語;; 毎四半期の最後の _n_ か月
+한국어;; 최종 _n_ 월 각각 분기
 
 include::partial$keywords/last_n_months_for_each_year.adoc[]
-日本語;; 毎年の最後の _n_ か月
+한국어;; 최종 _n_ 월 각각 연도
 
 include::partial$keywords/last_n_quarters.adoc[]
-日本語;;
-* 過去 _n_ 四半期
-* 過去 _n_ q
-* last _n_ quarters
+한국어;; 최종 _n_ 분기
 
 include::partial$keywords/last_n_quarters_for_each_year.adoc[]
-日本語;; 毎年の最後の _n_ 四半期
+한국어;; 최종 _n_ 분기 각각 연도
 
 
 include::partial$keywords/last_n_weeks.adoc[]
-日本語;;
-* 過去 _n_ 週
-* 過去 _n_ 週間
-* last _n_ weeks
+한국어;; 최종 _n_ 주
 
 include::partial$keywords/last_n_weeks_for_each_month.adoc[]
-日本語;; 毎月の最後の _n_ 週
+한국어;; 최종 _n_ 주 각각 월
 
 include::partial$keywords/last_n_weeks_for_each_quarter.adoc[]
-日本語;; 毎四半期の最後の _n_ 週
+한국어;; 최종 _n_ 주 각각 분기
 
 include::partial$keywords/last_n_weeks_for_each_year.adoc[]
-日本語;; 毎年の最後の _n_ 週
+한국어;; 최종 _n_ 주 각각 연도
 
 include::partial$keywords/last_n_years.adoc[]
-日本語;;
-* 過去 _n_ 年
-* 過去 _n_ 年間
-* last _n_ years
+한국어;; 최종 _n_ 년
 
 include::partial$keywords/last_quarter.adoc[]
-日本語;;
-* 前四半期
-* 先四半期
-* 前の四半期
-* 1四半期前
-* last quarter
+한국어;; 최종 분기
 
 include::partial$keywords/last_week.adoc[]
-日本語;;
-* 先週
-* 前の週
-* 前週
-* 1週前
-* last week
+한국어;; 최종 주
 
 include::partial$keywords/last_year.adoc[]
-日本語;;
-* 去年
-* 昨年
-* 前の年
-* 前年
-* 1年前
-* last year
+한국어;; 최종 연도
 
 include::partial$keywords/march.adoc[]
-日本語;; 3月
+한국어;; 3월
 
 include::partial$keywords/may.adoc[]
-日本語;; 5月
+한국어;; 5월
 
 include::partial$keywords/monday.adoc[]
-日本語;; 月曜日
+한국어;; 월요일
 
 include::partial$keywords/month.adoc[]
-日本語;; 月
+한국어;; 월
 
 include::partial$keywords/month_name.adoc[]
-日本語;; _月_
+한국어;; _월_
 
 include::partial$keywords/month_to_date.adoc[]
-日本語;;
-* 月初から今日まで
-* 月初から本日まで
-* 月累計
-* mtd
-* month to date
+한국어;; 월 지금까지
 
 include::partial$keywords/month_year_name.adoc[]
-日本語;; _年 月_
+한국어;; _월 연도_
 
 include::partial$keywords/monthly.adoc[]
-日本語;; 	月単位
+한국어;; 	월간
 
 include::partial$keywords/monthly_year_over_year.adoc[]
-日本語;; 月単位 前年比
+한국어;; 월간 전년 동기 대비
 
 include::partial$keywords/n_days_ago.adoc[]
-日本語;;
-* _n_ 日前
-* _n_ days ago
+한국어;; _n_ 며칠 전에
 
 
 include::partial$keywords/n_months.adoc[]
-日本語;; _n_ 月
+한국어;; _n_ 월
 
 include::partial$keywords/n_months_ago.adoc[]
-日本語;;
-* _n_ か月前
-* _n_ ヶ月前
-* _n_ ケ月前
-* _n_ ヵ月前
-* _n_ カ月前
-* _n_ months ago
+한국어;; _n_ 월 전에
 
 include::partial$keywords/n_quarters_ago.adoc[]
-日本語;;
-* _n_ 四半期前
-* _n_ quarters ago
+한국어;; _n_ 분기 전에
 
 include::partial$keywords/n_weeks_ago.adoc[]
-日本語;;
-* _n_ 週前
-* _n_ weeks ago
+한국어;; _n_ 주 전에
 
 include::partial$keywords/n_years.adoc[]
-日本語;; _n_ 年
+한국어;; _n_ 년
 
 include::partial$keywords/n_years_ago.adoc[]
-日本語;;
-* _n_ 年前
-* _n_ years ago
+한국어;; _n_ 년 전에
 
 include::partial$keywords/next_day.adoc[]
-日本語;;
-* 翌日
-* 次の日
-* 1日後
-* next day
+한국어;; 다음 하루
 
 include::partial$keywords/next_month.adoc[]
-日本語;;
-* 来月
-* 次の月
-* 翌月
-* 次月
-* 1か月後
-* 1ヶ月後
-* 1ケ月後
-* 1ヵ月後
-* 1カ月後
-* next month
+한국어;; 다음 월
 
 include::partial$keywords/next_n_days.adoc[]
-日本語;;
-* 次の _n_ 日
-* 次の _n_ 日間
-* next _n_ days
+한국어;; 다음 _n_ 며칠
 
 include::partial$keywords/next_n_months.adoc[]
-日本語;;
-* 次の _n_ か月
-* 次の _n_ ヶ月
-* 次の _n_ ケ月
-* 次の _n_ ヵ月
-* 次の _n_ カ月
-* next _n_ months
+한국어;; 다음 _n_ 월
 
 include::partial$keywords/next_n_quarters.adoc[]
-日本語;;
-* 次の _n_ 四半期
-* 次の _n_ q
-* next _n_ quarters
+한국어;; 다음 _n_ 분기
 
 include::partial$keywords/next_n_weeks.adoc[]
-日本語;;
-* 次の _n_ 週
-* 次の _n_ 週間
-* next _n_ weeks
+한국어;; 다음 _n_ 주
 
 include::partial$keywords/next_n_years.adoc[]
-日本語;;
-* 次の _n_　年
-* 次の _n_ 年間
-* next _n_ years
+한국어;; 다음 _n_ 년
 
 include::partial$keywords/next_quarter.adoc[]
-日本語;;
-* 来四半期
-* 次の四半期
-* 翌四半期
-* 次四半期
-* 1四半期後
-* next quarter
+한국어;; 다음 분기
 
 include::partial$keywords/next_week.adoc[]
-日本語;;
-* 来週
-* 次の週
-* 翌週
-* 次週
-* 1週後
-* 1週間後
-* next week
+한국어;; 다음 주
 
 include::partial$keywords/next_year.adoc[]
-日本語;;
-* 来年
-* 次の年
-* 翌年
-* 次年
-* 1年後
-* next year
+한국어;; 다음 연도
 
 include::partial$keywords/november.adoc[]
-日本語;; 11月
+한국어;; 11월
 
 include::partial$keywords/october.adoc[]
-日本語;; 10月
+한국어;; 10월
 
 include::partial$keywords/quarter_to_date.adoc[]
-日本語;;
-* 四半期初から今日まで
-* 四半期初から本日まで
-* 四半期累計
-* qtd
-* quarter to date
+한국어;; 분기 지금까지
 
 include::partial$keywords/quarterly.adoc[]
-日本語;;
-* 四半期単位
+한국어;; 분기별
 
 include::partial$keywords/quarterly_year_over_year.adoc[]
-日本語;; 四半期単位 前年比
+한국어;; 분기별 전년 동기 대비
 
 include::partial$keywords/saturday.adoc[]
-日本語;; 土曜日
+한국어;; 토요일
 
 include::partial$keywords/september.adoc[]
-日本語;; 9月
+한국어;; 9월
 
 include::partial$keywords/sunday.adoc[]
-日本語;; 日曜日
+한국어;; 일요일
 
 include::partial$keywords/this_day.adoc[]
-日本語;; この日
+한국어;; 이 하루
 
 include::partial$keywords/this_month.adoc[]
-日本語;; この月
+한국어;; 이 월
 
 include::partial$keywords/this_quarter.adoc[]
-日本語;; この四半期
+한국어;; 이 분기
 
 include::partial$keywords/this_week.adoc[]
-日本語;; この週
+한국어;; 이 주
 
 include::partial$keywords/this_year.adoc[]
-日本語;; この年
+한국어;; 이 연도
 
 include::partial$keywords/thursday.adoc[]
-日本語;; 木曜日
+한국어;; 목요일
 
 include::partial$keywords/today.adoc[]
-日本語;;
-* 今日
-* today
+한국어;; 오늘
 
 include::partial$keywords/tuesday.adoc[]
-日本語;; 火曜日
+한국어;; 화요일
 
 include::partial$keywords/wednesday.adoc[]
-日本語;; 水曜日
+한국어;; 수요일
 
 include::partial$keywords/week.adoc[]
-日本語;; 週
+한국어;; 주
 
 include::partial$keywords/week_to_date.adoc[]
-日本語;;
-* 週初から今日まで
-* 週初から本日まで
-* 週累計
-* wtd
-* week to date
+한국어;; 주 지금까지
 
 include::partial$keywords/weekly.adoc[]
-日本語;; 週単位
+한국어;; 주간
 
 include::partial$keywords/weekly_year_over_year.adoc[]
-日本語;; 週単位 前年比
+한국어;; 주간 전년 동기 대비
 
 include::partial$keywords/year_name.adoc[]
-日本語;; _年_
+한국어;; _연도_
 
 include::partial$keywords/year_to_date.adoc[]
-日本語;;
-* 年初から今日まで
-* 年初から本日まで
-* 年累計
-* ytd
-* year to date
+한국어;; 연도 지금까지
 
 include::partial$keywords/yearly.adoc[]
-日本語;; 年単位
+한국어;; 연간
 
 include::partial$keywords/yesterday.adoc[]
-日本語;;
-* 昨日
-* yesterday
+한국어;; 어제

@@ -236,7 +236,28 @@ ThoughtSpot introduces the ability to save table layouts in the schema viewer. T
 // Naomi. epic: SCAL-181448. doc: SCAL-199383 (approved). epic: SCAL-159833. doc: SCAL-208059 (approved)
 // PM: Aashna
 
-ThoughtSpot now supports Korean and we've also added synonyms for date and time based keywords in German and French for a more accurate experience.
+ThoughtSpot now supports
+ifndef::pendo-links[]
+xref:keywords-ko-KR.adoc[Korean]
+endif::[]
+ifdef::pendo-links[]
+xref:keywords-ko-KR.adoc[Korean,window=_blank]
+endif::[]
+and we've also added synonyms for date and time based keywords in
+ifndef::pendo-links[]
+xref:keywords-de-DE.adoc[German]
+endif::[]
+ifdef::pendo-links[]
+xref:keywords-de-DE.adoc[German,window=_blank]
+endif::[]
+and
+ifndef::pendo-links[]
+xref:keywords-fr-FR.adoc[French]
+endif::[]
+ifdef::pendo-links[]
+xref:keywords-fr-FR.adoc[French,window=_blank]
+endif::[]
+for a more accurate experience.
 
 // [#9-12-5-cl-dependency]
 // [discrete]

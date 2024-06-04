@@ -732,6 +732,7 @@
 *** xref:keywords-de-DE.adoc[Deutsch: German keyword reference]
 *** xref:keywords-it-IT.adoc[Italiano: Italian keyword reference]
 *** xref:keywords-ja-JP.adoc[日本語: Japanese keyword reference]
+*** xref:keywords-ko-KR.adoc[한국어: Korean keyword reference]
 *** xref:keywords-nb-NO.adoc[Norsk: Norwegian keyword reference]
 *** xref:keywords-pt-PT.adoc[Português (Portugal): Portuguese keyword reference]
 *** xref:keywords-pt-BR.adoc[Português (Brasil): Portuguese Brazilian keyword reference]
