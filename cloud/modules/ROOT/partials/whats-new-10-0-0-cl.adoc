@@ -1,0 +1,133 @@
+ifndef::pendo-links[]
+July 2024 [label label-dep]#10.0.0.cl#
+endif::[]
+ifdef::pendo-links[]
+[month-year-whats-new]#July 2024#
+[label label-dep-whats-new]#10.0.0.cl#
+endif::[]
+
+ifndef::free-trial-feature[]
+NOTE: Features marked as [.badge.badge-update-note]#Beta# are off by default. To enable them, contact {support-url}.
+endif::free-trial-feature[]
+
+[#primary-10-0-0-cl]
+
+// Business User
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#10-0-0-cl-homepage]
+[discrete]
+=== Home page 2.0 [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#10-0-0-cl-homepage]
+[discrete]
+=== Home page 2.0 [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+// Mark. SCAL-201198. docs JIRA: SCAL-?
+// PM: Adi?
+
+[#10-0-0-cl-git]
+[discrete]
+=== GIT integration - feature hardening
+// Mark. SCAL-202389. docs JIRA: SCAL-?
+// PM: Nico
+
+// Analyst
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#10-0-0-cl-conditional]
+[discrete]
+=== Advanced conditional formatting [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#10-0-0-cl-conditional]
+[discrete]
+=== Advanced conditional formatting [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
+// Naomi -- scal-177005. documentation JIRA scal-201639 (approved).
+// PM: Manan
+
+In addition to using conditional formatting to visually highlight a threshold in a measure (for example, `sales > 10000`), you can now use conditional formatting to compare a column's measures to another column or to a parameter. For example, if you search for `sales this year` compared to `sales last year`, you can highlight where sales this year were less than last year. You can set multiple conditional formatting rules to a single table. To enable this feature, contact your administrator.
+
+////
+For more information, see
+ifndef::pendo-links[]
+xref:search-conditional-formatting.adoc#advanced-conditional-formatting[Advanced conditional formatting].
+endif::[]
+ifdef::pendo-links[]
+xref:search-conditional-formatting.adoc#advanced-conditional-formatting[Advanced conditional formatting,window=_blank].
+endif::[]
+////
+image::advanced-conditional-formatting.gif[Advanced conditional formatting comparing sales of state to sales of region]
+endif::free-trial-feature[]
+
+[#10-0-0-cl-custom]
+[discrete]
+=== Support user profile customization for number, currency, and date formats
+// Naomi. SCAL-196154, SCAL-204442. docs JIRA: SCAL-?
+// PM: Manan
+
+
+[#10-0-0-cl-measures]
+[discrete]
+=== Support 'measure' construct on pivot tables to group them and configure the view of pivot
+// Mary. SCAL-181678. docs JIRA: SCAL-?
+// PM: Manan
+
+[#10-0-0-cl-ws-v2]
+[discrete]
+=== Modeling improvements for 10.0.0.cl - Worksheet v2
+// Mark. SCAL-192493. docs JIRA: SCAL-?
+// PM: Samridh
+
+'''
+[#secondary-10-0-0-cl]
+[discrete]
+=== _Other features and enhancements_
+
+// Data Engineer
+
+[#10-0-0-cl-trino]
+[discrete]
+=== Upgrade Trino Driver
+// Mark. SCAL-198621. docs JIRA: SCAL-?
+// PM: Aaghran
+
+// IT/ Ops Engineer
+
+[#10-0-0-cl-semi-additive]
+[discrete]
+=== Fix known limitations for FIRST/ LAST for the semi-additive use case
+// Naomi. SCAL-195856. docs JIRA: SCAL-?
+// PM: Damian
+
+[#10-0-0-cl-orgs]
+[discrete]
+=== Org deletion - Default enablement
+// Mary. SCAL-179795. docs JIRA: SCAL-?
+// PM: Kiran, Vijay
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#10-0-0-cl-iam]
+[discrete]
+=== Automation for IAM v2 migration [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#10-0-0-cl-iam]
+[discrete]
+=== Automation for IAM v2 migration [.badge.badge-beta-whats-new]#Beta#
+endif::[]
+// Mary. SCAL-191815. docs JIRA: SCAL-?
+// PM: ?
+
+ifndef::free-trial-feature[]
+[discrete]
+=== For the Developer
+
+For new features and enhancements introduced in this release of ThoughtSpot Embedded, see https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
+endif::[]
