@@ -15,9 +15,7 @@ Your ThoughtSpot admin can enable the new navigation and home page for the clust
 
 On the new home page, you can ask natural-language questions with Sage, track KPIs in your watchlist, access favorites, your library of Answers and Liveboards, and more.
 
-With the new left-hand navigation, you can go directly to your Liveboards, Answers, SpotIQ Analysis, and Monitor Subscriptions. You can also access tutorials, and the ThoughtSpot documentation, and community sites directly from the home page.
-
-The button previously called _Search Data_ is now called _Open Query Builder_ and it still opens the data panel.
+With the new left-hand navigation, you can go directly to your Liveboards, Answers, SpotIQ Analysis, and Monitor Subscriptions. You can also access tutorials, and the ThoughtSpot documentation, and support directly from the home page.
 
 image::scroll_homepage.gif[]
 
@@ -50,6 +48,9 @@ a|
 - Monitor subscriptions
 
 |Data models
+
+(Data workspace)
+
 |Data engineer
 a|- Worksheets and Models
 - Tables
@@ -101,7 +102,7 @@ Here's a quick reference which compares where things were in the previous naviga
 |Insights > Monitor Subscriptions
 
 |Data
-|Data models
+|Data models (Data workspace)
 
 |Admin
 |Admin
