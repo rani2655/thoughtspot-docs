@@ -33,7 +33,7 @@ Custom charts [.badge.badge-beta-relnotes]#Beta#::
 You can now use custom charts created outside of ThoughtSpot, including third-party chart libraries. To enable this feature, contact {support-url}. For more information, see xref:chart-byoc.adoc[Custom charts].
 // Mark -- SCAL-202002, doc jira: SCAL-179003
 
-Sage Coach enhancements::
+= Sage Coach enhancements::
 // Naomi. epic: SCAL-194540. doc: SCAL-209711
 // PM: Alok, Anant
 We made the following changes to Sage Coach:
@@ -53,7 +53,7 @@ ThoughtSpot introduces the ability to save table layouts in the schema viewer. T
 Language updates::
 // Naomi. epic: SCAL-181448. doc: SCAL-199383 (approved). epic: SCAL-159833. doc: SCAL-208059 (approved)
 // PM: Aashna
-ThoughtSpot now supports Korean and we've also added synonyms for date and time based keywords in German and French for a more accurate experience. For more information, see xref:keywords.adoc[Keyword reference].
+ThoughtSpot now supports xref:keywords-ko-KR.adoc[Korean] and we've also added synonyms for date and time based keywords in xref:keywords-de-DE.adoc[German] and xref:keywords-fr-FR.adoc[French] for a more accurate experience.
 
 [#9-12-5-cl-business-user]
 === For the Business User
@@ -76,7 +76,6 @@ Drill down in change analysis::
 Drill down in change analysis is now on by default and available to all users. You can now drill down on specific columns in change analysis, in order to identify change drivers within your data. For example, if you run an analysis on sales monthly and find out that the 'jacket' item type changed the most, you can easily drill down on jacket sales and identify which region contributed the most to the change in sales. For more information, see xref:spotiq-change.adoc#iterative[Interative change analysis].
 
 Forecasting [.badge.badge-early-access-relnotes]#Early Access#::
-endif::[]
 // Naomi. epic: SCAL-188788. doc: SCAL-205575 (approved)
 // add gif?
 // PM: Vikas
