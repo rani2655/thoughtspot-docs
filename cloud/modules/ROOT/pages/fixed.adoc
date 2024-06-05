@@ -34,8 +34,6 @@ These are the issues we fixed in this release of ThoughtSpot Cloud.
 |dbt connection disappears from ThoughtSpot.
 |SCAL-202670
 |Unexpected emails from Cord after upgrade to 9.10.5.cl.
-|SCAL-200638
-|Cluster upgrade stuck at check-progress step.
 |SCAL-198889
 |ThoughtSpot Embedded: All prism apis ask for a cookie even in cookieless authentication flow.
 |SCAL-198333
