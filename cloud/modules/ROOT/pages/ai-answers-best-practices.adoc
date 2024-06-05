@@ -5,7 +5,7 @@
 :linkattrs:
 :page-layout: default-cloud-early-access
 :description: Learn the best practices for using natural language to search for answers to your business questions.
-:jira: SCAL-187163
+:jira: SCAL-187163, SCAL-207854
 
 ThoughtSpot Sage enables customers to ask business questions in natural language, and get AI-generated answers back in the search results page. This guide provides tips to help you get the best performance from the natural language search feature. For more information about natural language search, see xref:ai-answers.adoc[].
 
@@ -14,6 +14,7 @@ ThoughtSpot Sage enables customers to ask business questions in natural language
 Natural language search is an Early Access feature and is disabled by default. To enable it, contact your administrator. Once enabled, your ThoughtSpot administrator can grant you access to this feature by assigning the *Can preview ThoughtSpot Sage* user privilege to your user group.
 ****
 
+////
 == Worksheet best practices
 ThoughtSpot’s natural language capability in general works well with a well-structured Worksheet that has properly named and non-ambiguous columns. The underlying data doesn’t have restrictions on the number of columns or any join restrictions. However, we do specify some best practices when creating Worksheets to get the best natural language search accuracy:
 
@@ -31,6 +32,7 @@ ThoughtSpot’s natural language capability in general works well with a well-st
 * Indexing
 ** When creating a new use case with low usage on ThoughtSpot, we advise using index priority. Adjusting the xref:data-modeling-index.adoc#column-suggestion-priority[index priority] for your most popular columns helps ThoughtSpot prioritize those columns when generating Answers.
 ** Enabling value indexing improves value accuracy.
+////
 
 == Search best practices
 Follow these best practices when searching using natural language for the most accurate Answers:
