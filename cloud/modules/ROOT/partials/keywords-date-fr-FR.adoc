@@ -186,10 +186,12 @@ Français;;
 * dernier _n_ jours de chaque année
 * dernier _n_ jours annuel
 
+////
 include::partial$keywords/last_n_hours.adoc[]
 Français;;
 * dernier(s/e/es) _n_ heures
 * dernières _n_ heures
+////
 
 include::partial$keywords/last_n_hours_for_each_day.adoc[]
 Français;;
@@ -197,10 +199,12 @@ Français;;
 * dernier _n_ heures de chaque jour
 * dernier _n_ heures journalière
 
+////
 include::partial$keywords/last_n_minutes.adoc[]
 Français;;
 * dernier(s/e/es) _n_ minutes
 * dernières _n_ minutes
+////
 
 include::partial$keywords/last_n_months.adoc[]
 Français;;
@@ -230,10 +234,12 @@ Français;;
 * dernier _n_ trimestres de chaque année
 * dernier _n_ trimestres annuel
 
+////
 include::partial$keywords/last_n_seconds.adoc[]
 Français;;
 * dernier(s/e/es) _n_ secondes
 * dernières _n_ secondes
+////
 
 include::partial$keywords/last_n_weeks.adoc[]
 Français;;
@@ -275,10 +281,12 @@ Français;;
 * dernier trimestre de chaque année
 * dernier trimestre annuel
 
+////
 include::partial$keywords/last_second.adoc[]
 Français;;
 * dernier(s/e/es) seconde
 * dernière seconde
+////
 
 include::partial$keywords/last_week.adoc[]
 Français;;
@@ -382,10 +390,12 @@ Français;;
 * _n_ trimestres il y a
 * il y a _n_ trimestres
 
+////
 include::partial$keywords/n_seconds_ago.adoc[]
 Français;;
 * _n_ secondes il y a
 * il y a _n_ secondes
+////
 
 include::partial$keywords/n_weeks_ago.adoc[]
 Français;;
@@ -447,6 +457,7 @@ Français;;
 * prochain(s/e/es) _n_ jours de chaque année
 * _n_ prochains jours de chaque année
 
+////
 include::partial$keywords/next_n_hours.adoc[]
 Français;;
 * prochain(s/e/es) _n_ heures
@@ -456,6 +467,7 @@ include::partial$keywords/next_n_minutes.adoc[]
 Français;;
 * prochain(s/e/es) _n_ minutes
 * _n_ prochaines minutes
+////
 
 include::partial$keywords/next_n_months.adoc[]
 Français;;
@@ -484,10 +496,12 @@ Français;;
 * _n_ prochains trimestres de chaque année
 * prochains _n_ trimestres de chaque année
 
+////
 include::partial$keywords/next_n_seconds.adoc[]
 Français;;
 * prochain(s/e/es) _n_ secondes
 * _n_ prochaines secondes
+////
 
 include::partial$keywords/next_n_weeks.adoc[]
 Français;;
@@ -519,10 +533,12 @@ Français;;
 * prochain(s/e/es) trimestre
 * trimestre prochain
 
+////
 include::partial$keywords/next_second.adoc[]
 Français;;
 * prochain(s/e/es) seconde
 * seconde suivante
+////
 
 include::partial$keywords/next_week.adoc[]
 Français;;
@@ -596,10 +612,12 @@ Français;;
 * ce(tte) trimestre
 * ce trimestre
 
+////
 include::partial$keywords/this_second.adoc[]
 Français;;
 * ce(tte) seconde
 * cette seconde
+////
 
 include::partial$keywords/this_week.adoc[]
 Français;;
