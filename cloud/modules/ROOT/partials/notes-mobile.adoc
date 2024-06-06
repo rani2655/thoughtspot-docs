@@ -50,7 +50,7 @@ These release notes include information about new features, fixed issues from th
 [#2-5-new]
 == 2.5 New Features and Functionality
 
-We have moved Liveboards to the new Answer experience on mobile in this release. This change also includes showing KPI charts on Liveboards and bug fixes.
+* We have moved Liveboards to the new Answer experience on mobile in this release. This change also includes showing KPI charts on Liveboards and bug fixes.
 
 [#2-4-new]
 == 2.4 New Features and Functionality
