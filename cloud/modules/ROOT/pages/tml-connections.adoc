@@ -6,7 +6,7 @@
 :page-layout: default-cloud
 :description: Use TML to modify a ThoughtSpot connection in a flat-file format. Then, migrate the object to a different cluster, or restore it to the same cluster.
 :object: connections
-:jira: SCAL-148626, SCAL-202207, SCAL-132544, SCAL-202209
+:jira: SCAL-148626, SCAL-202207, SCAL-132544, SCAL-202209, SCAL-210485
 
 Use TML to modify a ThoughtSpot connection in a flat-file format. You can edit the connection TML file in the Data Workspace, or export the TML file to edit separately. When exporting the connection TML file, you can choose to export only the connection TML file, to export the connection TML file together with the related table TML files in a zip file, or to export either of the previous options with the FQN for each referenced object included.
 
@@ -44,7 +44,7 @@ See <<limitations,Limitations of working with TML files>> for more information a
 <<connection,connection>> :
   <<name,name>>: <connection_name>
  <<type,type>>: <connection_type>
-<<authentication_type,authentication_type>>: [SERVICE_ACCOUNT, KEY_PAIR, OAUTH]
+<<authentication_type,authentication_type>>: [SERVICE_ACCOUNT, KEY_PAIR]
 <<properties,properties>>:
 <<key,key>>: <accountName>
 <<value,value>>: <account_name>
@@ -92,7 +92,8 @@ a| <<name,name>>
 |===
 
 [#authentication_type]
-authentication_type:: The type of authentication used to connect to the connection. Note that authentication type is usually SERVICE_ACCOUNT, although certain connections also support KEY_PAIR or OAUTH. For OAUTH, ThoughtSpot supports standard OAuth, AWS IAM, External OAuth, OAuth using PKCE, external OAuth using PKCE, and OAuth using PEZ, depending on the connection.
+authentication_type:: The type of authentication used to connect to the connection. Note that authentication type is usually SERVICE_ACCOUNT, although certain connections also support KEY_PAIR.
+//For OAUTH, ThoughtSpot supports standard OAuth, AWS IAM, External OAuth, OAuth using PKCE, external OAuth using PKCE, and OAuth using PEZ, depending on the connection.
 
 
 [#connection]
