@@ -94,7 +94,8 @@ a| <<name,name>>
 [#authentication_type]
 authentication_type:: The type of authentication used to connect to the connection. Note that authentication type is usually SERVICE_ACCOUNT, although certain connections also support KEY_PAIR.
 //For OAUTH, ThoughtSpot supports standard OAuth, AWS IAM, External OAuth, OAuth using PKCE, external OAuth using PKCE, and OAuth using PEZ, depending on the connection.
-
++
+NOTE: We do not currently support Connection TML for connections authenticated using OAuth.
 
 [#connection]
 connection:: A way to identify the external data warehouse connecting to ThoughtSpot.
