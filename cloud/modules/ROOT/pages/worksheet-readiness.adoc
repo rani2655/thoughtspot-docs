@@ -1,4 +1,4 @@
-= Worksheet readiness
+= Worksheet readiness for Sage
 :last_updated: 06/05/2024
 :linkattrs:
 :experimental:
