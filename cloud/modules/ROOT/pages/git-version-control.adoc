@@ -1,11 +1,11 @@
 = Version control for Liveboards and Answers
-:last_updated: 5/6/2024
+:last_updated: 5/7/2024
 :author: Mark
 :experimental:
 :linkattrs:
 :page-layout: default-cloud-early-access
 :description: Enable version control on your ThoughtSpot cluster, so users can enable version control on specific Liveboards and Answers.
-:jira: SCAL-196890
+:jira: SCAL-196890, SCAL-185652 (can manage version control privilege)
 
 With version control, every time a user saves changes to a Liveboard or Answer, a new version is created and stored in Github. Any user with edit access to the Liveboard or Answer can browse the version history in ThoughtSpot and restore any saved versions whenever needed. Version control must be enabled at the Org level. After that, it can be enabled on specific Liveboards and Answers where version control is wanted.
 
@@ -74,10 +74,10 @@ Version control is now enabled for your Org. In order for version control to be 
 
 === Prerequisites
 
-To enable version control on a Liveboard or Answer, the following is required:
+To enable version control on a Liveboard or Answer, you must:
 
-* Admin or Developer privilege
-* Edit permission on the Liveboard or Answer and the underlying datasource(s)
+* Be in a group which is assigned the "Can manage version control" privilege
+* Have edit permission on the Liveboard or Answer and the underlying datasource(s)
 
 === Enabling version control for a Liveboard or Answer
 
