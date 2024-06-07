@@ -66,9 +66,6 @@ include::partial$keywords/growth_of_by_weekly.adoc[]
 include::partial$keywords/growth_of_by_yearly.adoc[]
 한국어;; 의 증가 ... 별... 연간
 
-include::partial$keywords/hourly.adoc[]
-한국어;; 시간당
-
 include::partial$keywords/january.adoc[]
 한국어;; 1월
 

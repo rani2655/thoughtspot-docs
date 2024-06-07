@@ -17,7 +17,7 @@ Français;;
 include::partial$keywords/last_minute.adoc[]
 Français;;
 * dernier(s/e/es) minute
-* dernière minute
+* Dernière minute
 
 include::partial$keywords/last_n_hours.adoc[]
 Français;;
