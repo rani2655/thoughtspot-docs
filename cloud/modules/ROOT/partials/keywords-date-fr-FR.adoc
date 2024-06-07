@@ -268,7 +268,7 @@ Français;;
 include::partial$keywords/last_n_years.adoc[]
 Français;;
 * dernier(s/e/es) _n_ années
-* _n_ dernières années
+* _n_ Dernières années
 
 include::partial$keywords/last_quarter.adoc[]
 Français;;
@@ -413,7 +413,7 @@ Français;;
 include::partial$keywords/next_day.adoc[]
 Français;;
 * prochain(s/e/es) jour
-* jour suivant
+* Jour suivant
 
 ////
 include::partial$keywords/next_hour.adoc[]
@@ -430,7 +430,7 @@ Français;;
 include::partial$keywords/next_month.adoc[]
 Français;;
 * prochain(s/e/es) mois
-* mois suivant
+* Mois suivant
 
 include::partial$keywords/next_n_days.adoc[]
 Français;;
@@ -531,7 +531,7 @@ Français;;
 include::partial$keywords/next_quarter.adoc[]
 Français;;
 * prochain(s/e/es) trimestre
-* trimestre prochain
+* Trimestre prochain
 
 ////
 include::partial$keywords/next_second.adoc[]
@@ -543,7 +543,7 @@ Français;;
 include::partial$keywords/next_week.adoc[]
 Français;;
 * prochain(s/e/es) semaine
-* semaine prochaine
+* Semaine prochaine
 
 include::partial$keywords/next_year.adoc[]
 Français;;
