@@ -1,8 +1,8 @@
 = Time-series forecasting
-:last_updated: 4/23/24
+:last_updated: 6/9/24
 :linkattrs:
 :author: Naomi
-:page-layout: default-cloud-beta
+:page-layout: default-cloud-early-access
 :experimental:
 :description: Use SpotIQ analysis to forecast future trends for your KPIs.
 :jira: SCAL-201644, SCAL-207677
