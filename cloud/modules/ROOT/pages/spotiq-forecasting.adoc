@@ -1,5 +1,5 @@
 = Time-series forecasting
-:last_updated: 6/9/24
+:last_updated: 6/10/24
 :linkattrs:
 :author: Naomi
 :page-layout: default-cloud-early-access
@@ -8,8 +8,6 @@
 :jira: SCAL-201644, SCAL-207677
 
 You can now use SpotIQ analysis to forecast future trends for your KPIs. ThoughtSpot uses machine learning models that learn from past trends, growth, and seasonality to project how the target metric will trend in the future. Note that you can only use forecasting on KPIs that include a time keyword.
-
-NOTE: Forecasting is in beta and off by default. To enable it, contact {support-url}.
 
 == Use forecasting
 
