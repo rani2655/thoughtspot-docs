@@ -16,7 +16,7 @@ NOTE: Column sets are in early access and off by default. To enable this feature
 
 To create a column set, first define the business question you wish to answer. For example, you can use column sets to define regions with specific countries included or excluded. To create a column set showcasing this defined list of values, follow these steps:
 
-. Navigate to the *Search Data* page by clicking the *Search data* button in the top navigation bar.
+. Navigate to the *Search Data* page by clicking the *Search data* button.
 
 . Click *Add* and select *Column set*.
 +
