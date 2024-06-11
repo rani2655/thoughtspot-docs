@@ -77,7 +77,6 @@
 *** xref:liveboard-filters-cross.adoc[Liveboard cross filters]
 *** xref:personalized-liveboard-views.adoc[Personalized Liveboard views]
 *** xref:parameters-create.adoc[Create Parameters]
-*** xref:custom-groups.adoc[Custom Groups]
 *** xref:custom-sets.adoc[Custom Sets]
 *** xref:custom-groups.adoc[Query Sets]
 *** xref:thoughtspot-one-disable-discover-worksheet.adoc[Disable Answer Search for specific Worksheets]
