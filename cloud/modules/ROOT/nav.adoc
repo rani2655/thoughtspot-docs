@@ -591,6 +591,7 @@
 *** xref:mobile-deploy.adoc[Deploy]
 *** xref:mobile-install.adoc[Install and set up]
 ** xref:mobile-features.adoc[Features]
+*** xref:mobile-ask-sage.adoc[Ask Sage]
 *** xref:mobile-kpi-change-analysis.adoc[KPI change analysis]
 *** xref:mobile-localization.adoc[Internationalization and localization]
 *** xref:mobile-push-notifications.adoc[ThoughtSpot mobile push notifications]
