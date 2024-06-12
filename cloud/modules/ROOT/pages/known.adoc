@@ -16,25 +16,11 @@ These are the known issues in this release of ThoughtSpot Cloud.
 |===
 |Issue ID |Description|Symptoms, conditions, and workaround
 
-|SCAL-187097
-|User cannot unsubscribe from an alert in an email created from a Liveboard.
-a|*Symptoms*:
-
-When user clicks the unsubscribe link in an alert email created in a Liveboard, an Explore window opens, instead of the monitor window, in the ThoughtSpot app.
-
-*Conditions*:
-
-Liveboard contains tabs.
-
-*Workaround*:
-
-None.
-
 |SCAL-196442
 |Sorting issues with a measure inside a pivot table
 a|*Symptoms*:
 
-Rows can only be sorted by rows and not by columns.
+Only rows are updated accordingly when sorting by measure on a pivot table.
 
 *Conditions*:
 
@@ -44,4 +30,6 @@ Rows can only be sorted by rows and not by columns.
 *Workaround*:
 
 None.
+
+Only row-level sorting is used when applying default-sorting by measure on a pivot table.
 |===
