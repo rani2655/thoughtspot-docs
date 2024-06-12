@@ -10,19 +10,21 @@
 
 You can now use Ask Sage on mobile. Ask Sage is a conversational experience that allows you to ask simple follow-up questions on visualizations in a Liveboard using natural language. You can effortlessly gain deeper insights about your metrics.
 
+
+
 == Use Ask Sage
 
 To use Ask Sage, follow these steps:
 
 . Navigate to a Liveboard in ThoughtSpot mobile.
 
-. Choose a visualization to drill down on, select *Ask Sage*, and type your question in natural language in the search bar that appears.
+. Choose a visualization to drill down on, select *Ask Sage*, and ask a single question in natural language either via text or a voice input.
 
 . Your Answer appears.
 +
-Type any follow-up question in the bar at the bottom of the window, and click *Enter* or click the arrow icon. For example, you can narrow your results by region, make comparisons between two periods of time, or filter by specific product.
+NOTE: You can let us know if the answer is what you were looking for by answering *Did we get this answer right?*.
 
-. From *Ask Sage*, you can save the provided Answer, make a copy, or pin to a Liveboard from the *more options* menu.
+. From *Ask Sage*, you can save the provided answer, and share the answer.
 
 
 
@@ -44,7 +46,7 @@ Type any follow-up question in the bar at the bottom of the window, and click *E
 
 == Enable Ask Sage
 
-For ThoughtSpot mobile:
+Ask Sage is enabled by default on mobile when it is enabled on your ThoughtSpot cluster.
 
 Admins can enable Ask Sage.
 
