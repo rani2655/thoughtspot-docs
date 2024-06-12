@@ -4,21 +4,55 @@
 :linkattrs:
 :experimental:
 :description:
-:jira: SCAL-154204, SCAL-201299, SCAL-202890, SCAL-208773
+:jira: SCAL-154204, SCAL-201299, SCAL-202890, SCAL-208773, SCAL-209578
 
 // designed specifically for data professionals and analysts
 
-Sage Coach allows analysts to fine-tune the results of natural language search by examining and validating the feedback users give. Analysts can hand-select examples and pieces of feedback, personalize Sage output for specific users and groups of users, or for the cluster as a whole.
+Sage Coach allows analysts to fine-tune the results of natural language search by examining and validating the feedback users give. Analysts can hand-select examples and pieces of feedback, and personalize Sage output for specific users and groups of users, or for the cluster as a whole.
 
 NOTE: When you make a change to a Worksheet, ThoughtSpot now alerts you if this will affect any related query feedback. If you accept this and make the change, the feedback depending on that Worksheet is deleted.
 
 == Review user feedback
 
-You can review user feedback from the Data workspace, and determine whether it should apply to only that user’s queries, or to the entire cluster. Use the query feedback modal to review feedback given to individual natural language queries, and use the fragment feedback modal to review the translation of individual natural language terms to search tokens.
+You can review user feedback from the Data workspace, and determine whether it should apply to only that user’s queries, or to the entire cluster. Use the fragment feedback modal to review the translation of individual natural language terms to search tokens, and use the query feedback modal to review feedback given to individual natural language queries.
+
+
+=== Fragment feedback
+
+To give feedback on specific terms used in natural language queries, follow these steps:
+
+. Navigate to the *Data* tab and select *Sage feedback - Fragments* from the left menu.
++
+A list of all terms used in queries that users gave feedback for appears.
++
+image:query-term-feedback.png[Fragment feedback page]
+
+
+. Note that for each term, the following fields appear:
+
+* Fragment, or the string used in the natural language query
+* Related tokens, or the phrasing used to generate the ThoughtSpot visualization for the Answer
+* Original query
+* Example status
+* Worksheet
+* Time stamp for last change
+
+. Administrators and Worksheet editors can make the following changes to the feedback on individual fragments:
++
+--
+* Fix fragment.
+* Change the level of access– make user-level feedback global, or restrict global feedback to user-level.
+* Delete.
+--
++
+If you choose to update the fragment, the term appears in editable mode in an AI-answer pop-up window. Click *Submit* to finish.
+
+
+=== Query feedback
 
 To give feedback on user queries, follow these steps:
 
-. Navigate to the *Data* tab and select *Queries feedback* from the left menu.
+. Navigate to the *Data* tab and select *Sage feedback - Queries* from the left menu.
 +
 A list of the natural language queries for which users gave feedback appears. Note that you see the following fields:
 
@@ -38,42 +72,13 @@ image:queries-feedback.png[ThoughtSpot query feedback]
 to the right of the time stamp:
 +
 --
-* Delete feedback.
-* Change the level of access– make user-level feedback global, or restrict global feedback to user-level.
 * Fix the answer.
+* Change the level of access– make user-level feedback global, or restrict global feedback to user-level.
+* Delete.
 --
 
 +
-If you choose to fix the answer, the AI-answer appears in editable mode in a pop-up window. Click *Submit feedback* to finish.
-
-
-To give feedback on specific terms used in natural language queries, follow these steps:
-
-. Navigate to the *Data* tab and select *Fragment feedback* from the left menu.
-+
-A list of all terms used in queries that users gave feedback for appears.
-+
-image:query-term-feedback.png[Fragment feedback page]
-
-
-. Note that for each term, the following fields appear:
-
-* Fragment, or the string used in the natural language query
-* Related tokens, or the phrasing used to generate the ThoughtSpot visualization for the Answer
-* Original query
-* Example status
-* Worksheet
-* Time stamp for last change
-
-. Administrators and Worksheet editors can make the following changes to the feedback on individual fragments:
-+
---
-* Update fragment
-* Use as an example
-* Delete
---
-+
-If you choose to update the fragment, the term appears in editable mode in an AI-answer pop-up window. Click *Submit feedback* to finish.
+If you choose to fix the answer, the AI-answer appears in editable mode in a pop-up window. Click *Submit* to finish.
 
 == Permissions
 
