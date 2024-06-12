@@ -246,6 +246,12 @@ For more information, see xref:liveboard-filters.adoc[Livebaord filters].
 // PM: Arpit
 
 
+[#9-10-1-cl-mobile]
+[discrete]
+=== Mobile app updates
+* Ask Sage on mobile
+** You can now use Ask Sage on mobile version 3.0.0. Ask Sage is a conversational experience that allows you to ask simple follow-up questions on visualizations in a Liveboard using natural language. You can effortlessly gain deeper insights on your metrics.
+
 
 // Analyst
 
