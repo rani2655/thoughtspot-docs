@@ -80,6 +80,7 @@ to the right of the time stamp:
 +
 If you choose to fix the answer, the AI-answer appears in editable mode in a pop-up window. Click *Submit* to finish.
 
+[#permissions]
 == Permissions
 
 Access to Sage Feedback depends on your access to the underlying data set in the form of Worksheets, tables, and views. The following table clarifies each permission level, the feedback a user can view, and the actions you can take.
