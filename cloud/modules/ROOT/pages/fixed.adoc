@@ -1,6 +1,6 @@
 = Fixed issues
 :keywords: fixed issues
-:last_updated: 6/5/2024
+:last_updated: 6/12/2024
 :author: Mark Plummer
 :experimental:
 :linkattrs:
@@ -9,6 +9,12 @@
 :jira: SCAL-197719 (9.10.5.cl), SCAL-206809 (9.12.0.cl), SCAL-210330 (9.12.5.cl)
 
 These are the issues we fixed in this release of ThoughtSpot Cloud.
+
+[#releases-10-0-x]
+
+== 10.0.0.cl release fixed issues
+
+TBD
 
 [#releases-9-12-0-x]
 
