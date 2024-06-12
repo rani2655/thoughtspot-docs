@@ -33,16 +33,17 @@ Custom charts [.badge.badge-beta-relnotes]#Beta#::
 You can now use custom charts created outside of ThoughtSpot, including third-party chart libraries. To enable this feature, contact {support-url}. For more information, see xref:chart-byoc.adoc[Custom charts].
 // Mark -- SCAL-202002, doc jira: SCAL-179003
 
-= Sage Coach enhancements::
+Sage Coach enhancements::
 // Naomi. epic: SCAL-194540. doc: SCAL-209711
 // PM: Alok, Anant
 We made the following changes to Sage Coach:
 
-* Only Worksheet editors can promote feedback on a Worksheet to global.
-* While users can delete or edit their own feedback when it is at user-level, they cannot edit or delete their feedback when it is at global-level.
-* You can now edit your fragments as cells in a table when giving feedback.
-+
-For more information, see xref:sage-coach.adoc[].
+
+* Only users with Worksheet editing rights can promote feedback to the global access level so that it applies user queries on the Worksheet.
+* Once feedback is promoted to global access level, users without worksheet editing access cannot take any actions on it. For more information on the changes in the permission model, refer to
+xref:sage-coach.adoc#permissions[Sage Coach permissions].
+* When a Worksheet column is modified, such as a column name change, the changes are reflected in Sage Coach feedback. When a column is deleted, any feedback using that column is also removed. While saving a changed Worksheet, you have the option to review the impacted feedback, ensuring accurate updates upon confirmation.
+* You can now edit query fragment text before submitting feedback. Additionally, you can edit the natural language query terms along with the Answer tokens through the Sage Coach flow.
 
 Save table layouts in the schema viewer::
 ThoughtSpot introduces the ability to save table layouts in the schema viewer. Table location and size are now maintained and saved in the schema viewer. For more information, see xref:schema-viewer.adoc[].
