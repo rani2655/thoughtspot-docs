@@ -34,7 +34,7 @@ None.
 |Sorting issues with a measure inside a pivot table
 a|*Symptoms*:
 
-Rows can only be sorted by rows and not by columns.
+Only rows are updated accordingly when sorting by measure on a pivot table.
 
 *Conditions*:
 
@@ -44,4 +44,6 @@ Rows can only be sorted by rows and not by columns.
 *Workaround*:
 
 None.
+
+Only row-level sorting is used when applying default-sorting by measure on a pivot table.
 |===
