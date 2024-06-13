@@ -103,3 +103,4 @@ image:forecast-select-measures.png[Select measures in analysis settings]
 * You need at least 15 data points in your time series KPI to forecast.
 * Time-series forecasting is not supported on the Google cloud platform (GCP) yet.
 * Forecasting is not supported on datasets that have xref:connections-cust-cal.adoc[custom calendar] configurations.
+* When you enable Forecasting, you will only be able to run one kind of SpotIQ analysis at a time. If you disable Forecasting, you will be able to multi-select.
