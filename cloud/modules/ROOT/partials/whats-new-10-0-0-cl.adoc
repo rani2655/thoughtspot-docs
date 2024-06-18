@@ -53,7 +53,6 @@ endif::[]
 
 In addition to using conditional formatting to visually highlight a threshold in a measure (for example, `sales > 10000`), you can now use conditional formatting to compare a column's measures to another column or to a parameter. For example, if you search for `sales this year` compared to `sales last year`, you can highlight where sales this year were less than last year. You can set multiple conditional formatting rules to a single table. To enable this feature, contact your administrator.
 
-////
 For more information, see
 ifndef::pendo-links[]
 xref:search-conditional-formatting.adoc#advanced-conditional-formatting[Advanced conditional formatting].
@@ -61,15 +60,11 @@ endif::[]
 ifdef::pendo-links[]
 xref:search-conditional-formatting.adoc#advanced-conditional-formatting[Advanced conditional formatting,window=_blank].
 endif::[]
-////
+
 image::advanced-conditional-formatting.gif[Advanced conditional formatting comparing sales of state to sales of region]
 endif::free-trial-feature[]
 
-[#10-0-0-cl-custom]
-[discrete]
-=== Support user profile customization for number, currency, and date formats
-// Naomi. SCAL-196154, SCAL-204442. docs JIRA: SCAL-?
-// PM: Manan
+
 
 
 [#10-0-0-cl-measures]
@@ -99,11 +94,6 @@ endif::free-trial-feature[]
 
 // IT/ Ops Engineer
 
-[#10-0-0-cl-semi-additive]
-[discrete]
-=== Fix known limitations for FIRST/ LAST for the semi-additive use case
-// Naomi. SCAL-195856. docs JIRA: SCAL-?
-// PM: Damian
 
 [#10-0-0-cl-orgs]
 [discrete]
