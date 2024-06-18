@@ -39,7 +39,7 @@ image::scroll_homepage.gif[]
 The new global navigation organizes ThoughtSpot into different contextual sections designed for the common types of ThoughtSpot users. Within each app, there is left-hand navigation. These different sections are called apps, and you navigate to them using the app switcher image:app_switcher_icon.png[app switcher icon].
 
 // Need new png
-image::app-switcher.png[]
+image::app-switcher.png[app switcher]
 
 The new home page and navigation are disabled by default. To enable it, contact your ThoughtSpot administrator. After that, open your user profile, and in the _Experience_ section, set the Navigation and Homepage to *New experience*.
 ****

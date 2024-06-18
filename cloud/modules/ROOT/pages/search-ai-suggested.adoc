@@ -12,7 +12,7 @@ AI-suggested searches are available from the natural language search bar on the 
 
 image::searches-ai-suggested.png[Search Data interface open, displaying three AI-suggested searches]
 
-AI-suggested searches are generated using GPT-3.5, a Large Language Model (LLM) by OpenAI. Answer-based suggested searches are generated using the most popular answers created using the selected data source.  Only Thoughtspot’s Search Tokens are shared with LLM to generate questions.  All users of a data source see the same set of suggested searches.
+AI-suggested searches are generated using GPT-3.5, a Large Language Model (LLM) by OpenAI. Answer-based suggested searches are generated using the most popular answers created using the selected data source.  Only ThoughtSpot’s Search Tokens are shared with LLM to generate questions.  All users of a data source see the same set of suggested searches.
 
 NOTE: The list of suggested searches is generated once for all worksheets.
 
@@ -32,7 +32,7 @@ ThoughtSpot automatically selects the data source used in your most recent searc
 +
 Once the search is complete, the answer is displayed.
 . Review the answer, drill down on data points, or make changes to the query in the search bar as needed.
-. (Optional) You can share feedback on the suggested search by clicking the thumbs up or down icon image:thumb_up_down.png[] at the bottom-right portion of the AI Answer. When clicking the thumbs-down icon, the message  "Not satisfied? Let's fix it" appears. Clicking that message allows you to modify the answer by adding or modifying different columns until you are happy with the result. After that, you can submit your revised answer as feedback.
+. (Optional) You can share feedback on the suggested search by clicking the thumbs up or down icon image:thumb_up_down.png[Thumbs up/Thumbs down icon] at the bottom-right portion of the AI Answer. When clicking the thumbs-down icon, the message  "Not satisfied? Let's fix it" appears. Clicking that message allows you to modify the answer by adding or modifying different columns until you are happy with the result. After that, you can submit your revised answer as feedback.
 . When you are ready to submit your feedback, click *Submit*.
 . If you are done with your feedback, click *Done*. If not, click *Cancel* to go back and revise your feedback and click *Submit*, when you are ready.
 . When you are done submitting your feedback, click *Done*.

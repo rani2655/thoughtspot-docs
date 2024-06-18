@@ -100,7 +100,8 @@ Can view System activities
 
 Can view Billing Information
 |Can view all details under the Billing section.|Can create/edit connections
-|Can add new data connections or edit existing connections.|Can manage data models|Can create, edit, or delete data models.|Can manage custom calendars|Can create, edit, or delete custom calendars.|Can upload user data|Can upload user data.|===
+|Can add new data connections or edit existing connections.|Can manage data models|Can create, edit, or delete data models.|Can manage custom calendars|Can create, edit, or delete custom calendars.|Can upload user data|Can upload user data.
+|===
 
 == Migrating to RBAC
 Existing ThoughtSpot customers can easily migrate to RBAC using the roles delivered with ThoughtSpot 9.5.0.cl. ThoughtSpot delivers roles corresponding to each privilege previously available as part of the existing groups and groups are retained. This allows you to assign those privileges individually to groups using roles.

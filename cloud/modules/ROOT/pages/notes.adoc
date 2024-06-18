@@ -244,13 +244,9 @@ For more information, see xref:semi-additive-measures.adoc[Semi-additive measure
 Version control for Liveboards and Answers [.badge.badge-early-access-relnotes]#Early Access#::
 // Mark – doc jira: SCAL-196890
 // PM: Nico
-Now teams of analysts can more easily collaborate on content development of Liveboards and Answers. You can enable version control on specific Liveboards and Answers. With version control enabled, every time you save the Liveboard or Answer, a new version is created and stored. You can browse the version history in ThoughtSpot and restore any saved versions whenever you need to. To enable this feature, contact your administrator. For more information, see
-ifndef::pendo-links[]
-xref:liveboard.adoc#version-history[Liveboards] and xref:answers.adoc#version-history[Answers].
-endif::[]
-ifdef::pendo-links[]
-xref:liveboard.adoc#version-history[Liveboards,window=_blank] and xref:answers.adoc#version-history[Answers,window=_blank].
-endif::[]
+Now teams of analysts can more easily collaborate on content development of Liveboards and Answers. You can enable version control on specific Liveboards and Answers. With version control enabled, every time you save the Liveboard or Answer, a new version is created and stored. You can browse the version history in ThoughtSpot and restore any saved versions whenever you need to. To enable this feature, contact your administrator. For more information, see xref:liveboard.adoc#version-history[Liveboards] and xref:answers.adoc#version-history[Answers].
+
+
 
 // Naomi -- SCAL-187745. documentation JIRA scal-201640.
 Collibra catalog integration::
@@ -381,8 +377,6 @@ RBAC is disabled by default. To enable this feature, contact {support-url}.
 // Mary -- SCAL-139496
 
 
-endif::free-trial-feature[]
-
 
 // Naomi -- SCAL-154204, SCAL-201299
 Feedback review::
@@ -399,8 +393,7 @@ xref:dbt-integration.adoc#share[Share a dbt connection].
 
 // Naomi -- SCAL-180960
 dbt error message handling::
-ThoughtSpot displays dbt error messages that clearly describe whether the error originated in dbt or in ThoughtSpot, where the error was encountered, and what steps users should take to resolve the issue. For a list of the error messages ThoughtSpot supports, see
-xref:dbt-integration.adoc#errors[dbt error messages].
+ThoughtSpot displays dbt error messages that clearly describe whether the error originated in dbt or in ThoughtSpot, where the error was encountered, and what steps users should take to resolve the issue. For a list of the error messages ThoughtSpot supports, see xref:dbt-integration.adoc#error[dbt error messages].
 
 // Naomi -- SCAL-126453, SCAL-201305
 dbt connections join enhancement::
@@ -1003,11 +996,12 @@ Responsive Liveboards:: We have improved the responsiveness of Liveboards. For w
 
 Chart display enhancements:: When you create bar and column charts and slice by color, ThoughtSpot automatically enables gridlines to make the chart easier to read. You can choose to disable gridlines under the chart configuration menu.
 
+////
 ServiceNow Incident Management (Snowflake Connector for ServiceNow):: In this release, there is a new ServiceNow Incident Management SpotApp which allows you to use your ServiceNow data stored in Snowflake. If you use the ServiceNow Snowflake connector to move your data from ServiceNow to Snowflake, use this SpotApp to track the number of tickets submitted, and understand the efficiency of how those tickets are resolved.
 +
 For more information, see
 xref:spotapps-servicenow.adoc[ServiceNow Incident Management SpotApps].
-
+////
 
 [#9-5-0-cl-business-user]
 === For the Business User
@@ -1061,7 +1055,7 @@ xref:rbac.adoc[Understand RBAC and privileges].
 ThoughtSpot for Connected Sheets add-on:: ThoughtSpot Connected Sheets is an add-on that allows you to connect to a ThoughtSpot instance, pull data directly into a Google Sheet from trusted data sources connected to that instance (like Snowflake, Google BigQuery, DataBricks, and others), and use the tools in Google Sheets for ad-hoc analysis.
 +
 For more information, see
-xref:thoughtspot-sheets.adoc#sheets-connected[ThoughtSpot Connected Sheets].
+xref:thoughtspot-sheets.adoc[ThoughtSpot Connected Sheets].
 
 [#9-5-0-cl-data-engineer]
 === For the Data Engineer
@@ -1127,9 +1121,10 @@ xref:chart-geo.adoc#enhancement[Geo chart enhancements].
 
 Responsive Liveboards:: We have improved the responsiveness of Liveboards. For windows between 1024 pixels and 500 pixels, the Liveboard columns respond to re-sizing. For windows smaller than 500 pixels in width, a horizontal scroll bar appears.
 
-
+////
 Snowflake Query Profile SpotApp:: The Snowflake Query Profile SpotApp is now available. Use this SpotApp to analyze Snowflake query data to understand execution time better and pinpoint key areas for query optimization. For more information, see
 xref:spotapps-snowflake-query.adoc[Snowflake Query Profile SpotApp].
+////
 
 Table column case definition [.badge.badge-beta-relnotes]#Beta#::
 We are introducing the ability to specify the case of a table column (for example, upper, lower, or mixed). Previously, SQL generated by ThoughtSpot was always wrapped in a LOWER function with no configuration options. Now, users will be able to define whether columns in tables are mixed case or lower case. To enable this feature, contact {support-url}.
@@ -1400,7 +1395,7 @@ Change filter order for Liveboard filters::
 Arrange Liveboard filters in the filter bar so that they are in a logical, coherent order, by dragging and dropping them to different spots in the list. This makes it easier for viewers of the Liveboard to understand and use the filters on the Liveboard. For more information, see xref:liveboard-filters.adoc#order[Change the filter order].
 
 TML for Monitor alerts::
-TML for Monitor alerts is now GA and on by default. Export, edit, and import xref:monitor.adoc[KPI Monitor alerts] programmatically, using ThoughtSpot Modeling Language. For more information, see xref:tml.adoc#syntax-alerts[Syntax of the Monitor alert TML file].
+TML for Monitor alerts is now GA and on by default. Export, edit, and import xref:monitor.adoc[KPI Monitor alerts] programmatically, using ThoughtSpot Modeling Language. For more information, see xref:tml-alerts.adoc#syntax-alerts[Syntax of the Monitor alert TML file].
 
 Remove attached files from scheduled emails:: For data security, you may choose to remove attached files from scheduled Liveboard emails. When this feature is enabled, scheduled Liveboard email recipients will receive an email with a link to the Liveboard, which they will need to sign in to see.To ensure that only signed-in users can access your data, contact {support-url} to enable this option. For more information, see xref:schedule-liveboards.adoc#disable-csv-pdf[Scheduled Liveboards].
 
@@ -1539,7 +1534,7 @@ Remove columns from tables in ThoughtSpot by deleting them in the tables' TML fi
 
 Edit join conditions using TML::
 
-Use TML to directly edit a join condition by editing the TML file's `on` parameter. This replaces the existing process of deleting and recreating the join in TML or the ThoughtSpot application. For more information, see xref:tml.adoc#syntax-joins[TML join syntax].
+Use TML to directly edit a join condition by editing the TML file's `on` parameter. This replaces the existing process of deleting and recreating the join in TML or the ThoughtSpot application. For more information, see xref:tml-joins.adoc#syntax-joins[TML join syntax].
 
 Join creation for views [.badge.badge-beta-relnotes]#Beta#::
 We standardized the method of creating joins for all data objects in ThoughtSpot. When creating a join from a view, users are now directed to a *Create join* page where they can choose a connection, name the join, and map the source and destination columns.
@@ -1606,7 +1601,7 @@ Every time when a user drag and drop the fields in the chart configuration panel
 For more information, see xref:chart-x-axis.adoc[Reorder labels on the axis or legend,window=_blank].
 
 TML for Monitor alerts [.badge.badge-beta-relnotes]#Beta#::
-Export, edit, and import xref:monitor.adoc[KPI Monitor alerts] programmatically, using ThoughtSpot Modeling Language. For more information, see xref:tml.adoc#syntax-alerts[Syntax of the Monitor alert TML file].
+Export, edit, and import xref:monitor.adoc[KPI Monitor alerts] programmatically, using ThoughtSpot Modeling Language. For more information, see xref:tml-alerts.adoc#syntax-alerts[Syntax of the Monitor alert TML file].
 +
 This feature is in Beta and off by default. To enable it, contact {support-url}.
 
@@ -1685,7 +1680,6 @@ For information about the new features and enhancements introduced in this relea
 * <<8-10-0-cl-first,For the First User>>
 * <<8-10-0-cl-analyst,For the Analyst>>
 * <<8-10-0-cl-business-user,For the Business User>>
-* <<8-10-0-cl-data-engineer,For the Data Engineer>>
 * <<8-10-0-cl-it-ops-engineer,For the IT Ops Engineer>>
 * <<8-10-0-cl-developer,For the Developer>>
 
@@ -1703,9 +1697,10 @@ Admins can manage all Monitor alerts::
 
 Admins will be able to view, edit or delete alerts even if they are not the creator or subscriber of those alerts. For more information, see xref:monitor.adoc[Permissions].
 
+////
 SpotApps::
-
 The DEI Workforce Diversity SpotApp is now available. Get invaluable insight into your workforce diversity data from your HR application. See xref:spotapps-dei.adoc[DEI Workforce Diversity SpotApp].
+////
 
 [#8-10-0-cl-business-user]
 === For the Business User
@@ -1776,8 +1771,9 @@ Liveboard ThoughtSpot Modeling Language (TML) files now contain distinct GUIDs f
 Pinboard to Liveboard change in TML::
 ThoughtSpot changed the `pinboard` parameter in Liveboard TML files to `liveboard`, consistent with our rebrand of pinboards as Liveboards.
 +
-For more information, see xref:tml.adoc#syntax-liveboards[Syntax of the Liveboard TML file].
+For more information, see xref:tml-liveboards.adoc#syntax-liveboards[Syntax of the Liveboard TML file].
 
+////
 [#spotapps-8-9]
 SpotApps::
 
@@ -1785,6 +1781,7 @@ The following SpotApps are now available:
 * xref:spotapps-google-ad-analysis.adoc[Google Ad Analysis]: Use this SpotApp to get invaluable insight into your Google Ads performance, from high-level usage to identifying popular campaigns.
 * xref:spotapps-linkedin-ads.adoc[LinkedIn Ads]: Use this SpotApp to get invaluable insight into your LinkedIn Ads performance, from high-level usage to identifying popular projects.
 * xref:spotapps-procurement-vulnerability.adoc[Procurement Vulnerability Analysis for SAP]: Use this SpotApp quickly identify where disruptions could occur in your global supply chain, reducing risk and building resilience.
+////
 
 [#8-9-0-cl-business-user]
 === For the Business User
@@ -1876,12 +1873,14 @@ We changed the default behavior for table aggregation summaries when the search 
 +
 For example, in the formula `group_aggregate(sum(if (Color = 'blue') then 0 else group_unique_count(Discount)))`, the headline summary would use `COUNT_DISTINCT`, since the first non-constant output clause within the `if... then... else` clause is `group_unique_count` and has an aggregation type of `COUNT_DISTINCT`.
 
+////
 [#spotapps-8-9]
 SpotApps::
 
 The following SpotApps are now available:
 * xref:spotapps-facebook.adoc[Facebook Ads]: Use this SpotApp to measure ad performance across platforms to grow reach, engagement, & sales.
 * xref:spotapps-salesforce.adoc[Salesforce Pipeline Analysis]: Use this SpotApp to track how prospects progress closer to closed deals.
+////
 
 [#8-8-0-cl-business-user]
 === For the Business User
@@ -1985,7 +1984,7 @@ For information about the new features and enhancements introduced in this relea
 * <<8-7-0-cl-business-user,For the Business User>>
 * <<8-7-0-cl-data-engineer,For the Data Engineer>>
 * <<8-7-0-cl-it-ops-engineer,For the IT Ops Engineer>>
-* <<8-7-0-cl-developer,For the Developer>>
+
 
 [#8-7-0-cl-first]
 === For the First User
@@ -2038,7 +2037,7 @@ See xref:chart-geo.adoc[].
 === For the Data Engineer
 
 Denodo OAuth::
-Denodo connections now support OAuth. For details, see xref:connections-denodo-oauth[Configure OAuth for a Denodo connection].
+Denodo connections now support OAuth. For details, see xref:connections-denodo-oauth.adoc[Configure OAuth for a Denodo connection].
 
 Snowflake Oauth improvements::
 This release brings improvements in how ThoughtSpot handles user tokens for Snowflake connections configured with Snowflake OAuth. If a user's refresh token becomes invalid, the administrator or author of the connection can now run the Invalidate Tokens command to allow the user to re-authenticate and regain access to the insights provided by the connection, and the connection itself. Also, in this release the _Role_ field has been added to the Snowflake OAuth connection details page, allowing a role to be added when the connection is created and changed when a connection is edited.
@@ -2046,8 +2045,7 @@ This release brings improvements in how ThoughtSpot handles user tokens for Snow
 See xref:connections-snowflake-edit.adoc#invalidate-tokens[Invalidating refresh tokens of a Snowflake connection].
 
 Snowflake CSV upload [.badge.badge-beta-relnotes]#Beta#:: Now you have a quick and easy way to complete one-time data loads of small files that are not present in your cloud data warehouse. You can now upload a CSV file to the database of your Snowflake connection that can be joined to other tables or Worksheets in your connection. Once your administrator enables this feature, go to *Data* > *Utilities*, and click *Upload CSV*.
-
-ifndef::pendo-links[]
++
 See xref:connections-snowflake-csv-upload-config.adoc[Configure CSV upload for your Snowflake connection], and xref:connections-snowflake-csv-upload.adoc[Upload a CSV file in your Snowflake connection].
 
 
@@ -2146,7 +2144,7 @@ Denodo is now supported as a connection. See xref:connections-denodo.adoc[Denodo
 
 [#tags]
 Edit tags from the Data workspace::
-You can now edit tags for tables, Worksheets, views, and SQL views from the Data workspace home page. Refer to xref:tags.adoc#data-workspace[Use tags to organize].
+You can now edit tags for tables, Worksheets, views, and SQL views from the Data workspace home page. Refer to xref:tags.adoc#data-workspace-create[Use tags to organize].
 
 [#8-6-0-cl-it-ops-engineer]
 === For the IT Ops Engineer
@@ -2225,6 +2223,7 @@ The dbt integration is now GA and on by default. You can provide your existing d
 +
 See xref:dbt-integration.adoc[dbt integration].
 
+////
 [#spotapps]
 SpotApps::
 SpotApps are now GA and on by default. SpotApps are ThoughtSpot's new out-of-the-box solution templates built for specific use cases and data sources. They are built on xref:tml.adoc[ThoughtSpot Modeling Language (TML)] Blocks, which are pre-built pieces of code that are easy to download and implement directly from the product.
@@ -2247,6 +2246,7 @@ The following SpotApps are now available:
 --
 +
 See xref:spotapps.adoc[SpotApps].
+////
 
 Okta OAuth for Snowflake connections::
 You can now use Okta as your authorization server for external OAuth. For details, see xref:connections-snowflake-okta-oauth.adoc[Configure Okta OAuth for a Snowflake connection].
@@ -2995,7 +2995,7 @@ For these instructions, see xref:ts-cloud-getting-started.adoc[Getting Started w
 Scriptability::
 * *Improved import workflow:* The new import workflow for xref:scriptability.adoc[Scriptability] identifies errors, suggests solutions, and allows you to resolve these errors as part of the import workflow.
 It also has a cleaner, more intuitive UI, with separate sections for different object types.
-* *TML for tables with row-level security:* ThoughtSpot now supports the migration and editing of tables with xref:security-rls-concept.adoc[row-level security (RLS)] using xref:tml.adoc#syntax-tables[TML].
+* *TML for tables with row-level security:* ThoughtSpot now supports the migration and editing of tables with xref:security-rls-concept.adoc[row-level security (RLS)] using xref:tml-tables.adoc#syntax-tables[TML].
 
 [#august-cloud-business-user]
 === For the Business User
@@ -3139,7 +3139,7 @@ These Answers allow you to dive deeper into the credit consumption and activitie
 * *Credit usage from Charging Records*: Use this Answer to learn more about API-level details.
 You can map activities and credit consumption to specific API calls.
 
-Refer to xref:consumption-pricing.adoc#user-activity[Consumption-based pricing] for more information.
+Refer to xref:consumption-pricing.adoc#credits[Consumption-based pricing] for more information.
 [#admin-privileges]
 New admin privileges [.badge.badge-beta-relnotes]#Beta#::
 This release introduces new administrator privileges that separate the abilities of the administrator into 4 specific privileges.
@@ -3263,7 +3263,7 @@ This gives all users the opportunity to experience onboarding and training on da
 
 Scriptable Worksheets with Search Assist Coach lessons::
 You can now use TML to import, export, and update Worksheets with xref:search-assist-coach.adoc[Search Assist Coach] lessons.
-See xref:tml.adoc#syntax-worksheets[Syntax of the Worksheet TML file].
+See xref:tml-worksheets.adoc#syntax-worksheets[Syntax of the Worksheet TML file].
 
 [#may-cloud-business-user]
 === For the Business User
@@ -3407,7 +3407,7 @@ Scriptability::  There are several enhancements to the xref:scriptability.adoc[S
 * *Support for selective and linked filters:* You can now import, export, and update Liveboards with xref:liveboard-filters-linked.adoc[linked] or xref:liveboard-filters-selective.adoc[selective] filters.
 * *Add tables and columns to an Embrace connection (GA):* ThoughtSpot now allows you to use TML to edit tables created through xref:connections.adoc[Embrace], and add columns and tables that already exist in the external database to the connection.
 This feature is now GA and on by default.
-Refer to xref:tml.adoc#syntax-tables[ThoughtSpot Modeling Language] and specify the `connection` information when adding tables or table columns to an Embrace connection.
+Refer to xref:tml-tables.adoc#syntax-tables[ThoughtSpot Modeling Language] and specify the `connection` information when adding tables or table columns to an Embrace connection.
 [#query-dashboard]
 Enhancements to the Search on Answers Liveboard::
 The xref:thoughtspot-one-query-intelligence-liveboard.adoc[Search on Answers Liveboard] contains several new or updated visualizations, including *Top search queries on existing Answers*, *Position at which users are clicking*, and *What results users are finding useful with autocomplete suggestions*.
@@ -3516,7 +3516,7 @@ For more information, see xref:public-api-reference.adoc[REST API reference].
 [#scriptability]
 Scriptability [.badge.badge-beta-relnotes]#Beta#::
 * *Add tables and columns to an Embrace connection:* ThoughtSpot now allows you to use TML to edit tables created through xref:connections.adoc[Embrace], and add columns and tables that already exist in the external database to the connection.
-Refer to xref:tml.adoc#syntax-tables[ThoughtSpot Modeling Language] and specify the `connection` information when adding tables or table columns to an Embrace connection.
+Refer to xref:tml-tables.adoc#syntax-tables[ThoughtSpot Modeling Language] and specify the `connection` information when adding tables or table columns to an Embrace connection.
 +
 This feature is in *Beta* and off by default;
 to add columns and tables to an Embrace connection through Scriptability, contact your ThoughtSpot administrator.
@@ -3587,7 +3587,7 @@ The portal also allows authorized users to rebrand the embedded content, xref:de
 Scriptability [.badge.badge-beta-relnotes]#Beta#::
 * You can now create and edit joins at the table level using TML, including range and generic joins.
 You must edit these joins from the source table, not the destination table.
-Refer to xref:tml.adoc#syntax-tables[ThoughtSpot Modeling Language]. +
+Refer to xref:tml-tables.adoc#syntax-tables[ThoughtSpot Modeling Language]. +
 This feature is in Beta in the February release.
 To enable it, contact {support-url}.
 * *Export custom sets of TML files*: Support for export of custom sets of TML files is now GA and on by default.
