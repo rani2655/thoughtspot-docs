@@ -95,6 +95,7 @@ in the *Admin* tab or navigating to *Develop > Customizations > Styles*.
 ThoughtSpot users receive system-generated links in email notifications, which allow them to access objects such as Liveboards, visualizations or saved answers.
 To get more information on this, visit https://developers.thoughtspot.com/docs/customize-links[Customize links,window=_blank].
 
+[#parameters]
 == Runtime Overrides
 https://developers.thoughtspot.com/docs/runtime-filters[Runtime filters,window=_blank] and https://developers.thoughtspot.com/docs/runtime-params[Parameter overrides,window=_blank] apply filters or Parameter values to a Liveboard or Answer by passing the filter or Parameter properties as query parameters in a Liveboard or visualization URL.
 On embedded instances, you can use the Visual Embed SDK to apply filters to an embedded Liveboard or Answer, and update filters using events.

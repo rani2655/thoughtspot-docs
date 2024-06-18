@@ -38,7 +38,7 @@ Refer to xref:connections-redshift-add.adoc[Create a Redshift connection].
 
 == Okta
 
-See link:https://aws.amazon.com/blogs/big-data/integrate-identity-provideridp-with-amazon-redshift-query-editor-v2-using-aws-iam-identity-center-for-seamless-single-sign-on/[Integrate Identity Provider with Amazon Wuery Editor V2 using AWS IAM Identity Center for Seamless Sign-on].
+See link:https://aws.amazon.com/blogs/big-data/integrate-identity-provideridp-with-amazon-redshift-query-editor-v2-using-aws-iam-identity-center-for-seamless-single-sign-on/[Integrate Identity Provider with Amazon Query Editor V2 using AWS IAM Identity Center for Seamless Sign-on].
 
 
 == OAuth connection improvements

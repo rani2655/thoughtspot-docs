@@ -47,7 +47,7 @@ To enable version control for an Org, do the following:
 . Under _Application settings_, select *Version Control*.
 . Under the message "Version control not configured", Click *Configure*.
 +
-image::github-creds.png[]
+image::github-creds.png[Enter github credentials]
 
 . In the _Enter Github Credentials_ window, do the following:
 .. For _Repository_, enter the Github repository to store version control information.

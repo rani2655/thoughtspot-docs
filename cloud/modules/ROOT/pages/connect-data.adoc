@@ -104,6 +104,7 @@ Create the connection between ThoughtSpot and tables in an external Google Cloud
 Create the connection between ThoughtSpot and tables in an external Google Cloud SQL for PostgreSQL database.
 * *xref:connections-google-cloud-sql-sql-server-add.adoc[Add a Google Cloud SQL for SQL Server connection]* +
 Create the connection between ThoughtSpot and tables in an external Google Cloud SQL for SQL Server database.
+
 ////
 * *xref:connections-google-sheets-add.adoc[Add a Google Sheets connection]* +
 Create the connection between ThoughtSpot and tables in an external Google Sheets database.

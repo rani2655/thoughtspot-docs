@@ -15,7 +15,7 @@ NOTE: Mode connector is in Early Access and off by default. To enable it, contac
 
 == Prerequisites
 
-Before you create a connection to Mode, you must first create an API credential. To cerate a new API token, you must have a paid Mode plan and Admin access. Follow these steps:
+Before you create a connection to Mode, you must first create an API credential. To create a new API token, you must have a paid Mode plan and Admin access. Follow these steps:
 
 . Enter {connection} and select *Workspace settings* from the left menu.
 

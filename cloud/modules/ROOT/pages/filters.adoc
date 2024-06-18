@@ -26,12 +26,12 @@ Typing a value in the search bar acts as a filter.
 image::filter-in-search-bar.png[Filter from the search bar]
 +
 You can also use date- and time-related keywords like `yesterday`, `after`, and `next month` to  filter your search.
-To see more keywords, refer to the xref:keywords.adoc#[keyword  reference].
+To see more keywords, refer to the xref:keywords.adoc[keyword  reference].
 
 . Click outside of the search bar or push enter to apply your filter.
 
 Simple filters can be applied to an Answer, while Liveboard filters can be applied to all visualizations of a Liveboard.
-You can find out more about xref:liveboard-filters.adoc#[Liveboard filters in the Liveboards section].
+You can find out more about xref:liveboard-filters.adoc[Liveboard filters in the Liveboards section].
 
 == Where filters appear in ThoughtSpot
 
@@ -47,7 +47,7 @@ image::filter-list-location.png[Filters appear under the title]
 If you ever find that your search or Liveboard does not appear to contain all the data you want to see, check for any existing filters and remove them by selecting the *X* that appears when you hover over the filter in the search bar.
 
 NOTE: Filtering on NULL and empty values is a special case.
-You can find out more about how these values are represented and how to filter for them in xref:filter-null.adoc#[About filtering on null, blank, or empty values].
+You can find out more about how these values are represented and how to filter for them in xref:filter-null.adoc[About filtering on null, blank, or empty values].
 
 == Simple filters
 
