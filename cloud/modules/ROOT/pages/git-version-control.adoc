@@ -1,11 +1,11 @@
 = Version control for Liveboards and Answers
-:last_updated: 5/7/2024
+:last_updated: 6/20/2024
 :author: Mark
 :experimental:
 :linkattrs:
 :page-layout: default-cloud-early-access
 :description: Enable version control on your ThoughtSpot cluster, so users can enable version control on specific Liveboards and Answers.
-:jira: SCAL-196890, SCAL-185652 (can manage version control privilege)
+:jira: SCAL-196890, SCAL-185652 (can manage version control privilege), SCAL-207739 (troubleshooting)
 
 With version control, every time a user saves changes to a Liveboard or Answer, a new version is created and stored in Github. Any user with edit access to the Liveboard or Answer can browse the version history in ThoughtSpot and restore any saved versions whenever needed. Version control must be enabled at the Org level. After that, it can be enabled on specific Liveboards and Answers where version control is wanted.
 
@@ -107,3 +107,108 @@ To reset the version control configuration, do the following:
 +
 The _Reset Configuration_ message appears asking you if you really want to reset the configuration.
 . To proceed, click *Yes*.
+
+== Troubleshooting
+
+The following are some possible issues you may encounter and the recommended steps to resolve them:
+
+[%collapsible]
+.*Cannot select <BranchName> as it has protection rules enabled*
+====
+--
+[discrete]
+==== What are Branch protection rules?
+Branch protection rules are configurations within version control systems like Git that safeguard designated branches from unauthorized or accidental changes. These rules typically include restrictions such as preventing direct pushes to protected branches, requiring code reviews for proposed changes, enforcing passing status checks before merging, mandating approvals from designated reviewers, and limiting or disallowing force pushes to maintain branch history integrity. By enforcing these rules, teams ensure a controlled and collaborative development process, reducing the risk of errors and conflicts while maintaining code quality and stability.
+
+[discrete]
+==== Why does it need to be disabled to create Git configuration in ThoughtSpot?
+With Branch protection rules enabled, it’s impossible to directly commit and push the TS objects to the remote repository. So both the Commit branch and Configuration branch should not be protected.
+
+[discrete]
+==== How to disable the Branch protection rules?
+
+. Navigate to your Git repository and open settings.
+. Under 'Code and Automation', click on 'Branches'.
+. Delete any branch protection rules specified for the branch from which you want to create a Git configuration.
+. Finally, create the Git configuration in ThoughtSpot.
+
+
+--
+====
+[%collapsible]
+.*Git token about to expire, Contact your admin for uninterrupted access of version history*
+====
+--
+[discrete]
+==== What does this error mean?
+The Git access token you're using to authenticate with Git (such as GitHub, GitLab, etc.) is nearing its expiration date. Git platforms commonly use access tokens for authentication when interacting with their APIs, such as when pushing commits, pulling changes, or performing other actions that require authentication.
+
+[discrete]
+==== Why does it need to be disabled to create Git configuration in ThoughtSpot?
+With Branch protection rules enabled, it’s impossible to directly commit and push the TS objects to the remote repository. So both the Commit branch and Configuration branch should not be protected.
+
+[discrete]
+==== How to disable the Branch protection rules?
+Navigate to your Git repository and open settings.
+Under 'Code and Automation', click on 'Branches'.
+Delete any branch protection rules specified for the branch from which you want to create a Git configuration.
+Finally, create the Git configuration in ThoughtSpot.
+
+[discrete]
+==== Solution
+
+. Sign in to your Github account and open the developer settings section.
+. Find the section for managing personal access tokens.
+. Review the token expiry settings on GitHub. Adjust the settings according to your requirements to avoid frequent token expiration issues.
+. Generate a new token or Regenerate a token with the appropriate permissions required for your use case.
+
+--
+====
+
+[%collapsible]
+.*Version history is unavailable as connection with Github could not be established. Contact admin to restore services.*
+====
+--
+[discrete]
+==== Root cause
+
+The access token you're using to authenticate with GitHub must be expired. GitHub commonly uses access tokens for authentication when interacting with their APIs, such as when pushing commits, pulling changes, or performing other actions that require authentication.
+
+[discrete]
+==== Solution
+
+. Sign in to your Github account and open the developer settings section.
+. Find the section for managing personal access tokens.
+. Review the token expiry settings on GitHub. Adjust the settings according to your requirements to avoid frequent token expiration issues.
+. Generate a new token or Regenerate a token with the appropriate permissions required for your use case.
+
+--
+====
+
+[%collapsible]
+.*Answers could not be loaded in Liveboard.*
+====
+--
+[discrete]
+==== Root cause
+
+This error occurs when a table or column is needed to display visualizations in the version of the Liveboard that is being previewed, but no longer exists in ThoughtSpot (the table / worksheet used for these visualizations have likely changed recently and removed the tables / columns needed).
+
+[discrete]
+==== Solution for column not found
+
+. Navigate to the data tab and open the respective worksheet or table.
+. Click edit table option and import the column you need to search from ThoughtSpot.
+. Navigate to the data tab and open the respective worksheet or table.
+. Click edit table option and import the column you need to search from ThoughtSpot.
+
+[discrete]
+==== Solution for table not found
+
+. Navigate to the data tab and open the connection where your table/worksheet belongs to.
+. Click *Edit connection*.
+. Import the column you need to search from ThoughtSpot.
+
+
+--
+====
