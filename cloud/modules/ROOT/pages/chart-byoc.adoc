@@ -60,7 +60,7 @@ To edit a custom chart, the ThoughtSpot administrator does the following:
 . Under _Application settings_, Select *Chart customization*.
 . Select the *Custom charts* tab.
 . Find the name of the chart you want to change, and click *Edit*.
-. In the the _Update custom chart_ window, make any changes necessary, then click *Update chart*.
+. In the _Update custom chart_ window, make any changes necessary, then click *Update chart*.
 
 === Deleting a custom chart
 

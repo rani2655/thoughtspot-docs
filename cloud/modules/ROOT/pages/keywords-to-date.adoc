@@ -114,7 +114,7 @@ Less than or equal to day number of year
 
 === To date filtering rules
 
-* When acting as a filter for the CURRENT PERIOD, this behavior is similar to the behavior of the THIS PERIOD filter. However there is a notable difference.
+* When acting as a filter for the CURRENT PERIOD, this behavior is similar to the behavior of the THIS PERIOD filter. However, there is a notable difference.
 
 ** THIS PERIOD is the complete period in question including any future days in the period. 
 Whereas CURRENT PERIOD’s maximum boundary is less than TODAY as defined by the ThoughtSpot’s cluster timezone.
