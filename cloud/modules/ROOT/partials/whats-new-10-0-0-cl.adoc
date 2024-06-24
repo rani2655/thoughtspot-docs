@@ -14,25 +14,6 @@ endif::free-trial-feature[]
 
 // Business User
 
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
-[#10-0-0-cl-homepage]
-[discrete]
-=== Home page 2.0 [.badge.badge-early-access]#Early Access#
-endif::[]
-ifdef::pendo-links[]
-[#10-0-0-cl-homepage]
-[discrete]
-=== Home page 2.0 [.badge.badge-early-access-whats-new]#Early Access#
-endif::[]
-// Mark. SCAL-201198. docs JIRA: SCAL-?
-// PM: Adi?
-
-[#10-0-0-cl-git]
-[discrete]
-=== GIT integration - feature hardening
-// Mark. SCAL-202389. docs JIRA: SCAL-?
-// PM: Nico
 
 // Analyst
 
@@ -67,17 +48,26 @@ endif::free-trial-feature[]
 
 
 
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
 [#10-0-0-cl-measures]
 [discrete]
-=== Support 'measure' construct on pivot tables to group them and configure the view of pivot
-// Mary. SCAL-181678. docs JIRA: SCAL-?
-// PM: Manan
-
-[#10-0-0-cl-ws-v2]
+=== Blend axes for multiple measures in pivot tables  [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#10-0-0-cl-measures]
 [discrete]
-=== Modeling improvements for 10.0.0.cl - Worksheet v2
-// Mark. SCAL-192493. docs JIRA: SCAL-?
-// PM: Samridh
+=== Blend axes for multiple measures in pivot tables [.badge.badge-beta-whats-new]#Beta#
+endif::[]
+
+ThoughtSpot now supports blending axes for multiple measures in pivot tables. You can now move measures, and position them where you want in rows and columns.
+// Mary. SCAL-181678. docs JIRA: SCAL-211771
+// add gif or image. beta in 10.0.0.cl
+// PM: Manan
+//The feature will remain disabled and behind a flag. Only specific customers would enable it using tscli commads. Beta for 10.0.cl.
+
+endif::free-trial-feature[]
+
 
 '''
 [#secondary-10-0-0-cl]
@@ -86,11 +76,6 @@ endif::free-trial-feature[]
 
 // Data Engineer
 
-[#10-0-0-cl-trino]
-[discrete]
-=== Upgrade Trino Driver
-// Mark. SCAL-198621. docs JIRA: SCAL-?
-// PM: Aaghran
 
 // IT/ Ops Engineer
 
@@ -98,22 +83,10 @@ endif::free-trial-feature[]
 [#10-0-0-cl-orgs]
 [discrete]
 === Org deletion - Default enablement
-// Mary. SCAL-179795. docs JIRA: SCAL-?
-// PM: Kiran, Vijay
-
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
-[#10-0-0-cl-iam]
-[discrete]
-=== Automation for IAM v2 migration [.badge.badge-beta]#Beta#
-endif::[]
-ifdef::pendo-links[]
-[#10-0-0-cl-iam]
-[discrete]
-=== Automation for IAM v2 migration [.badge.badge-beta-whats-new]#Beta#
-endif::[]
-// Mary. SCAL-191815. docs JIRA: SCAL-?
-// PM: ?
+You can now delete an Org without first manually deleting the data objects, connections, groups, and users within the Org. Contact {support-url} to enable Org deletion.
+// Mary. SCAL-179795. docs JIRA: SCAL-201819
+// PM: Kiran, Vijay, Aashica
+// Waiting for confirmation from Aashica as to whether or not they will actually need to contact support to enable this since the title was changed to "Default enablement".
 
 ifndef::free-trial-feature[]
 [discrete]
