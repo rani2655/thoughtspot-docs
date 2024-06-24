@@ -27,7 +27,7 @@ Starting in this release, we have a completely redesigned home page, where you c
 
 // Need new gif
 
-image::scroll_homepage.gif[]
+image::scroll_homepage.gif[Home page redesign]
 
 
 
