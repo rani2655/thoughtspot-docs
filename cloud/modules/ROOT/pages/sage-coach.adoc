@@ -4,7 +4,7 @@
 :linkattrs:
 :experimental:
 :description:
-:jira: SCAL-154204, SCAL-201299, SCAL-202890, SCAL-208773, SCAL-209578, SCAL-209705
+:jira: SCAL-154204, SCAL-201299, SCAL-202890, SCAL-208773, SCAL-209578, SCAL-209705, SCAL-211072
 
 // designed specifically for data professionals and analysts
 
@@ -45,7 +45,7 @@ image:query-term-feedback.png[Fragment feedback page]
 * Delete.
 --
 +
-If you choose to update the fragment, the term appears in editable mode in an AI-answer pop-up window. Click *Submit* to finish.
+If you choose to update the fragment, the term appears in editable mode in an AI-answer pop-up window. Note that you can edit the phrase in the *Fragment* section to update the query fragment, as well as the search tokens ThoughtSpot provides. Click *Submit* to finish.
 
 
 === Query feedback
