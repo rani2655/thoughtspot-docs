@@ -42,7 +42,7 @@ ifdef::pendo-links[]
 xref:search-conditional-formatting.adoc#advanced-conditional-formatting[Advanced conditional formatting,window=_blank].
 endif::[]
 
-video::adv-conditional-comparison.mp4[Advanced conditional formatting comparing sales this year to sales last year]
+image::adv-cond.gif[Advanced conditional formatting comparing sales this year to sales last year]
 endif::free-trial-feature[]
 
 
