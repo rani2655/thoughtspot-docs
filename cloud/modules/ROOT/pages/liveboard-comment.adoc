@@ -6,7 +6,7 @@
 :page-layout: default-cloud
 :page-aliases: commenting.adoc
 :description: You can comment on data points in a Liveboard to bring information to the attention of your teammates.
-:jira: SCAL-182038, SCAL-159515, SCAL-201031, SCAL-200797, SCAL-206393
+:jira: SCAL-182038, SCAL-159515, SCAL-201031, SCAL-200797, SCAL-206393, SCAL-213189 (unsupported on TSE)
 
 
 
@@ -43,4 +43,7 @@ Cord is SOC2 Type II certified and is completely secure. For more information, h
 
 == Limitations
 
-Liveboard comments do not support group-based separation. Any group with access to the Liveboard can see comments posted by any other group which has access to the Liveboard. A user in a cluster can tag any other user in the cluster in a comment.
+Collaborative Liveboards have the following limitations:
+
+- Liveboard comments do not support group-based separation. Any group with access to the Liveboard can see comments posted by any other group which has access to the Liveboard. A user in a cluster can tag any other user in the cluster in a comment.
+- Liveboard comments are not supported in ThoughtSpot Embedded. When a Liveboard is embedded in another application, the comment icon is not visible to the embedded application users regardless of their access privileges.
