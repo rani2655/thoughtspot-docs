@@ -16,6 +16,16 @@ For these instructions, see xref:ts-cloud-getting-started.adoc[Getting Started w
 [#10-0-0-cl-analyst]
 === For the Analyst
 
+// Naomi. SCAL-201639
+Advanced conditional formatting [.badge.badge-early-access-relnotes]#Early Access#::
+In addition to using conditional formatting to visually highlight a threshold in a measure (for example, `sales > 10000`), you can now use conditional formatting to compare a column's measures to another column.
+// or to a parameter.
++
+For example, if you search for `sales this year` compared to `sales last year`, you can highlight where sales this year were less than last year. You can set multiple conditional formatting rules to a single table. To enable this feature, contact your administrator.
++
+For more information, see
+xref:search-conditional-formatting.adoc#advanced-conditional-formatting[Advanced conditional formatting].
+
 
 [#10-0-0-cl-business-user]
 === For the Business User

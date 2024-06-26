@@ -112,7 +112,8 @@ To apply conditional formatting to your KPI, follow these steps:
 +
 image:kpi-conditional.png[KPI chart with conditional formatting]
 +
-If xref:search-conditional-formatting.adoc#advanced-conditional-formatting[advanced conditional formatting] is on in your environment, you can compare the values of your KPI to another column or to a Parameter as well.
+If xref:search-conditional-formatting.adoc#advanced-conditional-formatting[advanced conditional formatting] is on in your environment, you can compare the values of your KPI to another column as well as to a threshold.
+//or to a Parameter as well.
 5. Select *Add*.
 
 View the conditional formatting rule(s) applied to a KPI by selecting the information icon image:icon-information-10px.png[Information icon image] that appears to the right of the measure.

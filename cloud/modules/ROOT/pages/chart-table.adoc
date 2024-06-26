@@ -140,7 +140,9 @@ You can toggle it on or off from the *Experience manager* in your profile.
 If that option is not available, contact your administrator.
 
 
-Note that if xref:search-conditional-formatting.adoc#advanced-conditional-formatting[advanced conditional formatting] is on in your environment, you can set conditional formatting rules for your table that compare a column's values to another column or to a Parameter, as well as to a value. To enable this feature, contact your administrator.
+Note that if xref:search-conditional-formatting.adoc#advanced-conditional-formatting[advanced conditional formatting] is on in your environment, you can set conditional formatting rules for your table that compare a column's values to another column,
+// or to a Parameter,
+as well as to a value. To enable this feature, contact your administrator.
 
 
 == Sort columns
