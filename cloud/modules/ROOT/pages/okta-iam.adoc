@@ -11,6 +11,7 @@ ThoughtSpot supports an industry-standard cloud authentication method through Ok
 [NOTE]
 ====
 We request that you update your Network/Firewall approved URL settings allowlist to include the following URLs:
+
 * For US: https://identity.thoughtspotlogin.cloud
 * For EU/APAC: https://identity-eu.thoughtspotlogin.cloud
 * Global: https://identity.dataplane-public.thoughtspot.cloud
