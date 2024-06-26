@@ -384,7 +384,6 @@ endif::pendo-links[]
 
 endif::free-trial-feature[]
 
-endif::free-trial-feature[]
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
