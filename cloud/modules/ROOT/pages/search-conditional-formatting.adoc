@@ -5,7 +5,7 @@
 :page-layout: default-cloud
 :page-aliases: /end-user/search/apply-conditional-formatting.adoc
 :description: Apply conditional formatting to add visual cues for values in your data.
-:jira: SCAL-177005
+:jira: SCAL-177005, SCAL-201639
 
 
 Apply conditional formatting to tables or charts to highlight values in the data.
@@ -92,7 +92,7 @@ include::partial$conditional-formatting-chart.adoc[]
 [#advanced-conditional-formatting]
 *Advanced conditional formatting*
 
-Rather than simply using conditional formatting comparing a column's measures to a single value (for example, `sales > 10000`), you can now use conditional formatting to compare a column's measures to another column or to a parameter. For example, if you search for `sales this year` versus `sales last year`, you can highlight where sales this year were less than last year. You can set multiple conditional formatting rules to a single table or chart.
+Rather than simply using conditional formatting comparing a column's measures to a single value (for example, `sales > 10000`), you can now use conditional formatting to compare a column's measures to another column or to a parameter. For example, if you search for `sales this year` versus `sales last year`, you can highlight where sales this year were less than last year. You can set multiple conditional formatting rules to a single table or chart. The new *Conditional formatting* window allows you to manage all conditional rules in one place.
 
 To enable this feature, contact your administrator.
 
@@ -113,6 +113,7 @@ The valid options for attributes are `is`, `not`, `contains`, `does not contain`
 The valid options for measures are `less than`, `greater than`, `less than or equal to`, `greater than or equal to`, `equal to`, `not equal to`, `between`, `empty`, and `not empty`.
 . For value based conditions, use the left option to enter your desired value. For column based conditions, use the left dropdown menu to select the comparing column. For Parameter based conditions, use the left dropdown menu to select your Parameter.
 . Choose a background color, font color, and/or font style: bold, italics, underlined, or strikethrough.
+. [Optional] For rules on a table, you can choose to highlight the entire row for all values that fit the condition.
 
 . Select *Apply*.
 The system applies the rule to the column.
