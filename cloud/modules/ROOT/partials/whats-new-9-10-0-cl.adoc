@@ -490,6 +490,7 @@ ifdef::pendo-links[]
 xref:oidc-iamv2.adoc[Managing authentication with OIDC using IAMv2,window=_blank].
 endif::[]
 // Mary -- scal-119837
+endif::free-trial-feature[]
 
 [#9-10-0-cl-bridge]
 [discrete]
