@@ -56,7 +56,7 @@ xref:spotiq-custom.adoc[run a custom SpotIQ analysis],window=_blank],
 endif::[]
 +
 image::kpi-drilldown.gif[KPI drilldown gif]
-endif::[]
+endif::free-trial-feature[]
 
 [#8-2-0-cl-html-titles-descriptions]
 [discrete]
@@ -79,7 +79,7 @@ ifndef::free-trial-feature[]
 If your pivot table contains multiple measures with long names, the column header now has a horizontal scroll bar, so you can see all your measures without taking up excessive space.
 
 image::pivot-gif.gif[Pivot table scroll bar gif]
-
+endif::free-trial-feature[]
 '''
 
 [#secondary-8.2.0.cl]
