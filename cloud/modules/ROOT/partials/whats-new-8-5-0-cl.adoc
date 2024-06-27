@@ -212,6 +212,7 @@ endif::[]
 ifdef::pendo-links[]
 see xref:connections-snowflake-okta-oauth.adoc[Configure Okta OAuth for a Snowflake connection,window=_blank].
 endif::[]
+endif::free-trial-feature[]
 
 [#8-5-0-cl-starburst-oauth]
 [discrete]
