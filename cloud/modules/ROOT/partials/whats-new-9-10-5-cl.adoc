@@ -657,7 +657,6 @@ endif::[]
 ifdef::pendo-links[]
 xref:chart-byoc.adoc[Custom charts,window=_blank].
 endif::[]
-ifndef::free-trial-feature[]
 // Mark -- scal-171984, scal-67410.  doc jira: SCAL-179003
 endif::free-trial-feature[]
 

@@ -13,6 +13,7 @@ endif::free-trial-feature[]
 [#primary-9-12-5-cl]
 
 // Business User
+ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#9-7-0-cl-redesign]
 [discrete]
@@ -50,6 +51,7 @@ In this release, you can try our completely redesigned navigation experience org
 This new navigation experience is disabled by default. Contact your ThoughtSpot administrator to enable this feature for your cluster. After that, open your user profile, and in the _Experience_ section, set the _Navigation and Homepage_ to *New experience*. Note that this setting also enables the redesigned home page.
 
 image::app-switcher.png[Persona-based navigation]
+endif::free-trial-feature[]
 
 [#9-12-5-cl-iterative]
 [discrete]
@@ -165,6 +167,7 @@ endif::[]
 //Add in an example use case. - pending response from Damian
 //add an image or gif - pending example
 // PM: Damian
+endif::free-trial-feature[]
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
@@ -348,15 +351,23 @@ ThoughtSpot introduces a consistent sort order when exporting the TML of an obje
 // PM: Aashica
 ////
 
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
 [#9-12-5-cl-rbac]
 [discrete]
 === Role-based access control [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#9-12-5-cl-rbac]
+[discrete]
+=== Role-based access control [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
 Role-based access control (RBAC) is now available to all users. RBAC allows for more granular access privileges. Use RBAC to apply privileges customized for your organizational needs.
 
 To enable RBAC, contact {support-url}.
 
 NOTE: Once you enable RBAC it cannot be disabled.
-
+endif::free-trial-feature[]
 
 
 ////

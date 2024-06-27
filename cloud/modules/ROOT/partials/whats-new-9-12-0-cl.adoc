@@ -512,6 +512,8 @@ ifdef::pendo-links[]
 xref:connections-snowflake-add.adoc#additional-configurations-create[Creating additional configurations for your Snowflake connection,window=_blank].
 endif::[]
 
+endif::free-trial-feature[]
+
 // IT/ Ops Engineer
 
 ////
