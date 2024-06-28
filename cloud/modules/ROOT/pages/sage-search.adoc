@@ -36,8 +36,11 @@ You can leave feedback on the accuracy of the AI-generated Answer by clicking th
 
 When giving feedback to AI-generated Answers in Sage, you tell ThoughtSpot precisely what search tokens to use to signify certain key terms. For example, when you search for "best performing products this year", ThoughtSpot responds with the top five products sorted by sum of sales. You can correct top five to top ten by clicking the thumbs-down icon and editing the Answer. ThoughtSpot then stores that feedback, and admin users and Worksheet owners can decide to apply the feedback globally, so that every time someone searches for "best" products, they receive the top ten results.
 
+////
 [#worksheet-toggle]
 == Enable or disable AI-generated Answers on Worksheets
+
+// re:Anant, Sage Search is no longer enabled by default since 9.12.0.cl
 
 // Worksheets with less than 200 columns will have AI-generated Answers enabled by default, while Worksheets with more than 200 columns will be disabled by default.
 
@@ -54,3 +57,4 @@ To disable AI-generated Answers on a Worksheet, follow these steps:
 . From the *more options* menu, click *Disable AI generated answer*.
 +
 image:worksheet-toggle.png[Worksheet open to Columns view, in the more options menu "Disable AI generated answer" is selected]
+////
