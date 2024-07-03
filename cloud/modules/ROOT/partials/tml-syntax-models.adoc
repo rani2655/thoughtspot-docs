@@ -18,7 +18,7 @@ NOTE: If you edit the joins in the Model TML file, you are only editing the join
 
 [subs=+macros]
 ....
-<<guid,guid>>: <worksheet_guid>
+<<guid,guid>>: <model_guid>
 <<model,model>>:
   name: <model_name>
   <<description,description>>:
