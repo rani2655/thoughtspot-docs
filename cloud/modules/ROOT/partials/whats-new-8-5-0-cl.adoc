@@ -256,7 +256,6 @@ endif::[]
 // *Okta admin features*
 
 // Roza
-endif::[]
 
 ifndef::free-trial-feature[]
 [#oidc-group-sync]
