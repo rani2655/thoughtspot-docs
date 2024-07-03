@@ -422,7 +422,7 @@ Contains the list of accepted values for a Parameter, if a list was configured w
 [#name]
 name::
 The name of an object.
-Applies to `worksheet`, `joins`, `formula`, `connection`, `destination`, and so on.
+Applies to `models`, `joins`, `formula`, `connection`, `destination`, and so on.
 
 [#on]
 on::
