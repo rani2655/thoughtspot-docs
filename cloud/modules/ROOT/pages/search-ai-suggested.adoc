@@ -6,7 +6,7 @@
 :page-aliases:
 :author: Mark Plummer
 :description: AI-suggested searches help you think of business questions for your data.
-:jira: SCAL-202384 (9.10.5.cl update to seed questions), SCAL-186893
+:jira: SCAL-202384 (9.10.5.cl update to seed questions), SCAL-186893, SCAL-214359
 
 AI-suggested searches are available from the natural language search bar on the Home page of ThoughtSpot. They help you think of relevant questions to ask of your data source, by providing example searches. This feature is designed to help you learn how to use the natural language search, and to gain insights when working with a new data set.
 
@@ -17,7 +17,7 @@ AI-suggested searches are generated using GPT-3.5, a Large Language Model (LLM) 
 NOTE: The list of suggested searches is generated once for all worksheets.
 
 ****
-AI-suggested searches is disabled by default. To enable it, contact your administrator. Once enabled, your ThoughtSpot administrator can grant you access to this feature by assigning the *Can preview ThoughtSpot Sage* user privilege to your user group.
+AI-suggested searches is disabled by default. To enable it, contact your administrator. Once enabled, your ThoughtSpot administrator can grant you access to this feature by assigning the *Can use Sage* user privilege to your user group.
 ****
 
 == Using AI-suggested searches
