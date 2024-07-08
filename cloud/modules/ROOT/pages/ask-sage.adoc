@@ -3,7 +3,7 @@
 :last_updated: 11/16/23
 :description: You can now ask follow-up questions in Sage to refine your answers or take your analysis in a new direction.
 :page-layout: default-cloud-beta
-:jira: SCAL-175485, SCAL-201656, SCAL-208744
+:jira: SCAL-175485, SCAL-201656, SCAL-208744, SCAL-214359
 
 Ask Sage is a conversational experience that allows you to ask simple follow-up questions on visualizations in a Liveboard using natural language. You can effortlessly gain deeper insights on your metrics.
 
@@ -47,7 +47,7 @@ image::ask-sage-save.png[Save your Ask Sage results]
 == Enable Ask Sage
 For ThoughtSpot Cloud:
 
-Admins can enable Ask Sage using the *AI answers on Liveboard* option in the ThoughtSpot Sage experience section of the Admin page. Once this flag is enabled, all users with *Can preview ThoughtSpot Sage* privileges will see the Ask Sage button on Liveboard visualizations instead of the Explore button. Note that the Explore option will then be accessible under the *more options* menu image:icon-more-10px.png[more options menu].
+Admins can enable Ask Sage using the *AI answers on Liveboard* option in the ThoughtSpot Sage experience section of the Admin page. Once this flag is enabled, all users with *Can use Sage* privileges will see the Ask Sage button on Liveboard visualizations instead of the Explore button. Note that the Explore option will then be accessible under the *more options* menu image:icon-more-10px.png[more options menu].
 
 Each user has the option to opt out from Ask Sage by going to the user profile and choosing to hide *Ask Sage*. If you would prefer to hide Ask Sage by default for all users once the option is enabled, please contact {support-url}.
 
