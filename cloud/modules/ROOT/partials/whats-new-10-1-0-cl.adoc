@@ -1,0 +1,270 @@
+ifndef::pendo-links[]
+August 2024 [label label-dep]#10.1.0.cl#
+endif::[]
+ifdef::pendo-links[]
+[month-year-whats-new]#August 2024#
+[label label-dep-whats-new]#10.1.0.cl#
+endif::[]
+
+ifndef::free-trial-feature[]
+NOTE: Features marked as [.badge.badge-update-note]#Beta# are off by default. To enable them, contact {support-url}.
+endif::free-trial-feature[]
+
+[#primary-10-1-0-cl]
+
+// Business User
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#10-1-0-cl-anomaly]
+[discrete]
+=== Anomaly-based alerts [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#10-1-0-cl-anomaly]
+[discrete]
+=== Anomaly-based alerts [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+// Naomi – Jira: SCAL-16112. docs JIRA: SCAL-?
+// PM: Rahul P J P
+
+endif::free-trial-feature[]
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#10-1-0-cl-alert]
+[discrete]
+=== Automatically create alerts for users who have KPIs added to their watchlist [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#10-1-0-cl-alert]
+[discrete]
+=== Automatically create alerts for users who have KPIs added to their watchlist [.badge.badge-beta-whats-new]#Beta#
+endif::[]
+// Naomi – Jira: SCAL-164100. docs JIRA:
+// PM: Rahul P J P
+
+endif::free-trial-feature[]
+
+[#10-1-0-cl-percentage]
+[discrete]
+=== Keywords "of" and "percentage of"
+
+// Naomi -- SCAL-151987, docs JIRA SCAL-201298
+// PM: Damian
+
+
+The "of" and "percentage of" keywords are now on by default and available to all users. You can use the "of" and "percentage of" keywords to answer questions related to mix, contribution, share of, percentage, and total ratios. These keywords help answer questions such as "What is the share of a certain store’s sales as a percentage of the regional whole?" To try out this feature, enter a search phrase in the search bar containing the keyword, such as `sales percentage of store region`, and press *Go*.
+
+////
+For more information, see
+ifndef::pendo-links[]
+xref:formulas-keywords.adoc[Keywords: Of and Percentage of].
+endif::[]
+ifdef::pendo-links[]
+xref:formulas-keywords.adoc[Keywords: Of and Percentage of,window=_blank].
+endif::[]
+////
+
+[#10-1-0-cl-coach]
+[discrete]
+=== Sage Coach improvements for 10.1
+// Naomi. JIRA: SCAL-202878. docs JIRA: SCAL-?
+// PM: Alok
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#10-1-0-cl-data-panel]
+[discrete]
+=== Data Panel V2 - Hide A-Z view in Data Panel [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#10-1-0-cl-data-panel]
+[discrete]
+=== Data Panel V2 - Hide A-Z view in Data Panel [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+// Mark – Jira: SCAL-179807. docs JIRA: SCAL-?
+// PM: Alok
+
+endif::free-trial-feature[]
+
+[#10-1-0-cl-first-last]
+[discrete]
+=== Semi-additive measures with first and last values
+// Naomi – SCAL-207067. docs JIRA SCAL-?
+// PM: Damian
+
+Semi-additive measures with first and last values are now available to all users and on by default. A semi-additive measure, also known as snapshot data, is a measure that is usually aggregated for all attributes except for date and time. For certain measures, like inventory, you want to know what the value was at the beginning or end of a period. In that case, you can use the `last_value` function to find the inventory at the end of a month, rather than aggregating all values over the month. Similarly, you can use the `first_value` function to find out your stock at the beginning of a month.
+
+////
+For more information, see
+ifndef::pendo-links[]
+xref:semi-additive-measures.adoc[Semi-additive measures with `first_value` and `last_value` functions] and xref:semi-additive-modeling.adoc[Modeling data for semi-additive measures].
+endif::pendo-links[]
+ifdef::pendo-links[]
+xref:semi-additive-measures.adoc[Semi-additive measures with `first_value` and `last_value` functions,window=_blank] and xref:semi-additive-modeling.adoc[Modeling data for semi-additive measures,window=_blank].
+endif::pendo-links[]
+////
+
+[#10-1-0-cl-change]
+[discrete]
+=== Support group aggregates in change analysis
+// Naomi. JIRA: SCAL-196221. docs JIRA: SCAL-?
+// contact: Sanskriti Jain
+
+[#10-1-0-cl-react]
+[discrete]
+=== React Shell - Deprecate v1 objects + older navigation
+// Mark. JIRA: SCAL-196044. docs JIRA: SCAL-?
+// PM: Anjali
+
+// Analyst
+
+[#10-1-0-cl-data]
+[discrete]
+=== Data panel column groups (TML)
+// Mark. JIRA: SCAL-202873. docs JIRA: SCAL-?
+// PM: Samridh
+
+[#10-1-0-cl-pivot]
+[discrete]
+=== Support 'measure' construct on pivot tables to group them and configure the view of pivot
+// Mary. JIRA: SCAL-181678. docs JIRA: SCAL-?
+// PM: Manan
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#10-1-0-cl-modeling]
+[discrete]
+=== Modeling improvements for 10.1 [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#10-1-0-cl-modeling]
+[discrete]
+=== Modeling improvements for 10.1 [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+// Mark – Jira: SCAL-201887. docs JIRA: SCAL-?
+// PM: Samridh
+
+endif::free-trial-feature[]
+
+[#10-1-0-cl-schema]
+[discrete]
+=== Data Modeling FE v2 - 10.1 - Joins tab schema viewer
+// Mark. JIRA: SCAL-211055. docs JIRA: SCAL-?
+// PM: Samridh
+
+[#10-1-0-cl-column]
+[discrete]
+=== Data Panel: Custom Column Categorisation
+// Mark. JIRA: SCAL-202382. docs JIRA: SCAL-?
+// PM: Damian
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#10-1-0-cl-cohorts]
+[discrete]
+=== Cohorts: TML CI/CD [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#10-1-0-cl-cohorts]
+[discrete]
+=== Cohorts: TML CI/CD [.badge.badge-beta-whats-new]#Beta#
+endif::[]
+// Mary – Jira: SCAL-158900. docs JIRA: SCAL-?
+// PM: Damian
+
+endif::free-trial-feature[]
+
+
+'''
+[#secondary-10-1-0-cl]
+[discrete]
+=== _Other features and enhancements_
+
+// Data Engineer
+
+[#10-1-0-cl-pkce]
+[discrete]
+=== OAuth for Starburst PKCE
+// Naomi. JIRA: SCAL-197831. docs JIRA: SCAL-209029
+// PM: Aaghran
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#10-1-0-cl-dependency]
+[discrete]
+=== Dependency Management phase 1 [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#10-1-0-cl-dependency]
+[discrete]
+=== Dependency Management phase 1 [.badge.badge-beta-whats-new]#Beta#
+endif::[]
+// Mark – Jira: SCAL-198467. docs JIRA: SCAL-?
+// PM: Samridh
+
+endif::free-trial-feature[]
+
+[#10-1-0-cl-column-groups]
+[discrete]
+=== Data panel V2 - Column groups
+// Mark. JIRA: SCAL-205579. docs JIRA: SCAL-?
+// PM: Damian
+
+// IT/ Ops Engineer
+
+[#10-1-0-cl-bridge]
+[discrete]
+=== Add Bridge support for CDWs - Phase 1
+// Naomi. JIRA: SCAL-194229. docs JIRA: SCAL-212095
+// PM: Rahul Mani
+
+[#10-1-0-cl-pagination]
+[discrete]
+=== Sage Coach pagination
+// Naomi. JIRA: SCAL-189667. docs JIRA: SCAL-?
+// PM: Alok
+
+[#10-1-0-cl-iam]
+[discrete]
+=== Multiple IDP IAMv2
+// Mary. JIRA: SCAL-115281. docs JIRA: SCAL-?
+// PM: ?
+
+[#10-1-0-cl-auth]
+[discrete]
+=== Local auth support with IAMv2
+// Mary. JIRA: SCAL-197810. docs JIRA: SCAL-?
+// PM: Aashica
+
+[#10-1-0-cl-users]
+[discrete]
+=== Users and Groups v2 UI Phase 3
+// Mary. JIRA: SCAL-198098. docs JIRA: SCAL-?
+// PM: Aashica
+
+[#10-1-0-cl-orgs]
+[discrete]
+=== Orgs 1.5: Per Org URL (Enterprise) - for sharing links
+// Mary. JIRA: SCAL-202402. docs JIRA: SCAL-?
+// PM: Kiran
+
+[#10-1-0-cl-query]
+[discrete]
+=== Better mechanism to inform users of unsupported queries
+// Mary. JIRA: SCAL-200386. docs JIRA: SCAL-?
+// PM: Naman
+
+[#10-1-0-cl-neighbor]
+[discrete]
+=== Handling noisy neighbor problems in shared clusters (essentials/ pro edition)
+// Mary. JIRA: SCAL-154107. docs JIRA: SCAL-?
+// PM: Kiran
+
+ifndef::free-trial-feature[]
+[discrete]
+=== For the Developer
+
+For new features and enhancements introduced in this release of ThoughtSpot Embedded, see https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
+endif::free-trial-feature[]
