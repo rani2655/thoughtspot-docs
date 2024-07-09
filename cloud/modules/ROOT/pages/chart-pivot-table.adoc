@@ -27,12 +27,14 @@ If your pivot table contains multiple values with long names, the column header 
 
 image::pivot-gif.gif[Pivot table scroll bar gif]
 
-[#blended-axes]
+.Bleneded Axes [.badge.badge-beta]#Beta#
+****
 To compare multiple measures in a single view you can now blend two measures to share an axis. Blending measures uses the *Measure names* and *Measure values* fields to group and control multiple measures in pivot table charts. Measure names and measure values can be included in charts using these augmented columns. You can move measures and position them where you want in rows and columns. You can configure where the measures appear in the table with respect to other attributes being used in either rows or columns.
 
 NOTE: Measures are placed before attributes in rows.
 
 image::blended-axes.png[Blended Axes]
+****
 
 [#attributes]
 You can now include attributes in the pivot table cells as well as measures. This is useful for cases when you want to summarize text data such as user role, pass/fail, or other attributes. Note that when you add attributes to your pivot table cells, you will no longer see subtotals or grand totals below your pivot table.
