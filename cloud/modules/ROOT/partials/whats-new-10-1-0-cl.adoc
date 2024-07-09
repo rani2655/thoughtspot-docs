@@ -25,11 +25,24 @@ ifdef::pendo-links[]
 [discrete]
 === Anomaly-based alerts [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
-// Naomi – Jira: SCAL-16112. docs JIRA: SCAL-?
+// Naomi – Jira: SCAL-16112. docs JIRA: SCAL-207062
 // PM: Rahul P J P
+
+You can now receive alerts when data of KPIs you are subscribed to fall outside the predicted value rage. To create an anomaly alert, navigate to the Liveboard containing your KPI, select the more options icon image:icon-more-10px.png[more options menu] on the KPI, click *Manage alerts*, and select *Anomaly*. You can choose at what time to check the KPI's data against the values predicted by ML models trained on the data. If the KPI value falls outside the predicted range, ThoughtSpot sends an alert to your email.
+
+////
+For more information, see
+ifndef::pendo-links[]
+xref:monitor.adoc#_create_an_anomaly_alert[Create an anomaly alert].
+endif::pendo-links[]
+ifdef::pendo-links[]
+xref:monitor.adoc#_create_an_anomaly_alert[Create an anomaly alert,window=_blank].
+endif::pendo-links[]
+////
 
 endif::free-trial-feature[]
 
+////
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#10-1-0-cl-alert]
@@ -43,8 +56,10 @@ ifdef::pendo-links[]
 endif::[]
 // Naomi – Jira: SCAL-164100. docs JIRA:
 // PM: Rahul P J P
+// currently not enabled for customers
 
 endif::free-trial-feature[]
+////
 
 [#10-1-0-cl-percentage]
 [discrete]
@@ -91,7 +106,7 @@ endif::free-trial-feature[]
 [#10-1-0-cl-first-last]
 [discrete]
 === Semi-additive measures with first and last values
-// Naomi – SCAL-207067. docs JIRA SCAL-?
+// Naomi – SCAL-207067. docs JIRA SCAL-214756
 // PM: Damian
 
 Semi-additive measures with first and last values are now available to all users and on by default. A semi-additive measure, also known as snapshot data, is a measure that is usually aggregated for all attributes except for date and time. For certain measures, like inventory, you want to know what the value was at the beginning or end of a period. In that case, you can use the `last_value` function to find the inventory at the end of a month, rather than aggregating all values over the month. Similarly, you can use the `first_value` function to find out your stock at the beginning of a month.
@@ -106,11 +121,13 @@ xref:semi-additive-measures.adoc[Semi-additive measures with `first_value` and `
 endif::pendo-links[]
 ////
 
+////
 [#10-1-0-cl-change]
 [discrete]
 === Support group aggregates in change analysis
 // Naomi. JIRA: SCAL-196221. docs JIRA: SCAL-?
-// contact: Sanskriti Jain
+// contact: Sanskriti Jain. currently disabled, working out a bug
+////
 
 [#10-1-0-cl-react]
 [discrete]
@@ -186,9 +203,19 @@ endif::free-trial-feature[]
 
 [#10-1-0-cl-pkce]
 [discrete]
-=== OAuth for Starburst PKCE
+=== OAuth for Starburst using Proof Key for Code Exchange (PKCE)
 // Naomi. JIRA: SCAL-197831. docs JIRA: SCAL-209029
 // PM: Aaghran
+
+We now support OAuth with PKCE for Starburst.
+////
+ifndef::pendo-links[]
+xref:connections-starburst-add.adoc[OAuth with PKCE for Starburst].
+endif::[]
+ifdef::pendo-links[]
+xref:connections-starburst-add.adoc[OAuth with PKCE for Starburst,window=_blank].
+endif::[]
+////
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
@@ -216,9 +243,20 @@ endif::free-trial-feature[]
 
 [#10-1-0-cl-bridge]
 [discrete]
-=== Add Bridge support for CDWs - Phase 1
+=== Bridge connector for CDWs
 // Naomi. JIRA: SCAL-194229. docs JIRA: SCAL-212095
 // PM: Rahul Mani
+
+Instead of using PrivateLink, you can now use the Bridge connector to connect your data to ThoughtSpot without exposing your CDW to the internet at any point. We now support Bridge connections to the following CDWs:
+
+* Amazon Athena
+* Amazon Redshift
+* Databricks
+* PostgreSQL
+* Snowflake
+* Starburst
+* Trino
+
 
 [#10-1-0-cl-pagination]
 [discrete]
