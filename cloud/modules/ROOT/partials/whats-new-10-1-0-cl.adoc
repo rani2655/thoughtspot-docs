@@ -26,9 +26,9 @@ ifdef::pendo-links[]
 === Anomaly-based alerts [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 // Naomi – Jira: SCAL-16112. docs JIRA: SCAL-207062
-// PM: Rahul P J P
+// PM: Rahul P J P. add image.
 
-You can now receive alerts when data of KPIs you are subscribed to fall outside the predicted value rage. To create an anomaly alert, navigate to the Liveboard containing your KPI, select the more options icon image:icon-more-10px.png[more options menu] on the KPI, click *Manage alerts*, and select *Anomaly*. You can choose at what time to check the KPI's data against the values predicted by ML models trained on the data. If the KPI value falls outside the predicted range, ThoughtSpot sends an alert to your email.
+You can now receive alerts when data of KPIs you are subscribed to fall outside the predicted value rage. To create an anomaly alert, navigate to your KPI, select the more options icon image:icon-more-10px.png[more options menu] on the KPI, click *Manage alerts*, and select *Anomaly*. You can choose at what time to check the KPI's data against the values predicted by ML models trained on the data. If the KPI value falls outside the predicted range, ThoughtSpot sends an alert to your email.
 
 ////
 For more information, see
