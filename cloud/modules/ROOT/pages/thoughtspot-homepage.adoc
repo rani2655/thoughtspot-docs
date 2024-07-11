@@ -17,7 +17,7 @@ On the new home page, you can ask natural-language questions with Sage, track KP
 
 With the new left-hand navigation, you can go directly to your Liveboards, Answers, SpotIQ Analysis, and Monitor Subscriptions. You can also access tutorials, and the ThoughtSpot documentation, and support directly from the home page.
 
-image::scroll_homepage.gif[]
+image::scroll_homepage.gif[Home page redesign]
 
 == Persona-based navigation
 

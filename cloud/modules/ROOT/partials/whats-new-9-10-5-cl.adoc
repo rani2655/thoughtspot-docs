@@ -261,6 +261,7 @@ endif::[]
 image::custom-groups.gif[Reusable set creation process]
 // Mary -- SCAL-158899
 // PM: Damian - 9.4.0.cl BETA, updated terminology, needs new .gif as the UI has changed. Query sets remain beta for 9.11.0.cl. Damian has requeted that we don't mention the beta feature for this release as it will go EA in 9.12.0.cl, so this entry will be removed from the 9.11.0.cl WN.
+endif::free-trial-feature[]
 ////
 
 ifndef::free-trial-feature[]
@@ -326,6 +327,7 @@ image::column-set.gif[Column set creation process]
 
 endif::free-trial-feature[]
 
+////
 [#9-11-0-cl-percentage]
 [discrete]
 === Keywords "of" and "percentage of"
@@ -343,7 +345,7 @@ endif::[]
 ifdef::pendo-links[]
 xref:formulas-keywords.adoc[Keywords: Of and Percentage of,window=_blank].
 endif::[]
-
+////
 
 [#9-11-0-cl-sync]
 [discrete]
@@ -657,7 +659,6 @@ endif::[]
 ifdef::pendo-links[]
 xref:chart-byoc.adoc[Custom charts,window=_blank].
 endif::[]
-ifndef::free-trial-feature[]
 // Mark -- scal-171984, scal-67410.  doc jira: SCAL-179003
 endif::free-trial-feature[]
 

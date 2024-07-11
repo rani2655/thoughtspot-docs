@@ -57,7 +57,7 @@ image::org-switcher.png[Org switcher]
 image::orgs-admin-console.png[In the admin console, select Orgs]
 . On this page, you can create new Orgs, edit existing Orgs, and delete existing Orgs. Note that you cannot delete the Primary Org.
 . Find the Org you would like to delete. You can use the Orgs search bar at the upper left of your screen, above the list of Orgs.
-. Select the *Delete* button for the Org you would like to edit.
+. Select the *Delete* button for the Org you would like to remove.
 . A confirmation pop-up window appears, warning you that this action permanently deletes all users in the Org and all objects they created. Type in CONFIRM.
 . Select *Delete*. Note that you cannot delete the Primary Org.
 

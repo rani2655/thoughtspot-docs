@@ -4,17 +4,17 @@
 :linkattrs:
 :experimental:
 :description:
-:jira: SCAL-154204, SCAL-201299, SCAL-202890, SCAL-208773, SCAL-209578
+:jira: SCAL-154204, SCAL-201299, SCAL-202890, SCAL-208773, SCAL-209578, SCAL-209705, SCAL-211072
 
 // designed specifically for data professionals and analysts
 
-Sage Coach allows analysts to fine-tune the results of natural language search by examining and validating the feedback users give. Analysts can hand-select examples and pieces of feedback, and personalize Sage output for specific users and groups of users, or for the cluster as a whole.
+Sage Coach allows analysts to fine-tune the results of natural language search by examining and validating the feedback users give. Analysts can hand-select examples and pieces of feedback, and personalize Sage output for specific users and groups of users, or for all queries on the Worksheet of origin.
 
 NOTE: When you make a change to a Worksheet, ThoughtSpot now alerts you if this will affect any related query feedback. If you accept this and make the change, the feedback depending on that Worksheet is deleted.
 
 == Review user feedback
 
-You can review user feedback from the Data workspace, and determine whether it should apply to only that user’s queries, or to the entire cluster. Use the fragment feedback modal to review the translation of individual natural language terms to search tokens, and use the query feedback modal to review feedback given to individual natural language queries.
+You can review user feedback from the Data workspace, and determine whether it should apply to only that user’s queries, or to all queries on that Worksheet. Use the fragment feedback modal to review the translation of individual natural language terms to search tokens, and use the query feedback modal to review feedback given to individual natural language queries.
 
 
 === Fragment feedback
@@ -45,7 +45,9 @@ image:query-term-feedback.png[Fragment feedback page]
 * Delete.
 --
 +
-If you choose to update the fragment, the term appears in editable mode in an AI-answer pop-up window. Click *Submit* to finish.
+If you choose to update the fragment, the term appears in editable mode in an AI-answer pop-up window. Note that you can edit the phrase in the *Fragment* section to update the query fragment, as well as the search tokens ThoughtSpot provides. Click *Submit* to finish.
++
+image:sage-fragment-edit.png[Edit the query fragment]
 
 
 === Query feedback
@@ -60,7 +62,7 @@ A list of the natural language queries for which users gave feedback appears. No
 * the user rating.
 * the search tokens used to create the fixed answer.
 * the level of access the feedback is valid for.
-** Global feedback applies to the entire cluster, while user feedback applies only to the queries that user makes. Unless specified by an administrator or Worksheet editor, feedback applies only to the user level.
+** Global feedback applies to all queries on that Worksheet, while user feedback applies only to the queries that user makes. Unless specified by an administrator or Worksheet editor, feedback applies only to the user level.
 * the underlying Worksheet the query was generated from.
 * the user who gave the feedback.
 * the time stamp for when the query was generated.
