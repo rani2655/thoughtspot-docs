@@ -145,8 +145,13 @@ endif::pendo-links[]
 
 [#10-1-0-cl-pivot]
 [discrete]
-=== Support 'measure' construct on pivot tables to group them and configure the view of pivot
-// Mary. JIRA: SCAL-181678. docs JIRA: SCAL-?
+=== Grouping measures in pivot tables [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+ThoughtSpot now supports grouping measure in pivot tables. You can now move measures, and position them where you want in rows and columns.
+
+image::blended-axes.png[Grouping measures]
+
+// Mary. JIRA: SCAL-181678. docs JIRA: SCAL-211771
 // PM: Manan
 
 ifndef::free-trial-feature[]
@@ -186,10 +191,11 @@ endif::[]
 ifdef::pendo-links[]
 [#10-1-0-cl-cohorts]
 [discrete]
-=== Cohorts: TML CI/CD [.badge.badge-beta-whats-new]#Beta#
+=== Import and Export sets using TML [.badge.badge-beta-whats-new]#Beta#
 endif::[]
-// Mary – Jira: SCAL-158900. docs JIRA: SCAL-?
-// PM: Damian
+You can now use TML to import and export column sets and query sets in ThoughtSpot.
+// Mary – Jira: SCAL-158900. docs JIRA: SCAL-212555
+// PM: Damian - PRD is incomplete, need more info.
 
 endif::free-trial-feature[]
 
@@ -266,39 +272,41 @@ Instead of using PrivateLink, you can now use the Bridge connector to connect yo
 
 [#10-1-0-cl-iam]
 [discrete]
-=== Multiple IDP IAMv2
+=== Support for multiple IDPs with IAMv2
+ThoughtSpot introduces support for multiple SAML connections configured in a cluster. This allows users to log in with any of the configured SAML connections.
 // Mary. JIRA: SCAL-115281. docs JIRA: SCAL-?
-// PM: ?
+// PM: Aashica - awaiting doc JIRA and release status
 
 [#10-1-0-cl-auth]
 [discrete]
 === Local auth support with IAMv2
 // Mary. JIRA: SCAL-197810. docs JIRA: SCAL-?
-// PM: Aashica
+// PM: Aashica - Awaiting access to PRD and release status
 
 [#10-1-0-cl-users]
 [discrete]
-=== Users and Groups v2 UI Phase 3
-// Mary. JIRA: SCAL-198098. docs JIRA: SCAL-?
+=== Updated UI for Users and Groups
+ThoughtSpot introduces a new UI for Users and Groups. Use the Admin Console to easily create, update and delete users.
+// Mary. JIRA: SCAL-198098. docs JIRA: SCAL-?- awaiting confirmation if we should use SCAL-203421 that is currently in cancelled state.
 // PM: Aashica
 
 [#10-1-0-cl-orgs]
 [discrete]
 === Orgs 1.5: Per Org URL (Enterprise) - for sharing links
 // Mary. JIRA: SCAL-202402. docs JIRA: SCAL-?
-// PM: Kiran
+// PM: Aashica - Awaiting doc JIRA and confirmation of what changes are related to 10.1.0.cl as the PRD is the same for multiple JIRAs dating back to 9.8.0.cl
 
 [#10-1-0-cl-query]
 [discrete]
 === Better mechanism to inform users of unsupported queries
-// Mary. JIRA: SCAL-200386. docs JIRA: SCAL-?
+// Mary. JIRA: SCAL-200386. docs JIRA: SCAL-214766 and SCAL-214767 are both open and assigned to Mark. Need to clarify with Mark when he's back from PTO.
 // PM: Naman
 
 [#10-1-0-cl-neighbor]
 [discrete]
 === Handling noisy neighbor problems in shared clusters (essentials/ pro edition)
 // Mary. JIRA: SCAL-154107. docs JIRA: SCAL-?
-// PM: Kiran
+// PM: Aashica - awaiting confirmation, but suspect no doc needed. Same Org 1.5 PRD is linked.
 
 ifndef::free-trial-feature[]
 [discrete]
