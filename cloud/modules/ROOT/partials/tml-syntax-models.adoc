@@ -144,6 +144,7 @@ NOTE: If you edit the joins in the Model TML file, you are only editing the join
       <<include_max,include_max>>: [true | false]
 ....
 
+
 //   <<joins_with,joins_with>>:
 //   - <<name,name>>: <join_name_1>
 //     <<description,description>>: <optional_join_description_1>
