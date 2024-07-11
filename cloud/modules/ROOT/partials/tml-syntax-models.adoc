@@ -16,6 +16,7 @@ Refer to xref:tml-joins.adoc[TML for joins] for more information on the function
 
 NOTE: If you edit the joins in the Model TML file, you are only editing the joins for that specific Model. You are not editing the joins at the table level. To modify table-level joins, you must edit the source table's TML file.
 
+
 [subs=+macros]
 ....
 <<guid,guid>>: <model_guid>
@@ -28,37 +29,21 @@ NOTE: If you edit the joins in the Model TML file, you are only editing the join
   - <<name,name>>: <table_name_1>
     <<id,id>> : <optional_table_id>
     <<fqn,fqn>> : <optional_GUID_of_table_name>
+    <<joins,joins>>:
+    - <<with,with>>: Alias
+      <<on,on>>: <join_expression_string>
+      <<type,type>>: [RIGHT_OUTER | LEFT_OUTER | INNER | OUTER]
+      <<is_one_to_one,is_one_to_one>>: [ false | true ]
   - <<name,name>>: <table_name_2>
-  - <<name,name>>: <table_name_n>
-  <<joins,joins>>:
-  - <<name,name>>: <join_name_1>
-    <<source,source>>: <source_table_name>
-    <<destination,destination>>: <destination_table_name>
-    <<type,type>>: [RIGHT_OUTER | LEFT_OUTER | INNER | OUTER]
-    <<on,on>>: <join_expression_string>
-    <<is_one_to_one,is_one_to_one>>: [ false | true ]
-  - ...
-  <<table_paths,table_paths>>:
-  - <<id,id>>: <table_path_name_1>
-    <<table,table>>: <table_name_1>
-    <<join_path,join_path>>:
-    - <<join,join>>:
-      - <join_name_1>
-      - <join_name_n>
-  - <<id,id>>: <table_path_name_2>
-    <<table,table>>: <table_name_2>
-    <<join_path,join_path>>:
-    - <<join,join>>:
-      - <join_name_2>
-  - <<id,id>>: <table_path_name_n>
-    <<table,table>>: <table_name_n>
-    <<join_path,join_path>>:
-    - <<join,join>>:
-      - <join_name_n>
+    <<alias,alias>>: Alias
+  - <<name,name>>: <table_name_3>
+    <<joins,joins>>:
+    - <<with,with>>: <table_name_1>
+      <<referencing_join,referencing_join>>: <join_expression_string>
   <<formulas,formulas>>:
   - <<name,name>>: <formula_name_1>
     <<expr,expr>>: <formula_definition_1>
-    [id]: <optional_unique_identifier>
+    <<id,id>>: <optional_unique_identifier>
   - <<name,name>>: <formula_name_2>
     <<expr,expr>>: <formula_definition_2>
   - <<name,name>>: <formula_name_3>
@@ -83,8 +68,9 @@ NOTE: If you edit the joins in the Model TML file, you are only editing the join
                     PREFIX_AND_SUBSTRING | PREFIX_AND_WORD_SUBSTRING ]
       <<index_priority,index_priority>>: <index_priority>
       <<synonyms,synonyms>> :
-             <synonym_1>
-             <synonym_2>
+      - value 1
+      - value 2
+      - value n
       <<is_attribution_dimension,is_attribution_dimension>> : [true | false]
       <<is_additive,is_additive>> : [ true | false ]
       <<calendar,calendar>> : [ default | calendar_name ]
@@ -117,6 +103,13 @@ NOTE: If you edit the joins in the Model TML file, you are only editing the join
   <<properties,properties>>:
     <<is_bypass_rls,is_bypass_rls>>: [ true | false ]
     <<join_progressive,join_progressive>>: [ true | false ]
+  <<lesson_plans,lesson_plans>>
+  - <<lesson_id,lesson_id>>: <lesson_id_number_1>
+    <<lesson_plan_string,lesson_plan_string>> <lesson_plan_string_1>
+  - <<lesson_id,lesson_id>>: <lesson_id_number_2>
+    <<lesson_plan_string,lesson_plan_string>> <lesson_plan_string_2>
+  - <<lesson_id,lesson_id>>: <lesson_id_number_n>
+    <<lesson_plan_string,lesson_plan_string>> <lesson_plan_string_n>
   <<parameters,parameters>>:
   - <<id,id>>: <parameter_1_id>
     <<name,name>>: <parameter_1_name>
@@ -149,22 +142,16 @@ NOTE: If you edit the joins in the Model TML file, you are only editing the join
       <<range_max,range_max>>: <parameter_n_range_maximum>
       <<include_min,include_min>>: [true | false]
       <<include_max,include_max>>: [true | false]
-  <<lesson_plans,lesson_plans>>
-  - <<lesson_id,lesson_id>>: <lesson_id_number_1>
-    <<lesson_plan_string,lesson_plan_string>> <lesson_plan_string_1>
-  - <<lesson_id,lesson_id>>: <lesson_id_number_2>
-    <<lesson_plan_string,lesson_plan_string>> <lesson_plan_string_2>
-  - <<lesson_id,lesson_id>>: <lesson_id_number_n>
-    <<lesson_plan_string,lesson_plan_string>> <lesson_plan_string_n>
-  <<joins_with,joins_with>>:
-  - <<name,name>>: <join_name_1>
-    <<description,description>>: <optional_join_description_1>
-    <<destination,destination>>:
-      <<name,name>>: <destination_table_name_1>
-      <<fqn,fqn>>: <optional_table_guid_1>
-    <<on,on>>: <join_expression_string_1>
-    <<type,type>>: [RIGHT_OUTER | LEFT_OUTER | INNER | OUTER]
-    <<is_one_to_one,is_one_to_one>>: [ false | true ]
-    <<name,name>>: <join_name_2>
-    <<name,name>>: <join_name_n>
 ....
+
+//   <<joins_with,joins_with>>:
+//   - <<name,name>>: <join_name_1>
+//     <<description,description>>: <optional_join_description_1>
+//     <<destination,destination>>:
+//       <<name,name>>: <destination_table_name_1>
+//       <<fqn,fqn>>: <optional_table_guid_1>
+//     <<on,on>>: <join_expression_string_1>
+//     <<type,type>>: [RIGHT_OUTER | LEFT_OUTER | INNER | OUTER]
+//     <<is_one_to_one,is_one_to_one>>: [ false | true ]
+//     <<name,name>>: <join_name_2>
+//     <<name,name>>: <join_name_n>
