@@ -26,9 +26,11 @@ ifdef::pendo-links[]
 === Anomaly-based alerts [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 // Naomi – Jira: SCAL-16112. docs JIRA: SCAL-207062
-// PM: Rahul P J P. add image.
+// PM: Rahul P J P. add gif with result email showing. remove the process, add in an example use case.
 
-You can now receive alerts when data of KPIs you are subscribed to fall outside the predicted value rage. To create an anomaly alert, navigate to your KPI, select the more options icon image:icon-more-10px.png[more options menu] on the KPI, click *Manage alerts*, and select *Anomaly*. You can choose at what time to check the KPI's data against the values predicted by ML models trained on the data. If the KPI value falls outside the predicted range, ThoughtSpot sends an alert to your email.
+You can now receive alerts when data of KPIs you are subscribed to fall outside the predicted value range.
+//To create an anomaly alert, navigate to your KPI, select the more options icon image:icon-more-10px.png[more options menu] on the KPI, click *Manage alerts*, and select *Anomaly*.
+You can choose at what time to check the KPI's data against the values predicted by ML models trained on the data. If the KPI value falls outside the predicted range, ThoughtSpot sends an alert to your email.
 
 ////
 For more information, see
@@ -143,16 +145,25 @@ endif::pendo-links[]
 // Mark. JIRA: SCAL-202873. docs JIRA: SCAL-?
 // PM: Samridh
 
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#10-1-0-cl-pivot]
+[discrete]
+=== Grouping measures in pivot tables [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
 [#10-1-0-cl-pivot]
 [discrete]
 === Grouping measures in pivot tables [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
+
 ThoughtSpot now supports grouping measure in pivot tables. You can now move measures, and position them where you want in rows and columns.
 
 image::blended-axes.png[Grouping measures]
 
-// Mary. JIRA: SCAL-181678. docs JIRA: SCAL-211771
+// Mary. JIRA: SCAL-181678. docs JIRA: SCAL-211771. get an instance and make a gif
 // PM: Manan
+endif::free-trial-feature[]
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
@@ -186,13 +197,14 @@ ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#10-1-0-cl-cohorts]
 [discrete]
-=== Cohorts: TML CI/CD [.badge.badge-beta]#Beta#
+=== Import and export sets using TML [.badge.badge-beta]#Beta#
 endif::[]
 ifdef::pendo-links[]
 [#10-1-0-cl-cohorts]
 [discrete]
-=== Import and Export sets using TML [.badge.badge-beta-whats-new]#Beta#
+=== Import and export sets using TML [.badge.badge-beta-whats-new]#Beta#
 endif::[]
+
 You can now use TML to import and export column sets and query sets in ThoughtSpot.
 // Mary – Jira: SCAL-158900. docs JIRA: SCAL-212555
 // PM: Damian - PRD is incomplete, need more info.
@@ -249,7 +261,7 @@ endif::free-trial-feature[]
 
 [#10-1-0-cl-bridge]
 [discrete]
-=== Bridge connector for CDWs
+=== Bridge connector for Cloud Data Warehouses (CDWs)
 // Naomi. JIRA: SCAL-194229. docs JIRA: SCAL-212095
 // PM: Rahul Mani
 
@@ -263,16 +275,17 @@ Instead of using PrivateLink, you can now use the Bridge connector to connect yo
 * Starburst
 * Trino
 
-
+////
 [#10-1-0-cl-pagination]
 [discrete]
 === Sage Coach pagination
 // Naomi. JIRA: SCAL-189667. docs JIRA: SCAL-?
 // PM: Alok
+////
 
 [#10-1-0-cl-iam]
 [discrete]
-=== Support for multiple IDPs with IAMv2
+=== Support for multiple Identity Providers (IDPs) with IAMv2
 ThoughtSpot introduces support for multiple SAML connections configured in a cluster. This allows users to log in with any of the configured SAML connections.
 // Mary. JIRA: SCAL-115281. docs JIRA: SCAL-?
 // PM: Aashica - awaiting doc JIRA and release status
@@ -285,9 +298,10 @@ ThoughtSpot introduces support for multiple SAML connections configured in a clu
 
 [#10-1-0-cl-users]
 [discrete]
-=== Updated UI for Users and Groups
-ThoughtSpot introduces a new UI for Users and Groups. Use the Admin Console to easily create, update and delete users.
-// Mary. JIRA: SCAL-198098. docs JIRA: SCAL-?- awaiting confirmation if we should use SCAL-203421 that is currently in cancelled state.
+=== Updated User Interface (UI) for Users and Groups
+ThoughtSpot introduces a new UI for Users and Groups. Use the Admin Console to easily create, update, and delete users.
+// Mary. JIRA: SCAL-198098. docs JIRA: SCAL-?- awaiting confirmation if we should use SCAL-203421 that is currently in cancelled state. is this feature where you add a user's email and they receive an email to fill in their username/other info? magiclink?
+// possible PRD: https://docs.google.com/document/d/1K2mxbo1HhtAJBqrzsNYQJcVzVy0kJd-7kNnEBw9vUXs/edit#heading=h.6meko28s0x63
 // PM: Aashica
 
 [#10-1-0-cl-orgs]
