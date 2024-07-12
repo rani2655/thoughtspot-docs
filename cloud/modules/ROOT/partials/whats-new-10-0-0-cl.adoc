@@ -54,19 +54,18 @@ ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#10-0-0-cl-measures]
 [discrete]
-=== Blend axes for multiple measures in pivot tables  [.badge.badge-beta]#Beta#
+=== Grouping measures in pivot tables [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 ifdef::pendo-links[]
 [#10-0-0-cl-measures]
 [discrete]
-=== Blend axes for multiple measures in pivot tables [.badge.badge-beta-whats-new]#Beta#
+=== Grouping measures in pivot tables [.badge.badge-beta-whats-new]#Beta#
 endif::[]
+ThoughtSpot now supports grouping measure in pivot tables. You can now move measures, and position them where you want in rows and columns.
 
-ThoughtSpot now supports blending axes for multiple measures in pivot tables. You can now move measures, and position them where you want in rows and columns.
+image::blended-axes.png[Grouping measures]
+
 // Mary. SCAL-181678. docs JIRA: SCAL-211771
-// add gif or image. beta in 10.0.0.cl
-// PM: Manan
-//The feature will remain disabled and behind a flag. Only specific customers would enable it using tscli commads. Beta for 10.0.cl.
 
 endif::free-trial-feature[]
 
@@ -81,14 +80,17 @@ endif::free-trial-feature[]
 
 // IT/ Ops Engineer
 
+[#10-0-0-cl-iamv2]
+=== Automation for IAM v2 migration [.badge.badge-beta-whats-new]#Beta#
+endif::[]
+ThoughtSpot is upgrading our Identity and Access Management (IAM) capabilities to provide a more secure login and authentication experience. This experience has been improved to ensure that you can upgrade to IAM v2 easily and with minimal downtime.
+// Mary. SCAL-191815. docs JIRA: SCAL-211956
 
 [#10-0-0-cl-orgs]
 [discrete]
-=== Org deletion - Default enablement
-You can now delete an Org without first manually deleting the data objects, connections, groups, and users within the Org. Contact {support-url} to enable Org deletion.
+=== Org deletion
+You can now delete an Org without first manually deleting the data objects, connections, groups, and users within the Org.
 // Mary. SCAL-179795. docs JIRA: SCAL-201819
-// PM: Kiran, Vijay, Aashica
-// Waiting for confirmation from Aashica as to whether or not they will actually need to contact support to enable this since the title was changed to "Default enablement".
 
 [#10-0-0-cl-git-integration]
 [discrete]

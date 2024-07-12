@@ -26,6 +26,14 @@ For example, if you search for `sales this year` compared to `sales last year`, 
 For more information, see
 xref:search-conditional-formatting.adoc#advanced-conditional-formatting[Advanced conditional formatting].
 
+Grouping measures in pivot tables [.badge.badge-beta-whats-new]#Beta#::
+
+ThoughtSpot now supports grouping measure in pivot tables. You can now move measures, and position them where you want in rows and columns. For more information, see xref:chart-pivot-table.adoc[Pivot tables].
+
+image::blended-axes.png[Grouping measures]
+
+// Mary. SCAL-181678. docs JIRA: SCAL-211771
+
 
 [#10-0-0-cl-business-user]
 === For the Business User
@@ -38,6 +46,17 @@ Version control for Liveboards and Answers is now available to all users. Now te
 xref:liveboard.adoc#version-history[Liveboards] and xref:answers.adoc#version-history[Answers].
 
 // doc jira: SCAL-213208
+
+[#10-0-0-cl-it-ops]
+=== For the IT/Ops Engineer
+
+Automation for IAM v2 migration [.badge.badge-beta-whats-new]#Beta#::
+ThoughtSpot is upgrading our Identity and Access Management (IAM) capabilities to provide a more secure login and authentication experience. This experience has been improved to ensure that you can upgrade to IAM v2 easily and with minimal downtime. For more information, see xref:okta-iam.adoc[Identity and Access Management V2].
+// Mary. SCAL-191815. docs JIRA: SCAL-211956
+
+Org deletion::
+You can now delete an Org without first manually deleting the data objects, connections, groups, and users within the Org. For more information, see xref:admin-console-orgs-page.adoc[Create, edit, and delete Orgs].
+// Mary. SCAL-179795. docs JIRA: SCAL-201819
 
 [#10-0-0-cl-developer]
 === For the Developer
