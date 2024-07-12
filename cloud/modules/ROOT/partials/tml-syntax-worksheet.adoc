@@ -83,8 +83,9 @@ NOTE: If you edit the joins in the Worksheet TML file, you are only editing the 
                     PREFIX_AND_SUBSTRING | PREFIX_AND_WORD_SUBSTRING ]
       <<index_priority,index_priority>>: <index_priority>
       <<synonyms,synonyms>> :
-             <synonym_1>
-             <synonym_2>
+      - value 1
+      - value 2
+      - value n
       <<is_attribution_dimension,is_attribution_dimension>> : [true | false]
       <<is_additive,is_additive>> : [ true | false ]
       <<calendar,calendar>> : [ default | calendar_name ]

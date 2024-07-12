@@ -23,6 +23,8 @@ These parameters and their definitions are specific to {object}; this list doesn
 | a - g | i - l | n - w
 a| <<aggregation,aggregation>>
 
+<<alias,alias>>
+
 <<calendar,calendar>>
 
 <<column,column>>
@@ -119,6 +121,8 @@ a| <<name,name>>
 
 <<range_min,range_min>>
 
+<<referencing_join,referencing_join>>
+
 <<source,source>>
 
 <<spotiq_preference,spotiq_preference>>
@@ -152,6 +156,10 @@ Aggregation options depend on the data type.
 Possible values are `SUM`, `COUNT`, `AVERAGE`, `MAX`, `MIN`, `COUNT_DISTINCT`, `NONE`, `STD_DEVIATION`, and `VARIANCE`
 +
 Default: `SUM`.
+
+[#alias]
+alias::
+Aliases can be set for tables that are being used in the model.
 
 [#calendar]
 calendar::
@@ -459,6 +467,13 @@ The maximum value for the range of values allowed for a Parameter, if a range is
 range_min::
 The minimum value for the range of values allowed for a Parameter, if a range is specified when xref:parameters-create.adoc[creating a Parameter].
 
+[#referencing_join]
+referencing_join::
+The global join that is being referenced in the model.
++
+Global joins are joins created between tables and can be used across multiple worksheets.
+
+
 [#source]
 source::
 Name of the source table or view for a join.
@@ -535,5 +550,6 @@ To modify table-level joins, you must edit the source table's TML file.
 * When deleting columns, you only delete ThoughtSpot's record of the column. You don't delete the column in your external database.
 
 Visit this page for information on xref:models.adoc[Creating Models].
+
 
 
