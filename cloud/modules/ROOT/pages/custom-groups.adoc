@@ -4,10 +4,10 @@
 :linkattrs:
 :page-layout: default-cloud-early-access
 :experimental:
-:description: You can now create custom query sets, which can be used to classify values in a list you can then reuse across multiple analyses.
+:description: You can now create query sets, which can be used to classify values in a list you can then reuse across multiple analyses.
 :jira:
 
-You can create custom sets, which can be used to classify values in a list that you can then reuse across multiple analyses. Answer, formulas and parameters are generally available only when in use in an Answer, and must be remade if you navigate away from the Answer without saving. Sets are reusable across many answers with a single point of definition. A Set is built from a Worksheet however it does not belong to the Worksheet. When a set is initially created it is only available to the creator. When a set is used in an Answer or Liveboard, and this Answer or Liveboard is shared with specific users or groups of users, the set is then available for use as a community object.
+You can create sets, which can be used to classify values in a list that you can then reuse across multiple analyses. Answer, formulas and parameters are generally available only when in use in an Answer, and must be remade if you navigate away from the Answer without saving. Sets are reusable across many answers with a single point of definition. A set is built from a Worksheet however it does not belong to the Worksheet. When a set is initially created it is only available to the creator. When a set is used in an Answer or Liveboard, and this Answer or Liveboard is shared with specific users or groups of users, the set is then available for use as a community object.
 
 ThoughtSpot now supports query sets.
 
@@ -16,11 +16,9 @@ NOTE: Query sets are in early access and off by default. To enable this feature,
 
 To create a query set, first define the business question you wish to answer.
 
-//For example, you may have a data set containing the complete list of products available from a certain chain of stores. You may want to find out which products are most popular, and define them by sales volume as "gold", "silver", or "bronze" level products.
 
 For example, you may want to create a set to show the first sale date per customer.
 
-//The search is customerid min transaction date.
 
 To create a column showcasing this defined list of values, follow these steps:
 
@@ -41,16 +39,5 @@ To create a column showcasing this defined list of values, follow these steps:
 . Under *Define groups for excluded query values*, select either *Hide excluded values* or *Group excluded values*. If you group excluded values, you can give the group a custom name.
 . Click *Save*.
 
-//.. Return column: For some use cases, you will want to select the same column as the anchor column. In this case, select the definition you want the column to return, based on the criteria you defined in the formula. In this example, *Quantity Purchased Range*.
-
-
-
-//. Create a formula, named Quantity Purchased Range, to define ranges of quantities purchased as Gold, Silver, or Bronze. You can define it as `if ( sum(quantity purchased) > 80000) then 'gold' else if (sum(quantity purchased) > 60000) then 'silver' else 'bronze'`.
-
-//. Click *Save*. Check the table that appears to make sure the results are as expected.
-
-//. Simplify the search to show only the *Product* column.
-
-//. From the *more options* menu image:icon-more-10px.png[more options icon], select *Save as query set*.
 
 
