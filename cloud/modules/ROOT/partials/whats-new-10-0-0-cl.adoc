@@ -21,15 +21,15 @@ ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#10-0-0-cl-conditional]
 [discrete]
-=== Advanced conditional formatting [.badge.badge-early-access]#Early Access#
+=== Advanced conditional formatting [.badge.badge-beta]#Beta#
 endif::[]
 ifdef::pendo-links[]
 [#10-0-0-cl-conditional]
 [discrete]
-=== Advanced conditional formatting [.badge.badge-early-access-whats-new]#Early Access#
+=== Advanced conditional formatting [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
-// Naomi -- scal-177005. documentation JIRA scal-201639 (approved).
+// Naomi -- scal-177005. documentation JIRA scal-201639 (approved). doc jira: SCAL-215437 (change back to beta)
 // PM: Manan
 
 In addition to using conditional formatting to visually highlight a threshold in a measure (for example, `sales > 10000`), you can now use conditional formatting to compare a column's measures to another column.
