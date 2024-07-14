@@ -1,0 +1,46 @@
+= ThoughtSpot Enterprise edition and shared tenants
+:last_updated: 4/24/2024
+:linkattrs:
+:experimental:
+:page-layout: default-cloud
+:page-aliases:
+:writer: Mary
+:page-toclevels: -1
+:description: This article provides information about the features supported on a shared tenant
+:jira: SCAL-SCAL-214091
+
+This article provides information about ThoughtSpot capabilities that are supported in enterprise editions and on a shared tenant.
+
+|===
+Capability|Enterprise|Shared tenant
+
+|Authentication: SAML SSO with IAMv2|Yes|Yes (only with IAM v2)|
+
+VPN, Privatelink|Yes|No (Bridge connectivity GA 10.1.0.cl)|
+
+Roles Based Access Control (RBAC)|Yes (early access)|Yes (default)|
+
+Style & Chart Customization|Yes|Yes|
+
+System Activities/Liveboards|Yes|Yes
+
+a|Application Settings Admin panel:
+
+* Search
+
+* SpotIQ
+
+* CSV Upload
+
+* Early access features
+|Yes|No
+
+|Org-Aware Flags and customizations|Yes|No
+
+|Security Settings (Develop tab)
+|Yes|Yes
+
+|Custom URL Support|Yes|No|
+|===
+
+
