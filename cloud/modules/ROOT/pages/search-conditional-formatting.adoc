@@ -89,7 +89,7 @@ Conditional formatting is tied to the specific visualization.
 
 include::partial$conditional-formatting-chart.adoc[]
 
-.[.badge.badge-beta]#Beta#
+.[.badge.badge-early-access]#Early Access#
 ****
 [#advanced-conditional-formatting]
 *Advanced conditional formatting*
