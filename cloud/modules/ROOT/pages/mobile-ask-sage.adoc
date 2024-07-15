@@ -32,7 +32,7 @@ image::mobile-ask-sage3.png[Ask Sage results]
 . From *Ask Sage*, you can save the provided answer, and share the answer.
 +
 NOTE: You can let us know if the answer is what you were looking for by answering *Did we get this answer right?*.
-
++
 image::moible-ask-sage-feedback.png[Ask Sage feedback]
 
 
