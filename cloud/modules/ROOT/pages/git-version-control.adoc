@@ -1,5 +1,5 @@
 = Version control for Liveboards and Answers
-:last_updated: 6/25/2024
+:last_updated: 7/15/2024
 :author: Mark
 :experimental:
 :linkattrs:
@@ -110,7 +110,7 @@ The _Reset Configuration_ message appears asking you if you really want to reset
 
 == Troubleshooting
 
-The following are some possible issues you may encounter and the recommended steps to resolve them:
+The following are some possible errors you may encounter and the recommended steps to resolve them:
 
 [%collapsible]
 .*Cannot select <BranchName> as it has protection rules enabled*
@@ -131,7 +131,6 @@ With Branch protection rules enabled, it’s impossible to directly commit and p
 . Under 'Code and Automation', click on 'Branches'.
 . Delete any branch protection rules specified for the branch from which you want to create a Git configuration.
 . Finally, create the Git configuration in ThoughtSpot.
-
 
 --
 ====
@@ -186,7 +185,7 @@ The access token you're using to authenticate with GitHub must be expired. GitHu
 ====
 
 [%collapsible]
-.*Answers could not be loaded in Liveboard.*
+.*Answers could not be loaded in Liveboard*
 ====
 --
 [discrete]
@@ -208,7 +207,154 @@ This error occurs when a table or column is needed to display visualizations in 
 . Navigate to the data tab and open the connection where your table/worksheet belongs to.
 . Click *Edit connection*.
 . Import the column you need to search from ThoughtSpot.
+--
+====
 
+[%collapsible]
+.*Column not found in Answer*
+====
+--
+[discrete]
+==== Root cause
+
+This error occurs when a table or column is not found in ThoughtSpot but was present in previous versions of the Answer you’re looking into. The table or column probably existed in earlier versions of the Answer but may have been removed from ThoughtSpot more recently.
+
+[discrete]
+==== Solution
+
+. Navigate to the data tab and open the respective worksheet or table.
+
+. Click edit table option and import the column you need to search from ThoughtSpot.
+--
+====
+
+[%collapsible]
+.*Updating details might lead to loss of version history*
+====
+--
+[discrete]
+==== Explanation
+
+*Updating Git remote repository (Not recommended)* - Updating the Git configuration details and replacing the repository information may lead to the loss of version history. This occurs because the newer repository may lack versioned object information present in the older repository. As a result, users may be unable to access older versions of the ThoughtSpot objects committed to the previous repository.
+
+*Updating access token* - The newer access token might not have the necessary permissions to the repository which the older access token had. It’s always better to verify if the newer access token has the permissions needed to commit the objects to the repository.
+
+[discrete]
+==== Recommendation
+
+ThoughtSpot recommends always maintaining a single Git repository for an Org. This prevents unnecessary loss of data.
+--
+====
+
+[%collapsible]
+.*Check the credentials you entered are correct and try again*
+====
+--
+[discrete]
+==== Root cause
+
+- The username or the access token entered might be incorrect.
+- The access token entered might be expired.
+
+[discrete]
+==== Solutions
+- Check that the username and password are correct. If not correct and try again.
+
+- Check that the access token is expired, if expired create a new access token and try again.
+
+--
+====
+
+[%collapsible]
+.*Could not establish a connection with Github*
+====
+--
+[discrete]
+==== Root cause
+
+This error occurs for the following reasons:
+
+- The Git repository does not exist or is deleted.
+
+- The token does not have the necessary permissions to read from or write to the repository.
+
+
+[discrete]
+==== Solutions
+- Check that the repository exists in the Github and provide a valid Git repository.
+
+- Check that the access token has sufficient permissions to read from and write to the repository.
+
+[discrete]
+==== Minimum token requirements to create a git configuration and commit
+
+*Classic token*
+
+User should be given permission to write to the repository, and the created classic tokens must have repository access in order to make changes.
+
+*Fine-grained token*
+
+User should have read and write access to the content and read-only access to the metadata as below.
+
+--
+====
+
+[%collapsible]
+.*The branch <BranchName> is configured for an another organization with same repository setup*
+====
+--
+[discrete]
+==== Root cause
+
+This error shows up if you try to configure a commit branch for an Org that is already configured to be used with another Org. Version Control does not allow us to configure the same branch as a commit branch for two different Orgs.
+
+
+[discrete]
+==== Reason
+
+To maintain data integrity and avoid conflicts, it's good for multiple organizations not to commit their ThoughtSpot objects in the same branch. Configuring one commit branch per Org enables users to manage the data of each organization separately, ensuring that it can be seamlessly imported into ThoughtSpot when needed.
+
+[discrete]
+==== Solution
+
+The user should use different commit branches for each Org while configuring version control.
+
+--
+====
+
+[%collapsible]
+.*Some branches in the given list [<BranchName>, <BranchName>] do not exist*
+====
+--
+[discrete]
+==== Root cause
+
+This error appears if the user is trying to configure a branch in ThoughtSpot which does not exist in the remote repository. The branch might have been deleted or never created.
+
+
+[discrete]
+==== Solution
+
+. Navigate to the remote repository and click view all branches.
+. Click create new branch to create a branch with the desired name.
+
+--
+====
+
+[%collapsible]
+.*Repository already configured for the organization*
+====
+--
+[discrete]
+==== Root cause
+
+This error occurs when the user attempts to configure Git for an organization in ThoughtSpot, but the configuration for that specific organization already exists.
+
+
+[discrete]
+==== Solution
+
+Update the current configuration with the required data.
 
 --
 ====
