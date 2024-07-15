@@ -9,12 +9,27 @@ ThoughtSpot supports an industry-standard cloud authentication method through Ok
 
 ThoughtSpot is committed to continuously enhancing your security, administration and operations experience. Beginning with ThoughtSpot version 10.0.0.cl we are upgrading our Identity and Access Management (IAM) capabilities to provide a more secure login and authentication experience.
 
+Migration of all ThoughtSpot customers will be done in phases as part of the upgrade maintenance window. You can also request the upgrade by contacting {support-url}.
+
 The following are some of the enhancements that come with this upgrade:
 
 * Advanced password management policies that allow for greater security and flexibility.
 * Enhanced enterprise-grade security compliance, and
 advanced identity features supported with IAM V2.
 * New features will only be supported with IAM V2.
+
+
+The chart below outlines the differences between IAM V1 and IAM V2:
+|===
+*Feature*|*IAM V1*|*IAM V2*
+|Local user management|Yes|Yes|
+SAML|Yes|Yes|
+OpenID Connect (OIDC)|Yes|Yes|
+Active Directory Sync|Yes|Yes|
+SAML per Org|No|Yes|
+OIDC per Org|No|Yes|
+Org and Group mapping identity provider (IDP)|No|Yes
+|===
 
 To set up your ThoughtSpot environment for IAM V2, complete the following  procedures.
 
