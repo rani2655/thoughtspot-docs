@@ -28,7 +28,7 @@ OpenID Connect (OIDC)|Yes|Yes|
 Active Directory Sync|Yes|Yes|
 SAML per Org|No|Yes|
 OIDC per Org|No|Yes|
-Org and Group mapping identity provider (IDP)|No|Yes
+Org and Group mapping per user from identity provider (IDP)|No|Yes
 |===
 
 To set up your ThoughtSpot environment for IAM V2, complete the following  procedures.
