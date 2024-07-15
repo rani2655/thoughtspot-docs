@@ -33,7 +33,7 @@ NOTE: If you edit the joins in the Model TML file, you are only editing the join
     - <<with,with>>: Alias
       <<on,on>>: <join_expression_string>
       <<type,type>>: [RIGHT_OUTER | LEFT_OUTER | INNER | OUTER]
-      <<is_one_to_one,is_one_to_one>>: [ false | true ]
+      <<cardinality, cardinality>>: [MANY_TO_ONE | ONE_TO_ONE | ONE_TO_MANY]
   - <<name,name>>: <table_name_2>
     <<alias,alias>>: Alias
   - <<name,name>>: <table_name_3>
@@ -115,6 +115,7 @@ NOTE: If you edit the joins in the Model TML file, you are only editing the join
     <<name,name>>: <parameter_1_name>
     <<data_type,data_type>>: <parameter_1_data_type>
     <<default_value,default_value>>: <parameter_1_default_value>
+    <<description,description>>: “parameter description”
     <<range_config,range_config>>:
       <<range_min,range_min>>: <parameter_1_range_minimum>
       <<range_max,range_max>>: <parameter_1_range_maximum>
