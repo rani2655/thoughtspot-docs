@@ -140,6 +140,7 @@ The following list provides information about connecting to your data in support
 * xref:connections-dremio-passthrough.adoc[Passthrough functions]
 * xref:connections-dremio-reference.adoc[Connection reference]
 
+////
 == image:TS-logo-black-no-bg.png[ThoughtSpot icon]Falcon
 
 * xref:connections-falcon.adoc[Overview]
@@ -151,6 +152,7 @@ The following list provides information about connecting to your data in support
 * xref:connections-falcon-delete.adoc[Delete connection]
 * xref:connections-falcon-passthrough.adoc[Passthrough functions]
 * xref:connections-falcon-reference.adoc[Connection reference]
+////
 
 == image:java-jdbc-icon.png[Generic JDBC icon] Generic JDBC
 
