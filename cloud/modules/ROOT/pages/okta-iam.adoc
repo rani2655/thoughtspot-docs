@@ -36,6 +36,8 @@ To set up your ThoughtSpot environment for IAM V2, complete the following  proce
 == Before migrating to IAM V2
 To set up your ThoughtSpot environment for IAM V2, complete the following  procedures.
 
+NOTE: In keeping with IAM best practices, and due to user workflows for self-serve password resets, email addresses are mandatory for all users on TS cloud clusters for successful IAMv2 migration.
+
 === Allowlist URLs
 
 Users will be redirected to these URLs when they log in.
