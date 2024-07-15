@@ -1,4 +1,4 @@
-= ThoughtSpot editions and shared tenants
+= ThoughtSpot Enterprise and Pro editions
 :last_updated: 4/24/2024
 :linkattrs:
 :experimental:
@@ -6,19 +6,19 @@
 :page-aliases:
 :writer: Mary
 :page-toclevels: -1
-:description: This article provides information about the features supported on a shared tenant and in ThoughtSpot editions.
+:description: This article provides information about the features supported in ThoughtSpot Enterprise and Pro editions.
 :jira: SCAL-SCAL-214091
 
-This article provides information about ThoughtSpot capabilities that are supported in ThoughtSpot editions and on a shared tenants.
+This article provides information about the features supported in ThoughtSpot Enterprise and Pro editions.
 
 |===
-Capability|Enterprise edition|Shared tenant
+Capability|Enterprise edition|Pro edition
 
-|Authentication: SAML SSO with IAMv2|Yes|Yes (only with IAM v2)|
+|Authentication: SAML SSO with IAM V2|Yes|Yes (only with IAM V2)|
 
 VPN, Privatelink|Yes|No (Bridge connectivity GA 10.1.0.cl)|
 
-Roles Based Access Control (RBAC)|Yes (early access)|Yes (default)|
+Roles Based Access Control (RBAC)|Yes|Yes (default)|
 
 Style & Chart Customization|Yes|Yes|
 
@@ -35,7 +35,7 @@ a|Application Settings Admin panel:
 * Early access features
 |Yes|No
 
-|Org-Aware Flags and customizations|Yes|No
+|Customizations with ThoughtSpot flags and URL allowlisting|Yes|No
 
 |Security Settings (Develop tab)
 |Yes|Yes
@@ -43,7 +43,13 @@ a|Application Settings Admin panel:
 |Custom URL Support|Yes|No|
 |===
 
-== Limitations
+== Upcoming changes for new Pro Editions customers
+* Early Access and Beta features are not supported for ThoughtSpot Pro edition customers.
+* Custom URLs and custom domains are not currently supported for Pro edition customers.
+* Customer specific allowlisting, URLs, and images are not supported for ThoughtSpot Pro edition customers.
+* Customization with ThoughtSpot flags are not supported. Flags, if any, will only be applied during a weekly maintenance window.
+
+////
 Only cluster-level flag application is supported for multi-tenant clusters. These flags are applicable to all ThoughtSpot editions customers hosted on the multi-tenant cluster. Flags are applied only during a maintenance window.
 
 Early Access/Beta features are not supported for ThoughtSpot editions customers.
