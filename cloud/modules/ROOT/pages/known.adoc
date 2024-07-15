@@ -5,7 +5,7 @@
 :experimental:
 :page-layout: default-cloud
 :linkattrs:
-:jira: SCAL-206809 (9.12.0.cl), SCAL-210330 (9.12.5.cl), SCAL-214503 (10.0.0.cl)
+:jira: SCAL-206809 (9.12.0.cl), SCAL-210330 (9.12.5.cl), SCAL-214503 (10.0.0.cl),
 
 These are the known issues in this release of ThoughtSpot Cloud.
 ////
@@ -16,10 +16,22 @@ These are the known issues in this release of ThoughtSpot Cloud.
 |===
 |Issue ID |Description|Symptoms, conditions, and workaround
 
-|SCAL-214329
-|Memory Leak in PinboardLayoutCache
+|SCAL-213767
+|Error encountered during analysis" due to "DB queries
 a|*Symptoms*:
+SpotIQ Analyze request fails due to failure in DbQuery calls.
 
+
+*Conditions*:
+Using a hard-coded value as the timeout while making DbQueries from SpotIQ causes DbQuery to fail when there are many SpotIQ Analyze requests.
+
+*Workaround*:
+None.
+
+|SCAL-211518
+|Liveboards cannot be migrated from one Org to another Org.
+a|*Symptoms*:
+Users _without_ permission to access the datasource were able to upload TML using the `tspublicAPI` but were prevented from doing so through the UI.
 
 
 *Conditions*:
@@ -27,71 +39,15 @@ a|*Symptoms*:
 
 *Workaround*:
 
-|SCAL-214311
-|Fix string intern calls for Atlas Clients
+|SCAL-196442
+|Sorting issues with measure inside a pivot table [Charts item]
 a|*Symptoms*:
-
-
+Sorting a field which contains measure only updates rows
 
 *Conditions*:
-
-
-*Workaround*:
-
-|SCAL-213964
-|Just Eat \| 00367968 \| Internal Server error 500 after SAML authentication
-a|*Symptoms*:
-
-
-
-*Conditions*:
-
+Sorting a pivot table using search bar, or by updating sorting by a measure.
 
 *Workaround*:
-
-|SCAL-213601
-|hexagon : ThoughtSpot Embed - not logged in---continuation of SCAL-208789
-a|*Symptoms*:
-
-
-
-*Conditions*:
-
-
-*Workaround*:
-
-|SCAL-210973
-|URL Too long for Search Data API error
-a|*Symptoms*:
-
-
-
-*Conditions*:
-
-
-*Workaround*:
-
-|SCAL-210724
-|Unable to change color scheme on geo area map
-a|*Symptoms*:
-
-
-
-*Conditions*:
-
-
-*Workaround*:
-
-|SCAL-176007
-|Error loading data sporadically
-a|*Symptoms*:
-
-
-
-*Conditions*:
-
-
-*Workaround*:
-
+Sort the respective pivot table by rows or columns using the corresponding header.
 |===
 ////
