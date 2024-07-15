@@ -29,7 +29,7 @@ ifdef::pendo-links[]
 === Advanced conditional formatting [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 
-// Naomi -- scal-177005. documentation JIRA scal-201639 (approved). doc jira: SCAL-215437 (change back to beta)
+// Naomi -- scal-177005. documentation JIRA scal-201639 (approved).
 // PM: Manan
 
 In addition to using conditional formatting to visually highlight a threshold in a measure (for example, `sales > 10000`), you can now use conditional formatting to compare a column's measures to another column.
