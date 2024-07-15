@@ -22,8 +22,7 @@ Use ThoughtSpot mobile to access Answers and create or filter Liveboards.
 
 Version 3.0.0 supports more features that were previously available only through the ThoughtSpot web app, including:
 
-* You can now use Ask Sage on mobile. Ask Sage is a conversational experience that allows you to ask simple follow-up questions on visualizations in a Liveboard using natural language. You can effortlessly gain deeper insights on your metrics.
-
+* You can now use Ask Sage on mobile version 3.0.0. You can ask a single natural language question on any AI enabled data source to get instant AI generated answers. You can ask by typing the question or use voice commands. You can save and share answers to facilitate collaboration.
 
 For details, see xref:notes-mobile.adoc[Mobile release notes].
 
