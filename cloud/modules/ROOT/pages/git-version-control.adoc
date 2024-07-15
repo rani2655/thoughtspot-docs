@@ -99,7 +99,7 @@ After you enable version control for an Org, you can edit the configuration. How
 
 == Resetting the version control configuration
 
-CAUTION: Resetting your version control configuration, deletes the configuration completely, causing all version history from your GIT branches to be lost.
+CAUTION: Resetting your version control configuration deletes the configuration completely, causing all version history from your GIT branches to be lost.
 
 To reset the version control configuration, do the following:
 
