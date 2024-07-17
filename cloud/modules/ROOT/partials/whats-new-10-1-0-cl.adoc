@@ -30,7 +30,7 @@ endif::[]
 
 You can now receive alerts when data of KPIs you are subscribed to fall outside the predicted value range.
 //To create an anomaly alert, navigate to your KPI, select the more options icon image:icon-more-10px.png[more options menu] on the KPI, click *Manage alerts*, and select *Anomaly*.
-You can choose at what time to check the KPI's data against the values predicted by ML models trained on the data. If the KPI value falls outside the predicted range, ThoughtSpot sends an alert to your email.
+You can specify the time and frequency at which ThoughtSpot checks the KPI's data against the values predicted by ML models trained on the data. If the KPI value falls outside the predicted range, ThoughtSpot sends an alert to your email. For example, you can create a `sales weekly` KPI, and specify that ThoughtSpot compare the values every Monday at 5 PM.
 
 ////
 For more information, see
@@ -71,7 +71,7 @@ endif::free-trial-feature[]
 // PM: Damian
 
 
-The "of" and "percentage of" keywords are now on by default and available to all users. You can use the "of" and "percentage of" keywords to answer questions related to mix, contribution, share of, percentage, and total ratios. These keywords help answer questions such as "What is the share of a certain store’s sales as a percentage of the regional whole?" To try out this feature, enter a search phrase in the search bar containing the keyword, such as `sales percentage of store region`, and press *Go*.
+The "of" and "percentage of" keywords are now on by default and available to all users. You can use the "of" and "percentage of" keywords to answer questions related to mix, contribution, share of, percentage, and total ratios. These keywords help answer questions such as, "What is the share of a certain store’s sales as a percentage of the regional whole?" To try out this feature, enter a search phrase in the search bar containing the keyword, such as `sales percentage of store region`, and press *Go*.
 
 ////
 For more information, see
@@ -85,9 +85,11 @@ endif::[]
 
 [#10-1-0-cl-coach]
 [discrete]
-=== Sage Coach improvements for 10.1
+=== Sort and filter Fragment and Query feedback
 // Naomi. JIRA: SCAL-202878. docs JIRA: SCAL-?
 // PM: Alok
+
+You can now sort and filter columns in the Sage Coach Fragment and Query feedback pages. ThoughtSpot supports sorting by the following columns: `original query`, `rating`, `access`, `worksheet`, `last changed`, `chart`, and `fragment`. Filtering is supported on the following columns: `rating`, `access`, `worksheet`, `feedback provider`, `edited by`, and `chart`. You can also search for specific values for `worksheet`, `feedback provider`, and `edited by` to further narrow your selection.
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
