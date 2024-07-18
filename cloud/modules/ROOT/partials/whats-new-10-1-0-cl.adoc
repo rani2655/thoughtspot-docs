@@ -32,7 +32,6 @@ You can now receive alerts when data of KPIs you are subscribed to fall outside 
 //To create an anomaly alert, navigate to your KPI, select the more options icon image:icon-more-10px.png[more options menu] on the KPI, click *Manage alerts*, and select *Anomaly*.
 You can specify the time and frequency at which ThoughtSpot checks the KPI's data against the values predicted by ML models trained on the data. If the KPI value falls outside the predicted range, ThoughtSpot sends an alert to your email. For example, you can create a `sales weekly` KPI, and specify that ThoughtSpot compare the values every Monday at 5 PM.
 
-////
 For more information, see
 ifndef::pendo-links[]
 xref:monitor.adoc#_create_an_anomaly_alert[Create an anomaly alert].
@@ -40,7 +39,7 @@ endif::pendo-links[]
 ifdef::pendo-links[]
 xref:monitor.adoc#_create_an_anomaly_alert[Create an anomaly alert,window=_blank].
 endif::pendo-links[]
-////
+
 
 endif::free-trial-feature[]
 
@@ -73,7 +72,7 @@ endif::free-trial-feature[]
 
 The "of" and "percentage of" keywords are now on by default and available to all users. You can use the "of" and "percentage of" keywords to answer questions related to mix, contribution, share of, percentage, and total ratios. These keywords help answer questions such as, "What is the share of a certain store’s sales as a percentage of the regional whole?" To try out this feature, enter a search phrase in the search bar containing the keyword, such as `sales percentage of store region`, and press *Go*.
 
-////
+
 For more information, see
 ifndef::pendo-links[]
 xref:formulas-keywords.adoc[Keywords: Of and Percentage of].
@@ -81,15 +80,16 @@ endif::[]
 ifdef::pendo-links[]
 xref:formulas-keywords.adoc[Keywords: Of and Percentage of,window=_blank].
 endif::[]
-////
 
 [#10-1-0-cl-coach]
 [discrete]
-=== Sort and filter Fragment and Query feedback
+=== Sort and filter fragment and query feedback
 // Naomi. JIRA: SCAL-202878. docs JIRA: SCAL-?
-// PM: Alok
+// PM: Alok. add gif.
 
-You can now sort and filter columns in the Sage Coach Fragment and Query feedback pages. ThoughtSpot supports sorting by the following columns: `original query`, `rating`, `access`, `worksheet`, `last changed`, `chart`, and `fragment`. Filtering is supported on the following columns: `rating`, `access`, `worksheet`, `feedback provider`, `edited by`, and `chart`. You can also search for specific values for `worksheet`, `feedback provider`, and `edited by` to further narrow your selection.
+You can now sort and filter columns in the Sage Coach fragment and query feedback pages.
+//ThoughtSpot supports sorting by the following columns: `original query`, `rating`, `access`, `worksheet`, `last changed`, `chart`, and `fragment`. Filtering is supported on the following columns: `rating`, `access`, `worksheet`, `feedback provider`, `edited by`, and `chart`.
+You can also search for specific values for `worksheet`, `feedback provider`, and `edited by` to further narrow your selection.
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
@@ -115,7 +115,7 @@ endif::free-trial-feature[]
 
 Semi-additive measures with first and last values are now available to all users and on by default. A semi-additive measure, also known as snapshot data, is a measure that is usually aggregated for all attributes except for date and time. For certain measures, like inventory, you want to know what the value was at the beginning or end of a period. In that case, you can use the `last_value` function to find the inventory at the end of a month, rather than aggregating all values over the month. Similarly, you can use the `first_value` function to find out your stock at the beginning of a month.
 
-////
+
 For more information, see
 ifndef::pendo-links[]
 xref:semi-additive-measures.adoc[Semi-additive measures with `first_value` and `last_value` functions] and xref:semi-additive-modeling.adoc[Modeling data for semi-additive measures].
@@ -123,7 +123,7 @@ endif::pendo-links[]
 ifdef::pendo-links[]
 xref:semi-additive-measures.adoc[Semi-additive measures with `first_value` and `last_value` functions,window=_blank] and xref:semi-additive-modeling.adoc[Modeling data for semi-additive measures,window=_blank].
 endif::pendo-links[]
-////
+
 
 ////
 [#10-1-0-cl-change]
@@ -227,15 +227,14 @@ endif::free-trial-feature[]
 // Naomi. JIRA: SCAL-197831. docs JIRA: SCAL-209029
 // PM: Aaghran
 
-We now support OAuth with PKCE for Starburst.
-////
+We now support
 ifndef::pendo-links[]
 xref:connections-starburst-add.adoc[OAuth with PKCE for Starburst].
 endif::[]
 ifdef::pendo-links[]
 xref:connections-starburst-add.adoc[OAuth with PKCE for Starburst,window=_blank].
 endif::[]
-////
+
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
@@ -276,6 +275,14 @@ Instead of using PrivateLink, you can now use the Bridge connector to connect yo
 * Snowflake
 * Starburst
 * Trino
+
+For more information, see
+ifndef::pendo-links[]
+xref:connections-bridge.adoc[Bridge connector for Cloud Data Warehouses].
+endif::[]
+ifdef::pendo-links[]
+xref:connections-bridge.adoc[Bridge connector for Cloud Data Warehouses,window=_blank].
+endif::[]
 
 ////
 [#10-1-0-cl-pagination]
