@@ -163,7 +163,7 @@ ThoughtSpot now supports grouping measure in pivot tables. You can now move meas
 
 image::blended-axes.png[Grouping measures]
 
-// Mary. JIRA: SCAL-181678. docs JIRA: SCAL-211771. get an instance and make a gif
+// Mary. JIRA: SCAL-181678. docs JIRA: SCAL-211771. get an instance and make a gif - still waiting on help with an example from Manan (July 18)
 // PM: Manan
 endif::free-trial-feature[]
 
@@ -209,7 +209,7 @@ endif::[]
 
 You can now use TML to import and export column sets and query sets in ThoughtSpot.
 // Mary – Jira: SCAL-158900. docs JIRA: SCAL-212555
-// PM: Damian - PRD is incomplete, need more info.
+// PM: Damian
 
 endif::free-trial-feature[]
 
@@ -295,34 +295,44 @@ ThoughtSpot introduces support for multiple SAML connections configured in a clu
 [#10-1-0-cl-auth]
 [discrete]
 === Local auth support with IAMv2
+
 // Mary. JIRA: SCAL-197810. docs JIRA: SCAL-?
-// PM: Aashica - Awaiting access to PRD and release status
+// PM: Aashica - Awaiting Doc JIRA and access to PRD and release status
 
 [#10-1-0-cl-users]
 [discrete]
 === Updated User Interface (UI) for Users and Groups
 ThoughtSpot introduces a new UI for Users and Groups. Use the Admin Console to easily create, update, and delete users.
-// Mary. JIRA: SCAL-198098. docs JIRA: SCAL-?- awaiting confirmation if we should use SCAL-203421 that is currently in cancelled state. is this feature where you add a user's email and they receive an email to fill in their username/other info? magiclink?
-// possible PRD: https://docs.google.com/document/d/1K2mxbo1HhtAJBqrzsNYQJcVzVy0kJd-7kNnEBw9vUXs/edit#heading=h.6meko28s0x63
+
+// Mary. JIRA: SCAL-198098. docs JIRA: SCAL-?- awaiting confirmation if we should use SCAL-203421 that is currently in cancelled state.
+
+//-Q: is this feature where you add a user's email and they receive an email to fill in their username/other info? magiclink? A:No-
+
+// Need clarification from Aashica regarding impact to Orgs.
+//This is a change from Angular to React
 // PM: Aashica
 
 [#10-1-0-cl-orgs]
 [discrete]
 === Orgs 1.5: Per Org URL (Enterprise) - for sharing links
+
 // Mary. JIRA: SCAL-202402. docs JIRA: SCAL-?
 // PM: Aashica - Awaiting doc JIRA and confirmation of what changes are related to 10.1.0.cl as the PRD is the same for multiple JIRAs dating back to 9.8.0.cl
 
 [#10-1-0-cl-query]
 [discrete]
 === Better mechanism to inform users of unsupported queries
+
 // Mary. JIRA: SCAL-200386. docs JIRA: SCAL-214766 and SCAL-214767 are both open and assigned to Mark. Need to clarify with Mark when he's back from PTO.
 // PM: Naman
 
 [#10-1-0-cl-neighbor]
 [discrete]
 === Handling noisy neighbor problems in shared clusters (essentials/ pro edition)
+
 // Mary. JIRA: SCAL-154107. docs JIRA: SCAL-?
-// PM: Aashica - awaiting confirmation, but suspect no doc needed. Same Org 1.5 PRD is linked.
+// PM: Aashica -
+//Same Org 1.5 PRD is linked, need clarification about doc impact, Doc JIRA from PM.
 
 ifndef::free-trial-feature[]
 [discrete]
