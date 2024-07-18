@@ -1,6 +1,6 @@
 = Known issues
 :keywords: known issues
-:last_updated: 7/15/2024
+:last_updated: 7/18/2024
 :author: Mark Plummer
 :experimental:
 :page-layout: default-cloud
@@ -11,7 +11,7 @@
 These are the known issues in this release of ThoughtSpot Cloud.
 ////
 [#releases-10-0-x]
-== 10.0.0.cl known issues
+== 10.1.0.cl known issues
 
 [cols="17%,39%,38%"]
 |===
