@@ -306,6 +306,7 @@ ThoughtSpot introduces support for multiple SAML connections configured in a clu
 // Mary. JIRA: SCAL-197810. docs JIRA: SCAL-?
 // PM: Aashica - Awaiting Doc JIRA and access to PRD and release status
 
+////
 [#10-1-0-cl-users]
 [discrete]
 === Updated User Interface (UI) for Users and Groups
@@ -318,6 +319,7 @@ ThoughtSpot introduces a new UI for Users and Groups. Use the Admin Console to e
 // Need clarification from Aashica regarding impact to Orgs.
 //This is a change from Angular to React
 // PM: Aashica
+////
 
 [#10-1-0-cl-orgs]
 [discrete]
