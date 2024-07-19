@@ -12,7 +12,7 @@
 This article provides information about the features supported in ThoughtSpot Enterprise and Pro editions.
 
 |===
-Capability|Enterprise edition|Pro edition
+|Capability|Enterprise edition|Pro edition
 
 |Authentication: SAML SSO with IAM V2|Yes|Yes (only with IAM V2)|
 
