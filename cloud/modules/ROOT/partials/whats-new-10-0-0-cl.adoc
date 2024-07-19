@@ -82,7 +82,7 @@ endif::free-trial-feature[]
 
 [#10-0-0-cl-iamv2]
 === IAM v2 migration
-endif::[]
+
 ThoughtSpot is upgrading our Identity and Access Management (IAM) capabilities to provide a more secure login and authentication experience. This experience has been improved to ensure that you can upgrade to IAM v2 easily and with minimal downtime. For more information, see xref:okta-iam.adoc[Identity and Access Management V2].
 // Mary. SCAL-191815. docs JIRA: SCAL-211956
 
