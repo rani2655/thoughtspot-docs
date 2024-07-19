@@ -5,7 +5,7 @@
 :linkattrs:
 :page-layout: default-cloud-early-access
 :description: Learn how to enable Sage search.
-:jira: SCAL-211072
+:jira: SCAL-211072, SCAL-215955
 
 To enable Sage search and other AI features for users in your organization, you must first enable AI features from the Admin portal, add Sage privileges to the specific users or groups, and enable Sage on your desired Worksheet(s).
 
@@ -21,7 +21,19 @@ To turn on AI features for your cluster, follow these steps:
 +
 image:enable-sage.png[Edit Ask AI section]
 
-. To specifically enable Sage Search, set *AI Answers* to enable and click *Save*. You can also enable AI Sample Questions, AI Answers on Liveboards, AI Synonyms, AI Worksheet Descriptions, and AI Narratives for SpotIQ from this setting.
+. From the ThoughtSpot Ask AI experience section, you can enable the following features:
+
+AI Answers:: Also known as Sage Search, AI Answers allow you to use natural language to create charts that answer your business questions. For more information, see xref:sage-search.adoc[].
+
+AI Sample Questions:: Enable this feature to see data set-specific suggested searches on the Home page. For more information, see xref:search-ai-suggested.adoc[].
+
+AI Answers on Liveboards:: Also known as Ask Sage, this feature enables you to use natural language to ask follow-up questions about answers pinned to your Liveboards. For more information, see xref:ask-sage.adoc[].
+
+AI Synonyms:: This feature automatically creates synonyms to your Worksheet column names when you save a new or edited Worksheet. For more information, see xref:data-modeling-visibility.adoc#automatic-synonyms[AI-generated synonyms].
+
+AI Worksheet Descriptions:: This feature automatically creates descriptions for Worksheets you create or edit, generating when you click *Save*.
+
+AI Narratives for SpotIQ:: Also known as AI Highlights, this feature provides you with quick insights on how top metrics changed in your Liveboard. For more information, see xref:liveboard-ai-highlights.adoc[].
 +
 image:sage-enabled.png[Enable all AI features]
 
