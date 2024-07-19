@@ -255,10 +255,10 @@ NOTE: Previously, users who did not have edit access to the underlying worksheet
 
 For more information, see
 ifndef::pendo-links[]
-xref:liveboard-filters.adoc[Livebaord filters].
+xref:liveboard-filters.adoc[Liveboard filters].
 endif::[]
 ifdef::pendo-links[]
-xref:liveboard-filters.adoc[Livebaord filters,window=_blank].
+xref:liveboard-filters.adoc[Liveboard filters,window=_blank].
 endif::[]
 // Mary – SCAL-157372 Doc JIRA SCAL-201823
 // PM: Arpit

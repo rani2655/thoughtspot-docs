@@ -229,7 +229,7 @@ Liveboard filters are now accessible to all users who have view or edit permissi
 
 NOTE: Previously, users who did not have edit access to the underlying worksheet of a Liveboard with filters, could not update the Liveboard filters if the Liveboard used a hidden column. This was the case even if the user had view access to the underlying worksheets.
 
-For more information, see xref:liveboard-filters.adoc[Livebaord filters].
+For more information, see xref:liveboard-filters.adoc[Liveboard filters].
 // Mary – SCAL-157372 Doc JIRA SCAL-201823
 
 [#9-12-0-cl-data-engineer]
