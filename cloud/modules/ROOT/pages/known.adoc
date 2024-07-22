@@ -6,10 +6,10 @@
 :page-layout: default-cloud
 :page-toclevels: -1
 :linkattrs:
-:jira: SCAL-206809 (9.12.0.cl), SCAL-210330 (9.12.5.cl), SCAL-214503 (10.0.0.cl),
+:jira: SCAL-206809 (9.12.0.cl), SCAL-210330 (9.12.5.cl), SCAL-214503 (10.0.0.cl), SCAL-216844 (10.1.0.cl)
 
 These are the known issues in this release of ThoughtSpot Cloud.
-////
+
 [#releases-10-0-x]
 == 10.1.0.cl known issues
 
@@ -17,38 +17,118 @@ These are the known issues in this release of ThoughtSpot Cloud.
 |===
 |Issue ID |Description|Symptoms, conditions, and workaround
 
-|SCAL-213767
-|Error encountered during analysis" due to "DB queries
+|SCAL-216483
+|x
 a|*Symptoms*:
-SpotIQ Analyze request fails due to failure in DbQuery calls.
+x
 
 
 *Conditions*:
-Using a hard-coded value as the timeout while making DbQueries from SpotIQ causes DbQuery to fail when there are many SpotIQ Analyze requests.
+x
 
 *Workaround*:
 None.
 
-|SCAL-211518
-|Liveboards cannot be migrated from one Org to another Org.
+|SCAL-216380
+|x
 a|*Symptoms*:
-Users _without_ permission to access the datasource were able to upload TML using the `tspublicAPI` but were prevented from doing so through the UI.
+x
 
 
 *Conditions*:
-
+x
 
 *Workaround*:
+x
+|SCAL-216313
+|x
+a|*Symptoms*:
+x
+
+*Conditions*:
+x
+
+*Workaround*:
+x
+
+|SCAL-216290
+|x
+a|*Symptoms*:
+x
+
+*Conditions*:
+x
+
+*Workaround*:
+x
+
+|SCAL-215754
+|x
+a|*Symptoms*:
+x
+
+*Conditions*:
+x
+
+*Workaround*:
+x
+
+|SCAL-215686
+|x
+a|*Symptoms*:
+x
+
+*Conditions*:
+x
+
+*Workaround*:
+x
+
+|SCAL-214100
+|x
+a|*Symptoms*:
+x
+
+*Conditions*:
+x
+
+*Workaround*:
+x
+
+|SCAL-213275
+|x
+a|*Symptoms*:
+x
+
+*Conditions*:
+x
+
+*Workaround*:
+x
+
+|SCAL-207556
+|x
+a|*Symptoms*:
+x
+
+*Conditions*:
+x
+
+*Workaround*:
+x
 
 |SCAL-196442
-|Sorting issues with measure inside a pivot table [Charts item]
+|Sorting issues with a measure inside a pivot table
 a|*Symptoms*:
-Sorting a field which contains measure only updates rows
+Only rows are updated accordingly when sorting by measure on a pivot table.
 
 *Conditions*:
-Sorting a pivot table using search bar, or by updating sorting by a measure.
+
+- When user sorts a pivot table using search bar
+- When user updates sorting by the measure
 
 *Workaround*:
-Sort the respective pivot table by rows or columns using the corresponding header.
+None.
+
+Only row-level sorting is used when applying default-sorting by measure on a pivot table.
 |===
-////
