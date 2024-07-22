@@ -31,7 +31,7 @@ AI Answers on Liveboards:: Also known as Ask Sage, this feature enables you to u
 
 AI Synonyms:: This feature automatically creates synonyms to your Worksheet column names when you save a new or edited Worksheet. For more information, see xref:data-modeling-visibility.adoc#automatic-synonyms[AI-generated synonyms].
 
-AI Worksheet Descriptions:: This feature automatically creates descriptions for Worksheets you create or edit, generating when you click *Save*.
+AI Worksheet Descriptions:: This feature automatically creates descriptions in natural language for Worksheets you create or edit, generating when you click *Save*.
 
 AI Narratives for SpotIQ:: Also known as AI Highlights, this feature provides you with quick insights on how top metrics changed in your Liveboard. For more information, see xref:liveboard-ai-highlights.adoc[].
 +
