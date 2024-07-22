@@ -262,11 +262,11 @@ endif::free-trial-feature[]
 
 [#10-1-0-cl-bridge]
 [discrete]
-=== Bridge connector for Cloud Data Warehouses (CDWs)
+=== Bridge connectivity for Cloud Data Warehouses (CDWs) and Databases
 // Naomi. JIRA: SCAL-194229. docs JIRA: SCAL-212095
 // PM: Rahul Mani
 
-Instead of using PrivateLink, you can now use the Bridge connector to connect your data to ThoughtSpot without exposing your CDW to the internet at any point. We now support Bridge connections to the following CDWs:
+Bridge provides options to securely connect your data source with the ThoughtSpot Cloud, as an alternative to PrivateLink, VPC Peering or VPN tunnels. We support Bridge for the following Connectors:
 
 * Amazon Athena
 * Amazon Redshift
