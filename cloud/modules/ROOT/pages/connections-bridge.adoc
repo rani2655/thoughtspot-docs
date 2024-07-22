@@ -1,14 +1,15 @@
-= Bridge connector for Cloud Data Warehouses
+= Bridge connectivity for Cloud Data Warehouses and Databases
 :last_updated: 4/21/2023
 :author: Naomi
 :linkattrs:
 :page-layout: default-cloud
 :page-aliases:
 :experimental:
-:description:
+:description: Bridge provides options to securely connect your data source with the ThoughtSpot Cloud, as an alternative to PrivateLink, VPC Peering or VPN tunnels.
 :jira: SCAL-212095
 
-Instead of using PrivateLink, you can now use the Bridge connector to connect your data to ThoughtSpot without exposing your CDW to the internet at any point. We now support Bridge connections to the following CDWs:
+Bridge provides options to securely connect your data source with the ThoughtSpot Cloud, as an alternative to PrivateLink, VPC Peering or VPN tunnels. We support Bridge for the following Connectors:
+
 
 * Amazon Athena
 * Amazon Redshift

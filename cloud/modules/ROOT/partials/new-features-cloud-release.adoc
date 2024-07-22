@@ -46,8 +46,8 @@ xref:semi-additive-measures.adoc[Semi-additive measures with `first_value` and `
 OAuth for Starburst using Proof Key for Code Exchange (PKCE):: We now support xref:connections-starburst-add.adoc[OAuth with PKCE for Starburst].
 
 // Naomi - JIRA: SCAL-212095
-Bridge connector for Cloud Data Warehouses (CDWs)::
-Instead of using PrivateLink, you can now use the Bridge connector to connect your data to ThoughtSpot without exposing your CDW to the internet at any point. We now support Bridge connections to the following CDWs:
+Bridge connectivity for Cloud Data Warehouses (CDWs) and Databases::
+Bridge provides options to securely connect your data source with the ThoughtSpot Cloud, as an alternative to PrivateLink, VPC Peering or VPN tunnels. We support Bridge for the following Connectors:
 +
 --
 * Amazon Athena
@@ -60,7 +60,7 @@ Instead of using PrivateLink, you can now use the Bridge connector to connect yo
 --
 +
 For more information, see
-xref:connections-bridge.adoc[Bridge connector for Cloud Data Warehouses].
+xref:connections-bridge.adoc[Bridge connectivity for Cloud Data Warehouses and Databases].
 
 [#10-1-0-cl-it-ops]
 === For the IT/Ops Engineer
