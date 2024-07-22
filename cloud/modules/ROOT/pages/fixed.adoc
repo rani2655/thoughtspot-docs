@@ -1,13 +1,13 @@
 = Fixed issues
 :keywords: fixed issues
-:last_updated: 7/18/2024
+:last_updated: 7/22/2024
 :author: Mark Plummer
 :experimental:
 :linkattrs:
 :page-layout: default-cloud
 :page-toclevels: -1
 :description: These are the issues we fixed in recent ThoughtSpot Cloud releases.
-:jira: SCAL-197719 (9.10.5.cl), SCAL-206809 (9.12.0.cl), SCAL-210330 (9.12.5.cl), SCAL-214503 (10.0.0.cl)
+:jira: SCAL-197719 (9.10.5.cl), SCAL-206809 (9.12.0.cl), SCAL-210330 (9.12.5.cl), SCAL-214503 (10.0.0.cl), SCAL-216844 (10.1.0.cl)
 
 These are the issues we fixed in this release of ThoughtSpot Cloud.
 
@@ -19,6 +19,15 @@ These are the issues we fixed in this release of ThoughtSpot Cloud.
 |===
 |Issue ID |Description
 
-|SCAL-TBD
-|TBD
+|SCAL-213964
+|User trying to sign in with SAML authentication configured encounters an internal server 500 error.
+
+|SCAL-208304
+|Changing the size of a line chart changes it into a bar chart.
+
+|SCAL-207935
+|Object usage Liveboard data is not available.
+
+|SCAL-187097
+|User subscribed to an alert cannot unsubscribe using the hyperlink in the alert email, and the user who created the alert cannot remove subscribers of the alert.
 |===
