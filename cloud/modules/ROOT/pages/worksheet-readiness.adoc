@@ -74,7 +74,7 @@ image:south-no-value-suggestion.png[Sage search no suggested values]
 +
 image:fetch-south.png[Sage search suggested value for South in Region column]
 +
-IMPORTANT: Disable indexing for Personally Identifiable Information (PII) data.
+IMPORTANT: Disable indexing of columns within tables that contain personally identifiable information (PII) data.
 
 * Avoid indexing unused columns with overlapping values
 **  Index only required columns as too many values from columns might confuse Sage in selecting the right column. +
