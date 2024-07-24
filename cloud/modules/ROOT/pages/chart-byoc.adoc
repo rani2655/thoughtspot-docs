@@ -14,6 +14,8 @@ This article describes how you use a custom chart and how your ThoughtSpot admin
 
 Developers create custom charts in Javascript using charting libraries such as https://www.highcharts.com/[Highcharts^]. For more information, refer to https://github.com/thoughtspot/ts-chart-sdk/blob/main/README.md/[ThoughtSpot Charts SDK documentation^].
 
+To enable custom charts, you must contact {support-url}.
+
 == Using custom charts
 
 To use a custom chart, do the following:
