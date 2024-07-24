@@ -5,9 +5,9 @@
 :page-layout: default-cloud
 :page-aliases:
 :description: You can personalize Liveboards by applying filters that are persisted.
-:jira: SCAL-201673
+:jira: SCAL-201673, SCAL-212615
 
-Liveboards that contain consolidated data for all business users can now be personalized for a specific user or group. You can filter values to display only the information that is relevant to you, and save the personalized Liveboard. The personalized Liveboard retains the filter values, and remains synced with the original Liveboard. This allows you to bookmark a personalized Liveboard for easy access to the information you need, and eliminates the need to create a personal copy of a Liveboard which can result in copies falling out of sync with the original.
+Liveboards that contain consolidated data for all business users can now be personalized for a specific user or group. You can filter values to display only the information that is relevant to you, and save the personalized Liveboard. The personalized Liveboard retains the filter values, and remains synced with the original Liveboard. It also works for both filters and parameters on the Liveboard. This allows you to bookmark a personalized Liveboard for easy access to the information you need, and eliminates the need to create a personal copy of a Liveboard which can result in copies falling out of sync with the original.
 
 Users who don't have access to the underlying data source can view a Liveboard but can't interact with it by applying filters. Only users with access to the underlying data source can create and save personalized Liveboards. New filters can't be added in a personalized Liveboard, they must be added in the original.
 
