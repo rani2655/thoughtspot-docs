@@ -13,7 +13,7 @@ Users who don't have access to the underlying data source can view a Liveboard b
 
 NOTE: If row level security (RLS) is applied to the cluster, and the creator of a Liveboard sets up default values in a Liveboard filter, the default values will be visible to everyone who has access to the Liveboard in the filter chip preview and in the tooltip. The data is filtered based on RLS, but the filter chip preview and tooltip do not follow RLS.
 
-NOTE: If the original Liveboard is deleted, all personalized versions of it are deleted as well.
+CAUTION: If the original Liveboard is deleted, all personalized versions of it are deleted as well.
 
 == Create a personalized Liveboard view
 
