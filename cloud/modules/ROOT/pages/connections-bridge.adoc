@@ -69,10 +69,13 @@ NOTE: The protocol used will be SSH-only.
 }
 ----
 
-.. The .env file for Docker will be in the following format:
+.. The .env file for link:https://docs.docker.com/compose/environment-variables/variable-interpolation/#env-file-syntax[Docker] will be in the following format:
 +
 [source]
 ----
+MODE_ACCESS_TOKEN=bridge-token
+MODE_TOKEN_SECRET=bridge-token-secret
+MODE_SERVER=some.bridge.host:443
 ----
 
 . Install the Bridge Client:
