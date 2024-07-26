@@ -40,6 +40,8 @@ To compare multiple measures in a single view you can now group measures to shar
 
 When measures are grouped using *Values*, all subtotals and grand totals are turned off by default. Individual subtotals and grand totals can be turned on in settings.
 
+To enable this feature, contact {support-url}.
+
 NOTE: Adding attribute fields to *Values* is not supported.
 
 
