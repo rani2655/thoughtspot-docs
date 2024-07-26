@@ -85,7 +85,7 @@ endif::[]
 [discrete]
 === Sort and filter fragment and query feedback
 // Naomi. JIRA: SCAL-202878. docs JIRA: SCAL-?
-// PM: Alok. add gif.
+// PM: Anant. add gif.
 
 You can now sort and filter columns in the Sage Coach fragment and query feedback pages.
 //ThoughtSpot supports sorting by the following columns: `original query`, `rating`, `access`, `worksheet`, `last changed`, `chart`, and `fragment`. Filtering is supported on the following columns: `rating`, `access`, `worksheet`, `feedback provider`, `edited by`, and `chart`.
