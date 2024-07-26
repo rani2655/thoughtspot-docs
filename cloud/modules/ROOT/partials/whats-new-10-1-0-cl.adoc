@@ -40,6 +40,8 @@ ifdef::pendo-links[]
 xref:monitor.adoc#_create_an_anomaly_alert[Create an anomaly alert,window=_blank].
 endif::pendo-links[]
 
+image::anomaly-alert.gif[Create an anomaly alert]
+
 
 endif::free-trial-feature[]
 
