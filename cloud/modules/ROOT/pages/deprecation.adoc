@@ -25,12 +25,12 @@ Use following notes above feature that is deprecated. Send a link back to this d
 NOTE: This feature is now deprecated. You may not use it starting with release 7.1. For details, see xref:deprecation.adoc[Deprecation Announcements].
 ////
 
-== Deprecated in 10.1.0.cl
+== Removed in 10.1.0.cl
 
-The 10.1.0.cl release of ThoughtSpot Cloud, targeted for July 2024 (GA), will deprecate the following feature. ThoughtSpot will drop support for this feature in a later release.
+The 10.1.0.cl release of ThoughtSpot Cloud, targeted for August 2024 (GA), will remove the following feature.
 
 Classic experience for Liveboards, Answers, and SpotIQ::
-Beginning in the 10.1.0.cl release, you will still be able to use the Classic experience for Liveboards, Answers, and SpotIQ, but ThoughtSpot will remove them in a subsequent release.
+Beginning in the 10.1.0.cl release, you will no longer be able to use the Classic experience for Liveboards, Answers, and SpotIQ. The "new experience" from the previous release will become the only option and will be on by default.
 
 == Removed in 9.12.0.cl
 
