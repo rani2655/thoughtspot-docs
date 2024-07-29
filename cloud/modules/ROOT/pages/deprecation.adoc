@@ -1,11 +1,11 @@
 = Deprecated and removed features
-:last_updated: 4/11/2024
+:last_updated: 7/29/2024
 :linkattrs:
 :experimental:
 :page-layout: default-cloud
 :page-aliases: /release/deprecation.adoc
 :description: In this article, we give you advance notice of features we are discontinuing in future releases.
-:jira: SCAL-198582
+:jira: SCAL-198582, SCAL-202496
 
 ThoughtSpot sometimes deprecates and then removes existing features, replacing them with new and more effective ways to use our products.
 In this article, we provide a list of features we've chosen to deprecate or remove in each release.
