@@ -23,7 +23,7 @@ For these instructions, see xref:ts-cloud-getting-started.adoc[Getting Started w
 Anomaly-based alerts [.badge.badge-early-access-relnotes]#Early Access#:: You can now receive alerts when data of KPIs you are subscribed to fall outside the predicted value range.
 When creating an alert, you can specify the time and frequency at which ThoughtSpot checks the KPI’s data against the values predicted by ML models trained on the data. For example, you can create an alert for a `sales weekly` KPI, and specify that ThoughtSpot compare the values every Monday at 5 PM. You may also add individual subscribers to the alert. If the KPI's data falls outside the predicted range, ThoughtSpot sends an alert to your email and, if applicable, your subscribers' emails.
 +
-For more information, see xref:monitor.adoc#_create_an_anomaly_alert[Create an anomaly alert].
+For more information, see xref:monitor.adoc#create_an_anomaly_alert[Create an anomaly alert].
 
 // Naomi -- JIRA SCAL-201298
 Keywords "of" and "percentage of":: The "of" and "percentage of" keywords are now on by default and available to all users. You can use the "of" and "percentage of" keywords to answer questions related to mix, contribution, share of, percentage, and total ratios. These keywords help answer questions such as, "What is the share of a certain store’s sales as a percentage of the regional whole?" To try out this feature, enter a search phrase in the search bar containing the keyword, such as `sales percentage of store region`, and press *Go*.
