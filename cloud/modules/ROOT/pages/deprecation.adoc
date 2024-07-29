@@ -30,7 +30,7 @@ NOTE: This feature is now deprecated. You may not use it starting with release 7
 The 10.1.0.cl release of ThoughtSpot Cloud, targeted for August 2024 (GA), will remove the following feature.
 
 Classic experience for Liveboards, Answers, and SpotIQ::
-Beginning in the 10.1.0.cl release, you will no longer be able to use the Classic experience for Liveboards, Answers, and SpotIQ. The "new experience" from the previous release will become the only option and will be on by default.
+Beginning in the 10.1.0.cl release, you can no longer use the Classic experience for Liveboards, Answers, and SpotIQ. The "new experience" from the previous release is now the only option and is on by default.
 
 == Removed in 9.12.0.cl
 
