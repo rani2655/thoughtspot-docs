@@ -20,6 +20,8 @@ For a complete list of issues that we fixed in this release, see xref:fixed.adoc
 [#new]
 == New Features and Functionality
 
+IMPORTANT: Beginning in the 10.1.0.cl release, you will no longer be able to use the Classic experience for Liveboards, Answers, and SpotIQ. The "new experience" from the previous release will become the only option and will be on by default.
+
 include::partial$new-features-cloud-release.adoc[]
 
 == ThoughtSpot 10.0.0.cl
