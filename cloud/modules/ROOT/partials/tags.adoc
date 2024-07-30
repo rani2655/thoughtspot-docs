@@ -20,11 +20,14 @@ To create a tag from the Answer or Liveboard page, follow these steps:
 . Select *Answers* or *Liveboards* from the top navigation bar.
 . Hover over the object(s) you want to create a new tag for, and select the empty checkboxes that appear.
 +
+[.bordered]
 image:edit-tag.png[Add a tag]
+
 
 . Click on the button *Edit tags*.
 . Type the name of the tag you would like to create.
 +
+[.bordered]
 image:add-tag.png[Add a tag]
 +
 . If you would like to create the tag without adding it to the object(s), select Cancel in the Edit tags modal. If you would like to create the tag and add it to the object, select Save in the Edit tags modal.
@@ -52,6 +55,7 @@ To create a tag from the Data workspace, follow these steps. Note that you must 
 
 . Select *+ Add tag \`<tag name>`*.
 +
+[.bordered]
 image::add-tag.png[Click + add tag]
 
 . Type the names of any additional tags you would like to create, and select *+ Add tag \`<tag name>`*.
@@ -143,14 +147,17 @@ To filter by tag:
 
 . On the *Answers* or *Liveboards* page, click on the column header *Tags*.
 +
+[.bordered]
 image:filter-tag.png[Filter by a tag]
 +
 . Choose the name of the tag you want to filter by.
 +
+[.bordered]
 image::tag-filter.png[Filter by a tag]
 +
 On the Data workspace home page, click the *All tags* dropdown menu, and select the name of the tag you want to filter by.
 +
+[.bordered]
 image::select-tag-data-workspace.png[Select all tags and select a tag]
 
 [#unfilter-tags]
