@@ -9,7 +9,7 @@
 
 
 You can manage certain advanced settings for your organization from the Admin Console.
-This includes enabling, disabling, and configuring the following features: SpotIQ, column indexing, summaries, the new Answer, SpotIQ, and Liveboard experiences, and the footer for downloaded Answers and Liveboards.
+This includes enabling, disabling, and configuring the following features: SpotIQ, column indexing, summaries, and the footer for downloaded Answers and Liveboards.
 
 NOTE: If your organization uses xref:orgs-overview.adoc[multi-tenancy with Orgs], you must be a cluster administrator to manage these settings, not an Org administrator. You manage these settings for the whole cluster. You cannot set them separately for each Org.
 
@@ -20,7 +20,7 @@ If your organization uses xref:orgs-overview.adoc[multi-tenancy with Orgs], ensu
 
 image::admin-portal-search-settings.png[Admin Console - Search & SpotIQ settings]
 
-You can update the <<search,search>>, <<spotiq,SpotIQ>>, <<thoughtspot-experience,Answer, SpotIQ, and Liveboard experiences>>, and <<visualization-footer,footer>> settings from this page.
+You can update the <<search,search>>, <<spotiq,SpotIQ>>, <<thoughtspot-experience,Answer, SpotIQ, Liveboard>>, and <<visualization-footer,footer>> settings from this page.
 
 NOTE: Changing these settings results in a service interruption for all users for approximately 2 minutes.
 To minimize disruption, consider making your changes during a scheduled maintenance window.
@@ -99,7 +99,7 @@ To allow your users to add their own footers to downloaded Liveboards, remove al
 
 === Footer behavior
 
-This footer replaces the *Footer text* option that appears when you xref:liveboard-download-pdf.adoc[download a Liveboard as a PDF]. Instead, if you are on the xref:liveboard-experience-new.adoc[new Liveboard experience], you see a note under the footer text box: *Footer text was set by your admin*. You cannot edit the footer text for a specific Liveboard; you can only edit it for all Liveboards from the *Admin Console*.
+This footer replaces the *Footer text* option that appears when you xref:liveboard-download-pdf.adoc[download a Liveboard as a PDF]. You can see a note under the footer text box: *Footer text was set by your admin*. You cannot edit the footer text for a specific Liveboard; you can only edit it for all Liveboards from the *Admin Console*.
 
 image::liveboard-download-footer-disabled.png[The footer text box is disabled]
 
