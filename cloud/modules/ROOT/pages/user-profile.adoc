@@ -134,12 +134,12 @@ To enable or disable the new navigation and homepage experience, follow these st
 [#kpi-anomalies]
 == Manage your KPI Anomalies
 
-Ask Sage allows you to enable the Ask Sage feature for your user.
+KPI Anomalies allow you to choose globally showing or hiding SpotIQ anomalies and bounds on KPIs. If you choose show, you still have the ability to hide anomalies in each individual KPI's chart configuration settings.
 
 You can show or hide them from the *Experience* section of your profile.
 If that option is not available, contact your administrator.
 
-To enable or disable KPI Anomalies, follow these steps:
+To show or hide KPI Anomalies, follow these steps:
 
 . Next to *Experience*, at the bottom of your profile, select *Edit*.
 
@@ -150,12 +150,12 @@ To enable or disable KPI Anomalies, follow these steps:
 [#ask-sage]
 == Manage Ask Sage
 
-KPI Anomalies allow you to choose whether or not to globally hide SpotIQ anomalies and bounds on KPIs. If you choose show, you still have the ability to hide anomalies in each individual KPI's chart configuration settings. K
+Ask Sage allows you to enable the Ask Sage feature for your user.
 
 You can show or hide it from the *Experience* section of your profile.
 If that option is not available, contact your administrator.
 
-To enable or disable Ask Sage, follow these steps:
+To show or hide Ask Sage, follow these steps:
 
 . Next to *Experience*, at the bottom of your profile, select *Edit*.
 
