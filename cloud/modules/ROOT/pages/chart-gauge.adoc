@@ -3,7 +3,7 @@
 :linkattrs:
 :experimental:
 :page-layout: default-cloud
-:page-aliases: /end-user/search/about-pareto-charts.adoc
+:page-aliases:
 :description: The gauge chart is a type of chart that can be used to provide an instant view of measure or a formula's current value.
 :jira: SCAL-214870
 
