@@ -143,7 +143,7 @@ To show or hide KPI Anomalies, follow these steps:
 
 . Next to *Experience*, at the bottom of your profile, select *Edit*.
 
-. Next to *Ask Sage*, select *Show* or *Hide*.
+. Next to *KPI Anomalies*, select *Show* or *Hide*.
 
 . Select *Save*.
 
