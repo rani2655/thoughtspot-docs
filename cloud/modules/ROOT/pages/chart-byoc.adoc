@@ -1,12 +1,12 @@
 = Custom charts
-:last_updated: 3/5/24
+:last_updated: 7/30/24
 :linkattrs:
 :experimental:
 :author: Mark
 :page-layout: default-cloud-beta
 :page-aliases:
 :description: With custom charts, you can add your own custom charts to ThoughtSpot.
-:jira: SCAL-179003, SCAL-202002
+:jira: SCAL-179003, SCAL-202002, SCAL-214870 (gauge chart)
 
 You can now use custom charts created outside of ThoughtSpot.
 
@@ -14,7 +14,9 @@ This article describes how you use a custom chart and how your ThoughtSpot admin
 
 Developers create custom charts in Javascript using charting libraries such as https://www.highcharts.com/[Highcharts^]. For more information, refer to https://github.com/thoughtspot/ts-chart-sdk/blob/main/README.md/[ThoughtSpot Charts SDK documentation^].
 
-To enable custom charts, you must contact {support-url}.
+To enable the custom charts feature, you must contact {support-url}.
+
+Once enabled, the xref:chart-gauge.adoc[Gauge] custom chart is available on your cluster.
 
 == Using custom charts
 

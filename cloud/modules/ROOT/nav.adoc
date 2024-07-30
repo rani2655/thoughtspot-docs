@@ -525,6 +525,7 @@
 *** xref:chart-radar.adoc[Radar charts]
 *** xref:chart-candlestick.adoc[Candlestick charts]
 *** xref:chart-pareto.adoc[Pareto charts]
+*** xref:chart-gauge.adoc[Gauge charts]
 
 ** xref:chart-change.adoc[Changing charts]
 *** xref:chart-axes-options.adoc[Change axes options]
