@@ -147,7 +147,7 @@ image:filter-tag.png[Filter by a tag]
 +
 . Choose the name of the tag you want to filter by.
 +
-image:tag-filter.png[Filter by a tag]
+image::tag-filter.png[Filter by a tag]
 +
 On the Data workspace home page, click the *All tags* dropdown menu, and select the name of the tag you want to filter by.
 +
@@ -169,7 +169,7 @@ You can remove a tag from an object from the object list page, for Answers and L
 
 To remove a tag for a an object, follow these steps:
 
-. Navigate to the *Answers*, *Liveboards* or *Data workspace* by selecting *Data* from the top navigation bar.
+. Navigate to the *Answers*, *Liveboards* or *Data*.
 
 . Select the checkbox next to the names of the object(s).
 
