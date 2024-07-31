@@ -95,21 +95,7 @@ You can also search for specific values for `worksheet`, `feedback provider`, an
 
 image::feedback-filter.gif[Filter query feedback]
 
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
-[#10-1-0-cl-data-panel]
-[discrete]
-=== Data Panel V2 - Hide A-Z view in Data Panel [.badge.badge-early-access]#Early Access#
-endif::[]
-ifdef::pendo-links[]
-[#10-1-0-cl-data-panel]
-[discrete]
-=== Data Panel V2 - Hide A-Z view in Data Panel [.badge.badge-early-access-whats-new]#Early Access#
-endif::[]
-// Mark – Jira: SCAL-179807. docs JIRA: SCAL-?
-// PM: Alok
 
-endif::free-trial-feature[]
 
 [#10-1-0-cl-first-last]
 [discrete]
@@ -137,20 +123,18 @@ endif::pendo-links[]
 // contact: Sanskriti Jain. currently disabled, working out a bug
 ////
 
+////
 [#10-1-0-cl-react]
 [discrete]
 === React Shell - Deprecate v1 objects + older navigation
 // Mark. JIRA: SCAL-196044. docs JIRA: SCAL-?
 // PM: Anjali
+////
 
 // Analyst
 
-[#10-1-0-cl-data]
-[discrete]
-=== Data panel column groups (TML)
-// Mark. JIRA: SCAL-202873. docs JIRA: SCAL-?
-// PM: Samridh
 
+////
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#10-1-0-cl-pivot]
@@ -170,7 +154,9 @@ image::blended-axes.png[Grouping measures]
 // Mary. JIRA: SCAL-181678. docs JIRA: SCAL-211771. get an instance and make a gif - still waiting on help with an example from Manan (July 18)
 // PM: Manan
 endif::free-trial-feature[]
+////
 
+////
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#10-1-0-cl-modeling]
@@ -186,18 +172,8 @@ endif::[]
 // PM: Samridh
 
 endif::free-trial-feature[]
+////
 
-[#10-1-0-cl-schema]
-[discrete]
-=== Data Modeling FE v2 - 10.1 - Joins tab schema viewer
-// Mark. JIRA: SCAL-211055. docs JIRA: SCAL-?
-// PM: Samridh
-
-[#10-1-0-cl-column]
-[discrete]
-=== Data Panel: Custom Column Categorisation
-// Mark. JIRA: SCAL-202382. docs JIRA: SCAL-?
-// PM: Damian
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
@@ -239,7 +215,7 @@ ifdef::pendo-links[]
 xref:connections-starburst-add.adoc[OAuth with PKCE for Starburst,window=_blank].
 endif::[]
 
-
+////
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#10-1-0-cl-dependency]
@@ -255,12 +231,15 @@ endif::[]
 // PM: Samridh
 
 endif::free-trial-feature[]
+////
 
+////
 [#10-1-0-cl-column-groups]
 [discrete]
 === Data panel V2 - Column groups
 // Mark. JIRA: SCAL-205579. docs JIRA: SCAL-?
 // PM: Damian
+////
 
 // IT/ Ops Engineer
 
@@ -297,19 +276,25 @@ endif::[]
 // PM: Alok
 ////
 
+////
 [#10-1-0-cl-iam]
 [discrete]
 === Support for multiple Identity Providers (IDPs) with IAMv2
 ThoughtSpot introduces support for multiple SAML connections configured in a cluster. This allows users to log in with any of the configured SAML connections.
 // Mary. JIRA: SCAL-115281. docs JIRA: SCAL-?
 // PM: Aashica - awaiting doc JIRA and release status
+////
 
 [#10-1-0-cl-auth]
 [discrete]
-=== Local auth support with IAMv2
+=== Local authentication support with IAMv2
 
 // Mary. JIRA: SCAL-197810. docs JIRA: SCAL-?
 // PM: Aashica - Awaiting Doc JIRA and access to PRD and release status
+
+ThoughtSpot allows customers to enable or disable local authentication at the Org and cluster levels. To enable local authentication at the cluster level, administrators require the *Can manage authentication* privilege. To enable local authentication at the Org level, contact {support-url}.
+
+NOTE: Org level settings override cluster level settings.
 
 ////
 [#10-1-0-cl-users]
@@ -326,20 +311,35 @@ ThoughtSpot introduces a new UI for Users and Groups. Use the Admin Console to e
 // PM: Aashica
 ////
 
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
 [#10-1-0-cl-orgs]
 [discrete]
-=== Orgs 1.5: Per Org URL (Enterprise) - for sharing links
+=== Org-specific URLs [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#10-1-0-cl-orgs]
+[discrete]
+=== Org-specific URLs [.badge.badge-beta-whats-new]#Beta#
+endif::[]
 
 // Mary. JIRA: SCAL-202402. docs JIRA: SCAL-?
 // PM: Aashica - Awaiting doc JIRA and confirmation of what changes are related to 10.1.0.cl as the PRD is the same for multiple JIRAs dating back to 9.8.0.cl
 
+ThoughtSpot introduces Org-specific URLs. With Org-specific URLs, the UI maintains the Org that the user is logged into. When a user switches Orgs using the Org switcher, they are directed to the subdomain of the new Org.
+
+endif::free-trial-feature[]
+
+////
 [#10-1-0-cl-query]
 [discrete]
 === Better mechanism to inform users of unsupported queries
 
 // Mary. JIRA: SCAL-200386. docs JIRA: SCAL-214766 and SCAL-214767 are both open and assigned to Mark. Need to clarify with Mark when he's back from PTO.
 // PM: Naman
+////
 
+////
 [#10-1-0-cl-neighbor]
 [discrete]
 === Handling noisy neighbor problems in shared clusters (essentials/ pro edition)
@@ -347,6 +347,7 @@ ThoughtSpot introduces a new UI for Users and Groups. Use the Admin Console to e
 // Mary. JIRA: SCAL-154107. docs JIRA: SCAL-?
 // PM: Aashica -
 //Same Org 1.5 PRD is linked, need clarification about doc impact, Doc JIRA from PM.
+////
 
 ifndef::free-trial-feature[]
 [discrete]
