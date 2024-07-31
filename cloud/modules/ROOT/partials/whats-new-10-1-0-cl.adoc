@@ -137,11 +137,13 @@ endif::pendo-links[]
 // contact: Sanskriti Jain. currently disabled, working out a bug
 ////
 
+////
 [#10-1-0-cl-react]
 [discrete]
 === React Shell - Deprecate v1 objects + older navigation
 // Mark. JIRA: SCAL-196044. docs JIRA: SCAL-?
 // PM: Anjali
+////
 
 // Analyst
 
