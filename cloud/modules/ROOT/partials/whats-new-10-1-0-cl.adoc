@@ -40,7 +40,7 @@ ifdef::pendo-links[]
 xref:monitor.adoc#create_an_anomaly_alert[Create an anomaly alert,window=_blank].
 endif::pendo-links[]
 
-image::anomaly-alert.gif[Create an anomaly alert]
+image::anomaly-alerts.gif[Create an anomaly alert]
 
 
 endif::free-trial-feature[]
@@ -92,6 +92,8 @@ endif::[]
 You can now sort and filter columns in the Sage Coach fragment and query feedback pages.
 //ThoughtSpot supports sorting by the following columns: `original query`, `rating`, `access`, `worksheet`, `last changed`, `chart`, and `fragment`. Filtering is supported on the following columns: `rating`, `access`, `worksheet`, `feedback provider`, `edited by`, and `chart`.
 You can also search for specific values for `worksheet`, `feedback provider`, and `edited by` to further narrow your selection.
+
+image::feedback-filter.gif[Filter query feedback]
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
