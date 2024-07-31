@@ -3,7 +3,7 @@
 :last_updated: 6/24/24
 :experimental:
 :linkattrs:
-:page-layout: default-cloud-early-access
+:page-layout: default-cloud
 :description: Learn how to enable Sage search.
 :jira: SCAL-211072, SCAL-215955
 
