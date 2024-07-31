@@ -3,7 +3,7 @@
 :last_updated: 6/24/24
 :experimental:
 :linkattrs:
-:page-layout: default-cloud
+:page-layout: default-cloud-early-access
 :description: Learn how to give feedback to Sage Answers in order to increase accuracy and consistency of results.
 :jira: SCAL-211072
 
