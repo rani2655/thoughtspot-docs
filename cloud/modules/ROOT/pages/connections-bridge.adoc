@@ -34,7 +34,7 @@ The Bridge Server and Client communicate using the SSH protocol. The Bridge infr
 
 The Bridge Client needs to make *outbound TCP connections* to Bridge Server on *port 443*.
 
-Bridge Servers cannot initiate connections to Bridge Clients. A bridge is only active if a Bridge Client has established a connection to Bridge Server. If a Bridge Client is not running, there is no active bridge. Bridge uses TLS 1.2 for the connection.
+Bridge Servers cannot initiate connections to Bridge Clients. A bridge is only active if a Bridge Client has established a connection to Bridge Server. If a Bridge Client is not running, there is no active bridge.
 
 == Install the Bridge Client
 
@@ -48,13 +48,12 @@ Follow these steps to install the Bridge Client:
 ... Token Secret
 ... Server URL
 
-. The Bridge Client connects to the ThoughtSpot Server URL by making outbound TCP connections on the following ports:
+. The Bridge Client connects to the ThoughtSpot Server URL by making outbound TCP connections on the following port:
 
-.. HTTPS/443
+.. TCP/443
 +
 NOTE: The protocol used will be SSH-only.
 
-.. Bridge uses TLS 1.2 for the connection.
 
 . Use the Docker env or config file:
 
