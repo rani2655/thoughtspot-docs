@@ -4,7 +4,7 @@
 :linkattrs:
 :page-layout: default-cloud
 :experimental:
-:connection: Looker Modeler
+:connection: Looker
 :page-aliases: connections-looker-ml-reference.adoc
 :description: Learn the specific information needed to establish a secure connection to Looker Modeler.
 :jira: SCAL-161198
