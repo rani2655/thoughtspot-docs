@@ -5,9 +5,9 @@
 :page-layout: default-cloud
 :page-aliases:
 :experimental:
-:connection: Looker Modeler
+:connection: Looker
 :description: You can connect to Looker Modeler in ThoughtSpot Cloud, and perform live queries to create Answers and Liveboards.
-:jira: SCAL-161198
+:jira: SCAL-161198, SCAL-218429 (remove modeler)
 
 You can connect to {connection} in ThoughtSpot Cloud, and perform live queries to create Answers and Liveboards.
 

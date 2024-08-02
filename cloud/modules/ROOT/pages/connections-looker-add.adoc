@@ -5,7 +5,7 @@
 :page-layout: default-cloud
 :page-aliases:
 :experimental:
-:connection: Looker Modeler
+:connection: Looker
 :description: Learn how to add a Looker Modeler connection.
 :jira: SCAL-161198
 

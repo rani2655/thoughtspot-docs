@@ -5,7 +5,7 @@
 :page-layout: default-cloud
 :page-aliases:
 :experimental:
-:connection: Looker Modeler
+:connection: Looker
 :description: To delete a table with dependencies from a Looker Modeler connection, first delete the dependent objects.
 :jira: SCAL-161198
 

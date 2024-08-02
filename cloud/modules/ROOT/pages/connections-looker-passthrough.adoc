@@ -5,7 +5,7 @@
 :experimental:
 :page-layout: default-cloud
 :page-aliases:
-:connection: Looker Modeler
+:connection: Looker
 :description: Passthrough functions allow you to send SQL expressions directly to Looker Modeler without being interpreted by ThoughtSpot.
 :jira: SCAL-161198
 
