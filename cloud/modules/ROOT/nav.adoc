@@ -268,7 +268,7 @@
 **** xref:connections-google-cloud-sql-sql-server-delete.adoc[Delete connection]
 **** xref:connections-google-cloud-sql-sql-server-reference.adoc[Connection reference]
 **** xref:connections-google-cloud-sql-sql-server-passthrough.adoc[]
-*** xref:connections-looker.adoc[Connect to Looker Modeler]
+*** xref:connections-looker.adoc[Connect to Looker]
 **** xref:connections-looker-add.adoc[Add connection]
 **** xref:connections-looker-edit.adoc[Edit connection]
 **** xref:connections-looker-remap.adoc[Remap connection]
