@@ -89,6 +89,7 @@ NOTE: Generally, creating a many-to-one join from a fact table to a dimension ta
 
 . Select the *Joins* tab.
 The list of existing joins (if any) from the table appears.
++
 image:table-add-joins-new.png[Click + Add join]
 
 . Select *+ Add join*.
