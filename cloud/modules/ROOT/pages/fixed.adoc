@@ -19,14 +19,20 @@ These are the issues we fixed in this release of ThoughtSpot Cloud.
 |===
 |Issue ID |Description
 
+|SCAL-218463
+|Changing .tml at the table level causes a "Validation failed" error.
+
+|SCAL-217403
+|ThoughtSpot Embedded: Route change event does not return full path with V2 shell.
+
+|SCAL-216604
+|After changing connection details to connect to a new connection, it is not possible to change the connection details back to the original connection. "A system error has occurred" message appears both when attempting to update using the UI, and when attempting to update using TML import.
+
 |SCAL-213964
 |User trying to sign in with SAML authentication configured encounters an internal server 500 error.
 
-|SCAL-208304
-|Changing the size of a line chart changes it into a bar chart.
-
-|SCAL-207935
-|Object usage Liveboard data is not available.
+|SCAL-213952
+|ThoughtSpot application unresponsive despite cluster usage not being high and no service restarts.
 
 |SCAL-187097
 |User subscribed to an alert cannot unsubscribe using the hyperlink in the alert email, and the user who created the alert cannot remove subscribers of the alert.
