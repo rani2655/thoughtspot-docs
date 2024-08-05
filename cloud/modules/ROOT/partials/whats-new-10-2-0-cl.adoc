@@ -45,6 +45,8 @@ endif::[]
 // Mark. jira: SCAL-209769. docs jira: SCAL-?
 // PM: ?Dragos?
 
+endif::free-trial-feature[]
+
 [#10-2-0-cl-homepage]
 [discrete]
 === Homepage improvement - Phase 2
@@ -117,16 +119,25 @@ endif::[]
 [discrete]
 === Allow changing join keys in UI for global joins
 
-// Naomi. jira: SCAL-91117. docs jira: SCAL-?
+// Naomi. jira: SCAL-91117. docs jira: SCAL-213778
 // PM: Samridh
 
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
 [#10-2-0-cl-connection]
 [discrete]
-=== Categorization for Connections
+=== Categorization for Connections [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#10-2-0-cl-connection]
+[discrete]
+=== Categorization for Connections [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
 
 // Naomi. jira: SCAL-207602. docs jira: SCAL-?
 // PM: Aaghran
 
+endif::free-trial-feature[]
 
 // IT/ Ops Engineer
 
