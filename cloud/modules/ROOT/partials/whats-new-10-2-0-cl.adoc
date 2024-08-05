@@ -117,7 +117,7 @@ endif::[]
 [discrete]
 === Allow changing join keys in UI for global joins
 
-// Naomi. jira: SCAL-91117. docs jira: SCAL-?
+// Naomi. jira: SCAL-91117. docs jira: SCAL-213778
 // PM: Samridh
 
 [#10-2-0-cl-connection]
