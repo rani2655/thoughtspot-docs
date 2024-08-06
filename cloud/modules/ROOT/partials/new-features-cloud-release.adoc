@@ -30,7 +30,7 @@ Keywords "of" and "percentage of":: The "of" and "percentage of" keywords are no
 +
 For more information, see xref:formulas-keywords.adoc[Keywords: Of and Percentage of].
 
-// Naomi -- JIRA: SCAL-?
+// Naomi -- JIRA: SCAL-218932
 Sort and filter fragment and query feedback:: You can now sort and filter columns in the Sage Coach fragment and query feedback pages. You can also search for specific values for `worksheet`, `feedback provider`, and `edited by` to further narrow your selection.
 
 // Naomi – JIRA SCAL-214756
