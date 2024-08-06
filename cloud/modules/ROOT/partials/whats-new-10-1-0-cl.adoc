@@ -89,7 +89,7 @@ endif::[]
 [#10-1-0-cl-coach]
 [discrete]
 === Sort and filter fragment and query feedback
-// Naomi. JIRA: SCAL-202878. docs JIRA: SCAL-?
+// Naomi. JIRA: SCAL-202878. docs JIRA: SCAL-218932
 // PM: Anant. add gif.
 
 You can now sort and filter columns in the Sage Coach fragment and query feedback pages.
