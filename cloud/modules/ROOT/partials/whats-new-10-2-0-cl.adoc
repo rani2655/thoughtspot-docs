@@ -137,7 +137,7 @@ ifdef::pendo-links[]
 === Categorization for Connections [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 
-// Naomi. jira: SCAL-207602. docs jira: SCAL-?
+// Naomi. jira: SCAL-207602. docs jira: SCAL-219033
 // PM: Aaghran
 
 endif::free-trial-feature[]
