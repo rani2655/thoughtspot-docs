@@ -62,7 +62,7 @@ endif::free-trial-feature[]
 === Runtime filters: NOT IN operator
 
 // Naomi. jira: SCAL-210530. docs jira: SCAL-?
-// PM: Arpit
+// PM: Dilip Pitchika
 
 [#10-2-0-cl-desc]
 [discrete]
@@ -85,19 +85,22 @@ endif::free-trial-feature[]
 // Mark. jira: SCAL-207252. docs jira: SCAL-?
 // PM: Samridh
 
-[#10-2-0-cl-augment]
-[discrete]
-=== UI augmentation to CDW
-
-// Naomi. jira: SCAL-181358. docs jira: SCAL-?
-// PM: Aaghran
-
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
 [#10-2-0-cl-csv-upload]
 [discrete]
-=== Data Augmentation CSV upload to CDW
+=== Data Augmentation CSV upload to Snowflake [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#10-2-0-cl-csv-upload]
+[discrete]
+=== Data Augmentation CSV upload to Snowflake [.badge.badge-beta-whats-new]#Beta#
+endif::[]
 
-// Naomi. jira: SCAL-181354. docs jira: SCAL-?
+// Naomi. jira: SCAL-181354, SCAL-181358. docs jira: SCAL-?
 // PM: Aaghran
+
+endif::free-trial-feature[]
 
 [#10-2-0-cl-feedback]
 [discrete]
