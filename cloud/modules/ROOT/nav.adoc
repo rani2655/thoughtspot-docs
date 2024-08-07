@@ -647,6 +647,7 @@
 *** xref:tml-views.adoc[TML for views]
 *** xref:tml-worksheets.adoc[TML for Worksheets]
 *** xref:tml-models.adoc[TML for Models]
+*** xref:tml-sets.adoc[TML for Sets]
 * xref:administration.adoc[Administration]
 ** xref:support-handbook.adoc[Support Handbook]
 ** ThoughtSpot editions
