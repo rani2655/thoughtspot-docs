@@ -157,7 +157,7 @@ ThoughtSpot now supports grouping measure in pivot tables. You can now move meas
 image::blended-axes.png[Grouping measures]
 
 // Mary. JIRA: SCAL-181678. docs JIRA: SCAL-211771. get an instance and make a gif - still waiting on help with an example from Manan (July 18)
-// PM: Manan
+// PM: Manan - removed from 10.1 WN as it remains beta in 10.1 per Manan
 endif::free-trial-feature[]
 ////
 
@@ -193,6 +193,8 @@ ifdef::pendo-links[]
 endif::[]
 
 You can now use TML to import and export column sets and query sets in ThoughtSpot.
+
+For more information, see xref:tml-sets.adoc[TML for Sets].
 // Mary – Jira: SCAL-158900. docs JIRA: SCAL-212555
 // PM: Damian
 
@@ -287,14 +289,14 @@ endif::[]
 === Support for multiple Identity Providers (IDPs) with IAMv2
 ThoughtSpot introduces support for multiple SAML connections configured in a cluster. This allows users to log in with any of the configured SAML connections.
 // Mary. JIRA: SCAL-115281. docs JIRA: SCAL-?
-// PM: Aashica - awaiting doc JIRA and release status
+// PM: Aashica - awaiting doc JIRA and release status - Removed July 25 per Aashica
 ////
 
 [#10-1-0-cl-auth]
 [discrete]
 === Local authentication support with IAMv2
 
-// Mary. JIRA: SCAL-197810. docs JIRA: SCAL-?
+// Mary. JIRA: SCAL-197810. docs JIRA: SCAL-216615
 // PM: Aashica - Awaiting Doc JIRA and access to PRD and release status
 
 ThoughtSpot allows customers to enable or disable local authentication at the Org and cluster levels. To enable local authentication at the cluster level, administrators require the *Can manage authentication* privilege. To enable local authentication at the Org level, contact {support-url}.
@@ -308,12 +310,11 @@ NOTE: Org level settings override cluster level settings.
 ThoughtSpot introduces a new UI for Users and Groups. Use the Admin Console to easily create, update, and delete users.
 
 // Mary. JIRA: SCAL-198098. docs JIRA: SCAL-?- awaiting confirmation if we should use SCAL-203421 that is currently in cancelled state.
-
 //-Q: is this feature where you add a user's email and they receive an email to fill in their username/other info? magiclink? A:No-
-
 // Need clarification from Aashica regarding impact to Orgs.
 //This is a change from Angular to React
 // PM: Aashica
+//REMOVED from 10.1.0.cl per Aashica - will not be released in 10.1 or 10.2.
 ////
 
 ifndef::free-trial-feature[]
@@ -328,8 +329,8 @@ ifdef::pendo-links[]
 === Org-specific URLs [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
-// Mary. JIRA: SCAL-202402. docs JIRA: SCAL-?
-// PM: Aashica - Awaiting doc JIRA and confirmation of what changes are related to 10.1.0.cl as the PRD is the same for multiple JIRAs dating back to 9.8.0.cl
+// Mary. JIRA: SCAL-202402. docs JIRA: SCAL-212285
+// PM: Aashica - Awaiting more info from Aashica
 
 ThoughtSpot introduces Org-specific URLs. With Org-specific URLs, the UI maintains the Org that the user is logged into. When a user switches Orgs using the Org switcher, they are directed to the subdomain of the new Org.
 
@@ -342,6 +343,8 @@ endif::free-trial-feature[]
 
 // Mary. JIRA: SCAL-200386. docs JIRA: SCAL-214766 and SCAL-214767 are both open and assigned to Mark. Need to clarify with Mark when he's back from PTO.
 // PM: Naman
+//Error message improvements, no doc required.
+
 ////
 
 ////
@@ -351,7 +354,8 @@ endif::free-trial-feature[]
 
 // Mary. JIRA: SCAL-154107. docs JIRA: SCAL-?
 // PM: Aashica -
-//Same Org 1.5 PRD is linked, need clarification about doc impact, Doc JIRA from PM.
+//Same Org 1.5 PRD is linked, need clarification about doc impact, Doc JIRA from PM. Might take out after confirmation.
+//Aashica confirmed no doc needed.
 ////
 
 ifndef::free-trial-feature[]
