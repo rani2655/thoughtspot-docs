@@ -17,9 +17,7 @@ For these instructions, see xref:ts-cloud-getting-started.adoc[Getting Started w
 === For the Analyst
 
 // Mary – Jira: SCAL-158900. docs JIRA: SCAL-212555
-=== Import and export sets using TML [.badge.badge-beta-whats-new]#Beta#
-endif::[]
-You can now use TML to import and export column sets and query sets in ThoughtSpot. For more information, see xref:tml-sets.adoc[TML for Sets].
+Import and export sets using TML [.badge.badge-beta-relnotes]#Beta#:: You can now use TML to import and export column sets and query sets in ThoughtSpot. For more information, see xref:tml-sets.adoc[TML for Sets].
 
 
 
