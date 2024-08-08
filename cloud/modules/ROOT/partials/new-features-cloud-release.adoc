@@ -71,6 +71,16 @@ xref:connections-bridge.adoc[Bridge connectivity for Cloud Data Warehouses and D
 [#10-1-0-cl-it-ops]
 === For the IT/Ops Engineer
 
+=== Local authentication support with IAMv2 [.badge.badge-early-access]#Early Access#
+
+// Mary. JIRA: SCAL-197810. docs JIRA: SCAL-216615
+// PM: Aashica - Awaiting Doc JIRA and access to PRD and release status
+
+ThoughtSpot allows customers to enable or disable local authentication at the Org and cluster levels. To enable local authentication at the cluster level, administrators require the *Can manage authentication* privilege. To enable local authentication at the Org level, contact {support-url}.
+
+NOTE: Org level settings override cluster level settings.
+
+For more information, see xref:authentication-local.adoc[Managing local authentication].
 
 [#10-1-0-cl-developer]
 === For the Developer
