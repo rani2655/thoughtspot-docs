@@ -311,7 +311,7 @@ For more information, see xref:authentication-local.adoc[Managing local authenti
 === Updated User Interface (UI) for Users and Groups
 ThoughtSpot introduces a new UI for Users and Groups. Use the Admin Console to easily create, update, and delete users.
 
-// Mary. JIRA: SCAL-198098. docs JIRA: SCAL-?- awaiting confirmation if we should use SCAL-203421 that is currently in cancelled state.
+// Mary. JIRA: SCAL-198098. docs JIRA: SCAL-203421- awaiting confirmation if we should use SCAL-203421 that is currently in cancelled state.
 //-Q: is this feature where you add a user's email and they receive an email to fill in their username/other info? magiclink? A:No-
 // Need clarification from Aashica regarding impact to Orgs.
 //This is a change from Angular to React
