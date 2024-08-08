@@ -1,27 +1,20 @@
-= Managing authentication with SAML
-:last_updated: 5/6/2021
+= Managing per Org authentication with SAML
+:last_updated: 8/7/2024
 :linkattrs:
 :experimental:
-:page-layout: default-cloud
-:page-aliases: /admin/setup/configure-saml-with-tscli.adoc, /admin/ts-cloud/authentication-integration.adoc, authentication-saml.adoc
-:description: ThoughtSpot integrates with SAML for authentication.
+:page-layout: default-cloud-early-access
+:description: ThoughtSpot integrates with SAML for per Org authentication.
 
 
 
-ThoughtSpot integrates with SAML for authentication.
+ThoughtSpot integrates with SAML for per Org authentication.
+
 
 [NOTE]
 ====
-This article contains instructions for managing SAML authentication if your company does *_NOT_* use IAMv2. IAMv2 is *_off_* by default. If the *SAML* section of the Admin Console is called *Authentication: SAML*, your company is *_not_* using IAMv2.
+If your organization uses xref:orgs-overview.adoc[multi-tenancy with Orgs], you must be a cluster administrator to manage SAML authentication, not an Org administrator. You manage SAML authentication for the whole cluster. You cannot set it separately for each Org.
 
-If the *SAML* section of the Admin Console is called *SAML integration*, your company is using IAMv2. Refer to xref:saml-okta.adoc[].
-====
-
-[NOTE]
-====
-If your organization uses xref:orgs-overview.adoc[multi-tenancy with Orgs], ThoughtSpot allows customers to enable or disable local authentication at the Org and cluster levels. To enable local authentication at the cluster level, administrators require the *Can manage authentication* privilege. To enable local authentication at the Org level, contact {support-url}. Org level settings override cluster level settings.
-
-To ensure SAML authentication works smoothly in an Orgs environment, you must include Orgs mapping in your IDP assertion. See <<assertion,IDP metadata XML file>>. If you map Orgs with SAML, you can't also map groups.
+To ensure SAML authentication works smoothly in an Orgs environment, you must include Orgs mapping in your IDP assertion. See <<assertion,IDP metadata XML file>>. If you map Orgs with SAML, you can't also map groups. If you are using xref:orgs-overview.adoc[], we do not currently support using IAMv2.
 ====
 
 == SAML SSO authentication
@@ -116,7 +109,7 @@ You need admin privileges to enable SAML SSO authentication.
 . From the top navigation bar, select the *Admin* tab.
 . Select *SAML* from the side navigation bar that appears.
 +
-If your organization uses xref:orgs-overview.adoc[multi-tenancy with Orgs], ensure that you are in the Org you want to configure, in the *All orgs* section of the Admin Console.
+If your organization uses xref:orgs-overview.adoc[multi-tenancy with Orgs], ensure that you are in the Primary Org, in the *All orgs* section of the Admin Console. You manage SAML authentication for the whole cluster. You cannot set it separately for each Org.
 . Select the *Configure* button in the middle of the screen.
 . Fill in the following parameters:
 +
