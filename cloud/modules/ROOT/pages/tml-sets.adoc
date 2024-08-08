@@ -15,10 +15,12 @@ A single set file or multiple set TML files can be imported using the TML import
 
 Set owners and ThoughtSpot administrators can edit a set's TML definition in the *Search Data* panel.
 
-NOTE: A set can only be edited by the ThoughtSpot administrator. Ownership can be changed in the TML usning the optional *owner* TML property.
+NOTE: A set's owner property can only be edited by the ThoughtSpot administrator. Ownership can be changed in the TML using the optional *owner* TML property.
 
+////
 [#syntax-sets]
 include::partial$tml-syntax-sets.adoc[]
+////
 
 [#set-parameters]
 == TML parameters for {object}
@@ -28,6 +30,8 @@ These parameters and their definitions are specific to {object}; this list doesn
 |===
 | a - d | e - o | p - v
 a| <<aggregation,aggregation>>
+
+<<anchor_column_id,anchor _column_id>>
 
 <<answer,answer>>
 
@@ -40,6 +44,10 @@ a| <<aggregation,aggregation>>
 <<chart_columns,chart_columns>>
 
 <<client_state,client_state>>
+
+<<cohort_grouping_type,cohort_grouping_type>>
+
+<<cohort_type,cohort_type>>
 
 <<column_id,column_id>>
 
@@ -75,6 +83,8 @@ a| <<expr,expr>>
 
 <<override_value,override_value>>
 
+<<owner,owner>>
+
 a| <<parameter_overrides,parameter_overrides>>
 
 <<parameter_values,parameter_values>>
@@ -107,6 +117,10 @@ Possible values are `SUM`, `COUNT`, `AVERAGE`, `MAX`, `MIN`, `COUNT_DISTINCT`, `
 +
 Default: `SUM`.
 
+[#anchor_column_id]
+anchor_column_id::
+Defines the identifier of the column that the set is associated with.
+
 [#answer]
 answer::
 Top-level container for all object definitions within an answer.
@@ -132,6 +146,14 @@ A list of columns in the chart.
 [#client_state]
 client_state::
 A JSON string with more advanced chart and table configuration.
+
+[#cohort_grouping_type]
+cohort_grouping_type::
+Describes the type of grouping contained in a set.
+
+[#cohort_type]
+cohort_type::
+Describes the type of set, either column or query set.
 
 [#column_id]
 column_id::
@@ -236,6 +258,11 @@ A list of columns, in the order they appear in the table.
 [#override_value]
 override_value::
 The value a Parameter is set to in an Answer, if different from the default value.
+
+[#owner]
+owner::
+The owner of a column or query set.
+
 
 [#parameter_overrides]
 parameter_overrides::
