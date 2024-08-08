@@ -12,11 +12,13 @@ ThoughtSpot integrates with SAML for per Org authentication.
 
 [NOTE]
 ====
-If your organization uses xref:orgs-overview.adoc[multi-tenancy with Orgs], you must be a cluster administrator to manage SAML authentication, not an Org administrator. You manage SAML authentication for the whole cluster. You cannot set it separately for each Org.
 
 To ensure SAML authentication works smoothly in an Orgs environment, you must include Orgs mapping in your IDP assertion. See <<assertion,IDP metadata XML file>>. If you map Orgs with SAML, you can't also map groups. If you are using xref:orgs-overview.adoc[], we do not currently support using IAMv2.
 ====
-
+.Local authentication at the Org level [.badge.badge-beta]#Beta#
+****
+If your organization uses xref:orgs-overview.adoc[multi-tenancy with Orgs], ThoughtSpot allows customers to enable or disable local authentication at the Org and cluster levels. To enable local authentication at the cluster level, administrators require the *Can manage authentication* privilege. To enable local authentication at the Org level, contact {support-url}. Org level settings override cluster level settings.
+****
 == SAML SSO authentication
 
 ThoughtSpot supports the Single Sign-On (SSO) authentication method with the Security Assertion Markup Language (SAML) authentication and authorization framework.
