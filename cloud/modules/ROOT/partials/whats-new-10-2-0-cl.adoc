@@ -57,12 +57,6 @@ endif::free-trial-feature[]
 
 // Analyst
 
-[#10-2-0-cl-runtime]
-[discrete]
-=== Runtime filters: NOT IN operator
-
-// Naomi. jira: SCAL-210530. docs jira: SCAL-?
-// PM: Dilip Pitchika
 
 [#10-2-0-cl-desc]
 [discrete]
