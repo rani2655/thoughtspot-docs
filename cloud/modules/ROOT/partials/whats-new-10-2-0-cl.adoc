@@ -112,12 +112,14 @@ endif::free-trial-feature[]
 
 // Data Engineer
 
+////
 [#10-2-0-cl-join-key]
 [discrete]
 === Allow changing join keys in UI for global joins
 
 // Naomi. jira: SCAL-91117. docs jira: SCAL-213778
-// PM: Samridh
+// PM: Samridh. moved to 10.4.0.cl
+////
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
