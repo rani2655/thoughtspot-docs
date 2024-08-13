@@ -288,11 +288,11 @@ For more information, see xref:liveboard.adoc[Details about a Liveboard].
 
 Filters available for Liveboards with hidden columns included in a visualization::
 You can now change the filter values on Liveboards  that have visualizations that include hidden columns, or a formula created from a hidden column.
-
++
 Liveboard filters are now accessible to all users who have view or edit permissions to the underlying data source.
-
-NOTE: Previously, users who did not have edit access to the underlying worksheet of a Liveboard with filters, could not update the Liveboard filters if the Liveboard used a hidden column. This was the case even if the user had view access to the underlying worksheets.
-
++
+NOTE: Previously, users who did not have edit access to the underlying worksheet of a Liveboard with filters, could not update the Liveboard filters if the Liveboard used a hidden column. This was the case even if the user had view access to the underlying worksheets. While you can now change filter values on the visualizations, you cannot change filters created directly on the hidden column. To get hidden column filter access, you must have edit access to the data source and the *Can manage data* privilege.
++
 For more information, see xref:liveboard-filters.adoc[Liveboard filters].
 // Mary – SCAL-157372 Doc JIRA SCAL-201823
 
