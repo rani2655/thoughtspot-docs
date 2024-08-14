@@ -134,7 +134,9 @@ ifdef::pendo-links[]
 endif::[]
 
 // Naomi. jira: SCAL-207602. docs jira: SCAL-219033
-// PM: Aaghran
+// PM: Aaghran. add image.
+
+You can now choose to sort Connections by type rather than order added to ThoughtSpot. To enable this feature, contact your administrator.
 
 endif::free-trial-feature[]
 
