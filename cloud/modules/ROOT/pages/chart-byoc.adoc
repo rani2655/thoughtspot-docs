@@ -1,11 +1,12 @@
 = Custom charts
-:last_updated: 7/30/24
+:last_updated: 8/13/24
 :linkattrs:
 :experimental:
 :author: Mark
 :page-layout: default-cloud-beta
 :page-aliases:
 :description: With custom charts, you can add your own custom charts to ThoughtSpot.
+
 :jira: SCAL-179003, SCAL-202002, SCAL-214870 (gauge chart)
 
 You can now use custom charts created outside of ThoughtSpot.
@@ -29,7 +30,21 @@ image::custom-chart-select.png[Select custom chart]
 
 == Administering custom charts
 
-A ThoughtSpot administrator can add custom charts to your cluster, as well as edit and delete them.
+A ThoughtSpot administrator can add custom charts to your cluster, as well as edit and delete them. Before adding custom charts, the administrator must add the domains where the custom chart and chart icon are hosted to the list of permitted iFrame and CSP img-src domains in ThoughtSpot. Without performing this step, the custom chart cannot be loaded.
+
+=== Adding domains to the permitted iFrame and CSP img-src domains
+
+The ThoughtSpot administrator must enter the domain for both the chart and the chart icon. In the case of the Gauge chart, it is **.vercel.app*.
+
+To add the domain for a custom chart and chart icon, do the following:
+
+. Select *Develop* from the navigation bar.
+. Navigate to *All Orgs* > *Security settings*.
+. Click *Edit*.
+. In the *Permitted iFrame domains* field enter the domain where the custom chart is hosted. In the case of the Gauge chart it is: **.vercel.app*.
+. In the *CSP img-src domains* field enter the domain where the custom chart icon is hosted. In the case of the Gauge chart it is: **.vercel.app*.
+. Click *Save Changes*.
+
 
 === Adding a custom chart to a ThoughtSpot cluster
 
