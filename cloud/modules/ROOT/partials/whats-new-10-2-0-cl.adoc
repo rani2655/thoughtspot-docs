@@ -83,12 +83,12 @@ ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#10-2-0-cl-csv-upload]
 [discrete]
-=== Data Augmentation CSV upload to Snowflake [.badge.badge-beta]#Beta#
+=== CSV upload to Snowflake [.badge.badge-beta]#Beta#
 endif::[]
 ifdef::pendo-links[]
 [#10-2-0-cl-csv-upload]
 [discrete]
-=== Data Augmentation CSV upload to Snowflake [.badge.badge-beta-whats-new]#Beta#
+=== CSV upload to Snowflake [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
 // Naomi. jira: SCAL-181354, SCAL-181358. docs jira: SCAL-?
