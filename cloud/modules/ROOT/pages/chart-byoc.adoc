@@ -6,7 +6,6 @@
 :page-layout: default-cloud-beta
 :page-aliases:
 :description: With custom charts, you can add your own custom charts to ThoughtSpot.
-
 :jira: SCAL-179003, SCAL-202002, SCAL-214870 (gauge chart)
 
 You can now use custom charts created outside of ThoughtSpot.
