@@ -90,10 +90,12 @@ ThoughtSpot supports Org-specific URLs. URLs in emails now include Org context s
 * Monitor alerts
 * Liveboard schedule
 * Liveboard access emails
-* Liveboard comment emails
 * Digest emails
 
-NOTE: You can now have different Orgs open in different tabs or windows.
+NOTE: You can now open and view links from different Orgs in different tabs or windows without logging in or out of the Org that you started in.
+If you open a link from an Org other than the one that you are currently logged into, and then log out, you will be directed to the Org that you were previously logged into when you return.
+
+NOTE: The *Admin* page can only be accessed when you are logged in to the appropriate Org.
 ****
 
 == Manage users and groups

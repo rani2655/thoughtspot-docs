@@ -33,19 +33,15 @@ image::admin-portal-local-enable.png[Select enable or disable]
 
 Note that you cannot disable local authentication until you configure xref:authentication-integration.adoc[SAML authentication].
 
-.Local authentication at the Org level [.badge.badge-beta]#Beta#
+.SAML and Local authentication at the Org level [.badge.badge-beta]#Beta#
 ****
 If your organization uses xref:orgs-overview.adoc[multi-tenancy with Orgs] with SAML using IAMv2, ThoughtSpot allows customers to enable or disable local authentication at the Org and cluster levels.
 
-To enable local authentication at the cluster level, administrators require the *Can manage authentication* privilege. To enable local authentication at the Org level, contact {support-url}. Org level settings override cluster level settings.
+To enable local authentication at the Org level, contact {support-url}. Org level settings override cluster level settings.
 
 To disable local authentication on a cluster or Org, at least one SAML or OIDC connection must be active. The *Local* tab is found under *Authentication* in the *Admin* portal. It is only present in Orgs with the *SAML/SSO* tab under *Authentication*. If only one active SSO connection is configured, and local authentication is disabled, you can't delete the SSO connection because users will have no way to log in to the application.
 
-By default, local authentication is enabled for new Orgs. Local authentication is also visible in the *All Orgs* section. Disabling local authentication only disable it for the cluster URL if per-Org URLs are configured.
-
-
-
-
+By default, local authentication is enabled for new Orgs. Local authentication is also visible in the *All Orgs* section. With per-Org URLs configured, disabling local authentication only disables it for the specific Org's URL.
 
 ****
 
