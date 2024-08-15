@@ -1,13 +1,13 @@
-= 10.1.0.cl Release Notes
+= 10.2.0.cl Release Notes
 :experimental:
-:last_updated: 6/12/2024
+:last_updated: 8/15/2024
 :linkattrs:
 :page-toclevels: 1
 :page-aliases: /release/notes.adoc
 :page-layout: default-cloud
 :description: These release notes include information about new and enhanced features.
 
-ThoughtSpot Cloud 10.1.0.cl is now available.
+ThoughtSpot Cloud 10.2.0.cl is now available.
 
 These release notes include information about new and enhanced features.
 
@@ -19,8 +19,6 @@ For a complete list of issues that we fixed in this release, see xref:fixed.adoc
 
 [#new]
 == New Features and Functionality
-
-IMPORTANT: Beginning in the 10.1.0.cl release, you will no longer be able to use the Classic experience for Liveboards, Answers, and SpotIQ. The "new experience" from the previous release is now the only option and is on by default.
 
 include::partial$new-features-cloud-release.adoc[]
 

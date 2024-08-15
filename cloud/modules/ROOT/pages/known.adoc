@@ -1,6 +1,6 @@
 = Known issues
 :keywords: known issues
-:last_updated: 7/18/2024
+:last_updated: 8/15/2024
 :author: Mark Plummer
 :experimental:
 :page-layout: default-cloud
@@ -11,13 +11,13 @@
 These are the known issues in this release of ThoughtSpot Cloud.
 
 [#releases-10-0-x]
-== 10.1.0.cl known issues
+== 10.2.0.cl known issues
 
 [cols="17%,39%,38%"]
 |===
 |Issue ID |Description|Symptoms, conditions, and workaround
 
-|SCAL-216483
+|SCAL-TBD
 |x
 a|*Symptoms*:
 x
@@ -29,7 +29,7 @@ x
 *Workaround*:
 None.
 
-|SCAL-216380
+|SCAL-TBD
 |x
 a|*Symptoms*:
 x
@@ -40,95 +40,4 @@ x
 
 *Workaround*:
 x
-|SCAL-216313
-|x
-a|*Symptoms*:
-x
-
-*Conditions*:
-x
-
-*Workaround*:
-x
-
-|SCAL-216290
-|x
-a|*Symptoms*:
-x
-
-*Conditions*:
-x
-
-*Workaround*:
-x
-
-|SCAL-215754
-|x
-a|*Symptoms*:
-x
-
-*Conditions*:
-x
-
-*Workaround*:
-x
-
-|SCAL-215686
-|x
-a|*Symptoms*:
-x
-
-*Conditions*:
-x
-
-*Workaround*:
-x
-
-|SCAL-214100
-|x
-a|*Symptoms*:
-x
-
-*Conditions*:
-x
-
-*Workaround*:
-x
-
-|SCAL-213275
-|x
-a|*Symptoms*:
-x
-
-*Conditions*:
-x
-
-*Workaround*:
-x
-
-|SCAL-207556
-|x
-a|*Symptoms*:
-x
-
-*Conditions*:
-x
-
-*Workaround*:
-x
-
-|SCAL-196442
-|Sorting issues with a measure inside a pivot table
-a|*Symptoms*:
-Only rows are updated accordingly when sorting by measure on a pivot table.
-
-*Conditions*:
-
-- When user sorts a pivot table using search bar
-- When user updates sorting by the measure
-
-*Workaround*:
-None.
-
-Only row-level sorting is used when applying default-sorting by measure on a pivot table.
 |===
