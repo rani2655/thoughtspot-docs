@@ -77,6 +77,18 @@ include::partial$keywords/last_day_by.adoc[]
 * 1日前
 * last day
 
+include::partial$keywords/last_day_for_each_month.adoc[]
+日本語;; 月の最終日
+
+include::partial$keywords/last_day_for_each_quarter.adoc[]
+日本語;; 四半期の最終日
+
+include::partial$keywords/last_day_for_each_week.adoc[]
+日本語;; 週の最終日
+
+include::partial$keywords/last_day_for_each_year.adoc[]
+日本語;; 年の最終日
+
 include::partial$keywords/last_month.adoc[]
 日本語;;
 * 先月
@@ -101,6 +113,12 @@ include::partial$keywords/last_month_by.adoc[]
 * 1カ月前
 * last month
 
+include::partial$keywords/last_month_for_each_quarter.adoc[]
+日本語;; 四半期の最終月
+
+include::partial$keywords/last_month_for_each_year.adoc[]
+日本語;; 年の最終月
+
 include::partial$keywords/last_n_days.adoc[]
 日本語;;
 * 過去 _n_ 日
@@ -108,19 +126,19 @@ include::partial$keywords/last_n_days.adoc[]
 * last _n_ days
 
 include::partial$keywords/last_n_days_for_each_month.adoc[]
-日本語;; 毎月の最後の _n_ 日
+日本語;; 月毎の最後の _n_ 日
 
 include::partial$keywords/last_n_days_for_each_quarter.adoc[]
-日本語;; 毎四半期の最後の _n_ 日
+日本語;; 四半期毎の最後の _n_ 日
 
 include::partial$keywords/last_n_days_for_each_week.adoc[]
-日本語;; 毎週の最後の _n_ 日
+日本語;; 週毎の最後の _n_ 日
 
 include::partial$keywords/last_n_days_for_each_year.adoc[]
-日本語;; 毎年の最後の _n_ 日
+日本語;; 年毎の最後の _n_ 日
 
 include::partial$keywords/last_n_hours_for_each_day.adoc[]
-日本語;; 毎日の最後の _n_ 時間
+日本語;; 日毎の最後の _n_ 時間
 
 include::partial$keywords/last_n_months.adoc[]
 日本語;;
@@ -129,10 +147,10 @@ include::partial$keywords/last_n_months.adoc[]
 * last _n_ months
 
 include::partial$keywords/last_n_months_for_each_quarter.adoc[]
-日本語;; 毎四半期の最後の _n_ か月
+日本語;; 四半期毎の最後の _n_ 月
 
 include::partial$keywords/last_n_months_for_each_year.adoc[]
-日本語;; 毎年の最後の _n_ か月
+日本語;; 年毎の最後の _n_ 月
 
 include::partial$keywords/last_n_quarters.adoc[]
 日本語;;
@@ -141,7 +159,7 @@ include::partial$keywords/last_n_quarters.adoc[]
 * last _n_ quarters
 
 include::partial$keywords/last_n_quarters_for_each_year.adoc[]
-日本語;; 毎年の最後の _n_ 四半期
+日本語;; 年毎の最後の _n_ 四半期
 
 
 include::partial$keywords/last_n_weeks.adoc[]
@@ -151,13 +169,13 @@ include::partial$keywords/last_n_weeks.adoc[]
 * last _n_ weeks
 
 include::partial$keywords/last_n_weeks_for_each_month.adoc[]
-日本語;; 毎月の最後の _n_ 週
+日本語;; 月毎の最後の _n_ 週
 
 include::partial$keywords/last_n_weeks_for_each_quarter.adoc[]
-日本語;; 毎四半期の最後の _n_ 週
+日本語;; 四半期毎の最後の _n_ 週
 
 include::partial$keywords/last_n_weeks_for_each_year.adoc[]
-日本語;; 毎年の最後の _n_ 週
+日本語;; 年毎の最後の _n_ 週
 
 include::partial$keywords/last_n_years.adoc[]
 日本語;;
@@ -173,6 +191,9 @@ include::partial$keywords/last_quarter.adoc[]
 * 1四半期前
 * last quarter
 
+include::partial$keywords/last_quarter_for_each_year.adoc[]
+日本語;; 年の最終四半期
+
 include::partial$keywords/last_week.adoc[]
 日本語;;
 * 先週
@@ -180,6 +201,15 @@ include::partial$keywords/last_week.adoc[]
 * 前週
 * 1週前
 * last week
+
+include::partial$keywords/last_week_for_each_month.adoc[]
+日本語;; 月の最終週
+
+include::partial$keywords/last_week_for_each_quarter.adoc[]
+日本語;; 四半期の最終週
+
+include::partial$keywords/last_week_for_each_year.adoc[]
+日本語;; 年の最終週
 
 include::partial$keywords/last_year.adoc[]
 日本語;;
