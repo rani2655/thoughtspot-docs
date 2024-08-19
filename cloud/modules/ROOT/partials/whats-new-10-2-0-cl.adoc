@@ -83,16 +83,22 @@ ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#10-2-0-cl-csv-upload]
 [discrete]
-=== CSV upload to Snowflake [.badge.badge-beta]#Beta#
+=== Data augmentation [.badge.badge-beta]#Beta#
 endif::[]
 ifdef::pendo-links[]
 [#10-2-0-cl-csv-upload]
 [discrete]
-=== CSV upload to Snowflake [.badge.badge-beta-whats-new]#Beta#
+=== Data augmentation [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
 // Naomi. jira: SCAL-181354, SCAL-181358. docs jira: SCAL-?
-// PM: Aaghran
+// PM: Aaghran. should i mention that this feature is specifically to replace/ make less tempting the download to Excel feature?
+
+You can now upload data related to your Search and append it directly to an Answer. This allows you to add data columns to an Answer without navigating away from your current analysis.
+
+NOTE: Data augmentation is only available for Answers built on data uploaded to Snowflake connections.
+
+image::custom-data-add.png[Add custom data]
 
 endif::free-trial-feature[]
 
