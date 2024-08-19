@@ -6,13 +6,13 @@
 :page-aliases:
 :author: Mark Plummer
 :description: AI-suggested searches help you think of business questions for your data.
-:jira: SCAL-202384 (9.10.5.cl update to seed questions), SCAL-186893, SCAL-214359
+:jira: SCAL-202384 (9.10.5.cl update to seed questions), SCAL-186893, SCAL-214359, SCAL-220461
 
 AI-suggested searches are available from the natural language search bar on the Home page of ThoughtSpot. They help you think of relevant questions to ask of your data source, by providing example searches. This feature is designed to help you learn how to use the natural language search, and to gain insights when working with a new data set.
 
 image::searches-ai-suggested.png[Search Data interface open, displaying three AI-suggested searches]
 
-AI-suggested searches are generated using GPT-3.5, a Large Language Model (LLM) by OpenAI. Answer-based suggested searches are generated using the most popular answers created using the selected data source.  Only ThoughtSpot’s Search Tokens are shared with LLM to generate questions.  All users of a data source see the same set of suggested searches.
+AI-suggested searches are generated using GPT-3.5T, GPT-4T and GPT-4o, Large Language Models (LLM) by OpenAI. Answer-based suggested searches are generated using the most popular answers created using the selected data source.  Only ThoughtSpot’s Search Tokens are shared with LLM to generate questions.  All users of a data source see the same set of suggested searches.
 
 NOTE: The list of suggested searches is generated once for all worksheets.
 
