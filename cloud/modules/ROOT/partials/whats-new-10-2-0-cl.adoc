@@ -19,15 +19,16 @@ endif::free-trial-feature[]
 === Monitor the application of row-level security
 
 // Mary. jira: SCAL-210151. docs jira: SCAL-?
-// PM: Damian
+// PM: Damian TBD - Waiting for confirmation from Damian.
 
+////
 [#10-2-0-cl-kpi]
 [discrete]
 === Show all relevant data from the KPI in snapshot of alert emails
 
 // Mary. jira: SCAL-208165. docs jira: SCAL-?
-// PM: ?Rahul P J P
-
+// PM: ?Rahul P J P - confirmed no doc needed
+////
 
 
 ifndef::free-trial-feature[]
@@ -102,13 +103,14 @@ image::custom-data-add.png[Add custom data]
 
 endif::free-trial-feature[]
 
+////
 [#10-2-0-cl-feedback]
 [discrete]
 === Streamline feedback promotion
 
 // Mary. jira: SCAL-211636. docs jira: SCAL-?
-// PM: Anant
-
+// PM: Anant - no doc needed per Anant...following up to confirm that the feature is behind a flag and not beta for 10.2
+////
 
 
 '''
@@ -148,19 +150,23 @@ endif::free-trial-feature[]
 
 // IT/ Ops Engineer
 
+
 [#10-2-0-cl-learnability]
 [discrete]
 === Learnability improvements through feedback
 
 // Mary. jira: SCAL-202860. docs jira: SCAL-?
-// PM: ?
+// PM: ? - still trying to confirm PM and doc need
 
+
+////
 [#10-2-0-cl-font]
 [discrete]
 === Show cluster-level font faces for every org
 
 // Mary. jira: SCAL-213670. docs jira: SCAL-?
-// PM: Himanshu Arora
+// PM: Himanshu Arora - confirmed no doc needed (fix)
+////
 
 ifndef::free-trial-feature[]
 [discrete]
