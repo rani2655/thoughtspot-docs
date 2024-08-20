@@ -4,10 +4,14 @@ include::partial$keywords/after.adoc[]
 日本語;; 以後
 
 include::partial$keywords/april.adoc[]
-日本語;; 4月
+日本語;;
+- 4月
+- april
 
 include::partial$keywords/august.adoc[]
-日本語;; 8月
+日本語;;
+- 8月
+- august
 
 include::partial$keywords/before.adoc[]
 日本語;; 以前
@@ -24,6 +28,12 @@ include::partial$keywords/daily_year_over_year.adoc[]
 include::partial$keywords/day_name.adoc[]
 日本語;; _日_
 
+include::partial$keywords/day_of_month.adoc[]
+日本語;; 日の時刻
+
+include::partial$keywords/day_of_quarter.adoc[]
+日本語;; 四半期の日付
+
 include::partial$keywords/day_of_week.adoc[]
 日本語;; 曜日
 
@@ -34,13 +44,20 @@ include::partial$keywords/day_of_year.adoc[]
 日本語;; 年の日付
 
 include::partial$keywords/december.adoc[]
-日本語;; 12月
+日本語;;
+- 12月
+- december
 
 include::partial$keywords/february.adoc[]
-日本語;; 2月
+日本語;;
+- 2月
+- february
 
 include::partial$keywords/friday.adoc[]
-日本語;; 金曜日
+日本語;;
+- 金曜日
+- 金曜
+- friday
 
 include::partial$keywords/growth_of_by.adoc[]
 日本語;; 成長率 ...により…
@@ -61,13 +78,19 @@ include::partial$keywords/growth_of_by_yearly.adoc[]
 日本語;; 成長率 ...により… 年単位
 
 include::partial$keywords/january.adoc[]
-日本語;; 1月
+日本語;;
+- 1月
+- january
 
 include::partial$keywords/july.adoc[]
-日本語;; 7月
+日本語;;
+- 7月
+- july
 
 include::partial$keywords/june.adoc[]
-日本語;; 6月
+日本語;;
+- 6月
+- june
 
 include::partial$keywords/last_day_by.adoc[]
 日本語;;
@@ -126,19 +149,34 @@ include::partial$keywords/last_n_days.adoc[]
 * last _n_ days
 
 include::partial$keywords/last_n_days_for_each_month.adoc[]
-日本語;; 月毎の最後の _n_ 日
+日本語;;
+- 月毎の最後の _n_ 日
+- 月ごとの最後の _n_ 日
+- last _n_ days for each month
 
 include::partial$keywords/last_n_days_for_each_quarter.adoc[]
-日本語;; 四半期毎の最後の _n_ 日
+日本語;;
+- 四半期毎の最後の _n_ 日
+- 四半期ごとの最後の _n_ 日
+- last _n_ days for each quarter
 
 include::partial$keywords/last_n_days_for_each_week.adoc[]
-日本語;; 週毎の最後の _n_ 日
+日本語;;
+- 週毎の最後の _n_ 日
+- 週ごとの最後の _n_ 日
+- last _n_ days for each week
 
 include::partial$keywords/last_n_days_for_each_year.adoc[]
-日本語;; 年毎の最後の _n_ 日
+日本語;;
+- 年毎の最後の _n_ 日
+- 年ごとの最後の _n_ 日
+- last _n_ days for each year
 
 include::partial$keywords/last_n_hours_for_each_day.adoc[]
-日本語;; 日毎の最後の _n_ 時間
+日本語;;
+- 日毎の最後の _n_ 時間
+- 日ごとの最後の _n_ 時間
+- last _n_ hours for each day
 
 include::partial$keywords/last_n_months.adoc[]
 日本語;;
@@ -147,10 +185,32 @@ include::partial$keywords/last_n_months.adoc[]
 * last _n_ months
 
 include::partial$keywords/last_n_months_for_each_quarter.adoc[]
-日本語;; 四半期毎の最後の _n_ 月
+日本語;;
+- 四半期毎の最後の _n_ か月
+- 四半期毎の最後の _n_ ヶ月
+- 四半期毎の最後の _n_ ケ月
+- 四半期毎の最後の _n_ ヵ月
+- 四半期毎の最後の _n_ カ月
+- 四半期ごとの最後の _n_ か月
+- 四半期ごとの最後の _n_ ヶ月
+- 四半期ごとの最後の _n_ ケ月
+- 四半期ごとの最後の _n_ ヵ月
+- 四半期ごとの最後の _n_ カ月
+- last _n_ months for each quarter
 
 include::partial$keywords/last_n_months_for_each_year.adoc[]
-日本語;; 年毎の最後の _n_ 月
+日本語;;
+- 年毎の最後の _n_ か月
+- 年毎の最後の _n_ ヶ月
+- 年毎の最後の _n_ ケ月
+- 年毎の最後の _n_ ヵ月
+- 年毎の最後の _n_ カ月
+- 年ごとの最後の _n_ か月
+- 年ごとの最後の _n_ ヶ月
+- 年ごとの最後の _n_ ケ月
+- 年ごとの最後の _n_ ヵ月
+- 年ごとの最後の _n_ カ月
+- last _n_ months for each year
 
 include::partial$keywords/last_n_quarters.adoc[]
 日本語;;
@@ -159,7 +219,10 @@ include::partial$keywords/last_n_quarters.adoc[]
 * last _n_ quarters
 
 include::partial$keywords/last_n_quarters_for_each_year.adoc[]
-日本語;; 年毎の最後の _n_ 四半期
+日本語;;
+- 年毎の最後の _n_ 四半期
+- 年ごとの最後の _n_ 四半期
+- last _n_ quarters for each year
 
 
 include::partial$keywords/last_n_weeks.adoc[]
@@ -169,13 +232,22 @@ include::partial$keywords/last_n_weeks.adoc[]
 * last _n_ weeks
 
 include::partial$keywords/last_n_weeks_for_each_month.adoc[]
-日本語;; 月毎の最後の _n_ 週
+日本語;;
+- 月毎の最後の _n_ 週
+- 月ごとの最後の _n_ 週
+- last _n_ weeks for each month
 
 include::partial$keywords/last_n_weeks_for_each_quarter.adoc[]
-日本語;; 四半期毎の最後の _n_ 週
+日本語;;
+- 四半期毎の最後の _n_ 週
+- 四半期ごとの最後の _n_ 週
+- last _n_ weeks for each quarter
 
 include::partial$keywords/last_n_weeks_for_each_year.adoc[]
-日本語;; 年毎の最後の _n_ 週
+日本語;;
+- 年毎の最後の _n_ 週
+- 年ごとの最後の _n_ 週
+- last _n_ weeks for each year
 
 include::partial$keywords/last_n_years.adoc[]
 日本語;;
@@ -192,7 +264,9 @@ include::partial$keywords/last_quarter.adoc[]
 * last quarter
 
 include::partial$keywords/last_quarter_for_each_year.adoc[]
-日本語;; 年の最終四半期
+日本語;;
+- 年の最終四半期
+- last quarter for each year
 
 include::partial$keywords/last_week.adoc[]
 日本語;;
@@ -203,13 +277,19 @@ include::partial$keywords/last_week.adoc[]
 * last week
 
 include::partial$keywords/last_week_for_each_month.adoc[]
-日本語;; 月の最終週
+日本語;;
+- 月の最終週
+- last week for each month
 
 include::partial$keywords/last_week_for_each_quarter.adoc[]
-日本語;; 四半期の最終週
+日本語;;
+- 四半期の最終週
+- last week for each quarter
 
 include::partial$keywords/last_week_for_each_year.adoc[]
-日本語;; 年の最終週
+日本語;;
+- 年の最終週
+- last week for each year
 
 include::partial$keywords/last_year.adoc[]
 日本語;;
@@ -221,13 +301,20 @@ include::partial$keywords/last_year.adoc[]
 * last year
 
 include::partial$keywords/march.adoc[]
-日本語;; 3月
+日本語;;
+- 3月
+- march
 
 include::partial$keywords/may.adoc[]
-日本語;; 5月
+日本語;;
+- 5月
+- may
 
 include::partial$keywords/monday.adoc[]
-日本語;; 月曜日
+日本語;;
+- 月曜日
+- 月曜
+- monday
 
 include::partial$keywords/month.adoc[]
 日本語;; 月
@@ -370,10 +457,14 @@ include::partial$keywords/next_year.adoc[]
 * next year
 
 include::partial$keywords/november.adoc[]
-日本語;; 11月
+日本語;;
+- 11月
+- november
 
 include::partial$keywords/october.adoc[]
-日本語;; 10月
+日本語;;
+- 10月
+- october
 
 include::partial$keywords/quarter_to_date.adoc[]
 日本語;;
@@ -391,13 +482,21 @@ include::partial$keywords/quarterly_year_over_year.adoc[]
 日本語;; 四半期単位 前年比
 
 include::partial$keywords/saturday.adoc[]
-日本語;; 土曜日
+日本語;;
+- 土曜日
+- 土曜
+- saturday
 
 include::partial$keywords/september.adoc[]
-日本語;; 9月
+日本語;;
+- 9月
+- september
 
 include::partial$keywords/sunday.adoc[]
-日本語;; 日曜日
+日本語;;
+- 日曜日
+- 日曜
+- sunday
 
 include::partial$keywords/this_day.adoc[]
 日本語;; この日
@@ -415,7 +514,10 @@ include::partial$keywords/this_year.adoc[]
 日本語;; この年
 
 include::partial$keywords/thursday.adoc[]
-日本語;; 木曜日
+日本語;;
+- 木曜日
+- 木曜
+- thursday
 
 include::partial$keywords/today.adoc[]
 日本語;;
@@ -423,10 +525,16 @@ include::partial$keywords/today.adoc[]
 * today
 
 include::partial$keywords/tuesday.adoc[]
-日本語;; 火曜日
+日本語;;
+- 火曜日
+- 火曜
+- tuesday
 
 include::partial$keywords/wednesday.adoc[]
-日本語;; 水曜日
+日本語;;
+- 水曜日
+- 水曜
+- wednesday
 
 include::partial$keywords/week.adoc[]
 日本語;; 週
