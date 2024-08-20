@@ -94,7 +94,7 @@ endif::[]
 // Naomi. jira: SCAL-181354, SCAL-181358. docs jira: SCAL-?
 // PM: Aaghran. should i mention that this feature is specifically to replace/ make less tempting the download to Excel feature?
 
-You can now upload data related to your Search and append it directly to an Answer. This allows you to add data columns to an Answer without navigating away from your current analysis.
+You can now upload data related to your Search and append it directly to an Answer. This allows you to add data columns to an Answer without navigating away from your current analysis. To enable this feature, contact {support-url}.
 
 NOTE: Data augmentation is only available for Answers built on data uploaded to Snowflake connections.
 
