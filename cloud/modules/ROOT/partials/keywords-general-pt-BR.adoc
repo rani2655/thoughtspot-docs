@@ -3,13 +3,13 @@ NOTE: When using the *top* or *bottom* keywords without specifying a number (*_n
 include::partial$keywords/list-general.adoc[]
 
 include::partial$keywords/top_n.adoc[]
-Português;; superior n
+Português;; primeiros _n_
 
 include::partial$keywords/top_n_ranked_by.adoc[]
-Português;; superior n ... classificada por
+Português;; primeiros _n_ ... classificada por
 
 include::partial$keywords/bottom_n.adoc[]
-Português;; inferior n
+Português;; inferior _n_
 
 include::partial$keywords/sort_by.adoc[]
 Português;;	classificar por
