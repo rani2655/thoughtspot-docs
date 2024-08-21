@@ -107,7 +107,7 @@ Can Enable or Disable Trusted Authentication
 |Allows users with Super Admin privilege to enable or disable trusted authentication for applications embedding ThoughtSpot content.|
 
 Can manage tags
-|Allows administrators to create and edit tags.|
+|Allows administrators to create and edit tags.
 |===
 
 
@@ -157,9 +157,9 @@ a|Allows users to access the following features and workflows:
 
 * Embed a ThoughtSpot application page, object, or full experience in an external application
 
-* Customize styles for embeded content
+* Customize styles for embedded content
 
-* Add custom actions to the embeded objects such as Liveboards and visualizations
+* Add custom actions to the embedded objects such as Liveboards and visualizations
 
 * View and manage security settings for ThoughtSpot embedding
 
@@ -173,7 +173,7 @@ Can manage catalog|Allows users to create, edit, and mange a data connection to 
 
 Can invoke Custom R Analysis|Allows invoking R scripts to explore search answers and share custom scripts.|
 
-Can verify Liveboard|Allows Liveboard users to verify Libeboard access requests and mark a Liveboard as verified.
+Can verify Liveboard|Allows Liveboard users to verify Liveboard access requests and mark a Liveboard as verified.
 |===
 
 === Data download control roles
