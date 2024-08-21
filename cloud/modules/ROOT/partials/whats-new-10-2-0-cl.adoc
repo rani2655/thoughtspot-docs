@@ -92,7 +92,7 @@ ifdef::pendo-links[]
 === Data augmentation [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
-// Naomi. jira: SCAL-181354, SCAL-181358. docs jira: SCAL-?
+// Naomi. jira: SCAL-181354, SCAL-181358. docs jira: SCAL-220822
 // PM: Aaghran. should i mention that this feature is specifically to replace/ make less tempting the download to Excel feature?
 
 You can now upload data related to your Search and append it directly to an Answer. This allows you to add data columns to an Answer without navigating away from your current analysis. To enable this feature, contact {support-url}.
