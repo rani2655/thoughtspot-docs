@@ -23,7 +23,7 @@ a|*Symptoms*:
 Filter chips overlap on a chart.
 
 *Conditions*:
-Using "Explore" mode on a visualisation with more filters than can be displayed on one line and clicking the downward-facing arrow to display all filters.
+Using Explore mode on a visualisation with more filters than can be displayed on one line and clicking the downward-facing arrow to display all filters.
 
 *Workaround*:
 Manually collapse the filter by clicking the upward-facing arrow.
