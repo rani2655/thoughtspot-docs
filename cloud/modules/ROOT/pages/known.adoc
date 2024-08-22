@@ -38,7 +38,7 @@ Red banner displayed without error message.
 When the requester or verifier of a Liveboard is deleted.
 
 *Workaround*:
-For a verified liveboard,  there's no impact on functionality. The user can close the error banner.
+For a verified Liveboard,  there's no impact on functionality. The user can close the error banner.
 For a pending request, and the requester is deleted, the user must contact {support-url} to delete the request.
 |SCAL-220378
 |When converting formulas from a Worksheet to a Model a "Current Operation not allowed" or "Invalid Yaml/Json Syntax" appears.
