@@ -307,7 +307,7 @@ endif::[]
 ifdef::pendo-links[]
 [#10-1-0-cl-auth]
 [discrete]
-=== Local authentication support with IAMv2 [.badge.badge-early-access-whats-new]#Early Access#
+=== Local authentication support with IAMv2 [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
 
