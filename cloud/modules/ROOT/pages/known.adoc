@@ -1,6 +1,6 @@
 = Known issues
 :keywords: known issues
-:last_updated: 7/18/2024
+:last_updated: 8/21/2024
 :author: Mark Plummer
 :experimental:
 :page-layout: default-cloud
@@ -17,118 +17,67 @@ These are the known issues in this release of ThoughtSpot Cloud.
 |===
 |Issue ID |Description|Symptoms, conditions, and workaround
 
-|SCAL-216483
-|x
+|SCAL-220290
+|Filter chips overlap on a chart after clicking the downward-facing arrow to display all filters in Explore mode.
 a|*Symptoms*:
-x
+Filter chips overlap on a chart.
+
+*Conditions*:
+Using "Explore" mode on a visualisation with more filters than can be displayed on one line and clicking the downward-facing arrow to display all filters.
+
+*Workaround*:
+Manually collapse the filter by clicking the upward-facing arrow.
+
+|SCAL-178756
+|Red banner error is displayed without any proper error message when the original verifier of the Liveboard is deleted from the system.
+a|*Symptoms*:
+Red banner displayed without error message.
 
 
 *Conditions*:
-x
+When the requester or verifier of a Liveboard is deleted.
 
 *Workaround*:
-None.
-
-|SCAL-216380
-|x
+For a verified liveboard,  there's no impact on functionality. The user can close the error banner.
+For a pending request, and the requester is deleted, the user must contact {support-url} to delete the request.
+|SCAL-220378
+|When converting formulas from a Worksheet to a Model a "Current Operation not allowed" or "Invalid Yaml/Json Syntax" appears.
 a|*Symptoms*:
-x
-
+A "Current Operation not allowed" or "Invalid Yaml/Json Syntax" appears.
 
 *Conditions*:
-x
+When importing TML that was previously exported and contains formulas that contain the following:
+
+* Double quotes used with hard-coded strings.
+For example: concat ("order" + column_Name)
+* Filters with null values.
 
 *Workaround*:
-x
-|SCAL-216313
-|x
+Manually add back in the quotes to the TML and then import again.
+
+|SCAL-217451
+|'ThoughtSpot Cloud Answer Not Deletable'
 a|*Symptoms*:
-x
+Unable to delete or update any unused formula.
 
 *Conditions*:
-x
+Tables with specific columns exist with joins between them. An answer was generated using columns from these tables, including a formula that referred to a column in one of the tables. When later deleting the table containing that column, the attempt to remove the formula failed because it referenced a column that no longer exists.
 
 *Workaround*:
-x
 
-|SCAL-216290
-|x
+. Make a copy of the answer, as all unused formulas will be permanently deleted.
+. Export the TML of the answer using ‘Export Answer & Associated Objects (models, etc.)’.
+. Delete the current answer.
+. Import the answer TML zip file. All unused formulas will be removed from the answers.
+
+|SCAL-220182
+|Error creating a user in an Org when a user of the same name existed in a deleted Org.
 a|*Symptoms*:
-x
+The following message appears: 'The user could not be created. User with this username already exists. Please choose a different username.'
 
 *Conditions*:
-x
+IAMv2 and Orgs enabled cluster. Trying to create a user with same name as a user in a deleted Org.
 
 *Workaround*:
-x
-
-|SCAL-215754
-|x
-a|*Symptoms*:
-x
-
-*Conditions*:
-x
-
-*Workaround*:
-x
-
-|SCAL-215686
-|x
-a|*Symptoms*:
-x
-
-*Conditions*:
-x
-
-*Workaround*:
-x
-
-|SCAL-214100
-|x
-a|*Symptoms*:
-x
-
-*Conditions*:
-x
-
-*Workaround*:
-x
-
-|SCAL-213275
-|x
-a|*Symptoms*:
-x
-
-*Conditions*:
-x
-
-*Workaround*:
-x
-
-|SCAL-207556
-|x
-a|*Symptoms*:
-x
-
-*Conditions*:
-x
-
-*Workaround*:
-x
-
-|SCAL-196442
-|Sorting issues with a measure inside a pivot table
-a|*Symptoms*:
-Only rows are updated accordingly when sorting by measure on a pivot table.
-
-*Conditions*:
-
-- When user sorts a pivot table using search bar
-- When user updates sorting by the measure
-
-*Workaround*:
-None.
-
-Only row-level sorting is used when applying default-sorting by measure on a pivot table.
+Manually delete users before deleting the org or contact {support-url} if you are facing this issue for an already deleted Org.
 |===
