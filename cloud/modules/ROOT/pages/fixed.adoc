@@ -1,6 +1,6 @@
 = Fixed issues
 :keywords: fixed issues
-:last_updated: 7/22/2024
+:last_updated: 8/21/2024
 :author: Mark Plummer
 :experimental:
 :linkattrs:
@@ -19,20 +19,20 @@ These are the issues we fixed in this release of ThoughtSpot Cloud.
 |===
 |Issue ID |Description
 
-|SCAL-218463
-|Changing .tml at the table level causes a "Validation failed" error.
+|SCAL-219492
+|User who is part of an Active Directory group to which a Liveboard is shared, sees "Request Access" page when they should already have access.
 
 |SCAL-217403
-|ThoughtSpot Embedded: Route change event does not return full path with V2 shell.
+|When navigating within ThoughtSpot, sometimes the URL doesn't update accurately and does not reflect the user's current location within the app.
 
-|SCAL-216604
-|After changing connection details to connect to a new connection, it is not possible to change the connection details back to the original connection. "A system error has occurred" message appears both when attempting to update using the UI, and when attempting to update using TML import.
+|SCAL-217035
+|Updating the TML of a table causes a 'System error has occurred' message to appear.
+
+|SCAL-216102
+|If a Liveboard uses a filter on a date column which has a custom calendar, filters are not applied to the Liveboard.
 
 |SCAL-213964
 |User trying to sign in with SAML authentication configured encounters an internal server 500 error.
-
-|SCAL-213952
-|ThoughtSpot application unresponsive despite cluster usage not being high and no service restarts.
 
 |SCAL-187097
 |User subscribed to an alert cannot unsubscribe using the hyperlink in the alert email, and the user who created the alert cannot remove subscribers of the alert.
