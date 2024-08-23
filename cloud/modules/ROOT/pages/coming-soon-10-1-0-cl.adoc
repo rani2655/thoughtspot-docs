@@ -4,6 +4,14 @@
 :pendo-links:
 :page-noindex:
 
+++++
+<style>
+video[Attributes Style] {
+    width: 676px !important;
+}
+</style>
+++++
+
 include::partial$whats-new-10-1-0-cl.adoc[]
 
 '''
