@@ -90,10 +90,6 @@ h2#_whats_new_in_thoughtspot_cloud {
     margin-top: 10px !important;
 }
 
-video[Attributes Style] {
-    width: 800px !important;
-}
-
 </style>
 ++++
 
