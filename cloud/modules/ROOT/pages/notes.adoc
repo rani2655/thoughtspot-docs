@@ -28,7 +28,7 @@ The following changes to the ThoughtSpot UI are introduced in this release:
 
 - Edit TML has been moved from the Answer/Liveboard list view to the *Data* > *Utilities* page.
 - You cannot delete or rename pre-created tags in either the original UI or the new UI.
-- The "classic" experience for the Liveboard list and the Answers list view is removed.  The "new experience" from the previous release is now the only option and is on by default for these list pages.
+- The "classic experience" for the Liveboard list and the Answers list view is removed.  The "new experience" from the previous release is now the only option and is on by default for these list pages.
 +
 For more information, see xref:scriptability.adoc[Import and export TML files] and xref:tags.adoc[Use tags to organize].
 endif::[]
