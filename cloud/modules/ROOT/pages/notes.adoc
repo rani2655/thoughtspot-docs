@@ -20,7 +20,7 @@ For a complete list of known issues in this release, see xref:known.adoc[Known i
 [#new]
 == New Features and Functionality
 
-IMPORTANT: Beginning in the 10.1.0.cl release, you will no longer be able to use the Classic experience for Liveboards, Answers, and SpotIQ. The "new experience" from the previous release is now the only option and is on by default.
+IMPORTANT: Beginning in the 10.1.0.cl release, you will no longer be able to use the "classic experience" for Liveboards, Answers, and SpotIQ. The "new experience" from the previous release is now the only option and is on by default.
 
 .User interface changes
 ****
