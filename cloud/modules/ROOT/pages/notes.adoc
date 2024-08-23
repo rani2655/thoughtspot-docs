@@ -22,7 +22,29 @@ For a complete list of known issues in this release, see xref:known.adoc[Known i
 
 IMPORTANT: Beginning in the 10.1.0.cl release, you will no longer be able to use the Classic experience for Liveboards, Answers, and SpotIQ. The "new experience" from the previous release is now the only option and is on by default.
 
+.User interface changes
+****
+The following changes to the ThoughtSpot UI are introduced in this release:
+
+- Edit TML has been moved from the Answer/Liveboard list view to the *Data* > *Utilities* page.
+- You cannot delete or rename pre-created tags in either the original UI or the new UI.
+- The "classic" experience for the Liveboard list and the Answers list view is removed.  The "new experience" from the previous release is now the only option and is on by default for these list pages.
++
+For more information, see xref:scriptability.adoc[Import and export TML files] and xref:tags.adoc[Use tags to organize].
+endif::[]
+ifdef::pendo-links[]
+xref:tags.adoc[Use tags to organize,window=_blank].
+endif::[]
+****
+
 include::partial$new-features-cloud-release.adoc[]
+
+
+#10-1-0-cl-react-shell]
+[discrete]
+=== User interface changes
+
+
 
 == ThoughtSpot 10.0.0.cl
 
