@@ -14,100 +14,32 @@ endif::free-trial-feature[]
 
 // Business User
 
-[#10-2-0-cl-rls]
-[discrete]
-=== Monitor the application of row-level security
-
-// Mary. jira: SCAL-210151. docs jira: SCAL-?
-// PM: Damian
-
-[#10-2-0-cl-kpi]
-[discrete]
-=== Show all relevant data from the KPI in snapshot of alert emails
-
-// Mary. jira: SCAL-208165. docs jira: SCAL-?
-// PM: ?Rahul P J P
-
-
-
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
-[#10-2-0-cl-viz]
-[discrete]
-=== Paper cuts for - Display the current state of a query execution for Liveboard viz [.badge.badge-early-access]#Early Access#
-endif::[]
-ifdef::pendo-links[]
-[#10-2-0-cl-viz]
-[discrete]
-=== Paper cuts for - Display the current state of a query execution for Liveboard viz [.badge.badge-early-access-whats-new]#Early Access#
-endif::[]
-
-// Mark. jira: SCAL-209769. docs jira: SCAL-?
-// PM: ?Dragos?
-
-endif::free-trial-feature[]
-
-[#10-2-0-cl-homepage]
-[discrete]
-=== Homepage improvement - Phase 2
-
-// Mark. jira: SCAL-204872. docs jira: SCAL-?
-// PM: ?
-
 
 // Analyst
 
 
-[#10-2-0-cl-desc]
-[discrete]
-=== Worksheet descriptions in sync with table properties
-
-// Mark. jira: SCAL-158665. docs jira: SCAL-?
-// PM: Samridh
-
-[#10-2-0-cl-modeling]
-[discrete]
-=== Data Modeling FE v2 - 10.2 - Data sample, Dependents tab
-
-// Mark. jira: SCAL-213051. docs jira: SCAL-?
-// PM: Samridh
-
-[#10-2-0-cl-improve]
-[discrete]
-=== Modeling improvements for 10.2
-
-// Mark. jira: SCAL-207252. docs jira: SCAL-?
-// PM: Samridh
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#10-2-0-cl-csv-upload]
 [discrete]
-=== Data augmentation [.badge.badge-beta]#Beta#
+=== CSV upload to Answers [.badge.badge-beta]#Beta#
 endif::[]
 ifdef::pendo-links[]
 [#10-2-0-cl-csv-upload]
 [discrete]
-=== Data augmentation [.badge.badge-beta-whats-new]#Beta#
+=== CSV upload to Answers [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
 // Naomi. jira: SCAL-181354, SCAL-181358. docs jira: SCAL-220822
-// PM: Aaghran. should i mention that this feature is specifically to replace/ make less tempting the download to Excel feature?
+// PM: Aaghran. should i mention that this feature is specifically to replace/ make less tempting the download to Excel feature? add gif
 
-You can now upload data related to your Search and append it directly to an Answer. This allows you to add data columns to an Answer without navigating away from your current analysis. To enable this feature, contact {support-url}.
-
-NOTE: Data augmentation is only available for Answers built on data uploaded to Snowflake connections.
+You can now upload data related to your Search and append it directly to an Answer. This allows you to add data columns to an Answer without navigating away from your current analysis. To enable this feature, currently enabled only on Snowflake, contact {support-url}.
 
 image::custom-data-add.png[Add custom data]
 
 endif::free-trial-feature[]
 
-[#10-2-0-cl-feedback]
-[discrete]
-=== Streamline feedback promotion
-
-// Mary. jira: SCAL-211636. docs jira: SCAL-?
-// PM: Anant
 
 
 
@@ -126,6 +58,20 @@ endif::free-trial-feature[]
 // Naomi. jira: SCAL-91117. docs jira: SCAL-213778
 // PM: Samridh. moved to 10.4.0.cl
 ////
+
+[#10-2-0-cl-rls]
+[discrete]
+=== Monitor the application of row-level security
+You can now track whether or not row-level security is applied to queries. Risk and compliance analysts can track the volume of queries with row-level security applied versus those without.
+////
+Each query log contains a comment as follows:
+----
+isRLSApplied: true/false.
+----
+////
+// Mary. jira: SCAL-210151. docs jira: SCAL-?
+// PM: Damian TBD - Waiting for confirmation from Damian.
+
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
@@ -147,20 +93,6 @@ You can now choose to sort Connections by type rather than order added to Though
 endif::free-trial-feature[]
 
 // IT/ Ops Engineer
-
-[#10-2-0-cl-learnability]
-[discrete]
-=== Learnability improvements through feedback
-
-// Mary. jira: SCAL-202860. docs jira: SCAL-?
-// PM: ?
-
-[#10-2-0-cl-font]
-[discrete]
-=== Show cluster-level font faces for every org
-
-// Mary. jira: SCAL-213670. docs jira: SCAL-?
-// PM: Himanshu Arora
 
 ifndef::free-trial-feature[]
 [discrete]
