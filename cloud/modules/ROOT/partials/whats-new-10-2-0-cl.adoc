@@ -14,16 +14,6 @@ endif::free-trial-feature[]
 
 // Business User
 
-[#10-2-0-cl-rls]
-[discrete]
-=== Monitor the application of row-level security
-You can now track whether or not row-level security is applied to queries. Risk and compliance analysts can track the volume of queries with row-level security applied versus those without. Each query log contains a comment as follows:
-----
-isRLSApplied: true/false.
-----
-// Mary. jira: SCAL-210151. docs jira: SCAL-?
-// PM: Damian TBD - Waiting for confirmation from Damian.
-
 ////
 [#10-2-0-cl-kpi]
 [discrete]
@@ -39,20 +29,18 @@ ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#10-2-0-cl-csv-upload]
 [discrete]
-=== Data augmentation [.badge.badge-beta]#Beta#
+=== CSV upload to Answers [.badge.badge-beta]#Beta#
 endif::[]
 ifdef::pendo-links[]
 [#10-2-0-cl-csv-upload]
 [discrete]
-=== Data augmentation [.badge.badge-beta-whats-new]#Beta#
+=== CSV upload to Answers [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
 // Naomi. jira: SCAL-181354, SCAL-181358. docs jira: SCAL-220822
-// PM: Aaghran. should i mention that this feature is specifically to replace/ make less tempting the download to Excel feature?
+// PM: Aaghran. should i mention that this feature is specifically to replace/ make less tempting the download to Excel feature? create a gif.
 
-You can now upload data related to your Search and append it directly to an Answer. This allows you to add data columns to an Answer without navigating away from your current analysis. To enable this feature, contact {support-url}.
-
-NOTE: Data augmentation is only available for Answers built on data uploaded to Snowflake connections.
+You can now upload data related to your Search and append it directly to an Answer. This allows you to add data columns to an Answer without navigating away from your current analysis. To enable this feature, currently enabled only on Snowflake, contact {support-url}.
 
 image::custom-data-add.png[Add custom data]
 
@@ -83,6 +71,20 @@ endif::free-trial-feature[]
 // Naomi. jira: SCAL-91117. docs jira: SCAL-213778
 // PM: Samridh. moved to 10.4.0.cl
 ////
+
+[#10-2-0-cl-rls]
+[discrete]
+=== Monitor the application of row-level security
+You can now track whether or not row-level security is applied to queries. Risk and compliance analysts can track the volume of queries with row-level security applied versus those without.
+////
+Each query log contains a comment as follows:
+----
+isRLSApplied: true/false.
+----
+////
+// Mary. jira: SCAL-210151. docs jira: SCAL-?
+// PM: Damian TBD - Waiting for confirmation from Damian.
+
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
