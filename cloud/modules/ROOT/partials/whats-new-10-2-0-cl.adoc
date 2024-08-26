@@ -17,7 +17,10 @@ endif::free-trial-feature[]
 [#10-2-0-cl-rls]
 [discrete]
 === Monitor the application of row-level security
-
+You can now track whether or not row-level security is applied to queries. Risk and compliance analysts can track the volume of queries with row-level security applied versus those without. Each query log contains a comment as follows:
+----
+isRLSApplied: true/false.
+----
 // Mary. jira: SCAL-210151. docs jira: SCAL-?
 // PM: Damian TBD - Waiting for confirmation from Damian.
 
@@ -150,14 +153,14 @@ endif::free-trial-feature[]
 
 // IT/ Ops Engineer
 
-
+////
 [#10-2-0-cl-learnability]
 [discrete]
 === Learnability improvements through feedback
 
 // Mary. jira: SCAL-202860. docs jira: SCAL-?
-// PM: ? - still trying to confirm PM and doc need
-
+// PM: no doc needed
+////
 
 ////
 [#10-2-0-cl-font]
