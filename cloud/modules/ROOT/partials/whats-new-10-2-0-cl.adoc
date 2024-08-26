@@ -33,55 +33,7 @@ isRLSApplied: true/false.
 // PM: ?Rahul P J P - confirmed no doc needed
 ////
 
-
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
-[#10-2-0-cl-viz]
-[discrete]
-=== Paper cuts for - Display the current state of a query execution for Liveboard viz [.badge.badge-early-access]#Early Access#
-endif::[]
-ifdef::pendo-links[]
-[#10-2-0-cl-viz]
-[discrete]
-=== Paper cuts for - Display the current state of a query execution for Liveboard viz [.badge.badge-early-access-whats-new]#Early Access#
-endif::[]
-
-// Mark. jira: SCAL-209769. docs jira: SCAL-?
-// PM: ?Dragos?
-
-endif::free-trial-feature[]
-
-[#10-2-0-cl-homepage]
-[discrete]
-=== Homepage improvement - Phase 2
-
-// Mark. jira: SCAL-204872. docs jira: SCAL-?
-// PM: ?
-
-
 // Analyst
-
-
-[#10-2-0-cl-desc]
-[discrete]
-=== Worksheet descriptions in sync with table properties
-
-// Mark. jira: SCAL-158665. docs jira: SCAL-?
-// PM: Samridh
-
-[#10-2-0-cl-modeling]
-[discrete]
-=== Data Modeling FE v2 - 10.2 - Data sample, Dependents tab
-
-// Mark. jira: SCAL-213051. docs jira: SCAL-?
-// PM: Samridh
-
-[#10-2-0-cl-improve]
-[discrete]
-=== Modeling improvements for 10.2
-
-// Mark. jira: SCAL-207252. docs jira: SCAL-?
-// PM: Samridh
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
