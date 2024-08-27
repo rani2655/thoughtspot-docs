@@ -14,6 +14,16 @@ endif::free-trial-feature[]
 
 // Business User
 
+[#10-2-0-cl-search-split]
+[discrete]
+=== Natural language search and object search
+
+// Naomi. jira: SCAL-210305. docs jira: SCAL-?
+// PM: Mohil, Neerav
+
+Natural language search and object search are now separated. To search for an AI-generated answer using natural language, enter your question in the *Ask a business question in natural language* search bar on the home page. To search for related Answers and Liveboards, enter your question in the *Find existing Answers and Liveboards* search bar in the top navigation bar.
+
+image::search-split.png[Natural language and object search]
 
 // Analyst
 
