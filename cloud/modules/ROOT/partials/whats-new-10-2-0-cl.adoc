@@ -128,6 +128,8 @@ endif::[]
 
 You can now choose to sort Connections by type rather than order added to ThoughtSpot. To enable this feature, contact your administrator.
 
+image:connection-sort.png[Connections sorted by type]
+
 endif::free-trial-feature[]
 
 // IT/ Ops Engineer
