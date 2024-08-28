@@ -5,7 +5,7 @@
 :linkattrs:
 :page-layout: default-cloud
 :description: You can now use natural language to search for answers to your business questions.
-:jira: SCAL-156247, SCAL-201037, SCAL-203901, SCAL-211072, SCAL-214359, SCAL-217996 (remove EA)
+:jira: SCAL-156247, SCAL-201037, SCAL-203901, SCAL-211072, SCAL-214359, SCAL-217996 (remove EA), SCAL-221925
 
 // persona: business user
 
@@ -13,7 +13,7 @@ Use natural language to search for answers to your business questions. You can b
 
 Click the search bar labeled *Ask any business question you have*, select the Worksheet to search on, and type your question in natural language. You can specify the chart type for the resulting Answer in your question, for example "show me sales by region as a bar chart". You can change the Worksheet selected when you search from the Home page. When you search using the search bar in the top navigation bar, the search inherits the Worksheet you last searched on.
 
-ThoughtSpot translates your question into a SQL query using a Large Language Model (LLM). When you enter your question, you will see the AI-generated Answer appear, along with a list of related Answers created by users in your team.
+ThoughtSpot translates your question into a SQL query using a Large Language Model (LLM). When you enter your question, you will see the AI-generated Answer appear.
 
 See xref:ai-answers-best-practices.adoc[] for more information about how to best use natural language search. Please note that while natural language search supports all the xref:keywords.adoc[languages supported by ThoughtSpot], the accuracy of results may vary for non-English languages.
 
