@@ -60,6 +60,7 @@
 *** xref:analyst-onboarding.adoc[Analyst onboarding]
 *** xref:connect-data.adoc[Connect to data]
 *** xref:tables-join.adoc[Join tables]
+**** xref:tables-join-compatible.adoc[Supported join types]
 *** xref:worksheet-create-setup.adoc[Create Worksheets in Setup]
 *** xref:worksheet-create.adoc[Create Worksheets]
 *** xref:models.adoc[Create Models]
