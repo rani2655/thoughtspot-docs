@@ -37,6 +37,7 @@ image::search-split.png[Natural language and object search]
 
 // Analyst
 
+////
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#10-2-0-cl-csv-upload]
@@ -70,7 +71,7 @@ ifdef::pendo-links[]
 endif::pendo-links[]
 
 endif::free-trial-feature[]
-
+////
 ////
 [#10-2-0-cl-feedback]
 [discrete]
