@@ -101,7 +101,7 @@ endif::free-trial-feature[]
 [#10-2-0-cl-rls]
 [discrete]
 === Monitor the application of row-level security
-You can now track whether or not row-level security is applied to queries. Risk and compliance analysts can track the volume of queries with row-level security applied versus those without.
+You can now track whether or not row-level security is applied to queries. Risk and compliance analysts can track the volume of queries with row-level security applied versus those without. A row-level security tag is included in the sql query. This provides the ability to determine the number of queries that have included row level security via the underlying database.
 ////
 Each query log contains a comment as follows:
 ----
