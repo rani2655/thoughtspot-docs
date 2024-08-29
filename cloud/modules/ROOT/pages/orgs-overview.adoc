@@ -81,7 +81,7 @@ image::org-switcher-gif.gif[Switch the Org]
 
 include::partial$all-org-scope.adoc[]
 
-.Per-Org URLs [.badge.badge-early-access]#Early Access#
+.Per-Org URLs [.badge.badge-beta]#Beta#
 ****
 ThoughtSpot supports Org-specific URLs. URLs in emails now include Org context so that users are taken directly to the correct Liveboard in the correct Org even if they belong to multiple Orgs. The following emails include Org specific URLs:
 
