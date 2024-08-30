@@ -430,7 +430,6 @@
 *** xref:admin-portal-users.adoc[Managing users]
 *** xref:admin-portal-groups.adoc[Managing groups]
 *** xref:rbac.adoc[Understand RBAC and privileges]
-*** xref:liveboard-granular-permission.adoc[Granular access to Liveboards]
 *** xref:authentication.adoc[Authentication overview]
 *** xref:authentication-local.adoc[Managing local authentication]
 *** xref:okta-iam.adoc[Identity and Access Management V2]
