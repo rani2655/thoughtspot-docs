@@ -1,10 +1,10 @@
 = Custom charts
-:last_updated: 8/28/24
+:last_updated: 9/3/24
 :linkattrs:
 :experimental:
 :author: Mark
 :page-layout: default-cloud-beta
-:page-aliases:
+:page-aliases: chart-byoc.adoc
 :description: With custom charts, you can add your own custom charts to ThoughtSpot.
 :jira: SCAL-179003, SCAL-202002, SCAL-214870 (gauge chart), SCAL-221883 (remove line about gauge chart)
 
