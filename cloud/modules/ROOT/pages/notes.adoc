@@ -135,7 +135,7 @@ Query sets are community objects which remain when you navigate away from the *S
 // PM: Damian
 
 Custom charts [.badge.badge-beta-relnotes]#Beta#::
-You can now use custom charts created outside of ThoughtSpot, including third-party chart libraries. To enable this feature, contact {support-url}. For more information, see xref:chart-byoc.adoc[Custom charts].
+You can now use custom charts created outside of ThoughtSpot, including third-party chart libraries. To enable this feature, contact {support-url}. For more information, see xref:chart-custom.adoc[Custom charts].
 // Mark -- SCAL-202002, doc jira: SCAL-179003
 
 Sage Coach enhancements::
@@ -371,7 +371,7 @@ xref:git-version-control.adoc[Version control for Liveboards and Answers].
 === For the Developer
 
 // mark -- SCAL-194041
-Develop custom charts [.badge.badge-beta-relnotes]#Beta#:: Developers can now create custom charts for ThoughtSpot using the ThoughtSpot Charts SDK. To enable this feature, contact {support-url}. For more information, see xref:chart-byoc.adoc[Custom charts].
+Develop custom charts [.badge.badge-beta-relnotes]#Beta#:: Developers can now create custom charts for ThoughtSpot using the ThoughtSpot Charts SDK. To enable this feature, contact {support-url}. For more information, see xref:chart-custom.adoc[Custom charts].
 
 ThoughtSpot Embedded:: For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
 
@@ -407,7 +407,7 @@ For more information, see xref:sync-gbq.adoc[Sync to Google BigQuery].
 
 // Mark -- SCAL-202002, doc jira: SCAL-179003
 Custom charts [.badge.badge-beta-relnotes]#Beta#::
-You can now use custom charts created outside of ThoughtSpot, including third-party chart libraries. To enable this feature, contact {support-url}. For more information, see xref:chart-byoc.adoc[Custom charts].
+You can now use custom charts created outside of ThoughtSpot, including third-party chart libraries. To enable this feature, contact {support-url}. For more information, see xref:chart-custom.adoc[Custom charts].
 
 
 // Mary -- SCAL-150356
@@ -497,7 +497,7 @@ Now in the new Answer data panel, you can filter as you hover on a column, _By c
 === For the Developer
 
 // mark -- SCAL-194041
-Develop custom charts [.badge.badge-beta-relnotes]#Beta#:: Developers can now create custom charts for ThoughtSpot using the ThoughtSpot Charts SDK. To enable this feature, contact {support-url}. For more information, see xref:chart-byoc.adoc[Custom charts].
+Develop custom charts [.badge.badge-beta-relnotes]#Beta#:: Developers can now create custom charts for ThoughtSpot using the ThoughtSpot Charts SDK. To enable this feature, contact {support-url}. For more information, see xref:chart-custom.adoc[Custom charts].
 
 ThoughtSpot Embedded:: For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
 
