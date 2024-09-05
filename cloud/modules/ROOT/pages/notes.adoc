@@ -1,13 +1,13 @@
-= 10.2.0.cl Release Notes
+= 10.3.0.cl Release Notes
 :experimental:
-:last_updated: 8/15/2024
+:last_updated: 9/5/2024
 :linkattrs:
 :page-toclevels: 1
 :page-aliases: /release/notes.adoc
 :page-layout: default-cloud
 :description: These release notes include information about new and enhanced features.
 
-ThoughtSpot Cloud 10.2.0.cl is now available.
+ThoughtSpot Cloud 10.3.0.cl is now available.
 
 These release notes include information about new and enhanced features.
 
