@@ -5,7 +5,6 @@ Keep in mind these permissions when working with tags:
 - Only administrators can create tags.
 - Anyone can apply a tag.
 - Anyone can filter by a tag.
-- You can only filter by one tag at a time from the UI.
 - Free Trial and Team Edition users do not have access to tags functionality.
 
 [#create-a-tag]
@@ -139,7 +138,7 @@ image:home-object-tag.png[Apply tags from Home page]
 
 Whenever you are selecting objects from a list, you can filter by tag to find what you’re looking for. Anyone can use tags to filter lists of Liveboards or data sources. You can also filter by a tag when selecting data sources.
 
-Note that you can only filter by one tag at a time in the UI. To get a list of ThoughtSpot objects or object headers that is filtered by multiple tag, use the https://developers.thoughtspot.com/docs/?pageid=metadata-api[Metadata API^]. The `list` and `listobjectheaders` endpoints allow you to filter by multiple tags.
+To get a list of ThoughtSpot objects or object headers that is filtered by multiple tag, use the https://developers.thoughtspot.com/docs/?pageid=metadata-api[Metadata API^]. The `list` and `listobjectheaders` endpoints allow you to filter by multiple tags.
 
 To filter by tag:
 
