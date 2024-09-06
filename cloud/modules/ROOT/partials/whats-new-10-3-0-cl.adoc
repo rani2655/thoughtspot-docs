@@ -214,6 +214,7 @@ endif::[]
 // PM: Dilip
 
 endif::free-trial-feature[]
+
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#10-3-0-cl-react]
@@ -352,7 +353,7 @@ ifdef::pendo-links[]
 xref:orgs-overview.adoc[Multi-tenancy with Orgs,window=_blank].
 endif::[]
 
-
+endif::free-trial-feature[]
 
 
 
