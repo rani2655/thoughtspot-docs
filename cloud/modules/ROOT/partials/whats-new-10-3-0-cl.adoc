@@ -26,14 +26,68 @@ Natural language search and object search are now separated. To search for an AI
 
 image::search-split.png[Natural language and object search]
 
-////
+[#10-3-0-cl-homepage]
+[discrete]
+=== Homepage GA
+
+// Mark. jira: SCAL-218000. docs jira: SCAL-?
+// PM: Mohil
+
+[#10-3-0-cl-tag]
+[discrete]
+=== Homepage tag management
+
+// Mark. jira: SCAL-216879. docs jira: SCAL-?
+// PM: Mohil
+
+[#10-3-0-cl-alert]
+[discrete]
+=== Add alert functionality in Watchlist
+
+// Mary. jira: SCAL-199338. docs jira: SCAL-?
+// PM: Rahul PJP
+
+[#10-3-0-cl-a-z]
+[discrete]
+=== Hide A-Z view in data panel
+
+// Mark. jira: SCAL-207541. docs jira: SCAL-?
+// PM: Alok
+
 [#10-3-0-cl-kpi]
 [discrete]
-=== Show all relevant data from the KPI in snapshot of alert emails
+=== New KPI UX - CTA changes
 
-// Mary. jira: SCAL-208165. docs jira: SCAL-?
-// PM: ?Rahul P J P - confirmed no doc needed
-////
+// Naomi. jira: SCAL-219046. docs jira: SCAL-?
+// PM: Rahul PJP
+
+[#10-3-0-cl-keywords]
+[discrete]
+=== Keywords
+
+// Naomi. docs jira: SCAL-220682.
+// PM: Aashna
+
+[#10-3-0-cl-custom]
+[discrete]
+=== Hide date previews for custom calendars
+
+// Mark. jira: SCAL-217421. docs jira: SCAL-?
+// PM: Dilip
+
+[#10-3-0-cl-accessibility]
+[discrete]
+=== Accessibility - Growth
+
+// Naomi. jira: SCAL-210324. docs jira: SCAL-?
+// PM: Anjali?
+
+[#10-3-0-cl-bofa]
+[discrete]
+=== BofA accessibility - search data
+
+// Naomi. jira: SCAL-210325. docs jira: SCAL-?
+// PM: Anjali?
 
 // Analyst
 
@@ -72,14 +126,146 @@ endif::pendo-links[]
 
 endif::free-trial-feature[]
 ////
-////
-[#10-3-0-cl-feedback]
-[discrete]
-=== Streamline feedback promotion
 
-// Mary. jira: SCAL-211636. docs jira: SCAL-?
-// PM: Anant - no doc needed per Anant...following up to confirm that the feature is behind a flag and not beta for 10.2
-////
+[#10-3-0-cl-mode]
+[discrete]
+=== Dataset integration for Analyst Studio
+
+// Naomi. jira: SCAL-211323. docs jira: SCAL-?
+// PM: Shruthi
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#10-3-0-cl-model]
+[discrete]
+=== Model knowledge cards [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#10-3-0-cl-mode]
+[discrete]
+=== Model knowledge cards [.badge.badge-beta-whats-new]#Beta#
+endif::[]
+
+// Mark. jira: SCAL-182972. docs jira: SCAL-?
+// PM: Samridh
+
+
+endif::free-trial-feature[]
+
+[#10-3-0-cl-data]
+[discrete]
+=== Data modeling FE v2
+// Mark. jira: SCAL-217843. docs jira: SCAL-?
+// PM: Samridh
+
+[#10-3-0-cl-modeling]
+[discrete]
+=== Modeling improvements for 10.3
+// Mark. jira: SCAL-213608. docs jira: SCAL-?
+// PM: Samridh
+
+[#10-3-0-cl-join]
+[discrete]
+=== Join cardinality change for global joins
+
+// Naomi. jira: SCAL-113394. docs jira: SCAL-?
+// PM: Samridh
+
+[#10-3-0-cl-agg]
+[discrete]
+=== Enable new group aggregate reaggregation logic
+
+// Naomi. jira: SCAL-147723, SCAL-214008. docs jira: SCAL-?
+// PM: Damian
+
+[#10-3-0-cl-cohorts]
+[discrete]
+=== Bug fixes for cohorts
+
+// Mary. jira: SCAL-217310. docs jira: SCAL-?
+// PM: Damian
+
+[#10-3-0-cl-okta]
+[discrete]
+=== Privilege control and user sync to Okta
+
+// Mary. jira: SCAL-211845. docs jira: SCAL-?
+// PM: Aashica
+
+[#10-3-0-cl-schedule]
+[discrete]
+=== Allow only TS provisioned users and groups to be added to schedule and not emails
+// Mary. jira: SCAL-212742. docs jira: SCAL-?
+// PM: Arpit
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#10-3-0-cl-lb]
+[discrete]
+=== Liveboard schedule modal [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#10-3-0-cl-lb]
+[discrete]
+=== Liveboard schedule modal [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
+// Mary. jira: SCAL-208470. docs jira: SCAL-?
+// PM: Dilip
+
+endif::free-trial-feature[]
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#10-3-0-cl-react]
+[discrete]
+=== Liveboard schedule available to all users [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#10-3-0-cl-react]
+[discrete]
+=== Liveboard schedule available to all users [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
+// Mary. jira: SCAL-160492. docs jira: SCAL-?
+// PM: Arpit
+
+endif::free-trial-feature[]
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#10-3-0-cl-bucket]
+[discrete]
+=== Date bucket interval for date columns [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#10-3-0-cl-bucket]
+[discrete]
+=== Date bucket interval for date columns [.badge.badge-beta-whats-new]#Beta#
+endif::[]
+
+// Mary. jira: SCAL-210168. docs jira: SCAL-?
+// PM: Damian
+
+endif::free-trial-feature[]
+
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#10-3-0-cl-column]
+[discrete]
+=== Date column filter window constraint [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#10-3-0-cl-column]
+[discrete]
+=== Date column filter window constraint [.badge.badge-beta-whats-new]#Beta#
+endif::[]
+
+// Mary. jira: SCAL-210167. docs jira: SCAL-?
+// PM: Damian
+
+endif::free-trial-feature[]
+
 
 
 '''
@@ -89,14 +275,6 @@ endif::free-trial-feature[]
 
 // Data Engineer
 
-////
-[#10-3-0-cl-join-key]
-[discrete]
-=== Allow changing join keys in UI for global joins
-
-// Naomi. jira: SCAL-91117. docs jira: SCAL-213778
-// PM: Samridh. moved to 10.4.0.cl
-////
 
 [#10-3-0-cl-rls]
 [discrete]
@@ -133,25 +311,20 @@ image:connection-sort.png[Connections sorted by type]
 
 endif::free-trial-feature[]
 
+[#10-3-0-cl-coach]
+[discrete]
+=== Content-aware filter values for Sage Coach
+// Naomi. jira: SCAL-212191. docs jira: SCAL-?
+// PM: Alok, Anant
+
+[#10-3-0-cl-csp]
+[discrete]
+=== Add missing CSP headers in ThoughtSpot CSP
+// Naomi. jira: SCAL-207932. docs jira: SCAL-?
+// PM: Mohamed Abdulla
+
 // IT/ Ops Engineer
 
-////
-[#10-3-0-cl-learnability]
-[discrete]
-=== Learnability improvements through feedback
-
-// Mary. jira: SCAL-202860. docs jira: SCAL-?
-// PM: no doc needed
-////
-
-////
-[#10-3-0-cl-font]
-[discrete]
-=== Show cluster-level font faces for every org
-
-// Mary. jira: SCAL-213670. docs jira: SCAL-?
-// PM: Himanshu Arora - confirmed no doc needed (fix)
-////
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
@@ -178,6 +351,8 @@ endif::[]
 ifdef::pendo-links[]
 xref:orgs-overview.adoc[Multi-tenancy with Orgs,window=_blank].
 endif::[]
+
+
 
 
 
