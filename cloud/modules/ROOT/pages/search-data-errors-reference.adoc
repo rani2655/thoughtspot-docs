@@ -13,6 +13,8 @@ This reference identifies the error codes that can appear when you use xref:sear
 == Search data error codes
 
 * xref:search-data-error-11035[11035]
+* xref:search-data-error-11036[11036]
+* xref:search-data-error-11037[11037]
 
 ---
 
