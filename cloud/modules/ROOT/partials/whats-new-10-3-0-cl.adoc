@@ -75,12 +75,14 @@ image::search-split.png[Natural language and object search]
 // Mark. jira: SCAL-217421. docs jira: SCAL-?
 // PM: Dilip
 
+////
 [#10-3-0-cl-accessibility]
 [discrete]
 === Accessibility - Growth
 
 // Naomi. jira: SCAL-210324. docs jira: SCAL-?
-// PM: Anjali?
+// PM: Mohamed Abdulla
+
 
 [#10-3-0-cl-bofa]
 [discrete]
@@ -88,6 +90,7 @@ image::search-split.png[Natural language and object search]
 
 // Naomi. jira: SCAL-210325. docs jira: SCAL-?
 // PM: Anjali?
+////
 
 // Analyst
 
@@ -318,11 +321,13 @@ endif::free-trial-feature[]
 // Naomi. jira: SCAL-212191. docs jira: SCAL-?
 // PM: Alok, Anant
 
+////
 [#10-3-0-cl-csp]
 [discrete]
 === Add missing CSP headers in ThoughtSpot CSP
 // Naomi. jira: SCAL-207932. docs jira: SCAL-?
 // PM: Mohamed Abdulla
+////
 
 // IT/ Ops Engineer
 
