@@ -7,11 +7,11 @@
 :description: Enable version control on your ThoughtSpot cluster, so users can enable version control on specific Liveboards and Answers.
 :jira: SCAL-196890, SCAL-185652 (can manage version control privilege), SCAL-207739 (troubleshooting), SCAL-213208 (change to GA)
 
-With version control, every time a user saves changes to a Liveboard or Answer, a new version is created and stored in Github. Any user with edit access to the Liveboard or Answer can browse the version history in ThoughtSpot and restore any saved versions whenever needed. Version control must be first be configured on your cluster or your org. After that, it can be enabled on specific Liveboards and Answers where version control is wanted.
+With version control, every time a user saves changes to a Liveboard or Answer, a new version is created and stored in Github. Any user with edit access to the Liveboard or Answer can browse the version history in ThoughtSpot and restore any saved versions whenever needed. Version control must first be configured on your cluster or Org. After that, it can be enabled on specific Liveboards and Answers where version control is wanted.
 
 There are two steps to enabling version control in ThoughtSpot, which must be done in the following order:
 
-. Enable version control for the Org.
+. Enable version control for the cluster or Org.
 . Enable version control for specific Liveboards or Answers in the Org.
 
 IMPORTANT: Version control cannot be enabled by default for all Liveboards and Answers.
@@ -20,7 +20,7 @@ IMPORTANT: Version control cannot be enabled by default for all Liveboards and A
 
 === Prerequisites
 
-To enable version control for an Org, the following are required:
+To enable version control for a cluster or Org, the following are required:
 
 * Administrator access to the cluster/Org
 * GitHub repository created in Github or GitHub Enterprise
@@ -40,10 +40,10 @@ TIP: ThoughtSpot recommends *not* using the Main branch for either commits or co
 
 === Enabling version control for a cluster or Org
 
-To enable version control for an Org, do the following:
+To enable version control for a cluster or Org, do the following:
 
 . Go to the *Admin* tab.
-. Select the Org where you want to enable version control.
+. If enabling for an Org, select the Org where you want to enable version control.
 . Under _Application settings_, select *Version Control*.
 . Under the message "Version control not configured", Click *Configure*.
 +
@@ -88,10 +88,10 @@ To enable version control for a Liveboard or Answer, do the following:
 
 == Editing the version control configuration
 
-After you enable version control for an Org, you can edit the configuration. However, changing these settings will cause a service interruption for all users of a few minutes. Consider making your changes during a scheduled maintenance window.
+After you enable version control for a cluster or Org, you can edit the configuration. However, changing these settings will cause a service interruption for all users of a few minutes. Consider making your changes during a scheduled maintenance window.
 
 . Go to the *Admin* tab.
-. Select the Org where you want to edit version control.
+. If editing for an Org, select the Org where you want to edit version control.
 . Under _Application settings_, select *Version Control*.
 . Click *Edit*.
 . In the _Enter Github credentials_ window, Make any changes required to the Repository, Username, or Token and click *Continue*.
