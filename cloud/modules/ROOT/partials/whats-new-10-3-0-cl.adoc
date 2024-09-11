@@ -54,14 +54,6 @@ image::search-split.png[Natural language and object search]
 // Mark. jira: SCAL-207541. docs jira: SCAL-?
 // PM: Alok
 
-////
-[#10-3-0-cl-kpi]
-[discrete]
-=== New KPI UX - CTA changes
-
-// Naomi. jira: SCAL-219046. docs jira: SCAL-?
-// PM: Rahul PJP. no docs needed.
-////
 
 [#10-3-0-cl-keywords]
 [discrete]
@@ -77,22 +69,6 @@ image::search-split.png[Natural language and object search]
 // Mark. jira: SCAL-217421. docs jira: SCAL-?
 // PM: Dilip
 
-////
-[#10-3-0-cl-accessibility]
-[discrete]
-=== Accessibility - Growth
-
-// Naomi. jira: SCAL-210324. docs jira: SCAL-?
-// PM: Mohamed Abdulla
-
-
-[#10-3-0-cl-bofa]
-[discrete]
-=== BofA accessibility - search data
-
-// Naomi. jira: SCAL-210325. docs jira: SCAL-?
-// PM: Anjali?
-////
 
 // Analyst
 
@@ -176,14 +152,7 @@ endif::free-trial-feature[]
 // Naomi. jira: SCAL-113394. docs jira: SCAL-?
 // PM: Samridh
 
-////
-[#10-3-0-cl-agg]
-[discrete]
-=== Enable new group aggregate reaggregation logic
 
-// Naomi. jira: SCAL-147723, SCAL-214008. docs jira: SCAL-?
-// PM: Damian. no docs needed.
-////
 
 [#10-3-0-cl-cohorts]
 [discrete]
@@ -325,13 +294,6 @@ endif::free-trial-feature[]
 // Naomi. jira: SCAL-212191. docs jira: SCAL-?
 // PM: Alok, Anant
 
-////
-[#10-3-0-cl-csp]
-[discrete]
-=== Add missing CSP headers in ThoughtSpot CSP
-// Naomi. jira: SCAL-207932. docs jira: SCAL-?
-// PM: Mohamed Abdulla
-////
 
 // IT/ Ops Engineer
 
@@ -354,6 +316,7 @@ endif::[]
 ThoughtSpot introduces Org-specific URLs. URLs in emails now include Org context so that users are taken directly to the correct Liveboard in the correct Org even if they belong to multiple Orgs.
 You can also move between different browser tabs that point to different Orgs.
 
+////
 For more information, see
 ifndef::pendo-links[]
 xref:orgs-overview.adoc[Multi-tenancy with Orgs].
@@ -361,7 +324,7 @@ endif::[]
 ifdef::pendo-links[]
 xref:orgs-overview.adoc[Multi-tenancy with Orgs,window=_blank].
 endif::[]
-
+////
 endif::free-trial-feature[]
 
 
