@@ -9,7 +9,7 @@
 :jira: SCAL-205490
 
 
-You can connect to a {connection} database in ThoughtSpot Cloud, and perform live queries to create Answers and Liveboards.
+You can connect to a {connection} database in ThoughtSpot {form-factor}, and perform live queries to create Answers and Liveboards.
 
 * xref:connections-snowflake-add.adoc[Add a {connection} connection]
 * xref:connections-snowflake-edit.adoc[Edit a {connection} connection]
