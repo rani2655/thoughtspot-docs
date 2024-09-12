@@ -1,9 +1,9 @@
 ifndef::pendo-links[]
-September 2024 [label label-dep]#10.2.0.cl#
+September 2024 [label label-dep]#10.3.0.cl#
 endif::[]
 ifdef::pendo-links[]
 [month-year-whats-new]#September 2024#
-[label label-dep-whats-new]#10.2.0.cl#
+[label label-dep-whats-new]#10.3.0.cl#
 endif::[]
 
 ifndef::free-trial-feature[]
@@ -170,7 +170,7 @@ endif::[]
 
 ThoughtSpot introduces Org-specific URLs. URLs in emails now include Org context so that users are taken directly to the correct Liveboard in the correct Org even if they belong to multiple Orgs.
 You can also move between different browser tabs that point to different Orgs.
-
+////
 For more information, see
 ifndef::pendo-links[]
 xref:orgs-overview.adoc[Multi-tenancy with Orgs].
@@ -178,6 +178,7 @@ endif::[]
 ifdef::pendo-links[]
 xref:orgs-overview.adoc[Multi-tenancy with Orgs,window=_blank].
 endif::[]
+////
 endif::free-trial-feature[]
 
 
