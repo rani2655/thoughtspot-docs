@@ -145,12 +145,6 @@ endif::free-trial-feature[]
 // Mark. jira: SCAL-213608. docs jira: SCAL-?
 // PM: Samridh
 
-[#10-3-0-cl-join]
-[discrete]
-=== Join cardinality change for global joins
-
-// Naomi. jira: SCAL-113394. docs jira: SCAL-?
-// PM: Samridh
 
 
 
