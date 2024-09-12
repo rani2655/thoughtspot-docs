@@ -24,7 +24,7 @@ image::amazon-athena-connectiontype.png[Add a {connection} connection]
 +
 image::amazon-athena-connectiondetails.png[Enter connection details]
 +
-Refer to the xref:connections-amazon-aurora-mysql-reference.adoc[{connection} connection reference] for more information on each of the specific attributes you must enter for your connection.
+Refer to the xref:connections-amazon-athena-reference.adoc[{connection} connection reference] for more information on each of the specific attributes you must enter for your connection.
 . (Optional) Configure proxy for your {connection} connection by doing the following:
 .. Select the *Advanced Config* menu to reveal the Key and Value fields.
 .. For Key, enter *httpProxy*, and for Value, enter *<proxyHost>:<proxyPort>*.
