@@ -57,10 +57,12 @@ image::search-split.png[Natural language and object search]
 
 [#10-3-0-cl-keywords]
 [discrete]
-=== Keywords
+=== Portuguese (Brazil) keywords
 
-// Naomi. docs jira: SCAL-220682.
+// Naomi. docs jira: SCAL-220633.
 // PM: Aashna
+
+We have updated the Portuguese date keyword synonyms.
 
 [#10-3-0-cl-custom]
 [discrete]
@@ -108,12 +110,24 @@ endif::pendo-links[]
 endif::free-trial-feature[]
 ////
 
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
 [#10-3-0-cl-mode]
 [discrete]
-=== Dataset integration for Analyst Studio
+=== Analyst Studio [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#10-3-0-cl-mode]
+[discrete]
+=== Analyst Studio [.badge.badge-beta-whats-new]#Beta#
+endif::[]
 
 // Naomi. jira: SCAL-211323. docs jira: SCAL-?
 // PM: Shruthi
+
+ThoughtSpot introduces Analyst Studio, where you can write ad-hoc SQL queries to analyze your data, create reusable Datasets, and share Datasets and visualizations to Liveboards or to team members. You can set schedules to refresh Datasets, or publish them to the Data Workspace, where you can join multiple Datasets to query as a whole.
+
+endif::free-trial-feature[]
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
