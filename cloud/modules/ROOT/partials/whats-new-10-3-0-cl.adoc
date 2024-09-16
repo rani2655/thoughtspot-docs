@@ -26,19 +26,19 @@ Natural language search and object search are now separated. To search for an AI
 
 image::search-split.png[Natural language and object search]
 
-[#10-3-0-cl-homepage]
-[discrete]
-=== Homepage GA
-
-// Mark. jira: SCAL-218000. docs jira: SCAL-?
-// PM: Mohil
-
 [#10-3-0-cl-tag]
 [discrete]
-=== Homepage tag management
+=== Manage tags for Answers and Liveboards
 
 // Mark. jira: SCAL-216879. docs jira: SCAL-?
 // PM: Mohil
+
+You can now manage all your Answer and Liveboard tags from one, convenient window. Just click the *Manage tags* button at the top of your list of Liveboards or Answers, then create, edit, and delete tags.
+
+[.bordered]
+image::tags-manage.png[]
+
+
 
 [#10-3-0-cl-alert]
 [discrete]
@@ -49,11 +49,12 @@ image::search-split.png[Natural language and object search]
 
 [#10-3-0-cl-a-z]
 [discrete]
-=== Hide A-Z view in data panel
+=== Hidden A-Z view in new data panel experience
 
 // Mark. jira: SCAL-207541. docs jira: SCAL-?
-// PM: Alok
+// PM: Alok (waiting for doc jira)
 
+The A-Z view in the new data panel experience is now hidden by default. To make it visible, you must contact {support-url}.
 
 [#10-3-0-cl-keywords]
 [discrete]
@@ -68,9 +69,13 @@ We have updated the Portuguese date keyword synonyms.
 [discrete]
 === Hide date previews for custom calendars
 
-// Mark. jira: SCAL-217421. docs jira: SCAL-?
+// Mark. jira: SCAL-217421. docs jira: SCAL-223957
 // PM: Dilip
 
+In this release, administrators can hide date previews in a date filter which uses a custom calendar. This ensures users are not confused if the values are incorrect, which can happen sometimes when using a custom calendar with a data filter. You can hide date previews in the following situations:
+
+- Dates are rolling
+- Date window contains weeks, months, quarters or years
 
 // Analyst
 
@@ -128,39 +133,6 @@ endif::[]
 ThoughtSpot introduces Analyst Studio, where you can write ad-hoc SQL queries to analyze your data, create reusable Datasets, and share Datasets and visualizations to Liveboards or to team members. You can set schedules to refresh Datasets, or publish them to the Data Workspace, where you can join multiple Datasets to query as a whole.
 
 endif::free-trial-feature[]
-
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
-[#10-3-0-cl-model]
-[discrete]
-=== Model knowledge cards [.badge.badge-beta]#Beta#
-endif::[]
-ifdef::pendo-links[]
-[#10-3-0-cl-mode]
-[discrete]
-=== Model knowledge cards [.badge.badge-beta-whats-new]#Beta#
-endif::[]
-
-// Mark. jira: SCAL-182972. docs jira: SCAL-?
-// PM: Samridh
-
-
-endif::free-trial-feature[]
-
-[#10-3-0-cl-data]
-[discrete]
-=== Data modeling FE v2
-// Mark. jira: SCAL-217843. docs jira: SCAL-?
-// PM: Samridh
-
-[#10-3-0-cl-modeling]
-[discrete]
-=== Modeling improvements for 10.3
-// Mark. jira: SCAL-213608. docs jira: SCAL-?
-// PM: Samridh
-
-
-
 
 [#10-3-0-cl-cohorts]
 [discrete]
