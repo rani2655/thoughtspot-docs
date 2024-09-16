@@ -30,7 +30,7 @@ image::search-split.png[Natural language and object search]
 [discrete]
 === Manage tags for Answers and Liveboards
 
-// Mark. jira: SCAL-216879. docs jira: SCAL-?
+// Mark. jira: SCAL-216879. docs jira: SCAL-223905
 // PM: Mohil
 
 You can now manage all your Answer and Liveboard tags from one, convenient window. Just click the *Manage tags* button at the top of your list of Liveboards or Answers, then create, edit, and delete tags.
