@@ -773,5 +773,5 @@
 * xref:practice.adoc[ThoughtSpot in practice]
 ** xref:reaggregation-scenarios.adoc[Reaggregation in practice]
 ** xref:liveboard-gating-condition-example.adoc[Liveboard schedule gating conditions in practice]
-x`** xref:liveboard-hyperlink.adoc[Add a hyperlink to a search]
+** xref:liveboard-hyperlink.adoc[Add a hyperlink to a search]
 
