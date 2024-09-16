@@ -54,6 +54,7 @@
 **** xref:sync-zoho.adoc[Sync data to Zoho]
 *** xref:privileges-end-user.adoc[Privileges]
 *** xref:thoughtspot-sheets.adoc[Google Sheets add-on]
+*** xref:thoughtspot-excel.adoc[ThoughtSpot plugin for MS Excel]
 *** xref:thoughtspot-slides.adoc[Google Slides add-on]
 *** xref:spotdev.adoc[ThoughtSpot Dev Slack app]
 ** xref:analyst.adoc[Analysts]
@@ -772,5 +773,5 @@
 * xref:practice.adoc[ThoughtSpot in practice]
 ** xref:reaggregation-scenarios.adoc[Reaggregation in practice]
 ** xref:liveboard-gating-condition-example.adoc[Liveboard schedule gating conditions in practice]
-** xref:liveboard-hyperlink.adoc[Add a hyperlink to a search]
+x`** xref:liveboard-hyperlink.adoc[Add a hyperlink to a search]
 
