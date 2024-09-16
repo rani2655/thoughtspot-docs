@@ -296,12 +296,13 @@ image:connection-sort.png[Connections sorted by type]
 
 endif::free-trial-feature[]
 
+////
 [#10-3-0-cl-coach]
 [discrete]
 === Content-aware filter values for Sage Coach
 // Naomi. jira: SCAL-212191. docs jira: SCAL-?
-// PM: Alok, Anant
-
+// PM: Alok, Anant. release notes only.
+////
 
 // IT/ Ops Engineer
 
