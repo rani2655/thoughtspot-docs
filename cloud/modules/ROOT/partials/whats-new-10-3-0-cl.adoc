@@ -246,7 +246,7 @@ Each query log contains a comment as follows:
 isRLSApplied: true/false.
 ----
 ////
-// Mary. jira: SCAL-210151. 
+// Mary. jira: SCAL-210151.
 // PM: Damian
 
 
