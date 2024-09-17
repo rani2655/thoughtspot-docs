@@ -33,7 +33,7 @@ image::search-split.png[Natural language and object search]
 // Mark. jira: SCAL-216879. docs jira: SCAL-223905
 // PM: Mohil
 
-You can now manage all your Answer and Liveboard tags from one, convenient window. Just click the *Manage tags* button at the top of your list of Liveboards or Answers, then create, edit, and delete tags.
+You can now manage all your Answer and Liveboard tags from one, convenient window. Just click the *Manage tags* button at the top of your list of Liveboards or Answers, then create, edit, and delete tags. To delete and edit tags you must have administrator privileges or the “can manage tags” role if RBAC is enabled.
 
 [.bordered]
 image::tags-manage.png[]
@@ -72,7 +72,7 @@ We have updated the Portuguese date keyword synonyms.
 // Mark. jira: SCAL-217421. docs jira: SCAL-223957
 // PM: Dilip
 
-In this release, administrators can hide date previews in a date filter which uses a custom calendar. This ensures users are not confused if the values are incorrect, which can happen sometimes when using a custom calendar with a data filter. You can hide date previews in the following situations:
+In this release, administrators can hide date previews in a date filter which uses a custom calendar. This ensures users are not confused if the values are incorrect, which can happen sometimes when using a custom calendar with a date filter. You can hide date previews in the following situations:
 
 - Dates are rolling
 - Date window contains weeks, months, quarters or years
