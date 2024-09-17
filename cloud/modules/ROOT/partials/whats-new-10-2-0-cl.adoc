@@ -23,7 +23,7 @@ ThoughtSpot is informing customers in advance of a significant change to Thought
 
 Beginning in the 10.3.0.cl release, natural language search and object search are now separated. To search for an AI-generated answer using natural language, enter your question in the *Ask a business question in natural language* search bar on the home page. To search for related Answers and Liveboards, enter your question in the *Find existing Answers and Liveboards* search bar in the top navigation bar.
 
-For information on the changes in ThoughtSpot Embedded, see https://developers.thoughtspot.com/docs/full-app-customize#_search_experience[Search experience] in the ThoughtSpot developer documentation.
+For information on the changes in ThoughtSpot Embedded, see https://developers.thoughtspot.com/docs/full-app-customize#_search_experience[Search experience^] in the ThoughtSpot developer documentation.
 
 For any questions or concerns, contact {support-url}.
 

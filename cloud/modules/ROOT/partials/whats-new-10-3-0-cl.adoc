@@ -67,12 +67,12 @@ We have updated the Portuguese date keyword synonyms.
 
 [#10-3-0-cl-custom]
 [discrete]
-=== Hide date previews for custom calendars
+=== Hidden date previews in date filters using a custom calendar
 
 // Mark. jira: SCAL-217421. docs jira: SCAL-223957
 // PM: Dilip
 
-In this release, administrators can hide date previews in a date filter which uses a custom calendar. This ensures users are not confused if the values are incorrect, which can happen sometimes when using a custom calendar with a date filter. You can hide date previews in the following situations:
+In this release, previews are hidden in a date filter which uses a custom calendar. This ensures users are not confused if the values are incorrect, which can happen sometimes when using a custom calendar with a date filter. Date previews are hidden in the following situations:
 
 - Dates are rolling
 - Date window contains weeks, months, quarters or years
