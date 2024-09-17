@@ -1,5 +1,6 @@
 = ThoughtSpot Cloud Documentation
 :page-layout: home-branch-cloud
+:linkattrs:
 
 ++++
 <style>
@@ -225,3 +226,7 @@ Find topics for the common types of ThoughtSpot users.
 == What's new in ThoughtSpot Cloud
 
 include::partial$whats-new-10-1-0-cl.adoc[]
+
+== What's coming in the next release
+
+include::partial$whats-new-10-2-0-cl.adoc[]

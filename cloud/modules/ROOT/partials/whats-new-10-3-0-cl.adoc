@@ -20,9 +20,9 @@ endif::free-trial-feature[]
 === Natural language search and object search
 
 // Naomi. jira: SCAL-210305. docs jira: SCAL-221925
-// PM: Mohil, Neerav
+// PM: Mohil, Neerav. gif, not image. show natural language search and how to find an object (typeahead). show that the object search bar is present on every page.
 
-Natural language search and object search are now separated. To search for an AI-generated answer using natural language, enter your question in the *Ask a business question in natural language* search bar on the home page. To search for related Answers and Liveboards, enter your question in the *Find existing Answers and Liveboards* search bar in the top navigation bar.
+Natural language search and object search are now separated. To search for an AI-generated answer using natural language, enter your question in the search bar marked *Ask a business question in natural language*  on the home page. To search for related Answers and Liveboards, enter your question in the search bar marked *Find existing Answers and Liveboards* in the top navigation bar.
 
 image::search-split.png[Natural language and object search]
 
@@ -31,9 +31,9 @@ image::search-split.png[Natural language and object search]
 === Manage tags for Answers and Liveboards
 
 // Mark. jira: SCAL-216879. docs jira: SCAL-223905
-// PM: Mohil
+// PM: Mohil. add image with manage tags button?
 
-You can now manage all your Answer and Liveboard tags from one, convenient window. Just click the *Manage tags* button at the top of your list of Liveboards or Answers, then create, edit, and delete tags. To delete and edit tags you must have administrator privileges or the “can manage tags” role if RBAC is enabled.
+You can now manage all your Answer and Liveboard tags from one convenient window. Just click the *Manage tags* button at the top of your list of Liveboards or Answers, then create, edit, and delete tags. To delete and edit tags you must have administrator privileges or the “can manage tags” role if RBAC is enabled.
 
 [.bordered]
 image::tags-manage.png[]
@@ -47,14 +47,16 @@ image::tags-manage.png[]
 // Mary. jira: SCAL-199338. docs jira: SCAL-?
 // PM: Rahul PJP - awaiting confirmation from PM.
 
+////
 [#10-3-0-cl-a-z]
 [discrete]
 === Hidden A-Z view in new data panel experience
 
 // Mark. jira: SCAL-207541. docs jira: SCAL-?
-// PM: Alok (waiting for doc jira)
+// PM: Alok (waiting for doc jira). release notes only
 
 The A-Z view in the new data panel experience is now hidden by default. To make it visible, you must contact {support-url}.
+////
 
 [#10-3-0-cl-keywords]
 [discrete]
@@ -65,17 +67,19 @@ The A-Z view in the new data panel experience is now hidden by default. To make 
 
 We have updated the Portuguese date keyword synonyms.
 
+////
 [#10-3-0-cl-custom]
 [discrete]
-=== Hide date previews for custom calendars
+=== Hidden date previews in date filters using a custom calendar
 
 // Mark. jira: SCAL-217421. docs jira: SCAL-223957
-// PM: Dilip
+// PM: Dilip. release notes only.
 
-In this release, administrators can hide date previews in a date filter which uses a custom calendar. This ensures users are not confused if the values are incorrect, which can happen sometimes when using a custom calendar with a date filter. You can hide date previews in the following situations:
+In this release, previews are hidden in a date filter which uses a custom calendar. This ensures users are not confused if the values are incorrect, which can happen sometimes when using a custom calendar with a date filter. Date previews are hidden in the following situations:
 
 - Dates are rolling
 - Date window contains weeks, months, quarters or years
+////
 
 // Analyst
 
@@ -128,33 +132,23 @@ ifdef::pendo-links[]
 endif::[]
 
 // Naomi. jira: SCAL-211323. docs jira: SCAL-?
-// PM: Shruthi
+// PM: Shruthi. add image. main focuses: create extracts, advanced analytics,
 
 ThoughtSpot introduces Analyst Studio, where you can write ad-hoc SQL queries to analyze your data, create reusable Datasets, and share Datasets and visualizations to Liveboards or to team members. You can set schedules to refresh Datasets, or publish them to the Data Workspace, where you can join multiple Datasets to query as a whole.
 
 endif::free-trial-feature[]
 
+
+
+////
 [#10-3-0-cl-cohorts]
 [discrete]
 === Bug fixes for cohorts
 
 // Mary. jira: SCAL-217310. docs jira: SCAL-?
 // PM: Damian - internal bug fix, waiting for confirmation from PM but suspect no doc needed.
+////
 
-[#10-3-0-cl-okta]
-[discrete]
-=== Analyst Studio privilege control and user sync
-ThoughtSpot introduces a seamless and secure login and navigation experience for integrated Analyst Studio users by extending ThoughtSpot SSO, and local authentication.
-
-// Mary. jira: SCAL-211845. docs jira: SCAL-?
-// PM: Aashica - waiting for doc jira from PM
-
-[#10-3-0-cl-schedule]
-[discrete]
-=== Allow only ThougthSpot provisioned users and groups to be added to schedules
-ThoughtSpot schedules can be configured to prevent new and existing schedules from being sent to external emails. To enable this feature, contact {support-url}.
-// Mary. jira: SCAL-212742. docs jira: SCAL-223959
-// PM: Arpit
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
@@ -184,10 +178,10 @@ ifdef::pendo-links[]
 [discrete]
 === Liveboard schedule available to all users [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
-ThoughtSpot introduces access to Liveboard schedules on the home page. Users can now see all Liveboard schedules that they are subscribed to on the home page in a new section. You can edit Liveboard schedules that you created directly from this page. Administrators can edit the Liveboard schedule for all schedules from this page.
+ThoughtSpot introduces access to Liveboard schedules on the home page. Users can now see all Liveboard schedules that they are subscribed to in a new section on the home page. You can edit Liveboard schedules that you created directly from this page. Administrators can edit the Liveboard schedule for all schedules from this page.
 
 // Mary. jira: SCAL-160492. docs jira: SCAL-223961
-// PM: Arpit
+// PM: Arpit. add image with square around the left rail section on home page.
 
 endif::free-trial-feature[]
 
@@ -235,19 +229,37 @@ endif::free-trial-feature[]
 
 // Data Engineer
 
+[#10-3-0-cl-okta]
+[discrete]
+=== Analyst Studio privilege control and user sync
+ThoughtSpot introduces a seamless and secure sign-in and navigation experience for integrated Analyst Studio users by extending ThoughtSpot SSO and local authentication.
+
+// Mary. jira: SCAL-211845. docs jira: SCAL-?
+// PM: Aashica - waiting for doc jira from PM. check if GA or beta. move below the fold.
+
 
 [#10-3-0-cl-rls]
 [discrete]
 === Monitor the application of row-level security
-You can now track whether or not row-level security is applied to queries. Risk and compliance analysts can track the volume of queries with row-level security applied versus those without. A row-level security tag is included in the sql query. This provides the ability to determine the number of queries that have included row level security via the underlying database.
+You can now track whether or not row-level security is applied to queries. Risk and compliance analysts can track the volume of queries with row-level security applied versus those without. A row-level security tag is included in the sql query. This provides the ability to determine the number of queries that have included row-level security via the underlying database.
 ////
 Each query log contains a comment as follows:
 ----
 isRLSApplied: true/false.
 ----
 ////
-// Mary. jira: SCAL-210151.
-// PM: Damian
+
+// Mary. jira: SCAL-210151. 
+// PM: Damian. take a screenshot of how it looks in the sql query. does it look the same in the sql query as in the query log?
+
+[#10-3-0-cl-schedule]
+[discrete]
+=== Allow only ThoughtSpot users and groups to be added to schedules
+ThoughtSpot schedules can be configured to prevent new and existing schedules from being sent to external emails. To enable this feature, contact {support-url}.
+// Mary. jira: SCAL-212742. docs jira: SCAL-223959
+// PM: Arpit. is this beta?
+
+
 
 
 ifndef::free-trial-feature[]
