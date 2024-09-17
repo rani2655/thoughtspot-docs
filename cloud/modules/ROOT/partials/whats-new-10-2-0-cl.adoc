@@ -10,13 +10,13 @@ endif::[]
 // Business User
 
 [discrete]
-=== Important product announcement
+=== *Important product announcement*
 
 ThoughtSpot is informing customers in advance of a significant change to ThoughtSpot Cloud in the upcoming 10.3.0.cl release.
 
 [#10-2-0-cl-search-split]
 [discrete]
-==== Natural language search and object search
+=== Natural language search and object search
 
 // Naomi. jira: SCAL-210305. docs jira: SCAL-221925
 // PM: Mohil, Neerav
