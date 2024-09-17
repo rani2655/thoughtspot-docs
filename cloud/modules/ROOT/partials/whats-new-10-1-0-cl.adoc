@@ -451,7 +451,7 @@ ifdef::pendo-links[]
 xref:deprecation.adoc[Deprecated and removed features,window=_blank].
 endif::[]
 
-
+[#next-release]
 ifndef::free-trial-feature[]
 [discrete]
 === For the Developer
