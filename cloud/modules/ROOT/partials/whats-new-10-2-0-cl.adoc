@@ -19,7 +19,7 @@ ThoughtSpot is informing customers in advance of a significant change to Thought
 === Natural language search and object search
 
 // Naomi. jira: SCAL-210305. docs jira: SCAL-221925
-// PM: Mohil, Neerav
+// PM: Mohil, Neerav.
 
 Beginning in the 10.3.0.cl release, natural language search and object search are now separated. To search for an AI-generated answer using natural language, enter your question in the search bar marked *Ask a business question in natural language*  on the home page. To search for related Answers and Liveboards, enter your question in the search bar marked *Find existing Answers and Liveboards* in the top navigation bar.
 
