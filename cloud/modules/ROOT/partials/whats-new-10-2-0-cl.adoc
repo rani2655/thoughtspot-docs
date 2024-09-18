@@ -11,8 +11,7 @@ endif::[]
 
 ****
 
-[discrete]
-=== image:bell-ringing.svg[Inline]&nbsp;&nbsp;Important product announcement
++++<h3b id="_important_product_announcement" class="discrete"><span class="image"><img src="_images/bell-ringing.svg" alt="Inline"></span>&nbsp;&nbsp;Important product announcement</h3b>+++
 
 ThoughtSpot is informing customers in advance of a significant change to ThoughtSpot Cloud in the upcoming 10.3.0.cl release.
 
