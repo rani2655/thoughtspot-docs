@@ -9,8 +9,9 @@ endif::[]
 
 // Business User
 
-.Important product announcement
+.image:bell-ringing.svg[Inline,30] Important product announcement
 ****
+
 ThoughtSpot is informing customers in advance of a significant change to ThoughtSpot Cloud in the upcoming 10.3.0.cl release.
 
 [#10-2-0-cl-search-split]
