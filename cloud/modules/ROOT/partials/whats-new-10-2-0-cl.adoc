@@ -11,7 +11,8 @@ endif::[]
 
 ****
 
-image:bell-ringing.svg[] *Important product announcement*
+[discrete]
+=== image:bell-ringing.svg[Inline]&nbsp;&nbsp;Important product announcement
 
 ThoughtSpot is informing customers in advance of a significant change to ThoughtSpot Cloud in the upcoming 10.3.0.cl release.
 
