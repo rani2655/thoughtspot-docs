@@ -20,12 +20,10 @@ ThoughtSpot is informing customers in advance of a significant change to Thought
 // Naomi. jira: SCAL-210305. docs jira: SCAL-221925
 // PM: Mohil, Neerav
 
-Beginning in the 10.3.0.cl release, natural language search and object search are now separated. To search for an AI-generated answer using natural language, enter your question in the *Ask a business question in natural language* search bar on the home page. To search for related Answers and Liveboards, enter your question in the *Find existing Answers and Liveboards* search bar in the top navigation bar.
+Beginning in the 10.3.0.cl release, natural language search and object search are now separated. To search for an AI-generated answer using natural language, enter your question in the search bar marked *Ask a business question in natural language*  on the home page. To search for related Answers and Liveboards, enter your question in the search bar marked *Find existing Answers and Liveboards* in the top navigation bar.
 
 For information on the changes in ThoughtSpot Embedded, see https://developers.thoughtspot.com/docs/full-app-customize#_search_experience[Search experience^] in the ThoughtSpot developer documentation.
 
 For any questions or concerns, contact {support-url}.
 
-image::search-split.png[Natural language and object search]
-****
-
+image::search-split.png[Natural language search and object search]
