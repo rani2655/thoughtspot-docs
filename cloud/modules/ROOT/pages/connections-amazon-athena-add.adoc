@@ -10,7 +10,7 @@
 
 To connect to {connection}, follow these steps:
 
-ifndef::Spotter[]
+ifndef::spotter[]
 . Select *Data* in the top navigation bar.
 . Open the *Connections* tab in the left navigation bar, and select the *Others* tile. Alternatively, select *+ Create new* in the left navigation bar, select *Connection*, and select the {connection} tile.
 +
@@ -18,7 +18,7 @@ ifndef::Spotter[]
 +
 // ![]({{ site.baseurl }}/images/new-connection.png "New db connect")
 endif::[]
-ifdef::Spotter[]
+ifdef::spotter[]
 . Select *Manage data > Add data source* on the left side of the screen.
 . On the Set up new data source page, click *Continue*.
 +
