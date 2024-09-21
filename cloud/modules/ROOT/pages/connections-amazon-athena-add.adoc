@@ -20,7 +20,7 @@ ifndef::spotter[]
 endif::[]
 ifdef::spotter[]
 . Select *Manage data > Add data source* on the left side of the screen.
-. On the Set up new data source page, click *Continue*.
+. On the Set up a new data connection page, click *Connect data*.
 +
 [.bordered]
 image::connections-spotter-set-up-new-connection.png[]
