@@ -7,4 +7,5 @@ nav:
 asciidoc:
   attributes:
     form-factor: Cloud
+    model: Model
     #page-layout: default-cloud
