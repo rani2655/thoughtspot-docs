@@ -153,6 +153,7 @@ See the xref:connections-snowflake-reference.adoc[Connection reference] for deta
 
 We also recommend that you review xref:connections-snowflake-best.adoc[Best practices for {connection} connections].
 
+ifndef::spotter[]
 == Sharing a connection
 
 Users with *can manage data* or *admin* privileges can share connections with other users or groups that have *can manage data* privileges. Once granted access to a connection, users can add, remove, and modify tables in that connection.
@@ -173,6 +174,7 @@ Note that to remove share access from a connection, you must navigate to the *Sh
 include::partial$connection-create-additional-config.adoc[]
 
 You can edit additional configurations after you create them, including disabling and deleting them. For details, see xref:connections-snowflake-edit.adoc#edit-additional-connections[Edit additional connections of your {connection} connection].
+endif::[]
 
 '''
 > **Related information**
