@@ -64,6 +64,10 @@ image::connection-spotter-set-up-new-connection-2.png[]
 
 include::partial$model-build.adoc[]
 
+== Coach Spotter
+
+
+
 endif::[]
 ifndef::spotter[]
 +
