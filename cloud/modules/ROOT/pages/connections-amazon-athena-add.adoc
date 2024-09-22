@@ -59,10 +59,12 @@ A message appears indicating the number of tables and columns that will be added
 ifdef::spotter[]
 +
 [.bordered]
-image::connection-spotter-set-up-new-connection-2.png[]
+image::connection-spotter-set-up-new-connection-2.png[connection created]
 . On the _Add a data source_ page, click *Model your data*.
 
 include::partial$model-build.adoc[]
++
+image::connection-spotter-set-up-new-connection-3.png[model created]
 
 == Coach Spotter
 
