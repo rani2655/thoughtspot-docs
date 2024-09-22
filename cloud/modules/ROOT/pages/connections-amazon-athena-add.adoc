@@ -56,11 +56,13 @@ image::snowflake-selecttables.png[Select tables and columns for your connection]
 A message appears indicating the number of tables and columns that will be added to your connection.
 
 . Select *Create*.
-ifdef::spotter[]
+ifndef::spotter[]
 +
 [.bordered]
-image::connection-spotter-set-up-new-connection-2[]
+image::connection-spotter-set-up-new-connection-2.png[]
 . On the _Add a data source_ page, click *Model your data*.
+
+include::partial$model-build.adoc[]
 
 endif::[]
 ifndef::spotter[]
