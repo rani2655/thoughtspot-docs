@@ -192,7 +192,10 @@ To add parameters to your {model}, do the following:
 image::model_parameters.png[Add a parameter]
 . In the _Parameter name_ text box, enter a name for your Parameter. This name should be unique for the object, and easy for users to understand.
 . Optionally, enter a description for the Parameter in the _Add a description_ text box. Use this field to add additional information users might need before using this Parameter in their analysis. It is a best practice to use this field to specify the formulas this Parameter is used in, in addition to any other information you add.
-. Under _Data settings_, specify the data type the Parameter must be: Integer, Double, String, Boolean, or Date. For more information about data types, refer to xref:data-types.adoc[Data types].
+. Under _Data settings_, specify the data type the Parameter must be: Integer, Double, String, Boolean, or Date.
+ifndef::spotter[]
+For more information about data types, refer to xref:data-types.adoc[Data types].
+endif::[]
 . For integer, double, or date data types, specify the allowed values: Any, List, or Range. For the string data type, specify either _Any_ or _List_.
 +
 [horizontal]
