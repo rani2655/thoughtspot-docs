@@ -59,13 +59,21 @@ A message appears indicating the number of tables and columns that will be added
 ifdef::spotter[]
 +
 [.bordered]
-image::connection-spotter-set-up-new-connection-2.png[]
+image::connection-spotter-set-up-new-connection-2.png[connection created]
 . On the _Add a data source_ page, click *Model your data*.
 
 include::partial$model-build.adoc[]
++
+image::connection-spotter-set-up-new-connection-3.png[model created]
 
 == Coach Spotter
 
+You can teach Spotter how your organization uses your data by asking some questions, viewing the answers and help refine them by giving feedback. This will help Spotter to provide the kinds of answers you are looking for based on how your ask your questions. You can skip this step, and coach Spotter later by going to *Manage data > Manage data sources* and clicking *Train Spotter*.
+
+To Coach Spotter, do the following:
+
+. Select your data set if is not already selected.
+. In the field to the right of the data set name, enter a business question and click *Next*.
 
 
 endif::[]
