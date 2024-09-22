@@ -69,13 +69,35 @@ image::connection-spotter-set-up-new-connection-3.png[model created]
 
 == Coach Spotter
 
-You can teach Spotter how your organization uses your data by asking some questions, viewing the answers and help refine them by giving feedback. This will help Spotter to provide the kinds of answers you are looking for based on how your ask your questions. You can skip this step, and coach Spotter later by going to *Manage data > Manage data sources* and clicking *Train Spotter*.
+You can teach Spotter how your organization uses your data by asking some questions, viewing the answers and help refine them by giving feedback. This will help Spotter to provide the kinds of answers you are looking for based on how your ask your questions. You can skip this step by clicking *Skip*. To coach Spotter later, go to *Manage data > Coach Spotter*, then click *Add coaching*.
 
 To Coach Spotter, do the following:
 
 . Select your data set if is not already selected.
 . In the field to the right of the data set name, enter a business question and click *Next*.
-
++
+[.bordered]
+image::spotter-coach-1.png[]
++
+The AI-generated answer appears.
+[.bordered]
+image::spotter-coach-2.png[]
+. Modify the answer, as needed, by adding columns using the list on the left or by typing the column name next to existing search tokens, which appear next to the name of the data set.
+. When you are happy with the answer, click *Next*.
++
+[.bordered]
+image::spotter-coach-3.png[]
+. Review the search phrases you typed and their mapped search tokens.
+. Approve or reject mapped search tokens by doing the following:
+.. To approve, click the green check mark
+[.bordered]
+image:spotter-approve-mapping.png[] .
+.. To reject, click the red X
+[.bordered]
+image:spotter-reject-mapping.png[].
+. To ask more questions, click *Ask another question*.
+. When you are finished, click *Done*.
+>>>>>>> 5a704d546 (spotter training)
 
 endif::[]
 ifndef::spotter[]
