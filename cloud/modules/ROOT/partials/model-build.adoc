@@ -229,10 +229,7 @@ To set properties for your {model}, do the following:
 . For _Security_ you have the option to disable row level security for your data model.
 +
 image::model_settings.png[Model settings]
-. Click *Save changes*.
-
-==== Understanding progressive joins
-
++
 Often, a {model} includes several dimension tables and a fact table.
 With progressive joins, if your search only includes terms from the fact table, you can see all of the rows that satisfy your search.
 But as you add terms from dimension tables, the total number of rows shown may be reduced, as the joins to each dimension table are applied.
@@ -240,7 +237,9 @@ It works like this:
 
 * If you choose *Apply joins progressively (recommended for most cases)*, joins are only applied for tables whose columns are included in the search.
 * If you choose *Apply all joins*, all possible joins are applied, regardless of which tables are included in the search.
-
++
 When using *Apply joins progressively*, the number of rows in a search using the {model} depends on which tables are part of the search.
 The {model} contains the results of a defined query in the form of a table.
 So if a particular dimension table is left out of the search, its joins are not applied.
+. Click *Save changes*.
+
