@@ -7,3 +7,4 @@ nav:
 asciidoc:
   attributes:
     form-factor: Cloud
+    model: Model
