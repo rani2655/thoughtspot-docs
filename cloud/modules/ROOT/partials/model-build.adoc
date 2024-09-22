@@ -1,5 +1,10 @@
 [#build-model]
+ifndef::spotter[]
 == Building your {model}
+endif::[]
+ifdef::spotter[]
+== Model your data
+endif::[]
 
 After creating your {model}, you need to add the sources that contain the data.
 A source is another name for a table. You do that using the {model} editor. If you chose an existing model, you can make changes to your model.
