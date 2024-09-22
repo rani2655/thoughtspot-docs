@@ -66,6 +66,12 @@ include::partial$model-build.adoc[]
 
 == Coach Spotter
 
+You can teach Spotter how your organization uses your data by asking some questions, viewing the answers and help refine them by giving feedback. This will help Spotter to provide the kinds of answers you are looking for based on how your ask your questions. You can skip this step, and coach Spotter later by going to *Manage data > Manage data sources* and clicking *Train Spotter*.
+
+To Coach Spotter, do the following:
+
+. Select your data set if is not already selected.
+. In the field to the right of the data set name, enter a business question and click *Next*.
 
 
 endif::[]
