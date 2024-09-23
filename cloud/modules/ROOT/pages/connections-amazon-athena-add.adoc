@@ -90,10 +90,10 @@ image::spotter-coach-2.png[]
 image::spotter-coach-3.png[]
 . Review the search phrases you typed and their mapped search tokens.
 . Approve or reject mapped search tokens by doing the following:
-.. To approve, click the green check mark
+- To approve, click the green check mark
 [.bordered]
 image:spotter-approve-mapping.png[] .
-.. To reject, click the red X
+- To reject, click the red X
 [.bordered]
 image:spotter-reject-mapping.png[].
 . To ask more questions, click *Ask another question*.
