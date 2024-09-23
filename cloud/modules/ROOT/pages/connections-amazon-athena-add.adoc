@@ -83,12 +83,12 @@ image::spotter-coach-1.png[]
 The AI-generated Answer appears.
 [.bordered]
 image::spotter-coach-2.png[]
-. Modify the answer, as needed, by adding columns using the list on the left or by typing the column name next to existing search tokens, which appear next to the name of the data set.
+. Modify the answer, as needed, by adding columns using the list on the left or by entering the column name next to the existing search tokens in the search field next to the name of the data set.
 . When you are satisfied with the answer, click *Next*.
 +
 [.bordered]
 image::spotter-coach-3.png[]
-. Review the business terms used for the search phrase you typed and their mapped search tokens.
+. Review the business terms generated from the search phrase you entered and their mapped search tokens.
 . Approve or reject mapped search tokens by doing the following:
 - To approve, click the green check mark
 [.bordered]
@@ -96,7 +96,7 @@ image:spotter-approve-mapping.png[].
 - To reject, click the red X
 [.bordered]
 image:spotter-reject-mapping.png[].
-. To ask more questions, click *Ask another question*.
+. To ask another question, click *Ask another question*.
 . When you are finished, click *Done*.
 
 Now you are ready to use Spotter with your data set.
