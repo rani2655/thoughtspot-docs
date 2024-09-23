@@ -70,7 +70,7 @@ image::connection-spotter-set-up-new-connection-3.png[model created]
 
 == Coach Spotter
 
-You can teach Spotter how your organization uses your data by asking some questions, viewing the answers and refining them through your feedback. This helps Spotter to provide the kinds of answers you are looking for based on how your ask your questions. You can skip this step by clicking *Skip*. To coach Spotter later, go to *Manage data > Coach Spotter*, then click *Add coaching*.
+You can teach Spotter how your organization uses your data by asking some questions, viewing the answers and refining them through your feedback. This helps Spotter to provide the kinds of answers you are looking for based on how you ask your questions. You can skip this step by clicking *Skip*. To coach Spotter later, go to *Manage data > Coach Spotter*, then click *Add coaching*.
 
 To Coach Spotter, do the following:
 
