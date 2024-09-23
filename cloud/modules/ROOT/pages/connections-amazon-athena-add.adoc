@@ -70,35 +70,36 @@ image::connection-spotter-set-up-new-connection-3.png[model created]
 
 == Coach Spotter
 
-You can teach Spotter how your organization uses your data by asking some questions, viewing the answers and help refine them by giving feedback. This will help Spotter to provide the kinds of answers you are looking for based on how your ask your questions. You can skip this step by clicking *Skip*. To coach Spotter later, go to *Manage data > Coach Spotter*, then click *Add coaching*.
+You can teach Spotter how your organization uses your data by asking some questions, viewing the answers and refining them through your feedback. This helps Spotter to provide the kinds of answers you are looking for based on how your ask your questions. You can skip this step by clicking *Skip*. To coach Spotter later, go to *Manage data > Coach Spotter*, then click *Add coaching*.
 
 To Coach Spotter, do the following:
 
-. Select your data set if is not already selected.
+. Select your data set, if it is not already selected.
 . In the field to the right of the data set name, enter a business question and click *Next*.
 +
 [.bordered]
 image::spotter-coach-1.png[]
 +
-The AI-generated answer appears.
+The AI-generated Answer appears.
 [.bordered]
 image::spotter-coach-2.png[]
 . Modify the answer, as needed, by adding columns using the list on the left or by typing the column name next to existing search tokens, which appear next to the name of the data set.
-. When you are happy with the answer, click *Next*.
+. When you are satisfied with the answer, click *Next*.
 +
 [.bordered]
 image::spotter-coach-3.png[]
-. Review the search phrases you typed and their mapped search tokens.
+. Review the business terms used for the search phrase you typed and their mapped search tokens.
 . Approve or reject mapped search tokens by doing the following:
 - To approve, click the green check mark
 [.bordered]
-image:spotter-approve-mapping.png[] .
+image:spotter-approve-mapping.png[].
 - To reject, click the red X
 [.bordered]
 image:spotter-reject-mapping.png[].
 . To ask more questions, click *Ask another question*.
 . When you are finished, click *Done*.
->>>>>>> 5a704d546 (spotter training)
+
+Now you are ready to use Spotter with your data set.
 
 endif::[]
 
