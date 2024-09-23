@@ -56,6 +56,7 @@ image::snowflake-selecttables.png[Select tables and columns for your connection]
 A message appears indicating the number of tables and columns that will be added to your connection.
 
 . Select *Create*.
+
 ifdef::spotter[]
 +
 [.bordered]
@@ -100,6 +101,7 @@ image:spotter-reject-mapping.png[].
 >>>>>>> 5a704d546 (spotter training)
 
 endif::[]
+
 ifndef::spotter[]
 +
 Once the connection is added, you can search your {connection} database right away by selecting *Search now*.
