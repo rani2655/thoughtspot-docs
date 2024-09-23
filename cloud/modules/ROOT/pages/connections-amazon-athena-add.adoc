@@ -83,7 +83,7 @@ image::spotter-coach-1.png[]
 The AI-generated Answer appears.
 [.bordered]
 image::spotter-coach-2.png[]
-. Modify the answer, as needed, by adding columns using the list on the left or by entering the column name next to the existing search tokens in the search field next to the name of the data set.
+. Modify the answer, as needed, by adding columns using the list on the left, or by entering the column name next to the existing search tokens in the search field next to the name of the data set.
 . When you are satisfied with the answer, click *Next*.
 +
 [.bordered]
