@@ -272,7 +272,7 @@ isRLSApplied: true/false.
 === Allow only ThoughtSpot users and groups to be added to schedules
 
 // Mary. jira: SCAL-212742. docs jira: SCAL-223959
-// PM: Arpit. waiting for confirmation of beta or EA
+// PM: Pitchika Dilip. waiting for confirmation of beta or EA
 
 ThoughtSpot schedules can be configured to prevent new and existing schedules from being sent to external emails. To enable this feature, contact {support-url}.
 
