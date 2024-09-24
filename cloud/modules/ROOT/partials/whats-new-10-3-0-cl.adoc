@@ -69,19 +69,6 @@ You can now create alerts directly from the Watchlist on the home page.
 [.bordered]
 image::create-alert.png[]
 
-
-
-////
-[#10-3-0-cl-a-z]
-[discrete]
-=== Hidden A-Z view in new data panel experience
-
-// Mark. jira: SCAL-207541. docs jira: SCAL-?
-// PM: Alok (waiting for doc jira). release notes only
-
-The A-Z view in the new data panel experience is now hidden by default. To make it visible, you must contact {support-url}.
-////
-
 [#10-3-0-cl-keywords]
 [discrete]
 === Portuguese (Brazil) keywords
@@ -90,20 +77,6 @@ The A-Z view in the new data panel experience is now hidden by default. To make 
 // PM: Aashna
 
 We have updated the Portuguese date keyword synonyms.
-
-////
-[#10-3-0-cl-custom]
-[discrete]
-=== Hidden date previews in date filters using a custom calendar
-
-// Mark. jira: SCAL-217421. docs jira: SCAL-223957
-// PM: Dilip. release notes only.
-
-In this release, previews are hidden in a date filter which uses a custom calendar. This ensures users are not confused if the values are incorrect, which can happen sometimes when using a custom calendar with a date filter. Date previews are hidden in the following situations:
-
-- Dates are rolling
-- Date window contains weeks, months, quarters or years
-////
 
 // Analyst
 
