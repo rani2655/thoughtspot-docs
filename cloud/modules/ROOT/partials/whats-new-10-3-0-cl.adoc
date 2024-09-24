@@ -50,7 +50,7 @@ endif::pendo-links[]
 // Mark. jira: SCAL-216879. docs jira: SCAL-223905
 // PM: Mohil. add image with manage tags button?
 
-You can now manage all your Answer and Liveboard tags from one convenient window. Just click the *Manage tags* button at the top of your list of Liveboards or Answers, then create, edit, and delete tags. To delete and edit tags you must have administrator privileges or the “can manage tags” role if RBAC is enabled.
+You can now manage all your Answer and Liveboard tags from one convenient window. Just click the *Manage tags* button at the top of your list of Liveboards or Answers, then create, edit, and delete tags. To delete and edit tags you must have administrator privileges or the *can manage tags* role if RBAC is enabled.
 
 [.bordered]
 image::liveboards_manage_tags.png[]
@@ -61,7 +61,7 @@ image::tags-manage.png[]
 
 [#10-3-0-cl-alert]
 [discrete]
-=== Create an alert from a Watchlist on the home page
+=== Create an alert from the Watchlist on the home page
 
 // Mary. jira: SCAL-199338. docs jira: SCAL-224679
 // PM: Rahul PJP
@@ -162,7 +162,7 @@ ifdef::pendo-links[]
 endif::[]
 
 // Mary. jira: SCAL-208470. docs jira: SCAL-?
-// PM: Dilip - waiting for more information and doc JIRA (currently marked as no doc needed). PM says there is no functional change, but the scree caps and instructions definitely require updating (https://docs.thoughtspot.com/cloud/latest/liveboard-schedule). Not sure if it should be included in the WN.
+// PM: Dilip - waiting for more information and doc JIRA (currently marked as no doc needed). PM says there is no functional change, but the screen caps and instructions definitely require updating (https://docs.thoughtspot.com/cloud/latest/liveboard-schedule). Not sure if it should be included in the WN.
 
 endif::free-trial-feature[]
 
@@ -179,9 +179,9 @@ ifdef::pendo-links[]
 endif::[]
 
 // Mary. jira: SCAL-160492. docs jira: SCAL-223961
-// PM: Arpit. add image with square around the left rail section on home page.
+// PM: Arpit. add image with square around the left rail section on home page. update the image to remove "unable to load chart".
 
-ThoughtSpot introduces access to Liveboard schedules on the home page. Users can now see all Liveboard schedules that they are subscribed to in a new section on the home page. You can edit Liveboard schedules that you created directly from this page. Administrators can edit the Liveboard schedule for all schedules from this page.
+ThoughtSpot introduces access to Liveboard schedules on the home page. Users can now see all Liveboard schedules that they are subscribed to in a new section on the home page. From this page, you can edit Liveboard schedules that you created. Administrators can edit the Liveboard schedule for all schedules from this page.
 
 [.bordered]
 image::home-lb-schedule.png[]
@@ -202,10 +202,10 @@ ifdef::pendo-links[]
 endif::[]
 
 // Mary. jira: SCAL-210168. docs jira: SCAL-220583
-// PM: Damian - waiting for more information from PM
+// PM: Damian - waiting for more information from PM. where are you disabling date and timestamp columns? what are the filtering references being used for?
 
 
-You can now customize and enable or disable  ThoughtSpot date and timestamp columns. You can use this functionality to prevent filtering references at intervals less than daily.
+You can now customize and enable or disable ThoughtSpot date and timestamp columns. You can use this to prevent filtering references at intervals that are shorter than daily.
 
 endif::free-trial-feature[]
 
@@ -223,9 +223,9 @@ ifdef::pendo-links[]
 endif::[]
 
 // Mary. jira: SCAL-210167. docs jira: SCAL-220585
-// PM: Damian - waiting for more information from PM
+// PM: Damian - waiting for more information from PM. where can you define them? Image? should it be below the fold bc it's an admin feature?
 
-You can now define mandatory date column filters that must be used when running a query. This can be defined by an administrator to prevent users from executing queries without a date range that could have both performance and cost implications on the underlying data platform.
+You can now define mandatory date column filters that must be used when running a query. An administrator can define this to prevent users from executing queries without a date range, which could have both performance and cost implications on the underlying data platform.
 
 
 endif::free-trial-feature[]
@@ -257,15 +257,16 @@ Users with the *Can use Analyst Studio* privilege will see *Analyst Studio* in t
 === Monitor the application of row-level security
 
 // Mary. jira: SCAL-210151.
-// PM: Damian. take a screenshot of how it looks in the sql query. does it look the same in the sql query as in the query log? - still waiting for clarification from Damian.
+// PM: Damian. take a screenshot of how it looks in the sql query. does it look the same in the sql query as in the query log? - still waiting for clarification from Damian. May add query log comment to article/ release notes but maybe not in the what's new.
 
 You can now track whether or not row-level security is applied to queries. Risk and compliance analysts can track the volume of queries with row-level security applied versus those without. A row-level security tag is included in the sql query. This provides the ability to determine the number of queries that have included row-level security via the underlying database.
 
+////
 Each query log contains a comment as follows:
 ----
 isRLSApplied: true/false.
 ----
-
+////
 
 
 
@@ -274,7 +275,7 @@ isRLSApplied: true/false.
 === Allow only ThoughtSpot users and groups to be added to schedules
 
 // Mary. jira: SCAL-212742. docs jira: SCAL-223959
-// PM: Pitchika Dilip. waiting for confirmation of beta or EA
+// PM: Pitchika Dilip. waiting for confirmation of beta or EA. is it the schedule that is being emailed? Or content that is sent on a schedule? Might want to rephrase this as "prevent new and existing schedules from delivering content to external email addresses".
 
 ThoughtSpot schedules can be configured to prevent new and existing schedules from being sent to external emails. To enable this feature, contact {support-url}.
 
