@@ -108,7 +108,7 @@ image::connection-spotter-set-up-new-connection-5.png[]
 Now you are ready to use Spotter with your data set.
 
 . Click *Chat*.
-. On the _Spotter_ page, enter a question in the _Ask a question_ field, and click the submit button image:spotter-submit.png[submit chat button].
+. On the _Spotter_ page, enter a question in the _Ask a question_ field, and click the submit button image:spotter-submit.png[submit chat button,width="40px"].
 +
 image::spotter-chat-box.png[chat box]
 . Edit the answers, if needed, by clicking the *Edit* link next to the search tokens of the Spotter answer.
