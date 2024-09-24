@@ -18,7 +18,7 @@ ifndef::spotter[]
 +
 // ![]({{ site.baseurl }}/images/new-connection.png "New db connect")
 endif::[]
-ifndef::spotter[]
+ifdef::spotter[]
 . Select *Manage data > Add data source* on the left side of the screen.
 . On the _Add a data source_ page, click *Connect data*.
 +
