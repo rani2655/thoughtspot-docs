@@ -59,10 +59,17 @@ image::tags-manage.png[]
 
 [#10-3-0-cl-alert]
 [discrete]
-=== Add alert functionality in Watchlist
+=== Create an alert from a Watchlist on the home page
 
-// Mary. jira: SCAL-199338. docs jira: SCAL-?
-// PM: Rahul PJP - awaiting confirmation from PM.
+// Mary. jira: SCAL-199338. docs jira: SCAL-224679
+// PM: Rahul PJP
+
+You can now create alerts directly from the Watchlist on the home page.
+
+[.bordered]
+image::create-alert.png[]
+
+
 
 ////
 [#10-3-0-cl-a-z]
@@ -163,7 +170,7 @@ endif::free-trial-feature[]
 === Bug fixes for cohorts
 
 // Mary. jira: SCAL-217310. docs jira: SCAL-?
-// PM: Damian - internal bug fix, waiting for confirmation from PM but suspect no doc needed.
+// PM: Damian - internal bug fix no doc needed.
 ////
 
 
@@ -180,7 +187,7 @@ ifdef::pendo-links[]
 endif::[]
 
 // Mary. jira: SCAL-208470. docs jira: SCAL-?
-// PM: Dilip - waiting for more information and doc JIRA (currently marked as no doc needed)
+// PM: Dilip - waiting for more information and doc JIRA (currently marked as no doc needed). PM says there is no functional change, but the scree caps and instructions definitely require updating (https://docs.thoughtspot.com/cloud/latest/liveboard-schedule). Not sure if it should be included in the WN.
 
 endif::free-trial-feature[]
 
@@ -195,10 +202,15 @@ ifdef::pendo-links[]
 [discrete]
 === Liveboard schedule available to all users [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
-ThoughtSpot introduces access to Liveboard schedules on the home page. Users can now see all Liveboard schedules that they are subscribed to in a new section on the home page. You can edit Liveboard schedules that you created directly from this page. Administrators can edit the Liveboard schedule for all schedules from this page.
 
 // Mary. jira: SCAL-160492. docs jira: SCAL-223961
 // PM: Arpit. add image with square around the left rail section on home page.
+
+ThoughtSpot introduces access to Liveboard schedules on the home page. Users can now see all Liveboard schedules that they are subscribed to in a new section on the home page. You can edit Liveboard schedules that you created directly from this page. Administrators can edit the Liveboard schedule for all schedules from this page.
+
+[.bordered]
+image::home-lb-schedule.png[]
+
 
 endif::free-trial-feature[]
 
@@ -211,11 +223,14 @@ endif::[]
 ifdef::pendo-links[]
 [#10-3-0-cl-bucket]
 [discrete]
-=== Date bucket interval for date columns [.badge.badge-beta-whats-new]#Beta#
+=== ThoughtSpot introduces additional controls for date bucket intervals in date columns [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
 // Mary. jira: SCAL-210168. docs jira: SCAL-220583
 // PM: Damian - waiting for more information from PM
+
+
+You can now customize and enable or disable  ThoughtSpot date and timestamp columns. You can use this functionality to prevent filtering references at intervals less than daily.
 
 endif::free-trial-feature[]
 
@@ -235,6 +250,9 @@ endif::[]
 // Mary. jira: SCAL-210167. docs jira: SCAL-220585
 // PM: Damian - waiting for more information from PM
 
+You can now define mandatory date column filters that must be used when running a query. This can be defined by an administrator to prevent users from executing queries without a date range that could have both performance and cost implications on the underlying data platform.
+
+
 endif::free-trial-feature[]
 
 
@@ -249,32 +267,42 @@ endif::free-trial-feature[]
 [#10-3-0-cl-okta]
 [discrete]
 === Analyst Studio privilege control and user sync
-ThoughtSpot introduces a seamless and secure sign-in and navigation experience for integrated Analyst Studio users by extending ThoughtSpot SSO and local authentication.
 
-// Mary. jira: SCAL-211845. docs jira: SCAL-?
+// Mary. jira: SCAL-211845. docs jira: SCAL-224995
 // PM: Aashica - waiting for doc jira from PM. check if GA or beta. move below the fold.
+
+ThoughtSpot introduces a seamless and secure sign-in and navigation experience for integrated Analyst Studio users by extending ThoughtSpot SSO and local authentication.
+Users with the *Can use Analyst Studio* privilege will see *Analyst Studio* in the app switcher. They can use the app switcher to navigate to Analyst Studio without re-authenticating.
+
+
 
 
 [#10-3-0-cl-rls]
 [discrete]
 === Monitor the application of row-level security
+
+// Mary. jira: SCAL-210151.
+// PM: Damian. take a screenshot of how it looks in the sql query. does it look the same in the sql query as in the query log? - still waiting for clarification from Damian.
+
 You can now track whether or not row-level security is applied to queries. Risk and compliance analysts can track the volume of queries with row-level security applied versus those without. A row-level security tag is included in the sql query. This provides the ability to determine the number of queries that have included row-level security via the underlying database.
-////
+
 Each query log contains a comment as follows:
 ----
 isRLSApplied: true/false.
 ----
-////
 
-// Mary. jira: SCAL-210151. 
-// PM: Damian. take a screenshot of how it looks in the sql query. does it look the same in the sql query as in the query log?
+
+
 
 [#10-3-0-cl-schedule]
 [discrete]
 === Allow only ThoughtSpot users and groups to be added to schedules
-ThoughtSpot schedules can be configured to prevent new and existing schedules from being sent to external emails. To enable this feature, contact {support-url}.
+
 // Mary. jira: SCAL-212742. docs jira: SCAL-223959
-// PM: Arpit. is this beta?
+// PM: Arpit. waiting for confirmation of beta or EA
+
+ThoughtSpot schedules can be configured to prevent new and existing schedules from being sent to external emails. To enable this feature, contact {support-url}.
+
 
 
 
