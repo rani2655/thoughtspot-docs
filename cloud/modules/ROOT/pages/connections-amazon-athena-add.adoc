@@ -18,7 +18,7 @@ ifndef::spotter[]
 +
 // ![]({{ site.baseurl }}/images/new-connection.png "New db connect")
 endif::[]
-ifdef::spotter[]
+ifndef::spotter[]
 . Select *Manage data > Add data source* on the left side of the screen.
 . On the _Add a data source_ page, click *Connect data*.
 +
@@ -57,7 +57,7 @@ A message appears indicating the number of tables and columns that will be added
 
 . Select *Create*.
 
-ifndef::spotter[]
+ifdef::spotter[]
 +
 [.bordered]
 image::connection-spotter-set-up-new-connection-2.png[connection created]
@@ -100,6 +100,7 @@ image:spotter-reject-mapping.png[].
 . To ask another question, click *Ask another question*.
 . When you are finished, click *Done*.
 +
+[.bordered]
 image::connection-spotter-set-up-new-connection-5.png[]
 
 == Chat with your data
