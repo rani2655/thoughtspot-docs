@@ -242,4 +242,6 @@ When using *Apply joins progressively*, the number of rows in a search using the
 The {model} contains the results of a defined query in the form of a table.
 So if a particular dimension table is left out of the search, its joins are not applied.
 . Click *Save changes*.
+. In the _Describe your model_ window, name and describe your model (if you haven't already), and click *Save*.
+. Click *Exit data model*.
 
