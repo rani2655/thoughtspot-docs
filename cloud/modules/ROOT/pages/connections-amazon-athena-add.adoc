@@ -107,11 +107,13 @@ image::connection-spotter-set-up-new-connection-5.png[]
 Now you are ready to use Spotter with your data set.
 
 . Click *Chat*.
-. On the _Spotter_ page, enter a question in the _Ask a question_ field, and click the submit button image:spotter-submit.png[submit chat button].
+. On the _Spotter_ page, enter a question in the _Ask a question_ field, and click the submit button image:spotter-submit.png[submit chat button,width="40px"].
 +
+[.bordered]
 image::spotter-chat-box.png[chat box]
 . Edit the answers, if needed, by clicking the *Edit* link next to the search tokens of the Spotter answer.
 +
+[.bordered]
 image::spotter-answer.png[]
 . Continue using the chat field to ask questions of your data.
 . If you want to save your chat history, click *Save* above the search field. After you save your chat once, each additional question you ask, and the answer, are saved automatically.
