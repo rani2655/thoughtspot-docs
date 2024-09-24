@@ -118,6 +118,8 @@ image::spotter-chat-box.png[chat box]
 image::spotter-answer.png[]
 . Continue using the chat field to ask questions of your data.
 . If you want to save your chat history, click *Save* above the search field. After you save your chat once, each additional question you ask, and the answer, are saved automatically.
++
+You can view any of your saved chats and continue asking questions by going to the *Saved Chats* list on the Spotter page, clicking the name of the dataset you chatted with, and then clicking the name of the saved chat.
 
 endif::[]
 
