@@ -55,7 +55,7 @@ If not, select *Continue*.
  .. In the next {connection} screen, allow ThoughtSpot to access your {connection} account by selecting *Allow*, and then go to step 7 to select tables for your connection.
 +
 Using security passthrough may have implications for your row-level security.
-See xref:security-rls.adoc[About row-level security (RLS)] for more information.
+See xref:{latest}@cloud:ROOT:security-rls.adoc[About row-level security (RLS)] for more information.
 
 +
 - For Microsoft Azure AD or Okta OAuth authentication, do the following:
@@ -191,6 +191,6 @@ endif::[]
 > * xref:connections-snowflake-private-link.adoc[]
 > * xref:connections-snowflake-psc.adoc[]
 > * xref:connections-snowflake-reference.adoc[Connection reference for {connection}]
-> * xref:connections-query-tags.adoc#tag-snowflake[ThoughtSpot query tags in Snowflake]
+> * xref:{latest}@cloud:ROOT:connections-query-tags.adoc#tag-snowflake[ThoughtSpot query tags in Snowflake]
 > * xref:connections-snowflake-passthrough.adoc[]
 
