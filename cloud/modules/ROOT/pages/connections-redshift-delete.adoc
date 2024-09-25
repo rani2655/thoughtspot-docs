@@ -40,5 +40,5 @@ Otherwise, go to the next step.
 > * xref:connections-redshift-aws-idc-oauth.adoc[]
 > * xref:connections-redshift-azure-ad-oauth.adoc[]
 > * xref:connections-redshift-partner.adoc[Redshift Partner Connect overview]
-> * xref:{latest}@cloud:ROOT:connections-query-tags.adoc#tag-redshift[ThoughtSpot query tags in Redshift]
+> * xref:10.1.0.cl@cloud:ROOT:connections-query-tags.adoc#tag-redshift[ThoughtSpot query tags in Redshift]
 > * xref:connections-redshift-passthrough.adoc[]
