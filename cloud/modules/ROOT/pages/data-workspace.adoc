@@ -26,6 +26,7 @@ There are several types of data sources that you may see in the data list.
 They are
 ifndef::spotter[]
 tables,
+endif::[]
 ifdef::spotter[]
 Worksheets and tables.
 endif::[]
