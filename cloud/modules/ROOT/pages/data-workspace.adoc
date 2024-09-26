@@ -17,13 +17,24 @@ image::manage-data-page-new.png[Data workspace home page]
 endif::[]
 
 ifdef::spotter[]
+[.bordered]
 image::spotter-data-workspace.png[Data workspace home page in Spotter]
 endif::[]
 
 The home page of the *Data workspace* lists all the data sources available to you.
 There are several types of data sources that you may see in the data list.
-They are tables, Worksheets, and views. SQL views fall under the _view_ category.
+They are
+ifndef::spotter[]
+tables,
+ifdef::spotter[]
+Worksheets and tables.
+endif::[]
+ifndef::spotter[]
+Worksheets, and views. SQL views fall under the _view_ category.
+endif::[]
+ifndef::spotter[]
 Most users see only Worksheets and views.
+endif::[]
 Worksheets are the most powerful and commonly used data sources for searching.
 
 Above the list of data sources, you can see quick links to objects you recently viewed. These links tell you when the object was last modified, and when you last viewed it.
@@ -42,7 +53,7 @@ Above the list of data sources, you can see quick links to objects you recently 
 | Worksheet
 | Collection of related tables optimized for searching (like standard concept of a _view_)
 | Anyone with *Can manage data* permission
-
+ifndef::spotter[]
 | View
 | Table saved as a xref:views.adoc[view] by a user through the *Save as view* option on a data search
 | Anyone with *Can manage data* permission
@@ -50,6 +61,7 @@ Above the list of data sources, you can see quick links to objects you recently 
 | SQL View
 | SQL query result saved as a xref:sql-views.adoc[SQL view] by a user
 | Anyone with *Can manage data* permission
+endif::[]
 |===
 
 Selecting the name of a data source shows you detailed information about it, and allows you to edit it, if you have *Can edit* privileges for that data source.
@@ -58,7 +70,14 @@ Selecting the name of a data source shows you detailed information about it, and
 
 Use the filters and the search bar at the top of the list of data sources to find the data you are interested in. You can filter in the following ways:
 
-* By *source type:* all, Worksheets only, tables only, or views and SQL views only
+* By *source type:* all, Worksheets only,
+ifdef::spotter[]
+and tables only.
+endif::[]
+tables only,
+ifndef::spotter[]
+or views and SQL views only
+endif::[]
 * By *tag*
 * By *author*
 
@@ -92,9 +111,9 @@ You can perform bulk actions on the objects in the data source list. To perform 
 
 . At the top of the list of data sources, several buttons appear. You can
 ifndef::spotter[]
-xref:sharing.adoc[share objects]
+xref:sharing.adoc, [share objects]
 endif::[]
-, delete them, apply or remove xref:tags.adoc[tags], xref:scriptability.adoc#export-object[export them as TML files], or xref:scriptability.adoc#tml-editor[edit them as TML files].
+delete them, apply or remove xref:tags.adoc[tags], xref:scriptability.adoc#export-object[export them as TML files], or xref:scriptability.adoc#tml-editor[edit them as TML files].
 
 [#data-connections]
 == Data connections
@@ -106,6 +125,7 @@ image::data-workspace-connections.png[Connections tab]
 endif::[]
 
 ifdef::spotter[]
+[.bordered]
 image::spotter-connections.png[Connections tab]
 endif::[]
 
@@ -166,6 +186,7 @@ ThoughtSpot displays 20 objects on each page.
 These changes do not persist across sessions.
 If you sign out and sign back in, the view returns to the default.
 
+ifndef::spotter[]
 == Usage statistics
 
 To view usage statistics for your connections to external data sources, select *Usage statistics* from the side navigation bar of the Data workspace. There, you can view the system Liveboard for connections, with information on monthly and daily row count, query count, and query performance for each connection.
@@ -186,3 +207,4 @@ Here, you can accomplish the following tasks:
 * xref:schedule-liveboards.adoc[Manage Liveboard schedules]: Use the *Liveboard schedules* tile
 * xref:connections-cust-cal.adoc[Manage the custom calendar]: Use the *Custom calendar* tile
 * xref:dbt-integration.adoc[Integrate with dbt]: Use the *dbt Integration* tile
+endif::[]
