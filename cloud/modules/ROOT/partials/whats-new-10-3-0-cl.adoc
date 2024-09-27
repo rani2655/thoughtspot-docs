@@ -323,7 +323,7 @@ ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#10-3-0-cl-orgs]
 [discrete]
-=== Org-specific URLs [.badge.badge-early-access-whats-new]#Early Access#
+=== Org-specific URLs [.badge.badge-early-access]#Early Access#
 endif::[]
 ifdef::pendo-links[]
 [#10-3-0-cl-orgs]
@@ -352,7 +352,7 @@ ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#10-3-0-cl-default-ui]
 [discrete]
-=== Option to set new navigation and homepage experience as default [.badge.badge-early-access-whats-new]#Early Access#
+=== Option to set new navigation and homepage experience as default [.badge.badge-early-access]#Early Access#
 endif::[]
 ifdef::pendo-links[]
 [#10-3-0-cl-defualt-ui]
