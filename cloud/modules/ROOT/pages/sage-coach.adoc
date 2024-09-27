@@ -105,4 +105,4 @@ Users cannot *change access* of any feedback submitted on the data set.
 | Administrator | User can view feedback submitted by all the users for all the data sets in the selected Org. | User can *change access*, *fix the answer*, and *delete* the feedback submitted by all the users for all the data sets in the selected Org.
 |===
 
-For an Org-enabled cluster, only the feedback from the selected Org is visible.
+IMPORTANT: For an Org-enabled cluster, only the feedback from the selected Org is visible.
