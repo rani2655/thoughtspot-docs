@@ -151,7 +151,7 @@ endif::free-trial-feature[]
 // PM: Damian - internal bug fix no doc needed.
 ////
 
-
+////
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#10-3-0-cl-lb]
@@ -168,6 +168,7 @@ endif::[]
 // PM: Dilip - waiting for more information and doc JIRA (currently marked as no doc needed). PM says there is no functional change, but the screen caps and instructions definitely require updating (https://docs.thoughtspot.com/cloud/latest/liveboard-schedule). Not sure if it should be included in the WN.
 
 endif::free-trial-feature[]
+////
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
@@ -347,6 +348,8 @@ endif::[]
 ////
 endif::free-trial-feature[]
 
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
 [#10-3-0-cl-default-ui]
 [discrete]
 === Option to set new navigation and homepage experience as default [.badge.badge-early-access-whats-new]#Early Access#
@@ -358,6 +361,8 @@ ifdef::pendo-links[]
 endif::[]
 
 Administrators now have the ability to set the new navigation and homepage experience as the default UI for all users of the cluster, if it is enabled for the cluster. This feature is available in the *Admin > Early access features* page.
+
+endif::free-trial-feature[]
 
 ifndef::free-trial-feature[]
 [discrete]
