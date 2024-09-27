@@ -116,7 +116,7 @@ You can perform bulk actions on the objects in the data source list. To perform 
 
 . At the top of the list of data sources, several buttons appear. You can
 ifndef::spotter[]
-xref:sharing.adoc, [share objects]
+xref:sharing.adoc[share objects], 
 endif::[]
 ifndef::spotter[]
 delete them, apply or remove xref:tags.adoc[tags], xref:scriptability.adoc#export-object[export them as TML files], or xref:scriptability.adoc#tml-editor[edit them as TML files].
