@@ -344,7 +344,17 @@ endif::[]
 ////
 endif::free-trial-feature[]
 
+[#10-3-0-cl-default-ui]
+[discrete]
+=== Option to set new navigation and homepage experience as default [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#10-3-0-cl-defualt-ui]
+[discrete]
+=== Option to set new navigation and homepage experience as default [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
 
+Administrators now have the ability to set the new navigation and homepage experience as the default UI for all users of the cluster, if it is enabled for the cluster. This feature is available in the *Admin > Early access features* page.
 
 ifndef::free-trial-feature[]
 [discrete]
