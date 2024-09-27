@@ -177,19 +177,21 @@ ifndef::spotter[]
 . On the *Answers* or *Liveboards* page, click the *Tags* column header.
 endif::[]
 ifdef::spotter[]
-Click the *Tags* column header.
+. Click the *Tags* column header.
 endif::[]
+ifndef::spotter[]
 +
 [.bordered]
 image:filter-tag.png[Filter by a tag]
 +
+endif::[]
 . Choose the name of the tag you want to filter by.
 +
 [.bordered]
 image::tag-filter.png[Filter by a tag]
-+
+
 On the Data workspace page, click the *All tags* dropdown menu, and select the name of the tag you want to filter by.
-+
+
 [.bordered]
 image::select-tag-data-workspace.png[Select all tags and select a tag]
 
