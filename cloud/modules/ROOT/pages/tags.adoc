@@ -7,8 +7,6 @@
 :description: Tags enable you to create categories for classification of objects, including Liveboards, Answers, data sources, and Worksheets.
 :jira: SCAL-223133
 
-
-
 include::partial$tags.adoc[]
 
 '''
