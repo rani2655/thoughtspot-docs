@@ -202,7 +202,7 @@ endif::[]
 ifdef::pendo-links[]
 [#10-3-0-cl-bucket]
 [discrete]
-=== ThoughtSpot introduces additional controls for date bucket intervals in date columns [.badge.badge-beta-whats-new]#Beta#
+=== Date bucket interval for date columns [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
 // Mary. jira: SCAL-210168. docs jira: SCAL-220583
