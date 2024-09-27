@@ -71,13 +71,12 @@ Selecting the name of a data source shows you detailed information about it, and
 
 Use the filters and the search bar at the top of the list of data sources to find the data you are interested in. You can filter in the following ways:
 
-* By *source type:* all, Worksheets only,
+* By *source type:* all,
 ifdef::spotter[]
-and tables only.
+Worksheets only, and tables only
 endif::[]
-tables only,
 ifndef::spotter[]
-or views and SQL views only
+Worksheets only, tables only, or views and SQL views only
 endif::[]
 * By *tag*
 * By *author*
@@ -114,7 +113,12 @@ You can perform bulk actions on the objects in the data source list. To perform 
 ifndef::spotter[]
 xref:sharing.adoc, [share objects]
 endif::[]
+ifndef::spotter[]
 delete them, apply or remove xref:tags.adoc[tags], xref:scriptability.adoc#export-object[export them as TML files], or xref:scriptability.adoc#tml-editor[edit them as TML files].
+endif::[]
+ifdef::spotter[]
+delete them, apply or remove xref:tags.adoc[tags].
+endif::[]
 
 [#data-connections]
 == Data connections
