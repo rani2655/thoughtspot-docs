@@ -135,6 +135,9 @@ endif::[]
 
 ThoughtSpot introduces Analyst Studio, where you can write SQL queries to create reusable Datasets. You can set schedules to refresh Datasets, or publish them to the Data Workspace, where you can join multiple Datasets to query as a whole.
 
+[.bordered]
+image:analyst-studio.png[Analyst Studio in nav bar]
+
 endif::free-trial-feature[]
 
 
