@@ -579,7 +579,7 @@
 ** xref:liveboard-slideshow.adoc[Present Liveboard as slideshow]
 ** xref:liveboard-download-pdf.adoc[Download as PDF]
 
-* xref:studio-get-started.adoc[Analyst Studio]
+* xref:studio-get-started.adoc[Analyst Studio] +++<a href="javascript://" class="badge badge-dep-toc" data-toggle="tooltip" data-placement="top" title="tooltip text">Beta</a>+++
 //** xref:studio-quick-reference-guide.adoc[Quick reference guide]
 ** xref:studio-getting-started-with-mode.adoc[Getting started with Analyst Studio]
 *** xref:studio-open-source-code-attributions.adoc[Open Source Code Attributions]
