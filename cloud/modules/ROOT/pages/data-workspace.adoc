@@ -15,6 +15,7 @@ endif::[]
 ifdef::spotter[]
 To access the *Data workspace*, from the {form-factor} page, select *Manage data > Manage data sources*.
 endif::[]
+
 == Data workspace page
 
 ifndef::spotter[]
