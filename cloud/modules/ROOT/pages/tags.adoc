@@ -9,6 +9,7 @@
 
 include::partial$tags.adoc[]
 
+ifndef::spotter[]
 '''
 > **Related information**
 >
@@ -21,3 +22,4 @@ include::partial$tags.adoc[]
 > * xref:10.3.0.cl@cloud:ROOT:accessing.adoc[ThoughtSpot browser access]
 > * xref:10.3.0.cl@cloud:ROOT:user-profile.adoc[Your user preferences]
 > * xref:10.3.0.cl@cloud:ROOT:privileges-end-user.adoc[Privileges]
+endif::[]
