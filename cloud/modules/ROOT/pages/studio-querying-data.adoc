@@ -4,6 +4,7 @@
 :date: 2022-12-19
 :description: How to query data in Analyst Studio.
 :ogdescription: How to query data in Analyst Studio.
+:page-layout: default-cloud
 :path: /articles/querying-data
 :product: Analyst Studio
 

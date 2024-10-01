@@ -5,6 +5,7 @@
 :description: Analyst Studio’s integration with semantic layers extends metrics defined in dbt and Looker that you can leverage for code-free exploration and reporting.
 :hide_from_nav: false
 :ogdescription: Analyst Studio’s integration with semantic layers extends metrics defined in dbt and Looker so business teams can leverage them for code-free exploration and reporting
+:page-layout: default-cloud
 :path: /articles/semantic-layer-integrations
 :product: Analyst Studio
 

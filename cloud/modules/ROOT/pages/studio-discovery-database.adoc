@@ -2,6 +2,7 @@
 :categories: ["API"]
 :categories_weight: 4
 :date: 2021-04-23
+:page-layout: default-cloud
 :description: An overview of Analyst Studio Database
 :ogdescription: An overview of Analyst Studio Database
 :path: /articles/discovery-database

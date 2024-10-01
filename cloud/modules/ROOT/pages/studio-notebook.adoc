@@ -4,6 +4,7 @@
 :date: 2022-12-12
 :description: Getting started with the Python and R Notebook.
 :ogdescription: Getting started with the Python and R Notebook.
+:page-layout: default-cloud
 :path: /articles/notebook
 :product: Analyst Studio
 

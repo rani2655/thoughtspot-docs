@@ -3,6 +3,7 @@
 :last_updated: 7/25/24
 :experimental:
 :linkattrs:
+:page-layout: default-cloud
 :description: Visualize and present data.
 :product: Analyst Studio
 

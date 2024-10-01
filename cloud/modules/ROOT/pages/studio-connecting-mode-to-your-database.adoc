@@ -4,6 +4,7 @@
 :date: 2021-04-09
 :description: Learn how Analyst Studio connects.
 :ogdescription: Learn how Analyst Studio connects
+:page-layout: default-cloud
 :path: /articles/connecting-mode-to-your-database
 :product: Analyst Studio
 :jira: SCAL-219400

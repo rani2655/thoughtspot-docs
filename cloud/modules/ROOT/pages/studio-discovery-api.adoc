@@ -4,6 +4,7 @@
 :date: 2021-04-23
 :description: An overview of Analyst Studio Discovery API.
 :ogdescription: An overview of Analyst Studio Discovery API.
+:page-layout: default-cloud
 :path: /articles/discovery-api
 :product: Analyst Studio
 

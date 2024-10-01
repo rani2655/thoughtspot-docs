@@ -4,6 +4,7 @@
 :date: 2021-04-
 :description: An overview of Analyst Studio's Slack Integration sync.
 :ogdescription: An overview of Analyst Studio's Slack Integration sync.
+:page-layout: default-cloud
 :path: /articles/slack
 :versions: ["business"]
 :product: Analyst Studio

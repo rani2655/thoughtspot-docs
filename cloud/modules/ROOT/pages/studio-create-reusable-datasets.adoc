@@ -2,6 +2,7 @@
 :author: Naomi
 :last_updated: 7/25/24
 :experimental:
+:page-layout: default-cloud
 :linkattrs:
 :description: All of our resources to help you be successful with Datasets, in one place.
 :product: Analyst Studio

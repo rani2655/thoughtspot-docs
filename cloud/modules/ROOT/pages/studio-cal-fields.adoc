@@ -4,6 +4,7 @@
 :date: 2020-08-05
 :description: How to add Calculated Fields to Charts.
 :ogdescription: How to add Calculated Fields to Charts.
+:page-layout: default-cloud
 :path: /articles/cal-fields
 :product: Analyst Studio
 
