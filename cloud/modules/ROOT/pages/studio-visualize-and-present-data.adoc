@@ -7,6 +7,7 @@
 :description: Visualize and present data.
 :product: Analyst Studio
 
+Learn how to create visualizations of your data, explore and edit visualizations, and add calculated fields to charts.
 
 ** xref:studio-visualizations.adoc[Visualizations] +
 Visualize your data to gain insight.

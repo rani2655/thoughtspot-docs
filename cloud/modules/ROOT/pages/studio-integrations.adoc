@@ -7,6 +7,8 @@
 :description: Integrations.
 :product: Analyst Studio
 
+Analyst Studio integrates with dbt, GitHub, Google Sheets, Slack, and more.
+
 ** xref:studio-dbt-data-freshness.adoc[dbt data freshness] +
 {product}'s dbt integration allows users to view metadata about data freshness from dbt directly in {product} Reports.
 ** xref:studio-github.adoc[GitHub sync] +

@@ -7,6 +7,8 @@
 :description: Query and analyze data.
 :product: Analyst Studio
 
+Learn how to query data, use AI assistance to generate SQL, create reusable Datasets, add Parameters to Reports, and develop and reuse saved `SELECT` statements.
+
 ** xref:studio-querying-data.adoc[Querying data] +
 How to query data in {product}.
 ** xref:studio-ai-assist.adoc[AI Assist] +
@@ -14,7 +16,7 @@ Generate SQL using AI assistance.
 ** xref:studio-datasets.adoc[Datasets] +
 Curate tables of data that can be reused across multiple Reports.
 ** xref:studio-notebook.adoc[The Notebook] +
-Getting started with the Python and R Notebook.
+Get started with the Python and R Notebook.
 ** xref:studio-parameters.adoc[Parameters] +
 How to add Parameters to {product} Reports using Liquid.
 ** xref:studio-viz-filters.adoc[Visualization filters] +

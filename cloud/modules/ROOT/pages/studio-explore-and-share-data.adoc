@@ -7,5 +7,7 @@
 :description: Explore and share data.
 :product: Analyst Studio
 
+Explore visualizations by changing chart type, sort order, filters, and chart formatting. You can save and share Explorations.
+
 ** xref:studio-explorations.adoc[Explorations] +
 Explorations are your own personal visualizations.

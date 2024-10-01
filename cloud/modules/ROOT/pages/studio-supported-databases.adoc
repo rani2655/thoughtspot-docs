@@ -275,7 +275,7 @@ In addition, ensure that port 444 is open to outbound traffic.
 
 ===== Connecting to {product} via access keys
 
-. Follow the steps to connect a database with xref:studio-connecting-mode-to-your-database.adoc#direct-connect[Direct Connect].
+. Follow the steps to connect a database with xref:studio-connecting-analyst-studio-to-your-database.adoc#direct-connect[Direct Connect].
 . Select Amazon Athena from the list of databases.
 . Fill out your AWS region to be formatted like `us-west-2`.
 . Select *Authentication method: Access keys* in the {product} connection form.
@@ -290,7 +290,7 @@ You will land on a page that displays your database schema.
 
 ===== Connecting to {product} via IAM role
 
-. Follow the steps to connect a database with xref:studio-connecting-mode-to-your-database.adoc#direct-connect[Direct Connect].
+. Follow the steps to connect a database with xref:studio-connecting-analyst-studio-to-your-database.adoc#direct-connect[Direct Connect].
 . Select Amazon Athena from the list of databases.
 . Fill out your AWS region to be formatted like `us-west-2`.
 . Select *Authentication method: IAM* role in the {product} connection form.
@@ -410,10 +410,10 @@ There, you'll find your connection string and user credentials.
 [.bordered]
 image::mparticle-redshift-configuration.png[mParticle Redshift]
 
-You can also xref:studio-connecting-mode-to-your-database.adoc#requirements[allowlist {product}'s servers] by editing the list of allowed IP addresses on mParticle UI, which will update the AWS security group settings associated with your Redshift cluster.
+You can also xref:studio-connecting-analyst-studio-to-your-database.adoc#requirements[allowlist {product}'s servers] by editing the list of allowed IP addresses on mParticle UI, which will update the AWS security group settings associated with your Redshift cluster.
 Once you have your credentials, follow the steps below to connect {product}:
 
-. Log in to {product} and follow to steps to xref:studio-connecting-mode-to-your-database.adoc#direct-connect[connect a database to {product}].
+. Log in to {product} and follow to steps to xref:studio-connecting-analyst-studio-to-your-database.adoc#direct-connect[connect a database to {product}].
 . Select *mParticle Redshift* from the list of databases.
 . Enter your mParticle credentials and click *Connect*.
 You'll land on a page that displays your database schema.
@@ -588,7 +588,7 @@ Connecting to Databricks requires a running Spark cluster configured with SSL en
 
 ===== Connecting to {product}
 
-. Follow these steps to xref:studio-connecting-mode-to-your-database.adoc[connect a Databricks database].
+. Follow these steps to xref:studio-connecting-analyst-studio-to-your-database.adoc[connect a Databricks database].
 Change the display name to something that helps you recognize the database behind the connection.
 . Fill in the `host`, `token`, and `HTTP path` fields with the information you gathered above.
 . Click *Connect* to save the new connection.
@@ -631,7 +631,7 @@ You will also need the following to set up the connection in {product}:
 * *Environment Id*: The unique identifier for a dbt environment in the dbt Cloud URL, when you navigate to that environment under Deployments.
 * *Service Token*: Service Tokens for dbt Cloud can be created in dbt account settings, and must have at least "Semantic Layer Only" permissions.
 
-Start by xref:studio-connecting-mode-to-your-database.adoc[connecting a database.]
+Start by xref:studio-connecting-analyst-studio-to-your-database.adoc[connecting a database.]
 
 From the dropdown, select *dbt Semantic Layer*.
 
@@ -701,7 +701,7 @@ There are no known issues with this driver.
 
 . Log in to {product} and select *connect a Database* in the dropdown menu under your profile in the left panel.
 . Select *Google AlloyDB* from the list of databases.
-. You can utilize xref:studio-connecting-mode-to-your-database.adoc#bridge[Bridge connector] if you have a private IP address.
+. You can utilize xref:studio-connecting-analyst-studio-to-your-database.adoc#bridge[Bridge connector] if you have a private IP address.
 . Enter your Google AlloyDB credentials and click *Connect*. +
 .. Host / Port: Host name or IP address and Port of the server hosting AlloyDB.
 .. Database name: The database to connect to for AlloyDB.
@@ -846,7 +846,7 @@ Save the private key file to a secure place where you can easily retrieve it whe
 [.bordered]
 image::GBQ-Setup07.png[BigQuery]
 
-. Return to {product}, and begin the process to xref:studio-connecting-mode-to-your-database.adoc[connect a BigQuery database].
+. Return to {product}, and begin the process to xref:studio-connecting-analyst-studio-to-your-database.adoc[connect a BigQuery database].
 When you see the form to enter your BigQuery credentials, first enter a name (internal to {product}) for the new database connection.
 . In the Project ID field, enter the BigQuery project ID.
 It can be found in the URL of your Google Developers Console.
@@ -885,7 +885,7 @@ IMPORTANT: Take care when changing the default SQL dialect for an existing conne
 
 ===== Connecting to {product}
 
-. Return to {product}, and begin the process to xref:studio-connecting-mode-to-your-database.adoc[connect a BigQuery database].
+. Return to {product}, and begin the process to xref:studio-connecting-analyst-studio-to-your-database.adoc[connect a BigQuery database].
 When you see the form to enter your BigQuery credentials, first enter a name for the new database connection.
 . In the *Project ID* field, enter the BigQuery project ID.
 It can be found in the URL of your Google Developers Console.
@@ -1019,7 +1019,7 @@ test123.looker.com).
 * Username: The Client ID portion of the link:https://cloud.google.com/looker/docs/admin-panel-users-users#api_keys[Looker API key,window=_blank].
 * Password: The Client Secret portion of the Looker API key.
 
-Start by xref:studio-connecting-mode-to-your-database.adoc[connecting a database].
+Start by xref:studio-connecting-analyst-studio-to-your-database.adoc[connecting a database].
 
 From the dropdown, select *Looker SQL*.
 
@@ -1260,7 +1260,7 @@ If you need your Heap credentials, please email link:mailto:support@heapanalytic
 
 Once you have your credentials, follow the steps below to connect {product}:
 
-. Log in to {product} and follow to steps to xref:studio-connecting-mode-to-your-database.adoc#direct-connect[connect a database to {product}].
+. Log in to {product} and follow to steps to xref:studio-connecting-analyst-studio-to-your-database.adoc#direct-connect[connect a database to {product}].
 . Select Heap from the list of databases.
 . Enter your Heap credentials and click *Connect*.
 You'll land on a page that displays your database schema.
@@ -1356,7 +1356,7 @@ Please follow the link:https://docs.snowflake.com/en/user-guide/key-pair-auth#co
 There is the option to generate encrypted or unencrypted private keys.
 Snowflake recommends encrypting with a passphrase to protect the private key.
 . Generate the public key by referencing the private key and assign the public key to the Snowflake user that will be used to access {product}.
-. Log in to {product} and follow to steps to xref:studio-connecting-mode-to-your-database.adoc#direct-connect[connect a database to {product}].
+. Log in to {product} and follow to steps to xref:studio-connecting-analyst-studio-to-your-database.adoc#direct-connect[connect a database to {product}].
 . Select *Snowflake* from the list of databases.
 . Select Authentication method: *Key pair* in the {product} connection form.
 . Enter the username of the assigned Snowflake user, upload the private key with a p8 file extension, and include the passphrase if the private key was encrypted.
@@ -1464,7 +1464,7 @@ There are no known issues with this driver.
 
 We have two ways of connecting to your RDS instance depending on your AWS settings.
 If your instance is publicly accessible, then {product} can connect directly to it.
-For databases that are not accessible, you can use the xref:studio-connecting-mode-to-your-database.adoc#bridge[Bridge connector].
+For databases that are not accessible, you can use the xref:studio-connecting-analyst-studio-to-your-database.adoc#bridge[Bridge connector].
 We'll start by determining if your database is accessible to us.
 
 ===== Accessibility
@@ -1491,7 +1491,7 @@ If it is followed by a _Yes_, then you can jump to the *Security Groups* section
 [.bordered]
 image::rds-with-a-public-vpc-201507.png[RDS on a public VPC]
 
-. To connect to instances in a private VPC, you'll need to install our xref:studio-connecting-mode-to-your-database.adoc#bridge[Bridge connector].
+. To connect to instances in a private VPC, you'll need to install our xref:studio-connecting-analyst-studio-to-your-database.adoc#bridge[Bridge connector].
 
 ===== Security groups
 
