@@ -7,6 +7,8 @@
 :description: Navigate and organize content.
 :product: Analyst Studio
 
+Use Collections and Reports to organize your content and share it among your organization.
+
 ** xref:studio-spaces.adoc[Collections] +
 A Collection is a group of Reports organized around a team or project.
 ** xref:studio-organizing-reports.adoc[Organizing Reports] +

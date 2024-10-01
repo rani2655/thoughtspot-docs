@@ -43,13 +43,13 @@ We'll be happy to assist you further.
 
 ==== *Direct Connect*
 
-* xref:studio-connecting-mode-to-your-database.adoc#faqs[FAQs]
-* xref:studio-connecting-mode-to-your-database.adoc#troubleshooting[Common Errors]
+* xref:studio-connecting-analyst-studio-to-your-database.adoc#faqs[FAQs]
+* xref:studio-connecting-analyst-studio-to-your-database.adoc#troubleshooting[Common Errors]
 
 ==== *Bridge*
 
-* xref:studio-connecting-mode-to-your-database.adoc#faqs-bridge[FAQs]
-* xref:studio-connecting-mode-to-your-database.adoc#troubleshooting-bridge[Common Errors]
+* xref:studio-connecting-analyst-studio-to-your-database.adoc#faqs-bridge[FAQs]
+* xref:studio-connecting-analyst-studio-to-your-database.adoc#troubleshooting-bridge[Common Errors]
 
 === Datasets
 

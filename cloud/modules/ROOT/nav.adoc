@@ -580,7 +580,7 @@
 ** xref:liveboard-download-pdf.adoc[Download as PDF]
 * xref:studio-get-started.adoc[Analyst Studio+++&nbsp;<span class="badge badge-betatoc">Beta</span>+++]
 //** xref:studio-quick-reference-guide.adoc[Quick reference guide]
-** xref:studio-getting-started-with-mode.adoc[Getting started with Analyst Studio]
+** xref:studio-getting-started-with-analyst-studio.adoc[Getting started with Analyst Studio]
 *** xref:studio-open-source-code-attributions.adoc[Open Source Code Attributions]
 *** xref:studio-supported-browsers.adoc[Supported browsers]
 //** xref:studio-release-notes.adoc[Release notes]
@@ -589,7 +589,7 @@
 *** xref:studio-organizing-reports.adoc[Organizing reports]
 *** xref:studio-collaboration-and-discovery.adoc[Collaboration and discovery]
 ** xref:studio-connect-your-database.adoc[Connect your database]
-*** xref:studio-connecting-mode-to-your-database.adoc[Connecting Analyst Studio to your database]
+*** xref:studio-connecting-analyst-studio-to-your-database.adoc[Connecting Analyst Studio to your database]
 *** xref:studio-supported-databases.adoc[Supported databases]
 *** xref:studio-managing-database-connections.adoc[Managing database connections]
 ** xref:studio-query-and-analyze-data.adoc[Query and analyze data]
@@ -625,7 +625,7 @@
 *** xref:studio-api-reference.adoc[API reference]
 *** xref:studio-discovery-api.adoc[Discovery API]
 *** xref:studio-discovery-database.adoc[Discovery Database]
-*** xref:studio-faqs.adoc[FAQs]
+** xref:studio-faqs.adoc[FAQs]
 
 
 * xref:spotiq.adoc[SpotIQ]

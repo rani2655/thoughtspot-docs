@@ -27,7 +27,7 @@ To connect your database to your {product} organization:
 . Click *Connect a Database*.
 . Follow the instructions to connect your database.
 
-Learn more about xref:studio-connecting-mode-to-your-database.adoc[how {product} connects] to private databases.
+Learn more about xref:studio-connecting-analyst-studio-to-your-database.adoc[how {product} connects] to private databases.
 
 IMPORTANT: Any active member of an {product} Workspace can create a new database connection. By default, new database connections may be queried by all members of the Workspace. To restrict non-admin access to a data source, you can <<limit-access-to-a-data-connection-in-mode,limit access to it to specific users>>.
 
@@ -167,7 +167,7 @@ image::data-source-roles-with-query-access.png[Database roles with query access]
 . There are two user roles (managed at the database level):
  ** User Role #1 only has access to the marketing table.
  ** User Role #2 has access to both the marketing table and the finance table.
-. When you xref:studio-connecting-mode-to-your-database.adoc[connect a database] to {product}, you do so using database user roles.
+. When you xref:studio-connecting-analyst-studio-to-your-database.adoc[connect a database] to {product}, you do so using database user roles.
 Each connection will appear as a different database in the schema browser.
 Note that the default name will be the name of the database (for example, Redshift), but you can also name it based on a description of the access level or user role.
 . Workspaces can also specify which {product} users have access to each connection.
