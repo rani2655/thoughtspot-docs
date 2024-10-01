@@ -57,7 +57,26 @@ image::liveboards_manage_tags.png[]
 [.bordered]
 image::tags-manage.png[]
 
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#10-3-0-cl-header]
+[discrete]
+=== Compact Liveboard header [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#10-3-0-cl-header]
+[discrete]
+=== Compact Liveboard header [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+// Naomi – jira: SCAL-212737. docs jira: SCAL-226578
+// PM: Dilip
 
+We have streamlined the design of Liveboard headers to ensure maximum visibility of Liveboard visualizations no matter the size of the screen. To enable this feature, contact your administrator.
+
+[.bordered]
+image:compact-header.png[Streamlined Liveboard header]
+
+endif::free-trial-feature[]
 
 [#10-3-0-cl-alert]
 [discrete]
