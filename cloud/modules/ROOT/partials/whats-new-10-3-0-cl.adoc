@@ -230,7 +230,7 @@ endif::[]
 // PM: Damian - waiting for more information from PM. where are you disabling date and timestamp columns? what are the filtering references being used for?
 
 
-You can now customize and enable or disable ThoughtSpot date and timestamp columns. You can use this to prevent filtering references at intervals that are shorter than daily.
+You can now disable date intervals that are shorter than daily for date columns. That is, you can remove reference to seconds, minutes, hours. To enable this feature, contact {support-url}.
 
 endif::free-trial-feature[]
 
