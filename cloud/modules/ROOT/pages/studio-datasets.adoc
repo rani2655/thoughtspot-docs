@@ -4,6 +4,7 @@
 :date: 2022-12-05
 :description: Curate tables of data that can be reused across multiple reports
 :ogdescription: Curate tables of data that can be reused across multiple reports
+:page-layout: default-cloud
 :path: /articles/datasets
 //can't find in modern stack
 :product: Analyst Studio

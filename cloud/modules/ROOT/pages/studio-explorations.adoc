@@ -4,6 +4,7 @@
 :date: 2020-08-14
 :description: Explorations are your own personal visualizations.
 :ogdescription: Explorations are your own personal visualizations.
+:page-layout: default-cloud
 :path: /articles/explorations
 :product: Analyst Studio
 

@@ -4,7 +4,8 @@
 :date: 2024-05-31
 :description: Google Sheets testing.
 :hide_from_nav: true
-:ogdescription: testing
+:ogdescription: Google Sheets testing.
+:page-layout: default-cloud
 :path: /articles/google-sheets-testing
 :product: Analyst Studio
 
