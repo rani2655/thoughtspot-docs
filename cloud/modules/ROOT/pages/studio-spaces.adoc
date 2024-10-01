@@ -22,7 +22,7 @@ The availability of different types of Collections depends on your {product} Wor
 {product} Studio Workspaces have one Collection that is created when the Workspace is created and cannot be deleted.
 
 You can have an unlimited number of Collections, and anyone in the Workspace can create any number of Collections.
-Users can see all Collections they have access to in the Collections list when they click on *Collections* in their navigation panel.
+You can see all Collections you have access to in the Collections list when you click on *Collections* in their navigation panel.
 
 [#types-of-spaces]
 == Types of Collections
