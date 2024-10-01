@@ -625,7 +625,7 @@ Copy-pasting visualizations is helpful in the following scenarios:
 * Moving charts previously created off ad-hoc queries to a reusable Dataset.
 Learn more about Datasets xref:studio-datasets.adoc[here].
 
-NOTE: If users want to copy both the chart and the associated data source, they would need to perform two separate actions. They can first add the required data source for the chart into their Report and then proceed to copy and paste the chart into their Report.
+NOTE: If you want to copy both the chart and the associated data source, you would need to perform two separate actions. You can first add the required data source for the chart into your Report and then proceed to copy and paste the chart into your Report.
 
 == Default field settings
 
