@@ -135,7 +135,6 @@ ifdef::pendo-links[]
 </video>
 +++
 endif::pendo-links[]
-
 endif::free-trial-feature[]
 ////
 
@@ -211,11 +210,9 @@ ThoughtSpot introduces access to Liveboard schedules on the home page. Users can
 
 [.bordered]
 image::home-lb-schedule.png[]
-
-
-////
 endif::free-trial-feature[]
 
+////
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#10-3-0-cl-bucket]
@@ -370,6 +367,7 @@ ifdef::pendo-links[]
 xref:orgs-overview.adoc[Multi-tenancy with Orgs,window=_blank].
 endif::[]
 ////
+endif::free-trial-feature[]
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
@@ -403,11 +401,6 @@ endif::[]
 
 endif::free-trial-feature[]
 
-
-
-
-
-endif::free-trial-feature[]
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
