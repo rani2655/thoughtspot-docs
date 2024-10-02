@@ -391,6 +391,7 @@ ThoughtSpot allows customers to enable or disable local authentication at the Or
 
 NOTE: Org level settings override cluster level settings.
 
+////
 For more information, see
 ifndef::pendo-links[]
 xref:authentication-local.adoc[Managing local authentication].
@@ -398,6 +399,7 @@ endif::[]
 ifdef::pendo-links[]
 xref:authentication-local.adoc[Managing local authentication,window=_blank].
 endif::[]
+////
 
 endif::free-trial-feature[]
 
