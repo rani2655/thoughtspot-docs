@@ -213,6 +213,7 @@ ThoughtSpot introduces access to Liveboard schedules on the home page. Users can
 image::home-lb-schedule.png[]
 
 
+////
 endif::free-trial-feature[]
 
 ifndef::free-trial-feature[]
@@ -255,7 +256,7 @@ You can now define mandatory date column filters that must be used when running 
 
 
 endif::free-trial-feature[]
-
+////
 
 
 '''
