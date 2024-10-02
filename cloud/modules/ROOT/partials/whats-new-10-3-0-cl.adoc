@@ -97,7 +97,13 @@ image::create-alert.png[]
 // Naomi. docs jira: SCAL-220633.
 // PM: Aashna
 
-We have updated the Portuguese date keyword synonyms.
+We have updated the Portuguese date keyword synonyms. For more information, see
+ifndef::pendo-links[]
+xref:keywords-pt-BR.adoc[Português (Brasil) Keyword reference].
+endif::[]
+ifdef::pendo-links[]
+xref:keywords-pt-BR.adoc[Português (Brasil) Keyword reference,window=_blank].
+endif::[]
 
 // Analyst
 
@@ -153,6 +159,14 @@ endif::[]
 // PM: Shruthi. add image. main focuses: create extracts, advanced analytics,
 
 ThoughtSpot introduces Analyst Studio, where you can write SQL queries to create reusable Datasets. You can set schedules to refresh Datasets, or publish them to the Data Workspace, where you can join multiple Datasets to query as a whole.
+
+For more information, see
+ifndef::pendo-links[]
+xref:studio-get-started.adoc[Analyst Studio].
+endif::[]
+ifdef::pendo-links[]
+xref:studio-get-started.adoc[Analyst Studio,window=_blank].
+endif::[]
 
 [.bordered]
 image:analyst-studio.png[Analyst Studio in nav bar]
