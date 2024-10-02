@@ -339,7 +339,7 @@ Start is an optional argument to define from where to start the search.
 | `RIGHT('hello', 2)` +
 `RIGHT([Address], 3)`
 
-| `RTRIM(<string>) `
+| `RTRIM(<string>)`
 | Removes any spaces from the right side of the string.
 | `RTRIM('Hello World!')` +
 `RTRIM([status])`

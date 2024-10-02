@@ -240,7 +240,7 @@ ThoughtSpot introduces the ability to save table layouts in the schema viewer. T
 Language updates::
 // Naomi. epic: SCAL-181448. doc: SCAL-199383 (approved). epic: SCAL-159833. doc: SCAL-208059 (approved)
 // PM: Aashna
-ThoughtSpot now supports xref:keywords-ko-KR.adoc[Korean] and we've also added synonyms for date and time based keywords in xref:keywords-de-DE.adoc[German] and xref:keywords-fr-FR.adoc[French] for a more accurate experience.
+ThoughtSpot now supports xref:keywords-ko-KR.adoc[Korean], and we've also added synonyms for date and time based keywords in xref:keywords-de-DE.adoc[German] and xref:keywords-fr-FR.adoc[French] for a more accurate experience.
 
 [#9-12-5-cl-business-user]
 === For the Business User
@@ -260,7 +260,7 @@ This new navigation experience is disabled by default. Contact your ThoughtSpot 
 Drill down in change analysis::
 // Naomi – SCAL-180942. doc: SCAL-205576 (approved)
 // PM: Vikas
-Drill down in change analysis is now on by default and available to all users. You can now drill down on specific columns in change analysis, in order to identify change drivers within your data. For example, if you run an analysis on sales monthly and find out that the 'jacket' item type changed the most, you can easily drill down on jacket sales and identify which region contributed the most to the change in sales. For more information, see xref:spotiq-change.adoc#iterative[Interative change analysis].
+Drill down in change analysis is now on by default and available to all users. You can now drill down on specific columns in change analysis, in order to identify change drivers within your data. For example, if you run an analysis on sales monthly and find out that the 'jacket' item type changed the most, you can easily drill down on jacket sales and identify which region contributed the most to the change in sales. For more information, see xref:spotiq-change.adoc#iterative[Interactive change analysis].
 
 Forecasting [.badge.badge-early-access-relnotes]#Early Access#::
 // Naomi. epic: SCAL-188788. doc: SCAL-205575 (approved)
@@ -421,7 +421,7 @@ For more information on primary and secondary roles, see link:https://docs.snowf
 
 Multiple configurations for Snowflake connections [.badge.badge-early-access-relnotes]#Early Access#::
 // Mark – SCAL-94921, doc jira: SCAL-136317
-// PM: Aagrhan
+// PM: Aaghran
 You can now create multiple configurations for each Snowflake connection. This allows you to allocate a separate Snowflake warehouse for different ThoughtSpot users or groups, eliminating the need to duplicate Liveboards and configure multiple Snowflake connections and helping you with cost tracking and chargeback. You can also use this for your search indexing so that you can control and balance the computing load. In addition, this allows you to easily test a set of Liveboards against different environments (dev, qa, prod), and configure different databases for multi-tenancy / multi-org deployments.
 For more information, see xref:connections-snowflake-add.adoc#additional-configurations-create[Creating additional configurations for your Snowflake connection].
 
@@ -443,7 +443,7 @@ You can now use the table TML file to make changes to connection details like re
 Enabling GIT integration for version control of Liveboards and Answers [.badge.badge-early-access-relnotes]#Early Access#::
 // Mark – doc jira: SCAL-196890
 // PM: Nico
-Administrators can now enable version control of Liveboards and Answers. You enable version control for your ThoughtSpot Org by connecting it to a Github repository. Once enabled for the Org, version control can be enabled individually for any Liveboard or Answer. Each time a user saves changes, a new version of the Liveboard or Answer is created and stored in your Github repository. Users can easily browse and restore an older version from the Liveboard or Answer itself. For more information, see
+Administrators can now enable version control of Liveboards and Answers. You enable version control for your ThoughtSpot Org by connecting it to a GitHub repository. Once enabled for the Org, version control can be enabled individually for any Liveboard or Answer. Each time a user saves changes, a new version of the Liveboard or Answer is created and stored in your GitHub repository. Users can easily browse and restore an older version from the Liveboard or Answer itself. For more information, see
 xref:git-version-control.adoc[Version control for Liveboards and Answers].
 
 [#9-12-0-cl-developer]
@@ -1114,7 +1114,7 @@ For these instructions, see xref:ts-cloud-getting-started.adoc[Getting Started w
 [#9-5-0-cl-analyst]
 === For the Analyst
 
-Improved multi-tab PDF export from Liveboards:: Previously, you couldn’t export a liveboard with more than 40 visualizations, even if they were across multiple tabs. Starting in this release, you can now export a Liveboard with more than 40 visualizations, as long a single tab has no more than 40 visualizations.
+Improved multi-tab PDF export from Liveboards:: Previously, you couldn't export a Liveboard with more than 40 visualizations, even if they were across multiple tabs. Starting in this release, you can now export a Liveboard with more than 40 visualizations, as long a single tab has no more than 40 visualizations.
 
 Verified Liveboards:: Admin-assigned verifiers can now mark Liveboards as verified. Users can now request these verifiers to review their Liveboards, and verify if the information displayed is trusted content. Verified Liveboards carry a tag that signifies that they have been audited for correctness. For more information, see xref:liveboard-verify.adoc[Verified Liveboards].
 
