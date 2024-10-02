@@ -30,7 +30,7 @@ Bridge Server:: This is the server component of the bridge infrastructure. The B
 
 Bridge client:: This is the client component of the bridge infrastructure. The Bridge Client is a custom golang application that needs to be installed by the customer on a machine that can make outbound connections to both the Bridge Server (over the internet) and to the customer’s database (over the internal network).  Bridge Client is also available as a Docker image.
 
-The Bridge Server and Client communicate using the SSH protocol. The Bridge infrastructure's primary function is to establish an SSH tunnel between ThoughtSpot and the customer database. Once the tunnel has been established, the Bridge infrasture simply copies the bytes into and out of the tunnel.
+The Bridge Server and Client communicate using the SSH protocol. The Bridge infrastructure's primary function is to establish an SSH tunnel between ThoughtSpot and the customer database. Once the tunnel has been established, the Bridge infrastructure simply copies the bytes into and out of the tunnel.
 
 The Bridge Client needs to make *outbound TCP connections* to Bridge Server on *port 443*.
 
