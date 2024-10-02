@@ -26,7 +26,7 @@ image::NOT_attribution_dim.png[Two fact tables that share a common dimension, Da
 
 In this example, the date column in the Date dimension should not be used for attribution, since unrelated rows in both of the fact tables could share the same row in the Date table.
 Why?
-Because if Sally bought oranges wholesale on April 25, 2005 and made a retail sale of apples on the same day, there is no logical relationship between those two events.
+Because if Sally bought oranges wholesale on April 25, 2005, and made a retail sale of apples on the same day, there is no logical relationship between those two events.
 Combining the two events using the date they share will not create any meaningful information.
 
 If matching rows in two fact tables over a chasm trap depends on the values in a column contained in a dimension table, that column is known as an attribution dimension.
