@@ -185,7 +185,7 @@ This new navigation experience is disabled by default. Contact your ThoughtSpot 
 Drill down in change analysis::
 // Naomi – SCAL-180942. doc: SCAL-205576 (approved)
 // PM: Vikas
-Drill down in change analysis is now on by default and available to all users. You can now drill down on specific columns in change analysis, in order to identify change drivers within your data. For example, if you run an analysis on sales monthly and find out that the 'jacket' item type changed the most, you can easily drill down on jacket sales and identify which region contributed the most to the change in sales. For more information, see xref:spotiq-change.adoc#iterative[Interative change analysis].
+Drill down in change analysis is now on by default and available to all users. You can now drill down on specific columns in change analysis, in order to identify change drivers within your data. For example, if you run an analysis on sales monthly and find out that the 'jacket' item type changed the most, you can easily drill down on jacket sales and identify which region contributed the most to the change in sales. For more information, see xref:spotiq-change.adoc#iterative[Interactive change analysis].
 
 Forecasting [.badge.badge-early-access-relnotes]#Early Access#::
 // Naomi. epic: SCAL-188788. doc: SCAL-205575 (approved)
