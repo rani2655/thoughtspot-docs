@@ -380,7 +380,7 @@ endif::[]
 ifdef::pendo-links[]
 [#10-1-0-cl-auth]
 [discrete]
-=== Local authentication support with IAMv2 [.badge.badge-early-access]#Early Access#
+=== Local authentication support with IAMv2 [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 
 
@@ -418,6 +418,9 @@ ifdef::pendo-links[]
 [discrete]
 === Option to set new navigation and homepage experience as default [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
+
+// Mark. jira: SCAL-223658. docs jira: SCAL-226711
+// PM: Mohil
 
 Administrators now have the ability to set the new navigation and homepage experience as the default UI for all users of the cluster, if it is enabled for the cluster. This feature is available in the *Admin > Early access features* page.
 
