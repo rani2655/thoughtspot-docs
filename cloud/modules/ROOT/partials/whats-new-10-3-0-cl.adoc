@@ -155,6 +155,7 @@ endif::[]
 // PM: Shruthi. add image. main focuses: create extracts, advanced analytics,
 
 ThoughtSpot introduces Analyst Studio, where you can write SQL queries to create reusable Datasets. You can set schedules to refresh Datasets, or publish them to the Data Workspace, where you can join multiple Datasets to query as a whole.
+ThoughtSpot's enhanced identity and access management (IAMv2) allows users with the *Can manage/access analyst studio* privilege to navigate to Analyst Studio seamlessly from the Analyst Studio tab or app switcher.
 
 [.bordered]
 image:analyst-studio.png[Analyst Studio in nav bar]
@@ -264,6 +265,7 @@ endif::free-trial-feature[]
 
 // Data Engineer
 
+////
 [#10-3-0-cl-okta]
 [discrete]
 === Analyst Studio privilege control and user sync
@@ -273,7 +275,7 @@ endif::free-trial-feature[]
 
 ThoughtSpot introduces a seamless and secure sign-in and navigation experience for integrated Analyst Studio users by extending ThoughtSpot SSO and local authentication.
 Users with the *Can use Analyst Studio* privilege will see *Analyst Studio* in the app switcher. They can use the app switcher to navigate to Analyst Studio without re-authenticating.
-
+////
 
 
 
@@ -367,6 +369,41 @@ ifdef::pendo-links[]
 xref:orgs-overview.adoc[Multi-tenancy with Orgs,window=_blank].
 endif::[]
 ////
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#10-1-0-cl-auth]
+[discrete]
+=== Local authentication support with IAMv2 [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#10-1-0-cl-auth]
+[discrete]
+=== Local authentication support with IAMv2 [.badge.badge-early-access]#Early Access#
+endif::[]
+
+
+// Mary. JIRA: SCAL-197810. docs JIRA: SCAL-216615
+// PM: Aashica - Awaiting Doc JIRA and access to PRD and release status
+
+ThoughtSpot allows customers to enable or disable local authentication at the Org and cluster levels. To enable local authentication at the cluster level, administrators require the *Can manage authentication* privilege. To enable local authentication at the Org level, contact {support-url}.
+
+NOTE: Org level settings override cluster level settings.
+
+For more information, see
+ifndef::pendo-links[]
+xref:authentication-local.adoc[Managing local authentication].
+endif::[]
+ifdef::pendo-links[]
+xref:authentication-local.adoc[Managing local authentication,window=_blank].
+endif::[]
+
+endif::free-trial-feature[]
+
+
+
+
+
 endif::free-trial-feature[]
 
 ifndef::free-trial-feature[]
