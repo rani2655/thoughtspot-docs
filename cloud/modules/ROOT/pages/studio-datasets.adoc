@@ -9,6 +9,7 @@
 //can't find in modern stack
 :product: Analyst Studio
 
+////
 [#overview]
 == Overview
 
@@ -21,8 +22,9 @@ Reports created from Datasets will be able to consume the fresh data when availa
 The data in a Dataset is cached in Helix, which enables more efficient data usage and improved performance for Reports created from Datasets.
 Rather than each individual Report hitting the warehouse, only the single Dataset hits the warehouse when it refreshes.
 That data then cascades to all associated Reports.
+////
 
-=== What are the benefits of using Datasets?
+== What are the benefits of using Datasets?
 
 Datasets can help make maintaining and scaling access to data efficient and cost-effective.
 They create a new layer between your data warehouse and Reports in {product}, which in practice allows for more control over governance, centralized logic, and data usage.
@@ -68,6 +70,7 @@ This will open up the Datasets editor where you can write a new SQL query or ins
 [.bordered]
 image::create_dataset2.png[create dataset]
 
+////
 === Previewing your Dataset
 
 Once you run the query, you will be able to see the results below in the data view.
@@ -80,6 +83,7 @@ You can see a list of all of the available fields in the Dataset from the Fields
 
 [.bordered]
 image::fields_tab_dataset.png[Datasets from the Fields tab]
+////
 
 === Describing the fields in your Dataset
 
@@ -199,6 +203,7 @@ image::move_to.png[Moving a dataset]
 
 Select the Collection you want to add the Dataset to, then select *Move*.
 
+////
 === Viewing a created Dataset
 
 To view a Dataset you've just created, select the *View* button in the top right corner of the screen.
@@ -234,6 +239,7 @@ You can filter and sort the data on the table visualization or create additional
 
 [.bordered]
 image::viewing_a_dataset1.png[Share a dataset]
+////
 
 === Dataset permissions
 
@@ -375,6 +381,7 @@ From here, you can drag and drop the fields you want to analyze to create your c
 [.bordered]
 image::11-make-chart.png[New chart]
 
+////
 === Move charts from queries to Datasets
 
 User can copy charts previously created off ad-hoc queries to a reusable Dataset using a simple copy-paste action.
@@ -389,7 +396,8 @@ For Quick Chart dropzones that accept more than one field, the new field can be 
 The typeahead search in the dropzones can also be used to add the new fields.
 
 _Move a chart created off a query to a Report with the Dataset_  image:copy-paste-from-chart-designer.gif[Copy Paste from Chart editor]
-
+////
+////
 === Adding charts to the Report Builder
 
 To add your charts to the Report Builder, select the chart's context menu from either the top menu or left-side menu.
@@ -424,7 +432,8 @@ Once you choose where to move the Report to, you will be able to find the Report
 Anyone else with access to the Collection will also be able to see and find the Report.
 
 Learn more about organizing and managing Reports in collections in this xref:studio-spaces.adoc[article].
-
+////
+////
 === Refreshing data in a Dataset-based Report
 
 Datasets run independently of Reports.
@@ -441,7 +450,7 @@ You can also compare how recently your entire Report ran relative to when the Da
 
 [.bordered]
 image::6-activity-popover.png[Dataset refresh]
-
+////
 == Deleting Datasets
 
 === How to delete Datasets
@@ -463,6 +472,7 @@ NOTE: If a Dataset is deleted, it will be permanently removed from your Workspac
 [.bordered]
 image::4-delete-dataset.png[Delete Dataset confirmation]
 
+////
 [#faqs]
 == FAQs
 
@@ -553,3 +563,4 @@ However, our Product team is considering multiple enhancements to aid in the fac
 No.
 It's not possible to reference Dataset results in SQL queries today.
 That means there isn't a way to leverage an existing Dataset within a new Dataset, or join the results of multiple Datasets together.
+////

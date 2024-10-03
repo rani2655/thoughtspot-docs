@@ -51,9 +51,11 @@ We'll be happy to assist you further.
 * xref:studio-connecting-analyst-studio-to-your-database.adoc#faqs-bridge[FAQs]
 * xref:studio-connecting-analyst-studio-to-your-database.adoc#troubleshooting-bridge[Common Errors]
 
+////
 === Datasets
 
 * xref:studio-datasets.adoc#faqs[FAQs]
+////
 
 === dbt data freshness
 
@@ -65,9 +67,11 @@ We'll be happy to assist you further.
 * xref:studio-dbt-semantic-layer.adoc[FAQs]
 * xref:studio-dbt-semantic-layer.adoc[Common Errors]
 
+////
 === Discovery database
 
 * xref:studio-discovery-database.adoc#faqs[FAQs]
+////
 
 === Explorations
 
@@ -92,9 +96,11 @@ We'll be happy to assist you further.
 * xref:studio-querying-data.adoc#faqs[FAQs]
 * xref:studio-querying-data.adoc#troubleshooting[Common Errors]
 
+////
 === Slack integration
 
 * xref:studio-slack.adoc#faqs[FAQs]
+////
 
 === Supported databases
 
