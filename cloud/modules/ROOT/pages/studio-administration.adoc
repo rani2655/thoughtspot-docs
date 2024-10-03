@@ -7,7 +7,9 @@
 :description: Administration.
 :product: Analyst Studio
 
+Learn the permissions required for accessing {product} as an administrator.
 Use Workspace API tokens for tasks like archiving inactive Reports or deleting schedules for stale Reports across your Workspace. Note that only admin users can create Workspace API tokens.
 
+** xref:studio-admin-permissions.adoc[Admin permissions]
 ** xref:studio-workspace-api-tokens.adoc[API tokens] +
 An overview of Workspace API tokens.
