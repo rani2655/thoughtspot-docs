@@ -193,13 +193,25 @@ image::create_new_schedule.png[Schedule a dataset]
 
 Once you've created a Dataset and set a schedule, follow these steps to publish to ThoughtSpot:
 
-. To do so, select the caret next to the Dataset name. From the dropdown, select *Publish*.
-
-. Your Dataset is published to ThoughtSpot as a table. You can access it from the Datasets section in the Data Workspace.
+. Click the blue *Publish* button in the upper right side of the top menu.
 +
-NOTE: Only users with *can manage data* privileges can access the Data Workspace.
+[.bordered]
+image::dataset-publish.png[]
++
+NOTE: You can only publish Datasets you created.
+
+. In the *Publish to the Data workspace* window, enter the Dataset name and click *Publish*.
++
+[.bordered]
+image::publish-workspace.png[]
+
+. Your Dataset is published to ThoughtSpot as a table. You can access it from the Datasets section in the Data workspace.
++
+NOTE: Only users with *can manage data* privileges can access the Data workspace.
 
 . Unlike items from ThoughtSpot Connections, which are live, a Dataset is an extract that runs on a schedule. Your Dataset in ThoughtSpot will refresh according to the schedule(s) you set in Analyst Studio.
+
+Note that if you want to edit an existing, published Dataset, it may break the content built on it. We recommend creating a new Dataset with the desired edits and publishing it. If you delete a Dataset after publishing, you must also delete the Dataset in the ThoughtSpot Data workspace.
 
 === Moving a Dataset to a Collection
 
