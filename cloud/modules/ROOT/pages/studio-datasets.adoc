@@ -24,6 +24,7 @@ Rather than each individual Report hitting the warehouse, only the single Datase
 That data then cascades to all associated Reports.
 ////
 
+////
 == What are the benefits of using Datasets?
 
 Datasets can help make maintaining and scaling access to data efficient and cost-effective.
@@ -52,7 +53,7 @@ This Report may contain multiple queries, which can all be combined into a Datas
 The Dataset would be the source of truth for asking ad-hoc questions on this topic.
 
 Check out our {product} University learning path, link:https://university.mode.com/path/self-serve-infrastructure-datasets[Building Self-Serve Infrastructure with Datasets,window=_blank], to learn more about developing a Datasets strategy.
-
+////
 == Creating a Dataset
 
 To create a new Dataset, select the *Create* button in the top right corner of your {product} home screen and choose *Make a reusable Dataset*.
@@ -84,7 +85,7 @@ You can see a list of all of the available fields in the Dataset from the Fields
 [.bordered]
 image::fields_tab_dataset.png[Datasets from the Fields tab]
 ////
-
+////
 === Describing the fields in your Dataset
 
 We recommend adding field descriptions to all Workspace Datasets to build shared understanding around business and logic definition.
@@ -132,7 +133,7 @@ Use this field only when you have the data aggregated by week.
 //+++<u>+++**See example chart here**+++</u>+++
 
 |===
-
+////
 === Adding calculated fields to the Dataset
 
 You can add new calculated fields to the Dataset from the Fields tab.
