@@ -16,10 +16,12 @@ To understand why a Workspace member doesn't have access to a Report, check the 
 
 To see the Collection default access level for Workspace members, hover over the Collection name in the Report header.
 
+[.bordered]
 image::collection-default-access.png[Report Access]
 
 To see all database Connections used in the Report and the default access level for each of the Connections, either click the info icon next to the Run button or navigate to View Details.
 
+[.bordered]
 image::datasource-default-access1.png[Report Access]
 
 These are the permissions that Workspace members need in order to access a Report:
@@ -64,6 +66,7 @@ This is the access that every member of your Workspace has to the Connection by 
 Below that, you will see a list of users with additional access, along with their access level and how they got that access -- they can have access via Group permissions, individual permissions, or their status as an Admin.
 Use the filter dropdowns to show a list of individual users or Groups with access to the Connection.
 
+[.bordered]
 image::permission2.png[Permissions2]
 
 *Manage Connection permissions*
@@ -72,6 +75,7 @@ Manage the default access level for the Connection by updating the setting to *N
 
 TIP: Set **View** as the default access level for Connections that are used to build heavily trafficked reports. For connections to data sources that contain sensitive data that only certain Groups should view, set the default access to **None** and grant those Groups access using the **Add members** button.
 
+[.bordered]
 image::permission3.png[Permissions3]
 
 WARNING: Updating a Connection's default access to **None** may cause users to lose view or edit access to Reports they could previously access. We recommend adding the Groups who should have access to view and query the Connection before changing the default access.
@@ -79,6 +83,7 @@ WARNING: Updating a Connection's default access to **None** may cause users to l
 To grant permissions for individuals and Groups in addition to the default access, use the *Add members* button.
 This will surface the modal shown below.
 
+[.bordered]
 image::permission4.png[Permissions4]
 
 There are three types of permissions that can be granted to an individual or Group: *Manage*, *Query* or *View*.
@@ -119,18 +124,24 @@ For Reports, this means viewers can also create Explorations based on those Repo
 
 The chart below shows what actions Viewers & Editors can take.
 
-image:actions-viewers-editors.png[Actions for viewers and editors] image:collection-permissions-light.png[Actions for viewers and editors]
+[.bordered]
+image:actions-viewers-editors.png[Actions for viewers and editors]
+[.bordered]
+image:collection-permissions-light.png[Actions for viewers and editors]
 
 *Manage Collection permissions*
 
 Once default Workspace access is set, you'll have the chance to grant additional access via the *Manage Access* modal.
 (This screen will show automatically when you create a new Collection, and you can access it any time by clicking the gear icon to the right of the Collection name.
-You can also access this modal from the *My Collections* view to manage Collection permissions in bulk.) image:collection-permission.gif[manage collection permission]
+You can also access this modal from the *My Collections* view to manage Collection permissions in bulk.)
+
+image:collection-permission.gif[manage collection permission]
 
 To add Group or individual access to the Collection, select *Add Members* and search for and select individuals or Groups to grant access.
 
 From the *Manage Access* modal, you can also update the default Workspace access at any time.
 
+[.bordered]
 image::workspace-access.png[Workspace access]
 
 NOTE: All Admins have **Editor** permission for all Collections ー this permission cannot be modified. When a user is removed as an Admin, they will lose access to Collections, unless they are granted permissions via a Group or as an individual user.
@@ -139,6 +150,7 @@ Admins can bulk remove additional access to a Collection by clicking the *Remove
 This action is only available to Admins, and completely resets permissions to the Collection.
 Once access is removed, it cannot be reverted.
 
+[.bordered]
 image::bulk-remove1.png[bulk remove]
 
 === Permissions best practices

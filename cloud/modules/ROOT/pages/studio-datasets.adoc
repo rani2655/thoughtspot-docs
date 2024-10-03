@@ -189,6 +189,18 @@ From here, you can set the refresh frequency, as well as the specific time and t
 [.bordered]
 image::create_new_schedule.png[Schedule a dataset]
 
+=== Publishing a Dataset to ThoughtSpot
+
+Once you've created a Dataset and set a schedule, follow these steps to publish to ThoughtSpot:
+
+. To do so, select the caret next to the Dataset name. From the dropdown, select *Publish*.
+
+. Your Dataset is published to ThoughtSpot as a table. You can access it from the Datasets section in the Data Workspace.
++
+NOTE: Only users with *can manage data* privileges can access the Data Workspace.
+
+. Unlike items from ThoughtSpot Connections, which are live, a Dataset is an extract that runs on a schedule. Your Dataset in ThoughtSpot will refresh according to the schedule(s) you set in Analyst Studio.
+
 === Moving a Dataset to a Collection
 
 The final step to create a Dataset is to move the Dataset into a Collection.
