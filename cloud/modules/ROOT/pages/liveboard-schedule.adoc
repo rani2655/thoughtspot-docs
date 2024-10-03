@@ -61,10 +61,13 @@ Type::
 * *XLSX files* provide all data for tables, with an Excel attachment for each table. If your Liveboard has 3 tables and 4 charts, the Liveboard schedule email contains 3 XLSX files, one for each table, and no content on the charts in the Liveboard. Use XLSX files to share information and perform further analysis offline in Excel.
 ** Refer to xref:schedule-liveboards.adoc#format[Format of scheduled Liveboards] for more information about the differences between CSV, XLSX, and PDF attachments in a scheduled Liveboard email.
 
-Liveboard schedule pdf which is sent via emails is stored in the cluster for a definite duration and is cleared:
+[NOTE]
+====
+Liveboard schedule pdf sent via emails is stored in the cluster until either of the following conditions are met:
 
-* When the cluster is restarted.
-* When there is a scheduled run for a Liveboard, all pdfs older than 24 hrs for that Liveboard are cleared.
+* The cluster is restarted.
+* When there is another scheduled run for a Liveboard, all pdfs older than 24 hrs for that Liveboard are cleared.
+====
 
 
 Gating condition::
