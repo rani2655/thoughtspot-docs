@@ -41,12 +41,12 @@ Once that's set up, you can then configure database connections.
 ===== User access
 
 Users can be given access to perform their analysis or administrative tasks in {product}. Users and user groups can be given access by assigning *can use {product}* privilege to give them access to {product} or *can manage {product}* privilege to be an admin.
-An admin user is necessary for establishing database connections, creating collections, and managing Report access. We recommend granting several users admin privileges.
+An admin user is necessary for establishing database connections, creating Collections, and managing Report access. We recommend granting several users admin privileges.
 Once a user has been made an admin, they can perform actions such as:
 
 
 * Establish database connections.
-* Create collections.
+* Create Collections.
 * Restrict Report visibility and access.
 
 
@@ -227,7 +227,7 @@ Here are some items to consider for analyzing your data:
 * Do you have data sets that are currently too large or difficult to manage?
 * Are there existing notebook environments that you can consolidate and streamline with {product}?
 ////
-////
+
 == Building and sharing a report
 
 Now that we have gone through {product}'s core concepts, we can walk through how to turn your analysis into a robust, meaningful Report that can be shared across the company.
@@ -284,7 +284,7 @@ With a WLE, authentication is handled external to {product} with customized look
 The WLE can also restrict the user's ability to see the underlying data - avoiding unintentional leakage of sensitive data.
 
 image::screenshot-wle.png[White label embed]
-////
+
 ////
 == Building and sharing Report checklist
 
@@ -296,6 +296,7 @@ Items to consider when planning your company's reporting strategy:
 * Will Reports need to be embedded and shared with external partners?
 * What is the primary manner Reports will be shared?
 ////
+
 ////
 == Advanced topics
 
