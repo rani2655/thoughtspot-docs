@@ -25,7 +25,7 @@ Virginia)
 [#gcp]
 == GCP Supported regions
 
-ThoughtSpot Cloud on GCP is available in the following region:
+ThoughtSpot Cloud on GCP is available in the following regions:
 
 * US East (Virginia)
 * EMEA (Frankfurt)
