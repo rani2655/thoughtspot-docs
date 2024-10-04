@@ -201,10 +201,10 @@ To remove a tag filter and see all objects again, select the tag you filtered on
 == Remove a tag
 You can remove a tag from an object from the object list page
 ifndef::spotter[]
-for Answers and Liveboards, or the Data Workspace page, for tables, Worksheets, views, and SQL views.
+for Answers and Liveboards, or the Data workspace page, for tables, Worksheets, views, and SQL views.
 endif::[]
 ifdef::spotter[]
-for the Data Workspace page, for tables and Worksheets.
+for the Data workspace page, for tables and Worksheets.
 endif::[]
 // To remove a tag for an Answer or Liveboard, follow these steps:
 //

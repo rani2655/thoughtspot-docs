@@ -158,7 +158,7 @@ endif::[]
 // Naomi. jira: SCAL-211323. docs jira: SCAL-225087
 // PM: Shruthi. add image. main focuses: create extracts, advanced analytics,
 
-ThoughtSpot introduces Analyst Studio, where you can write SQL queries to create reusable Datasets. You can set schedules to refresh Datasets, or publish them to the Data Workspace, where you can join multiple Datasets to query as a whole.
+ThoughtSpot introduces Analyst Studio, where you can write SQL queries to create reusable Datasets. You can set schedules to refresh Datasets, or publish them to the Data workspace, where you can join multiple Datasets to query as a whole.
 
 For more information, see
 ifndef::pendo-links[]

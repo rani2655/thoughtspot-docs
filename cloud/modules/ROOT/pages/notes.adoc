@@ -323,7 +323,7 @@ ThoughtSpot Sync::
 We made the following enhancements to ThoughtSpot Sync:
 
 * Using ThoughtSpot Sync, you can now sync data directly from an Answer or a custom SQL view, to xref:sync-ms-excel.adoc[Excel].
-* You can now click the preview link when you create a Sync from the Data Workspace to see a preview of the resulting Answer, Liveboard, or Custom SQL view. Answer, Liveboard, and Custom SQL view previews appear in a new tab.
+* You can now click the preview link when you create a Sync from the Data workspace to see a preview of the resulting Answer, Liveboard, or Custom SQL view. Answer, Liveboard, and Custom SQL view previews appear in a new tab.
 * When running a Sync, you can see the following information depending on the destination:
 
 ** Slack: channel name
@@ -437,7 +437,7 @@ xref:user-adoption.adoc[User Adoption Liveboard] and xref:user-productivity.adoc
 
 // Naomi – SCAL-148626. documentation jira SCAL-202207 (approved). SCAL-132544. documentation jira SCAL-202209 (approved)
 Connection TML::
-You can now use the table TML file to make changes to connection details like remapping columns and changing data type, rather than using the connection.yaml file. This allows you to make small changes to a Connection without the need to resolve all possible errors first. You can also edit or export the Connection TML file from the Data Workspace.  For more information, see xref:tml-connections.adoc[TML for connections].
+You can now use the table TML file to make changes to connection details like remapping columns and changing data type, rather than using the connection.yaml file. This allows you to make small changes to a Connection without the need to resolve all possible errors first. You can also edit or export the Connection TML file from the Data workspace.  For more information, see xref:tml-connections.adoc[TML for connections].
 
 
 Enabling GIT integration for version control of Liveboards and Answers [.badge.badge-early-access-relnotes]#Early Access#::
@@ -1687,7 +1687,7 @@ Certify Amazon Aurora and Amazon Relational Database Service (RDS) for PostgreSQ
 
 Databricks Catalog field:: When creating a connection to Databricks, you can now enter your catalog name under the *Catalog* field. For more information, see xref:connections-databricks-add.adoc[Add a Databricks connection].
 
-Create a sync as an admin:: When creating a sync to an external app, admin users will no longer see destinations created by other users in the *Destinations* dropdown menu. Admin users will still be able to see a list of all destinations created by users in their organization when they navigate to the *Destinations* tab in the Data Workspace.
+Create a sync as an admin:: When creating a sync to an external app, admin users will no longer see destinations created by other users in the *Destinations* dropdown menu. Admin users will still be able to see a list of all destinations created by users in their organization when they navigate to the *Destinations* tab in the Data workspace.
 
 Delete table columns using TML::
 
@@ -2367,8 +2367,8 @@ To help you construct Answers based on the most relevant time data, ThoughtSpot 
 === For the Data Engineer
 
 [#data-workspace]
-Data Workspace::
-The new Data Workspace is now GA and on by default. It redesigns the *Data* section of the product. To access it, select *Data* from the top navigation bar. The redesign introduces several new features, such as SQL-based views, dbt integration, and SpotApps, and makes the UI more intuitive.
+Data workspace::
+The new Data workspace is now GA and on by default. It redesigns the *Data* section of the product. To access it, select *Data* from the top navigation bar. The redesign introduces several new features, such as SQL-based views, dbt integration, and SpotApps, and makes the UI more intuitive.
 +
 See xref:data-workspace.adoc[Data workspace].
 
@@ -2620,7 +2620,7 @@ This feature is in beta and off by default. To enable it, contact {support-url}.
 [#data-tab]
 Data tab redesign [.badge.badge-beta-relnotes]#Beta#::
 
-This release redesigns the *Data* section of the product. The new Data Workspace is still in the same place in the product. To access it, select *Data* from the top navigation bar. The redesign introduces several new features, such as SQL-based views and SpotApps, and makes the UI more intuitive.
+This release redesigns the *Data* section of the product. The new Data workspace is still in the same place in the product. To access it, select *Data* from the top navigation bar. The redesign introduces several new features, such as SQL-based views and SpotApps, and makes the UI more intuitive.
 +
 This feature is in beta and off by default. To enable it,  contact {support-url}.
 
@@ -2668,7 +2668,7 @@ This feature is in *Beta* and on only for select customers.
 
 [#connections-flow-data-portal]
 New connection creation flow with data tab redesign::
-If you have the new <<data-tab,redesigned data tab>> enabled, you can see the new Data Workspace page from the *Data* tab in the top navigation bar. To start creating a connection, click *Connections*, then click the connection type you want to create. The new Data Workspace allows you to create a connection without selecting tables or columns.
+If you have the new <<data-tab,redesigned data tab>> enabled, you can see the new Data workspace page from the *Data* tab in the top navigation bar. To start creating a connection, click *Connections*, then click the connection type you want to create. The new Data workspace allows you to create a connection without selecting tables or columns.
 
 [#8-2-0-cl-developer]
 === For the Developer
