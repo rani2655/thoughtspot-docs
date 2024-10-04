@@ -2,8 +2,8 @@
 :categories: ["Navigate and organize content"]
 :categories_weight: 6
 :date: 2021-04-07
-:description: How to collaborate and discover reports in Analyst Studio
-:ogdescription: How to collaborate and discover reports in Analyst Studio
+:description: How to collaborate and discover Reports in Analyst Studio.
+:ogdescription: How to collaborate and discover Reports in Analyst Studio.
 :page-layout: default-cloud
 :path: /articles/collaboration-and-discovery
 :product: Analyst Studio

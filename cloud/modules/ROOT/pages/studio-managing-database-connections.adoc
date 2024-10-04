@@ -2,8 +2,8 @@
 :categories: ["Connect your database"]
 :categories_weight: 30
 :date: 2021-04-26
-:description: Administer Analyst Studio connectivity
-:ogdescription: Administer Analyst Studio connectivity
+:description: Administer Analyst Studio connectivity.
+:ogdescription: Administer Analyst Studio connectivity.
 :page-layout: default-cloud
 :path: /articles/managing-database-connections
 :product: Analyst Studio

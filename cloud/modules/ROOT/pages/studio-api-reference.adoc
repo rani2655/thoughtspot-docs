@@ -2,10 +2,10 @@
 :categories: ["API"]
 :categories_weight: 2
 :date: 2024-02-27
-:description: An overview of Analyst Studio API
+:description: An overview of Analyst Studio API.
 :experimental:
 :page-layout: default-cloud
-:ogdescription: An overview of Analyst Studio API
+:ogdescription: An overview of Analyst Studio API.
 :path: /articles/api-reference
 :product: Analyst Studio
 :jira: SCAL-219402

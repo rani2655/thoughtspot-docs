@@ -1,9 +1,9 @@
-= Access Control and Permissions
+= Access control and permissions
 :categories: ["Administration"]
 :categories_weight: 2
 :date: 2021-12-17
-:description: How to manage Permissions in Mode
-:ogdescription: How to manage Permissions in Mode
+:description: How to manage permissions in Mode.
+:ogdescription: How to manage permissions in Mode.
 :page-layout: default-cloud
 :path: /articles/permissions
 :brand: Mode

@@ -3,8 +3,8 @@
 :categories_weight: 1
 :date: 2019-06-07
 :page-layout: default-cloud
-:description: How to get in touch with Analyst Studio
-:ogdescription: How to get in touch with Analyst Studio
+:description: How to get in touch with Analyst Studio.
+:ogdescription: How to get in touch with Analyst Studio.
 :path: /articles/contact-us
 :product: Analyst Studio
 

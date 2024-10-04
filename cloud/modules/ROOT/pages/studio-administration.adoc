@@ -4,7 +4,7 @@
 :experimental:
 :page-layout: default-cloud
 :linkattrs:
-:description: Administration.
+:description: Learn the permissions required for accessing Analyst Studio as an administrator.
 :product: Analyst Studio
 
 Learn the permissions required for accessing {product} as an administrator.

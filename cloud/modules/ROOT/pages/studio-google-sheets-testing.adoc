@@ -2,7 +2,7 @@
 :categories: ["Integrations"]
 :categories_weight: 3
 :date: 2024-05-31
-:description: Google Sheets testing.
+:description: Analyst Studio's Google Sheet integration allows users to connect to their individual Google Accounts to upload Google Sheet data directly into Datasets.
 :hide_from_nav: true
 :ogdescription: Google Sheets testing.
 :page-layout: default-cloud
