@@ -2,8 +2,8 @@
 :categories: ["Query and analyze data"]
 :categories_weight: 9
 :date: 2022-12-05
-:description: Generate SQL using AI assistance
-:ogdescription: Generate SQL using AI assistance
+:description: Generate SQL using AI assistance.
+:ogdescription: Generate SQL using AI assistance.
 :page-layout: default-cloud
 :path: /articles/ai-assist
 :product: Analyst Studio

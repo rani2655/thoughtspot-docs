@@ -2,8 +2,8 @@
 :categories: ["Integrations"]
 :categories_weight: 1
 :date: 2021-04-13
-:description: Analyst Studio's dbt integration allows users to view metadata about data freshness from dbt directly in Analyst Studio reports.
-:ogdescription: Analyst Studio's dbt integration allows users to view metadata about data freshness from dbt directly in Analyst Studio reports.
+:description: Analyst Studio's dbt integration allows users to view metadata about data freshness from dbt directly in Analyst Studio Reports.
+:ogdescription: Analyst Studio's dbt integration allows users to view metadata about data freshness from dbt directly in Analyst Studio Reports.
 :page-layout: default-cloud
 :path: /articles/dbt-data-freshness
 :versions: ["business"]

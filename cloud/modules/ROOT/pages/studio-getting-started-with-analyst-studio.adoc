@@ -3,8 +3,8 @@
 :categories_weight: 2
 :date: 2021-04-05
 :page-layout: default-cloud
-:description: A guide on getting started with Analyst Studio
-:ogdescription: First steps with Analyst Studio
+:description: A guide on getting started with Analyst Studio.
+:ogdescription: First steps with Analyst Studio.
 :path: /articles/getting-started-with-mode
 :product: Analyst Studio
 
