@@ -2,15 +2,15 @@
 :categories: ["Administration"]
 :categories_weight: 2
 :date: 2021-12-17
-:description: How to manage permissions in Mode.
-:ogdescription: How to manage permissions in Mode.
+:description: How to manage permissions in Analyst Studio.
+:ogdescription: How to manage permissions in Analyst Studio.
 :page-layout: default-cloud
 :path: /articles/permissions
-:brand: Mode
+:product: Analyst Studio
 
 == Report and Dataset access
 
-In {brand}'s paid plans, Admins can use a combination of Collection permissions and database xref:studio-managing-database-connections.adoc#limit-access-to-a-data-connection-in-mode[Connection permissions] to control view and edit access to Reports in their Workspace.
+Admins can use a combination of Collection permissions and database xref:studio-managing-database-connections.adoc#limit-access-to-a-data-connection-in-mode[Connection permissions] to control view and edit access to Reports in their Workspace.
 
 To understand why a Workspace member doesn't have access to a Report, check the database Connection and Collection default access from the Report itself.
 
@@ -34,10 +34,10 @@ These are the permissions that Workspace members need in order to access a Repor
 [#create-groups]
 === Create Groups
 
-Use xref:studio-organizations.adoc#groups[Groups] to manage access to resources in {brand}.
+Use xref:studio-organizations.adoc#groups[Groups] to manage access to resources in {product}.
 By granting an individual user membership to a Group, you grant them access to resources based on their Group membership.
-Each Group in {brand} can be configured with a unique set of permissions.
-{brand}'s permission system gives you the flexibility to change the role of an individual user by adding or removing that user to or from different Groups.
+Each Group in {product} can be configured with a unique set of permissions.
+{product}'s permission system gives you the flexibility to change the role of an individual user by adding or removing that user to or from different Groups.
 
 You can create Groups by navigating to *Workspace Settings* and clicking into the *Groups* tab.
 Select a Group from the list to manage its members.
@@ -46,24 +46,24 @@ From here, selecting the *Collections* and *Connections* tabs will provide visib
 
 image::permission1.png[Permissions1]
 
-TIP: To programmatically provision Groups and Users in {brand}, talk to your CSM about implementing xref:authentication-sso.adoc#scim[Okta SCIM].
+TIP: To programmatically provision Groups and Users in {product}, talk to your CSM about implementing xref:authentication-sso.adoc#scim[Okta SCIM].
 
 *Admins*
-xref:organizations.adoc#roles-and-permissions[Admins] in {brand} have the highest level of access to all resources by default.
-Only make users Admins if they are authorized to manage all groups, connections, collections, and reports in {brand}.
+xref:organizations.adoc#roles-and-permissions[Admins] in {product} have the highest level of access to all resources by default.
+Only make users Admins if they are authorized to manage all groups, connections, collections, and reports in {product}.
 ////
 
 [#set-up-collection-permissions]
 === Set up Connection permissions
 
-Access to a Connection determines a user's ability to query and view data in {brand}.
+Access to a Connection determines a user's ability to query and view data in {product}.
 xref:studio-managing-database-connections.adoc#limit-access-to-a-data-connection-in-mode[Manage access to Connections] by navigating to *Workspace Settings*, clicking into the *Manage Connections* tab, selecting a Connection and clicking the *Permissions* tab.
 
 *View current Connection access*
 
 For each Connection, you will see the default org-wide access at the top.
 This is the access that every member of your Workspace has to the Connection by default.
-Below that, you will see a list of users with additional access, along with their access level and how they got that access -- they can have access via Group permissions, individual permissions, or their status as an Admin.
+Below that, you will see a list of users with additional access, along with their access level and how they got that access -- they can have access via Group permissions, individual permissions, or their status as an admin.
 Use the filter dropdowns to show a list of individual users or Groups with access to the Connection.
 
 [.bordered]
@@ -88,22 +88,22 @@ image::permission4.png[Permissions4]
 
 There are three types of permissions that can be granted to an individual or Group: *Manage*, *Query* or *View*.
 
-* The *Manage* permission allows users to manage Connection settings without making them an Admin.
+* The *Manage* permission allows users to manage Connection settings without making them an admin.
 This includes managing permissions.
-Only grant the *Manage* permission to non-Admin users who should be able to change permissions or settings for the Connection.
+Only grant the *Manage* permission to non-admin users who should be able to change permissions or settings for the Connection.
 * The *Query* permission allows users to write and modify queries against the Connection.
 Only users with this permission can create and edit Reports using this Connection.
 * The *View* permission allows users to view Reports created using the Connection.
 This includes the ability to use parameters and run Reports.
 
-NOTE: All Admins have **Manage** permission for all Connections, regardless of the default access set for a Connection ー this permission cannot be modified. When a user is removed as an Admin, they will lose access to all Connections, unless they are granted permissions via a Group or as an individual user.
+NOTE: All admins have **Manage** permission for all Connections, regardless of the default access set for a Connection ー this permission cannot be modified. When a user is removed as an admin, they will lose access to all Connections, unless they are granted permissions via a Group or as an individual user.
 
 === Set up Collection permissions
 
-Use Collections to organize and manage access to Datasets and Reports in your {brand} Workspace.
+Use Collections to organize and manage access to Datasets and Reports in your {product} Workspace.
 
 When you create a new Dataset or Report, it is private to you.
-Your Personal content is accessible via the link, but cannot be found via search or navigation in {brand} until moved into a shared Collection.
+Your Personal content is accessible via the link, but cannot be found via search or navigation in {product} until moved into a shared Collection.
 
 In order to move a Dataset or Report into a Collection, you must have Edit permission for the destination Collection.
 Moving a Dataset or Report may also change who has access to it.
@@ -144,10 +144,10 @@ From the *Manage Access* modal, you can also update the default Workspace access
 [.bordered]
 image::workspace-access.png[Workspace access]
 
-NOTE: All Admins have **Editor** permission for all Collections ー this permission cannot be modified. When a user is removed as an Admin, they will lose access to Collections, unless they are granted permissions via a Group or as an individual user.
+NOTE: All admins have **Editor** permission for all Collections ー this permission cannot be modified. When a user is removed as an admin, they will lose access to Collections, unless they are granted permissions via a Group or as an individual user.
 
 Admins can bulk remove additional access to a Collection by clicking the *Remove all...* button.
-This action is only available to Admins, and completely resets permissions to the Collection.
+This action is only available to admins, and completely resets permissions to the Collection.
 Once access is removed, it cannot be reverted.
 
 [.bordered]
@@ -196,10 +196,10 @@ If only one user has *Query* permission to the Connection, all other users will 
 [discrete]
 ====== *Q: How can I allow a group of users to access a specific schema?*
 
-{brand} will essentially maintain the permissions that you set in your native database.
-Therefore, since {brand} connects to your database as a database user, if you established these permissions for a certain user and you use those user credentials to connect to a data source in {brand}, those permissions will persist.
+{product} will essentially maintain the permissions that you set in your native database.
+Therefore, since {product} connects to your database as a database user, if you established these permissions for a certain user and you use those user credentials to connect to a data source in {product}, those permissions will persist.
 
 ////
-If you would like to group certain {brand} users together to access a connection.
+If you would like to group certain {product} users together to access a connection.
 You can read more about this <<create-groups,here>>.
 ////
