@@ -19,7 +19,7 @@ ifndef::spotter[]
 // ![]({{ site.baseurl }}/images/new-connection.png "New db connect")
 endif::[]
 ifdef::spotter[]
-. Click the app switcher menu image:spotter-app-switcher.png[] and then click *Spotter*.
+. Click the app switcher menu image:spotter-app-switcher.png[] and then click *{form-factor}*.
 . Select *Manage data > Add data source* on the left side of the screen.
 . On the _Add a data source_ page, click *Connect data*.
 +
@@ -69,13 +69,13 @@ include::partial$model-build.adoc[]
 [.bordered]
 image::connection-spotter-set-up-new-connection-3.png[model created]
 
-== Coach Spotter
+== Coach {form-factor}
 
-You can teach Spotter how your organization uses your data by asking some questions, viewing the answers and refining them through your feedback. This helps Spotter to provide the kinds of answers you are looking for based on how you ask your questions. You can skip this step by clicking *Skip*. To coach Spotter later, go to *Manage data > Coach Spotter*, then click *Add coaching*.
+You can teach {form-factor} how your organization uses your data by asking some questions, viewing the answers and refining them through your feedback. This helps Spotter to provide the kinds of answers you are looking for based on how you ask your questions. You can skip this step by clicking *Skip*. To coach Spotter later, go to *Manage data > Coach {form-factor}*, then click *Add coaching*.
 
 To coach Spotter, do the following:
 
-. Click *Coach Spotter*.
+. Click *Coach {form-factor}*.
 . Select your data set, if it is not already selected.
 . In the field to the right of the data set name, enter a business question and click *Next*.
 +
@@ -109,11 +109,11 @@ image::connection-spotter-set-up-new-connection-5.png[]
 Now you are ready to use Spotter with your data set.
 
 . Click *Chat*.
-. On the _Spotter_ page, enter a question in the _Ask a question_ field, and click the submit button image:spotter-submit.png[submit chat button,width="40px"].
+. On the _{form-factor}_ page, enter a question in the _Ask a question_ field, and click the submit button image:spotter-submit.png[submit chat button,width="40px"].
 +
 [.bordered]
 image::spotter-chat-box.png[chat box]
-. Edit the answers, if needed, by clicking the *Edit* link next to the search tokens of the Spotter answer.
+. Edit the answers, if needed, by clicking the *Edit* link next to the search tokens of the {form-factor} answer.
 +
 [.bordered]
 image::spotter-answer.png[]
