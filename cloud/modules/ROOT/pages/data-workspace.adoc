@@ -13,7 +13,9 @@ Use the *Data workspace*, available from the *Data* tab in the top navigation ba
 endif::[]
 
 ifdef::spotter[]
-To access the *Data workspace*, from the {form-factor} page, select *Manage data > Manage data sources*.
+To access the *Data workspace*, do the following:
+. Click the app switcher menu image:spotter-app-switcher.png[] and then click *{form-factor}*.
+. Select *Manage data > Manage data sources* on the left side of the screen.
 endif::[]
 
 == Data workspace page
