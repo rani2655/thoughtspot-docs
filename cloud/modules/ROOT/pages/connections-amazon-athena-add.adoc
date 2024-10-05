@@ -106,7 +106,7 @@ image::connection-spotter-set-up-new-connection-5.png[]
 
 == Chat with your data
 
-Now you are ready to use Spotter with your data set.
+Now you are ready to use {form-factor} with your data set.
 
 . Click *Chat*.
 . On the _{form-factor}_ page, enter a question in the _Ask a question_ field, and click the submit button image:spotter-submit.png[submit chat button,width="40px"].
