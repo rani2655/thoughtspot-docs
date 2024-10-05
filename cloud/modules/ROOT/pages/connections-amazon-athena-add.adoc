@@ -76,8 +76,8 @@ You can teach {form-factor} how your organization uses your data by asking some 
 To coach Spotter, do the following:
 
 . Click *Coach {form-factor}*.
-. Select your data set, if it is not already selected.
-. In the field to the right of the data set name, enter a business question and click *Next*.
+. Select your dataset, if it is not already selected.
+. In the field to the right of the dataset name, enter a business question and click *Next*.
 +
 [.bordered]
 image::spotter-coach-1.png[]
@@ -85,7 +85,7 @@ image::spotter-coach-1.png[]
 The AI-generated Answer appears.
 [.bordered]
 image::spotter-coach-2.png[]
-. Modify the answer, as needed, by adding columns using the list on the left, or by entering the column name next to the existing search tokens in the search field next to the name of the data set.
+. Modify the answer, as needed, by adding columns using the list on the left, or by entering the column name next to the existing search tokens in the search field next to the name of the dataset.
 . When you are satisfied with the answer, click *Next*.
 +
 [.bordered]
@@ -105,7 +105,7 @@ image::connection-spotter-set-up-new-connection-5.png[]
 
 == Chat with your data
 
-Now you are ready to use {form-factor} with your data set.
+Now you are ready to use {form-factor} with your dataset.
 
 . Click *Chat*.
 . On the _{form-factor}_ page, enter a question in the _Ask a question_ field, and click the submit button image:spotter-submit.png[submit chat button,width="40px"].
