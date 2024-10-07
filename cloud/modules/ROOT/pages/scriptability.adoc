@@ -92,10 +92,85 @@ The zip file also contains the `Alerts.tml` file, which only appears when you ex
 === Rules to sort TML
 ThoughtSpot introduces a consistent sort order when exporting the TML of an object (table, SQL view, Liveboard, etc.). This ensures that unnecessary differences don’t show up between TML files when the objects haven’t really changed, and makes it easier to compare TML files.
 
+The following sections list the sort order for various TML objects:
+
+////
 Columns are exported in the order in which they appear in the table's landing page by default. For worksheets and models, columns are sorted in the order in which they appear on the columns tab of the model editor.
 
 Other objects like formulas, filters, parameters, joins are sorted in lexicographical order for models.
+////
 
+
+
+[width="100%" cols="2,6"]
+[options='header']
+|=====
+|Table Objects|Sort order while exporting TML
+
+|Columns |In the order in which they appear in the import.
+|Joins|Lexicographical order.
+|=====
+
+[width="100%" cols="2,6"]
+[options='header']
+|=====
+|Model Objects|Sort order while exporting TML
+
+|Table schemas|In the order in which they appear in the table’s landing page.
+|Formulas|Lexicographical order.
+|Filters|Lexicographical order.
+|Columns|In the order in which they appear in the import.
+|Parameters|Lexicographical order.
+|=====
+
+[width="100%" cols="2,6"]
+[options='header']
+|=====
+|View Objects|Sort order while exporting TML
+
+|Tables|Lexicographical order.
+|Joins|Lexicographical order.
+|Table paths|Lexicographical order.
+|Columns|In the order in which they appear in the import.
+|Formulas|Lexicographical order.
+|Joins with|Lexicographical order.
+|=====
+
+[width="100%" cols="2,6"]
+[options='header']
+|=====
+|SQL View Objects|Sort order while exporting TML
+
+|Columns |In the order in which they appear in the import.
+|Joins with|Lexicographical order.
+|=====
+
+[width="100%" cols="2,6"]
+[options='header']
+|=====
+|Answer Objects|Sort order while exporting TML
+
+|Tables|Lexicographical order.
+|Joins|Lexicographical order.
+|Table paths|Lexicographical order.
+|Answer Columns|Lexicographical order. If there is a conflict, guid will be used for the next level sorting.
+|Formulas|Lexicographical order.
+|Table columns|Lexicographical order.
+|Chart columns|In the order in which they appear in the import.
+|Parameters|Lexicographical order.
+|Parameters values|Lexicographical order of the parameter name.
+|Action object associations|Lexicographical order.
+|=====
+
+[width="100%" cols="2,6"]
+[options='header']
+|=====
+|Liveboard Objects|Sort order while exporting TML
+
+|Tables|Lexicographical order.
+|Formulas|In the order in which they appear in the import.
+|Parameter overrides|In the order in which they appear in the import.
+|=====
 
 ////
 {: id="export-one"}
