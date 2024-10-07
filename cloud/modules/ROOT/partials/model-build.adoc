@@ -244,7 +244,8 @@ So if a particular dimension table is left out of the search, its joins are not 
 . Click *Save changes*.
 . In the _Describe your model_ window, name and describe your model (if you haven't already), and click *Save*.
 . Click *Exit data model*.
-ifndef::spotter[]
+
+ifdef::spotter[]
 . On the Add a data source page, click *Coach {form-factor}*.
 +
 image::connection-spotter-set-up-new-connection-3.png[]
