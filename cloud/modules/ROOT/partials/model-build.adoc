@@ -244,4 +244,11 @@ So if a particular dimension table is left out of the search, its joins are not 
 . Click *Save changes*.
 . In the _Describe your model_ window, name and describe your model (if you haven't already), and click *Save*.
 . Click *Exit data model*.
+ifndef::spotter[]
+. On the Add a data source page, click *Coach {form-factor}*.
++
+image::connection-spotter-set-up-new-connection-3.png[]
++
+NOTE: You can skip this step by clicking *Skip*. To coach {form-factor} later, go to *Manage data > Coach Spotter*, then click *Add coaching*. If you skip coaching, you can start chatting with your data now. For details, see <<#spotter-chat,Chat with your data>>.
 
+endif::[]
