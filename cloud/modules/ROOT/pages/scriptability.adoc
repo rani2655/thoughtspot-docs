@@ -107,7 +107,7 @@ Other objects like formulas, filters, parameters, joins are sorted in lexicograp
 |=====
 |Table Objects|Sort order while exporting TML
 
-|Columns |In the order in which they appear in the import.
+|Columns |In the order they were added to the object or in the order they appeared in the imported TML file during creation.
 |Joins|Lexicographical order.
 |=====
 
@@ -116,7 +116,7 @@ Other objects like formulas, filters, parameters, joins are sorted in lexicograp
 |=====
 |Model Objects|Sort order while exporting TML
 
-|Table schemas|In the order in which they appear in the table’s landing page.
+|Table schemas|In the order they were added to the object or in the order they appeared in the imported TML file during creation.
 |Formulas|Lexicographical order.
 |Filters|Lexicographical order.
 |Columns|In the order in which they appear in the import.
