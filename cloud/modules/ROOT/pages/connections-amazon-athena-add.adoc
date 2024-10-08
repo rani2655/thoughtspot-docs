@@ -20,7 +20,7 @@ ifndef::spotter[]
 endif::[]
 ifdef::spotter[]
 . Click the app switcher menu image:spotter-app-switcher.png[] and then click *{form-factor}*.
-. Select *Manage data > Add data source* on the left side of the screen.
+. On the left side of the screen, select *Manage data > Add data source*.
 . On the _Add a data source_ page, click *Connect data*.
 +
 [.bordered]
