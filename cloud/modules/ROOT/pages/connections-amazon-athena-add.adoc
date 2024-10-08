@@ -65,9 +65,6 @@ ifdef::spotter[]
 image::connection-spotter-set-up-new-connection-2.png[connection created]
 
 include::partial$model-build.adoc[]
-+
-[.bordered]
-image::connection-spotter-set-up-new-connection-3.png[model created]
 
 include::partial$spotter-coach-and-chat.adoc[]
 +
