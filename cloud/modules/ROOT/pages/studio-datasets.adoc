@@ -215,6 +215,7 @@ NOTE: Only users with *can manage data* privileges can access the Data workspace
 
 Note that if you want to edit an existing, published Dataset, it may break the content built on it. We recommend creating a new Dataset with the desired edits and publishing it. If you delete a Dataset after publishing, you must also delete the Dataset in the ThoughtSpot Data workspace.
 
+////
 === Moving a Dataset to a Collection
 
 The final step to create a Dataset is to move the Dataset into a Collection.
@@ -228,7 +229,7 @@ This will open a modal displaying all of the available Collections.
 image::move_to.png[Moving a dataset]
 
 Select the Collection you want to add the Dataset to, then select *Move*.
-
+////
 ////
 === Viewing a created Dataset
 
@@ -266,7 +267,7 @@ You can filter and sort the data on the table visualization or create additional
 [.bordered]
 image::viewing_a_dataset1.png[Share a dataset]
 ////
-
+////
 === Dataset permissions
 
 The following matrix explains how permissions and access to Connections and Collections effectively create permissions around Datasets.
@@ -406,7 +407,7 @@ From here, you can drag and drop the fields you want to analyze to create your c
 
 [.bordered]
 image::11-make-chart.png[New chart]
-
+////
 ////
 === Move charts from queries to Datasets
 
@@ -477,6 +478,7 @@ You can also compare how recently your entire Report ran relative to when the Da
 [.bordered]
 image::6-activity-popover.png[Dataset refresh]
 ////
+////
 == Deleting Datasets
 
 === How to delete Datasets
@@ -497,7 +499,7 @@ NOTE: If a Dataset is deleted, it will be permanently removed from your Workspac
 
 [.bordered]
 image::4-delete-dataset.png[Delete Dataset confirmation]
-
+////
 ////
 [#faqs]
 == FAQs

@@ -228,7 +228,7 @@ Here are some items to consider for analyzing your data:
 * Are there existing notebook environments that you can consolidate and streamline with {product}?
 ////
 
-== Building and sharing a report
+== Building and sharing a Report
 
 Now that we have gone through {product}'s core concepts, we can walk through how to turn your analysis into a robust, meaningful Report that can be shared across the company.
 
