@@ -29,7 +29,7 @@ image:spotter-approve-mapping.png[].
 image:spotter-reject-mapping.png[].
 . To ask another question, click *Ask another question*.
 . When you are finished, click *Done*.
-. On the Add a data source page, click *Chat*.
+. On the _Add a data source_ page, click *Chat*.
 +
 [.bordered]
 image::connection-spotter-set-up-new-connection-5.png[]
