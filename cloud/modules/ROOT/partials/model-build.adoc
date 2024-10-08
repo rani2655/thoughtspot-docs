@@ -248,6 +248,7 @@ So if a particular dimension table is left out of the search, its joins are not 
 ifdef::spotter[]
 . On the Add a data source page, click *Coach {form-factor}*.
 +
+[.bordered]
 image::connection-spotter-set-up-new-connection-3.png[]
 +
 NOTE: You can skip this step by clicking *Skip*. To coach {form-factor} later, go to *Manage data > Coach Spotter*, then click *Add coaching*. If you skip coaching, you can start chatting with your data now. For details, see <<#spotter-chat,Chat with your data>>.
