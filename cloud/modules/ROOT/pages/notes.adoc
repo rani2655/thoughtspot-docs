@@ -383,6 +383,9 @@ NOTE: If a data source is unavailable due to permissions, a message appears to i
 For more information, see xref:liveboard.adoc[Details about a Liveboard].
 // Mary – SCAL-190726 Doc JIRA SCAL-201822.
 
+// Naomi. SCAL-178764. docs JIRA SCAL-204357
+Error message improvements:: We have improved the error messages for CSV upload and custom calendar.
+
 Filters available for Liveboards with hidden columns included in a visualization::
 You can now change the filter values on Liveboards  that have visualizations that include hidden columns, or a formula created from a hidden column.
 +
