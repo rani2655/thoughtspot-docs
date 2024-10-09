@@ -11,3 +11,5 @@ Explore visualizations by changing chart type, sort order, filters, and chart fo
 
 ** xref:studio-explorations.adoc[Explorations] +
 Explorations are your own personal visualizations.
+** xref:studio-report-scheduling-and-sharing.adoc[Report scheduling] +
+Schedule Report runs.
