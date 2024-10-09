@@ -54,10 +54,11 @@ Keywords known issue:: When entering keywords in the search bar, you may see dif
 Categorization for Connections [.badge.badge-early-access-relnotes]#Early Access#:: You can now choose to sort Connections by type rather than order added to ThoughtSpot. To enable this feature, contact your administrator.
 
 // Naomi. jira: SCAL-212191. docs jira: SCAL-227574
-Content-aware filter values for Sage Coach:: We made the following improvements to filters in Sage Coach: +
+Sage Coach enhancements::
+Filters improvement:::
+Filters for Worksheets, feedback providers, and editors have been refined to display only relevant values when managing feedback. For example, only Worksheets with existing feedback entries will appear in the filter options, rather than showing all Worksheets in the system.
+This enhancement improves the filtering process, making it more efficient and user-friendly.
 
-* The only values displayed in the Worksheets filter dropdown are Worksheets for which feedback is applied.
-* The only values displayed in the users filter dropdown are users who have given feedback.
 
 
 
