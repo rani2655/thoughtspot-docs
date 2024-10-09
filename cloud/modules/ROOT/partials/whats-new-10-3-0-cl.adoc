@@ -78,6 +78,8 @@ image:compact-header.png[Streamlined Liveboard header]
 
 endif::free-trial-feature[]
 
+
+
 [#10-3-0-cl-alert]
 [discrete]
 === Create an alert from the Watchlist on the home page
@@ -97,13 +99,7 @@ image::create-alert.png[]
 // Naomi. docs jira: SCAL-220633.
 // PM: Aashna
 
-We have updated the Portuguese date keyword synonyms. For more information, see
-ifndef::pendo-links[]
-xref:keywords-pt-BR.adoc[Português (Brasil) Keyword reference].
-endif::[]
-ifdef::pendo-links[]
-xref:keywords-pt-BR.adoc[Português (Brasil) Keyword reference,window=_blank].
-endif::[]
+We have updated the Portuguese date keyword synonyms.
 
 // Analyst
 
@@ -139,7 +135,6 @@ ifdef::pendo-links[]
 </video>
 +++
 endif::pendo-links[]
-
 endif::free-trial-feature[]
 ////
 
@@ -158,15 +153,8 @@ endif::[]
 // Naomi. jira: SCAL-211323. docs jira: SCAL-225087
 // PM: Shruthi. add image. main focuses: create extracts, advanced analytics,
 
-ThoughtSpot introduces Analyst Studio, where you can write SQL queries to create reusable Datasets. You can set schedules to refresh Datasets, or publish them to the Data workspace, where you can join multiple Datasets to query as a whole.
-
-For more information, see
-ifndef::pendo-links[]
-xref:studio-get-started.adoc[Analyst Studio].
-endif::[]
-ifdef::pendo-links[]
-xref:studio-get-started.adoc[Analyst Studio,window=_blank].
-endif::[]
+ThoughtSpot introduces Analyst Studio, where you can write SQL queries to create reusable Datasets. You can set schedules to refresh Datasets, or publish them to the Data Workspace, where you can join multiple Datasets to query as a whole.
+ThoughtSpot's enhanced identity and access management (IAMv2) allows users with the *Can manage/access analyst studio* privilege to navigate to Analyst Studio seamlessly from the Analyst Studio tab or app switcher.
 
 [.bordered]
 image:analyst-studio.png[Analyst Studio in nav bar]
@@ -222,8 +210,6 @@ ThoughtSpot introduces access to Liveboard schedules on the home page. Users can
 
 [.bordered]
 image::home-lb-schedule.png[]
-
-
 endif::free-trial-feature[]
 
 ////
@@ -236,7 +222,7 @@ endif::[]
 ifdef::pendo-links[]
 [#10-3-0-cl-bucket]
 [discrete]
-=== Date bucket interval for date columns [.badge.badge-beta-whats-new]#Beta#
+=== ThoughtSpot introduces additional controls for date bucket intervals in date columns [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
 // Mary. jira: SCAL-210168. docs jira: SCAL-220583
@@ -277,6 +263,7 @@ endif::free-trial-feature[]
 
 // Data Engineer
 
+////
 [#10-3-0-cl-okta]
 [discrete]
 === Analyst Studio privilege control and user sync
@@ -286,7 +273,7 @@ endif::free-trial-feature[]
 
 ThoughtSpot introduces a seamless and secure sign-in and navigation experience for integrated Analyst Studio users by extending ThoughtSpot SSO and local authentication.
 Users with the *Can use Analyst Studio* privilege will see *Analyst Studio* in the app switcher. They can use the app switcher to navigate to Analyst Studio without re-authenticating.
-
+////
 
 
 
@@ -357,7 +344,7 @@ ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#10-3-0-cl-orgs]
 [discrete]
-=== Org-specific URLs [.badge.badge-early-access-whats-new]#Early Access#
+=== Org-specific URLs [.badge.badge-early-access]#Early Access#
 endif::[]
 ifdef::pendo-links[]
 [#10-3-0-cl-orgs]
@@ -371,7 +358,7 @@ endif::[]
 ThoughtSpot introduces Org-specific URLs. URLs in emails now include Org context so that users are taken directly to the correct Liveboard in the correct Org even if they belong to multiple Orgs.
 You can also move between different browser tabs that point to different Orgs.
 
-
+////
 For more information, see
 ifndef::pendo-links[]
 xref:orgs-overview.adoc[Multi-tenancy with Orgs].
@@ -379,27 +366,30 @@ endif::[]
 ifdef::pendo-links[]
 xref:orgs-overview.adoc[Multi-tenancy with Orgs,window=_blank].
 endif::[]
-
+////
 endif::free-trial-feature[]
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
-[#10-3-0-cl-auth]
+[#10-1-0-cl-auth]
 [discrete]
 === Local authentication support with IAMv2 [.badge.badge-early-access]#Early Access#
 endif::[]
 ifdef::pendo-links[]
-[#10-3-0-cl-auth]
+[#10-1-0-cl-auth]
 [discrete]
 === Local authentication support with IAMv2 [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 
+
 // Mary. JIRA: SCAL-197810. docs JIRA: SCAL-216615
 // PM: Aashica - Awaiting Doc JIRA and access to PRD and release status
+
 ThoughtSpot allows customers to enable or disable local authentication at the Org and cluster levels. To enable local authentication at the cluster level, administrators require the *Can manage authentication* privilege. To enable local authentication at the Org level, contact {support-url}.
 
 NOTE: Org level settings override cluster level settings.
 
+////
 For more information, see
 ifndef::pendo-links[]
 xref:authentication-local.adoc[Managing local authentication].
@@ -407,7 +397,10 @@ endif::[]
 ifdef::pendo-links[]
 xref:authentication-local.adoc[Managing local authentication,window=_blank].
 endif::[]
+////
+
 endif::free-trial-feature[]
+
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
@@ -416,7 +409,7 @@ ifndef::pendo-links[]
 === Option to set new navigation and homepage experience as default [.badge.badge-early-access]#Early Access#
 endif::[]
 ifdef::pendo-links[]
-[#10-3-0-cl-defualt-ui]
+[#10-3-0-cl-default-ui]
 [discrete]
 === Option to set new navigation and homepage experience as default [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
@@ -426,6 +419,13 @@ endif::[]
 
 Administrators now have the ability to set the new navigation and homepage experience as the default UI for all users of the cluster, if it is enabled for the cluster. This feature is available in the *Admin > Early access features* page.
 
+endif::free-trial-feature[]
+
+ifndef::free-trial-feature[]
+[discrete]
+=== For the Developer
+
+For new features and enhancements introduced in this release of ThoughtSpot Embedded, see https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
 endif::free-trial-feature[]
 
 ifndef::free-trial-feature[]
