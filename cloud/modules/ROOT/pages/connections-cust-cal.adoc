@@ -5,7 +5,7 @@
 :experimental:
 :page-layout: default-cloud
 :description: With a custom calendar, you can choose when the year, quarter, or week starts, and search using date-related keywords.
-:jira: SCAL-172330, SCAL-201842 (doc enhancement)
+:jira: SCAL-172330, SCAL-201842 (doc enhancement), SCAL-176032
 
 With a custom calendar, you can choose when the year, quarter, or week starts, and search using date-related keywords.
 
@@ -87,11 +87,13 @@ Before you create a custom calendar, make sure to review the following limitatio
 * When uploading files, the date format must be _MM/DD/YYYY_. No other formats are supported.
 * The file must be sorted based on the date in ascending order.
 * The file format should be UTF-8.
+* You can now add row-level security rules to custom calendars. To enable this feature, contact {support-url}.
 
 === Using a custom calendar
 
 * Formulas are limited to defining a single custom calendar.
 * *VS* supports multiple custom calendars as long as there is only a single calendar per clause.
+
 
 === Updating a custom calendar
 
