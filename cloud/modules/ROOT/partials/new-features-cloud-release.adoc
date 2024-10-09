@@ -34,7 +34,7 @@ For information on the changes in ThoughtSpot Embedded, see https://developers.t
 For any questions or concerns, contact {support-url}.
 
 // Naomi. jira: SCAL-212737. docs jira: SCAL-226578
-Compact Liveboard header [.badge.badge-early-access-relnotes]#Early Access:: We have streamlined the design of Liveboard headers to ensure maximum visibility of Liveboard visualizations no matter the size of the screen. To enable this feature, contact your administrator.
+Compact Liveboard header [.badge.badge-early-access-relnotes]#Early Access#:: We have streamlined the design of Liveboard headers to ensure maximum visibility of Liveboard visualizations no matter the size of the screen. To enable this feature, contact your administrator.
 
 // Naomi. docs jira: SCAL-220633.
 Portuguese (Brazil) keywords::
@@ -53,7 +53,7 @@ Keywords known issue:: When entering keywords in the search bar, you may see dif
 // Naomi. jira: SCAL-207602. docs jira: SCAL-219033
 Categorization for Connections [.badge.badge-early-access-relnotes]#Early Access#:: You can now choose to sort Connections by type rather than order added to ThoughtSpot. To enable this feature, contact your administrator.
 
-// Naomi. jira: SCAL-212191. docs jira: SCAL-?
+// Naomi. jira: SCAL-212191. docs jira: SCAL-227574
 Content-aware filter values for Sage Coach:: We made the following improvements to filters in Sage Coach: +
 
 * The only values displayed in the Worksheets filter dropdown are Worksheets for which feedback is applied.
