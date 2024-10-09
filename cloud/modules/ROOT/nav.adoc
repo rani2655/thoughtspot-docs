@@ -608,6 +608,7 @@
 //** xref:studio-interactivity.adoc[Interactivity]
 ** xref:studio-explore-and-share-data.adoc[Explore and share data]
 *** xref:studio-explorations.adoc[Explorations]
+*** xref:studio-report-scheduling-and-sharing.adoc[Report scheduling]
 ** xref:studio-integrations.adoc[Integrations]
 *** xref:studio-dbt-data-freshness.adoc[dbt data freshness]
 *** xref:studio-github.adoc[GitHub sync]
