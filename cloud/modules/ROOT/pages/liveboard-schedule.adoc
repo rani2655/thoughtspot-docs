@@ -63,7 +63,7 @@ Type::
 
 [NOTE]
 ====
-Liveboard schedule pdf sent via emails is stored in the cluster until either of the following conditions are met:
+Liveboard schedule pdf/csv/xlsx sent via emails is stored in the cluster until either of the following conditions are met:
 
 * The cluster is restarted.
 * When there is another scheduled run for a Liveboard, all pdfs older than 24 hrs for that Liveboard are cleared.
