@@ -1,5 +1,5 @@
 = Add a {connection} connection
-:last_updated: 4/7/2023
+:last_updated: 10/08/2024
 :linkattrs:
 :experimental:
 :page-layout: default-cloud
@@ -13,8 +13,19 @@ For more information, see xref:connections-gbq-prerequisites.adoc[Prerequisites]
 
 To connect to {connection}:
 
+ifndef::spotter[]
 . Select *Data* in the top navigation bar.
 . Click the *Connections* tab in the left navigation bar, and select the {connection} tile. Alternatively, select *+ Create new* in the left navigation bar, select *Connection*, and select the {connection} tile.
+endif::[]
+ifdef::spotter[]
+. Click the app switcher menu image:spotter-app-switcher.png[] and then click *{form-factor}*.
+. On the left side of the screen, select *Manage data > Add data source*.
+. On the _Add a data source_ page, click *Connect data*.
++
+[.bordered]
+image::connection-spotter-set-up-new-connection.png[]
+endif::[]
+
 . Create a name for your connection and a description (optional), then select *Continue*.
 +
 image::gbq-connectiontype.png[Add a GBQ connection]
@@ -69,6 +80,20 @@ image::snowflake-selecttables.png[Select tables and columns for your connection]
 A message appears indicating the number of tables and columns that will be added to your connection.
 
 . Select *Create*.
+ifdef::spotter[]
+. On the _Add a data source_ page, click *Model your data*.
++
+[.bordered]
+image::connection-spotter-set-up-new-connection-2.png[connection created]
+
+include::partial$model-build.adoc[]
+
+include::partial$spotter-coach-and-chat.adoc[]
++
+
+endif::[]
+
+ifndef::spotter[]
 +
 Once the connection is added, you can search your BiqQuery database right away by selecting *Search now*.
 +
@@ -95,6 +120,7 @@ You can modify a {connection} connection in the following ways:
 You can also xref:connections-gbq-delete.adoc[Delete a {connection} connection].
 
 See the xref:connections-gbq-reference.adoc[Connection reference] for details of connection parameters.
+endif::[]
 
 ifndef::spotter[]
 == Share a connection

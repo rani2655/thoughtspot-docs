@@ -1,5 +1,5 @@
 = Add a {connection} connection
-:last_updated: 6/7/2022
+:last_updated: 10/8/2024
 :linkattrs:
 :experimental:
 :page-layout: default-cloud
@@ -12,10 +12,20 @@ If you plan to use OAuth with {connection}, you must configure it before you can
 
 == Adding a {connection} connection
 
-To connect to {connection}:
+To connect to {connection}, follow these steps:
 
+ifndef::spotter[]
 . Select *Data* in the top navigation bar.
 . Open the *Connections* tab in the left navigation bar, and select the *Others* tile. Alternatively, select *+ Create new* in the left navigation bar, select *Connection*, and select the {connection} tile.
+endif::[]
+ifdef::spotter[]
+. Click the app switcher menu image:spotter-app-switcher.png[] and then click *{form-factor}*.
+. On the left side of the screen, select *Manage data > Add data source*.
+. On the _Add a data source_ page, click *Connect data*.
++
+[.bordered]
+image::connection-spotter-set-up-new-connection.png[]
+endif::[]
 . Create a name for your connection, a description (optional), then select the *{connection}* connection type, and click *Continue*.
 +
 image::embrace-denodo-connection-type-ts-cloud.png[Add a {connection} connection]
@@ -42,6 +52,21 @@ A message appears indicating the number of tables and columns that will be added
 
 . Select *Create*.
 
+ifdef::spotter[]
+. On the _Add a data source_ page, click *Model your data*.
++
+[.bordered]
+image::connection-spotter-set-up-new-connection-2.png[connection created]
+
+include::partial$model-build.adoc[]
+
+include::partial$spotter-coach-and-chat.adoc[]
++
+
+endif::[]
+
+ifndef::spotter[]
++
 After you add the connection, you can search your {connection} database.
 
 image::denodo-connectioncreated.png[The "Connection created" screen]
@@ -67,6 +92,7 @@ You can modify a {connection} connection in the following ways:
 You can also xref:connections-denodo-delete.adoc[Delete a {connection} connection].
 
 See the xref:connections-denodo-reference.adoc[Connection reference] for details of connection parameters.
+endif::[]
 
 ifndef::spotter[]
 == Share a connection
