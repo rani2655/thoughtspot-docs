@@ -28,9 +28,9 @@ To enable version control for a cluster or Org, the following are required:
 * Github repository configured with:
 
 ** One commit branch for _each Org_ where you are enabling version control
-*** TML files for each Liveboard and Answer enabled for version control are stored here.
+*** ThoughtSpot stores TML files here for each Liveboard and Answer enabled for version control.
 ** One configuration branch
-*** A set of configuration files required for the GIT integration and CI/CD to work.
+*** ThoughtSpot stores a set of configuration files which are required for the GIT integration and CI/CD to work.
 +
 TIP: ThoughtSpot recommends *not* using the Main branch for either commits or configuration.
 ** Personal access token from Github (https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic[Classic^] or https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-fine-grained-personal-access-token[fine-grained^])
