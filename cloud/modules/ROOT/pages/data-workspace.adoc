@@ -16,7 +16,7 @@ ifdef::spotter[]
 To access the *Data workspace*, do either of the following:
 
 - Click the app switcher menu image:spotter-app-switcher.png[] and then click *Data workspace*.
-- On the Spotter page, select *Manage data > Manage data sources* on the left side of the screen.
+- On the _Spotter_ page, select *Manage data > Manage data sources* on the left side of the screen.
 endif::[]
 == Data workspace page
 
