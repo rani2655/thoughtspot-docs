@@ -158,8 +158,9 @@ To *add* a connection, select the icon for the type of connection you would like
 
 You can also create a new connection by clicking *+ Create new* in the left navigation bar and selecting *Connection*.
 
-ifndef::spotter[]
-IMPORTANT: Choosing to create a connection using either of these methods will not guide you through modeling your data, coaching {form-factor} or using {form-factor} to chat with your data, as described in xref:connections.adoc[Adding data sources in {form-factor}].
+ifdef::spotter[]
+IMPORTANT: Choosing to create a connection using either of these methods will *NOT* guide you through modeling your data, coaching {form-factor} or using {form-factor} to chat with your data, as described in xref:connections.adoc[Adding data sources in {form-factor}].
+endif::[]
 
 === Edit, remap, or delete a connection
 
