@@ -13,10 +13,10 @@ Use the *Data workspace*, available from the *Data* tab in the top navigation ba
 endif::[]
 
 ifdef::spotter[]
-To access the *Data workspace*, do the following:
+To access the *Data workspace*, do either of the following:
 
-. Click the app switcher menu image:spotter-app-switcher.png[] and then click *{form-factor}*.
-. Select *Manage data > Manage data sources* on the left side of the screen.
+- Click the app switcher menu image:spotter-app-switcher.png[] and then click *Data workspace*.
+- On the Spotter page, select *Manage data > Manage data sources* on the left side of the screen.
 endif::[]
 == Data workspace page
 
@@ -157,6 +157,9 @@ To learn more about connecting to your data in an external data warehouse, refer
 To *add* a connection, select the icon for the type of connection you would like to add, such as Snowflake or Amazon Redshift. If you do not see your data warehouse, and it is one of ThoughtSpot's xref:connections.adoc[supported data warehouses], select *Others*.
 
 You can also create a new connection by clicking *+ Create new* in the left navigation bar and selecting *Connection*.
+
+ifndef::spotter[]
+IMPORTANT: Choosing to create a connection using either of these methods will not guide you through modeling your data, coaching {form-factor} or using {form-factor} to chat with your data, as described in xref:connections.adoc[Adding a data source in ThoughtSpot {form-factor}].
 
 === Edit, remap, or delete a connection
 
