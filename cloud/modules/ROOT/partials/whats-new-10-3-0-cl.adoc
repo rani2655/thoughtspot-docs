@@ -92,6 +92,8 @@ You can now create alerts directly from the *Watchlist* on the home page.
 [.bordered]
 image::create-alert.png[]
 
+For more information, see xref:thoughtspot-one-homepage.adoc[Home page] and xref:monitor.adoc[Monitor Key Performance Indicators in your data].
+
 [#10-3-0-cl-keywords]
 [discrete]
 === Portuguese (Brazil) keywords
@@ -182,7 +184,7 @@ endif::[]
 ifdef::pendo-links[]
 [#10-3-0-cl-lb]
 [discrete]
-=== Liveboard schedule modal [.badge.badge-early-access-whats-new]#Early Access#
+=== Liveboard schedule modal [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
 // Mary. jira: SCAL-208470. docs jira: SCAL-?
