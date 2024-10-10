@@ -14,6 +14,7 @@ endif::[]
 
 ifdef::spotter[]
 To access the *Data workspace*, do the following:
+
 . Click the app switcher menu image:spotter-app-switcher.png[] and then click *{form-factor}*.
 . Select *Manage data > Manage data sources* on the left side of the screen.
 endif::[]
@@ -128,8 +129,15 @@ ifdef::spotter[]
 delete them, apply or remove xref:tags.adoc[tags].
 endif::[]
 
+ifdef::spotter[]
+[#data-connections]
+== Connections
+endif::[]
+
+ifndef::spotter[]
 [#data-connections]
 == Data connections
+endif::[]
 
 The Data workspace also contains information about your data connections.
 
@@ -198,6 +206,58 @@ ThoughtSpot displays 20 objects on each page.
 
 These changes do not persist across sessions.
 If you sign out and sign back in, the view returns to the default.
+
+ifdef::spotter[]
+== Business terms
+
+Under the _Business terms_ tab you can see the terms that were created based on the questions you asked when you coached Spotter.
+
+[.bordered]
+image::spotter-business-terms.png[]
+
+You can view the following for each term:
+
+- Business term
+- Rating
+- Search tokens
+- Access
+- Reference question
+- Worksheet
+- Submitted by
+- Edited by
+- Last changed
+
+Using the *More* menu image:icon-more-10px.png[more menu icon] associated with the term, you can do the following:
+
+- *Fix fragment* allows you to fix the term by editing it.
+- *Change access* allows you to set who can see your business term. You can choose _You_ or _Global_.
+- *Delete* allows you to delete the business term.
+
+== Reference questions
+
+Under the _Reference questions_ tab you can see the questions you asked when you coached Spotter.
+
+[.bordered]
+image::spotter-reference-questions.png[]
+
+You can view the following for each question:
+
+- Question
+- Rating
+- Search tokens
+- Chart
+- Access
+- Worksheet
+- Submitted by
+- Edited by
+- Last changed
+
+Using the *More* menu image:icon-more-10px.png[more menu icon] associated with the question, you can do the following:
+
+- *Fix answer* allows you to fix the AI answer by editing it.
+- *Change access* allows you to set who can see your reference question. You can choose _You_ or _Global_.
+- *Delete* allows you to delete the reference question.
+endif::[]
 
 ifndef::spotter[]
 == Usage statistics
