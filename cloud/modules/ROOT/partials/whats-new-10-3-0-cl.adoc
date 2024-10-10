@@ -157,7 +157,7 @@ ThoughtSpot introduces Analyst Studio, where you can write SQL queries to create
 ThoughtSpot's enhanced identity and access management (IAMv2) allows users with the *Can manage/access analyst studio* privilege to navigate to Analyst Studio seamlessly from the Analyst Studio tab or app switcher.
 
 [.bordered]
-image:analyst-studio.png[Analyst Studio in nav bar]
+image:as-home.png[Analyst Studio home]
 
 endif::free-trial-feature[]
 
