@@ -44,7 +44,11 @@ xref:keywords-pt-BR.adoc[Português (Brasil) Keyword reference].
 // Naomi. docs jira: SCAL-220682
 Keywords known issue:: When entering keywords in the search bar, you may see different keywords reflected in the filter chips of the resulting chart (for example, `última hora` and `último 1 hora`). Accuracy of the search result is not affected.
 
-
+// Mary. jira: SCAL-199338. docs jira: SCAL-224679
+Create an alert from the Watchlist on the home page:: You can now create alerts directly from the *Watchlist* on the home page.
+[.bordered]
+image::create-alert.png[]
+For more information, see xref:thoughtspot-one-homepage.adoc[Home page] and xref:monitor.adoc[Monitor Key Performance Indicators in your data].
 
 
 [#10-3-0-cl-data-engineer]
