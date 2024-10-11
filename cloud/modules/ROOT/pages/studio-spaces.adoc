@@ -47,6 +47,7 @@ You can also specifically grant individuals and groups access to view and edit p
 [.bordered]
 image::personal_manage_access.png[Reports in Personal collection]
 
+////
 [#community-space]
 === Community Collection
 
@@ -59,7 +60,7 @@ When enabled, every member of the Workspace can contribute to the community Coll
 The community Collection can only include Reports with queries that run against the {product} Public Warehouse.
 If a Report has ever queried a database other than the {product} Public Warehouse, such as any of your Workspace's private connected databases, the Report can no longer be moved into the community Collection.
 This is true even if the most recent run of the Report only queries the {product} Public Warehouse.
-
+////
 == Managing Collections
 //+++<flag-icon>++++++</flag-icon>+++
 

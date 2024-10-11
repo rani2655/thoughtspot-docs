@@ -158,6 +158,14 @@ endif::[]
 ThoughtSpot introduces Analyst Studio, where you can write SQL queries to create reusable Datasets. You can set schedules to refresh Datasets, or publish them to the Data Workspace, where you can join multiple Datasets to query as a whole.
 ThoughtSpot's enhanced identity and access management (IAMv2) allows users with the *Can manage/access analyst studio* privilege to navigate to Analyst Studio seamlessly from the Analyst Studio tab or app switcher.
 
+For more information, see
+ifndef::pendo-links[]
+xref:studio-getting-started-with-analyst-studio.adoc[Analyst Studio].
+endif::[]
+ifdef::pendo-links[]
+xref:studio-getting-started-with-analyst-studio.adoc[Analyst Studio,window=_blank].
+endif::[]
+
 [.bordered]
 image:as-home.png[Analyst Studio home]
 

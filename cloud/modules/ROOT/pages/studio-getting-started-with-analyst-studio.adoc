@@ -10,6 +10,7 @@
 
 {product}'s analyst-first approach uses familiar technologies like SQL, Python, and R in an interactive data science environment that augments BI workflows in ThoughtSpot. This guide will give you information about how to get your team using {product}’s broad suite of capabilities.
 
+////
 ====== IN THIS GUIDE, YOU'LL LEARN HOW TO:
 
 * Start gaining quick and helpful insights into your data within one hour.
@@ -24,7 +25,7 @@ We'll also walk through the typical implementation process, which starts with co
 Once users are provisioned, they'll have familiar tools to perform analysis and share their insights across your organization with interactive Reports and dashboards.
 {product}'s data analysis tools empower analysts and stakeholders to analyze the data and iterate on that process without requiring any additional code.
 Finally, the API will allow you to programmatically integrate {product} into all of your team's processes.
-
+////
 == Data access and user roles
 
 ////
@@ -49,7 +50,7 @@ Once a user has been made an admin, they can perform actions such as:
 * Create Collections.
 * Restrict Report visibility and access.
 
-
+////
 To get users onboarded quickly, an admin should manage basic user setup and configure access.
 There is no need to start by creating complex security policies.
 With {product}, you can build more security policies in the future if needed.
@@ -61,7 +62,7 @@ The analyst must wait for the data scientist or database administrator to give t
 
 In contrast, with {product}, all users are empowered to share and create by default.
 This feature is just one example of how {product} enables the citizen data analyst to get data access and gain insight in under an hour.
-
+////
 
 === Connect to a database
 
@@ -140,11 +141,13 @@ Liquid template language is available in all SQL queries and allows additional f
 With the template language, analysts can augment SQL with loops, if/then statements, and variables.
 These simple template constructs can simplify many tasks that are difficult to do within base SQL.
 
+////
 === Parameters
 
 Parameters let Report developers make minor changes to their SQL syntax that give end users more flexibility when running their Reports.
 Parameters allow Report viewers to alter their Reports without writing the underlying SQL code or asking Report developers to modify the original query.
 Since parameters also use a Liquid template language, Report developers can quickly use these template helpers.
+////
 
 === Helix data engine
 
@@ -178,9 +181,11 @@ Chart visualization options include bar, line, scatter, area, and pie charts.
 These chart types let end-users increase or decrease the granularity of the Report, and are simple to construct using the {product} interface.
 For example, you can explore a sales Report and look at the data on a daily, monthly, or annual basis by adjusting the granularity.
 If there is an interesting observation, you can drill down into the weekly or daily data to view the underlying data table supporting the Report.
+////
 Users can also use parameters and filters to modify the underlying datasets without actually touching any code.
 These features allow the end user to explore the data on their own without the traditional back and forth of updating and refining SQL queries.
 This lets citizen data analysts and business stakeholders explore the data and build insights in under an hour.
+////
 
 [#advanced-visualizations]
 [discrete]
@@ -214,7 +219,7 @@ The analyst can then use the full suite of data science tools in Python or R to 
 Out of the box, {product} includes many of the most popular libraries for R and Python, but if you need to install additional libraries, you can use `pip install` for Python or `install.packages()` with R.
 
 Combined, the SQL Editor, visualization features, and Notebook environments in {product} enable users to create quick, flexible, and shareable analysis.
-Together, they provide a powerful but easy-to-learn workflow where code-first analysts and code-free end users can work together to turn raw data into real-time decision-making.
+//Together, they provide a powerful but easy-to-learn workflow where code-first analysts and code-free end users can work together to turn raw data into real-time decision-making.
 
 ////
 == Analyzing data checklist
@@ -227,7 +232,7 @@ Here are some items to consider for analyzing your data:
 * Do you have data sets that are currently too large or difficult to manage?
 * Are there existing notebook environments that you can consolidate and streamline with {product}?
 ////
-
+////
 == Building and sharing a Report
 
 Now that we have gone through {product}'s core concepts, we can walk through how to turn your analysis into a robust, meaningful Report that can be shared across the company.
@@ -284,7 +289,7 @@ With a WLE, authentication is handled external to {product} with customized look
 The WLE can also restrict the user's ability to see the underlying data - avoiding unintentional leakage of sensitive data.
 
 image::screenshot-wle.png[White label embed]
-
+////
 ////
 == Building and sharing Report checklist
 
@@ -335,7 +340,7 @@ Which of the following functionality will be used:
 * Which API options will the team use first?
 * Are there any playbook items that we want to adapt to our needs?
 ////
-
+////
 == Conclusion
 
 {product} is a modern, powerful, and flexible data analytics platform that is easy to set up in a short time frame.
@@ -343,3 +348,4 @@ It uses familiar SQL, Python, and R languages so analysts can get up and running
 With {product}, analysts can build interactive Reports and dashboards that save time, align the company around common metrics, increase collaboration, and accelerate the speed to developing data insights.
 This guide provides guidelines that can help you implement {product} within your team so that you can get up and running quickly and also provide a robust platform that will support the company's growth over time.
 Use the checklist and ideas presented here to prepare for your implementation.
+////

@@ -29,7 +29,7 @@ Click on a query to select it and edit its code.
 Use the context menu to rename, duplicate, delete, and more.
 To add a new query, click on the plus button to the right of the data header.
  ** Each visualization that you build using a query's data.
-Use the overflow menu to add or remove your chart from the Report Builder, duplicate, xref:studio-explorations.adoc#view-saved-explorations[explore], and more.
+//Use the overflow menu to add or remove your chart from the Report Builder, duplicate, xref:studio-explorations.adoc#view-saved-explorations[explore], and more.
 Or, click the plus button below your chart to add a new one.
 +
 TIP: To tell which charts you've added to the Report Builder, look for a blue checkmark symbol within each chart's icon.
@@ -585,6 +585,7 @@ All Reports, whether scheduled or ad hoc, create new connections on demand.
 We suggest taking a look at our xref:studio-datasets.adoc#overview[Datasets] documentation.
 This allows multiple Reports to be created off of an initial query, which can be set to refresh on a schedule as well.
 
+////
 [discrete]
 === *Q: What type and version of SQL does {product} use for the Public Warehouse?*
 
@@ -592,6 +593,7 @@ Our {product} Public Warehouse is a PostgreSQL data source using version 13.1.
 When connecting to a private database, {product} does not enforce any specific SQL syntax.
 Instead, we support any version of SQL that your connected database supports, allowing you to use the full capabilities of your database without any limitations.
 This allows you to use the most up-to-date SQL features and ensures that your queries are optimized for your specific database environment.
+////
 
 [discrete]
 === *Q: Is there a query limit for Reports?*

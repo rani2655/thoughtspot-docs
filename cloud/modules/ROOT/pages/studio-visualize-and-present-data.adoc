@@ -1,10 +1,10 @@
-= Visualize and present data
+= Visualize data
 :author: Naomi
 :last_updated: 7/25/24
 :experimental:
 :linkattrs:
 :page-layout: default-cloud
-:description: Visualize and present data.
+:description: Visualize data.
 :product: Analyst Studio
 
 Learn how to create visualizations of your data, explore and edit visualizations, and add calculated fields to charts.
