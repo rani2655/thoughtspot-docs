@@ -160,10 +160,10 @@ ThoughtSpot's enhanced identity and access management (IAMv2) allows users with 
 
 For more information, see
 ifndef::pendo-links[]
-xref:studio-getting-started-with-analyst-studio.adoc[Analyst Studio].
+xref:analyst-studio-getting-started.adoc[Analyst Studio].
 endif::[]
 ifdef::pendo-links[]
-xref:studio-getting-started-with-analyst-studio.adoc[Analyst Studio,window=_blank].
+xref:analyst-studio-getting-started.adoc[Analyst Studio,window=_blank].
 endif::[]
 
 [.bordered]
