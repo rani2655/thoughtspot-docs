@@ -123,6 +123,7 @@ Feedback Data is used exclusively for the purposes of improving the product, pur
 We use and test with GPT-3.5T and GPT-4T, also created by Open AI, because they are better suited for natural language translation to SQL.
 As the models progress, we will update the versions if they improve the performance of our features.
 
+[#use-case-examples]
 === Use case examples
 
 |===

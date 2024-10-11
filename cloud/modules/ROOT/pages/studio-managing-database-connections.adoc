@@ -187,6 +187,7 @@ This metadata can include {product} user or query attributes (for example, usern
 * {product} automatically appends a SQL comment to each query with the following static {product} user attributes: email, timestamp of query run, {product} query run URL, and a boolean value indicating whether the query was executed manually or scheduled.
 {product} calls these query *footers*.
 
+[#query-headers]
 === Query headers
 
 Custom query headers allow admins to prepend queries with code that executes every time a query is run against the data connection.
