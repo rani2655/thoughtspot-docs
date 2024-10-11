@@ -453,7 +453,7 @@ You can locate the configuration file using the following OS-specific paths:
 ==== *Q: How do I stop or start the Bridge connector?*
 
 The commands to start or stop Bridge vary across operating systems.
-If you don't see commands listed for your system below, please xref:analyst-studio-contact-us.adoc[contact our success team].
+If you don't see commands listed for your system below, please contact {support-url}.
 
 |===
 | OS | Stop Bridge | Start Bridge

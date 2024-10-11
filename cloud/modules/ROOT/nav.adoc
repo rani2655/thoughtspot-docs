@@ -581,7 +581,7 @@
 * xref:analyst-studio-getting-started.adoc[Analyst Studio+++&nbsp;<span class="badge badge-betatoc">Beta</span>+++]
 //** xref:studio-quick-reference-guide.adoc[Quick reference guide]
 //** xref:analyst-studio-getting-started.adoc[Getting started with Analyst Studio]
-*** xref:analyst-studio-open-source-code-attributions.adoc[Open Source Code Attributions]
+** xref:analyst-studio-open-source-code-attributions.adoc[Open Source Code Attributions]
 *** xref:analyst-studio-supported-browsers.adoc[Supported browsers]
 //** xref:studio-release-notes.adoc[Release notes]
 ** xref:analyst-studio-navigate-and-organize-content.adoc[Navigate and organize content]

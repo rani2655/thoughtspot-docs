@@ -24,7 +24,7 @@ The message payload contains the name of the event and a link to the API endpoin
 {product}'s webhooks are designed to be light-weight and secure, since the payload itself does not contain sensitive information.
 
 We'll periodically add support for new webhook events.
-If you have ideas for new events you'd like to see in {product}, please xref:analyst-studio-contact-us.adoc[let our success team know].
+//If you have ideas for new events you'd like to see in {product}, please xref:analyst-studio-contact-us.adoc[let our success team know].
 //You can learn more about what's possible by viewing sample code in our link:https://github.com/mode/webhooks-examples[webhooks example repo,window=_blank] and refer to {product}'s link:https://mode.com/developer/api-reference/introduction/[API documentation,window=_blank].
 
 == Create and subscribe to a webhook
