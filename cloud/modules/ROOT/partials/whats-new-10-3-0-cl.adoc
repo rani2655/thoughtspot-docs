@@ -82,7 +82,7 @@ endif::free-trial-feature[]
 
 [#10-3-0-cl-alert]
 [discrete]
-=== Create an alert from the Watchlist on the home page
+=== Create an alert from the Watchlist on the home page [.badge.badge-early-access-whats-new]#Early Access#
 
 // Mary. jira: SCAL-199338. docs jira: SCAL-224679
 // PM: Rahul PJP
@@ -214,13 +214,15 @@ ifdef::pendo-links[]
 endif::[]
 
 // Mary. jira: SCAL-160492. docs jira: SCAL-223961
-// PM: Arpit. add image with square around the left rail section on home page. update the image to remove "unable to load chart".
+// PM: Arpit.
 
 ThoughtSpot introduces access to Liveboard schedules on the home page. Users can now see all Liveboard schedules that they are subscribed to in a new section on the home page. From this page, you can edit Liveboard schedules that you created. Administrators can edit the Liveboard schedule for all schedules from this page.
 
 [.bordered]
 image::home-lb-schedule.png[]
 endif::free-trial-feature[]
+
+For more information, see xref:thoughtspot-homepage.adoc[New home page and persona-based navigation].
 
 ////
 ifndef::free-trial-feature[]
