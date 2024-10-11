@@ -67,7 +67,8 @@ You can arrange the KPI cards in 2 ways:
 
 NOTE: If you can no longer access a KPI on your watchlist (because the KPI chart or Liveboard was deleted, or your access permissions changed), the system displays a note saying you cannot view that KPI.
 
-=== Create an alert
+=== Create an alert [.badge.badge-early-access]#Early Access#
+****
 ThoughtSpot now supports alerts for changes in xref:chart-kpi.adoc[Key Performance Indicators (KPIs)] in your data. xref:monitor.adoc[Monitor Key Performance Indicators in your data] to receive notifications when data in your KPI is anomalous, when your KPI satisfies a certain threshold condition, or to schedule notifications for your KPIs on an hourly, daily, weekly, or monthly basis.
 
 You can create alerts directly from the *Watchlist* on the home page.
@@ -85,7 +86,7 @@ image::create-alert2.png[]
 . *Add subscribers* to your alert.
 .. Optionally, select *Add a custom message* to add a custom message to be sent to subscribers with the alert.
 . Review the *KPI query* and click *Create alert*.
-
+****
 
 === Liveboards with mandatory filters
 If you want to add a KPI from a Liveboard that has a xref:liveboard-filters-mandatory.adoc[mandatory filter], you must first navigate to the Liveboard and specify a value for the mandatory filter. If you do not specify a value, ThoughtSpot doesn't let you add any of the KPIs from that Liveboard to your watchlist.
