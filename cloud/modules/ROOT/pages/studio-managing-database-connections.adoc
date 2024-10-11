@@ -14,7 +14,7 @@ You can connect as many private databases to your {product} Workspace as you lik
 {product} supports connecting to most popular types of link:https://mode.com/data-sources/[relational databases,window=_blank].
 When you connect a database to your {product} Workspace, by default all members of your Workspace will be able to run queries against that data connection.
 
-All Workspaces are also automatically connected to the <<mode-public-warehouse,{product} Public Warehouse>>.
+//All Workspaces are also automatically connected to the <<mode-public-warehouse,{product} Public Warehouse>>.
 
 == Private data connections
 
@@ -364,6 +364,7 @@ SELECT 2
 -- {"user":"@jane_doe","email":"hi@modeanalytics.com"","url":"https://modeanalytics.com/modeqa/reports/1820851ba5a0/runs/a85b6da6912d/queries/d7f43f015d70","scheduled":false}
 ----
 
+////
 [#mode-public-warehouse]
 == {product} Public Warehouse
 
@@ -375,6 +376,7 @@ The {product} Public Warehouse is a great tool that you can use to:
 * Experiment with all of {product}'s features.
 
 Anyone with an {product} account has access to the {product} Public Warehouse and can build Reports on top of the data inside it.
+////
 
 [#uploading-data]
 === Uploading data

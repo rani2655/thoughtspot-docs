@@ -13,7 +13,7 @@
 [#overview]
 == Overview
 
-Use Parameters to make Reports more scalable, re-usable, and interactive by allowing viewers to modify the data returned by a Report without modifying its code.
+//Use Parameters to make Reports more scalable, re-usable, and interactive by allowing viewers to modify the data returned by a Report without modifying its code.
 
 Parameters are defined and configured using the link:http://liquidmarkup.org/[Liquid template language,window=_blank], and a single Report can accept input from multiple Parameters at once.
 {product} reports offer four different kinds of Parameters:

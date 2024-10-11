@@ -529,7 +529,7 @@ image:topbottom.png[Top N Filter]
 [discrete]
 ==== Quick Sort
 
-In the xref:studio-explorations.adoc#toolbar[Toolbar], you have the ability to leverage our Quick Sort feature to sort your innermost discrete, categorical data by the outermost measure in either descending or ascending order.
+In the Toolbar, you have the ability to leverage our Quick Sort feature to sort your innermost discrete, categorical data by the outermost measure in either descending or ascending order.
 
 image::sort-vegif.gif[Quick Sort Visual Explorer]
 
@@ -1023,7 +1023,7 @@ image::color-contnuous-field-in-color.png[Continuous Field in Color Channel]
 [discrete]
 === *Q: How do I sort in Visual Explorer?*
 
-In the xref:studio-explorations.adoc#toolbar[Toolbar], you have the ability to leverage our Quick Sort feature to sort your innermost discrete, categorical data by the outermost measure in either descending or ascending order.
+In the Toolbar, you have the ability to leverage our Quick Sort feature to sort your innermost discrete, categorical data by the outermost measure in either descending or ascending order.
 
 image::sort-ve.gif[Sort in Visual Explorer]
 
@@ -1059,7 +1059,7 @@ Visual Explorer currently only supports one field per channel in a given layer.
 [discrete]
 === *Q: Can I display Grand totals and Subtotals in my chart?*
 
-You can toggle on and off either or both Column Grand totals and Subtotals and Row Grand totals and Subtotals using the xref:studio-explorations.adoc#toolbar[Toolbar].
+You can toggle on and off either or both Column Grand totals and Subtotals and Row Grand totals and Subtotals using the Toolbar.
 
 You will need more than one dimension and at least one measure under Columns or Rows in order to toggle on Subtotals.
 

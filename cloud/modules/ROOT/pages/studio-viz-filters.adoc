@@ -12,10 +12,10 @@
 
 == Overview
 
-Filtering is an essential step in your analysis workflow, and it is a powerful and easy way to see different cuts of your data.
-Now with Helix, you can easily load millions of rows of raw data and filter on top of your large dataset.
+Filtering is an essential step in your analysis workflow, and it is a powerful and easy way to see different cuts of your data. Now with Helix, you can easily load millions of rows of raw data and filter on top of your large dataset. Visualization filters that you create from the Chart Editor apply only to that one chart. Report viewers will not see the visualization filters that you’ve applied. Generally, you create these to filter data completely from view.
 
-== Report vs visualization filters
+////
+== Report versus visualization filters
 
 There are two types of filters in {product}:
 
@@ -25,6 +25,7 @@ Generally, you create these for your Report viewers to be able to filter data th
 . *Visualization-level filters*: These are filters that you create from the Chart Editor and apply only to that one chart.
 Report viewers will not see the visualization filters that you've applied.
 Generally, you create these to filter data completely from view.
+////
 
 == Getting started
 
@@ -175,6 +176,7 @@ By default, this filter is applied after all other visualization filters.
 That ensures in the example above that the date recency filter is taken into account.
 Applying the filter first will ensure the global top/bottom of your data are considered, but after other visualization filters are applied, fewer than N values are often displayed.
 
+////
 [#faqs]
 == FAQs
 
@@ -186,3 +188,4 @@ Applying the filter first will ensure the global top/bottom of your data are con
 However, you can leverage xref:studio-parameters.adoc#overview[Parameters] for this case.
 When you select a Parameter and run the Report, the queries return values associated with the selected Parameters.
 As a result, the Notebook and its visualizations will also be adjusted since the Notebook is purely powered by the query results.
+////

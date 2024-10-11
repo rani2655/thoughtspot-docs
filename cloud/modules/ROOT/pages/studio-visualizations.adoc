@@ -479,7 +479,7 @@ image::add-filters1.gif[Adding filters]
 
 ==== Grand totals and Subtotals
 
-You can toggle on and off either or both Column Grand totals and Subtotals and Row Grand totals and Subtotals using the xref:studio-explorations.adoc#toolbar[Toolbar].
+You can toggle on and off either or both Column Grand totals and Subtotals and Row Grand totals and Subtotals using the Toolbar.
 
 You will need more than one dimension and at least one measure under Columns or Rows in order to toggle on Subtotals. You can also utilize them for Visual Explorer charts.
 
@@ -489,7 +489,7 @@ image::grand-subtotals.gif[Grand Totals]
 
 ==== Quick sort
 
-In the xref:studio-explorations.adoc#toolbar[Toolbar], you have the ability to leverage our Quick Sort feature to sort your innermost discrete, categorical data by the outermost measure in either descending or ascending order.
+In the Toolbar, you have the ability to leverage our Quick Sort feature to sort your innermost discrete, categorical data by the outermost measure in either descending or ascending order.
 
 image::sort1.gif[Quick Sort]
 

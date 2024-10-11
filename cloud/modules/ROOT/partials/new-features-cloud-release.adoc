@@ -20,7 +20,7 @@ For these instructions, see xref:ts-cloud-getting-started.adoc[Getting Started w
 Analyst Studio [.badge.badge-beta-relnotes]#Beta#:: ThoughtSpot introduces Analyst Studio, where you can write SQL queries to create reusable Datasets. You can set schedules to refresh Datasets, or publish them to the Data workspace, where you can join multiple Datasets to query as a whole.
 +
 For more information, see
-xref:studio-get-started.adoc[Analyst Studio].
+xref:studio-getting-started-with-analyst-studio.adoc[Analyst Studio].
 
 
 [#10-3-0-cl-business-user]
