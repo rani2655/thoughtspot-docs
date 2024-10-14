@@ -11,80 +11,80 @@
 
 These are the issues we fixed in this release of ThoughtSpot Cloud.
 
-[#releases-10-2-x]
+[#releases-10-3-x]
 
-== 10.2.0.cl release fixed issues
+== 10.3.0.cl release fixed issues
 
 [cols="20%,80%"]
 |===
 |Issue ID |Description
 
 |SCAL-225140
-|TBD.
+|Clicking *Ask Sage* on a Liveboard causes an error message.
 
 |SCAL-224829
-|TBD.
+|KPI watchlist and shared Liveboard emails are not received.
 
 |SCAL-224711
-|TBD.
+|Unable to sign in to ThoughtSpot Cloud cluster.
 
 |SCAL-224691
-|TBD.
+|Authenticated users can access the ThoughtSpot API allowing them to enumerate all users present within the system.
 
 |SCAL-223858
-|TBD.
+|Object Usage Liveboards within non-primary Orgs display no data for users, while the primary Org is able to display the data correctly.
 
 |SCAL-223741
-|TBD.
+|Liveboards to do not load properly.
 
 |SCAL-223011
-|TBD.
+|Object usage Liveboards display no data.
 
 |SCAL-222836
-|TBD.
+|Using the Explore feature in a Liveboard does not provide suggestions.
 
 |SCAL-222348
-|TBD.
+|Liveboard does not load when it is embedded.
 
 |SCAL-221382
-|TBD.
+|Loading ThoughtSpot causes web browser to crash.
 
 |SCAL-219798
-|TBD.
+|ThoughtSpot user password is visible in HTTP Archive Record (HAR).
 
 |SCAL-219492
-|TBD.
+|User sees "request access" page when trying to view a Liveboard, even though the URL to the Liveboard is already shared with them.
 
 |SCAL-218844
-|TBD.
+|Default system language is not set, causing 'couldn't complete your request' errors.
 
 |SCAL-217403
-|TBD.
+|When navigating between certain pages in ThoughtSpot, sometimes the URL doesn't update accurately.
 
 |SCAL-217319
-|TBD.
+|Updating the version of a cluster sometimes results in an error.
 
 |SCAL-217035
-|TBD.
+|Updating TML causes a 'System error has occurred' error.
 
 |SCAL-216102
-|TBD.
+|Override filters are not applied for date columns when using a custom calendar in a Liveboard.
 
 |SCAL-213964
-|TBD.
+|User is unable to sign into ThoughtSpot after SAML authentication.
 
 |SCAL-211166
-|TBD.
+|Endpoint returns data from outside of an Org related to users that are not in the current Org.
 
 |SCAL-210627
-|TBD.
+|Privilege escalation/authorization Bypass in the DELETE verb/api endpoint of ThoughtSpot.
 
 |SCAL-205663
-|TBD.
+|Groups are duplicated in ThoughtSpot.
 
 |SCAL-198333
-|TBD.
+|Querygen error appears after upgrade to the 9.10.0.cl release.
 
 |SCAL-191966
-|TBD.
+|Internal system connection called TAP is visible in Connections, but shouldn't be.
 |===
