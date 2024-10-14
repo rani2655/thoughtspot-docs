@@ -4,6 +4,7 @@
 :date: 2020-07-15
 :description: Develop and reuse saved SELECT statements.
 :ogdescription: Develop and reuse saved SELECT statements.
+:page-aliases: /analyst-studio/definitions.adoc
 :page-layout: default-cloud
 :path: /articles/definitions
 :versions: ["business"]

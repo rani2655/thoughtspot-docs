@@ -6,6 +6,7 @@
 :ogdescription: Generate SQL using AI assistance.
 :page-layout: default-cloud
 :path: /articles/ai-assist
+:page-aliases: /analyst-studio/ai-assist
 :product: Analyst Studio
 
 == Overview

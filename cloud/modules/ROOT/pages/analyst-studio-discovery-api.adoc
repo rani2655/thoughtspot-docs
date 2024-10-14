@@ -5,6 +5,7 @@
 :description: An overview of Analyst Studio Discovery API.
 :ogdescription: An overview of Analyst Studio Discovery API.
 :page-layout: default-cloud
+:page-aliases: /analyst-studio/discovery-api.adoc
 :path: /articles/discovery-api
 :product: Analyst Studio
 

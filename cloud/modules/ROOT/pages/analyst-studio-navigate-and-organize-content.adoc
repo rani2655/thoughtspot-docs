@@ -5,6 +5,7 @@
 :linkattrs:
 :page-layout: default-cloud
 :description: Navigate and organize content.
+:page-aliases: /analyst-studio/navigate-and-organize-content.adoc
 :product: Analyst Studio
 
 Use Collections and Reports to organize your content and share it among your organization.

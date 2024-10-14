@@ -5,6 +5,7 @@
 :page-layout: default-cloud
 :description: A guide on getting started with Analyst Studio.
 :ogdescription: First steps with Analyst Studio.
+:page-aliases: /analyst-studio/getting-started-with-mode.adoc, /analyst-studio/getting-started.adoc
 :path: /articles/getting-started-with-mode
 :product: Analyst Studio
 

@@ -3,6 +3,7 @@
 :last_updated: 7/25/24
 :experimental:
 :page-layout: default-cloud
+:page-aliases: /analyst-studio/administration.adoc
 :linkattrs:
 :description: Learn the permissions required for accessing Analyst Studio as an administrator.
 :product: Analyst Studio

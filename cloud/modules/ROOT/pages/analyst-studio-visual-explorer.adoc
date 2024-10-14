@@ -6,6 +6,7 @@
 :ogdescription: Visualize your data in Visual Explorer.
 :page-layout: default-cloud
 :path: /articles/visual-explorer
+:page-aliases: /analyst-studio/visual-explorer.adoc
 :product: Analyst Studio
 :jira: SCAL-224860
 

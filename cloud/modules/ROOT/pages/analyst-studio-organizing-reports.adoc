@@ -6,6 +6,7 @@
 :description: How to create, duplicate, delete, archive, and move Reports in Analyst Studio.
 :ogdescription: How to create, duplicate, delete, archive, and move Reports in Analyst Studio.
 :path: /articles/organizing-reports
+:page-aliases: /analyst-studio/organizing-reports.adoc
 :product: Analyst Studio
 :jira: SCAL-224853
 
