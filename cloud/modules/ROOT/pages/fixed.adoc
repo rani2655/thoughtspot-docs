@@ -1,13 +1,13 @@
 = Fixed issues
 :keywords: fixed issues
-:last_updated: 8/15/2024
+:last_updated: 10/14/2024
 :author: Mark Plummer
 :experimental:
 :linkattrs:
 :page-layout: default-cloud
 :page-toclevels: -1
 :description: These are the issues we fixed in recent ThoughtSpot Cloud releases.
-:jira: SCAL-197719 (9.10.5.cl), SCAL-206809 (9.12.0.cl), SCAL-210330 (9.12.5.cl), SCAL-214503 (10.0.0.cl), SCAL-216844 (10.1.0.cl)
+:jira: SCAL-197719 (9.10.5.cl), SCAL-206809 (9.12.0.cl), SCAL-210330 (9.12.5.cl), SCAL-214503 (10.0.0.cl), SCAL-216844 (10.1.0.cl), SCAL-228467 (10.3.0.cl)
 
 These are the issues we fixed in this release of ThoughtSpot Cloud.
 
@@ -19,9 +19,72 @@ These are the issues we fixed in this release of ThoughtSpot Cloud.
 |===
 |Issue ID |Description
 
-|SCAL-TBD
+|SCAL-225140
 |TBD.
 
-|SCAL-TBD
+|SCAL-224829
+|TBD.
+
+|SCAL-224711
+|TBD.
+
+|SCAL-224691
+|TBD.
+
+|SCAL-223858
+|TBD.
+
+|SCAL-223741
+|TBD.
+
+|SCAL-223011
+|TBD.
+
+|SCAL-222836
+|TBD.
+
+|SCAL-222348
+|TBD.
+
+|SCAL-221382
+|TBD.
+
+|SCAL-219798
+|TBD.
+
+|SCAL-219492
+|TBD.
+
+|SCAL-218844
+|TBD.
+
+|SCAL-217403
+|TBD.
+
+|SCAL-217319
+|TBD.
+
+|SCAL-217035
+|TBD.
+
+|SCAL-216102
+|TBD.
+
+|SCAL-213964
+|TBD.
+
+|SCAL-211166
+|TBD.
+
+|SCAL-210627
+|TBD.
+
+|SCAL-205663
+|TBD.
+
+|SCAL-198333
+|TBD.
+
+|SCAL-191966
 |TBD.
 |===
