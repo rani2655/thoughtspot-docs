@@ -59,7 +59,7 @@ image:compact-header.png[Streamlined Liveboard header]
 [discrete]
 === Version control permissions
 
-// Naomi. jira: SCAL-202688. docs jira: SCAL-SCAL-213195
+// Naomi. jira: SCAL-202688. docs jira: SCAL-213195
 // PM: Nico Rentz
 
 [#10-4-0-cl-visual]
@@ -215,7 +215,7 @@ endif::free-trial-feature[]
 [discrete]
 === Data panel column groups
 
-// Naomi. jira: SCAL-224017. docs jira: SCAL-?
+// Naomi. jira: SCAL-224017. docs jira: SCAL-210659
 // PM: Damian
 
 [#10-4-0-cl-custom]
