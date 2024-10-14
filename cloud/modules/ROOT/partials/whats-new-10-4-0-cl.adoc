@@ -1,0 +1,243 @@
+ifndef::pendo-links[]
+November 2024 [label label-dep]#10.4.0.cl#
+endif::[]
+ifdef::pendo-links[]
+[month-year-whats-new]#November 2024#
+[label label-dep-whats-new]#10.4.0.cl#
+endif::[]
+
+ifndef::free-trial-feature[]
+NOTE: Features marked as [.badge.badge-update-note]#Beta# are off by default. To enable them, contact {support-url}.
+endif::free-trial-feature[]
+
+[#primary-10-4-0-cl]
+
+// Business User
+
+[#10-4-0-cl-copilot]
+[discrete]
+=== Copilot
+
+// Mark. jira: SCAL-212696. docs jira: SCAL-?
+// PM: Neerav
+
+[#10-4-0-cl-training]
+[discrete]
+=== Copilot Worksheet feedback training
+
+// Mary. jira: SCAL-217046. docs jira: SCAL-?
+// PM: Anant
+
+
+[#10-4-0-cl-header]
+[discrete]
+=== Compact Liveboard header
+
+// Naomi – jira: SCAL-220304. docs jira: SCAL-226578, SCAL-?
+// PM: Dilip
+
+Compact Livebaord headers are now available to all users and on by default. We have streamlined the design of Liveboard headers to ensure maximum visibility of Liveboard visualizations no matter the size of the screen.
+
+[.bordered]
+image:compact-header.png[Streamlined Liveboard header]
+
+[#10-4-0-cl-coach]
+[discrete]
+=== Sage Coach
+
+// Naomi. jira: SCAL-212242. docs jira: SCAL-?
+// PM: Alok, Anant
+
+[#10-4-0-cl-auth]
+[discrete]
+=== Cloud Data Warehouse authentication when Liveboard has mandatory filters
+
+// Mary. jira: SCAL-218162. docs jira: SCAL-?
+// PM: Dilip
+
+[#10-4-0-cl-param]
+[discrete]
+=== User param support
+
+// Naomi. jira: SCAL-204442. docs jira: SCAL-?
+// PM: Manan?
+
+// Analyst
+
+[#10-4-0-cl-sage]
+[discrete]
+=== Sage train flow
+
+// Mark. jira: SCAL-221805. docs jira: SCAL-?
+// PM: Anant
+
+[#10-4-0-cl-modeling]
+[discrete]
+=== Data Modeling join tabs
+
+// Mark. jira: SCAL-220324. docs jira: SCAL-?
+// PM: Anjali
+
+[#10-4-0-cl-models]
+[discrete]
+=== Models
+
+// Mark. jira: SCAL-217598. docs jira: SCAL-?
+// PM: Samridh
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#10-4-0-cl-knowledge]
+[discrete]
+=== Model knowledge cards [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#10-4-0-cl-knowledge]
+[discrete]
+=== Model knowledge cards [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
+// Mark. jira: SCAL-220257. docs jira: SCAL-?
+// PM: Samridh
+
+endif::free-trial-feature[]
+
+[#10-4-0-cl-charting]
+[discrete]
+=== Aggregated KPI charts
+
+// Naomi. jira: SCAL-215653. docs jira: SCAL-227777
+// PM: Rahul PJP
+
+[#10-4-0-cl-dataset]
+[discrete]
+=== Dataset integration for Analyst Studio
+
+// Naomi. jira: SCAL-219701. docs jira: SCAL-?
+// PM: Shruthi
+
+[#10-4-0-cl-parameters]
+[discrete]
+=== Publishing using Parameters
+
+// Mary. jira: SCAL-179358. docs jira: SCAL-?
+// PM: Aashica
+
+[#10-4-0-cl-pivot]
+[discrete]
+=== Pivot table summary calculation issues
+
+// Mary. jira: SCAL-177827. docs jira: SCAL-?
+// PM: Damian
+
+[#10-4-0-cl-template]
+[discrete]
+=== Template variable store
+
+// Mary. jira: SCAL-179058. docs jira: SCAL-?
+// PM: ?
+
+[#10-4-0-cl-kpi]
+[discrete]
+=== Generic custom comparison for KPI chart
+
+// Naomi. jira: SCAL-152770. docs jira: SCAL-?
+// PM: Rahul PJP?
+
+[#10-4-0-cl-utilities]
+[discrete]
+=== Utilities schema viewer
+
+// Mary. jira: SCAL-221312. docs jira: SCAL-?
+// PM: Samridh
+
+[#10-4-0-cl-liveboard]
+[discrete]
+=== Liveboard schedules available to all users
+
+// Mary. jira: SCAL-220306. docs jira: SCAL-?
+// PM: Arpit
+
+[#10-4-0-cl-schedule]
+[discrete]
+=== Liveboard schedule modal UI UX revamp
+
+// Mary. jira: SCAL-219879. docs jira: SCAL-?
+// PM: Dilip
+
+
+'''
+[#secondary-10-4-0-cl]
+[discrete]
+=== _Other features and enhancements_
+
+// Data Engineer
+
+[#10-4-0-cl-column]
+[discrete]
+=== Data panel column groups
+
+// Naomi. jira: SCAL-224017. docs jira: SCAL-?
+// PM: Damian
+
+[#10-4-0-cl-custom]
+[discrete]
+=== Custom calendar - download calendar to manually create on Cloud Data Warehouse
+
+// Naomi. jira: SCAL-197812. docs jira: SCAL-224478
+// PM: Aaghran
+
+[#10-4-0-cl-join-key]
+[discrete]
+=== Allow changing join keys for global joins
+
+// Naomi. jira: SCAL-91117. docs jira: SCAL-?
+// PM: Samridh
+
+// IT/ Ops Engineer
+
+[#10-4-0-cl-change]
+[discrete]
+=== Change analysis by measure
+
+// Naomi. jira: SCAL-214287. docs jira: SCAL-?
+// PM: Rahul PJP
+
+[#10-4-0-cl-status]
+[discrete]
+=== ThoughtSpot status page - UI changes
+
+// Mary. jira: SCAL-197368. docs jira: SCAL-?
+// PM: Aashica?
+
+[#10-4-0-cl-sync]
+[discrete]
+=== ThoughtSpot Sync: send full image of Liveboard and PDF to Slack
+
+// Mary. jira: SCAL-224070. docs jira: SCAL-?
+// PM: Aaghran
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#10-4-0-cl-sql]
+[discrete]
+=== Show charts SQL in query visualizer [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#10-4-0-cl-sql]
+[discrete]
+=== Show charts SQL in query visualizer [.badge.badge-beta-whats-new]#Beta#
+endif::[]
+
+// Mary – jira: SCAL-209689. docs jira: SCAL-?
+// PM: Damian
+
+endif::free-trial-feature[]
+
+
+ifndef::free-trial-feature[]
+[discrete]
+=== For the Developer
+
+For new features and enhancements introduced in this release of ThoughtSpot Embedded, see https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
+endif::free-trial-feature[]
