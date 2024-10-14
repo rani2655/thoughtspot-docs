@@ -215,7 +215,7 @@ endif::free-trial-feature[]
 [discrete]
 === Data panel column groups
 
-// Naomi. jira: SCAL-224017. docs jira: SCAL-210659
+// Naomi. jira: SCAL-224017, SCAL-210554. docs jira: SCAL-210659
 // PM: Damian
 
 [#10-4-0-cl-custom]
