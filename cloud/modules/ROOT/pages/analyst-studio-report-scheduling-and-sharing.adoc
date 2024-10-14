@@ -6,6 +6,7 @@
 :experimental:
 :ogdescription: Share your analysis outside of Analyst Studio.
 :path: /articles/report-scheduling-and-sharing
+:page-aliases: /analyst-studio/report-scheduling-and-sharing.adoc
 :product: Analyst Studio
 ////
 [#sharing-and-scheduling]

@@ -6,6 +6,7 @@
 :ogdescription: How to add filters to a visual in the Chart Builder.
 :page-layout: default-cloud
 :path: /articles/viz-filters
+:page-aliases: /analyst-studio/viz-filters.adoc
 :popular: true
 :versions: ["business"]
 :product: Analyst Studio

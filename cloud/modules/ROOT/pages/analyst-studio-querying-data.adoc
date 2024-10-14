@@ -6,6 +6,7 @@
 :ogdescription: How to query data in Analyst Studio.
 :page-layout: default-cloud
 :path: /articles/querying-data
+:page-aliases: /analyst-studio/querying-data.adoc
 :product: Analyst Studio
 
 == Overview

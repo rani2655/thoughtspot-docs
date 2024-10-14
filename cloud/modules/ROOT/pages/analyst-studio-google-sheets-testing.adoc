@@ -6,6 +6,7 @@
 :hide_from_nav: true
 :ogdescription: Google Sheets testing.
 :page-layout: default-cloud
+:page-aliases: /analyst-studio/google-sheets-testing.adoc
 :path: /articles/google-sheets-testing
 :product: Analyst Studio
 

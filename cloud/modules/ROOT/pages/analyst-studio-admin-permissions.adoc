@@ -6,6 +6,7 @@
 :linkattrs:
 :description: Administration permissions.
 :product: Analyst Studio
+:page-aliases: /analyst-studio/admin-permissions.adoc
 
 When creating a group for Analyst Studio, reference the following permissions:
 

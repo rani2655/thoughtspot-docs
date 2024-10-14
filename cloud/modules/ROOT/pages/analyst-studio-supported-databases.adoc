@@ -6,6 +6,7 @@
 :description: Connect Analyst Studio to your data.
 :ogdescription: Connect Analyst Studio to your data.
 :path: /articles/supported-databases
+:page-aliases: /analyst-studio/supported-databases.adoc
 :product: Analyst Studio
 
 == Connectivity policy

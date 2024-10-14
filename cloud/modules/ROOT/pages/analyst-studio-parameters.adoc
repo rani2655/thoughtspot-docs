@@ -6,6 +6,7 @@
 :ogdescription: How to add parameters to Analyst Studio reports using Liquid.
 :page-layout: default-cloud
 :path: /articles/parameters
+:page-aliases: /analyst-studio/parameters.adoc
 :popular: true
 :versions: ["business"]
 :product: Analyst Studio

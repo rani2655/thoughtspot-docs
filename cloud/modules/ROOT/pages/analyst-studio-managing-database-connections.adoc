@@ -6,6 +6,7 @@
 :ogdescription: Administer Analyst Studio connectivity.
 :page-layout: default-cloud
 :path: /articles/managing-database-connections
+:page-aliases: /analyst-studio/managing-database-connections.adoc
 :product: Analyst Studio
 
 == Overview

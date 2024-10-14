@@ -6,6 +6,7 @@
 :description: A list of the browsers that Analyst Studio supports.
 :ogdescription: A list of the browsers that Analyst Studio supports.
 :path: /articles/supported-browsers
+:page-aliases: /analyst-studio/supported-browsers.adoc
 :product: Analyst Studio
 
 == Desktop support

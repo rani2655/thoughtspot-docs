@@ -4,6 +4,7 @@
 :experimental:
 :linkattrs:
 :page-layout: default-cloud
+:page-aliases: /analyst-studio/visualize-and-present-data.adoc
 :description: Visualize data.
 :product: Analyst Studio
 

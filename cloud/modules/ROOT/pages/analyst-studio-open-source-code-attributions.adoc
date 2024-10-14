@@ -6,6 +6,7 @@
 :ogdescription: A list of Open Source Code Attributions that Analyst Studio supports.
 :page-layout: default-cloud
 :path: /articles/open-source-code-attributions
+:page-aliases: /analyst-studio/open-source-code-attributions.adoc
 :product: Analyst Studio
 
 == Open-Source licenses

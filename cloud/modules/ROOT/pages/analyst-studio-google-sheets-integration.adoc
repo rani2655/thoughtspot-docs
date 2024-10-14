@@ -6,6 +6,7 @@
 :page-layout: default-cloud
 :ogdescription: Link your Google Accounts to import data directly into Analyst Studio's Datasets for analysis and visualization.
 :page-layout: default-cloud
+:page-aliases: /analyst-studio/google-sheets-integration.adoc
 :path: /articles/google-sheets-integration
 :product: Analyst Studio
 :jira: SCAL-219403, SCAL-222359, SCAL-224849

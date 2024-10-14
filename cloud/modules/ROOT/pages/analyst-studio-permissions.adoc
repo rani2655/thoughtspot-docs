@@ -6,6 +6,7 @@
 :ogdescription: How to manage permissions in Analyst Studio.
 :page-layout: default-cloud
 :path: /articles/permissions
+:page-aliases: /analyst-studio/permissions.adoc
 :product: Analyst Studio
 
 == Report and Dataset access

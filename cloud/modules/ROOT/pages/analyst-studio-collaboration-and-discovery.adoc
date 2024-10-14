@@ -5,6 +5,7 @@
 :description: How to collaborate and discover Reports in Analyst Studio.
 :ogdescription: How to collaborate and discover Reports in Analyst Studio.
 :page-layout: default-cloud
+:page-aliases: /analyst-studio/collaboration-and-discovery
 :path: /articles/collaboration-and-discovery
 :product: Analyst Studio
 

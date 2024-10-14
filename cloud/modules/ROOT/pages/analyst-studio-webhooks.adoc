@@ -6,6 +6,7 @@
 :ogdescription: An overview of webhooks and how to set them up in Analyst Studio.
 :page-layout: default-cloud
 :path: /articles/webhooks
+:page-aliases: /analyst-studio/webhooks.adoc
 :versions: ["business"]
 :product: Analyst Studio
 

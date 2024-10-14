@@ -6,6 +6,7 @@
 :description: Visualize your data to gain insight.
 :ogdescription: Visualize your data to gain insight.
 :path: /articles/visualizations
+:page-aliases: /analyst-studio/visualizations.adoc
 :product: Analyst Studio
 :jira: SCAL-224859
 

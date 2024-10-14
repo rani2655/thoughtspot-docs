@@ -6,6 +6,7 @@
 :experimental:
 :ogdescription: An overview of workspace API Tokens.
 :page-layout: default-cloud
+:page-aliases: /analyst-studio/workspace-api-tokens.adoc
 :path: /articles/workspace-api-tokens
 :product: Analyst Studio
 :jira: SCAL-219402
