@@ -22,6 +22,19 @@ Analyst Studio [.badge.badge-beta-relnotes]#Beta#:: ThoughtSpot introduces Analy
 For more information, see
 xref:analyst-studio-getting-started.adoc[Analyst Studio].
 
+// Mary. jira: SCAL-160492. docs jira: SCAL-223961
+// PM: Arpit.
+Liveboard schedule available to all users [.badge.badge-early-access-whats-new]#Early Access#::
+
+ThoughtSpot introduces access to Liveboard schedules on the home page. Users can now see all Liveboard schedules that they are subscribed to in a new section on the home page. From this page, you can edit Liveboard schedules that you created. Administrators can edit the Liveboard schedule for all schedules from this page.
++
+[.bordered]
+image::home-lb-schedule.png[]
+endif::free-trial-feature[]
++
+For more information, see xref:thoughtspot-homepage.adoc[New home page and persona-based navigation].
+
+
 
 [#10-3-0-cl-business-user]
 === For the Business User
@@ -45,9 +58,15 @@ xref:keywords-pt-BR.adoc[Português (Brasil) Keyword reference].
 Keywords known issue:: When entering keywords in the search bar, you may see different keywords reflected in the filter chips of the resulting chart (for example, `última hora` and `último 1 hora`). Accuracy of the search result is not affected.
 
 // Mary. jira: SCAL-199338. docs jira: SCAL-224679
+Create an alert from the Watchlist on the home page [.badge.badge-early-access-whats-new]#Early Access#:: You can now create alerts directly from the *Watchlist* on the home page.
++
+[.bordered]
+image::create-alert.png[]
+=======
 Create an alert from the Watchlist on the home page:: You can now create alerts directly from the *Watchlist* on the home page.
 +
 For more information, see xref:thoughtspot-one-homepage.adoc[Home page] and xref:monitor.adoc[Monitor Key Performance Indicators in your data].
+
 
 
 [#10-3-0-cl-data-engineer]
@@ -62,11 +81,42 @@ Filters improvement:::
 Filters for Worksheets, feedback providers, and editors have been refined to display only relevant values when managing feedback. For example, only Worksheets with existing feedback entries will appear in the filter options, rather than showing all Worksheets in the system.
 This enhancement improves the filtering process, making it more efficient and user-friendly.
 
+// Mary. jira: SCAL-210151.
+Monitor the application of row-level security::
 
+You can now track whether or not row-level security is applied to queries. Risk and compliance analysts can track the volume of queries with row-level security applied versus those without. A row-level security tag is included in the sql query. This provides the ability to determine the number of queries that have included row-level security via the underlying database.
++
+Each query log contains a comment as follows:
++
+----
+isRLSApplied: true/false.
+----
+
+
+// Mary. jira: SCAL-212742. docs jira: SCAL-223959
+Allow only ThoughtSpot users and groups to be added to schedules::
+
+ThoughtSpot schedules can be configured to prevent new and existing schedules from being sent to external emails. To enable this feature, contact {support-url}.
++
+For more information, see xref:liveboard-schedule.adoc[Schedule a Liveboard job]
 
 
 [#10-3-0-cl-it-ops]
 === For the IT/Ops Engineer
+// Mary. JIRA: SCAL-202402. docs JIRA: SCAL-212285
+Org-specific URLs [.badge.badge-early-access-whats-new]#Early Access#::
+
+ThoughtSpot introduces Org-specific URLs. URLs in emails now include Org context so that users are taken directly to the correct Liveboard in the correct Org even if they belong to multiple Orgs.
+You can also move between different browser tabs that point to different Orgs.
+
+// Mary. JIRA: SCAL-197810. docs JIRA: SCAL-216615
+Local authentication support with IAMv2 [.badge.badge-early-access-whats-new]#Early Access#::
+
+ThoughtSpot allows customers to enable or disable local authentication at the Org and cluster levels. To enable local authentication at the cluster level, administrators require the *Can manage authentication* privilege. To enable local authentication at the Org level, contact {support-url}.
++
+NOTE: Org level settings override cluster level settings.
++
+For more information, see xref:authentication-local.adoc[Managing local authentication].
 
 [#10-3-0-cl-developer]
 === For the Developer

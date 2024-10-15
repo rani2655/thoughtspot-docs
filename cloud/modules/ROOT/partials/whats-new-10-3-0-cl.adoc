@@ -196,7 +196,7 @@ ifdef::pendo-links[]
 endif::[]
 
 // Mary. jira: SCAL-208470. docs jira: SCAL-?
-// PM: Dilip - waiting for more information and doc JIRA (currently marked as no doc needed). PM says there is no functional change, but the screen caps and instructions definitely require updating (https://docs.thoughtspot.com/cloud/latest/liveboard-schedule). Not sure if it should be included in the WN.
+// PM: Dilip Not sure if it should be included in the WN. - No doc req
 
 endif::free-trial-feature[]
 ////
@@ -298,12 +298,10 @@ Users with the *Can use Analyst Studio* privilege will see *Analyst Studio* in t
 
 You can now track whether or not row-level security is applied to queries. Risk and compliance analysts can track the volume of queries with row-level security applied versus those without. A row-level security tag is included in the sql query. This provides the ability to determine the number of queries that have included row-level security via the underlying database.
 
-////
 Each query log contains a comment as follows:
 ----
 isRLSApplied: true/false.
 ----
-////
 
 
 
@@ -403,7 +401,6 @@ ThoughtSpot allows customers to enable or disable local authentication at the Or
 
 NOTE: Org level settings override cluster level settings.
 
-////
 For more information, see
 ifndef::pendo-links[]
 xref:authentication-local.adoc[Managing local authentication].
@@ -411,7 +408,7 @@ endif::[]
 ifdef::pendo-links[]
 xref:authentication-local.adoc[Managing local authentication,window=_blank].
 endif::[]
-////
+
 
 endif::free-trial-feature[]
 
