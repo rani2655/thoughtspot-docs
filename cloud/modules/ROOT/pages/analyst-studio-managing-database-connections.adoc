@@ -8,6 +8,7 @@
 :path: /articles/managing-database-connections
 :page-aliases: /analyst-studio/managing-database-connections.adoc
 :product: Analyst Studio
+:jira: SCAL-228722
 
 == Overview
 
@@ -380,6 +381,7 @@ The {product} Public Warehouse is a great tool that you can use to:
 Anyone with an {product} account has access to the {product} Public Warehouse and can build Reports on top of the data inside it.
 ////
 
+////
 [#uploading-data]
 === Uploading data
 
@@ -411,7 +413,8 @@ Columns follow the same naming rules as tables.
 
 When you are finished, *check the box* next to "I understand this table will be public to all {product} users", and then click *Finish Import* at the bottom of the Customize Columns screen.
 You can now query this data in {product} by selecting {product} Public Warehouse as the database.
-
+////
+////
 === Deleting data
 
 To remove a table you've uploaded to {product}'s Public Warehouse:
@@ -424,3 +427,4 @@ To remove a table you've uploaded to {product}'s Public Warehouse:
 . Click on the *Public Table* image:table-large-bg.svg[public table] icon.
 . Click on the name of the table you want to delete.
 . Click the *gear* image:settings-mini-hover.svg[gear icon] icon next to the green Query button and choose *Delete table*.
+////
