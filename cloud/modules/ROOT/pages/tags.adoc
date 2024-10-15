@@ -1,11 +1,11 @@
 = Use tags to organize
-:last_updated: 11/04/2021
+:last_updated: 10/15/2024
 :linkattrs:
 :experimental:
 :page-layout: default-cloud
 :page-aliases: /end-user/tags.adoc, /admin/data-modeling/tags.adoc
 :description: Tags enable you to create categories for classification of objects, including Liveboards, Answers, data sources, and Worksheets.
-:jira: SCAL-223133
+:jira: SCAL-223133, SCAL-223905
 
 include::partial$tags.adoc[]
 
