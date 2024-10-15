@@ -1,19 +1,19 @@
 The latest release of ThoughtSpot Cloud contains several new and enhanced features.
 
-* <<10-3-0-cl-first,For the First User>>
-* <<10-3-0-cl-analyst,For the Analyst>>
-* <<10-3-0-cl-business-user,For the Business User>>
-* <<10-3-0-cl-data-engineer,For the Data Engineer>>
-* <<10-3-0-cl-developer,For the Developer>>
+* <<10-4-0-cl-first,For the First User>>
+* <<10-4-0-cl-analyst,For the Analyst>>
+* <<10-4-0-cl-business-user,For the Business User>>
+* <<10-4-0-cl-data-engineer,For the Data Engineer>>
+* <<10-4-0-cl-developer,For the Developer>>
 
-[#10-3-0-cl-first]
+[#10-4-0-cl-first]
 === For the First User
 
 Getting started with ThoughtSpot Cloud::
 The first user on the account has to complete a series of steps before other people can start using ThoughtSpot with your organization's data.
 For these instructions, see xref:ts-cloud-getting-started.adoc[Getting Started with ThoughtSpot Cloud].
 
-[#10-3-0-cl-analyst]
+[#10-4-0-cl-analyst]
 === For the Analyst
 
 // Naomi. jira: SCAL-211323. docs jira: SCAL-225087
@@ -36,7 +36,7 @@ For more information, see xref:thoughtspot-homepage.adoc[New home page and perso
 
 
 
-[#10-3-0-cl-business-user]
+[#10-4-0-cl-business-user]
 === For the Business User
 
 // Naomi. jira: SCAL-210305. docs jira: SCAL-221925
@@ -71,7 +71,7 @@ Manage tags for Answers and Liveboards::
 You can now manage all your Answer and Liveboard tags from one convenient window. Just click the *Manage tags* button at the top of your list of Liveboards or Answers, then create, edit, and delete tags. To delete and edit tags you must have administrator privileges or the *can manage tags* role if RBAC is enabled. For more information, see
 xref:tags.adoc[Use tags to organize].
 
-[#10-3-0-cl-data-engineer]
+[#10-4-0-cl-data-engineer]
 === For the Data Engineer
 
 // Naomi. jira: SCAL-207602. docs jira: SCAL-219033
@@ -103,7 +103,7 @@ ThoughtSpot schedules can be configured to prevent new and existing schedules fr
 For more information, see xref:liveboard-schedule.adoc[Schedule a Liveboard job]
 
 
-[#10-3-0-cl-it-ops]
+[#10-4-0-cl-it-ops]
 === For the IT/Ops Engineer
 
 Option to set new navigation and homepage experience as default [.badge.badge-early-access-relnotes]#Early Access#::
@@ -126,7 +126,7 @@ NOTE: Org level settings override cluster level settings.
 +
 For more information, see xref:authentication-local.adoc[Managing local authentication].
 
-[#10-3-0-cl-developer]
+[#10-4-0-cl-developer]
 === For the Developer
 
 ThoughtSpot Embedded:: For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
