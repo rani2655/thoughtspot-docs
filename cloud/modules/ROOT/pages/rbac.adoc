@@ -176,7 +176,11 @@ Can invoke Custom R Analysis|Allows invoking R scripts to explore search answers
 Can verify Liveboard|Allows Liveboard users to verify Liveboard access requests and mark a Liveboard as verified.|
 
 Can use Analyst Studio
-|Allows access to Analyst Studio features.
+|Allows access to Analyst Studio features.|
+
+Can manage version control
+|Allows users to connect Git branches to ThoughtSpot for version control.
+
 |===
 
 === Data download control roles
@@ -193,6 +197,18 @@ ThoughtSpot delivers roles corresponding to each privilege previously available 
 
 For example, where an existing cluster has a group *GroupA* with privilege *Has Developer Privilege*, when RBAC is enabled, a role wis created *_Developer* that has all granular privileges representing *Has Developer Privilege* assigned and *GroupA* has the *_Developer* role assigned.
 
+The following image shows how Groups appear in the UI:
+[.bordered]
+image::wo-rbac-group.png[Groups UI]
+
+Without RBAC enabled, you will see the following privileges:
+[.bordered]
+image::wo-rbac-group-priv.png[Group privileges without RBAC enabled]
+
+With RBAC enabled, you will see the following privileges:
+[.bordered]
+image::rbac-group-priv.png[Group privileges with RBAC enabled]
+
 NOTE: There are no changes made to the existing privileges. Existing privileges are mapped to roles which are assigned to the new granular privileges which make up the old monolithic privilege.
 
 
@@ -205,10 +221,14 @@ To create a role, follow these steps:
 
 . Navigate to the Admin Console by selecting the *Admin* tab from the top navigation bar.
 . Select *Roles* from the *User management* section in the side navigation bar.
-//<insert screen cap here>
++
+[.bordered]
+image::roles-user-management.png[User management roles]
 . Select the *Create role* button on the right side of the screen.
 . In the *Create role* modal, enter the details for the new role:
-//<insert screen cap here>
++
+[.bordered]
+image::create-role.png[Create role modal]
 +
 [#role-name]
 Role name::
@@ -228,16 +248,24 @@ NOTE: The granular privileges provided by ThoughtSpot are grouped. For example p
 . Review your selections, and click *Save* to create the new role.
 +
 NOTE: If you give a new role a role name which is the same as that of an existing role, you will see and error about the duplication of role with a suggestion to change the role name when you click *Save*.
-
++
+[.bordered]
+image::role-review-error.png[Role review naming error]
 
 === Edit a role
 To edit a role, follow these steps:
 
 . Navigate to the Admin Console by selecting the *Admin* tab from the top navigation bar.
 . Select *Roles* from the *User management* section in the side navigation bar.
-//<insert screen cap here>
++
+[.bordered]
+image::roles-user-management.png[User management roles]
 . Click on a role name, or click *More options* and select *Edit* to edit the role.
 . In the *Edit role* modal, make your desired changes.
++
+[.bordered]
+image::role-edit.png[Edit role modal]
++
 . Click *Review selection* to continue.
 . Review your changes, and click *Save*.
 
@@ -246,11 +274,17 @@ To delete a role, follow these steps:
 
 . Navigate to the Admin Console by selecting the *Admin* tab from the top navigation bar.
 . Select *Roles* from the *User management* section in the side navigation bar.
-//<insert screen cap here>
-. To delete multiple roles at the same time, select the checkboxes next to the role names.
 +
-The Delete button appears on the top side of the role list.
-. Select *Delete*.
+[.bordered]
+image::roles-user-management.png[User management roles]
+. To delete multiple roles at the same time, select the checkboxes next to the role names and click the *Delete* button.
++
+[.bordered]
+image::roles-delete.png[Delete roles]
+. Type *CONFIRM* and click *Delete* to delete.
++
+[.bordered]
+image::roles-delete-confirm.png[Delete roles confirmation]
 
 == Assign roles to groups
 Once you have created roles, you can assign them to groups to manage privileges for your users. For more information about assigning roles to groups, see Understand groups and privileges xref:group-management.adoc[Create, edit, or delete a group].
