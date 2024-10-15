@@ -316,6 +316,8 @@ isRLSApplied: true/false.
 
 ThoughtSpot schedules can be configured to prevent new and existing schedules from being sent to external emails. To enable this feature, contact {support-url}.
 
+For more information, see xref:liveboard-schedule.adoc[Schedule a Liveboard job]
+
 
 
 
