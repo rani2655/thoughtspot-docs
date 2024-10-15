@@ -46,8 +46,7 @@ Keywords known issue:: When entering keywords in the search bar, you may see dif
 
 // Mary. jira: SCAL-199338. docs jira: SCAL-224679
 Create an alert from the Watchlist on the home page:: You can now create alerts directly from the *Watchlist* on the home page.
-[.bordered]
-image::create-alert.png[]
++
 For more information, see xref:thoughtspot-one-homepage.adoc[Home page] and xref:monitor.adoc[Monitor Key Performance Indicators in your data].
 
 
