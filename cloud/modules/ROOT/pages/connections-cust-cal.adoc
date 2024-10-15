@@ -5,7 +5,7 @@
 :experimental:
 :page-layout: default-cloud
 :description: With a custom calendar, you can choose when the year, quarter, or week starts, and search using date-related keywords.
-:jira: SCAL-172330, SCAL-201842 (doc enhancement)
+:jira: SCAL-172330, SCAL-201842 (doc enhancement), SCAL-176032
 
 With a custom calendar, you can choose when the year, quarter, or week starts, and search using date-related keywords.
 
@@ -71,7 +71,7 @@ Custom calendar currently supports the following:
 You can use your custom calendar to search the following ways:
 
 * Using date keywords, like `this quarter` and `q3`
-* Using date formulas with the `fiscal` option specified (See xref:formulas-date.adoc#fiscal-and-gregorian-calendars[Fiscal and Gregorian calendars])
+* Using date formulas with the `fiscal` option specified (See xref:10.3.0.cl@cloud:ROOT:formulas-date.adoc#fiscal-and-gregorian-calendars[Fiscal and Gregorian calendars])
 * Overriding the calendar used in the search bar by typing your custom calendar's name
 * Binding a calendar with a column under the table detail page.
 Example: Binding `Lineorder` `commitdate` with the French calendar.
@@ -87,11 +87,13 @@ Before you create a custom calendar, make sure to review the following limitatio
 * When uploading files, the date format must be _MM/DD/YYYY_. No other formats are supported.
 * The file must be sorted based on the date in ascending order.
 * The file format should be UTF-8.
+* You can now add row-level security rules to custom calendars. To enable this feature, contact {support-url}.
 
 === Using a custom calendar
 
 * Formulas are limited to defining a single custom calendar.
 * *VS* supports multiple custom calendars as long as there is only a single calendar per clause.
+
 
 === Updating a custom calendar
 
@@ -124,6 +126,6 @@ The Data workspace appears.
 '''
 > **Related information**
 >
-> * xref:connections-cust-cal-create.adoc[Create a custom calendar] +
-> * xref:connections-cust-cal-update.adoc[Update a custom calendar] +
-> * xref:connections-cust-cal-delete.adoc[Delete a custom calendar]
+> * xref:10.3.0.cl@cloud:ROOT:connections-cust-cal-create.adoc[Create a custom calendar] +
+> * xref:10.3.0.cl@cloud:ROOT:connections-cust-cal-update.adoc[Update a custom calendar] +
+> * xref:10.3.0.cl@cloud:ROOT:connections-cust-cal-delete.adoc[Delete a custom calendar]

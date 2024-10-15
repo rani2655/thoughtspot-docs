@@ -30,7 +30,7 @@ Bridge Server:: This is the server component of the bridge infrastructure. The B
 
 Bridge client:: This is the client component of the bridge infrastructure. The Bridge Client is a custom golang application that needs to be installed by the customer on a machine that can make outbound connections to both the Bridge Server (over the internet) and to the customer’s database (over the internal network).  Bridge Client is also available as a Docker image.
 
-The Bridge Server and Client communicate using the SSH protocol. The Bridge infrastructure's primary function is to establish an SSH tunnel between ThoughtSpot and the customer database. Once the tunnel has been established, the Bridge infrasture simply copies the bytes into and out of the tunnel.
+The Bridge Server and Client communicate using the SSH protocol. The Bridge infrastructure's primary function is to establish an SSH tunnel between ThoughtSpot and the customer database. Once the tunnel has been established, the Bridge infrastructure simply copies the bytes into and out of the tunnel.
 
 The Bridge Client needs to make *outbound TCP connections* to Bridge Server on *port 443*.
 
@@ -148,7 +148,7 @@ NOTE: Use the AccessToken provided by {support-url}. This informs ThoughtSpot to
 +
 image:bridgeconfig.png[msg=connected]
 
-*How are the credentials protected on the Bridge Client?*:: The Bridge Client doesn’t contain any database or CDW credentials. All Database-related credentials or configurations are stored in ThoughtSpot’s application layer (Embrace). This is independent of using Bridge or any other connectivity mechanism, such as PrivateLink or VPN.
+*How are the credentials protected on the Bridge Client?*:: The Bridge Client doesn't contain any database or CDW credentials. All Database-related credentials or configurations are stored in ThoughtSpot’s application layer (Embrace). This is independent of using Bridge or any other connectivity mechanism, such as PrivateLink or VPN.
 +
 The Bridge Client currently stores its configuration locally in static configuration files. {support-url} (Bridge Server) generates the secrets and shares them with the customer, to initialize the Bridge Client. These secrets are not CDW/DB related. These secrets are used to establish the connection between client and server.
 +

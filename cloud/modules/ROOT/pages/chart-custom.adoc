@@ -31,15 +31,15 @@ A ThoughtSpot administrator can add custom charts to your cluster, as well as ed
 
 === Adding domains to the permitted iFrame and CSP img-src domains
 
-The ThoughtSpot administrator must enter the domain for both the chart and the chart icon. In the case of the Gauge chart, it is **.vercel.app*.
+The ThoughtSpot administrator must enter the domain for both the chart and the chart icon.
 
 To add the domain for a custom chart and chart icon, do the following:
 
 . Select *Develop* from the navigation bar.
 . Navigate to *All Orgs* > *Security settings*.
 . Click *Edit*.
-. In the *Permitted iFrame domains* field enter the domain where the custom chart is hosted. In the case of the Gauge chart it is: **.vercel.app*.
-. In the *CSP img-src domains* field enter the domain where the custom chart icon is hosted. In the case of the Gauge chart it is: **.vercel.app*.
+. In the *Permitted iFrame domains* field enter the domain where the custom chart is hosted.
+. In the *CSP img-src domains* field enter the domain where the custom chart icon is hosted.
 . Click *Save Changes*.
 
 

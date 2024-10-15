@@ -16,20 +16,54 @@ For these instructions, see xref:ts-cloud-getting-started.adoc[Getting Started w
 [#10-3-0-cl-analyst]
 === For the Analyst
 
+// Naomi. jira: SCAL-211323. docs jira: SCAL-225087
+Analyst Studio [.badge.badge-beta-relnotes]#Beta#:: ThoughtSpot introduces Analyst Studio, where you can write SQL queries to create reusable Datasets. You can set schedules to refresh Datasets, or publish them to the Data workspace, where you can join multiple Datasets to query as a whole.
++
+For more information, see
+xref:analyst-studio-getting-started.adoc[Analyst Studio].
 
 
 [#10-3-0-cl-business-user]
 === For the Business User
 
 // Naomi. jira: SCAL-210305. docs jira: SCAL-221925
-Natural language search and object search:: Natural language search and object search are now separated. To search for an AI-generated answer using natural language, enter your question in the *Ask a business question in natural language* search bar on the home page. To search for related Answers and Liveboards, enter your question in the *Find existing Answers and Liveboards* search bar in the top navigation bar.
+Natural language search and object search:: Natural language search and object search are now separated. To search for an AI-generated answer using natural language, enter your question in the search bar marked *Ask a business question in natural language*  on the home page. To search for related Answers and Liveboards, enter your question in the search bar marked *Find existing Answers and Liveboards* in the top navigation bar.
++
+For information on the changes in ThoughtSpot Embedded, see https://developers.thoughtspot.com/docs/full-app-customize#_search_experience[Search experience^] in the ThoughtSpot developer documentation.
++
+For any questions or concerns, contact {support-url}.
 
+// Naomi. jira: SCAL-212737. docs jira: SCAL-226578
+Compact Liveboard header [.badge.badge-early-access-relnotes]#Early Access#:: We have streamlined the design of Liveboard headers to ensure maximum visibility of Liveboard visualizations no matter the size of the screen. To enable this feature, contact your administrator.
+
+// Naomi. docs jira: SCAL-220633.
+Portuguese (Brazil) keywords::
+We have updated the Portuguese date keyword synonyms. For more information, see
+xref:keywords-pt-BR.adoc[Português (Brasil) Keyword reference].
+
+// Naomi. docs jira: SCAL-220682
+Keywords known issue:: When entering keywords in the search bar, you may see different keywords reflected in the filter chips of the resulting chart (for example, `última hora` and `último 1 hora`). Accuracy of the search result is not affected.
+
+// Mary. jira: SCAL-199338. docs jira: SCAL-224679
+Create an alert from the Watchlist on the home page:: You can now create alerts directly from the *Watchlist* on the home page.
+[.bordered]
+image::create-alert.png[]
+For more information, see xref:thoughtspot-one-homepage.adoc[Home page] and xref:monitor.adoc[Monitor Key Performance Indicators in your data].
 
 
 [#10-3-0-cl-data-engineer]
 === For the Data Engineer
 
+// Naomi. jira: SCAL-207602. docs jira: SCAL-219033
 Categorization for Connections [.badge.badge-early-access-relnotes]#Early Access#:: You can now choose to sort Connections by type rather than order added to ThoughtSpot. To enable this feature, contact your administrator.
+
+// Naomi. jira: SCAL-212191. docs jira: SCAL-227574
+Sage Coach enhancements::
+Filters improvement:::
+Filters for Worksheets, feedback providers, and editors have been refined to display only relevant values when managing feedback. For example, only Worksheets with existing feedback entries will appear in the filter options, rather than showing all Worksheets in the system.
+This enhancement improves the filtering process, making it more efficient and user-friendly.
+
+
 
 
 [#10-3-0-cl-it-ops]
