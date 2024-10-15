@@ -62,6 +62,9 @@ Create an alert from the Watchlist on the home page [.badge.badge-early-access-w
 +
 [.bordered]
 image::create-alert.png[]
+=======
+Create an alert from the Watchlist on the home page:: You can now create alerts directly from the *Watchlist* on the home page.
++
 For more information, see xref:thoughtspot-one-homepage.adoc[Home page] and xref:monitor.adoc[Monitor Key Performance Indicators in your data].
 
 
