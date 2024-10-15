@@ -25,7 +25,7 @@ ifdef::pendo-links[]
 [discrete]
 === Anomaly-based alerts [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
-// Naomi – Jira: SCAL-16112. docs JIRA: SCAL-207062
+// Naomi – Jira: SCAL-161112. docs JIRA: SCAL-207062
 // PM: Rahul P J P. add gif with result email showing. remove the process, add in an example use case.
 
 You can now receive alerts when data of KPIs you are subscribed to fall outside the predicted value range.
