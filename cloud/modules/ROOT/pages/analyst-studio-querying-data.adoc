@@ -8,6 +8,7 @@
 :path: /articles/querying-data
 :page-aliases: /analyst-studio/querying-data.adoc
 :product: Analyst Studio
+:jira: SCAL-228722
 
 == Overview
 
@@ -617,7 +618,7 @@ For {product} Business and Enterprise customers, we offer different plans that s
 ////
 
 [discrete]
-=== *2. Query result is too large. Please try adding a `LIMIT` clause.*
+=== *1. Query result is too large. Please try adding a `LIMIT` clause.*
 
 Query results over 10 GB cannot be returned to {product} from a database.
 If your results exceed this limit, add a LIMIT statement to your query to return a smaller set of results.

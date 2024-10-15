@@ -8,6 +8,7 @@
 :page-aliases: /analyst-studio/discovery-api.adoc
 :path: /articles/discovery-api
 :product: Analyst Studio
+:jira: SCAL-228722
 
 //+++<flag-icon>++++++</flag-icon>+++
 
@@ -17,7 +18,7 @@ The Discovery API is a read-only batch API that allow developers to get lists of
 The API will be referred to as 'batch' throughout the documentation.
 //See the full documentation for the Discovery API link:https://mode.com/developer/discovery-api/introduction/[here,window=_blank].
 
-NOTE: The Discovery API is only available for Enterprise tier customers. Reach out to your CSM to get access.
+//NOTE: The Discovery API is only available for Enterprise tier customers. Reach out to your CSM to get access.
 
 == Authentication and authorization
 
