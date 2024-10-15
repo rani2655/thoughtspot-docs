@@ -103,7 +103,10 @@ Can Enable or Disable Trusted Authentication
 |Allows users with Super Admin privilege to enable or disable trusted authentication for applications embedding ThoughtSpot content.|
 
 Can manage tags
-|Allows administrators to create and edit tags.
+|Allows administrators to create and edit tags.|
+
+Can manage Analyst Studio
+|Allows administrators to manage Analyst Studio for ThoughtSpot users.
 |===
 
 
@@ -169,7 +172,10 @@ Can manage catalog|Allows users to create, edit, and mange a data connection to 
 
 Can invoke Custom R Analysis|Allows invoking R scripts to explore search answers and share custom scripts.|
 
-Can verify Liveboard|Allows Liveboard users to verify Liveboard access requests and mark a Liveboard as verified.
+Can verify Liveboard|Allows Liveboard users to verify Liveboard access requests and mark a Liveboard as verified.|
+
+Can use Analyst Studio
+|Allows access to Analyst Studio features.
 |===
 
 === Data download control roles
