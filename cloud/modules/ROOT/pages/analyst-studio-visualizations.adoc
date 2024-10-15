@@ -8,7 +8,7 @@
 :path: /articles/visualizations
 :page-aliases: /analyst-studio/visualizations.adoc
 :product: Analyst Studio
-:jira: SCAL-224859
+:jira: SCAL-224859, SCAL-228722
 
 == Overview
 
@@ -511,6 +511,7 @@ image::advanced-sort1.gif[Advanced sorting]
 
 For a full breakdown of each of these options, visit our xref:analyst-studio-visual-explorer.adoc#sorting[visual explorer sorting] documentation.
 
+////
 === (Legacy) display table
 
 NOTE: We now no longer actively support display tables, and we will sunset them at some point in the future.
@@ -537,7 +538,8 @@ Read more about <<copy-visualizations-across-reports,copying and pasting visuali
 * *Delete*: Removes the visualization from your Report layout and deletes it from the editor.
 
 All Quick Charts except tables and big values can be converted to xref:analyst-studio-visual-explorer.adoc[Visual Explorer] to access advanced chart options.
-
+////
+////
 === JavaScript customization
 
 Quick Charts can be customized using the HighCharts JavaScript API or through Alamode by turning on the JS customization setting.
@@ -555,14 +557,17 @@ If a Quick Chart has any of the following features in use, the user will not be 
 . Custom table calculations.
 . Display labels to modify field names in charts.
 . Default field settings.
+////
 
 == Notebook visualizations
 
 Every Report contains a built-in xref:analyst-studio-notebook.adoc[Notebook] environment where you can take the results of one or more queries, further analyze them in Python or R, and visualize the results using one of the many xref:analyst-studio-notebook.adoc#supported-libraries[built-in libraries].
 
+////
 The contents of any xref:analyst-studio-notebook.adoc#adding-cell-output-to-your-report[Notebook output cell] can be added to your Report.
 These visualizations will update whenever the Notebook is run and the output changes.
-
+////
+////
 == Custom visualizations
 
 {product} supports the ability to customize {product}'s native visualizations or add custom D3 visualizations to an {product} Report.
@@ -571,6 +576,7 @@ The HTML editor lets you use valid HTML, JavaScript, or CSS in the layout of you
 To help you get started, {product}'s community maintains the link:https://github.com/mode/alamode[Alamode,window=_blank] JavaScript library that makes creating link:https://d3js.org/[D3-powered,window=_blank] visualizations easy.
 
 //Check out link:https://mode.com/example-gallery/[{product}'s Gallery,window=_blank] for inspiration, sample Reports, and more information about how to create advanced visualizations in {product}.
+////
 
 [#copy-visualizations-across-reports]
 == Copy visualizations across Reports
@@ -611,13 +617,18 @@ _Copy a chart from the chart designer and paste in a Report_  image:copy-paste-f
 
 _Copy a chart from the chart designer and replace another chart in a Report_ image:copy-paste-replace-from-chart-designer.gif[Copy Paste Replace from Chart editor]
 
+////
 _Copy a chart from the Report View and paste in a Report_  image:copy-paste-from-report-view.gif[Copy Paste from Report View]
-
+////
+////
 _Copy a chart from the Report View and replace another chart in a Report_ image:copy-paste-replace-from-report-view.gif[Copy Paste Replace from Report View]
-
+////
+////
 _Copy a chart from Explorations and paste in a Report_ image:copy-paste-from-explorations.gif[Copy Paste from Explorations]
-
+////
+////
 _Copy a chart from Explorations and replace another chart in a Report_ image:copy-paste-replace-from-explorations.gif[Copy Paste Replace from Explorations]
+////
 
 Copy-pasting visualizations is helpful in the following scenarios:
 
