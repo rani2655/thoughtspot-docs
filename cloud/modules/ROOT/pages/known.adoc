@@ -7,7 +7,7 @@
 :page-toclevels: -1
 :linkattrs:
 :jira: SCAL-206809 (9.12.0.cl), SCAL-210330 (9.12.5.cl), SCAL-214503 (10.0.0.cl), SCAL-216844 (10.1.0.cl), SCAL-228467 (10.3.0.cl)
-
+////
 These are the known issues in this release of ThoughtSpot Cloud.
 
 [#releases-10-0-x]
@@ -75,3 +75,4 @@ When the requester or verifier has been deleted.
 *Workaround*:
 With a verified Liveboard, the user can close the error banner because there is no impact on functionality. With a pending request when the requester is deleted, the user contact {support-url} to delete the request.
 |===
+////
