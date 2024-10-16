@@ -68,7 +68,7 @@ NOTE: The protocol used will be SSH-only.
 }
 ----
 
-.. The .env file for link:https://docs.docker.com/compose/environment-variables/variable-interpolation/#env-file-syntax[Docker] will be in the following format:
+.. The .env file for link:https://docs.docker.com/compose/environment-variables/variable-interpolation/#env-file-syntax[Docker^] will be in the following format:
 +
 [source]
 ----
@@ -81,7 +81,7 @@ MODE_SERVER=some.bridge.host:443
 
 .. For Docker:
 
-... Pull the link:https://hub.docker.com/r/modeanalytics/bridge-client[latest Docker image] from DockerHub using the command `docker pull modeanalytics/bridge-client` from a terminal.
+... Pull the link:https://hub.docker.com/r/modeanalytics/bridge-client[latest Docker image^] from DockerHub using the command `docker pull modeanalytics/bridge-client` from a terminal.
 
 ... Run the following command to download, create, and start your Bridge connector: `docker run --env-file /etc/mode-bridge.env --name mode-bridge modeanalytics/bridge-client:latest`.
 
@@ -109,15 +109,15 @@ sudo apt-get install mode-bridge
 
 .. For Windows:
 
-... Install the link:https://s3-us-west-2.amazonaws.com/mode-distribution/public/release/mode-bridge/windows-server/ModeBridge-Latest.msi[package].
+... Install the link:https://s3-us-west-2.amazonaws.com/mode-distribution/public/release/mode-bridge/windows-server/ModeBridge-Latest.msi[package^].
 
 ... Create or edit the Bridge config file located at *C:\Program Files\Mode Analytics\Bridge Connector\Bridge.json* with the details of the ports shared by {support-url}.
 
-... Start the Bridge client using link:http://www.thewindowsclub.com/open-windows-services[Windows Services Manager].
+... Start the Bridge client using link:http://www.thewindowsclub.com/open-windows-services[Windows Services Manager^].
 
 .. For Mac:
 
-... Install the link:https://s3-us-west-2.amazonaws.com/mode-distribution/public/release/mode-bridge/osx/ModeBridge-Latest.pkg[package].
+... Install the link:https://s3-us-west-2.amazonaws.com/mode-distribution/public/release/mode-bridge/osx/ModeBridge-Latest.pkg[package^].
 
 ... Create or edit the Bridge config file located *$HOME/.modeanalytics/Bridge.json* with the details of the ports shared by {support-url}.
 
@@ -183,6 +183,6 @@ In the long run, the Bridge Server will have its own APIs to generate the Client
 | Linux | /etc/init.d/mode-bridge stop
 | /etc/init.d/mode-bridge start
 
-| Windows | link:http://www.thewindowsclub.com/open-windows-services[Window Services Manager] | link:http://www.thewindowsclub.com/open-windows-services[Window Services Manager]
+| Windows | link:http://www.thewindowsclub.com/open-windows-services[Window Services Manager^] | link:http://www.thewindowsclub.com/open-windows-services[Window Services Manager^]
 
 |===
