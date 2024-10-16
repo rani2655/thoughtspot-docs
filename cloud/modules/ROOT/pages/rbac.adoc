@@ -51,6 +51,8 @@ Can manage Users
 
 *Application administration*: Can manage Application settings
 
+For a complete list of Roles and privileges, see <<RBAC roles>>.
+
 |===
 
 Previously, administrators were part of the administrator group, and data mangers were part of the can manage data group. Members of the groups would have view and edit access to all data. In some organizations these functions are broken out in a more granular way between different users. Roles allow you to assign the specific roles and privileges required without including those that are not needed.
@@ -74,28 +76,30 @@ The following are descriptions of each of the RBAC roles.
 |Role |Description
 
 
-|Can manage Orgs|Applicable to ThoughtSpot instances with Orgs. User with Can manage Orgs can create and manage objects, groups and users in their respective Orgs.
+|Can manage Orgs|Applicable to ThoughtSpot instances with Orgs. With RBAC enabled, this role allows users to create, read, update, and delete Orgs.
 
-NOTE: Without RBAC enabled, *Can manage Orgs* has super admin privileges. With RBAC enabled, this role gives privilege only to perform CRUD operations on Orgs.
+NOTE: Without RBAC enabled, *Can manage Orgs* has super admin privileges.
 |
 
 Can manage Users
-|Allows administrators and users to create, view, update and delete users.|
+|Allows users to create, view, update and delete users.
+NOTE: On instances with Orgs enabled, this role allows users to create, read, update, and delete within their Org context. It does not grant access to manage users in the *All Orgs* context.
+|
 
 Can manage Groups
-|Allows administrators and users to create, view, update and delete groups.|
+|Allows users to create, view, update and delete groups.|
 
 Can manage Roles
-|Allows administrators and users to create, view, update and delete roles.|
+|Allows users to create, view, update and delete roles.|
 
 Can manage Authentication
-|Allows administrators and users to manage authentication and the authorization process for ThoughtSpot users.|
+|Allows users to manage authentication and the authorization process for ThoughtSpot users.|
 
 Can manage Application settings
-|Allows administrators and users to manage cluster-wide application settings, activation and de-activation of feature on an instance.|
+|Allows users to manage cluster-wide application settings, activation and de-activation of feature on an instance.|
 
 Can view System activities
-|Allows administrators and users to manage system activities.|
+|Allows users to manage system activities.|
 
 Can view Billing Information
 |Allows view access to billing information.|
@@ -104,10 +108,10 @@ Can Enable or Disable Trusted Authentication
 |Allows users with Super Admin privilege to enable or disable trusted authentication for applications embedding ThoughtSpot content.|
 
 Can manage tags
-|Allows administrators and users to create and edit tags.|
+|Allows users to create and edit tags.|
 
 Can manage Analyst Studio
-|Allows administrators and users to manage Analyst Studio for ThoughtSpot users.
+|Allows administrative access to Analyst Studio from ThoughtSpot.
 |===
 
 
@@ -125,7 +129,7 @@ Can manage Analyst Studio
 |Role |Description
 
 |Can create/edit connections
-|Allows administrators and users to add new data connections or edit existing connections to external data warehouses.
+|Allows users to add new data connections or edit existing connections to external data warehouses.
 
 |Can manage data models|Allows users to create, edit, delete and manage Worksheets, Models, Tables, and Views.
 
@@ -176,7 +180,7 @@ Can invoke Custom R Analysis|Allows invoking R scripts to explore search answers
 Can verify Liveboard|Allows Liveboard users to verify Liveboard access requests and mark a Liveboard as verified.|
 
 Can use Analyst Studio
-|Allows access to Analyst Studio features.|
+|Allows non-admin users access to Analyst Studio features.|
 
 Can manage version control
 |Allows users to connect Git branches to ThoughtSpot for version control.
@@ -195,7 +199,7 @@ Can manage version control
 == Migrating to RBAC
 ThoughtSpot delivers roles corresponding to each privilege previously available as part of the existing groups. Existing groups are retained. When migrating, for each existing group privilege, a new role is created with the corresponding privileges assigned, and the existing groups are mapped to the corresponding new role.
 
-For example, where an existing cluster has a group *GroupA* with privilege *Has Developer Privilege*, when RBAC is enabled, a role wis created *_Developer* that has all granular privileges representing *Has Developer Privilege* assigned and *GroupA* has the *_Developer* role assigned.
+For example, where an existing cluster has a group *GroupA* with privilege *Has Developer Privilege*, when RBAC is enabled, a role was created *_Developer* that has all granular privileges representing *Has Developer Privilege* assigned and *GroupA* has the *_Developer* role assigned.
 
 The following image shows how Groups appear in the UI:
 [.bordered]
