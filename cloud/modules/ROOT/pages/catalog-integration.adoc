@@ -18,12 +18,12 @@ NOTE: You can only create a connection to a single data catalog at a time. If yo
 You can now connect to Alation using Service Account authentication or Token-based authentication. For each authentication type, you will need the following credentials:
 
 Service Account::
-* link:https://docs.alation.com/en/latest/welcome/CatalogBasics/RolesOverview.html[Catalog admins] privilege
+* link:https://docs.alation.com/en/latest/welcome/CatalogBasics/RolesOverview.html[Catalog admins^] privilege
 * Username and password used to log in to your Alation instance
 * Instance URL
 
 Token-based authentication::
-* link:https://docs.alation.com/en/latest/welcome/CatalogBasics/RolesOverview.html[Catalog admins] privilege
+* link:https://docs.alation.com/en/latest/welcome/CatalogBasics/RolesOverview.html[Catalog admins^] privilege
 * API token, also known as refresh token
 * Instance URL
 
