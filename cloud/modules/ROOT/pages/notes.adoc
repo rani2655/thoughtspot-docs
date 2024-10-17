@@ -17,8 +17,6 @@ For a complete list of issues that we fixed in this release, see xref:fixed.adoc
 
 For a complete list of known issues in this release, see xref:known.adoc[Known issues].
 
-include::partial$cloud-coming-soon-release-notes.adoc[]
-
 [#new]
 == New Features and Functionality
 
