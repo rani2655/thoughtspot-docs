@@ -116,6 +116,7 @@ Org-specific URLs [.badge.badge-early-access-relnotes]#Early Access#::
 ThoughtSpot introduces Org-specific URLs. URLs in emails now include Org context so that users are taken directly to the correct Liveboard in the correct Org even if they belong to multiple Orgs.
 You can also move between different browser tabs that point to different Orgs.
 
+////
 // Mary. JIRA: SCAL-197810. docs JIRA: SCAL-216615
 Local authentication support with IAMv2 [.badge.badge-early-access-relnotes]#Early Access#::
 
@@ -124,11 +125,11 @@ ThoughtSpot allows customers to enable or disable local authentication at the Or
 NOTE: Org level settings override cluster level settings.
 +
 For more information, see xref:authentication-local.adoc[Managing local authentication].
-
+////
 
 Enhanced Identity and Access Management (IAMv2) enablement::
 Enhanced Identity and Access Management (aka IAMv2) is being enabled for customers as part of maintenance windows for all ThoughtSpot Enterprise customers.
-
++
 Some of the improvements for customers include:
 
 * Security compliance benefits.
@@ -138,6 +139,7 @@ Some of the improvements for customers include:
 +
 NOTE: Upcoming enhancements will include multi-factor authentication (MFA) for locally authenticated users.
 
++
 Ensure you are ready for migration by reviewing and following the steps in the documentation so that there is no login disruption for your users after migration. For more information, see xref:okta-iam.adoc[Identity and Access Management V2]. Accept in-product notifications for IAM updates. Please contact {support-url} if you have any questions.
 
 
