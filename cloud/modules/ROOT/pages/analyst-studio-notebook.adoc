@@ -263,137 +263,137 @@ Each environment comes preloaded with the following libraries:
 |===
 | Library | Version (Py3) | Version (Edge) | Description
 
-| link:https://arrow.readthedocs.io/en/latest/[arrow] | 1.2.3 |1.2.3 |date & time manipulation & formatting
+| link:https://arrow.readthedocs.io/en/latest/[arrow^] | 1.2.3 |1.2.3 |date & time manipulation & formatting
 
-| link:https://www.crummy.com/software/BeautifulSoup/bs4/doc/[beautifulsoup4] | 4.11.1 | 4.11.1 | parsing HTML, JSON & XML data
+| link:https://www.crummy.com/software/BeautifulSoup/bs4/doc/[beautifulsoup4^] | 4.11.1 | 4.11.1 | parsing HTML, JSON & XML data
 
-| link:https://pypi.org/project/cufflinks/[cufflinks] | 0.17.3 | 0.17.3 | bind Plotly directly to pandas dataframes
+| link:https://pypi.org/project/cufflinks/[cufflinks^] | 0.17.3 | 0.17.3 | bind Plotly directly to pandas dataframes
 
-| link:https://cvxopt.org/[cvxopt] | 1.3.0 | 1.3.0 | convex optimization library
+| link:https://cvxopt.org/[cvxopt^] | 1.3.0 | 1.3.0 | convex optimization library
 
-| link:https://www.dask.org/[dask] | 2022.11.1 | 2022.11.1 | flexible open-source Python library for parallel computing
+| link:https://www.dask.org/[dask^] | 2022.11.1 | 2022.11.1 | flexible open-source Python library for parallel computing
 
-| link:https://duckdb.org/docs/api/python/overview.html[duckdb] | 0.6.0 | 0.6.0 | in-process database management system focused on analytical query processing
+| link:https://duckdb.org/docs/api/python/overview.html[duckdb^] | 0.6.0 | 0.6.0 | in-process database management system focused on analytical query processing
 
-| link:https://emcee.readthedocs.io/en/v2.2.1/[emcee] | 3.1.3 | 3.1.3 | MIT MCMC library
+| link:https://emcee.readthedocs.io/en/v2.2.1/[emcee^] | 3.1.3 | 3.1.3 | MIT MCMC library
 
-| link:https://engarde.readthedocs.io/en/latest/index.html[engarde] | 0.4.0 | 0.4.0 | defensive data analysis
+| link:https://engarde.readthedocs.io/en/latest/index.html[engarde^] | 0.4.0 | 0.4.0 | defensive data analysis
 
-| link:https://fiona.readthedocs.io/en/stable/[fiona] | 1.8.22 | 1.8.22 | read & write geospatial data files
+| link:https://fiona.readthedocs.io/en/stable/[fiona^] | 1.8.22 | 1.8.22 | read & write geospatial data files
 
-| link:https://python-visualization.github.io/folium/latest/[folium] | 0.13.0 | 0.13.0 | build Leaflet.js maps
+| link:https://python-visualization.github.io/folium/latest/[folium^] | 0.13.0 | 0.13.0 | build Leaflet.js maps
 
-| link:https://radimrehurek.com/gensim/[gensim] | 4.2.0 | 4.2.0 | unsupervised semantic modeling from plain text
+| link:https://radimrehurek.com/gensim/[gensim^] | 4.2.0 | 4.2.0 | unsupervised semantic modeling from plain text
 
-| link:https://geopandas.org/en/stable/index.html[geopandas] | 0.12.1 | 0.12.1 | extends pandas to allow spatial operations on geometric types
+| link:https://geopandas.org/en/stable/index.html[geopandas^] | 0.12.1 | 0.12.1 | extends pandas to allow spatial operations on geometric types
 
-| link:https://developers.google.com/chart/interactive/docs/dev/gviz_api_lib[gviz_api] | 1.10.0 | 1.10.0 | helper library for Google Visualization API
+| link:https://developers.google.com/chart/interactive/docs/dev/gviz_api_lib[gviz_api^] | 1.10.0 | 1.10.0 | helper library for Google Visualization API
 
-| link:https://hdbscan.readthedocs.io/en/latest/[hdbscan] | 0.8.29 | 0.8.29 | clustering with minimal parameter tuning
+| link:https://hdbscan.readthedocs.io/en/latest/[hdbscan^] | 0.8.29 | 0.8.29 | clustering with minimal parameter tuning
 
-| link:https://python.igraph.org/en/stable/[igraph] | 0.10.2 | 0.10.2 | network analysis tools
+| link:https://python.igraph.org/en/stable/[igraph^] | 0.10.2 | 0.10.2 | network analysis tools
 
-| link:https://pypi.org/project/interpret/[interpret] | 0.3.0 | 0.3.0 | fit interpretable ML modes. Explain blackbox ML
+| link:https://pypi.org/project/interpret/[interpret^] | 0.3.0 | 0.3.0 | fit interpretable ML modes. Explain blackbox ML
 
-| link:https://jmespath.org/[jmespath] | 1.0.1 | 1.0.1 | JSON element extraction
+| link:https://jmespath.org/[jmespath^] | 1.0.1 | 1.0.1 | JSON element extraction
 
-| link:https://pyphi.readthedocs.io/en/stable/api/jsonify.html[jsonify] | 0.5 | 0.5 | converts from CSV to JSON
+| link:https://pyphi.readthedocs.io/en/stable/api/jsonify.html[jsonify^] | 0.5 | 0.5 | converts from CSV to JSON
 
-| link:https://keras.io/[keras] | 2.11.0 | 2.11.0 | neural networks API run on TensorFlow or Theano
+| link:https://keras.io/[keras^] | 2.11.0 | 2.11.0 | neural networks API run on TensorFlow or Theano
 
-| link:https://lifelines.readthedocs.io/en/latest/[lifelines] | 0.27.4 | 0.27.4 | survival analysis
+| link:https://lifelines.readthedocs.io/en/latest/[lifelines^] | 0.27.4 | 0.27.4 | survival analysis
 
-| link:https://lifetimes.readthedocs.io/en/latest/[lifetimes] | 0.11.3 | 0.11.3 | user behavior analysis
+| link:https://lifetimes.readthedocs.io/en/latest/[lifetimes^] | 0.11.3 | 0.11.3 | user behavior analysis
 
-| link:https://mapbox-mapbox.readthedocs-hosted.com/en/latest/[mapbox] | 0.18.1 | 0.18.1 | client for Mapbox web services
+| link:https://mapbox-mapbox.readthedocs-hosted.com/en/latest/[mapbox^] | 0.18.1 | 0.18.1 | client for Mapbox web services
 
-| link:https://matplotlib.org/[matplotlib] | 3.6.2 | 3.6.2 | 2D plotting visualizations
+| link:https://matplotlib.org/[matplotlib^] | 3.6.2 | 3.6.2 | 2D plotting visualizations
 
-| link:https://networkx.org/documentation/latest/[networkx] | 2.8.8 | 2.8.8 | complex network manipulation
+| link:https://networkx.org/documentation/latest/[networkx^] | 2.8.8 | 2.8.8 | complex network manipulation
 
-| link:https://www.nltk.org/[nltk] | 3.7 | 3.7 | natural language toolkit
+| link:https://www.nltk.org/[nltk^] | 3.7 | 3.7 | natural language toolkit
 
-| link:https://numexpr.readthedocs.io/en/latest/[numexpr] | 2.8.4 | 2.8.4 | fast numerical array expression evaluator
+| link:https://numexpr.readthedocs.io/en/latest/[numexpr^] | 2.8.4 | 2.8.4 | fast numerical array expression evaluator
 
-| link:https://docs.scipy.org/doc/[numpy] | 1.22.1 | 1.22.1 | various scientific computing functions
+| link:https://docs.scipy.org/doc/[numpy^] | 1.22.1 | 1.22.1 | various scientific computing functions
 
-| link:https://pandas.pydata.org/pandas-docs/stable/[pandas] | 1.4.4 | 1.4.4 | data structures & data analysis tools
+| link:https://pandas.pydata.org/pandas-docs/stable/[pandas^] | 1.4.4 | 1.4.4 | data structures & data analysis tools
 
-| link:https://pypi.org/project/pandas-profiling/[pandas_profiling] | 3.5.0 | 3.5.0 | generates profile reports from a pandas DataFrame
+| link:https://pypi.org/project/pandas-profiling/[pandas_profiling^] | 3.5.0 | 3.5.0 | generates profile reports from a pandas DataFrame
 
-| link:https://pypi.org/project/pandasql/[pandasql] | 0.7.3 | 0.7.3 | query pandas dataframes using SQL syntax
+| link:https://pypi.org/project/pandasql/[pandasql^] | 0.7.3 | 0.7.3 | query pandas dataframes using SQL syntax
 
-| link:https://patsy.readthedocs.io/en/latest/[patsy] | 0.5.3 | 0.5.3 | describing statistical models/building design matrices
+| link:https://patsy.readthedocs.io/en/latest/[patsy^] | 0.5.3 | 0.5.3 | describing statistical models/building design matrices
 
-| link:https://pip.pypa.io/en/stable/[pip] | 21.2.5 | - | package installer
+| link:https://pip.pypa.io/en/stable/[pip^] | 21.2.5 | - | package installer
 
-| link:https://plot.ly/python/getting-started/[plotly] | 5.10.0 | 5.10.0 | data visualizations, dashboards & collaborative analysis
+| link:https://plot.ly/python/getting-started/[plotly^] | 5.10.0 | 5.10.0 | data visualizations, dashboards & collaborative analysis
 
-| link:https://pypi.org/project/plotly-geo/[plotly-geo] | 1.0.0 | 1.0.0 | geographic shape files to support plotly map functionality
+| link:https://pypi.org/project/plotly-geo/[plotly-geo^] | 1.0.0 | 1.0.0 | geographic shape files to support plotly map functionality
 
-| link:https://ptable.readthedocs.io/en/latest/tutorial.html[prettytable] | 3.4.1 | 3.4.1 | display tabular data in ASCII table format
+| link:https://ptable.readthedocs.io/en/latest/tutorial.html[prettytable^] | 3.4.1 | 3.4.1 | display tabular data in ASCII table format
 
-| link:https://pypi.org/project/prophet/#history[prophet] | 1.1.1 | 1.1.1 | forecasting with time series data
+| link:https://pypi.org/project/prophet/#history[prophet^] | 1.1.1 | 1.1.1 | forecasting with time series data
 
-| link:https://pygal.org/en/stable/[pygal] | 3.0.0 | 3.0.0 | create interactive svg charts
+| link:https://pygal.org/en/stable/[pygal^] | 3.0.0 | 3.0.0 | create interactive svg charts
 
-| link:https://pygraphviz.github.io/documentation/pygraphviz-1.5/[pygraphviz] | 1.10 | 1.10 | interface for Graphviz graph layout & visualizations
+| link:https://pygraphviz.github.io/documentation/pygraphviz-1.5/[pygraphviz^] | 1.10 | 1.10 | interface for Graphviz graph layout & visualizations
 
-| link:https://pygsheets.readthedocs.io/en/stable/[pygsheets] | 2.0.5 | 2.0.5 | access Google spreadsheets through the Google Sheets API
+| link:https://pygsheets.readthedocs.io/en/stable/[pygsheets^] | 2.0.5 | 2.0.5 | access Google spreadsheets through the Google Sheets API
 
-| link:https://www.pymc.io/projects/docs/en/stable/learn.html[pymc3] | 3.11.5 | 3.11.5 | probabilistic programming & Bayesian modeling
+| link:https://www.pymc.io/projects/docs/en/stable/learn.html[pymc3^] | 3.11.5 | 3.11.5 | probabilistic programming & Bayesian modeling
 
-| link:https://pypi.org/project/Pympler/[pympler] | 1.0.1 | 1.0.1 | measure, monitor and analyze the memory behavior of Python objects
+| link:https://pypi.org/project/Pympler/[pympler^] | 1.0.1 | 1.0.1 | measure, monitor and analyze the memory behavior of Python objects
 
-| link:https://github.com/pyproj4/pyproj[pyproj] | 3.4.0 | 3.4.0 | cartographic transformations & geodetic computations
+| link:https://github.com/pyproj4/pyproj[pyproj^] | 3.4.0 | 3.4.0 | cartographic transformations & geodetic computations
 
-| link:https://pysal.org/[pysal] | 2.7.0 | 2.7.0 | geospatial analysis library
+| link:https://pysal.org/[pysal^] | 2.7.0 | 2.7.0 | geospatial analysis library
 
-| link:https://github.com/tasdikrahman/pyzipcode-cli#pyzipcode[pyzipcode] | 2.2 | - | query zip codes & location data
+| link:https://github.com/tasdikrahman/pyzipcode-cli#pyzipcode[pyzipcode^] | 2.2 | - | query zip codes & location data
 
-| link:https://github.com/dvf/pyzipcode3[pyzipcode3] | 2.2 | 2.2 | query zip codes & location data
+| link:https://github.com/dvf/pyzipcode3[pyzipcode3^] | 2.2 | 2.2 | query zip codes & location data
 
-| link:https://docs.python-requests.org/en/latest/[requests] | 2.28.1 | 2.28.1 | make HTTP requests
+| link:https://docs.python-requests.org/en/latest/[requests^] | 2.28.1 | 2.28.1 | make HTTP requests
 
-| link:https://scikit-image.org/docs/stable/[scikit-image] | 0.19.3 | 0.19.3 | image processing
+| link:https://scikit-image.org/docs/stable/[scikit-image^] | 0.19.3 | 0.19.3 | image processing
 
-| link:https://scikit-learn.org/stable/index.html[scikit-learn] | 1.1.3 | 1.1.3 | tools for data mining & analysis
+| link:https://scikit-learn.org/stable/index.html[scikit-learn^] | 1.1.3 | 1.1.3 | tools for data mining & analysis
 
-| link:https://github.com/cgevans/scikits-bootstrap[scikits.bootstrap] | 1.1.0 | 1.1.0 | bootstrap confidence interval algorithms for scipy
+| link:https://github.com/cgevans/scikits-bootstrap[scikits.bootstrap^] | 1.1.0 | 1.1.0 | bootstrap confidence interval algorithms for scipy
 
-| link:https://docs.scipy.org/doc/scipy/reference/[scipy] | 1.7.3 | 1.7.3 | advanced math, science & engineering functions
+| link:https://docs.scipy.org/doc/scipy/reference/[scipy^] | 1.7.3 | 1.7.3 | advanced math, science & engineering functions
 
-| link:https://scrapy.org/[scrapy] | 2.7.0 | 2.7.1 | scraping web pages
+| link:https://scrapy.org/[scrapy^] | 2.7.0 | 2.7.1 | scraping web pages
 
-| link:https://seaborn.pydata.org/[seaborn] | 0.12.1 | 0.12.1 | statistical graphics visualizations
+| link:https://seaborn.pydata.org/[seaborn^] | 0.12.1 | 0.12.1 | statistical graphics visualizations
 
-| link:https://shapely.readthedocs.io/en/latest/[shapely] | 1.8.5.post1 | 1.8.5.post1 | manipulation & analysis of geometric objects
+| link:https://shapely.readthedocs.io/en/latest/[shapely^] | 1.8.5.post1 | 1.8.5.post1 | manipulation & analysis of geometric objects
 
-| link:https://six.readthedocs.io/[six] | 1.16.0 | 1.16.0 | Python 2 & 3 compatibility library
+| link:https://six.readthedocs.io/[six^] | 1.16.0 | 1.16.0 | Python 2 & 3 compatibility library
 
-| link:https://spacy.io/usage/spacy-101[spacy] | 3.4.2 | 3.4.3 | advanced natural language processing, including all small pipelines
+| link:https://spacy.io/usage/spacy-101[spacy^] | 3.4.2 | 3.4.3 | advanced natural language processing, including all small pipelines
 
-| link:https://github.com/laserson/squarify[squarify] | 0.4.3 | 0.4.3 | implementation of the squarify treemap layout algorithm
+| link:https://github.com/laserson/squarify[squarify^] | 0.4.3 | 0.4.3 | implementation of the squarify treemap layout algorithm
 
-| link:https://sourceforge.net/projects/statsmodels/[statsmodels] | 0.13.5 | 0.13.5 | estimate statistical models & perform statistical tests
+| link:https://sourceforge.net/projects/statsmodels/[statsmodels^] | 0.13.5 | 0.13.5 | estimate statistical models & perform statistical tests
 
-| link:https://docs.sympy.org/latest/index.html[sympy] | 1.11.1 | 1.11.1 | symbolic mathematics
+| link:https://docs.sympy.org/latest/index.html[sympy^] | 1.11.1 | 1.11.1 | symbolic mathematics
 
-| link:https://pypi.org/project/tabulate/[tabulate] | 0.9.0 | 0.9.0 | pretty-print tabular data
+| link:https://pypi.org/project/tabulate/[tabulate^] | 0.9.0 | 0.9.0 | pretty-print tabular data
 
-| link:https://www.tensorflow.org/tutorials[tensorflow] | 2.10.0 | 2.11.0 | numerical computation using data flow graphs
+| link:https://www.tensorflow.org/tutorials[tensorflow^] | 2.10.0 | 2.11.0 | numerical computation using data flow graphs
 
-| link:https://pypi.org/project/tensorflow-decision-forests/[tensorflow-decision-forests] | 1.1.0 | 1.1.0 | train, run and interpret decision forest models in tensorflow
+| link:https://pypi.org/project/tensorflow-decision-forests/[tensorflow-decision-forests^] | 1.1.0 | 1.1.0 | train, run and interpret decision forest models in tensorflow
 
-| link:https://textblob.readthedocs.io/en/dev/[textblob] | 0.17.1 | 0.17.1 | common natural language processing tasks
+| link:https://textblob.readthedocs.io/en/dev/[textblob^] | 0.17.1 | 0.17.1 | common natural language processing tasks
 
-| link:https://github.com/ua-parser/uap-python[ua_parser] | 0.16.1 | - | fast & reliable user agent parser
+| link:https://github.com/ua-parser/uap-python[ua_parser^] | 0.16.1 | - | fast & reliable user agent parser
 
-| link:https://urllib3.readthedocs.io/en/latest/[urllib3] | 1.26.13 | 1.26.13 | HTTP client for python
+| link:https://urllib3.readthedocs.io/en/latest/[urllib3^] | 1.26.13 | 1.26.13 | HTTP client for python
 
-| link:https://amueller.github.io/word_cloud/index.html[wordcloud] | 1.8.2.2 | 1.8.2.2 | wordcloud generator
+| link:https://amueller.github.io/word_cloud/index.html[wordcloud^] | 1.8.2.2 | 1.8.2.2 | wordcloud generator
 
-| link:https://xgboost.readthedocs.io/en/latest/[xgboost] | 1.7.1 | 1.7.1 | optimized distributed gradient boosting library
+| link:https://xgboost.readthedocs.io/en/latest/[xgboost^] | 1.7.1 | 1.7.1 | optimized distributed gradient boosting library
 
 |===
 
@@ -434,119 +434,119 @@ The Notebook supports R version 4.2.0 and comes preloaded with the following R p
 |===
 | Library | Version | Description
 
-| link:https://www.rdocumentation.org/packages/BTYD/versions/2.4.3[BTYD] | 2.4.3 | buy-til-you-die (BTYD) models
+| link:https://www.rdocumentation.org/packages/BTYD/versions/2.4.3[BTYD^] | 2.4.3 | buy-til-you-die (BTYD) models
 
-| link:https://cran.r-project.org/web/packages/BTYDplus/index.html[BTYDplus] | 1.2.0 | extends BTYD
+| link:https://cran.r-project.org/web/packages/BTYDplus/index.html[BTYDplus^] | 1.2.0 | extends BTYD
 
-| link:https://www.rdocumentation.org/packages/CausalImpact/versions/1.2.7[CausalImpact] | 1.2.7 | estimates causal effect of intervention on time series
+| link:https://www.rdocumentation.org/packages/CausalImpact/versions/1.2.7[CausalImpact^] | 1.2.7 | estimates causal effect of intervention on time series
 
-| link:https://ggobi.github.io/ggally/index.html[GGally] | 2.1.2 | extension to ggplot2
+| link:https://ggobi.github.io/ggally/index.html[GGally^] | 2.1.2 | extension to ggplot2
 
-| link:https://www.rdocumentation.org/packages/MASS/versions/7.3-58.1[MASS] | 7.3-58.1 | functions & datasets to support Venables & Ripley
+| link:https://www.rdocumentation.org/packages/MASS/versions/7.3-58.1[MASS^] | 7.3-58.1 | functions & datasets to support Venables & Ripley
 
-| link:https://www.rdocumentation.org/packages/RColorBrewer/versions/1.1-3[RColorBrewer] | 1.1-3 | ColorBrewer palettes
+| link:https://www.rdocumentation.org/packages/RColorBrewer/versions/1.1-3[RColorBrewer^] | 1.1-3 | ColorBrewer palettes
 
-| link:https://www.rdocumentation.org/packages/assertthat/versions/0.2.1[assertthat] | 0.2.1 | easy pre- and post-assertions
+| link:https://www.rdocumentation.org/packages/assertthat/versions/0.2.1[assertthat^] | 0.2.1 | easy pre- and post-assertions
 
-| link:https://www.rdocumentation.org/packages/blob/versions/1.2.3[blob] | 1.2.3 | S3 class to represent BLOBs
+| link:https://www.rdocumentation.org/packages/blob/versions/1.2.3[blob^] | 1.2.3 | S3 class to represent BLOBs
 
-| link:https://www.rdocumentation.org/packages/caret/versions/6.0-93[caret] | 6.0-93 | streamlines creation of predictive models
+| link:https://www.rdocumentation.org/packages/caret/versions/6.0-93[caret^] | 6.0-93 | streamlines creation of predictive models
 
-| link:https://www.rdocumentation.org/packages/cluster/versions/2.1.4[cluster] | 2.1.4 | cluster analysis extended Rousseeuw et al.
+| link:https://www.rdocumentation.org/packages/cluster/versions/2.1.4[cluster^] | 2.1.4 | cluster analysis extended Rousseeuw et al.
 
-| link:https://colorspace.r-forge.r-project.org/reference/index.html[colorspace] | 2.0-3 | color space manipulation
+| link:https://colorspace.r-forge.r-project.org/reference/index.html[colorspace^] | 2.0-3 | color space manipulation
 
-| link:https://www.rdocumentation.org/packages/data.table/versions/1.14.2[data.table] | 1.14.2 | extends data.frame
+| link:https://www.rdocumentation.org/packages/data.table/versions/1.14.2[data.table^] | 1.14.2 | extends data.frame
 
-| link:https://www.rdocumentation.org/packages/DiagrammeR/versions/1.0.9[diagrammeR] | 1.0.9 | Build graph/network structures
+| link:https://www.rdocumentation.org/packages/DiagrammeR/versions/1.0.9[diagrammeR^] | 1.0.9 | Build graph/network structures
 
-| link:https://www.rdocumentation.org/packages/dichromat/versions/2.0-0.1[dichromat] | 2.0-0.1 | color schemes for dichromats
+| link:https://www.rdocumentation.org/packages/dichromat/versions/2.0-0.1[dichromat^] | 2.0-0.1 | color schemes for dichromats
 
-| link:https://www.rdocumentation.org/packages/digest/versions/0.6.29[digest] | 0.6.29 | create compact hash digests of R objects
+| link:https://www.rdocumentation.org/packages/digest/versions/0.6.29[digest^] | 0.6.29 | create compact hash digests of R objects
 
-| link:https://www.rdocumentation.org/packages/dplyr/versions/1.0.10[dplyr] | 1.0.10 | a grammar of data manipulation
+| link:https://www.rdocumentation.org/packages/dplyr/versions/1.0.10[dplyr^] | 1.0.10 | a grammar of data manipulation
 
-| link:https://www.rdocumentation.org/packages/forcats/versions/0.5.2[forcats] | 0.5.2 | working with categorical variables (factors)
+| link:https://www.rdocumentation.org/packages/forcats/versions/0.5.2[forcats^] | 0.5.2 | working with categorical variables (factors)
 
-| link:https://www.rdocumentation.org/packages/forecast/versions/8.18[forecast] | 8.17.0 | forecasting for time series & linear models
+| link:https://www.rdocumentation.org/packages/forecast/versions/8.18[forecast^] | 8.17.0 | forecasting for time series & linear models
 
-| link:https://www.rdocumentation.org/packages/fpp3/versions/0.4.0[fpp3] | 0.4.0 | Datasets referenced in book "Forecasting: principles and practice"
+| link:https://www.rdocumentation.org/packages/fpp3/versions/0.4.0[fpp3^] | 0.4.0 | Datasets referenced in book "Forecasting: principles and practice"
 
-| link:https://cran.r-project.org/web/packages/ggdendro/index.html[ggdendro] | 0.1.23 | dendrograms & tree plots with ggplot2
+| link:https://cran.r-project.org/web/packages/ggdendro/index.html[ggdendro^] | 0.1.23 | dendrograms & tree plots with ggplot2
 
-| link:https://www.rdocumentation.org/packages/ggplot2/versions/3.3.6[ggplot2] | 3.3.6 | system for creating graphics
+| link:https://www.rdocumentation.org/packages/ggplot2/versions/3.3.6[ggplot2^] | 3.3.6 | system for creating graphics
 
-| link:https://www.rdocumentation.org/packages/ggpubr/versions/0.4.0[ggpubr] | 0.4.0 | publication-ready ggplot2 plots
+| link:https://www.rdocumentation.org/packages/ggpubr/versions/0.4.0[ggpubr^] | 0.4.0 | publication-ready ggplot2 plots
 
-| link:https://www.rdocumentation.org/packages/ggridges/versions/0.5.3[ggridges] | 0.5.3 | ridgeline plots in ggplot2
+| link:https://www.rdocumentation.org/packages/ggridges/versions/0.5.3[ggridges^] | 0.5.3 | ridgeline plots in ggplot2
 
-| link:https://jrnold.github.io/ggthemes/reference/index.html[ggthemes] | 4.2.4 | extra themes, scales, & geoms for ggplot2
+| link:https://jrnold.github.io/ggthemes/reference/index.html[ggthemes^] | 4.2.4 | extra themes, scales, & geoms for ggplot2
 
-| link:https://www.rdocumentation.org/packages/glue/versions/1.6.2[glue] | 1.6.2 | glue strings to data
+| link:https://www.rdocumentation.org/packages/glue/versions/1.6.2[glue^] | 1.6.2 | glue strings to data
 
-| link:https://www.rdocumentation.org/packages/gtable/versions/0.3.1[gtable] | 0.3.1 | arrange grobs in tables
+| link:https://www.rdocumentation.org/packages/gtable/versions/0.3.1[gtable^] | 0.3.1 | arrange grobs in tables
 
-| link:https://www.rdocumentation.org/packages/hts/versions/6.0.2[hts] | 6.0.2 | hierarchical & grouped time series
+| link:https://www.rdocumentation.org/packages/hts/versions/6.0.2[hts^] | 6.0.2 | hierarchical & grouped time series
 
-| link:https://www.rdocumentation.org/packages/httr/versions/1.4.4[httr] | 1.4.4 | tools for working with URLs & HTTP*
+| link:https://www.rdocumentation.org/packages/httr/versions/1.4.4[httr^] | 1.4.4 | tools for working with URLs & HTTP*
 
-| link:https://www.rdocumentation.org/packages/iterators/versions/1.0.14[iterators] | 1.0.14 | provides iterator construct
+| link:https://www.rdocumentation.org/packages/iterators/versions/1.0.14[iterators^] | 1.0.14 | provides iterator construct
 
-| link:https://www.rdocumentation.org/packages/itertools/versions/0.1-3[itertools] | 0.1-3 | various tools for creating iterators
+| link:https://www.rdocumentation.org/packages/itertools/versions/0.1-3[itertools^] | 0.1-3 | various tools for creating iterators
 
-| link:https://www.rdocumentation.org/packages/janitor/versions/2.1.0[janitor] | 2.1.0 | various tools for creating iterators
+| link:https://www.rdocumentation.org/packages/janitor/versions/2.1.0[janitor^] | 2.1.0 | various tools for creating iterators
 
-| link:https://cran.r-project.org/web/packages/kernlab/index.html[kernlab] | 0.9-31 | kernel-based machine learning lab
+| link:https://cran.r-project.org/web/packages/kernlab/index.html[kernlab^] | 0.9-31 | kernel-based machine learning lab
 
-| link:https://www.rdocumentation.org/packages/kknn/versions/1.3.1[kknn] | 1.3.1 | weighted k-nearest neighbors
+| link:https://www.rdocumentation.org/packages/kknn/versions/1.3.1[kknn^] | 1.3.1 | weighted k-nearest neighbors
 
-| link:https://www.rdocumentation.org/packages/lars/versions/1.3[lars] | 1.3 | least angle regression, lasso & forward stagewise
+| link:https://www.rdocumentation.org/packages/lars/versions/1.3[lars^] | 1.3 | least angle regression, lasso & forward stagewise
 
-| link:https://cran.r-project.org/web/packages/lattice/index.html[lattice] | 0.20-45 | trellis graphics
+| link:https://cran.r-project.org/web/packages/lattice/index.html[lattice^] | 0.20-45 | trellis graphics
 
-| link:https://github.com/hadley/lazyeval[lazyeval] | 0.2.2 | lazy (non-standard) evaluation
+| link:https://github.com/hadley/lazyeval[lazyeval^] | 0.2.2 | lazy (non-standard) evaluation
 
-| link:https://www.rdocumentation.org/packages/leaflet/versions/2.1.1[leaflet] | 2.1.1 | Create interactive Web Maps
+| link:https://www.rdocumentation.org/packages/leaflet/versions/2.1.1[leaflet^] | 2.1.1 | Create interactive Web Maps
 
-| link:https://www.rdocumentation.org/packages/lubridate/versions/1.8.0[lubridate] | 1.8.0 | date and time manipulation
+| link:https://www.rdocumentation.org/packages/lubridate/versions/1.8.0[lubridate^] | 1.8.0 | date and time manipulation
 
-| link:https://cran.r-project.org/web/packages/magrittr/index.html[magrittr] | 2.0.3 | a forward-pipe operator
+| link:https://cran.r-project.org/web/packages/magrittr/index.html[magrittr^] | 2.0.3 | a forward-pipe operator
 
-| link:https://www.rdocumentation.org/packages/modelr/versions/0.1.9[modelr] | 0.1.9 | modelling functions that work with the pipe
+| link:https://www.rdocumentation.org/packages/modelr/versions/0.1.9[modelr^] | 0.1.9 | modelling functions that work with the pipe
 
-| link:https://www.rdocumentation.org/packages/munsell/versions/0.5.0[munsell] | 0.5.0 | utilities for using Munsell colors
+| link:https://www.rdocumentation.org/packages/munsell/versions/0.5.0[munsell^] | 0.5.0 | utilities for using Munsell colors
 
-| link:https://www.rdocumentation.org/packages/nnet/versions/7.3-17[nnet] | 7.3.17 | feed-forward neural networks & multinomial log-linear models
+| link:https://www.rdocumentation.org/packages/nnet/versions/7.3-17[nnet^] | 7.3.17 | feed-forward neural networks & multinomial log-linear models
 
-| link:https://www.rdocumentation.org/packages/plotly/versions/4.10.0[plotly] | 4.10.0 | data visualization, dashboards & collaborative analysis
+| link:https://www.rdocumentation.org/packages/plotly/versions/4.10.0[plotly^] | 4.10.0 | data visualization, dashboards & collaborative analysis
 
-| link:https://www.rdocumentation.org/packages/prophet/versions/1.0[prophet] | 1.0 | automatic forecasting procedure
+| link:https://www.rdocumentation.org/packages/prophet/versions/1.0[prophet^] | 1.0 | automatic forecasting procedure
 
-| link:https://www.rdocumentation.org/packages/proto/versions/1.0.0[proto] | 1.0.0 | prototype object-based programming
+| link:https://www.rdocumentation.org/packages/proto/versions/1.0.0[proto^] | 1.0.0 | prototype object-based programming
 
-| link:https://purrr.tidyverse.org/[purrr] | 0.3.4 | tools for working with functional vectors
+| link:https://purrr.tidyverse.org/[purrr^] | 0.3.4 | tools for working with functional vectors
 
-| link:https://www.rdocumentation.org/packages/reshape2/versions/1.4.4[reshape2] | 1.4.4 | transform data between wide & long
+| link:https://www.rdocumentation.org/packages/reshape2/versions/1.4.4[reshape2^] | 1.4.4 | transform data between wide & long
 
-| link:https://www.rdocumentation.org/packages/rlang/versions/1.0.6[rlang] | 1.0.5 | functions for base types & core R & tidyverse features
+| link:https://www.rdocumentation.org/packages/rlang/versions/1.0.6[rlang^] | 1.0.5 | functions for base types & core R & tidyverse features
 
-| link:https://www.rdocumentation.org/packages/scales/versions/1.2.1[scales] | 1.2.1 | scale functions for visualizations
+| link:https://www.rdocumentation.org/packages/scales/versions/1.2.1[scales^] | 1.2.1 | scale functions for visualizations
 
-| link:https://www.rdocumentation.org/packages/stringr/versions/1.4.1[stringr] | 1.4.1 | work with character strings & reg ex
+| link:https://www.rdocumentation.org/packages/stringr/versions/1.4.1[stringr^] | 1.4.1 | work with character strings & reg ex
 
-| link:https://www.rdocumentation.org/packages/tidyr/versions/1.2.1[tidyr] | 1.2.1 | easily create tidy data
+| link:https://www.rdocumentation.org/packages/tidyr/versions/1.2.1[tidyr^] | 1.2.1 | easily create tidy data
 
-| link:https://www.rdocumentation.org/packages/tidytext/versions/0.3.4[tidytext] | 0.3.4 | conversion of text to and from tidy formats
+| link:https://www.rdocumentation.org/packages/tidytext/versions/0.3.4[tidytext^] | 0.3.4 | conversion of text to and from tidy formats
 
-| link:https://www.rdocumentation.org/packages/tm/versions/0.7-8[tm] | 0.7-8 | text mining
+| link:https://www.rdocumentation.org/packages/tm/versions/0.7-8[tm^] | 0.7-8 | text mining
 
-| link:https://www.rdocumentation.org/packages/utf8/versions/1.2.2[utf8] | 1.2.2 | fixes bugs in R’s UTF-8 handling
+| link:https://www.rdocumentation.org/packages/utf8/versions/1.2.2[utf8^] | 1.2.2 | fixes bugs in R’s UTF-8 handling
 
-| link:https://www.rdocumentation.org/packages/viridisLite/versions/0.4.1[viridisLite] | 0.4.1 | port of matplotlib color maps
+| link:https://www.rdocumentation.org/packages/viridisLite/versions/0.4.1[viridisLite^] | 0.4.1 | port of matplotlib color maps
 
-| link:https://www.rdocumentation.org/packages/xml2/versions/1.3.3[xml2] | 1.3.3 | parse XML
+| link:https://www.rdocumentation.org/packages/xml2/versions/1.3.3[xml2^] | 1.3.3 | parse XML
 
-| link:https://www.rdocumentation.org/packages/zoo/versions/1.8-11[zoo] | 1.8-11 | S3 infrastructure for regular & irregular time series
+| link:https://www.rdocumentation.org/packages/zoo/versions/1.8-11[zoo^] | 1.8-11 | S3 infrastructure for regular & irregular time series
 
 |===
 
