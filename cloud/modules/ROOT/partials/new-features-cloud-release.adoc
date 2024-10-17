@@ -30,7 +30,6 @@ ThoughtSpot introduces access to Liveboard schedules on the home page. Users can
 +
 [.bordered]
 image::home-lb-schedule.png[]
-endif::free-trial-feature[]
 +
 For more information, see xref:thoughtspot-homepage.adoc[New home page and persona-based navigation].
 
