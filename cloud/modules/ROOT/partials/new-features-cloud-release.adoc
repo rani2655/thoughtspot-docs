@@ -84,15 +84,15 @@ Filters for Worksheets, feedback providers, and editors have been refined to dis
 This enhancement improves the filtering process, making it more efficient and user-friendly.
 
 // Mary. jira: SCAL-210151.
-Monitor the application of row-level security::
+// Monitor the application of row-level security::
 
-You can now track whether or not row-level security is applied to queries. Risk and compliance analysts can track the volume of queries with row-level security applied versus those without. A row-level security tag is included in the sql query. This provides the ability to determine the number of queries that have included row-level security via the underlying database.
-+
-Each query log contains a comment as follows:
-+
-----
-isRLSApplied: true/false.
-----
+//You can now track whether or not row-level security is applied to queries. Risk and compliance analysts can track the volume of queries with row-level security applied versus those without. A row-level security tag is included in the sql query. This provides the ability to determine the number of queries that have included row-level security via the underlying database.
+//+
+//Each query log contains a comment as follows:
+//+
+//----
+//isRLSApplied: true/false.
+//----
 
 
 // Mary. jira: SCAL-212742. docs jira: SCAL-223959
