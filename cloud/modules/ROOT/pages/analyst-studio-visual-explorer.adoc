@@ -439,7 +439,7 @@ image::3.5.png[Shared Axis 3.5]
 ==== *Using shared axis to create combo charts*
 
 With Shared axis, you can create a wide array of visualizations from slope charts, bar chart and dot plots, to funnel charts and much more.
-Check out our link:https://modeanalytics.com/nascif_abousalh_neto/reports/d3eeb27acd63[example Report,window=_blank] for inspiration, and duplicate it to your own Workspace to see how the visualizations are built.
+//Check out our link:https://modeanalytics.com/nascif_abousalh_neto/reports/d3eeb27acd63[example Report,window=_blank] for inspiration, and duplicate it to your own Workspace to see how the visualizations are built.
 
 === Data limits within Visual Explorer
 

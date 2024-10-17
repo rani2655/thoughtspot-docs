@@ -329,7 +329,7 @@ We recommend naming the file `/etc/mode-bridge.env` on the host where you want t
 [discrete]
 ==== Run Bridge in Docker
 
-. Pull the https://hub.docker.com/r/modeanalytics/bridge-client[latest Docker image] from DockerHub using the command `docker pull modeanalytics/bridge-client` from a terminal.
+. Pull the https://hub.docker.com/r/modeanalytics/bridge-client[latest Docker image^] from DockerHub using the command `docker pull modeanalytics/bridge-client` from a terminal.
 . Run the following command to download, create, and start your Bridge connector: `docker run --env-file /etc/mode-bridge.env --name mode-bridge modeanalytics/bridge-client:[Dockerfile Version]`.
 . Verify that your Bridge connector has been configured correctly. +
 Inspect the logs for any error messages by running the following command: `docker logs --tail 30 mode-bridge`. If you discover you need to make any corrections to your configuration file, edit the file and then restart your container to apply the changes by running the following command: `docker restart mode-bridge`.

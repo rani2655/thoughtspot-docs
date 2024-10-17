@@ -15,7 +15,7 @@ Before you create a sync to {connection} from ThoughtSpot, sign in to {connectio
 
 === Configure ServiceNow OAuth in ThoughtSpot
 
-NOTE: OAuth must be activated in ServiceNow to use the app in ThoughtSpot. To activate ServiceNow OAuth, review the link:https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0778194[setup documentation].
+NOTE: OAuth must be activated in ServiceNow to use the app in ThoughtSpot. To activate ServiceNow OAuth, review the link:https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0778194[setup documentation^].
 
 . From the ServiceNow Home tab, click *Prepare OAuth on ServiceNow*. You will be taken to the ServiceNow website.
 
@@ -25,8 +25,8 @@ NOTE: OAuth must be activated in ServiceNow to use the app in ThoughtSpot. To ac
 
 . Enter *ThoughtSpot* in the *Name* field.
 
-. Users in the US region should configure the following redirect URL in the *Redirect URL field*: https://seekwell.dataplane-public.aws-us-east-1.thoughtspot.cloud/servicenow_save_oauth. +
-Users in the EU region should use: https://seekwell.dataplane-public.aws-eu-central-1.thoughtspot.cloud/servicenow_save_oauth.
+. Users in the US region should configure the following redirect URL in the *Redirect URL field*: link:https://seekwell.dataplane-public.aws-us-east-1.thoughtspot.cloud/servicenow_save_oauth[https://seekwell.dataplane-public.aws-us-east-1.thoughtspot.cloud/servicenow_save_oauth^]. +
+Users in the EU region should use: link:https://seekwell.dataplane-public.aws-eu-central-1.thoughtspot.cloud/servicenow_save_oauth[https://seekwell.dataplane-public.aws-eu-central-1.thoughtspot.cloud/servicenow_save_oauth^].
 
 . ServiceNow will generate a *client ID* and *client secret*. Save these to connect ServiceNow to ThoughtSpot.
 
