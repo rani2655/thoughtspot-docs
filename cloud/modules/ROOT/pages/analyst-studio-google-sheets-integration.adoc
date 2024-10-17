@@ -345,4 +345,4 @@ Existing Datasets built via the Google Sheets integration will continue to use t
 
 You can use Discovery Database to query which Google Sheets Datasets have been created and its sync history.
 
-Two new tables, GOOGLE_SHEETS and GOOGLE_SHEET_SYNCS have been added to the link:https://docs.google.com/spreadsheets/d/1j8LLiT-ifH7Y9or-ksSNy9XRPCuxVMNvvMhP7qvrnJI/edit?gid=2079969635#gid=2079969635[schema].
+Two new tables, GOOGLE_SHEETS and GOOGLE_SHEET_SYNCS have been added to the link:https://docs.google.com/spreadsheets/d/1j8LLiT-ifH7Y9or-ksSNy9XRPCuxVMNvvMhP7qvrnJI/edit?gid=2079969635#gid=2079969635[schema^].

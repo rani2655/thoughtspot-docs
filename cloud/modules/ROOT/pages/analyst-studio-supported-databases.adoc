@@ -788,7 +788,7 @@ UNNEST(works) group by author+++</pre>+++
 | Batch priority is unsupported
 a| The specification of job priority is unsupported.
 All queries are executed as "interactive" priority, never "batch" priority. +
-Google Big Query batch priority is described here: https://cloud.google.com/bigquery/docs/running-queries#batch.
+Google Big Query batch priority is described here: link:https://cloud.google.com/bigquery/docs/running-queries#batch[https://cloud.google.com/bigquery/docs/running-queries#batch^].
 
 | Simba v 1.2.11.1014
 | Necessary permissions
