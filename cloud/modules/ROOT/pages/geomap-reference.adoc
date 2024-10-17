@@ -10,7 +10,7 @@
 This reference lists supported countries and their subdivisions for Worksheets with the geographical data manually classified.
 
 [#enhancement]
-As of 9.4.0.cl, geographical data is classified as *Auto select*, and we have added support for all countries. For a full list, see link:https://wiki.openstreetmap.org/wiki/List_of_territory_based_projects[Openstreetmap supported countries]. If you would like to use a custom map to visualize your data, see xref:geomaps-custom.adoc[].
+As of 9.4.0.cl, geographical data is classified as *Auto select*, and we have added support for all countries. For a full list, see link:https://wiki.openstreetmap.org/wiki/List_of_territory_based_projects[Openstreetmap supported countries^]. If you would like to use a custom map to visualize your data, see xref:geomaps-custom.adoc[].
 
 Previously, ThoughtSpot supported the following geo chart capabilities:
 
