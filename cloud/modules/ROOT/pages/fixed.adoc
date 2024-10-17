@@ -26,7 +26,7 @@ These are the issues we fixed in this release of ThoughtSpot Cloud.
 |KPI watchlist and shared Liveboard emails are not received.
 
 |SCAL-224711
-|Unable to sign in to ThoughtSpot Cloud cluster.
+|Unable to sign in to a ThoughtSpot Cloud cluster.
 
 |SCAL-224691
 |Authenticated users can access the ThoughtSpot API allowing them to enumerate all users present within the system.
@@ -35,7 +35,7 @@ These are the issues we fixed in this release of ThoughtSpot Cloud.
 |Object Usage Liveboards within non-primary Orgs display no data for users, while the primary Org is able to display the data correctly.
 
 |SCAL-223741
-|Liveboards to do not load properly.
+|Liveboards do not load properly.
 
 |SCAL-223011
 |Object usage Liveboards display no data.
@@ -56,10 +56,10 @@ These are the issues we fixed in this release of ThoughtSpot Cloud.
 |User sees "request access" page when trying to view a Liveboard, even though the URL to the Liveboard is already shared with them.
 
 |SCAL-218844
-|Default system language is not set, causing 'couldn't complete your request' errors.
+|Default system language is not set which causes 'couldn't complete your request' errors.
 
 |SCAL-217403
-|When navigating between certain pages in ThoughtSpot, sometimes the URL doesn't update accurately.
+|When navigating between certain pages in ThoughtSpot, the URL sometimes doesn't update accurately.
 
 |SCAL-217319
 |Updating the version of a cluster sometimes results in an error.
@@ -71,13 +71,13 @@ These are the issues we fixed in this release of ThoughtSpot Cloud.
 |Override filters are not applied for date columns when using a custom calendar in a Liveboard.
 
 |SCAL-213964
-|User is unable to sign into ThoughtSpot after SAML authentication.
+|User is unable to sign in to ThoughtSpot after SAML authentication.
 
 |SCAL-211166
-|Endpoint returns data from outside of an Org related to users that are not in the current Org.
+|Endpoint returns data related to users that are not in the current Org.
 
 |SCAL-210627
-|Privilege escalation/authorization Bypass in the DELETE verb/api endpoint of ThoughtSpot.
+|Privilege Escalation/Authorization Bypass appears in the DELETE verb/api endpoint of ThoughtSpot.
 
 |SCAL-205663
 |Groups are duplicated in ThoughtSpot.
@@ -86,5 +86,5 @@ These are the issues we fixed in this release of ThoughtSpot Cloud.
 |Querygen error appears after upgrade to the 9.10.0.cl release.
 
 |SCAL-191966
-|Internal system connection called TAP is visible in Connections, but shouldn't be.
+|Internal system connection called TAP is visible in Connections when it shouldn't be.
 |===
