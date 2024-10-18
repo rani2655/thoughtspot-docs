@@ -30,11 +30,14 @@ endif::free-trial-feature[]
 
 [#10-4-0-cl-spotter]
 [discrete]
-=== Ask Sage Spotter convergence
+=== Spotter
 
-// Naomi. jira: SCAL-223692, SCAL-222817. docs jira: SCAL-?
+// Naomi. jira: SCAL-223692, SCAL-222817. docs jira: SCAL-228500
 // PM: Sam Weick
 
+Introducing Spotter, our new unified, conversational search experience. When enabled, you can enter the Spotter interface from the search bar on the Home page, or by clicking *Spotter* on any visualization pinned to a Liveboard.
+
+You can ask successive questions to hone in on business insights, open a preview of the underlying data, drill down, edit or undo changes to the resulting AI-generated Answers, see what terms Spotter changed from question to question, and submit feedback to train Spotter's interpretations. Analysts can also coach Spotter how to interpret certain terms from the Admin page. To enable this feature, contact your administrator.
 
 [#10-4-0-cl-header]
 [discrete]
@@ -53,21 +56,21 @@ image:compact-header.png[Streamlined Liveboard header]
 === Sage Coach
 
 // Naomi. jira: SCAL-212242. docs jira: SCAL-?
-// PM: Alok, Anant
+// PM: Alok, Anant. potential change: Sage Coach rebrand to Spotter, rename filter and query feedback?
 
-[#10-4-0-cl-version-control]
-[discrete]
-=== Version control permissions
-
-// Naomi. jira: SCAL-202688. docs jira: SCAL-213195
-// PM: Nico Rentz
 
 [#10-4-0-cl-visual]
 [discrete]
 === Charts visual refresh
 
-// Naomi. jira: SCAL-225755. docs jira: SCAL-?
+// Naomi. jira: SCAL-222476. docs jira: SCAL-225755
 // PM: Vaibhav
+
+We made the following changes to visualizations on Liveboards:
+
+* You can now hover over items in a visualization's legend to highlight the data that corresponds to that column.
+* You can hover over a truncated legend to see the full text label of the corresponding column in a tooltip.
+* We increased the readability for the smallest size of Liveboard visualizations. Now, minimum-sized visualizations display only the chart, omitting the x- and y-axes and labels. You can hover over select data points to see the values.
 
 [#10-4-0-cl-auth]
 [discrete]
@@ -210,6 +213,19 @@ endif::free-trial-feature[]
 === _Other features and enhancements_
 
 // Data Engineer
+
+[#10-4-0-cl-version-control]
+[discrete]
+=== Version control permissions
+
+// Naomi. jira: SCAL-202688. docs jira: SCAL-213195. affected article: git-version-control.adoc#prerequisites_2
+// PM: Nico Rentz
+
+We made the following changes to permissions regarding version control:
+
+* Admin users can now assign the *Can setup version control* privilege to allow users to access the Version control settings in the Application settings panel, and to use Version Control REST v2 APIs.
+
+* We renamed the previous *Can manage version control* permission to *Can toggle version control for objects*. Users with this permission and edit access to ThoughtSpot objects can enable or disable version history for that object.
 
 [#10-4-0-cl-column]
 [discrete]
