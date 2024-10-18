@@ -79,13 +79,16 @@ We made the following changes to visualizations on Liveboards:
 // Mary. jira: SCAL-218162. docs jira: SCAL-?
 // PM: Dilip
 
+////
 [#10-4-0-cl-param]
 [discrete]
 === User param support
 
 // Naomi. jira: SCAL-204442. docs jira: SCAL-?
-// PM: Manan?
+// PM: Manan? not GA.
+////
 
+////
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#10-4-0-cl-control]
@@ -99,9 +102,10 @@ ifdef::pendo-links[]
 endif::[]
 
 // Naomi. jira: SCAL-210169. docs jira: SCAL-?
-// PM: Manan?
+// PM: Manan? not GA.
 
 endif::free-trial-feature[]
+////
 
 // Analyst
 
@@ -143,19 +147,21 @@ endif::[]
 
 endif::free-trial-feature[]
 
+////
 [#10-4-0-cl-charting]
 [discrete]
 === Aggregated KPI charts
 
 // Naomi. jira: SCAL-215653. docs jira: SCAL-227777
-// PM: Rahul PJP
+// PM: Rahul PJP. only for Apple.
+////
 
 [#10-4-0-cl-dataset]
 [discrete]
 === Dataset integration for Analyst Studio
 
 // Naomi. jira: SCAL-219701. docs jira: SCAL-?
-// PM: Shruthi
+// PM: Shruthi. waiting for info.
 
 [#10-4-0-cl-parameters]
 [discrete]
@@ -178,12 +184,14 @@ endif::free-trial-feature[]
 // Mary. jira: SCAL-179058. docs jira: SCAL-?
 // PM: ?
 
+////
 [#10-4-0-cl-kpi]
 [discrete]
 === Generic custom comparison for KPI chart
 
 // Naomi. jira: SCAL-152770. docs jira: SCAL-?
-// PM: Rahul PJP?
+// PM: Rahul PJP? not customer-facing.
+////
 
 [#10-4-0-cl-utilities]
 [discrete]
@@ -227,6 +235,7 @@ We made the following changes to permissions regarding version control:
 
 * We renamed the previous *Can manage version control* permission to *Can toggle version control for objects*. Users with this permission and edit access to ThoughtSpot objects can enable or disable version history for that object.
 
+
 [#10-4-0-cl-column]
 [discrete]
 === Data panel column groups
@@ -234,28 +243,35 @@ We made the following changes to permissions regarding version control:
 // Naomi. jira: SCAL-224017, SCAL-210554. docs jira: SCAL-210659
 // PM: Damian
 
+Analysts can now set definitions in a Worksheet or Model's TML file to group columns together in the Data panel for Search Data. You can also use TML properties to enable or disable alphabetic sorting of columns. To enable this feature, contact {support-url}.
+
+
 [#10-4-0-cl-custom]
 [discrete]
-=== Custom calendar - download calendar to manually create on Cloud Data Warehouse
+=== Download custom calendar
 
 // Naomi. jira: SCAL-197812. docs jira: SCAL-224478
 // PM: Aaghran
+
+When creating a custom calendar, you can now download a sample as a CSV file with all columns, based on the values you inputted. You can then share the downloaded file with a database administrator to upload it to your database. Once the CSV is uploaded to the database, you can set up the calendar by directly mapping the table.
 
 [#10-4-0-cl-join-key]
 [discrete]
 === Allow changing join keys for global joins
 
 // Naomi. jira: SCAL-91117. docs jira: SCAL-?
-// PM: Samridh
+// PM: Samridh. waiting on info.
 
 // IT/ Ops Engineer
 
+////
 [#10-4-0-cl-change]
 [discrete]
 === Change analysis by measure
 
 // Naomi. jira: SCAL-214287. docs jira: SCAL-?
-// PM: Rahul PJP
+// PM: Rahul PJP, not customer-facing
+////
 
 [#10-4-0-cl-status]
 [discrete]
