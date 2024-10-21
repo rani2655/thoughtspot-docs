@@ -46,7 +46,7 @@ You can ask successive questions to hone in on business insights, open a preview
 // Naomi – jira: SCAL-220304. docs jira: SCAL-226578, SCAL-?
 // PM: Dilip
 
-Compact Livebaord headers are now available to all users and on by default. We have streamlined the design of Liveboard headers to ensure maximum visibility of Liveboard visualizations no matter the size of the screen.
+Compact Liveboard headers are now available to all users and on by default. We have streamlined the design of Liveboard headers to ensure maximum visibility of Liveboard visualizations no matter the size of the screen.
 
 [.bordered]
 image:compact-header.png[Streamlined Liveboard header]
