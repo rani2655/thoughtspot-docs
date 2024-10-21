@@ -241,6 +241,24 @@ endif::free-trial-feature[]
 
 // Data Engineer
 
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#10-4-0-cl-status]
+[discrete]
+=== ThoughtSpot Status [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#10-4-0-cl-status]
+[discrete]
+=== ThoughtSpot Status [.badge.badge-beta-whats-new]#Beta#
+endif::[]
+// Naomi. jira: SCAL-189319. docs jira: SCAL-228671
+// PM: Aashica
+
+Admin users can now navigate to the ThoughtSpot Status page to monitor the health of the cluster. The Status page displays the status of different sections of ThoughtSpot-- Authentication, Data Connections, Infrastructure Services, KPI Monitor, Search Data, Search Service, SpotIQ, Sync, and ThoughtSpot Sage-- as well as highlighting scheduled maintenance and incidents.
+
+endif::free-trial-feature[]
+
 [#10-4-0-cl-version-control]
 [discrete]
 === Version control permissions
