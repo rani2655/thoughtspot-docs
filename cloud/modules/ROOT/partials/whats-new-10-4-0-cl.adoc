@@ -16,17 +16,39 @@ endif::free-trial-feature[]
 
 [#10-4-0-cl-copilot]
 [discrete]
-=== Copilot
+=== Spotter trial edition
 
 // Mark. jira: SCAL-212696. docs jira: SCAL-?
 // PM: Neerav
 
-[#10-4-0-cl-training]
-[discrete]
-=== Copilot Worksheet feedback training
+Spotter is a simple, self-service, chat-based interface for getting answers from your data. Spotter enables you to talk to your data in a whole new way.
+
+With Spotter, it’s as simple as connecting a data source, coaching Spotter on the types of questions you want to ask, and then chatting with Spotter to get answers.
+
+To sign up for the trial edition of Spotter, go to: <link-to-be-added>.
+
+ifndef::pendo-links[]
++++
+<video autoplay loop muted controls width="800" controlsList="nodownload">
+<source src="https://docs.thoughtspot.com/cloud/10.3.0.cl/_images/spotter-anim.mp4" type="video/mp4">
+</video>
++++
+endif::[]
+ifdef::pendo-links[]
++++
+<video autoplay loop muted controls width="676" controlsList="nodownload">
+<source src="https://docs.thoughtspot.com/cloud/10.3.0.cl/_images/spotter-anim.mp4" type="video/mp4">
+</video>
++++
+endif::pendo-links[]
+
+// [#10-4-0-cl-training]
+// [discrete]
+// === Copilot Worksheet feedback training
 
 // Mary. jira: SCAL-217046. docs jira: SCAL-?
 // PM: Anant
+// This is part of the first release of Spotter, and covered in the previous blurb
 
 [#10-4-0-cl-spotter]
 [discrete]
@@ -110,26 +132,35 @@ endif::free-trial-feature[]
 
 // Analyst
 
-[#10-4-0-cl-sage]
-[discrete]
-=== Sage train flow
+// [#10-4-0-cl-sage]
+// [discrete]
+// === Sage train flow
 
 // Mark. jira: SCAL-221805. docs jira: SCAL-?
 // PM: Anant
 
+// This is part of the first release of spotter, so covered in earlier blurbs.
+
 [#10-4-0-cl-modeling]
 [discrete]
-=== Data Modeling join tabs
+=== Updated joins tab for Worksheets and Models
 
-// Mark. jira: SCAL-220324. docs jira: SCAL-?
+// Mark. jira: SCAL-220324. docs jira: SCAL-224681
 // PM: Anjali
+
+The joins tab for Worksheets and Models is now updated to match the join-creation UI for Models.
+
+[.bordered]
+image::joins-tab-react.png[]
 
 [#10-4-0-cl-models]
 [discrete]
 === Models
 
-// Mark. jira: SCAL-217598. docs jira: SCAL-?
+// Mark. jira: SCAL-217598. docs jira: SCAL-225747
 // PM: Samridh
+
+Models are now available to all customers and enabled by default. Worksheets are now deprecated and will be removed in a future release. Existing Worksheets continue to be available, but Worksheet creation is disabled by default. To enable Worksheet creation, you must contact your ThoughSpot administrator. You can migrate an individual Worksheet to a Model. Bulk migration of Worksheets to Models will be available in the 10.5.0.cl release.
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
@@ -143,8 +174,13 @@ ifdef::pendo-links[]
 === Model knowledge cards [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 
-// Mark. jira: SCAL-220257. docs jira: SCAL-?
+// Mark. jira: SCAL-220257. docs jira: SCAL-221549
 // PM: Samridh
+
+With knowledge cards, you can now see more detail about tables and columns before you add them to a Model. To view the knowledge card, click the knowledge card button image:knowledge-card-button.png[knowledge card button,width="30"], and then click the table or column. To enable this feature, contact your ThoughtSpot administrator.
+
+[.bordered]
+image::model-knowledge-card.png[]
 
 endif::free-trial-feature[]
 
