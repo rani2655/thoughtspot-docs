@@ -257,6 +257,9 @@ endif::[]
 
 Admin users can now navigate to the ThoughtSpot Status page to monitor the health of the cluster. The Status page displays the status of different sections of ThoughtSpot-- Authentication, Data Connections, Infrastructure Services, KPI Monitor, Search Data, Search Service, SpotIQ, Sync, and ThoughtSpot Sage-- as well as highlighting scheduled maintenance and incidents.
 
+[.bordered]
+image::status-page.png[ThoughtSpot status page]
+
 endif::free-trial-feature[]
 
 [#10-4-0-cl-version-control]
