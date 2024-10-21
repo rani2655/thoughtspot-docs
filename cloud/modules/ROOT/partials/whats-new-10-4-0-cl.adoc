@@ -253,7 +253,7 @@ Analysts can now set definitions in a Worksheet or Model's TML file to group col
 // Naomi. jira: SCAL-197812. docs jira: SCAL-224478
 // PM: Aaghran
 
-When creating a custom calendar, you can now download a sample as a CSV file with all columns, based on the values you inputted. You can then share the downloaded file with a database administrator to upload it to your database. Once the CSV is uploaded to the database, you can set up the calendar by directly mapping the table.
+When creating a custom calendar, you can now download it as a CSV file with all columns, based on the values you inputted. You can then share the downloaded file with a database administrator to upload it to your database. Once the CSV is uploaded to the database, you can set up the calendar by directly mapping the table.
 
 [#10-4-0-cl-join-key]
 [discrete]
