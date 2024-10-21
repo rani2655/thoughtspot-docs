@@ -110,6 +110,24 @@ endif::free-trial-feature[]
 
 // Analyst
 
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#10-4-0-cl-gradient]
+[discrete]
+=== Gradient-based conditional formatting [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#10-4-0-cl-gradient]
+[discrete]
+=== Gradient-based conditional formatting [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+// Naomi. JIRA: SCAL-171986. docs jira: SCAL-?
+// PM: Manan
+
+Rather than using conditional formatting to highlight values in a chart in a single color, you can now set a gradient-based rule to show the range of values in a chart as shades in a continuous gradient. For example, you can add a rule to a Discount column and see the lowest values in shades of red while the highest values are in shades of blue. You can also set a midpoint, where the middle value is in white.
+
+endif::free-trial-feature[]
+
 [#10-4-0-cl-sage]
 [discrete]
 === Sage train flow
@@ -222,6 +240,24 @@ endif::free-trial-feature[]
 === _Other features and enhancements_
 
 // Data Engineer
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#10-4-0-cl-status]
+[discrete]
+=== ThoughtSpot Status [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#10-4-0-cl-status]
+[discrete]
+=== ThoughtSpot Status [.badge.badge-beta-whats-new]#Beta#
+endif::[]
+// Naomi. jira: SCAL-189319. docs jira: SCAL-228671
+// PM: Aashica
+
+Admin users can now navigate to the ThoughtSpot Status page to monitor the health of the cluster. The Status page displays the status of different sections of ThoughtSpot-- Authentication, Data Connections, Infrastructure Services, KPI Monitor, Search Data, Search Service, SpotIQ, Sync, and ThoughtSpot Sage-- as well as highlighting scheduled maintenance and incidents.
+
+endif::free-trial-feature[]
 
 [#10-4-0-cl-version-control]
 [discrete]
