@@ -18,7 +18,7 @@ endif::free-trial-feature[]
 [discrete]
 === Spotter trial edition
 
-// Mark. jira: SCAL-212696. docs jira: SCAL-?
+// Mark. jira: SCAL-212696. docs jira: SCAL-216233
 // PM: Neerav
 
 Spotter is a simple, self-service, chat-based interface for getting answers from your data. Spotter enables you to talk to your data in a whole new way.
