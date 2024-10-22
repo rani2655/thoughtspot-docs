@@ -18,26 +18,12 @@ These are the known issues in this release of ThoughtSpot Cloud.
 |Issue ID |Description|Symptoms, conditions, and workaround
 
 |SCAL-227438
-|Query gen error "WORKSHEET_GEN_FAIL"
+|"WORKSHEET_GEN_FAIL" error appears when searching a Worksheet in the Search Data window.
 a|*Symptoms*:
-Error when searching on top of a Worksheet. The error usually displays "WORKSHEET_GEN_FAIL."
-
-Error logs contain a message similar to: "Error Message: Can't generate spec for worksheet."
+"WORKSHEET_GEN_FAIL" error appears.
 
 *Conditions*:
-After upgrade to ThoughtSpot version 10.1.0.cl. Answer/visualization is on top of a Worksheet. The worksheet has multiple roots and has nested formulas used with different join paths. One way to identify formulas used with different join paths is to look at the TML of the underlying worksheet and see if you have two entries in the formulas section which have same name and one of those formula has id field set as well.
-
-Example:
-
-`- name: fx1
-expr: "concat ( [DATE_1::Month] , [DATE_1::Day Of Week] )"
-was_auto_generated: false
-- id: fx1_1
-name: fx1
-expr: "concat ( [DATE_2::Month] , [DATE_2::Day Of Week] )"
-was_auto_generated: false`
-
-These both are actually different representations of the same formula(user only defined one formula)
+ThoughtSpot version 10.1.0.cl. Worksheet is selected as the data source in the Search Data window. The Worksheet has multiple roots (tables/views which are on the _Many_ side of a _Many:1_ join). In addition, the Worksheet has nested formulas used with different join paths.
 
 *Workaround*:
 Contact {support-url}.
