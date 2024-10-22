@@ -24,7 +24,7 @@ endif::free-trial-feature[]
 [#10-4-0-cl-training]
 [discrete]
 === Copilot Worksheet feedback training
-
+When analysts create a worksheet in Copilot, it is imperative that they provide sufficient feedback to train the system before users start evaluating it. The Copilot training module is designed to help analysts improve the system’s ability to give accurate and reliable responses to business queries.
 // Mary. jira: SCAL-217046. docs jira: SCAL-?
 // PM: Anant
 
@@ -72,7 +72,7 @@ image:compact-header.png[Streamlined Liveboard header]
 [#10-4-0-cl-auth]
 [discrete]
 === Cloud Data Warehouse authentication when Liveboard has mandatory filters
-
+ThoughtSpot prompts users to authenticate when they open a Liveboard with a mandatory filter applied. Once a user is authenticated, they will see the values in the mandatory filter when they return to the Liveboard. To enable this feature, contact {support-url}.
 // Mary. jira: SCAL-218162. docs jira: SCAL-?
 // PM: Dilip
 
@@ -160,20 +160,23 @@ endif::free-trial-feature[]
 
 // Mary. jira: SCAL-179358. docs jira: SCAL-?
 // PM: Aashica
+//Waiting for confirmation of doc req from PM. Appears to be a design & planning epic.
 
 [#10-4-0-cl-pivot]
 [discrete]
 === Pivot table summary calculation issues
-
+ThoughtSpot introduces pivot table summary queries calculated directly from the results of the table data. Any changes to the table data due to filters or joins is now reflected in the summary queries.
 // Mary. jira: SCAL-177827. docs jira: SCAL-?
 // PM: Damian
 
+////
 [#10-4-0-cl-template]
 [discrete]
 === Template variable store
 
 // Mary. jira: SCAL-179058. docs jira: SCAL-?
-// PM: ?
+// PM: ? requested clarification about PM and potential doc requirement from Ashok. Ashok confirmed no doc required for 10.4.0.cl.
+////
 
 [#10-4-0-cl-kpi]
 [discrete]
@@ -185,13 +188,19 @@ endif::free-trial-feature[]
 [#10-4-0-cl-utilities]
 [discrete]
 === Utilities schema viewer
+ThoughtSpot introduces a connection picker to the schema viewer. You can now use the drop-down or search to select your connection in the schema viewer.
 
+NOTE: You can no longer view objects across all connections. You must filter by a specific connection.
 // Mary. jira: SCAL-221312. docs jira: SCAL-?
 // PM: Samridh
 
 [#10-4-0-cl-liveboard]
 [discrete]
 === Liveboard schedules available to all users
+All ThoughtSpot users can now see all the schedules they have created or are subscribed to across various Liveboards in *Liveboard schedules*. Previously, users had to go to the *Manage schedules* section of every Liveboard to understand the schedules they were receiving from ThoughtSpot.
+
+[.bordered]
+image::LB-schedules.png[Liveboard schedules]
 
 // Mary. jira: SCAL-220306. docs jira: SCAL-?
 // PM: Arpit
@@ -199,9 +208,10 @@ endif::free-trial-feature[]
 [#10-4-0-cl-schedule]
 [discrete]
 === Liveboard schedule modal UI UX revamp
-
+ThoughtSpot introduces an updated Liveboard schedules UI. The new UI includes the list of filters and parameters when a view is selected.
 // Mary. jira: SCAL-219879. docs jira: SCAL-?
 // PM: Dilip
+//Waiting for clarification from Dilip about other changes. Will add image once confirmed.
 
 
 '''
@@ -244,16 +254,18 @@ endif::free-trial-feature[]
 [#10-4-0-cl-status]
 [discrete]
 === ThoughtSpot status page - UI changes
-
+ThoughtSpot introduces updates to cluster status pages to help customers to monitor the health of their clusters. Customers can also be alerted about outage notifications and incidents.
 // Mary. jira: SCAL-197368. docs jira: SCAL-?
-// PM: Aashica?
+// PM: Aashica
+// add image
 
 [#10-4-0-cl-sync]
 [discrete]
 === ThoughtSpot Sync: send full image of Liveboard and PDF to Slack
-
+ThoughtSpot introduces the ability for users to select whether they want to export a complete Liveboard or only the first page when creating a new sync pipeline. Users can also select PDF or PNG format to share the Liveboard.
 // Mary. jira: SCAL-224070. docs jira: SCAL-?
 // PM: Aaghran
+// add image?
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
@@ -268,7 +280,7 @@ ifdef::pendo-links[]
 endif::[]
 
 // Mary – jira: SCAL-209689. docs jira: SCAL-?
-// PM: Damian
+// PM: Damian - marked as no doc needed, waiting for clarification/confirmation from Damian.
 
 endif::free-trial-feature[]
 
