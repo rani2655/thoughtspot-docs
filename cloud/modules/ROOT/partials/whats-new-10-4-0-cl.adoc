@@ -19,11 +19,11 @@ endif::free-trial-feature[]
 === Spotter trial edition
 
 // Mark. jira: SCAL-212696. docs jira: SCAL-216233
-// PM: Neerav
+// PM: Neerav. remove?
 
 Spotter is a simple, self-service, chat-based interface for getting answers from your data. Spotter enables you to talk to your data in a whole new way.
 
-With Spotter, it’s as simple as connecting a data source, coaching Spotter on the types of questions you want to ask, and then chatting with Spotter to get answers.
+With Spotter, it’s as simple as connecting to a data source, coaching Spotter on the types of questions you want to ask, and then chatting with Spotter to get answers.
 
 To sign up for the trial edition of Spotter, go to: <link-to-be-added>.
 
@@ -64,11 +64,11 @@ ifdef::pendo-links[]
 endif::[]
 
 // Naomi. jira: SCAL-223692, SCAL-222817. docs jira: SCAL-228500
-// PM: Sam Weick
+// PM: Sam Weick. add a gif. Zoom in and out, show spotter in home page, what the new conversational experience is, ask successive question, show the replaced terms, and show how to enter from a Liveboard.
 
-Introducing Spotter, our new unified, conversational search experience. When enabled, you can enter the Spotter interface from the search bar on the Home page, or by clicking *Spotter* on any visualization pinned to a Liveboard.
+Introducing Spotter, our new AI-powered, unified conversational search experience. This feature replaces the previous Sage search experience. When enabled, you can enter the Spotter interface from the search bar on the Home page, or by clicking *Spotter* on any visualization pinned to a Liveboard.
 
-You can ask successive questions to hone in on business insights, open a preview of the underlying data, drill down, edit or undo changes to the resulting AI-generated Answers, see what terms Spotter changed from question to question, and submit feedback to train Spotter's interpretations. Analysts can also coach Spotter how to interpret certain terms from the Admin page. To enable this feature, contact your administrator.
+You can ask successive questions to hone in on business insights, open a preview of the underlying data, drill down, edit or undo changes to the resulting AI-generated Answers, see what terms Spotter changed from question to question, and submit feedback to train Spotter's interpretations. Analysts can also coach Spotter on how to interpret certain terms from the Admin page. To enable this feature, contact your administrator.
 
 endif::free-trial-feature[]
 
@@ -98,20 +98,15 @@ image:compact-header.png[Streamlined Liveboard header]
 === Charts visual refresh
 
 // Naomi. jira: SCAL-222476. docs jira: SCAL-225755
-// PM: Vaibhav
+// PM: Vaibhav. add a gif.
 
 We made the following changes to visualizations on Liveboards:
 
 * You can now hover over items in a visualization's legend to highlight the data that corresponds to that column.
-* You can hover over a truncated legend to see the full text label of the corresponding column in a tooltip.
-* We increased the readability for the smallest size of Liveboard visualizations. Now, minimum-sized visualizations display only the chart, omitting the x- and y-axes and labels. You can hover over select data points to see the values.
+* You can hover over a truncated legend to see the corresponding column name in a tooltip.
+* We improved the readability for the smallest size of Liveboard visualizations. Now, minimum-sized visualizations display only the chart, omitting the x- and y-axes and labels. You can hover over select data points to see the values.
 
-[#10-4-0-cl-auth]
-[discrete]
-=== Cloud Data Warehouse authentication when Liveboard has mandatory filters
-ThoughtSpot prompts users to authenticate when they open a Liveboard with a mandatory filter applied. Once a user is authenticated, they will see the values in the mandatory filter when they return to the Liveboard. To enable this feature, contact {support-url}.
-// Mary. jira: SCAL-218162. docs jira: SCAL-?
-// PM: Dilip
+
 
 ////
 [#10-4-0-cl-param]
@@ -155,9 +150,9 @@ ifdef::pendo-links[]
 === Configuring color gradients [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 // Naomi. JIRA: SCAL-171986. docs jira: SCAL-?
-// PM: Manan
+// PM: Manan. add image.
 
-Previously, you could only choose a single color to define a gradient in charts that support gradients -- geo heatmap, geo area, heatmap, and treemap charts. You can now control the low, mid and high values and points to customize the gradient, and choose multiple colors for the gradient.
+Previously, you could only choose a single color to define a gradient in charts that support gradients -- geo heatmap, geo area, heatmap, and treemap charts. You can now control the low, mid, and high values and points to customize the gradient, and choose multiple colors for the gradient.
 
 endif::free-trial-feature[]
 
@@ -170,48 +165,9 @@ endif::free-trial-feature[]
 
 // This is part of the first release of spotter, so covered in earlier blurbs.
 
-[#10-4-0-cl-modeling]
-[discrete]
-=== Updated joins tab for Worksheets and Models
 
-// Mark. jira: SCAL-220324. docs jira: SCAL-224681
-// PM: Anjali
 
-The joins tab for Worksheets and Models is now updated to match the join-creation UI for Models.
 
-[.bordered]
-image::joins-tab-react.png[]
-
-[#10-4-0-cl-models]
-[discrete]
-=== Models
-
-// Mark. jira: SCAL-217598. docs jira: SCAL-225747
-// PM: Samridh
-
-Models are now available to all customers and enabled by default. Worksheets are now deprecated and will be removed in a future release. Existing Worksheets continue to be available, but Worksheet creation is disabled by default. To enable Worksheet creation, you must contact your ThoughSpot administrator. You can migrate an individual Worksheet to a Model. Bulk migration of Worksheets to Models will be available in the 10.5.0.cl release.
-
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
-[#10-4-0-cl-knowledge]
-[discrete]
-=== Model knowledge cards [.badge.badge-early-access]#Early Access#
-endif::[]
-ifdef::pendo-links[]
-[#10-4-0-cl-knowledge]
-[discrete]
-=== Model knowledge cards [.badge.badge-early-access-whats-new]#Early Access#
-endif::[]
-
-// Mark. jira: SCAL-220257. docs jira: SCAL-221549
-// PM: Samridh
-
-With knowledge cards, you can now see more detail about tables and columns before you add them to a Model. To view the knowledge card, click the knowledge card button image:knowledge-card-button.png[knowledge card button,width="30"], and then click the table or column. To enable this feature, contact your ThoughtSpot administrator.
-
-[.bordered]
-image::model-knowledge-card.png[]
-
-endif::free-trial-feature[]
 
 ////
 [#10-4-0-cl-charting]
@@ -240,9 +196,9 @@ endif::free-trial-feature[]
 [#10-4-0-cl-pivot]
 [discrete]
 === Pivot table summary calculations
-ThoughtSpot introduces pivot table summary queries calculated directly from the results of the table data. Any changes to the table data due to filters or joins is now reflected in the summary queries.
+ThoughtSpot introduces pivot table summary calculations derived directly from the results of the table data. Any changes to the table data due to filters or joins are now reflected in the summary calculations.
 // Mary. jira: SCAL-177827. docs jira: SCAL-?
-// PM: Damian
+// PM: Damian. clarify what they mean by filter and join behavior
 
 ////
 [#10-4-0-cl-template]
@@ -262,14 +218,7 @@ ThoughtSpot introduces pivot table summary queries calculated directly from the 
 // PM: Rahul PJP? not customer-facing.
 ////
 
-[#10-4-0-cl-utilities]
-[discrete]
-=== Utilities schema viewer
-ThoughtSpot introduces a connection picker to the schema viewer. You can now use the drop-down or search to select your connection in the schema viewer.
 
-NOTE: You can no longer view objects across all connections. You must filter by a specific connection.
-// Mary. jira: SCAL-221312. docs jira: SCAL-?
-// PM: Samridh
 
 [#10-4-0-cl-liveboard]
 [discrete]
@@ -280,8 +229,9 @@ All ThoughtSpot users can now see all the schedules they have created or are sub
 image::LB-schedules.png[Liveboard schedules]
 
 // Mary. jira: SCAL-220306. docs jira: SCAL-?
-// PM: Arpit
+// PM: Arpit. clarify which parts are actually new, make clear it's only in the new homepage experience. make it clear you no longer need liveboard schedule privileges. can they remove themselves from a schedule someone else set up?
 
+////
 [#10-4-0-cl-schedule]
 [discrete]
 === Liveboard schedule modal UI UX revamp
@@ -289,7 +239,15 @@ ThoughtSpot introduces an updated Liveboard schedules UI. The new UI includes th
 // Mary. jira: SCAL-219879. docs jira: SCAL-?
 // PM: Dilip
 //Waiting for clarification from Dilip about other changes. Will add image once confirmed.
+////
 
+[#10-4-0-cl-sync]
+[discrete]
+=== ThoughtSpot Sync: send full image of Liveboard to Slack
+ThoughtSpot introduces the ability for users to select whether they want to export a complete Liveboard as a PDF or only a PNG image of the first page when creating a new sync pipeline.
+// Mary. jira: SCAL-224070. docs jira: SCAL-?
+// PM: Aaghran
+// add image of selection in pipeline setup? change run-on sentence.
 
 '''
 [#secondary-10-4-0-cl]
@@ -297,6 +255,49 @@ ThoughtSpot introduces an updated Liveboard schedules UI. The new UI includes th
 === _Other features and enhancements_
 
 // Data Engineer
+
+[#10-4-0-cl-models]
+[discrete]
+=== Models
+
+// Mark. jira: SCAL-217598. docs jira: SCAL-225747
+// PM: Samridh. group all models features under a models subsection? can you still edit existing worksheets? if you edit a worksheet, does it stay a worksheet or become a model?
+
+Models are now available to all customers and enabled by default. Worksheets are now deprecated and will be removed in a future release. Existing Worksheets continue to be available, but Worksheet creation is disabled by default. To enable Worksheet creation, you must contact your ThoughSpot administrator. You can migrate an individual Worksheet to a Model. Bulk migration of Worksheets to Models will be available in the 10.5.0.cl release.
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#10-4-0-cl-knowledge]
+[discrete]
+=== Model knowledge cards [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#10-4-0-cl-knowledge]
+[discrete]
+=== Model knowledge cards [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
+// Mark. jira: SCAL-220257. docs jira: SCAL-221549
+// PM: Samridh. can you also pull in stuff from data catalog? If so, highlight here.
+
+With knowledge cards, you can now see more detail about tables and columns before you add them to a Model. To view the knowledge card, click the knowledge card button image:knowledge-card-button.png[knowledge card button,width="30"], and then click the table or column. To enable this feature, contact your ThoughtSpot administrator.
+
+[.bordered]
+image::model-knowledge-card.png[]
+
+endif::free-trial-feature[]
+
+[#10-4-0-cl-modeling]
+[discrete]
+=== Updated joins tab for Worksheets and Models
+
+// Mark. jira: SCAL-220324. docs jira: SCAL-224681
+// PM: Anjali
+
+The joins tab for Worksheets and Models is now updated to match the join-creation UI for Models.
+
+[.bordered]
+image::joins-tab-react.png[]
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
@@ -310,37 +311,44 @@ ifdef::pendo-links[]
 === ThoughtSpot Status [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 // Naomi. jira: SCAL-189319. docs jira: SCAL-228671
-// PM: Aashica
+// PM: Aashica. clarify how you navigate to the status page.
 
-Admin users can now navigate to the ThoughtSpot Status page to monitor the health of services on their cluster. The Status page displays the status of different ThoughtSpot Services which drive some of our functionality, like Authentication, Data Connections, Infrastructure Services, KPI Monitor, Search Data, Search Service, SpotIQ, Sync, and Spotter, as well as sharing scheduled maintenance timelines and incident reporting and updates.
+Admin users can now navigate to the ThoughtSpot Status page to monitor the health of services on their cluster. We have updated the user interface to make it more user-friendly. The Status page displays the status of different ThoughtSpot services, like Authentication, Data Connections, Infrastructure Services, KPI Monitor, Search Data, Search Service, SpotIQ, Sync, and Spotter. The page also shares scheduled maintenance timelines, outage notifications, and incident reporting and updates.
 
 [.bordered]
 image::status-page.png[ThoughtSpot status page]
 
 endif::free-trial-feature[]
 
+
 [#10-4-0-cl-version-control]
 [discrete]
 === Version control permissions
 
 // Naomi. jira: SCAL-202688. docs jira: SCAL-213195. affected article: git-version-control.adoc#prerequisites_2
-// PM: Nico Rentz
+// PM: Nico Rentz. reach out for an image and see if they fixed the setup/set up typo. where can they go to use the version control rest v2 apis? clarify what the can setup version control lets you do, is it that you can delegate to a non-admin user to set up version control? was it that previously only admins could set it up and now non-admins can? mention granular privileges.
 
 We made the following changes to permissions regarding version control:
 
-* Admin users can now assign the *Can setup version control* privilege to allow users to access the Version control settings in the Application settings panel, and to use Version Control REST v2 APIs.
+* Admin users can now assign the *Can setup version control* privilege to allow users to access the version control settings under *Admin > Application settings*, and to use Version Control REST v2 APIs.
 
 * We renamed the previous *Can manage version control* permission to *Can toggle version control for objects*. Users with this permission and edit access to a ThoughtSpot object can enable or disable version history for that object.
 
+[#10-4-0-cl-auth]
+[discrete]
+=== Cloud Data Warehouse authentication when Liveboard has mandatory filters
+ThoughtSpot prompts users to authenticate when they open a Liveboard with a mandatory filter applied. Once a user is authenticated, they will see the values in the mandatory filter when they return to the Liveboard. To enable this feature, contact {support-url}.
+// Mary. jira: SCAL-218162. docs jira: SCAL-?
+// PM: Dilip. confirm if beta or EA. if OAuth is already set up, do they need to authenticate again?
 
 [#10-4-0-cl-column]
 [discrete]
 === Data panel column groups
 
 // Naomi. jira: SCAL-224017, SCAL-210554. docs jira: SCAL-210659
-// PM: Damian
+// PM: Damian. confirm if beta. confirm if enabling or disabling alphabetic sorting will turn A-Z sorting back on.
 
-Analysts can now set definitions in a Worksheet or Model's TML file to group columns together in the Data panel for Search Data. You can also use TML properties to enable or disable alphabetic sorting of columns. To enable this feature, contact {support-url}.
+Analysts can now set definitions in a Worksheet or Model's TML file to group columns together in the Data panel for Search Data. You can also use TML properties to enable or disable alphabetic sorting of the groups. To enable this feature, contact {support-url}.
 
 
 [#10-4-0-cl-custom]
@@ -350,7 +358,18 @@ Analysts can now set definitions in a Worksheet or Model's TML file to group col
 // Naomi. jira: SCAL-197812. docs jira: SCAL-224478
 // PM: Aaghran
 
-When creating a custom calendar, you can now download it as a CSV file with all columns, based on the values you inputted. You can then share the downloaded file with a database administrator to upload it to your database. Once the CSV is uploaded to the database, you can set up the calendar by directly mapping the table.
+In the *Create a custom calendar* interface, you can now set up a template calendar and download it as a CSV file with all columns, based on the values you inputted. You can then modify the file and share it with a database administrator to upload it to your database. Once the CSV is uploaded to the database, you can set up the calendar by directly mapping the table.
+
+
+
+[#10-4-0-cl-utilities]
+[discrete]
+=== Utilities schema viewer
+ThoughtSpot introduces a connection picker to the schema viewer. You can now use the dropdown or search to select your connection in the schema viewer.
+
+NOTE: You can no longer view objects across all connections. You must filter by a specific connection.
+// Mary. jira: SCAL-221312. docs jira: SCAL-?
+// PM: Samridh. add image.
 
 [#10-4-0-cl-join-key]
 [discrete]
@@ -370,23 +389,7 @@ When creating a custom calendar, you can now download it as a CSV file with all 
 // PM: Rahul PJP, not customer-facing
 ////
 
-[#10-4-0-cl-status]
-[discrete]
-=== ThoughtSpot status page - UI changes
-ThoughtSpot introduces updates to cluster status pages to help customers to monitor the health of their clusters. Customers can also be alerted about outage notifications and incidents.
-// Mary. jira: SCAL-197368. docs jira: SCAL-?
-// PM: Aashica
-// add image
-
-[#10-4-0-cl-sync]
-[discrete]
-=== ThoughtSpot Sync: send full image of Liveboard and PDF to Slack
-ThoughtSpot introduces the ability for users to select whether they want to export a complete Liveboard or only the first page when creating a new sync pipeline. Users can also select PDF or PNG format to share the Liveboard.
-// Mary. jira: SCAL-224070. docs jira: SCAL-?
-// PM: Aaghran
-// add image?
-
-
+////
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#10-4-0-cl-sql]
@@ -403,7 +406,7 @@ endif::[]
 // PM: Damian - marked as no doc needed, waiting for clarification/confirmation from Damian.
 
 endif::free-trial-feature[]
-
+////
 
 ifndef::free-trial-feature[]
 [discrete]
