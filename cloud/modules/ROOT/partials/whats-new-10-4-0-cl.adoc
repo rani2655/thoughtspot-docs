@@ -50,9 +50,18 @@ endif::pendo-links[]
 // PM: Anant
 // This is part of the first release of Spotter, and covered in the previous blurb
 
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
 [#10-4-0-cl-spotter]
 [discrete]
-=== Spotter
+=== Spotter for Cloud [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#10-4-0-cl-spotter]
+[discrete]
+=== Spotter for Cloud [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
 
 // Naomi. jira: SCAL-223692, SCAL-222817. docs jira: SCAL-228500
 // PM: Sam Weick
@@ -60,6 +69,8 @@ endif::pendo-links[]
 Introducing Spotter, our new unified, conversational search experience. When enabled, you can enter the Spotter interface from the search bar on the Home page, or by clicking *Spotter* on any visualization pinned to a Liveboard.
 
 You can ask successive questions to hone in on business insights, open a preview of the underlying data, drill down, edit or undo changes to the resulting AI-generated Answers, see what terms Spotter changed from question to question, and submit feedback to train Spotter's interpretations. Analysts can also coach Spotter how to interpret certain terms from the Admin page. To enable this feature, contact your administrator.
+
+endif::free-trial-feature[]
 
 [#10-4-0-cl-header]
 [discrete]
@@ -136,17 +147,17 @@ ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#10-4-0-cl-gradient]
 [discrete]
-=== Gradient-based conditional formatting [.badge.badge-early-access]#Early Access#
+=== Configuring color gradients [.badge.badge-early-access]#Early Access#
 endif::[]
 ifdef::pendo-links[]
 [#10-4-0-cl-gradient]
 [discrete]
-=== Gradient-based conditional formatting [.badge.badge-early-access-whats-new]#Early Access#
+=== Configuring color gradients [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 // Naomi. JIRA: SCAL-171986. docs jira: SCAL-?
 // PM: Manan
 
-Rather than using conditional formatting to highlight values in a chart in a single color, you can now set a gradient-based rule to show the range of values in a chart as shades in a continuous gradient. For example, you can add a rule to a Discount column and see the lowest values in shades of red while the highest values are in shades of blue. You can also set a midpoint, where the middle value is in white.
+Previously, you could only choose a single color to define a gradient in charts that support gradients -- geo heatmap, geo area, heatmap, and treemap charts. You can now control the low, mid and high values and points to customize the gradient, and choose multiple colors for the gradient.
 
 endif::free-trial-feature[]
 
@@ -301,7 +312,7 @@ endif::[]
 // Naomi. jira: SCAL-189319. docs jira: SCAL-228671
 // PM: Aashica
 
-Admin users can now navigate to the ThoughtSpot Status page to monitor the health of the cluster. The Status page displays the status of different sections of ThoughtSpot-- Authentication, Data Connections, Infrastructure Services, KPI Monitor, Search Data, Search Service, SpotIQ, Sync, and ThoughtSpot Sage-- as well as highlighting scheduled maintenance and incidents.
+Admin users can now navigate to the ThoughtSpot Status page to monitor the health of services on their cluster. The Status page displays the status of different ThoughtSpot Services which drive some of our functionality, like Authentication, Data Connections, Infrastructure Services, KPI Monitor, Search Data, Search Service, SpotIQ, Sync, and Spotter, as well as sharing scheduled maintenance timelines and incident reporting and updates.
 
 [.bordered]
 image::status-page.png[ThoughtSpot status page]
