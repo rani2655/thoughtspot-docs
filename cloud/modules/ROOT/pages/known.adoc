@@ -23,7 +23,22 @@ a|*Symptoms*:
 "WORKSHEET_GEN_FAIL" error appears.
 
 *Conditions*:
-ThoughtSpot version 10.1.0.cl. Worksheet is selected as the data source in the Search Data window. The Worksheet has multiple roots (tables/views which are on the _Many_ side of a _Many:1_ join). In addition, the Worksheet has nested formulas used with different join paths.
+Worksheet is selected as the data source in the Search Data window. The Worksheet has multiple roots (tables/views which are on the _Many_ side of a _Many:1_ join). In addition, the Worksheet has nested formulas used with different join paths.
+
+To identify if there are formulas used with different join paths, look at the TML of the underlying Worksheet. If you have two entries in the formulas section which have the same name, and one of those formulas has the id field set as well, then your Worksheet has nested formulas with different join paths.
+
+Example of formulas with different join paths:
+```
+- name: fx1
+  expr: "concat ( [DATE_1::Month] , [DATE_1::Day Of Week] )"
+  was_auto_generated: false
+- id: fx1_1
+  name: fx1
+  expr: "concat ( [DATE_2::Month] , [DATE_2::Day Of Week] )"
+  was_auto_generated: false
+```
+
+These both are actually different representations of the same formula(user only defined one formula)
 
 *Workaround*:
 Contact {support-url}.
@@ -40,7 +55,7 @@ Enhanced conditional formatting is enabled, and a conditional formatting rule is
 Contact {support-url} to disable enhanced conditional formatting. This will ensure KPI values and conditional formatting match.
 
 |SCAL-218093
-|The chart visualization menu is not triggered when selecting two points on a KPI chart by right-clicking in the Watchlist. This prevents contextual change analysis from working.
+|The chart visualization menu does not appear when selecting two points on a KPI chart by right-clicking in the Watchlist. This prevents contextual change analysis from working.
 a|*Symptoms*:
 The chart visualization menu fails to appear when two points are selected on a KPI chart in a Watchlist.
 *Conditions*:
