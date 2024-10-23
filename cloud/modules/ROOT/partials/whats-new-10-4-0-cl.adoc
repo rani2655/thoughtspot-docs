@@ -361,7 +361,7 @@ endif::free-trial-feature[]
 
 We made the following changes to permissions regarding version control:
 
-* Admin users can now assign the *Can setup version control* privilege to allow users to access the version control settings under *Admin > Application settings*, and to use Version Control REST v2 APIs.
+* Admin users can now assign the *Can set up version control* privilege to allow non-admin users to access the version control settings under *Admin > Application settings*, and to use Version Control REST v2 APIs.
 
 * We renamed the previous *Can manage version control* permission to *Can toggle version control for objects*. Users with this permission and edit access to a ThoughtSpot object can enable or disable version history for that object.
 
