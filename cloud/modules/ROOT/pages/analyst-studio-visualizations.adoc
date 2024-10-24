@@ -5,6 +5,7 @@
 :page-layout: default-cloud
 :description: Visualize your data to gain insight.
 :ogdescription: Visualize your data to gain insight.
+:experimental:
 :path: /articles/visualizations
 :page-aliases: /analyst-studio/visualizations.adoc
 :product: Analyst Studio

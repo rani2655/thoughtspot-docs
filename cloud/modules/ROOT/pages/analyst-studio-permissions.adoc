@@ -6,6 +6,7 @@
 :ogdescription: How to manage permissions in Analyst Studio.
 :page-layout: default-cloud
 :path: /articles/permissions
+:experimental:
 :page-aliases: /analyst-studio/permissions.adoc
 :product: Analyst Studio
 
@@ -173,8 +174,8 @@ Only set the default access for a Collection to *Restricted* if the Collection c
 [discrete]
 ====== *Q: How do Collection and Connection permissions determine Report access for users?*
 
-To access a report, users must possess the necessary permissions for both the Connections utilized in the report, as well as for the Collection that holds the report.
-For instance, even if a user has been granted view permission for all of the Connections used in a report, if they are not a member of the private Collection containing the report, they will not be able to view the report.
+To access a Report, users must possess the necessary permissions for both the Connections utilized in the Report, as well as for the Collection that holds the Report.
+For instance, even if a user has been granted view permission for all of the Connections used in a Report, if they are not a member of the private Collection containing the Report, they will not be able to view the Report.
 In other words, access to both the Connections and the Collection is required.
 
 [discrete]

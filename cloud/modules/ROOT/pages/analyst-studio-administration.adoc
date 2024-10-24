@@ -5,6 +5,7 @@
 :page-layout: default-cloud
 :page-aliases: /analyst-studio/administration.adoc
 :linkattrs:
+:experimental:
 :description: Learn the permissions required for accessing Analyst Studio as an administrator.
 :product: Analyst Studio
 

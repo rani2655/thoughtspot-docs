@@ -5,6 +5,7 @@
 :page-layout: default-cloud
 :description: Connect Analyst Studio to your data.
 :ogdescription: Connect Analyst Studio to your data.
+:experimental:
 :path: /articles/supported-databases
 :page-aliases: /analyst-studio/supported-databases.adoc
 :product: Analyst Studio
