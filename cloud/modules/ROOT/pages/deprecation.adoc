@@ -27,7 +27,7 @@ NOTE: This feature is now deprecated. You may not use it starting with release 7
 
 == Removed in 10.4.0.cl
 
-The 10.4.0.cl release of ThoughtSpot Cloud, targeted for November 2024 (GA), removes the following features from the *Data workspace*:
+The 10.4.0.cl release of ThoughtSpot Cloud, targeted for November 2024 (GA), removes the following feature from the *Data workspace*:
 
 - Search Assist
 
@@ -50,7 +50,7 @@ You can migrate an individual Worksheet to a Model, by doing the following:
 . From the Data workspace page, open a Worksheet.
 . Select the More menu image:icon-more-10px.png[more menu], and then *Convert to Model*.
 
-Bulk migration of Worksheets to Models will be available in the 10.5.0.cl release. Contact {support-url} for details.
+Bulk migration of Worksheets to Models will be available in the 10.5.0.cl release.
 
 
 
