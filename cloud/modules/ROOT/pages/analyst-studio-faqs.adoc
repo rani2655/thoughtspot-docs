@@ -4,6 +4,7 @@
 :date: 2023-01-22
 :description: Common questions and solutions.
 :ogdescription: Common questions and solutions.
+:experimental:
 :page-layout: default-cloud
 :page-aliases: /analyst-studio/faqs.adoc
 :path: /articles/faqs

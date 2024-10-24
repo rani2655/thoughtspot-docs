@@ -5,6 +5,7 @@
 :description: How to query data in Analyst Studio.
 :ogdescription: How to query data in Analyst Studio.
 :page-layout: default-cloud
+:experimental:
 :path: /articles/querying-data
 :page-aliases: /analyst-studio/querying-data.adoc
 :product: Analyst Studio
@@ -52,7 +53,7 @@ Select a historical query run and click *Open* to replace the code currently in 
 ** *Editor Settings:* Toggle on/off settings for the code editor.
 These options allow you to personalize the editor to fit your preferences.
 Choose between light and dark modes, side-by-side or stacked panels, Limit 100 on/off by default, and other helpful autocomplete settings.
-To turn autocomplete on or off, you can toggle the switch in the Autocomplete Settings or you can disable (and re-enable) it by hitting  `Command + Option + A` ( `Control + ALT + A` on a PC) in the editor.
+To turn autocomplete on or off, you can toggle the switch in the Autocomplete Settings or you can disable (and re-enable) it by hitting  kbd:[`Command`] + kbd:[`Option`] + kbd:[`A`] ( kbd:[`Control`] + kbd:[`Alt`] + kbd:[`A`] on a PC) in the editor.
 . *Data view*: After you successfully execute a SQL query, the tabular results, fields, and syntax are displayed here, which you can drag to resize.
 
 ** Use the Data tab to consume your results, share the URL to that specific query, export the raw query data as a CSV, or copy the data to the clipboard.
@@ -263,7 +264,7 @@ WHERE name IN (
 ----
 
 For every iteration of the loop except the last one, `forloop.last` returns false.
-Therefore, the value in the `unless` statement--a comma--gets added to your query after every name except the last one.
+Therefore, the value in the `unless` statement-- a comma-- gets added to your query after every name except the last one.
 
 ////
 This link:https://app.mode.com/benn/reports/a1a90160334c/runs/f98a3c7657cf/query[query,window=_blank] contains two examples of a loop.
@@ -318,80 +319,80 @@ We've also added some {product}-specific keyboard shortcuts:
 | Action | Mac | PC
 
 | Run query
-|  `⌘` + `Return`
-|  `Ctrl` + `Enter`
+|  kbd:[`⌘`] + kbd:[`Return`]
+|  kbd:[`Ctrl`] + kbd:[`Enter`]
 
 | Save query
-|  `⌘` + `S`
-|  `Ctrl` + `S`
+|  kbd:[`⌘`] + kbd:[`S`]
+|  kbd:[`Ctrl`] + kbd:[`S`]
 
 | Switch to Report Builder
-|  `Ctrl` + `I`
-|  `Alt` + `I`
+|  kbd:[`Ctrl`] + kbd:[`I`]
+|  kbd:[`Alt`] + kbd:[`I`]
 
 | Indent
-|  `Tab`
-|  `Tab`
+|  kbd:[`Tab`]
+|  kbd:[`Tab`]
 
 | Outdent
-|  `Shift` + `Tab`
-|  `Shift` + `Tab`
+|  kbd:[`Shift`] + kbd:[`Tab`]
+|  kbd:[`Shift`] + kbd:[`Tab`]
 
 | Add multi-cursor above
-|  `Ctrl` + `Option` + `↑`
-|  `Ctrl` + `Alt` + `↑`
+|  kbd:[`Ctrl`] + kbd:[`Option`] + kbd:[`↑`]
+|  kbd:[`Ctrl`] + kbd:[`Alt`] + kbd:[`↑`]
 
 | Add multi-cursor below
-|  `Ctrl` + `Option` + `↓`
-|  `Ctrl` + `Alt` + `↓`
+|  kbd:[`Ctrl`] + kbd:[`Option`] + kbd:[`↓`]
+|  kbd:[`Ctrl`] + kbd:[`Alt`] + kbd:[`↓`]
 
 | Undo
-|  `⌘` + `Z`
-|  `Ctrl` + `Z`
+|  kbd:[`⌘`] + kbd:[`Z`]
+|  kbd:[`Ctrl`] + kbd:[`Z`]
 
 | Redo
-|  `⌘` + `Y`
-|  `Ctrl` + `Y`
+|  kbd:[`⌘`] + kbd:[`Y`]
+|  kbd:[`Ctrl`] + kbd:[`Y`]
 
 | Toggle comment
-|  `⌘` + `/`
-|  `Ctrl` + `/`
+|  kbd:[`⌘`] + kbd:[`/`]
+|  kbd:[`Ctrl`] + kbd:[`/`]
 
 | Change to lower case
-|  `Ctrl` + `Shift` + `U`
-|  `Ctrl` + `Shift` + `U`
+|  kbd:[`Ctrl`] + kbd:[`Shift`] + kbd:[`U`]
+|  kbd:[`Ctrl`] + kbd:[`Shift`] + kbd:[`U`]
 
 | Change to upper case
-|  `Ctrl` + `U`
-|  `Ctrl` + `U`
+|  kbd:[`Ctrl`] + kbd:[`U`]
+|  kbd:[`Ctrl`] + kbd:[`U`]
 
 | Fold selection
-|  `⌘` + `F1`
-|  `Ctrl` + `F1`
+|  kbd:[`⌘`] + kbd:[`F1`]
+|  kbd:[`Ctrl`] + kbd:[`F1`]
 
 | Unfold
-|  `⌘` + `Shift` + `F1`
-|  `Ctrl` + `Shift` + `F1`
+|  kbd:[`⌘`] + kbd:[`Shift`] + kbd:[`F1`]
+|  kbd:[`Ctrl`] + kbd:[`Shift`] + kbd:[`F1`]
 
 | Find
-|  `⌘` + `F`
-|  `Ctrl` + `F`
+|  kbd:[`⌘`] + kbd:[`F`]
+|  kbd:[`Ctrl`] + kbd:[`F`]
 
 | Replace
-|  `⌘` + `Option` + `F`
-|  `Ctrl` + `H`
+|  kbd:[`⌘`] + kbd:[`Option`] + kbd:[`F`]
+|  kbd:[`Ctrl`] + kbd:[`H`]
 
 | Find next
-|  `⌘` + `G`
-|  `Ctrl` + `K`
+|  kbd:[`⌘`] + kbd:[`G`]
+|  kbd:[`Ctrl`] + kbd:[`K`]
 
 | Find previous
-|  `⌘ + Shift + G`
-|  `Ctrl` + `Shift` + `K`
+|  kbd:[`⌘`] + kbd:[`Shift`] + kbd:[`G`]
+|  kbd:[`Ctrl`] + kbd:[`Shift`] + kbd:[`K`]
 
 | Open autocomplete
-|  `Ctrl` + `Space`
-|  `Ctrl` + `Space`
+|  kbd:[`Ctrl`] + kbd:[`Space`]
+|  kbd:[`Ctrl`] + kbd:[`Space`]
 |===
 
 === Selection
@@ -400,44 +401,44 @@ We've also added some {product}-specific keyboard shortcuts:
 | Action | Mac | PC
 
 | Select All
-|  `⌘` + `A`
-|  `Ctrl` + `A`
+|  kbd:[`⌘`] + kbd:[`A`]
+|  kbd:[`Ctrl`] + kbd:[`A`]
 
 | Select left
-|  `Shift` + `←`
-|  `Shift` + `←`
+|  kbd:[`Shift`] + kbd:[`←`]
+|  kbd:[`Shift`] + kbd:[`←`]
 
 | Select right
-|  `Shift` + `→`
-|  `Shift` + `→`
+|  kbd:[`Shift`] + kbd:[`→`]
+|  kbd:[`Shift`] + kbd:[`→`]
 
 | Select word left
-|  `Option` + `Shift` + `←`
-|  `Ctrl` + `Shift` + `←`
+|  kbd:[`Option`] + kbd:[`Shift`] + kbd:[`←`]
+|  kbd:[`Ctrl`] + kbd:[`Shift`] + kbd:[`←`]
 
 | Select word right
-|  `Option` + `Shift` + `→`
-|  `Ctrl` + `Shift` + `→`
+|  kbd:[`Option`] + kbd:[`Shift`] + kbd:[`→`]
+|  kbd:[`Ctrl`] + kbd:[`Shift`] + kbd:[`→`]
 
 | Select to line start
-|  `⌘` + `Shift` + `←`
-|  `Alt` + `Shift` + `←`
+|  kbd:[`⌘`] + kbd:[`Shift`] + kbd:[`←`]
+|  kbd:[`Alt`] + kbd:[`Shift`] + kbd:[`←`]
 
 | Select to line end
-|  `⌘` + `Shift` + `→`
-|  `Alt` + `Shift` + `→`
+|  kbd:[`⌘`] + kbd:[`Shift`] + kbd:[`→`]
+|  kbd:[`Alt`] + kbd:[`Shift`] + kbd:[`→`]
 
 | Select up
-|  `Shift` + `↑`
-|  `Shift` + `↑`
+|  kbd:[`Shift`] + kbd:[`↑`]
+|  kbd:[`Shift`] + kbd:[`↑`]
 
 | Select down
-|  `Shift` + `↓`
-|  `Shift` + `↓`
+|  kbd:[`Shift`] + kbd:[`↓`]
+|  kbd:[`Shift`] + kbd:[`↓`]
 
 | Duplicate selection
-|  `⌘` + `Shift` + `D`
-|  `Ctrl` + `Shift` + `D`
+|  kbd:[`⌘`] + kbd:[`Shift`] + kbd:[`D`]
+|  kbd:[`Ctrl`] + kbd:[`Shift`] + kbd:[`D`]
 |===
 
 === Go to
@@ -446,36 +447,36 @@ We've also added some {product}-specific keyboard shortcuts:
 | Action | Mac | PC
 
 | Go to word left
-|  `Option` + `←`
-|  `Ctrl` + `←`
+|  kbd:[`Option`] + kbd:[`←`]
+|  kbd:[`Ctrl`] + kbd:[`←`]
 
 | Go to word right
-|  `Option` + `→`
-|  `Ctrl` + `→`
+|  kbd:[`Option`] + kbd:[`→`]
+|  kbd:[`Ctrl`] + kbd:[`→`]
 
 | Go line up
-|  `Ctrl` + `P`
-|  `↑`
+|  kbd:[`Ctrl`] + kbd:[`P`]
+|  kbd:[`↑`]
 
 | Go line down
-|  `Ctrl` + `N`
-|  `↓`
+|  kbd:[`Ctrl`] + kbd:[`N`]
+|  kbd:[`↓`]
 
 | Go to line start
-|  `⌘` + `←`
-|  `Alt` + `←`
+|  kbd:[`⌘`] + kbd:[`←`]
+|  kbd:[`Alt`] + kbd:[`←`]
 
 | Go to line end
-|  `⌘` + `Shift` + `←`
-|  `Alt` + `→`
+|  kbd:[`⌘`] + kbd:[`Shift`] + kbd:[`←`]
+|  kbd:[`Alt`] + kbd:[`→`]
 
 | Go to start
-|  `⌘` + `↑`
-|  `Ctrl` + `Home`
+|  kbd:[`⌘`] + kbd:[`↑`]
+|  kbd:[`Ctrl`] + kbd:[`Home`]
 
 | Go to end
-|  `⌘` + `↓`
-|  `Ctrl` + `End`
+|  kbd:[`⌘`] + kbd:[`↓`]
+|  kbd:[`Ctrl`] + kbd:[`End`]
 |===
 
 === Line operations
@@ -484,40 +485,40 @@ We've also added some {product}-specific keyboard shortcuts:
 | Action | Mac | PC
 
 | Remove line
-|  `⌘` + `D`
-|  `Ctrl` + `D`
+|  kbd:[`⌘`] + kbd:[`D`]
+|  kbd:[`Ctrl`] + kbd:[`D`]
 
 | Copy lines down
-|  `Option` + `Shift` + `↓`
-|  `Alt` + `Shift` + `↓`
+|  kbd:[`Option`] + kbd:[`Shift`] + kbd:[`↓`]
+|  kbd:[`Alt`] + kbd:[`Shift`] + kbd:[`↓`]
 
 | Copy lines up
-|  `Option` + `Shift` + `↑`
-|  `Alt` + `Shift` + `↑`
+|  kbd:[`Option`] + kbd:[`Shift`] + kbd:[`↑`]
+|  kbd:[`Alt`] + kbd:[`Shift`] + kbd:[`↑`]
 
 | Move lines down
-|  `Option` + `↓`
-|  `Alt` + `↓`
+|  kbd:[`Option`] + kbd:[`↓`]
+|  kbd:[`Alt`] + kbd:[`↓`]
 
 | Move lines up
-|  `Option` + `↑`
-|  `Alt` + `↑`
+|  kbd:[`Option`] + kbd:[`↑`]
+|  kbd:[`Alt`] + kbd:[`↑`]
 
 | Remove to line end
-|  `Ctrl` + `K`
+|  kbd:[`Ctrl`] + kbd:[`K`]
 |
 
 | Remove to line start
-|  `⌘` + `Backspace`
-|  `Alt` + `Backspace`
+|  kbd:[`⌘`] + kbd:[`Backspace`]
+|  kbd:[`Alt`] + kbd:[`Backspace`]
 
 | Remove word left
-|  `Option` + `Backspace`
-|  `Ctrl` + `Backspace`
+|  kbd:[`Option`] + kbd:[`Backspace`]
+|  kbd:[`Ctrl`] + kbd:[`Backspace`]
 
 | Remove word right
-|  `Option` + `Delete`
-|  `Ctrl` + `Delete`
+|  kbd:[`Option`] + kbd:[`Delete`]
+|  kbd:[`Ctrl`] + kbd:[`Delete`]
 |===
 
 [#faqs]
