@@ -5,6 +5,7 @@
 :page-layout: default-cloud
 :description: How to create, duplicate, delete, archive, and move Reports in Analyst Studio.
 :ogdescription: How to create, duplicate, delete, archive, and move Reports in Analyst Studio.
+:experimental:
 :path: /articles/organizing-reports
 :page-aliases: /analyst-studio/organizing-reports.adoc
 :product: Analyst Studio

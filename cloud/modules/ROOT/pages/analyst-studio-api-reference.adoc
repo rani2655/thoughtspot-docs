@@ -38,7 +38,7 @@ WARNING: Remember to store your API token and password securely. Do not expose t
 
 Only admins are able to create Workspace tokens.
 You can create as many API access tokens as you need.
-To create one, navigate to your menu:Workspace Settings[ Default Settings  > API].
+To create one, navigate to your menu:Workspace Settings[Default Settings > API].
 Click the "`gear`" icon and select *Create new API token*. You will be prompted to add a display name and save the token.
 
 The credentials are comprised of two parts:

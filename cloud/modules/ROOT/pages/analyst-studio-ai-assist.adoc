@@ -2,6 +2,7 @@
 :categories: ["Query and analyze data"]
 :categories_weight: 9
 :date: 2022-12-05
+:experimental:
 :description: Generate SQL using AI assistance.
 :ogdescription: Generate SQL using AI assistance.
 :page-layout: default-cloud
@@ -21,11 +22,11 @@ image::AI-assist-example.gif[AI Assist pane]
 
 * Write and run your SQL in the editor on the left as you would normally.
 * Incorporate natural language into your edits by adding a special AI comment type via the `--!` symbol combination.
-* When you're ready, generate new SQL on the right by clicking the Generate button (`Shift + Opt/Alt + N`).
+* When you're ready, generate new SQL on the right by clicking the Generate button (kbd:[`Shift`] + kbd:[`Opt`]/kbd:[`Alt`] + kbd:[`N`]).
 +
 NOTE: When you generate SQL, {product} pulls the currently selected warehouse's name, column names, and data types for all tables explicitly referenced in your SQL, and sends them and your SQL edits to OpenAI for context. {product} does **not** share any sample column values.
 
-* Once the generated code returns, you can compare it with your original code, insert the SQL in place of your original edits (`Shift + Opt/Alt + I`), or copy and paste manually as needed.
+* Once the generated code returns, you can compare it with your original code, insert the SQL in place of your original edits (kbd:[`Shift`] + kbd:[`Opt`]/kbd:[`Alt`] + kbd:[`I`]), or copy and paste manually as needed.
 Alternatively, you can revise your edits on the left and regenerate.
 
 === Integrating natural language into your edits

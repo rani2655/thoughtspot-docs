@@ -8,6 +8,7 @@
 :page-aliases: /analyst-studio/notebook.adoc
 :path: /articles/notebook
 :product: Analyst Studio
+:experimental:
 
 == Overview
 
@@ -632,36 +633,36 @@ You may now use any of the methods or functionality included in the library in s
 | Action | Mac | PC
 
 | Edit selected cell
-| `Return`
-| `Enter`
+| kbd:[`Return`]
+| kbd:[`Enter`]
 
 | Run cell
-| `Shift`+`Return`
-| `Shift`+`Enter`
+| kbd:[`Shift`] + kbd:[`Return`]
+| kbd:[`Shift`] + kbd:[`Enter`]
 
 | Select cell above
-| `K` or `↑`
-| `K` or `↑`
+| kbd:[`K`] or kbd:[`↑`]
+| kbd:[`K`] or kbd:[`↑`]
 
 | Select cell below
-| `J` or `↓`
-| `J` or `↓`
+| kbd:[`J`] or kbd:[`↓`]
+| kbd:[`J`] or kbd:[`↓`]
 
 | Insert cell above
-| `A`
-| `A`
+| kbd:[`A`]
+| kbd:[`A`]
 
 | Insert cell below
-| `B`
-| `B`
+| kbd:[`B`]
+| kbd:[`B`]
 
 | Move cell above
-| `Shift` + `Option` + `↑`
-| `Shift` + `Alt` + `↑`
+| kbd:[`Shift`] + kbd:[`Option`] + kbd:[`↑`]
+| kbd:[`Shift`] + kbd:[`Alt`] + kbd:[`↑`]
 
 | Move cell below
-| `Shift` + `Option` + `↓`
-| `Shift` + `Alt` + `↓`
+| kbd:[`Shift`] + kbd:[`Option`] + kbd:[`↓`]
+| kbd:[`Shift`] + kbd:[`Alt`] + kbd:[`↓`]
 |===
 
 === Code editor
@@ -670,28 +671,28 @@ You may now use any of the methods or functionality included in the library in s
 | Action | Mac | PC
 
 | Code complete or indent
-| `Return`
-| `Enter`
+| kbd:[`Return`]
+| kbd:[`Enter`]
 
 | Select all
-| `⌘` + `A`
-| `Ctrl` + `A`
+| kbd:[`⌘`] + kbd:[`A`]
+| kbd:[`Ctrl`] + kbd:[`A`]
 
 | Undo
-|  `⌘` + `Z`
-|  `Ctrl` + `Z`
+|  kbd:[`⌘`] + kbd:[`Z`]
+|  kbd:[`Ctrl`] + kbd:[`Z`]
 
 | Redo
-|  `⌘` + `Y`
-|  `Ctrl` + `Y`
+|  kbd:[`⌘`] + kbd:[`Y`]
+|  kbd:[`Ctrl`] + kbd:[`Y`]
 
 | Run cell
-|  `⌘` + `Enter`
-|  `Ctrl` + `Enter`
+|  kbd:[`⌘`] + kbd:[`Enter`]
+|  kbd:[`Ctrl`] + kbd:[`Enter`]
 
 | Insert cell below
-|  `Option` + `Enter`
-|  `Alt` + `Enter`
+|  kbd:[`Option`] + kbd:[`Enter`]
+|  kbd:[`Alt`] + kbd:[`Enter`]
 |===
 
 == Python Notebooks secrets store
