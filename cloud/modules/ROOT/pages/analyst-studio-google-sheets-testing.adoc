@@ -5,6 +5,7 @@
 :description: Analyst Studio's Google Sheet integration allows users to connect to their individual Google Accounts to upload Google Sheet data directly into Datasets.
 :hide_from_nav: true
 :ogdescription: Google Sheets testing.
+:experimental:
 :page-layout: default-cloud
 :page-aliases: /analyst-studio/google-sheets-testing.adoc
 :path: /articles/google-sheets-testing
@@ -313,7 +314,7 @@ No, you can only select one Google Sheet tab to upload at a time, as Datasets ca
 [discrete]
 === *Q: What happens if I delete a Google Sheet Dataset?*
 
-The Dataset will be permanently removed from your Workspace, and any dependent Reports, Charts, or Calculated Fields will break.
+The Dataset will be permanently removed from your Workspace, and any dependent Reports, Charts, or calculated fields will break.
 
 [.bordered]
 image::4-delete-dataset.png[Delete Dataset confirmation]
@@ -328,6 +329,6 @@ Existing Datasets built on the connection will continue to use the last successf
 [discrete]
 === *Q: As an admin, what happens to existing Google Sheet Datasets if I disable the Google Sheets integration for my Workspace?*
 
-Disabling the Google Sheets integration will log out any Members currently connected to Google, and prevent them from re-connecting or creating new Datasets from Google Sheet data.
+Disabling the Google Sheets integration will log out any members currently connected to Google, and prevent them from re-connecting or creating new Datasets from Google Sheet data.
 
 Existing Datasets built via the Google Sheets integration will continue to use the last successful sync but won't be able to sync in new data, which could break existing refresh schedules.

@@ -6,6 +6,7 @@
 :ogdescription: Visualize your data in Visual Explorer.
 :page-layout: default-cloud
 :path: /articles/visual-explorer
+:experimental:
 :page-aliases: /analyst-studio/visual-explorer.adoc
 :product: Analyst Studio
 :jira: SCAL-224860
@@ -13,7 +14,7 @@
 == Getting started
 
 For those who want to explore their data visually, Visual Explorer is a more flexible and powerful alternative to our "`fixed view`" xref:analyst-studio-visualizations.adoc#built-in-charts-and-tables[Quick Charts].
-Inspired by the layered link:https://towardsdatascience.com/a-comprehensive-guide-to-the-grammar-of-graphics-for-effective-visualization-of-multi-dimensional-1f92b4ed4149[Grammar of Graphics,window=_blank], Visual Explorer provides an environment where you can create and configure your visualizations based on a rule set--a grammar, if you will.
+Inspired by the layered link:https://towardsdatascience.com/a-comprehensive-guide-to-the-grammar-of-graphics-for-effective-visualization-of-multi-dimensional-1f92b4ed4149[Grammar of Graphics,window=_blank], Visual Explorer provides an environment where you can create and configure your visualizations based on a rule set-- a grammar, if you will.
 Just like how in English, the word "`grammar`" has become synonymous with rules for the construction of readily interpretable sentences, Visual Explorer is built upon a framework that provides rules to construct readily interpretable graphics.
 
 [.bordered]
@@ -564,7 +565,7 @@ image::sort-vegif1.gif[Quick Sort Visual Explorer]
 [discrete]
 ==== Sorting by field
 
-This sorting method allows you to sort a discrete field in your visualization--it could be in Columns, Rows, or one of your Layer channels--by another continuous, aggregated value.
+This sorting method allows you to sort a discrete field in your visualization-- it could be in Columns, Rows, or one of your Layer channels-- by another continuous, aggregated value.
 The latter field does not need to be in your chart configuration.
 
 image::sort-vegif2.gif[Quick Sort Visual Explorer]
@@ -662,7 +663,7 @@ If you wish to change the numeric values within the pane, you'll have to do so s
 === Headers
 
 If you select a field that's #discrete#, you'll see that you'll be able to format its corresponding header.
-A field can only have either an axis or a header--it cannot have both.
+A field can only have either an axis or a header-- it cannot have both.
 
 [.bordered]
 image::headers-viz.jpeg[Headers]

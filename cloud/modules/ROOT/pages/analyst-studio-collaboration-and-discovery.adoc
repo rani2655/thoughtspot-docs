@@ -5,6 +5,7 @@
 :description: How to collaborate and discover Reports in Analyst Studio.
 :ogdescription: How to collaborate and discover Reports in Analyst Studio.
 :page-layout: default-cloud
+:experimental:
 :page-aliases: /analyst-studio/collaboration-and-discovery
 :path: /articles/collaboration-and-discovery
 :product: Analyst Studio
@@ -58,15 +59,15 @@ To delete a Report shortcut:
 
 == Search
 
-To easily navigate to Reports, Datasets, and Collections in {product}, click the magnifying glass icon in the top right to use the search bar, or use the keyboard shortcut (`Cmd/Ctrl+K`).
+To easily navigate to Reports, Datasets, and Collections in {product}, click the magnifying glass icon in the top right to use the search bar, or use the keyboard shortcut (kbd:[`Cmd`] / kbd:[`Ctrl`] + kbd:[`K`]).
 Search by title, description, or query keywords like column names to find the content you need.
 
 === Keyboard shortcuts
 
-* *Cmd/Ctrl + K*:  Opens search window.
+* Open the search window: kbd:[`Cmd`] / kbd:[`Ctrl`] + kbd:[`K`]
 * Use up/down arrow keys to navigate through search results.
-* **Cmd/Ctrl + Enter**: Opens result in a new tab.
-* *Enter*: Opens result in current tab.
+* Open result in a new tab: kbd:[`Cmd`] / kbd:[`Ctrl`] + kbd:[`Enter`]
+* Open result in current tab: kbd:[`Enter`]
 
 === Filtering search results
 

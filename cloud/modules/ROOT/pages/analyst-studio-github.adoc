@@ -4,6 +4,7 @@
 :date: 2019-03-13
 :description: An overview of Analyst Studio's GitHub sync.
 :ogdescription: An overview of Analyst Studio's GitHub sync.
+:experimental:
 :page-aliases: /analyst-studio/github.adoc
 :page-layout: default-cloud
 :path: /articles/github
