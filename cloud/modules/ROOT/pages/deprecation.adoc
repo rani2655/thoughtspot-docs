@@ -37,6 +37,24 @@ The 10.4.0.cl release of ThoughtSpot Cloud, targeted for November 2024 (GA), rem
 
 - Review Suggestions
 
+== Deprecated in 10.4.0.cl
+
+The 10.4.0.cl release of ThoughtSpot Cloud, targeted for November 2024 (GA), deprecates the following feature in the *Data workspace*. ThoughtSpot will remove this feature in a later release.
+
+- *+ Create new* > *Worksheet*
++
+Existing Worksheets continue to be available, but Worksheet creation is disabled by default. To enable Worksheet creation, you must contact your ThoughSpot administrator.
++
+You can migrate an individual Worksheet to a Model, by doing the following:
+
+. From the Data workspace page, open a Worksheet.
+. Select the More menu image:icon-more-10px.png[more menu], and then *Convert to Model*.
+
+Bulk migration of Worksheets to Models will be available in the 10.5.0.cl release. Contact {support-url} for details.
+
+
+
+
 == Deprecated in 10.1.0.cl
 
 The 10.1.0.cl release of ThoughtSpot Cloud, targeted for August 2024 (GA), deprecates the following features in the *Data workspace*. You can still use these features, but ThoughtSpot will remove these features in a later release.
