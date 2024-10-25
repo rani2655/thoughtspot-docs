@@ -56,7 +56,7 @@ The license it is distributed under and the source code attributions are listed 
 
 | request@2.85.0
 | Apache-2.0
-| link:ttps://github.com/request/request[https://github.com/request/request^]
+| link:https://github.com/request/request[https://github.com/request/request^]
 
 | request@2.88.0
 | Apache-2.0
