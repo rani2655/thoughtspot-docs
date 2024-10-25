@@ -149,7 +149,7 @@ ifdef::pendo-links[]
 [discrete]
 === Configuring color gradients [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
-// Naomi. JIRA: SCAL-171986. docs jira: SCAL-?
+// Naomi. JIRA: SCAL-171986. docs jira: SCAL-225582
 // PM: Manan. add image.
 
 Previously, you could only choose a single color to define a gradient in charts that support gradients -- geo heatmap, geo area, heatmap, and treemap charts. You can now control the low, mid, and high values and points to customize the gradient, and choose multiple colors for the gradient.
