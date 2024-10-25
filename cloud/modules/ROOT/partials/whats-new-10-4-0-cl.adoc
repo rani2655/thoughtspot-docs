@@ -48,12 +48,14 @@ Compact Livebaord headers are now available to all users and on by default. We h
 [.bordered]
 image:compact-header.png[Streamlined Liveboard header]
 
+////
 [#10-4-0-cl-coach]
 [discrete]
 === Sage Coach
 
 // Naomi. jira: SCAL-212242. docs jira: SCAL-?
 // PM: Alok, Anant
+////
 
 [#10-4-0-cl-version-control]
 [discrete]

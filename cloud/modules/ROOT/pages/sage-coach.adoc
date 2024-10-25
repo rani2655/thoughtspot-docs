@@ -5,24 +5,24 @@
 :page-layout: default-cloud
 :experimental:
 :description:
-:jira: SCAL-154204, SCAL-201299, SCAL-202890, SCAL-208773, SCAL-209578, SCAL-209705, SCAL-211072
+:jira: SCAL-154204, SCAL-201299, SCAL-202890, SCAL-208773, SCAL-209578, SCAL-209705, SCAL-211072, SCAL-212242
 
 // designed specifically for data professionals and analysts
 
 Sage Coach allows analysts to fine-tune the results of natural language search by examining and validating the feedback users give. Analysts can hand-select examples and pieces of feedback, and personalize Sage output for specific users and groups of users, or for all queries on the Worksheet of origin.
 
-NOTE: When you make a change to a Worksheet, ThoughtSpot now alerts you if this will affect any related query feedback. If you accept this and make the change, the feedback depending on that Worksheet is deleted.
+NOTE: When you make a change to a Worksheet, ThoughtSpot now alerts you if this will affect any related feedback. If you accept this and make the change, the feedback depending on that Worksheet is deleted.
 
 == Review user feedback
 
-You can review user feedback from the Data workspace, and determine whether it should apply to only that user’s queries, or to all queries on that Worksheet. Use the fragment feedback modal to review the translation of individual natural language terms to search tokens, and use the query feedback modal to review feedback given to individual natural language queries.
+You can review user feedback from the Data workspace, and determine whether it should apply to only that user’s queries, or to all queries on that Worksheet. Use the business term feedback modal to review the translation of individual natural language terms to search tokens, and use the reference question feedback modal to review feedback given to individual natural language queries.
 
 
-=== Fragment feedback
+=== Business term feedback
 
 To give feedback on specific terms used in natural language queries, follow these steps:
 
-. Navigate to the *Data* tab and select *Sage feedback - Fragments* from the left menu.
+. Navigate to the *Data* tab and select *Sage - Business terms* from the left menu.
 +
 A list of all terms used in queries that users gave feedback for appears.
 +
@@ -51,11 +51,11 @@ If you choose to update the fragment, the term appears in editable mode in an AI
 image:sage-fragment-edit.png[Edit the query fragment]
 
 
-=== Query feedback
+=== Reference question feedback
 
 To give feedback on user queries, follow these steps:
 
-. Navigate to the *Data* tab and select *Sage feedback - Queries* from the left menu.
+. Navigate to the *Data* tab and select *Sage - Reference questions* from the left menu.
 +
 A list of the natural language queries for which users gave feedback appears. Note that you see the following fields:
 
