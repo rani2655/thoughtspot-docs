@@ -117,7 +117,7 @@ endif::pendo-links[]
 // PM: Manan? not GA.
 ////
 
-////
+
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#10-4-0-cl-control]
@@ -131,10 +131,12 @@ ifdef::pendo-links[]
 endif::[]
 
 // Naomi. jira: SCAL-210169. docs jira: SCAL-?
-// PM: Manan? not GA.
+// PM: Vaibhav? not GA.
+
+You can now control the default display mode for Answers (table or chart), as well as defining which chart types are available and default for your cluster. For example, you can set the default chart type for an Answer as a bar chart, and decide to remove pie charts from your cluster. To enable this feature, contact {support-url}.
 
 endif::free-trial-feature[]
-////
+
 
 // Analyst
 
@@ -245,6 +247,7 @@ ThoughtSpot introduces the ability for users to select whether they want to expo
 === _Other features and enhancements_
 
 // Data Engineer
+
 
 [#10-4-0-cl-models]
 [discrete]
