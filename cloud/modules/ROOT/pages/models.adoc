@@ -155,11 +155,8 @@ To view a knowledge card, do the following:
 . Click the knowledge card button image:knowledge-card-button.png[knowledge card button,width="30px"].
 . Click a table or column.
 +
+[.bordered]
 image::model-knowledge-card.png[]
-
-
-
-
 
 [#role-playing-dimensions]
 == Role-playing dimensions
