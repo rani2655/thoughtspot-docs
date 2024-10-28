@@ -171,12 +171,14 @@ endif::free-trial-feature[]
 // PM: Rahul PJP. only for Apple.
 ////
 
+////
 [#10-4-0-cl-dataset]
 [discrete]
 === Dataset integration for Analyst Studio
 
 // Naomi. jira: SCAL-219701. docs jira: SCAL-?
 // PM: Shruthi. waiting for info.
+////
 
 [#10-4-0-cl-parameters]
 [discrete]
