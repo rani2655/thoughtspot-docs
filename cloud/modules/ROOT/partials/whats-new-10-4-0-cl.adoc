@@ -59,18 +59,19 @@ endif::pendo-links[]
 
 endif::free-trial-feature[]
 
+////
 [#10-4-0-cl-header]
 [discrete]
 === Compact Liveboard header
 
 // Naomi – jira: SCAL-220304. docs jira: SCAL-226578, SCAL-?
-// PM: Dilip
+// PM: Dilip. Still EA in 10.4.
 
 Compact Liveboard headers are now available to all users and on by default. We have streamlined the design of Liveboard headers to ensure maximum visibility of Liveboard visualizations no matter the size of the screen.
 
 [.bordered]
 image:compact-header.png[Streamlined Liveboard header]
-
+////
 ////
 [#10-4-0-cl-coach]
 [discrete]
