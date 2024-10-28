@@ -1,11 +1,11 @@
 = Create Models
-:last_updated: 5/13/2024
+:last_updated: 10/28/2024
 :linkattrs:
 :experimental:
 :page-layout: default-cloud-early-access
 :description: Models are logical views created on top of a more complex data model, to enable business users to more easily consume data.
 :model: Model
-:jira: SCAL-158357, SCAL-194041 (9.10.5 -drag to create joins), SCAL-194038 (9.10.5 - bulk edit column properties). SCAL-189664 (remove spotapps - removed from image in step 3 of creating a model. SCAL-202208 (sort and filter in columns grid - 9.12.0.cl), SCAL-203404 (model filters limit - 9.12.0.cl)
+:jira: SCAL-158357, SCAL-194041 (9.10.5 -drag to create joins), SCAL-194038 (9.10.5 - bulk edit column properties). SCAL-189664 (remove spotapps - removed from image in step 3 of creating a model. SCAL-202208 (sort and filter in columns grid - 9.12.0.cl), SCAL-203404 (model filters limit - 9.12.0.cl), SCAL-221549 (knowledge cards - 10.4.0.cl)
 
 == Introducing Models
 
@@ -60,8 +60,6 @@ To create a data model:
 . Select *Model*.
 +
 image::model_choose.png[Choose how to model your data]
-
-
 
 . Choose how you want to model your data, using one of the following options:
 .. To create your own model, select *Build your own with cloud data* and click *Next*.
@@ -147,6 +145,18 @@ When you navigate back to the Worksheet page, your new {model} name appears in t
 +
 NOTE: Even though the page currently only uses the term _Worksheet_, it does show both Worksheets and Models. Any models will appear in the list of Worksheets.
 
+[#knowledge-cards]
+== Knowledge cards
+
+With knowledge cards, you can see more detail about tables and columns before you add them to your Model.
+
+To view a knowledge card, do the following:
+
+. Click the knowledge card button image:knowledge-card-button.png[knowledge card button,width="30px"].
+. Click a table or column.
++
+[.bordered]
+image::model-knowledge-card.png[]
 
 [#role-playing-dimensions]
 == Role-playing dimensions
