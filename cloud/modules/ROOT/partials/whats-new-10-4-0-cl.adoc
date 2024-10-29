@@ -219,7 +219,7 @@ ThoughtSpot introduces pivot table summary calculations derived directly from th
 ////
 
 
-
+////
 [#10-4-0-cl-liveboard]
 [discrete]
 === Liveboard schedules available to all users
@@ -229,7 +229,8 @@ All ThoughtSpot users can now see all the schedules they have created or are sub
 image::LB-schedules.png[Liveboard schedules]
 
 // Mary. jira: SCAL-220306. docs jira: SCAL-?
-// PM: Dilip. clarify which parts are actually new, make clear it's only in the new homepage experience. make it clear you no longer need liveboard schedule privileges. can they remove themselves from a schedule someone else set up?
+// PM: Dilip. No doc required. Internal changes only in 10.4 - remains the same as 10.3 for the customer.
+////
 
 ////
 [#10-4-0-cl-schedule]
@@ -238,19 +239,18 @@ image::LB-schedules.png[Liveboard schedules]
 ThoughtSpot introduces an updated Liveboard schedules UI. The new UI includes the list of filters and parameters when a view is selected.
 // Mary. jira: SCAL-219879. docs jira: SCAL-?
 // PM: Dilip
-//Dilip confirmed that there are no additional customer facing changes made as part of this in 10.4 (back end).
+//Dilip confirmed that there are no additional customer facing changes made as part of this in 10.4 (internal only - same as 10.3 for customers).
 ////
 
 [#10-4-0-cl-sync]
 [discrete]
 === ThoughtSpot Sync: send full image of Liveboard to Slack
-ThoughtSpot introduces the ability for users to select whether they want to export a complete Liveboard as a PDF or a PNG image of the first page when creating a new sync pipeline.
+ThoughtSpot introduces the ability for users to choose to export a Liveboard as a PDF, or a PNG image when creating a new sync pipeline. PDFs include the complete Liveboard. PNG images are of the first page of the Liveboard.
 To enable this feature, contact {support-url}.
 [.bordered]
 image::LB-image-slack.png[Liveboard image]
 // Mary. jira: SCAL-224070. docs jira: SCAL-229753
 // PM: Aaghran
-// add image of selection in pipeline setup? change run-on sentence.
 
 '''
 [#secondary-10-4-0-cl]
@@ -344,7 +344,7 @@ We made the following changes to permissions regarding version control:
 === Cloud Data Warehouse authentication when Liveboard has mandatory filters
 ThoughtSpot prompts users to authenticate when they open a Liveboard with a mandatory filter applied. Once a user is authenticated, they will see the values in the mandatory filter when they return to the Liveboard. To enable this feature, contact {support-url}.
 // Mary. jira: SCAL-218162. docs jira: SCAL-?
-// PM: Dilip. No doc needed per Dilip.
+// PM: Dilip. No doc needed for 10.4 per Dilip.
 ////
 
 [#10-4-0-cl-column]
@@ -385,6 +385,33 @@ NOTE: You can no longer view objects across all connections. You must filter by 
 // PM: Samridh. waiting on info.
 
 // IT/ Ops Engineer
+
+[#10-4-0-cl-orgs]
+[discrete]
+=== Org-specific URLs
+endif::[]
+ifdef::pendo-links[]
+[#10-4-0-cl-orgs]
+[discrete]
+=== Org-specific URLs
+endif::[]
+
+// Mary. JIRA: SCAL-202402. docs JIRA: SCAL-212285
+// PM: Aashica
+
+ThoughtSpot introduces Org-specific URLs. URLs in emails now include Org context so that users are taken directly to the correct Liveboard in the correct Org even if they belong to multiple Orgs.
+You can also move between different browser tabs that point to different Orgs.
+
+////
+For more information, see
+ifndef::pendo-links[]
+xref:orgs-overview.adoc[Multi-tenancy with Orgs].
+endif::[]
+ifdef::pendo-links[]
+xref:orgs-overview.adoc[Multi-tenancy with Orgs,window=_blank].
+endif::[]
+////
+endif::free-trial-feature[]
 
 ////
 [#10-4-0-cl-change]
