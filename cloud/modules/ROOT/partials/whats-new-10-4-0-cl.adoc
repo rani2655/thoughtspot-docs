@@ -14,13 +14,7 @@ endif::free-trial-feature[]
 
 // Business User
 
-// [#10-4-0-cl-training]
-// [discrete]
-// === Copilot Worksheet feedback training
-//When analysts create a worksheet in Copilot, it is imperative that they provide sufficient feedback to train the system before users start evaluating it. The Copilot training module is designed to help analysts improve the system’s ability to give accurate and reliable responses to business queries.
-// Mary. jira: SCAL-217046. docs jira: SCAL-?
-// PM: Anant
-// This is part of the first release of Spotter, and covered in the previous blurb
+
 
 
 ifndef::free-trial-feature[]
@@ -180,34 +174,6 @@ endif::free-trial-feature[]
 // PM: Shruthi. waiting for info.
 ////
 
-////
-[#10-4-0-cl-parameters]
-[discrete]
-=== Publishing using Parameters
-
-// Mary. jira: SCAL-179358. docs jira: SCAL-?
-// PM: Aashica
-//No doc required - design only
-////
-
-////
-[#10-4-0-cl-pivot]
-[discrete]
-=== Pivot table summary calculations
-ThoughtSpot introduces pivot table summary calculations derived directly from the results of the table data. Any changes to the table data due to filters or joins are now reflected in the summary calculations.
-// Mary. jira: SCAL-177827. docs jira: SCAL-?
-// PM: Damian. No doc required for 10.4 - bug fix
-////
-
-
-////
-[#10-4-0-cl-template]
-[discrete]
-=== Template variable store
-
-// Mary. jira: SCAL-179058. docs jira: SCAL-?
-// PM: ? requested clarification about PM and potential doc requirement from Ashok. Ashok confirmed no doc required for 10.4.0.cl.
-////
 
 ////
 [#10-4-0-cl-kpi]
@@ -218,29 +184,6 @@ ThoughtSpot introduces pivot table summary calculations derived directly from th
 // PM: Rahul PJP? not customer-facing.
 ////
 
-
-////
-[#10-4-0-cl-liveboard]
-[discrete]
-=== Liveboard schedules available to all users
-All ThoughtSpot users can now see all the schedules they have created or are subscribed to across various Liveboards in *Liveboard schedules*. Previously, users had to go to the *Manage schedules* section of every Liveboard to understand the schedules they were receiving from ThoughtSpot.
-
-[.bordered]
-image::LB-schedules.png[Liveboard schedules]
-
-// Mary. jira: SCAL-220306. docs jira: SCAL-?
-// PM: Dilip. No doc required. Internal changes only in 10.4 - remains the same as 10.3 for the customer.
-////
-
-////
-[#10-4-0-cl-schedule]
-[discrete]
-=== Liveboard schedule modal UI UX revamp
-ThoughtSpot introduces an updated Liveboard schedules UI. The new UI includes the list of filters and parameters when a view is selected.
-// Mary. jira: SCAL-219879. docs jira: SCAL-?
-// PM: Dilip
-//Dilip confirmed that there are no additional customer facing changes made as part of this in 10.4 (internal only - same as 10.3 for customers).
-////
 
 [#10-4-0-cl-sync]
 [discrete]
@@ -338,14 +281,7 @@ We made the following changes to permissions regarding version control:
 
 * We renamed the previous *Can manage version control* permission to *Can toggle version control for objects*. Users with this permission and edit access to a ThoughtSpot object can enable or disable version history for that object.
 
-////
-[#10-4-0-cl-auth]
-[discrete]
-=== Cloud Data Warehouse authentication when Liveboard has mandatory filters
-ThoughtSpot prompts users to authenticate when they open a Liveboard with a mandatory filter applied. Once a user is authenticated, they will see the values in the mandatory filter when they return to the Liveboard. To enable this feature, contact {support-url}.
-// Mary. jira: SCAL-218162. docs jira: SCAL-?
-// PM: Dilip. No doc needed for 10.4 per Dilip.
-////
+
 
 [#10-4-0-cl-column]
 [discrete]
@@ -422,24 +358,7 @@ endif::free-trial-feature[]
 // PM: Rahul PJP, not customer-facing
 ////
 
-////
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
-[#10-4-0-cl-sql]
-[discrete]
-=== Show charts SQL in query visualizer [.badge.badge-beta]#Beta#
-endif::[]
-ifdef::pendo-links[]
-[#10-4-0-cl-sql]
-[discrete]
-=== Show charts SQL in query visualizer [.badge.badge-beta-whats-new]#Beta#
-endif::[]
 
-// Mary – jira: SCAL-209689. docs jira: SCAL-?
-// PM: Damian - marked as no doc needed, waiting for clarification/confirmation from Damian. Confirmed no doc needed...still need clarification about why.
-
-endif::free-trial-feature[]
-////
 
 ifndef::free-trial-feature[]
 [discrete]
