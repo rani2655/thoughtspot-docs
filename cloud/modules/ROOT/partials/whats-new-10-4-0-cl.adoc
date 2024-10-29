@@ -180,20 +180,25 @@ endif::free-trial-feature[]
 // PM: Shruthi. waiting for info.
 ////
 
+////
 [#10-4-0-cl-parameters]
 [discrete]
 === Publishing using Parameters
 
 // Mary. jira: SCAL-179358. docs jira: SCAL-?
 // PM: Aashica
-//Waiting for confirmation of doc req from PM. Appears to be a design & planning epic.
+//No doc required - design only
+////
 
+////
 [#10-4-0-cl-pivot]
 [discrete]
 === Pivot table summary calculations
 ThoughtSpot introduces pivot table summary calculations derived directly from the results of the table data. Any changes to the table data due to filters or joins are now reflected in the summary calculations.
 // Mary. jira: SCAL-177827. docs jira: SCAL-?
-// PM: Damian. clarify what they mean by filter and join behavior
+// PM: Damian. No doc required for 10.4 - bug fix
+////
+
 
 ////
 [#10-4-0-cl-template]
@@ -224,7 +229,7 @@ All ThoughtSpot users can now see all the schedules they have created or are sub
 image::LB-schedules.png[Liveboard schedules]
 
 // Mary. jira: SCAL-220306. docs jira: SCAL-?
-// PM: Arpit. clarify which parts are actually new, make clear it's only in the new homepage experience. make it clear you no longer need liveboard schedule privileges. can they remove themselves from a schedule someone else set up?
+// PM: Dilip. clarify which parts are actually new, make clear it's only in the new homepage experience. make it clear you no longer need liveboard schedule privileges. can they remove themselves from a schedule someone else set up?
 
 ////
 [#10-4-0-cl-schedule]
@@ -233,14 +238,17 @@ image::LB-schedules.png[Liveboard schedules]
 ThoughtSpot introduces an updated Liveboard schedules UI. The new UI includes the list of filters and parameters when a view is selected.
 // Mary. jira: SCAL-219879. docs jira: SCAL-?
 // PM: Dilip
-//Waiting for clarification from Dilip about other changes. Will add image once confirmed.
+//Dilip confirmed that there are no additional customer facing changes made as part of this in 10.4 (back end).
 ////
 
 [#10-4-0-cl-sync]
 [discrete]
 === ThoughtSpot Sync: send full image of Liveboard to Slack
-ThoughtSpot introduces the ability for users to select whether they want to export a complete Liveboard as a PDF or only a PNG image of the first page when creating a new sync pipeline.
-// Mary. jira: SCAL-224070. docs jira: SCAL-?
+ThoughtSpot introduces the ability for users to select whether they want to export a complete Liveboard as a PDF or a PNG image of the first page when creating a new sync pipeline.
+To enable this feature, contact {support-url}.
+[.bordered]
+image::LB-image-slack.png[Liveboard image]
+// Mary. jira: SCAL-224070. docs jira: SCAL-229753
 // PM: Aaghran
 // add image of selection in pipeline setup? change run-on sentence.
 
@@ -330,12 +338,14 @@ We made the following changes to permissions regarding version control:
 
 * We renamed the previous *Can manage version control* permission to *Can toggle version control for objects*. Users with this permission and edit access to a ThoughtSpot object can enable or disable version history for that object.
 
+////
 [#10-4-0-cl-auth]
 [discrete]
 === Cloud Data Warehouse authentication when Liveboard has mandatory filters
 ThoughtSpot prompts users to authenticate when they open a Liveboard with a mandatory filter applied. Once a user is authenticated, they will see the values in the mandatory filter when they return to the Liveboard. To enable this feature, contact {support-url}.
 // Mary. jira: SCAL-218162. docs jira: SCAL-?
-// PM: Dilip. confirm if beta or EA. if OAuth is already set up, do they need to authenticate again?
+// PM: Dilip. No doc needed per Dilip.
+////
 
 [#10-4-0-cl-column]
 [discrete]
@@ -365,7 +375,7 @@ ThoughtSpot introduces a connection picker to the schema viewer. You can now use
 
 NOTE: You can no longer view objects across all connections. You must filter by a specific connection.
 // Mary. jira: SCAL-221312. docs jira: SCAL-?
-// PM: Samridh. add image.
+// PM: Samridh. add image. - No response from Samridh...remove for now?
 
 [#10-4-0-cl-join-key]
 [discrete]
@@ -399,7 +409,7 @@ ifdef::pendo-links[]
 endif::[]
 
 // Mary – jira: SCAL-209689. docs jira: SCAL-?
-// PM: Damian - marked as no doc needed, waiting for clarification/confirmation from Damian.
+// PM: Damian - marked as no doc needed, waiting for clarification/confirmation from Damian. Confirmed no doc needed...still need clarification about why.
 
 endif::free-trial-feature[]
 ////
