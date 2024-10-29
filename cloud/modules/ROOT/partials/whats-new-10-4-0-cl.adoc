@@ -248,9 +248,12 @@ We made the following changes to permissions regarding version control:
 === Data panel column groups
 
 // Naomi. jira: SCAL-224017, SCAL-210554. docs jira: SCAL-210659
-// PM: Damian. confirm if beta. confirm if enabling or disabling alphabetic sorting will turn A-Z sorting back on. get a screenshot with custom group columns (named custom column group) with emphasis box.
+// PM: Damian. confirm if enabling or disabling alphabetic sorting will turn A-Z sorting back on. get a screenshot with custom group columns (named custom column group) with emphasis box.
 
 Analysts can now set definitions in a Worksheet or Model's TML file to group columns together in the Data panel for Search Data. You can also use TML properties to enable or disable alphabetical sorting of the groups.
+
+[.bordered]
+image::column-groups.png[Columns grouped by Customers, Dates, and Orders]
 
 
 [#10-4-0-cl-custom]
