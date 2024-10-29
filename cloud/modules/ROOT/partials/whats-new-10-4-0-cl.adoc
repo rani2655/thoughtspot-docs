@@ -250,7 +250,7 @@ We made the following changes to permissions regarding version control:
 // Naomi. jira: SCAL-224017, SCAL-210554. docs jira: SCAL-210659
 // PM: Damian. confirm if beta. confirm if enabling or disabling alphabetic sorting will turn A-Z sorting back on. get a screenshot with custom group columns (named custom column group) with emphasis box.
 
-Analysts can now set definitions in a Worksheet or Model's TML file to group columns together in the Data panel for Search Data. You can also use TML properties to enable or disable alphabetical sorting of the groups. To enable this feature, contact {support-url}.
+Analysts can now set definitions in a Worksheet or Model's TML file to group columns together in the Data panel for Search Data. You can also use TML properties to enable or disable alphabetical sorting of the groups.
 
 
 [#10-4-0-cl-custom]
