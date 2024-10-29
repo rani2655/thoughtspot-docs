@@ -30,7 +30,7 @@ ifdef::pendo-links[]
 endif::[]
 
 // Naomi. jira: SCAL-223692, SCAL-222817. docs jira: SCAL-228500
-// PM: Sam Weick. add a gif. Zoom in and out, show spotter in home page, what the new conversational experience is, ask successive question, show the replaced terms, and show how to enter from a Liveboard.
+// PM: Sam Weick, Akshay. add a gif. Zoom in and out, show spotter in home page, what the new conversational experience is, ask successive question, show the replaced terms, and show how to enter from a Liveboard.
 
 Introducing Spotter, our new AI-powered, unified conversational search experience. This feature replaces the previous Sage search experience. When enabled, you can enter the Spotter interface from the search bar on the Home page, or by clicking *Spotter* on any visualization pinned to a Liveboard.
 
@@ -57,7 +57,7 @@ endif::free-trial-feature[]
 
 [#10-4-0-cl-visual]
 [discrete]
-=== Charts visual refresh
+=== Chart visualization enhancements
 
 // Naomi. jira: SCAL-222476. docs jira: SCAL-225755
 // PM: Vaibhav. add a gif.
@@ -106,9 +106,9 @@ ifdef::pendo-links[]
 endif::[]
 
 // Naomi. jira: SCAL-210169. docs jira: SCAL-?
-// PM: Vaibhav? not GA.
+// PM: Vaibhav? not GA. who decides and how do they make the change? image? admin feature. move below the fold.
 
-You can now control the default display mode for Answers (table or chart), as well as defining which chart types are available and default for your cluster. For example, you can set the default chart type for an Answer as a bar chart, and decide to remove pie charts from your cluster. To enable this feature, contact {support-url}.
+You can now control the default display mode for Answers (table or chart). You can also decide which chart types are available and default for your cluster. For example, you can set the default chart type for an Answer as a bar chart. You could also decide to remove pie charts from your cluster. To enable this feature, contact {support-url}.
 
 endif::free-trial-feature[]
 
@@ -129,7 +129,7 @@ endif::[]
 // Naomi. JIRA: SCAL-171986. docs jira: SCAL-225582
 // PM: Manan. add image.
 
-Previously, you could only choose a single color to define a gradient in charts that support gradients -- geo heatmap, geo area, heatmap, and treemap charts. You can now control the low, mid, and high values and points to customize the gradient, and choose multiple colors for the gradient.
+You can now choose multiple colors to define a gradient in charts that support gradients -- geo heatmap, geo area, heatmap, and treemap charts. You can control the low, mid, and high values, and numerical value points to customize the gradient.
 
 [.bordered]
 image:color-gradient.png[Edit the color gradient]
@@ -146,7 +146,7 @@ endif::free-trial-feature[]
 [#10-4-0-cl-sync]
 [discrete]
 === ThoughtSpot Sync: send full image of Liveboard to Slack
-ThoughtSpot introduces the ability for users to choose to export a Liveboard as a PDF, or a PNG image when creating a new sync pipeline. PDFs include the complete Liveboard. PNG images are of the first page of the Liveboard.
+ThoughtSpot introduces the ability for users to choose to export a Liveboard as a PDF or a PNG image when creating a new sync pipeline. PDFs include the complete Liveboard. PNG images are of the first page of the Liveboard.
 To enable this feature, contact {support-url}.
 [.bordered]
 image::LB-image-slack.png[Liveboard image]
