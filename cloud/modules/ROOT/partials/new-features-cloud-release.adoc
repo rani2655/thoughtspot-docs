@@ -16,12 +16,56 @@ For these instructions, see xref:ts-cloud-getting-started.adoc[Getting Started w
 [#10-4-0-cl-analyst]
 === For the Analyst
 
+// Naomi. JIRA: SCAL-171986. docs jira: SCAL-225582
+Configuring color gradients [.badge.badge-early-access-relnotes]#Early Access#::
+You can now choose multiple colors to define a gradient in charts that support gradients -- geo heatmap, geo area, heatmap, and treemap charts. You can control the low, mid, and high values, and numerical value points to customize the gradient.
+
 
 [#10-4-0-cl-business-user]
 === For the Business User
 
+// Naomi. jira: SCAL-223692, SCAL-222817. docs jira: SCAL-228500
+Spotter for Cloud [.badge.badge-early-access-relnotes]#Early Access#::
+Introducing Spotter, our new AI-powered, unified conversational search experience. This feature replaces the previous Sage search experience. When enabled, you can enter the Spotter interface from the search bar on the Home page, or by clicking *Spotter* on any visualization pinned to a Liveboard.
++
+You can ask successive questions to hone in on business insights, open a preview of the underlying data, drill down, edit or undo changes to the resulting AI-generated Answers, see what terms Spotter changed from question to question, and submit feedback to train Spotter's interpretations. Analysts can also coach Spotter on how to interpret certain terms from the Admin page. To enable this feature, contact your administrator.
+
+// Naomi. jira: SCAL-222476. docs jira: SCAL-225755
+Chart visualization enhancements::
+We made the following changes to visualizations on Liveboards:
+
+* You can now hover over items in a visualization's legend to highlight the data that corresponds to that column.
+* You can hover over a truncated legend to see the corresponding column name in a tooltip.
+* We improved the readability for the smallest size of Liveboard visualizations. Now, minimum-sized visualizations display only the chart, omitting the x- and y-axes and labels. You can hover over select data points to see the values.
+
 [#10-4-0-cl-data-engineer]
 === For the Data Engineer
+
+// Naomi. jira: SCAL-210169. docs jira: SCAL-?
+Control default and available chart types [.badge.badge-beta-relnotes]#Beta#::
+You can now control the default display mode for Answers (table or chart). You can also decide which chart types are available and default for your cluster. For example, you can set the default chart type for an Answer as a bar chart. You could also decide to remove pie charts from your cluster. To enable this feature, contact {support-url}.
+
+// Naomi. jira: SCAL-189319. docs jira: SCAL-228671
+ThoughtSpot Status [.badge.badge-beta-relnotes]#Beta#::
+Admin users can now navigate to the ThoughtSpot Status page to monitor the health of services on their cluster. We have updated the user interface to make it more user-friendly. The Status page displays the status of different ThoughtSpot services, like Authentication, Data Connections, Infrastructure Services, KPI Monitor, Search Data, Search Service, SpotIQ, Sync, and Spotter. The page also shares scheduled maintenance timelines, outage notifications, and incident reporting and updates.
++
+To access the status page, add `/\#/status` to the end of your cluster url (for example, `https://<clustername>.thoughtspot.cloud/#/status`). To enable this feature, contact {support-url}.
+
+// Naomi. jira: SCAL-202688. docs jira: SCAL-213195.
+Version control permissions::
+We made the following changes to permissions regarding version control:
+
+* Admin users can now assign the *Can set up version control* privilege to allow non-admin users to access the version control settings under *Admin > Application settings*, and to use Version Control REST v2 APIs.
+
+* We renamed the previous *Can manage version control* permission to *Can toggle version control for objects*. Users with this permission and edit access to a ThoughtSpot object can enable or disable version history for that object.
+
+// Naomi. jira: SCAL-224017, SCAL-210554. docs jira: SCAL-210659
+Data panel column groups::
+Analysts can now set definitions in a Worksheet or Model's TML file to group columns together in the Data panel for Search Data. You can also use TML properties to enable or disable alphabetical sorting of the groups.
+
+// Naomi. jira: SCAL-197812. docs jira: SCAL-224478
+Download custom calendar::
+In the *Create a custom calendar* interface, you can now set up a template calendar and download it as a CSV file with all columns, based on the values you inputted. You can then modify the file and share it with your ThoughtSpot administrator to upload it to your database. Once the CSV is uploaded to the database, you can set up the calendar by directly mapping the table.
 
 
 [#10-4-0-cl-it-ops]
