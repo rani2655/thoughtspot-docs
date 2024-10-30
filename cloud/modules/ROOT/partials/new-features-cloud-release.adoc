@@ -38,6 +38,9 @@ We made the following changes to visualizations on Liveboards:
 * You can hover over a truncated legend to see the corresponding column name in a tooltip.
 * We improved the readability for the smallest size of Liveboard visualizations. Now, minimum-sized visualizations display only the chart, omitting the x- and y-axes and labels. You can hover over select data points to see the values.
 
+// Naomi. docs jira: SCAL-229731
+Liveboard breakpoints:: We have updated the Liveboard breakpoints. Windows narrower than 639 pixels now display one column of visualizations. Windows wider than 639 pixels but narrower than 1033 pixels display two columns of visualizations.
+
 [#10-4-0-cl-data-engineer]
 === For the Data Engineer
 
