@@ -28,9 +28,6 @@ Liveboard schedule available to all users [.badge.badge-early-access-relnotes]#E
 
 ThoughtSpot introduces access to Liveboard schedules on the home page. Users can now see all Liveboard schedules that they are subscribed to in a new section on the home page. From this page, you can edit Liveboard schedules that you created. Administrators can edit the Liveboard schedule for all schedules from this page.
 +
-[.bordered]
-image::home-lb-schedule.png[]
-+
 For more information, see xref:thoughtspot-homepage.adoc[New home page and persona-based navigation].
 
 
