@@ -64,7 +64,7 @@ It will sum up the tally of cancelled orders and divide by the total number of r
 +
 TIP: To see the full list of functions {product} currently supports, open the panel on the right-hand side.
 +
-image:cal_fields_functions_list.png[]
+image:cal_fields_functions_list.png[Calculated fields functions list]
 
 . When you're done, hit *Apply* or *Done*.
 
@@ -764,7 +764,7 @@ The system will automatically re-calculate the values depending on your dimensio
 *_The corresponding formula for this window sum would be `WINDOW_SUM(SUM([field]), -3, 2)`._*
 
 [.bordered]
-image::cal-fields-window-function.png[]
+image::cal-fields-window-function.png[Calculated fields window function]
 
 [#calculated-field-component-types]
 === Calculated field component types

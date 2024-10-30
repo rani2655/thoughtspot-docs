@@ -59,9 +59,9 @@ xref:tags.adoc[Use tags to organize,window=_blank].
 endif::[]
 
 [.bordered]
-image::liveboards_manage_tags.png[]
+image::liveboards_manage_tags.png[Manage tags]
 [.bordered]
-image::tags-manage.png[]
+image::tags-manage.png[Manage tags modal]
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
@@ -96,7 +96,7 @@ endif::free-trial-feature[]
 You can now create alerts directly from the *Watchlist* on the home page.
 
 [.bordered]
-image::create-alert.png[]
+image::create-alert.png[Create alert]
 
 For more information, see xref:thoughtspot-one-homepage.adoc[Home page] and xref:monitor.adoc[Monitor Key Performance Indicators in your data].
 
@@ -225,7 +225,7 @@ endif::[]
 ThoughtSpot introduces access to Liveboard schedules on the home page. Users can now see all Liveboard schedules that they are subscribed to in a new section on the home page. From this page, you can edit Liveboard schedules that you created. Administrators can edit the Liveboard schedule for all schedules from this page.
 
 [.bordered]
-image::home-lb-schedule.png[]
+image::home-lb-schedule.png[Liveboard schedule on home page]
 endif::free-trial-feature[]
 
 For more information, see xref:thoughtspot-homepage.adoc[New home page and persona-based navigation].

@@ -18,7 +18,7 @@ ifndef::spotter[]
 . Open the *Connections* tab in the left navigation bar.
 endif::[]
 ifdef::spotter[]
-. Click the app switcher menu image:spotter-app-switcher.png[] and then click *{form-factor}*.
+. Click the app switcher menu image:spotter-app-switcher.png[Spotter app switcher] and then click *{form-factor}*.
 . On the left side of the screen, select *Manage data > Manage data sources*.
 . On the _Data workspace_ page, click *Connections*.
 endif::[]
@@ -51,4 +51,3 @@ See the xref:connections-presto-reference.adoc[Connection reference] for details
 > * xref:connections-presto-reference.adoc[Connection reference for {connection}]
 > * xref:10.3.0.cl@cloud:ROOT:connections-query-tags.adoc#tag-presto[ThoughtSpot query tags in Presto]
 > * xref:connections-presto-passthrough.adoc[]
-

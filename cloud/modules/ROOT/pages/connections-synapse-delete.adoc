@@ -17,7 +17,7 @@ ifndef::spotter[]
 . Select the *Connections* tab in the left navigation bar.
 endif::[]
 ifdef::spotter[]
-. Click the app switcher menu image:spotter-app-switcher.png[] and then click *{form-factor}*.
+. Click the app switcher menu image:spotter-app-switcher.png[Spotter app switcher] and then click *{form-factor}*.
 . On the left side of the screen, select *Manage data > Manage data sources*.
 . On the _Data workspace_ page, click *Connections*.
 endif::[]
@@ -44,4 +44,3 @@ Otherwise, go to the next step.
 > * xref:connections-synapse-reference.adoc[Connection reference for {connection}]
 > * xref:10.3.0.cl@cloud:ROOT:connections-query-tags.adoc#tag-synapse[ThoughtSpot query tags in Synapse]
 > * xref:connections-synapse-passthrough.adoc[]
-
