@@ -19,12 +19,12 @@ ifndef::spotter[]
 . Open the *Connections* tab in the left navigation bar, and select the {connection} tile. Alternatively, select *+ Create new* in the left navigation bar, select *Connection*, and select the {connection} tile.
 endif::[]
 ifdef::spotter[]
-. Click the app switcher menu image:spotter-app-switcher.png[] and then click *{form-factor}*.
+. Click the app switcher menu image:spotter-app-switcher.png[Spotter app switcher] and then click *{form-factor}*.
 . On the left side of the screen, select *Manage data > Add data source*.
 . On the _Add a data source_ page, click *Connect data*.
 +
 [.bordered]
-image::connection-spotter-set-up-new-connection.png[]
+image::connection-spotter-set-up-new-connection.png[Set up a new connection]
 endif::[]
 . Create a name for your connection and a description (optional), then select *Continue*.
 +
