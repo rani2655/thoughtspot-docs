@@ -78,11 +78,11 @@ To add an alert to a KPI on your watchlist, follow these steps:
 . Click the *Create alert* button on the KPI you want to add the alert to.
 +
 [.bordered]
-image::create-alert.png[]
+image::create-alert.png[Create alert]
 . On the *Create alert* page, under *Set up your alert* select either *Anomoly*, *Threshold*, or *Scheduled* and set the criteria for your alert.
 +
 [.bordered]
-image::create-alert2.png[]
+image::create-alert2.png[Set up your alert]
 . *Add subscribers* to your alert.
 .. Optionally, select *Add a custom message* to add a custom message to be sent to subscribers with the alert.
 . Review the *KPI query* and click *Create alert*.

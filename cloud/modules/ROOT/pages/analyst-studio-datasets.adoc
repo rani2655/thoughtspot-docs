@@ -200,14 +200,14 @@ Once you've created a Dataset and set a schedule, follow these steps to publish 
 . Click the blue *Publish* button in the upper right side of the top menu.
 +
 [.bordered]
-image::dataset-publish.png[]
+image::dataset-publish.png[Publish a Dataset]
 +
 NOTE: You can only publish Datasets you created.
 
 . In the *Publish to the Data workspace* window, enter the Dataset name and click *Publish*.
 +
 [.bordered]
-image::publish-workspace.png[]
+image::publish-workspace.png[Publish to Data workspace]
 
 . Your Dataset is published to ThoughtSpot as a table. You can access it from the Datasets section in the Data workspace.
 +
