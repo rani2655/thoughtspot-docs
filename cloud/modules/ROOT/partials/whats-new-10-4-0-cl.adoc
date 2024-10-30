@@ -169,7 +169,7 @@ endif::[]
 With knowledge cards, you can now see more detail about tables and columns before you add them to a Model. To view the knowledge card, click the knowledge card button image:knowledge-card-button.png[knowledge card button,width="30"], and then click the table or column. To enable this feature, contact your ThoughtSpot administrator.
 
 [.bordered]
-image::model-knowledge-card.png[]
+image::model-knowledge-card.png[Model knowledge card]
 
 endif::free-trial-feature[]
 
@@ -183,7 +183,7 @@ endif::free-trial-feature[]
 The joins tab for Worksheets and Models is now updated to match the join creation UI for Models.
 
 [.bordered]
-image::joins-tab-react.png[]
+image::joins-tab-react.png[Joins tab]
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
