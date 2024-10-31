@@ -34,7 +34,13 @@ endif::[]
 
 Introducing Spotter, our new AI-powered, unified conversational search experience. This feature replaces the previous Sage search experience. When enabled, you can enter the Spotter interface from the search bar on the Home page, or by clicking *Spotter* on any visualization pinned to a Liveboard.
 
-You can ask successive questions to hone in on business insights, open a preview of the underlying data, drill down, edit or undo changes to the resulting AI-generated Answers, see what terms Spotter changed from question to question, and submit feedback to train Spotter's interpretations. Analysts can also coach Spotter on how to interpret certain terms from the Admin page. To enable this feature, contact your administrator.
+You can ask successive questions to hone in on business insights, open a preview of the underlying data, drill down, edit or undo changes to the resulting AI-generated Answers, see what terms Spotter changed from question to question, and submit feedback to train Spotter's interpretations. Analysts can also coach Spotter on how to interpret certain terms from the Admin page. To enable this feature, contact your administrator. For more information, see
+ifndef::pendo-links[]
+xref:spotter.adoc[Spotter for Cloud].
+endif::[]
+ifdef::pendo-links[]
+xref:spotter.adoc[Spotter for Cloud,window=_blank].
+endif::[]
 
 ifndef::pendo-links[]
 +++
@@ -67,6 +73,14 @@ We made the following changes to visualizations on Liveboards:
 * You can now hover over items in a visualization's legend to highlight the data that corresponds to that column.
 * You can hover over a truncated legend to see the corresponding column name in a tooltip.
 * We improved the readability for the smallest size of Liveboard visualizations. Now, minimum-sized visualizations display only the chart, omitting the x- and y-axes and labels. You can hover over select data points to see the values.
+
+For more information, see
+ifndef::pendo-links[]
+xref:liveboard.adoc[Basic Liveboard usage].
+endif::[]
+ifdef::pendo-links[]
+xref:liveboard.adoc[Basic Liveboard usage,window=_blank].
+endif::[]
 
 ifndef::pendo-links[]
 +++
@@ -110,7 +124,13 @@ endif::[]
 // Naomi. JIRA: SCAL-171986. docs jira: SCAL-225582
 // PM: Manan. add image.
 
-You can now choose multiple colors to define a gradient in charts that support gradients -- geo heatmap, geo area, heatmap, and treemap charts. You can control the low, mid, and high values, and numerical value points to customize the gradient.
+You can now choose multiple colors to define a gradient in charts that support gradients -- geo heatmap, geo area, heatmap, and treemap charts. You can control the low, mid, and high values, and numerical value points to customize the gradient. For more information, see
+ifndef::pendo-links[]
+xref:chart-color-change.adoc[Change chart colors].
+endif::[]
+ifdef::pendo-links[]
+xref:chart-color-change.adoc[Change chart colors,window=_blank].
+endif::[]
 
 [.bordered]
 image:color-gradient.png[Edit the color gradient]
@@ -242,7 +262,13 @@ We made the following changes to permissions regarding version control:
 
 * We renamed the previous *Can manage version control* permission to *Can toggle version control for objects*. Users with this permission and edit access to a ThoughtSpot object can enable or disable version history for that object.
 
-
+For more information, see
+ifndef::pendo-links[]
+xref:git-version-control.adoc[Version control for Liveboards and Answers].
+endif::[]
+ifdef::pendo-links[]
+xref:git-version-control.adoc[Version control for Liveboards and Answers,window=_blank].
+endif::[]
 
 [#10-4-0-cl-column]
 [discrete]
