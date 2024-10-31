@@ -88,6 +88,7 @@
 *** xref:thoughtspot-one-query-intelligence-liveboard.adoc[How Users are searching Answers Liveboard]
 ** xref:data-engineer.adoc[Data Engineers]
 *** xref:connections.adoc[About connections]
+**** xref:connectors-categorization.adoc[Categorizing connections]
 **** xref:connection-share.adoc[]
 **** xref:connections-query-tags.adoc[]
 **** xref:connections-column-indexing-oauth.adoc[Column indexing with OAuth]
