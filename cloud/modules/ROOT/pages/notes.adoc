@@ -90,7 +90,8 @@ xref:tags.adoc[Use tags to organize].
 === For the Data Engineer
 
 // Naomi. jira: SCAL-207602. docs jira: SCAL-219033
-Categorization for Connections [.badge.badge-early-access-relnotes]#Early Access#:: You can now choose to sort Connections by type rather than order added to ThoughtSpot. To enable this feature, contact your administrator.
+Categorization for Connections [.badge.badge-early-access-relnotes]#Early Access#:: You can now choose to sort Connections by type rather than order added to ThoughtSpot. To enable this feature, contact your administrator. For more information, see
+xref:connectors-categorization.adoc[Categorizing Connections].
 
 // Naomi. jira: SCAL-212191. docs jira: SCAL-227574
 Sage Coach enhancements::

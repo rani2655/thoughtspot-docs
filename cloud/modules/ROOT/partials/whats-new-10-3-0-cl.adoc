@@ -341,7 +341,13 @@ endif::[]
 // Naomi. jira: SCAL-207602. docs jira: SCAL-219033
 // PM: Aaghran. add image. ask Shruthi when Mode will be removed from Connections.
 
-You can now choose to sort Connections by type rather than order added to ThoughtSpot. To enable this feature, contact your administrator.
+You can now choose to sort Connections by type rather than order added to ThoughtSpot. To enable this feature, contact your administrator. For more information, see
+ifndef::pendo-links[]
+xref:connectors-categorization.adoc[Categorizing Connections].
+endif::[]
+ifdef::pendo-links[]
+xref:connectors-categorization.adoc[Categorizing Connections,window=_blank].
+endif::[]
 
 image:connection-sort.png[Connections sorted by type]
 
