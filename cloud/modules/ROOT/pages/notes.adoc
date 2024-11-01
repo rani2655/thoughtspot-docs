@@ -35,13 +35,6 @@ For more information, see xref:scriptability.adoc[Import and export TML files] a
 
 include::partial$new-features-cloud-release.adoc[]
 
-
-#10-1-0-cl-react-shell]
-[discrete]
-=== User interface changes
-
-
-
 == ThoughtSpot 10.0.0.cl
 
 * <<10-0-0-cl-first,For the First User>>
