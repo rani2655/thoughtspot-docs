@@ -283,7 +283,13 @@ endif::[]
 // Naomi. jira: SCAL-224017, SCAL-210554. docs jira: SCAL-210659
 // PM: Damian. confirm if enabling or disabling alphabetic sorting will turn A-Z sorting back on. get a screenshot with custom group columns (named custom column group) with emphasis box.
 
-Analysts can now set definitions in a Worksheet or Model's TML file to group columns together in the Data panel for Search Data. You can also use TML properties to enable or disable alphabetical sorting of the groups.
+Analysts can now set definitions in a Worksheet or Model's TML file to group columns together in the Data panel for Search Data. You can also use TML properties to enable or disable alphabetical sorting of the groups. For more information, see
+ifndef::pendo-links[]
+xref:tml-models.adoc[TML for Models] and xref:tml-worksheets.adoc[TML for Worksheets].
+endif::[]
+ifdef::pendo-links[]
+xref:tml-models.adoc[TML for Models,window=_blank] and xref:tml-worksheets.adoc[TML for Worksheets,window=_blank].
+endif::[]
 
 [.bordered]
 image::column-groups.png[Columns grouped by Customers, Dates, and Orders]

@@ -56,7 +56,8 @@ Liveboard breakpoints:: We have updated the Liveboard breakpoints. Windows narro
 
 // Naomi. jira: SCAL-210169. docs jira: SCAL-229394
 Control default and available chart types [.badge.badge-beta-relnotes]#Beta#::
-You can now control the default display mode for Answers (table or chart). You can also decide which chart types are available and default for your cluster. For example, you can set the default chart type for an Answer as a bar chart. You could also decide to remove pie charts from your cluster. To enable this feature, contact {support-url}.
+You can now control the default display mode for Answers (table or chart). You can also decide which chart types are available and default for your cluster. For example, you can set the default chart type for an Answer as a bar chart. You could also decide to remove pie charts from your cluster. To enable this feature, contact {support-url}. For more information, see
+xref:charts.adoc#control-default[Control default and available chart types].
 
 // Naomi. jira: SCAL-189319. docs jira: SCAL-228671
 ThoughtSpot Status [.badge.badge-beta-relnotes]#Beta#::
@@ -80,11 +81,13 @@ xref:git-version-control.adoc[Version control for Liveboards and Answers].
 
 // Naomi. jira: SCAL-224017, SCAL-210554. docs jira: SCAL-210659
 Data panel column groups::
-Analysts can now set definitions in a Worksheet or Model's TML file to group columns together in the Data panel for Search Data. You can also use TML properties to enable or disable alphabetical sorting of the groups.
+Analysts can now set definitions in a Worksheet or Model's TML file to group columns together in the Data panel for Search Data. You can also use TML properties to enable or disable alphabetical sorting of the groups. For more information, see
+xref:tml-models.adoc[TML for Models] and xref:tml-worksheets.adoc[TML for Worksheets].
 
 // Naomi. jira: SCAL-197812. docs jira: SCAL-224478
 Download custom calendar::
-In the *Create a custom calendar* interface, you can now set up a template calendar and download it as a CSV file with all columns, based on the values you inputted. You can then modify the file and share it with your ThoughtSpot administrator to upload it to your database. Once the CSV is uploaded to the database, you can set up the calendar by directly mapping the table.
+In the *Create a custom calendar* interface, you can now set up a template calendar and download it as a CSV file with all columns, based on the values you inputted. You can then modify the file and share it with your ThoughtSpot administrator to upload it to your database. Once the CSV is uploaded to the database, you can set up the calendar by directly mapping the table. For more information, see
+xref:connections-cust-cal-create.adoc[Create a custom calendar].
 
 
 [#10-4-0-cl-it-ops]

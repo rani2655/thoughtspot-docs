@@ -7,7 +7,7 @@
 :page-aliases: /admin/worksheets/yaml-worksheet.adoc, /admin/worksheets/tml-worksheet.adoc, /admin/worksheets/tsl-worksheet.adoc, /admin/ts-cloud/yaml-worksheet.adoc, /admin/ts-cloud/tml-worksheet.adoc, /admin/ts-cloud/tsl-worksheet.adoc
 :description: Use TML to modify Worksheets in a flat-file format. Then, migrate the Worksheet to a different cluster, or restore it to the same cluster.
 :object: Worksheets
-:jira: SCAL-158490, SCAL-186188
+:jira: SCAL-158490, SCAL-186188, SCAL-210659
 
 include::partial$tml-intro.adoc[]
 
@@ -29,15 +29,23 @@ a| <<aggregation,aggregation>>
 
 <<column_id,column_id>>
 
+<<column_group_info,column_group_info>>
+
+<<column_groups,column_groups>>
+
 <<column_type,column_type>>
 
 <<currency_type,currency_type>>
 
 <<custom_file_guid,custom_file_guid>>
 
+<<data_panel_column_groups,data_panel_column_groups>>
+
 <<data_type,data_type>>
 
 <<default_value,default_value>>
+
+<<default_sort,default_sort>>
 
 <<description,description>>
 
@@ -66,6 +74,8 @@ a| <<id,id>>
 <<include_max,include_max>>
 
 <<include_min,include_min>>
+
+<<include_ungrouped_columns,include_ungrouped_columns>>
 
 <<index_priority,index_priority>>
 
@@ -123,6 +133,8 @@ a| <<name,name>>
 
 <<spotiq_preference,spotiq_preference>>
 
+<<status,status>>
+
 <<synonyms,synonyms>>
 
 <<table,table>>
@@ -171,6 +183,12 @@ The `id` of the Worksheet column.
 +
 `column_id` is in the following format: `column_id: <id>::<name>`. `id` comes from `Worksheet.table_path`, and `name` comes from `Table.column`. For example: `column_id: Customer_Dimension::Customer_Name`.
 
+[#column_group_info]
+column_group_info:: Enter the name of the column group. Column group names must be unique.
+
+[#column_groups]
+column_groups:: Create column groups to sort columns in the Search Data panel.
+
 [#column_type]
 column_type::
 The type of data the column represents.
@@ -193,6 +211,10 @@ See https://www.iso.org/iso-4217-currency-codes.html[ISO 4217 Currency Codes^] a
 custom_file_guid::
 The GUID for a custom map uploaded by an administrator.
 
+[#data_panel_column_groups]
+data_panel_column_groups:: Define this property in each column to mark which column group(s) the column should be allocated to. When marking a column for multiple column groups, separate the group names using a comma.
+
+
 [#data_type]
 data_type::
 The data type of the Parameter.
@@ -200,6 +222,10 @@ The data type of the Parameter.
 [#default_value]
 default_value::
 The default value for a Parameter in a Worksheet. Specified when xref:parameters-create.adoc[creating a Parameter].
+
+[#default_sort]
+default_sort:: When enabled, the column groups will be sorted alphabetically by group name in the data panel. When disabled, the groups will be sorted in the data panel in the order defined in the TML.
+
 
 [#description]
 description::
@@ -286,6 +312,9 @@ include_min::
 Indicates if the minimum value in a Parameter range is a valid value. For example, if the range is 0-10, and `include_min` is false, the value `0` is not valid for that Parameter.
 +
 Valid values are `true` and `false`.
+
+[#include_ungrouped_columns]
+include_ungrouped_columns:: Set as true/false for each column group. When defined as true, the defined column group includes all columns not sorted into the other column groups.
 
 [#index_priority]
 index_priority::
@@ -469,6 +498,9 @@ Specifies whether to include a column in SpotIQ analysis.
 Specify `EXCLUDE`, or this property defaults to include the column in SpotIQ Analysis.
 +
 Refer to xref:spotiq-data-model-preferences.adoc[Set columns to exclude from SpotIQ analyses].
+
+[#status]
+status:: Use the status property to define whether to enable or disable column groups. When disabled, columns return to the default sort in the data panel, while the column properties in the TML file are unaffected.
 
 [#synonyms]
 synonyms::
