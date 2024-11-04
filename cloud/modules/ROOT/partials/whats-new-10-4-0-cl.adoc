@@ -105,7 +105,7 @@ ifdef::pendo-links[]
 === Control default and available chart types [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
-// Naomi. jira: SCAL-210169. docs jira: SCAL-?
+// Naomi. jira: SCAL-210169. docs jira: SCAL-229394
 // PM: Vaibhav? not GA. who decides and how do they make the change? image? admin feature. move below the fold.
 
 You can now control the default display mode for Answers (table or chart). You can also decide which chart types are available and default for your cluster. For example, you can set the default chart type for an Answer as a bar chart. You could also decide to remove pie charts from your cluster. To enable this feature, contact {support-url}.
