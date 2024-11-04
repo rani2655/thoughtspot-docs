@@ -54,7 +54,7 @@ Liveboard breakpoints:: We have updated the Liveboard breakpoints. Windows narro
 [#10-4-0-cl-data-engineer]
 === For the Data Engineer
 
-// Naomi. jira: SCAL-210169. docs jira: SCAL-?
+// Naomi. jira: SCAL-210169. docs jira: SCAL-229394
 Control default and available chart types [.badge.badge-beta-relnotes]#Beta#::
 You can now control the default display mode for Answers (table or chart). You can also decide which chart types are available and default for your cluster. For example, you can set the default chart type for an Answer as a bar chart. You could also decide to remove pie charts from your cluster. To enable this feature, contact {support-url}.
 
