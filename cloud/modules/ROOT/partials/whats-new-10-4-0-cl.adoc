@@ -220,7 +220,13 @@ endif::[]
 // Naomi. jira: SCAL-210169. docs jira: SCAL-229394
 // PM: Manan. not GA. who decides and how do they make the change? image? admin feature. move below the fold.
 
-You can now control the default display mode for Answers (table or chart). You can also decide which chart types are available and default for your cluster. For example, you can set the default chart type for an Answer as a bar chart. You could also decide to remove pie charts from your cluster. To enable this feature, contact {support-url}.
+You can now control the default display mode for Answers (table or chart). You can also decide which chart types are available and default for your cluster. For example, you can set the default chart type for an Answer as a bar chart. You could also decide to remove pie charts from your cluster. To enable this feature, contact {support-url}. For more information, see
+ifndef::pendo-links[]
+xref:charts.adoc#control-default[Control default and available chart types].
+endif::[]
+ifdef::pendo-links[]
+xref:charts.adoc#control-default[Control default and available chart types,window=_blank].
+endif::[]
 
 endif::free-trial-feature[]
 
@@ -290,7 +296,13 @@ image::column-groups.png[Columns grouped by Customers, Dates, and Orders]
 // Naomi. jira: SCAL-197812. docs jira: SCAL-224478
 // PM: Aaghran. clarify that you can create a custom calendar without having privileges to upload them. You can create the format of a calendar without table privileges. where exactly is the database administrator uploading it to?
 
-In the *Create a custom calendar* interface, you can now set up a template calendar and download it as a CSV file with all columns, based on the values you inputted. You can then modify the file and share it with your ThoughtSpot administrator to upload it to your database. Once the CSV is uploaded to the database, you can set up the calendar by directly mapping the table.
+In the *Create a custom calendar* interface, you can now set up a template calendar and download it as a CSV file with all columns, based on the values you inputted. You can then modify the file and share it with your ThoughtSpot administrator to upload it to your database. Once the CSV is uploaded to the database, you can set up the calendar by directly mapping the table. For more information, see
+ifndef::pendo-links[]
+xref:connections-cust-cal-create.adoc[Create a custom calendar].
+endif::[]
+ifdef::pendo-links[]
+xref:connections-cust-cal-create.adoc[Create a custom calendar,window=_blank].
+endif::[]
 
 
 
