@@ -247,7 +247,13 @@ endif::[]
 
 Admin users can now navigate to the ThoughtSpot Status page to monitor the health of services on their cluster. We have updated the user interface to make it more user-friendly. The Status page displays the status of different ThoughtSpot services, like Authentication, Data Connections, Infrastructure Services, KPI Monitor, Search Data, Search Service, SpotIQ, Sync, and Spotter. The page also shares scheduled maintenance timelines, outage notifications, and incident reporting and updates.
 
-To access the status page, add `/\#/status` to the end of your cluster url (for example, `https://<clustername>.thoughtspot.cloud/#/status`). To enable this feature, contact {support-url}.
+To access the status page, add `/\#/status` to the end of your cluster url (for example, `https://<clustername>.thoughtspot.cloud/#/status`). To enable this feature, contact {support-url}. For more information, see
+ifndef::pendo-links[]
+xref:status.adoc[Status page].
+endif::[]
+ifdef::pendo-links[]
+xref:status.adoc[Status page,window=_blank].
+endif::[]
 
 [.bordered]
 image::status-page.png[ThoughtSpot status page]
