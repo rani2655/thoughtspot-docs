@@ -19,4 +19,4 @@ NOTE: The ThoughtSpot Status page is in beta and off by default. To enable this 
 image::status-page.png[ThoughtSpot status page]
 
 
-To access the status page, add `/\#/status` to the end of your cluster url (for example, `+https://<clustername>.thoughtspot.cloud/#/status+`).
+To access the status page, add `/status` to the end of your cluster url (for example, `+https://<clustername>.thoughtspot.cloud/#/status+`).
