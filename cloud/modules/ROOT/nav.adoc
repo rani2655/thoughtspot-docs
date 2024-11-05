@@ -739,6 +739,7 @@
 *** xref:user-sign-up.adoc[Allow users to sign up]
 ** xref:early-access-enable.adoc[Enable Early Access features]
 ** xref:git-version-control.adoc[Version control]
+** xref:status.adoc[ThoughtSpot Status page]
 ** xref:security.adoc[Security]
 *** xref:audit-logs.adoc[System security]
 *** xref:data-security.adoc[Data security]
