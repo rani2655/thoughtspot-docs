@@ -146,13 +146,13 @@ endif::free-trial-feature[]
 
 [#10-4-0-cl-sync]
 [discrete]
-=== ThoughtSpot Sync: send full image of Liveboard to Slack [.badge.badge-early-access]#Early Access#
+=== ThoughtSpot Sync: send full image of Liveboard to Slack [.badge.badge-beta]#Beta#
 ThoughtSpot introduces the ability for users to choose to export a Liveboard as a PDF or a PNG image when creating a new sync pipeline. PDFs include the complete Liveboard. PNG images are of the first page of the Liveboard.
 To enable this feature, contact {support-url}.
 [.bordered]
 image::LB-image-slack.png[Liveboard image]
 // Mary. jira: SCAL-224070. docs jira: SCAL-229753
-// PM: Aaghran. is this beta?
+// PM: Aaghran.
 
 '''
 [#secondary-10-4-0-cl]
