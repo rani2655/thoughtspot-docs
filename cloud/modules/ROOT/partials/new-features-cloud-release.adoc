@@ -51,6 +51,9 @@ xref:liveboard.adoc[Basic Liveboard usage].
 // Naomi. docs jira: SCAL-229731
 Liveboard breakpoints:: We have updated the Liveboard breakpoints. Windows narrower than 639 pixels now display one column of visualizations. Windows wider than 639 pixels but narrower than 1033 pixels display two columns of visualizations.
 
+// Naomi. jira: SCAL-212737. docs jira: SCAL-226578
+Compact Liveboard header [.badge.badge-early-access-relnotes]#Early Access#:: We have streamlined the design of Liveboard headers to ensure maximum visibility of Liveboard visualizations no matter the size of the screen. To enable this feature, contact your administrator.
+
 [#10-4-0-cl-data-engineer]
 === For the Data Engineer
 
