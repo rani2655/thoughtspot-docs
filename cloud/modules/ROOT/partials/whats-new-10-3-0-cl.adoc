@@ -63,6 +63,7 @@ image::liveboards_manage_tags.png[Manage tags]
 [.bordered]
 image::tags-manage.png[Manage tags modal]
 
+////
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#10-3-0-cl-header]
@@ -83,7 +84,7 @@ We have streamlined the design of Liveboard headers to ensure maximum visibility
 image:compact-header.png[Streamlined Liveboard header]
 
 endif::free-trial-feature[]
-
+////
 
 
 [#10-3-0-cl-alert]
