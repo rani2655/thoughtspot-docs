@@ -141,3 +141,6 @@ Ensure you are ready for migration by reviewing and following the steps in the d
 === For the Developer
 
 ThoughtSpot Embedded:: For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
+
+Selective User Access::
+Provide selective access to ThoughtSpot pages through both the ThoughtSpot Cluster URL and the embedded context of your host app. For details, see: https://developers.thoughtspot.com/docs/selective-user-access#selective-access[Selectively assign access^].
