@@ -145,7 +145,7 @@ endif::free-trial-feature[]
 
 [#10-4-0-cl-sync]
 [discrete]
-=== ThoughtSpot Sync: send full image of Liveboard to Slack
+=== ThoughtSpot Sync: send full image of Liveboard to Slack [.badge.badge-early-access]#Early Access#
 ThoughtSpot introduces the ability for users to choose to export a Liveboard as a PDF or a PNG image when creating a new sync pipeline. PDFs include the complete Liveboard. PNG images are of the first page of the Liveboard.
 To enable this feature, contact {support-url}.
 [.bordered]
@@ -269,12 +269,12 @@ In the *Create a custom calendar* interface, you can now set up a template calen
 
 [#10-4-0-cl-utilities]
 [discrete]
-=== Utilities schema viewer
+=== Utilities schema viewer [.badge.badge-early-access]#Early Access#
 ThoughtSpot introduces a connection picker to the schema viewer. You can now use the dropdown or search to select your connection in the schema viewer.
 
 NOTE: You can no longer view objects across all connections. You must filter by a specific connection.
-// Mary. jira: SCAL-221312. docs jira: SCAL-?
-// PM: Samridh. add image. - No response from Samridh...remove for now?
+// Mary. jira: SCAL-221312. docs jira: SCAL-230838
+// PM: Samridh. add image.
 
 ////
 [#10-4-0-cl-join-key]
@@ -284,6 +284,18 @@ NOTE: You can no longer view objects across all connections. You must filter by 
 // Naomi. jira: SCAL-91117. docs jira: SCAL-?
 // PM: Samridh. waiting on info.
 ////
+
+[#10-4-0-cl-granular]
+[discrete]
+=== Granular privileges
+// Mary -- SCAL-229115
+ThoughtSpot Role-Based Access Control (RBAC) is now available to all users. RBAC enhances the granularity of permissions.
+
+RBAC is disabled by default. To enable this feature, contact {support-url}.
+
+
+
+
 // IT/ Ops Engineer
 
 
@@ -291,12 +303,11 @@ NOTE: You can no longer view objects across all connections. You must filter by 
 [discrete]
 === Org-specific URLs
 
-
 // Mary. JIRA: SCAL-202402. docs JIRA: SCAL-212285
-// PM: Aashica. reword last sentence.
+// PM: Aashica.
 
 Org-specific URLs are now available to all users and on by default. URLs in emails now include Org context so that users are taken directly to the correct Liveboard in the correct Org even if they belong to multiple Orgs.
-You can also move between different browser tabs that point to different Orgs.
+You can also move between browser tabs that point to different Orgs.
 
 ////
 For more information, see
