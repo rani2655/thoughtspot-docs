@@ -81,7 +81,7 @@ You can coach Spotter from the Data Workspace by addressing feedback given on AI
 == Choose LLM for Spotter
 
 
-Admin users can decide which LLM to use to enable all ThoughtSpot AI features. By default, ThoughtSpot uses Azure OpenAI. For 10.4.0.cl, we are offering support for Google Gemini.
+Admin users can decide which LLM to use to enable all ThoughtSpot AI features. By default, ThoughtSpot uses Azure OpenAI. For 10.4.0.cl, we are offering support for Google Gemini. To manage your choice of LLM, navigate to *Admin > ThoughtSpot AI* and edit the *Choice of LLM* option.
 
 
 
