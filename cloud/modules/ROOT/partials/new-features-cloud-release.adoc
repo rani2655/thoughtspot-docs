@@ -6,6 +6,26 @@ The latest release of ThoughtSpot Cloud contains several new and enhanced featur
 * <<10-4-0-cl-data-engineer,For the Data Engineer>>
 * <<10-4-0-cl-developer,For the Developer>>
 
+.Features removed and deprecated in 10.4.0.cl
+[IMPORTANT]
+====
+The following features are removed from the *Data workspace*:
+
+- Search Assist
+
+- SpotIQ Insights on the Worksheet detail page
+
+- Profile
+
+- Review Suggestions
+
+The following feature is deprecated from the *Data workspace*, and will be removed in a future release:
+
+- *+ Create new* > *Worksheet*
+
+Existing Worksheets continue to be available, but Worksheet creation is disabled by default. To enable Worksheet creation, you must contact your ThoughSpot administrator.
+====
+
 [#10-4-0-cl-first]
 === For the First User
 

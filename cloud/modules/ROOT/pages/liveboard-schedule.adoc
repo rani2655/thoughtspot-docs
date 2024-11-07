@@ -33,6 +33,8 @@ image::liveboard-schedule-email.png[Liveboard schedule email]
 
 == Scheduling a Liveboard
 
+NOTE: You can use the new faster and more intuitive Liveboard scheduling experience. To enable this new experience, contact your ThoughtSpot administrator.
+
 To schedule a Liveboard, follow these steps:
 
 . Navigate to the Liveboard you want to create a schedule for.
