@@ -120,7 +120,14 @@ endif::[]
 // Naomi – jira: SCAL-212737. docs jira: SCAL-226578
 // PM: Dilip
 
-We have streamlined the design of Liveboard headers to ensure maximum visibility of Liveboard visualizations no matter the size of the screen. To enable this feature, contact your administrator.
+We have streamlined the design of Liveboard headers to ensure maximum visibility of Liveboard visualizations no matter the size of the screen. To enable this feature, contact your administrator. For more information, see
+ifndef::pendo-links[]
+xref:liveboard.adoc#compact-header[Liveboards].
+endif::[]
+ifdef::pendo-links[]
+xref:liveboard.adoc#compact-header[Liveboards,window=_blank].
+endif::[]
+
 
 [.bordered]
 image:compact-header.png[Streamlined Liveboard header]
