@@ -17,24 +17,17 @@ endif::free-trial-feature[]
 
 
 
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
+
 [#10-4-0-cl-spotter]
 [discrete]
-=== Spotter for Cloud [.badge.badge-early-access]#Early Access#
-endif::[]
-ifdef::pendo-links[]
-[#10-4-0-cl-spotter]
-[discrete]
-=== Spotter for Cloud [.badge.badge-early-access-whats-new]#Early Access#
-endif::[]
+=== Spotter for Cloud
 
 // Naomi. jira: SCAL-223692, SCAL-222817. docs jira: SCAL-228500
 // PM: Sam Weick, Akshay. add a gif. Zoom in and out, show spotter in home page, what the new conversational experience is, ask successive question, show the replaced terms, and show how to enter from a Liveboard.
 
 Introducing Spotter, our new AI-powered, unified conversational search experience. This feature replaces the previous Sage search experience. When enabled, you can enter the Spotter interface from the search bar on the Home page, or by clicking *Spotter* on any visualization pinned to a Liveboard.
 
-You can ask successive questions to hone in on business insights, open a preview of the underlying data, drill down, edit or undo changes to the resulting AI-generated Answers, see what terms Spotter changed from question to question, and submit feedback to train Spotter's interpretations. Analysts can also coach Spotter on how to interpret certain terms from the Admin page. To enable this feature, contact your administrator. For more information, see
+You can ask successive questions to hone in on business insights, open a preview of the underlying data, drill down, edit or undo changes to the resulting AI-generated Answers, see what terms Spotter changed from question to question, and submit feedback to train Spotter's interpretations. Analysts can also coach Spotter on how to interpret certain terms from the Admin page. For more information, see
 ifndef::pendo-links[]
 xref:spotter.adoc[Spotter for Cloud].
 endif::[]
@@ -57,7 +50,7 @@ ifdef::pendo-links[]
 +++
 endif::pendo-links[]
 
-endif::free-trial-feature[]
+
 
 
 
