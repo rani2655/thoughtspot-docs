@@ -43,7 +43,7 @@ The 10.4.0.cl release of ThoughtSpot Cloud, targeted for November 2024 (GA), dep
 
 - *+ Create new* > *Worksheet*
 +
-Existing Worksheets continue to be available, but Worksheet creation is disabled by default. To enable Worksheet creation, you must contact your ThoughSpot administrator.
+Existing Worksheets continue to be available, but Worksheet creation is disabled by default. To enable Worksheet creation, you must contact your ThoughtSpot administrator.
 +
 You can migrate an individual Worksheet to a Model, by doing the following:
 

@@ -23,7 +23,7 @@ The following feature is deprecated from the *Data workspace*, and will be remov
 
 - *+ Create new* > *Worksheet*
 
-Existing Worksheets continue to be available, but Worksheet creation is disabled by default. To enable Worksheet creation, you must contact your ThoughSpot administrator.
+Existing Worksheets continue to be available, but Worksheet creation is disabled by default. To enable Worksheet creation, you must contact your ThoughtSpot administrator.
 ====
 
 [#10-4-0-cl-first]
