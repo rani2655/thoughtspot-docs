@@ -160,7 +160,7 @@ image::LB-image-slack.png[Liveboard image]
 // Mark. jira: SCAL-217598. docs jira: SCAL-225747
 // PM: Samridh. group all models features under a models subsection? can you still edit existing worksheets? if you edit a worksheet, does it stay a worksheet or become a model?
 
-Models are now available to all customers and enabled by default. Worksheets are now deprecated and will be removed in a future release. Existing Worksheets continue to be available and editable, but Worksheet creation is disabled by default. To enable Worksheet creation, you must contact your ThoughSpot administrator. You can migrate an individual Worksheet to a Model. Bulk migration of Worksheets to Models will be available in the 10.5.0.cl release.
+Models are now available to all customers and enabled by default. Worksheets are now deprecated and will be removed in a future release. Existing Worksheets continue to be available and editable, but Worksheet creation is disabled by default. To enable Worksheet creation, you must contact your ThoughtSpot administrator. You can migrate an individual Worksheet to a Model. Bulk migration of Worksheets to Models will be available in the 10.5.0.cl release.
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
