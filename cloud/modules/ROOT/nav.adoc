@@ -92,6 +92,7 @@
 **** xref:connection-share.adoc[]
 **** xref:connections-query-tags.adoc[]
 **** xref:connections-column-indexing-oauth.adoc[Column indexing with OAuth]
+**** xref:single-window-oauth.adoc[OAuth sign-in for Liveboards]
 *** xref:connections-amazon-athena.adoc[Connect to Amazon Athena]
 **** xref:connections-amazon-athena-add.adoc[Add connection]
 **** xref:connections-amazon-athena-edit.adoc[Edit connection]
