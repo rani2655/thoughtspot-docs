@@ -341,6 +341,7 @@ UPDATE_RELATIONSHIP:: A user attempts to modify an existing Join.
 DELETE_RELATIONSHIP:: A Join is deleted.
 
 
+
 ////
 ThoughtSpot includes a number of management tools, monitoring applications, and automated processes to support system security. System security includes managing access and privileges, audit logs, security policies, and Linux OS installed package updates.
 
