@@ -95,6 +95,18 @@ The possible events are:
 * <<users-created,USERS_CREATED>>
 * <<users-deleted,USERS_DELETED>>
 * <<users-modified,USERS_MODIFIED>>
+* <<create-model,CREATE_MODEL>>
+* <<update-model,UPDATE_MODEL>>
+* <<delete-model,DELETE_MODEL>>
+* <<create-view,CREATE_VIEW>>
+* <<update-view,UPDATE_VIEWS>>
+* <<delete-view,DELETE_VIEWS>>
+* <<create-join,CREATE_RELATIONSHIP>>
+* <<update-join,UPDATE_RELATIONSHIP>>
+* <<delete-relationship,DELETE_RELATIONSHIP>>
+
+
+
 
 
 == Event descriptions
@@ -293,7 +305,40 @@ ORG_SWITCH_FAILED:: Failed to switch Org for user.
 [#org-switch-successful]
 ORG_SWITCH_SUCCESSFUL:: Successfully switched Org.
 
+== Model related events
 
+The possible Model related events are:
+
+* <<create-model,CREATE_MODEL>>
+* <<update-model,UPDATE_MODEL>>
+* <<delete-model,DELETE_MODEL>>
+* <<create-view,CREATE_VIEW>>
+* <<update-view,UPDATE_VIEWS>>
+* <<delete-view,DELETE_VIEWS>>
+* <<create-join,CREATE_RELATIONSHIP>>
+* <<update-join,UPDATE_RELATIONSHIP>>
+* <<delete-relationship,DELETE_RELATIONSHIP>>
+
+== Event descriptions
+
+[#create-model]
+CREATE_MODEL:: A user attempts to create a Model.
+[#update-model]
+UPDATE_MODEL:: A user attempts to modify an existing Model.
+[#delete-model]
+DELETE_MODEL:: A Model is deleted.
+[#create-view]
+CREATE_VIEW:: A user attempts to create a  View.
+[#update-view]
+UPDATE_VIEWS:: A user attempts to modify an existing View.
+[#delete-view]
+DELETE_VIEWS:: A View is deleted.
+[#create-join]
+CREATE_RELATIONSHIP:: A user attempts to create a Join.
+[#update-join]
+UPDATE_RELATIONSHIP:: A user attempts to modify an existing Join.
+[#delete-relationship]
+DELETE_RELATIONSHIP:: A Join is deleted.
 
 
 ////

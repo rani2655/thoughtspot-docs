@@ -6,6 +6,8 @@
 :page-layout: default-cloud
 :page-aliases:
 :description: Learn about the ThoughtSpot add-on for Google Sheets.
+:jira: SCAL-226839,SCAL-230253
+
 
 ++++
 <style>
@@ -50,3 +52,6 @@ Now, you can also refresh the existing search results to get the latest data wit
 +
 [.bordered]
 image::google-sheets2.png[ThoughtSpot Search bar and Data panel]
+
+NOTE:
+The *Refresh data* restores any data which was deleted from the sheet(s). To avoid this, it is recommended that you delete the sheet before refreshing data.
