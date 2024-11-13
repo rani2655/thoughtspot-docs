@@ -13,6 +13,7 @@ This reference identifies the error codes that can appear when you use xref:sear
 == Search data error codes
 
 * xref:search-data-error-11026[11026]
+* xref:search-data-error-11027[11027]
 * xref:search-data-error-11028[11028]
 * xref:search-data-error-11029[11029]
 * xref:search-data-error-11035[11035]
@@ -22,6 +23,10 @@ This reference identifies the error codes that can appear when you use xref:sear
 ---
 
 include::partial$alerts/search-data-error-11026.adoc[]
+
+---
+
+include::partial$alerts/search-data-error-11027.adoc[]
 
 ---
 
