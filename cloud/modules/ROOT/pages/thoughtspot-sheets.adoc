@@ -5,7 +5,7 @@
 :author: rani
 :page-layout: default-cloud
 :page-aliases:
-:description: Learn about the ThoughtSpot add-on for Google Sheets.
+:description: Learn about the ThoughtSpot plugin for Google Sheets.
 :jira: SCAL-226839,SCAL-230253
 
 
@@ -19,18 +19,18 @@ iframe {
 </style>
 ++++
 
-ThoughtSpot Connected Sheets is an add-on that allows you to connect to a ThoughtSpot instance, pull data directly into a Google Sheet from trusted data sources connected to that instance (like Snowflake, Google BigQuery(TM), DataBricks, and others), and use the tools in Google Sheets(TM) for ad-hoc analysis.
+ThoughtSpot Connected Sheets is a plugin that allows you to connect to a ThoughtSpot instance, pull data directly into a Google Sheet from trusted data sources connected to that instance (like Snowflake, Google BigQuery(TM), DataBricks, and others), and use the tools in Google Sheets(TM) for ad-hoc analysis.
 
 image::sheets-connected.png[A google spreadhseet displaying ThoughtSpot add-in in the right sidebar]
 
 == Details
 
-- Requires a ThoughtSpot license and an email linked to a ThoughtSpot user ID
-- Requires the `Can download data` privilege in ThoughtSpot to use this add-on, and to export ThoughtSpot data into your Google Sheet
-- You can sign up for a ThoughtSpot free trial to use this add-on
-- Embeds insight into Google Sheets
-- Allows you to push the ThoughtSpot data model to Sheets for exploration
-- Only compatible with ThoughtSpot Cloud
+- Requires a ThoughtSpot license and an email linked to a ThoughtSpot user ID.
+- Requires the `Can download data` privilege in ThoughtSpot to use this plugin, and to export ThoughtSpot data into your Google Sheet.
+- You can sign up for a ThoughtSpot free trial to use this plugin.
+- Embeds insight into Google Sheets.
+- Allows you to push the ThoughtSpot data model to Sheets for exploration.
+- Only compatible with ThoughtSpot Cloud.
 
 == First-time setup
 
