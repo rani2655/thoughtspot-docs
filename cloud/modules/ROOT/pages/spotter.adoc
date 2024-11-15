@@ -25,7 +25,7 @@ Access Spotter from the Home page *Ask a business question in natural language* 
 
 
 NOTE: Spotter for Liveboards will not be enabled on the following:
-Visualizations created using data sources or or Worksheets which are not AI-enabled.
+Visualizations created using data sources or Worksheets which are not AI-enabled.
 Visualizations using multiple data sources.
 Visualizations of the note tile or headline chart type.
 
