@@ -3662,7 +3662,7 @@ Visualizations on a Liveboard
 * Download as PDF
 
 NOTE: Users with edit permissions can view and access the *Edit* action.
-The *Download as CSV*, *Download as XSLX*, and *Download as PDF* actions are available for table visualizations.
+The *Download as CSV*, *Download as XLSX*, and *Download as PDF* actions are available for table visualizations.
 The *Download* action is available for chart visualizations.
 
 [#performance-optimization]
