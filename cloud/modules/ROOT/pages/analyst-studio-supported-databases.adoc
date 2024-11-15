@@ -1647,4 +1647,4 @@ This will populate the query results.
 
 Currently, we do not offer CSV uploads to private connections.
 {product} only supports uploading CSVs to our public data warehouse, but please note that this data will be publicly accessible.
-You can learn more about uploading CSV to the xref:analyst-studio-managing-database-connections.adoc#uploading-data[public warehouse here].
+//You can learn more about uploading CSV to the xref:analyst-studio-managing-database-connections.adoc#uploading-data[public warehouse here].
