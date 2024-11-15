@@ -9,6 +9,7 @@
 
 Introducing Spotter, our new AI-powered, unified conversational search experience. This feature replaces the previous Sage search experience. When enabled, you can enter the Spotter interface from the Spotter module on the Home page, or by clicking *Spotter* on any visualization pinned to a Liveboard.
 
+NOTE: To enable Spotter, contact {support-url}.
 
 +++
 <video autoplay loop muted controls width="800" controlsList="nodownload">
