@@ -225,4 +225,4 @@ Find topics for the common types of ThoughtSpot users.
 ++++
 == What's new in ThoughtSpot Cloud
 
-include::partial$whats-new-10-3-0-cl.adoc[]
+include::partial$whats-new-10-4-0-cl.adoc[]
