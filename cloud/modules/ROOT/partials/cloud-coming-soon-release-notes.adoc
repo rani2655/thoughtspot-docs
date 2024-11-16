@@ -59,7 +59,7 @@ img {
 ++++
 .image:cal-outline-blue.svg[Inline,25] Release 10.4.0.cl coming soon!
 ****
-ThoughtSpot plans to upgrade customer clusters starting on November 22nd.
+ThoughtSpot plans to upgrade customer clusters starting on November 21st.
 
 See the xref:index.adoc#next-release[highlights] of the 10.4.0.cl release.
 ****
