@@ -75,5 +75,5 @@ An error banner is displayed at the top of the screen, indicating the user is no
 When the requester or verifier has been deleted.
 
 *Workaround*:
-With a verified Liveboard, the user can close the error banner because there is no impact on functionality. With a pending request when the requester is deleted, the user contact {support-url} to delete the request.
+With a verified Liveboard, the user can close the error banner because there is no impact on functionality. With a pending request when the requester is deleted, the user must contact {support-url} to delete the request.
 |===
