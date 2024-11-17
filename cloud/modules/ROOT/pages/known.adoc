@@ -38,7 +38,7 @@ Example of formulas with different join paths:
   was_auto_generated: false
 ```
 
-These both are actually different representations of the same formula(user only defined one formula)
+These both are actually different representations of the same formula (user only defined one formula).
 
 *Workaround*:
 Contact {support-url}.
@@ -58,9 +58,10 @@ Contact {support-url} to disable enhanced conditional formatting. This will ensu
 |The chart visualization menu does not appear when selecting two points on a KPI chart by right-clicking in the Watchlist. This prevents contextual change analysis from working.
 a|*Symptoms*:
 The chart visualization menu fails to appear when two points are selected on a KPI chart in a Watchlist.
+
 *Conditions*:
 The new navigation and homepage experience is enabled.
-Occurs when a time series KPI is added to the Watchlist, and two points on the KPI chart are selected using right-click.
+Occurs when a time-series KPI is added to the Watchlist, and two points on the KPI chart are selected using right-click.
 
 *Workaround*:
 Use the *KPI Comparison* button to start contextual change analysis instead.
@@ -68,7 +69,7 @@ Use the *KPI Comparison* button to start contextual change analysis instead.
 |SCAL-178756
 |Red banner error is displayed without any proper error message when the original verifier of the Liveboard was deleted from ThoughtSpot.
 a|*Symptoms*:
-An error banner is displayed at top of the screen which indicates that the user is not available.
+An error banner is displayed at the top of the screen, indicating the user is not available.
 
 *Conditions*:
 When the requester or verifier has been deleted.
