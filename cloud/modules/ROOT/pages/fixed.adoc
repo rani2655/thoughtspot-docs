@@ -46,7 +46,7 @@ a|Making natural language search queries on a Liveboard using *Ask Sage* results
 |Using the Explore feature in a Liveboard does not provide suggestions, even after reloading multiple times.
 
 |SCAL-222348
-|Embedded Liveboard does not load the customer sets locale as part of their embed configuration to an unsupported format.
+|Embedded Liveboard does not load when the customer sets the locale in their embed configuration to an unsupported format.
 
 |SCAL-221382
 |Loading ThoughtSpot causes the Microsoft Edge web browser to crash.
@@ -55,7 +55,7 @@ a|Making natural language search queries on a Liveboard using *Ask Sage* results
 |User sees the _request access_ page when trying to view a Liveboard, even though the URL to the Liveboard is already shared with them.
 
 |SCAL-218844
-|The default system language is not set which causes 'couldn't complete your request' errors.
+|When the default system language is not set, it causes missing localization files which result in 'couldn't complete your request' errors on the Liveboard and home pages, and Liveboards and Answers do not work correctly on the Develop page.
 
 |SCAL-217403
 |When navigating between certain pages in ThoughtSpot, the URL sometimes doesn't update accurately.
