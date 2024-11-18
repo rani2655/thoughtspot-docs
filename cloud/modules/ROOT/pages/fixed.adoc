@@ -20,13 +20,18 @@ These are the issues we fixed in this release of ThoughtSpot Cloud.
 |Issue ID |Description
 
 |SCAL-225140
-|Making natural language search queries on a Liveboard without selecting a data source and then clicking *Ask Sage* causes a 500 error message.
+a|Making natural language search queries on a Liveboard using *Ask Sage* results in a 500 error message under the following circumstances:
+
+. Opening the _Select data source_ window from Sage search bar.
+. Entering a question, but not selecting any data source.
+. Closing the _Select data source_ window.
+. Clicking *Ask Sage*.
 
 |SCAL-224829
-|KPI watchlist and shared Liveboard emails are not received.
+|KPI watchlist and shared Liveboard emails are not received even though the schedule history in ThoughtSpot indicates they were sent successfully.
 
 |SCAL-224711
-|Unable to sign in to a ThoughtSpot Cloud cluster.
+|Unable to sign in to a ThoughtSpot Cloud cluster directly, using SSO, or when ThoughtSpot is embedded.
 
 |SCAL-223858
 |Object Usage Liveboards within non-primary Orgs display no data for users, while the primary Org is able to display the data correctly.
@@ -35,31 +40,31 @@ These are the issues we fixed in this release of ThoughtSpot Cloud.
 |Liveboards do not load and a "Request failed with status code 500" error appears.
 
 |SCAL-223011
-|Object usage Liveboards display no data.
+|Object usage Liveboards display no data and the admin cannot search for them either.
 
 |SCAL-222836
-|Using the Explore feature in a Liveboard does not provide suggestions.
+|Using the Explore feature in a Liveboard does not provide suggestions, even after reloading multiple times.
 
 |SCAL-222348
-|Liveboard does not load when it is embedded.
+|Embedded Liveboard does not load the customer sets locale as part of their embed configuration to an unsupported format.
 
 |SCAL-221382
-|Loading ThoughtSpot causes web browser to crash.
+|Loading ThoughtSpot causes the Microsoft Edge web browser to crash.
 
 |SCAL-219492
-|User sees "request access" page when trying to view a Liveboard, even though the URL to the Liveboard is already shared with them.
+|User sees the _request access_ page when trying to view a Liveboard, even though the URL to the Liveboard is already shared with them.
 
 |SCAL-218844
-|Default system language is not set which causes 'couldn't complete your request' errors.
+|The default system language is not set which causes 'couldn't complete your request' errors.
 
 |SCAL-217403
 |When navigating between certain pages in ThoughtSpot, the URL sometimes doesn't update accurately.
 
 |SCAL-217319
-|Updating the version of a cluster sometimes results in an error.
+|Updating the version of a cluster sometimes fails to start and results in an error.
 
 |SCAL-217035
-|Updating TML causes a 'System error has occurred' error.
+|Updating the columns in the TML for a table causes a 'System error has occurred' error.
 
 |SCAL-216102
 |Override filters are not applied for date columns when using a custom calendar in a Liveboard.
@@ -68,10 +73,10 @@ These are the issues we fixed in this release of ThoughtSpot Cloud.
 |User is unable to sign in to ThoughtSpot after SAML authentication.
 
 |SCAL-205663
-|Groups are duplicated in ThoughtSpot.
+|Groups from Microsoft Active Directory are duplicated in ThoughtSpot.
 
 |SCAL-198333
-|Querygen error appears after upgrade to the 9.10.0.cl release.
+|Querygen error message 'Error Message: Failed validation for PinnedMeasureTransformerV0: QueryTable contains an expression with nested aggregation.' appears after upgrade when adding `avg_Settlement_Price>0` to a query.
 
 |SCAL-191966
 |Internal system connection called TAP is visible in Connections when it shouldn't be.
