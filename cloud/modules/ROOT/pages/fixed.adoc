@@ -22,7 +22,7 @@ These are the issues we fixed in this release of ThoughtSpot Cloud.
 |SCAL-225140
 a|Making natural language search queries on a Liveboard using *Ask Sage* results in a 500 error message under the following circumstances:
 
-. Opening the _Select data source_ window from Sage search bar.
+. Opening the _Select data source_ window from the Sage search bar.
 . Entering a question, but not selecting any data source.
 . Closing the _Select data source_ window.
 . Clicking *Ask Sage*.
