@@ -20,7 +20,12 @@ These are the issues we fixed in this release of ThoughtSpot Cloud.
 |Issue ID |Description
 
 |SCAL-225140
-|Making natural language search queries on a Liveboard without selecting a data source and then clicking *Ask Sage* causes a 500 error message.
+a|Making natural language search queries on a Liveboard using *Ask Sage* results in a 500 error message under the following circumstances:
+
+. Opening the _Select data source_ window from Sage search bar.
+. Entering a question, but not selecting any data source.
+. Closing the _Select data source_ window.
+. Clicking *Ask Sage*.
 
 |SCAL-224829
 |KPI watchlist and shared Liveboard emails are not received even though the schedule history in ThoughtSpot indicates they were sent successfully.
