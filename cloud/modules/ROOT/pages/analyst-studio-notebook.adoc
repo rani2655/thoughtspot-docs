@@ -9,6 +9,7 @@
 :path: /articles/notebook
 :product: Analyst Studio
 :experimental:
+:jira: SCAL-232953
 
 == Overview
 
@@ -558,11 +559,12 @@ IMPORTANT: We strongly discourage using the `httr` library to access APIs that r
 
 //IMPORTANT: Notebooks in the {product} Studio plan are unable to install additional libraries. To access this feature, please upgrade to a paid {product} Business or Enterprise plan.
 
-To use a publicly available library in the Notebook that is not listed above, users leverage each environment's package manager to install that library at run-time.
+To use a publicly available library in the Notebook, users can leverage each environment's package manager to install that library at run-time.
 The Notebook environment has up to 1 GB of memory available to load additional packages.
 
-IMPORTANT: This offers a workaround to try to install additional libraries, beyond what {product} currently supports, into the Notebook. It is not guaranteed to work in all cases. Only supported libraries have been tested to function as expected in {product}'s Notebooks.
+IMPORTANT: {product}'s Notebook architecture limits access between manually installed libraries and the Notebook’s kernel. As a result, certain popular interactive libraries like Plotly, Bokeh, and ipywidgets may behave differently compared to how they are advertised.
 
+////
 {product}'s Notebook architecture does not enable manually installed libraries to have access to the Notebook's kernel.
 This means that manually installed versions of popular and interactive libraries like Plotly, Bokeh, and ipywidgets will not function as expected even if the package installation appears to succeed.
 
@@ -571,56 +573,93 @@ You must add the below package installation commands to the Notebook in each rep
 Avoiding these commands can result in the library not installing and/or importing properly.
 
 WARNING: Some libraries require authentication with credentials (for example, Tweepy, requests, etc.). We strongly discourage using libraries that require authentication using personally identifiable credentials and information, as these credentials will be visible to viewers of your report.
+////
 
 === Python
 
-First, enter the following command into a Notebook cell for each public package that you want to install into the Python Notebook, as demonstrated below with the link:https://pypi.org/project/bloom-filter/[bloom-filter,window=_blank] package (replace `bloom-filter` with the name of the package you want to install):
+==== Installing libraries
+
+To install a library for use within a notebook, add the following command in any cell:
 
 [source,python]
 ----
-! pip install bloom-filter
-              ^^^^^^^^^^^^
-              Package name
+! pip install library_name
 ----
 
-Alternatively, users can try to upgrade a supported package to a more recent version using:
+Replace `library_name` with the name of the desired Python package. This command will install the library within the scope of the active Notebook, making it immediately available in subsequent cells. Note that each library installed this way is specific to the Notebook, so re-installation may be required for each session or upon reattachment.
 
-[source,python]
-----
-! pip install [package name]==[version.x.y] --upgrade
-----
+==== Installing specific versions
 
-Next, in a subsequent cell, add an `import` statement for each library that you want to include in your environment.
-For example:
+You can specify a version by including it in the command, for example:
 
 [source,python]
 ----
-from bloom_filter import BloomFilter
-     ^^^^^^^^^^^^
-     Package name
+! pip install library_name==version_number
 ----
 
-You may now use any of the methods or functionality included in the library in subsequent Notebook cells.
+This can be helpful to ensure compatibility or access to specific features within a version.
+
+==== Using installed libraries
+
+Next, in a subsequent cell, use below statement for each library that you want to include in your environment:
+
+[source,python]
+----
+from library_name import libraryname
+----
+
+==== Handling dependencies
+
+{product} Notebooks support dependencies for many commonly used packages; however, some packages with highly specialized dependencies may not be fully compatible. In these cases, consider using well-supported library alternatives when possible.
+
+==== Viewing and managing installed libraries
+
+To see a list of all libraries installed in your notebook session, use:
+
+[source,python]
+----
+%pip list
+----
+
+==== Accessing APIs securely with Secrets Store
+
+For libraries requiring API keys or other sensitive credentials, {product} now offers a <<python-notebooks-secrets-store,Secret Store>> feature that allows you to securely manage these details. By storing your credentials in the Secrets Store, you can safely use them within your notebooks without hardcoding sensitive information.
+
+To retrieve a stored secret in your notebook, use the following:
+
+[source,python]
+----
+from library_name import libraryname
+
+session = Session.builder.configs({
+    "account": "demoaccount",
+    "user": "DEMO_SHARED_ACCOUNT",
+    "password": protected_password,
+    "database": "SOURCE_SAMPLE_DATA",
+    "schema": "TCCP_DB1",
+    "warehouse": "DEMO_WH",
+    "role": "ACCOUNTADMIN"
+}).create()
+----
+
+With the Secrets Store, you can access APIs securely, making it easier to integrate external data sources without exposing authentication information.
 
 === R
 
-First, enter the following command into a Notebook cell for each public package that you want to install into the R Notebook, as demonstrated below with the link:https://cran.r-project.org/web/packages/random/index.html[random,window=_blank] package (replace `random` with the name of the package you want to install):
+First, use below syntax into a Notebook cell for each public package that you want to install into the R Notebook.
 
 [source,r]
 ----
-install.packages("random")
-                  ^^^^^^
-                  Package name
+install.packages (“library_name”)
 ----
 
-Next, invoke the `library` command for each library you want to include in your environment from the installed package(s).
-For example:
+Replace `library_name` with the name of the desired R package.
+
+Next, use below syntax for each library you want to include in your environment from the installed package(s). For example:
 
 [source,r]
 ----
-library("random")
-         ^^^^^^
-         Library name
+library (“library_name”)
 ----
 
 You may now use any of the methods or functionality included in the library in subsequent Notebook cells.
@@ -695,6 +734,7 @@ You may now use any of the methods or functionality included in the library in s
 |  kbd:[`Alt`] + kbd:[`Enter`]
 |===
 
+[#python-notebooks-secrets-store]
 == Python Notebooks secrets store
 
 === Overview
