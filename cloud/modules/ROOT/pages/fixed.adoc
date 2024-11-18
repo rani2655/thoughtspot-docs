@@ -20,7 +20,7 @@ These are the issues we fixed in this release of ThoughtSpot Cloud.
 |Issue ID |Description
 
 |SCAL-225140
-|Clicking *Ask Sage* on a Liveboard causes an error message.
+|Making natural language search queries on a Liveboard without selecting a data source and then clicking *Ask Sage* causes a 500 error message.
 
 |SCAL-224829
 |KPI watchlist and shared Liveboard emails are not received.
