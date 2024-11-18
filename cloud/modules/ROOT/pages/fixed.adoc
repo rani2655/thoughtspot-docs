@@ -28,9 +28,6 @@ These are the issues we fixed in this release of ThoughtSpot Cloud.
 |SCAL-224711
 |Unable to sign in to a ThoughtSpot Cloud cluster.
 
-|SCAL-224691
-|Authenticated users can access the ThoughtSpot API allowing them to enumerate all users present within the system.
-
 |SCAL-223858
 |Object Usage Liveboards within non-primary Orgs display no data for users, while the primary Org is able to display the data correctly.
 
@@ -48,9 +45,6 @@ These are the issues we fixed in this release of ThoughtSpot Cloud.
 
 |SCAL-221382
 |Loading ThoughtSpot causes web browser to crash.
-
-|SCAL-219798
-|ThoughtSpot user password is visible in HTTP Archive Record (HAR).
 
 |SCAL-219492
 |User sees "request access" page when trying to view a Liveboard, even though the URL to the Liveboard is already shared with them.
@@ -72,12 +66,6 @@ These are the issues we fixed in this release of ThoughtSpot Cloud.
 
 |SCAL-213964
 |User is unable to sign in to ThoughtSpot after SAML authentication.
-
-|SCAL-211166
-|Endpoint returns data related to users that are not in the current Org.
-
-|SCAL-210627
-|Privilege Escalation/Authorization Bypass appears in the DELETE verb/api endpoint of ThoughtSpot.
 
 |SCAL-205663
 |Groups are duplicated in ThoughtSpot.
