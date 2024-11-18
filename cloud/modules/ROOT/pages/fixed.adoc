@@ -32,7 +32,7 @@ These are the issues we fixed in this release of ThoughtSpot Cloud.
 |Object Usage Liveboards within non-primary Orgs display no data for users, while the primary Org is able to display the data correctly.
 
 |SCAL-223741
-|Liveboards do not load properly.
+|Liveboards do not load and a "Request failed with status code 500" error appears.
 
 |SCAL-223011
 |Object usage Liveboards display no data.
