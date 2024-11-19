@@ -61,7 +61,7 @@ a|Making natural language search queries on a Liveboard using *Ask Sage* results
 |When navigating between certain pages in ThoughtSpot, the URL sometimes doesn't reflect the user's location in ThoughtSpot.
 
 |SCAL-217319
-|Updating the version of a cluster sometimes fails to start and results in an error.
+|Upgrading the software version of a cluster sometimes fails to start and results in an error.
 
 |SCAL-217035
 |Updating the columns in the TML for a table causes a 'System error has occurred' error.
