@@ -34,7 +34,7 @@ a|Making natural language search queries on a Liveboard using *Ask Sage* results
 |Unable to sign in to a ThoughtSpot Cloud cluster directly, using SSO, or when ThoughtSpot is embedded.
 
 |SCAL-223858
-|Object Usage Liveboards within non-primary Orgs display no data for users, while the primary Org is displays the data correctly.
+|Object Usage Liveboards within non-primary Orgs display no data for users, while the Object Usage Liveboard in the primary Org displays the data correctly.
 
 |SCAL-223741
 |Liveboards do not load and a "Request failed with status code 500" error appears.
@@ -46,7 +46,7 @@ a|Making natural language search queries on a Liveboard using *Ask Sage* results
 |Using the Explore feature in a Liveboard does not provide suggestions, even after reloading multiple times.
 
 |SCAL-222348
-|Embedded Liveboard does not load when the customer sets the locale in their embed configuration to an unsupported format.
+|Embedded Liveboards do not load after the customer sets the locale in their embed configuration to an unsupported format.
 
 |SCAL-221382
 |Loading ThoughtSpot causes the Microsoft Edge web browser to crash.
