@@ -34,7 +34,7 @@ a|Making natural language search queries on a Liveboard using *Ask Sage* results
 |Unable to sign in to a ThoughtSpot Cloud cluster directly, using SSO, or when ThoughtSpot is embedded.
 
 |SCAL-223858
-|Object Usage Liveboards within non-primary Orgs display no data for users, while the Object Usage Liveboard in the primary Org displays the data correctly.
+|Object Usage Liveboards within non-primary Orgs display no data for users, while the Object Usage Liveboards in the primary Org display the data correctly.
 
 |SCAL-223741
 |Liveboards do not load and a "Request failed with status code 500" error appears.
@@ -55,7 +55,7 @@ a|Making natural language search queries on a Liveboard using *Ask Sage* results
 |User sees the _request access_ page when trying to view a Liveboard, even though the URL to the Liveboard is already shared with them.
 
 |SCAL-218844
-|When the default system language is not set, it causes missing localization files which result in 'couldn't complete your request' errors on the Liveboard and home pages, and Liveboards and Answers do not work correctly on the Develop page.
+|When the default system language is not set, it causes missing localization files which result in 'couldn't complete your request' errors on the Liveboard and home pages. In addition, Liveboards and Answers do not work correctly on the Develop page.
 
 |SCAL-217403
 |When navigating between certain pages in ThoughtSpot, the URL sometimes doesn't reflect the user's location in ThoughtSpot.
