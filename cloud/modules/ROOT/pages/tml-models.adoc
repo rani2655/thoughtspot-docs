@@ -248,6 +248,12 @@ The type of data the column represents.
 +
 Possible values: `MEASURE` or `ATTRIBUTE`. The default is: `MEASURE`.
 
+[#columns]
+columns::
+The list of columns available from the data sources in the Model.
++
+Each Model is identified by `name`, `description`, `column_id`, and `properties`.
+
 [#currency_type]
 currency_type::
 The source of the currency type.
@@ -499,6 +505,10 @@ Contains the list of accepted values for a Parameter, if a list was configured w
 list_config::
 Contains the list of accepted values for a Parameter, if a list was configured when xref:parameters-create.adoc[creating a Parameter].
 
+[#model]
+model::
+Top-level container for all object definitions within the Model.
+
 [#name]
 name::
 The name of an object.
@@ -600,15 +610,6 @@ An accepted value for a Parameter, if a list was configured when xref:parameters
 values::
 The values being filtered (excluded or included) in a Model.
 
-[#model
-model::
-Top-level container for all object definitions within the Model.
-
-[#columns]
-columns::
-The list of columns available from the data sources in the Model.
-+
-Each Model is identified by `name`, `description`, `column_id`, and `properties`.
 
 [#limitations]
 == Limitations of working with TML files
