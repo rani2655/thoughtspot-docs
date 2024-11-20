@@ -157,6 +157,11 @@ To view a knowledge card, do the following:
 +
 [.bordered]
 image::model-knowledge-card.png[Model knowledge card]
++
+.[.badge.badge-early-access]#Early Access# Knowledge Cards
+****
+This is an Early Access feature and disabled by default. To enable it, contact your ThoughtSpot administrator.
+****
 
 [#role-playing-dimensions]
 == Role-playing dimensions
