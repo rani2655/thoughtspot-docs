@@ -1,15 +1,15 @@
 = Create Models
-:last_updated: 10/28/2024
+:last_updated: 11/19/2024
 :linkattrs:
 :experimental:
-:page-layout: default-cloud-early-access
+:page-layout: default-cloud
 :description: Models are logical views created on top of a more complex data model, to enable business users to more easily consume data.
 :model: Model
-:jira: SCAL-158357, SCAL-194041 (9.10.5 -drag to create joins), SCAL-194038 (9.10.5 - bulk edit column properties). SCAL-189664 (remove spotapps - removed from image in step 3 of creating a model. SCAL-202208 (sort and filter in columns grid - 9.12.0.cl), SCAL-203404 (model filters limit - 9.12.0.cl), SCAL-221549 (knowledge cards - 10.4.0.cl)
+:jira: SCAL-158357, SCAL-194041 (9.10.5 -drag to create joins), SCAL-194038 (9.10.5 - bulk edit column properties). SCAL-189664 (remove spotapps - removed from image in step 3 of creating a model. SCAL-202208 (sort and filter in columns grid - 9.12.0.cl), SCAL-203404 (model filters limit - 9.12.0.cl), SCAL-221549 (knowledge cards - 10.4.0.cl), SCAL-225747 (models GA)
 
 == Introducing Models
 
-Models are a new, easier way of creating what previously were called Worksheets. You can create Models from the *Data* tab, just like Worksheets. You can still create and use Worksheets, but ThoughtSpot plans to deprecate and remove Worksheets in a future release. All worksheets can be migrated to Models in a future release.
+Models are an easier way of creating what previously were called Worksheets. You can create Models from the *Data* tab, just like Worksheets. You can still create and use Worksheets, but ThoughtSpot plans to remove Worksheets in a future release. All worksheets can be migrated to Models in a future release.
 
 Models are created in the new Model editor which provides a more visual and intuitive experience for creating data models.
 
