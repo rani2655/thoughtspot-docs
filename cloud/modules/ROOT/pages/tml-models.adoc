@@ -11,6 +11,51 @@
 
 include::partial$tml-intro-models.adoc[]
 
+[#column-groups]
+=== Data panel column groups
+
+Analysts can now set definitions in a Model's TML file to group columns together in the Data panel for Search Data, rather than having them grouped by default, as measures and attributes. You can also use TML properties to enable or disable alphabetical sorting of the groups.
+
+To use the data panel column groups properties, you first add a property to each column properties definition, allocating each column to a group. This property, <<data_panel_column_groups,data_panel_column_groups>>, defines which group(s) a column belongs to. To assign a column to multiple groups, use a comma-separated list.
+
+Use the following syntax:
+
+----
+- name: Transactiondate
+    column_id: DIMDATE::TRANSACTIONDATE
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+    data_panel_column_groups: {Dates:}
+----
+
+To enable data panel column groups as a whole, add a section with the following syntax to your TML file:
+
+----
+column_groups:
+  - type: DATA_PANEL
+    properties:
+      status: ENABLE
+      default_sort: ENABLE
+    column_group_info:
+    - name: Dates
+      include_ungrouped_columns: false
+    - name: KPIs
+      include_ungrouped_columns: false
+    - name: Stores
+      include_ungrouped_columns: false
+    - name: ungrouped columns
+      include_ungrouped_columns: true
+    - name: Customers
+      include_ungrouped_columns: false
+----
+
+In the above syntax, the <<status,status>>: Enable property enables the column groups feature. You can change the status to Disable to remove the column groups from the data panel without deleting the definition in the TML file.
+
+The <<default_sort,default_sort>> property keeps the order set in the TML file when disabled. When enabled, the column groups will be listed in alphabetical order in the Data panel.
+
+Define the column group names and contents using the <<column_group_info,column_group_info>> property. The <<name,name>> property defines the group name. The <<include_ungrouped_columns,include_ungrouped_columns>> property defines which group any columns you did not define with the <<data_panel_column_groups,data_panel_column_groups>> property are allocated to. There must be one column group with the include_ungrouped_columns property set to true.
+
 [#syntax-worksheets]
 include::partial$tml-syntax-models.adoc[]
 
