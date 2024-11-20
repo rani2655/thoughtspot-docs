@@ -65,7 +65,7 @@ These parameters and their definitions are specific to {object}; this list doesn
 
 [width="100%",grid="none",options="header"]
 |===
-| a - g | i - l | n - w
+| a - g | i - m | n - w
 a| <<aggregation,aggregation>>
 
 <<alias,alias>>
@@ -81,6 +81,8 @@ a| <<aggregation,aggregation>>
 <<column_groups,column_groups>>
 
 <<column_type,column_type>>
+
+<<columns,columns>>
 
 <<currency_type,currency_type>>
 
@@ -160,6 +162,8 @@ a| <<id,id>>
 
 <<list_config,list_config>>
 
+<<model,model>>
+
 a| <<name,name>>
 
 <<on,on>>
@@ -197,10 +201,6 @@ a| <<name,name>>
 <<value,value>>
 
 <<values,values>>
-
-<<model,model>>
-
-<<columns,columns>>
 
 |===
 
@@ -247,6 +247,12 @@ column_type::
 The type of data the column represents.
 +
 Possible values: `MEASURE` or `ATTRIBUTE`. The default is: `MEASURE`.
+
+[#columns]
+columns::
+The list of columns available from the data sources in the Model.
++
+Each Model is identified by `name`, `description`, `column_id`, and `properties`.
 
 [#currency_type]
 currency_type::
@@ -499,6 +505,10 @@ Contains the list of accepted values for a Parameter, if a list was configured w
 list_config::
 Contains the list of accepted values for a Parameter, if a list was configured when xref:parameters-create.adoc[creating a Parameter].
 
+[#model]
+model::
+Top-level container for all object definitions within the Model.
+
 [#name]
 name::
 The name of an object.
@@ -600,15 +610,6 @@ An accepted value for a Parameter, if a list was configured when xref:parameters
 values::
 The values being filtered (excluded or included) in a Model.
 
-[#model
-model::
-Top-level container for all object definitions within the Model.
-
-[#columns]
-columns::
-The list of columns available from the data sources in the Model.
-+
-Each Model is identified by `name`, `description`, `column_id`, and `properties`.
 
 [#limitations]
 == Limitations of working with TML files
