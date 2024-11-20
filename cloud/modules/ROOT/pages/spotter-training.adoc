@@ -1,4 +1,4 @@
-= Training Spotter
+= Coach Spotter
 :last_updated: 11/18/2024
 :author: Naomi
 :linkattrs:

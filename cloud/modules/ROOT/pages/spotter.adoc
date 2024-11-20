@@ -32,4 +32,72 @@ Spotter for Liveboards will not be enabled on the following:
 * Visualizations of the note tile or headline chart type.
 ====
 
+== Spotter configurations
+
+To enable Spotter for your cluster, an administrator must first enable Spotter in the Admin panel, then assign user groups with Spotter privileges. To enable Spotter on Liveboards, the underlying data source must also have Spotter enabled.
+
+
+=== Enable Spotter for a cluster
+
+
+To enable Spotter for a cluster, follow these steps:
+
+
+. Navigate to the Admin panel, either by clicking on the Admin button in the top menu or by selecting Admin from the app switcher icon.
+
+
+. Select *ThoughtSpot AI* from the left menu. Note that if your cluster has orgs enabled, you should look under the *All orgs* section rather than the *Primary org* section.
+
+
+. Under *ThoughtSpot Ask AI experience*, enable the following settings:
++
+—
+AI Answers
+AI Answers on Liveboard
+New Spotter Experience
+—
++
+NOTE: *New Spotter Experience* rebrands the former Sage (AI Answers) and Ask Sage (AI Answers on Liveboard) features to Spotter. Note that you can still use Sage and Ask Sage when the New Spotter experience is disabled, but you will not be able to ask follow-up questions in the Sage module.
+
+
+
+
+=== Enable Spotter for a user group
+
+
+To give Spotter privileges to a certain user group, follow these steps:
+
+
+. Navigate to the Admin panel, either by clicking on the Admin button in the top menu or by selecting Admin from the app switcher icon.
+
+
+. If your cluster has Orgs enabled, navigate to the *Primary org* tab in the left menu and select *Groups* under *User management*. Otherwise, select *Groups* under *User management*.
+
+
+. Select the name of the desired user group to open the *Edit group* pop-up.
+
+
+. Scroll to the *Roles* section and select the checkbox next to the *can preview thoughtspot sage* privilege. Click *Update*.
+
+
+
+
+
+
+=== Enable Spotter for a Liveboard
+
+
+In order for users to access Spotter on a Liveboard visualization, the underlying data source must be enabled for Spotter. To enable a Worksheet or Model for Spotter, follow these steps:
+
+
+. Navigate to the Data workspace, either by selecting *Data* in the top menu bar or by selecting *Data workspace* from the app switcher icon.
+
+
+. Select the Worksheet or Model from the list in the Data Workspace.
+
+
+. Click the *More* icon image:icon-more-10px.png[more menu icon] in the upper right corner and select *Enable Spotter*.
++
+NOTE: If Spotter is disabled on a certain Worksheet or Model, users will still see the Spotter icon on visualizations built on any dependent Liveboard. Clicking *Spotter* will result in an error message prompting users to ask an admin to turn on AI features for the data source.
+
 
