@@ -79,6 +79,21 @@ xref:liveboard.adoc#compact-header[Liveboards].
 [#10-4-0-cl-data-engineer]
 === For the Data Engineer
 
+Models::
+// Mark. jira: SCAL-217598. docs jira: SCAL-225747
+// PM: Samridh
+Models are now available to all customers and enabled by default. Worksheets are now deprecated and will be removed in a future release. Existing Worksheets continue to be available and editable, but Worksheet creation is disabled by default. To enable Worksheet creation, you must contact your ThoughtSpot administrator. You can migrate an individual Worksheet to a Model. Bulk migration of Worksheets to Models will be available in the 10.5.0.cl release. For more information, see xref:models.adoc[Models].
+
+Model knowledge cards [.badge.badge-early-access-relnotes]#Early Access#::
+// Mark. jira: SCAL-220257. docs jira: SCAL-221549
+// PM: Samridh.
+With knowledge cards, you can now see more detail about tables and columns before you add them to a Model. To view the knowledge card, click the knowledge card button image:knowledge-card-button.png[knowledge card button,width="30"], and then click the table or column. To enable this feature, contact your ThoughtSpot administrator. For more information, see xref:models.adoc#knowledge-cards[Knowledge cards].
+
+Updated joins tab for Worksheets and Models::
+// Mark. jira: SCAL-220324. docs jira: SCAL-224681
+// PM: Anjali
+The joins tab for Worksheets and Models in the _Data workspace_ is now updated to match the join creation UI for Models.
+
 // Naomi. jira: SCAL-210169. docs jira: SCAL-229394
 Control default and available chart types [.badge.badge-beta-relnotes]#Beta#::
 You can now control the default display mode for Answers (table or chart). You can also decide which chart types are available and default for your cluster. For example, you can set the default chart type for an Answer as a bar chart. You could also decide to remove pie charts from your cluster. To enable this feature, contact {support-url}. For more information, see
