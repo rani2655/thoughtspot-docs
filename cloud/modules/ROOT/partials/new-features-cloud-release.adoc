@@ -41,6 +41,12 @@ Configuring color gradients [.badge.badge-early-access-relnotes]#Early Access#::
 You can now choose multiple colors to define a gradient in charts that support gradients -- geo heatmap, geo area, heatmap, and treemap charts. You can control the low, mid, and high values, and numerical value points to customize the gradient. For more information, see
 xref:chart-color-change.adoc[Change chart colors].
 
+// Mary. jira: SCAL-224070. docs jira: SCAL-229753
+ThoughtSpot Sync: send full image of Liveboard to Slack [.badge.badge-beta]#Beta#::
+ThoughtSpot introduces the ability for users to choose to export a Liveboard as a PDF or a PNG image when creating a new sync pipeline. PDFs include the complete Liveboard. PNG images are of the first page of the Liveboard.
+To enable this feature, contact {support-url}.
+For more information, see xref:sync-slack.adoc[Sync data from ThoughtSpot to Slack].
+
 
 [#10-4-0-cl-business-user]
 === For the Business User
@@ -130,9 +136,26 @@ Download custom calendar::
 In the *Create a custom calendar* interface, you can now set up a template calendar and download it as a CSV file with all columns, based on the values you inputted. You can then modify the file and share it with your ThoughtSpot administrator to upload it to your database. Once the CSV is uploaded to the database, you can set up the calendar by directly mapping the table. For more information, see
 xref:connections-cust-cal-create.adoc[Create a custom calendar].
 
+// Mary -- SCAL-229115
+Granular privileges::
+ThoughtSpot Role-Based Access Control (RBAC) is now available to all users. RBAC enhances the granularity of permissions. RBAC is disabled by default. To enable this feature, contact {support-url}. For more information see, xref:rbac.adoc[Understand RBAC and privileges].
+
 
 [#10-4-0-cl-it-ops]
 === For the IT/Ops Engineer
+
+// Mary. JIRA: SCAL-202402. docs JIRA: SCAL-212285
+Org-specific URLs::
+Org-specific URLs are now available to all users and on by default. URLs in emails now include Org context so that users are taken directly to the correct Liveboard in the correct Org even if they belong to multiple Orgs.
+You can also move between browser tabs that point to different Orgs.
++
+For more information, see
+ifndef::pendo-links[]
+xref:orgs-overview.adoc[Multi-tenancy with Orgs].
+endif::[]
+ifdef::pendo-links[]
+xref:orgs-overview.adoc[Multi-tenancy with Orgs,window=_blank].
+endif::[]
 
 [#10-4-0-cl-developer]
 === For the Developer
