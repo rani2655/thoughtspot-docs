@@ -129,7 +129,7 @@ xref:git-version-control.adoc[Version control for Liveboards and Answers].
 // Naomi. jira: SCAL-224017, SCAL-210554. docs jira: SCAL-210659
 Data panel column groups::
 Analysts can now set definitions in a Model's TML file to group columns together in the Data panel for Search Data. You can also use TML properties to enable or disable alphabetical sorting of the groups. For more information, see
-xref:tml-models.adoc[TML for Models].
+xref:tml-models.adoc#column-groups[TML for Models].
 
 // Naomi. jira: SCAL-197812. docs jira: SCAL-224478
 Download custom calendar::

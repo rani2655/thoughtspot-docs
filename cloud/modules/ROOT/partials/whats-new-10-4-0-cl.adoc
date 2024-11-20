@@ -311,10 +311,10 @@ endif::[]
 
 Analysts can now set definitions in a Model's TML file to group columns together in the Data panel for Search Data. You can also use TML properties to enable or disable alphabetical sorting of the groups. For more information, see
 ifndef::pendo-links[]
-xref:tml-models.adoc[TML for Models].
+xref:tml-models.adoc#column-groups[TML for Models].
 endif::[]
 ifdef::pendo-links[]
-xref:tml-models.adoc[TML for Models,window=_blank].
+xref:tml-models.adoc#column-groups[TML for Models,window=_blank].
 endif::[]
 
 [.bordered]
