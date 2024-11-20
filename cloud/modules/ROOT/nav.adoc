@@ -501,18 +501,18 @@
 ** xref:search-sage.adoc[ThoughtSpot Sage]
 ** xref:search-flags.adoc[Query and autocomplete options]
 * xref:spotter.adoc[]
-** When enabled
+** When Spotter is enabled
 *** xref:spotter-getting-started.adoc[]
-*** xref:spotter-configuration.adoc[]
 *** xref:spotter-worksheet-model.adoc[]
-*** xref:spotter-training.adoc[]
+*** xref:spotter-training.adoc[Coach Spotter]
+**** xref:spotter-coach.adoc[]
 **** xref:spotter-training-options.adoc[]
 **** xref:spotter-training-steps.adoc[]
 *** xref:spotter-best.adoc[]
 **** xref:spotter-validate.adoc[]
 **** xref:spotter-error.adoc[]
 
-** When disabled
+** When Spotter is disabled
 *** xref:sage-search.adoc[]
 *** xref:ask-sage.adoc[]
 *** xref:sage-coach.adoc[]
