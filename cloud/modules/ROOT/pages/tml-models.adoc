@@ -65,7 +65,7 @@ These parameters and their definitions are specific to {object}; this list doesn
 
 [width="100%",grid="none",options="header"]
 |===
-| a - g | i - l | n - w
+| a - g | i - m | n - w
 a| <<aggregation,aggregation>>
 
 <<alias,alias>>
@@ -81,6 +81,8 @@ a| <<aggregation,aggregation>>
 <<column_groups,column_groups>>
 
 <<column_type,column_type>>
+
+<<columns,columns>>
 
 <<currency_type,currency_type>>
 
@@ -160,6 +162,8 @@ a| <<id,id>>
 
 <<list_config,list_config>>
 
+<<model,model>>
+
 a| <<name,name>>
 
 <<on,on>>
@@ -197,10 +201,6 @@ a| <<name,name>>
 <<value,value>>
 
 <<values,values>>
-
-<<model,model>>
-
-<<columns,columns>>
 
 |===
 
