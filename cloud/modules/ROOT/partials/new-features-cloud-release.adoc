@@ -140,6 +140,14 @@ xref:connections-cust-cal-create.adoc[Create a custom calendar].
 Granular privileges::
 ThoughtSpot Role-Based Access Control (RBAC) is now available to all users. RBAC enhances the granularity of permissions. RBAC is disabled by default. To enable this feature, contact {support-url}. For more information see, xref:rbac.adoc[Understand RBAC and privileges].
 
+// Mary. jira: SCAL-221312. docs jira: SCAL-230838
+Utilities schema viewer connection picker [.badge.badge-early-access]#Early Access#::
+ThoughtSpot introduces a connection picker to the schema viewer. You can now use the dropdown or search to select your connection in the schema viewer.
++
+NOTE: You can no longer view objects across all connections. You must filter by a specific connection.
++
+Fore more information, see xref:schema-viewer.adoc[Schema viewer connection picker].
+
 
 [#10-4-0-cl-it-ops]
 === For the IT/Ops Engineer

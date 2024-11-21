@@ -340,12 +340,14 @@ endif::[]
 
 [#10-4-0-cl-utilities]
 [discrete]
-=== Utilities schema viewer [.badge.badge-early-access]#Early Access#
+=== Utilities schema viewer connection picker [.badge.badge-early-access]#Early Access#
 ThoughtSpot introduces a connection picker to the schema viewer. You can now use the dropdown or search to select your connection in the schema viewer.
 
 NOTE: You can no longer view objects across all connections. You must filter by a specific connection.
+
+Fore more information, see xref:schema-viewer.adoc[Schema viewer connection picker].
 // Mary. jira: SCAL-221312. docs jira: SCAL-230838
-// PM: Samridh. add image.
+// PM: Samridh.
 
 ////
 [#10-4-0-cl-join-key]
