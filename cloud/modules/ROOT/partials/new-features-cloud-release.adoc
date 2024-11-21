@@ -165,6 +165,27 @@ ifdef::pendo-links[]
 xref:orgs-overview.adoc[Multi-tenancy with Orgs,window=_blank].
 endif::[]
 
+// Mary JIRA: SCAL-228611
+Default Org enablement in new clusters::
+All new clusters are enabled with Orgs by default. However, your environment remains a single-tenant environment until you create an Org. You can also delete all the Orgs you created and use only the Primary Org if you want a single-tenant environment with Orgs enabled.
+Once enabled Orgs cannot be disabled.
++
+NOTE: You can see the Org you are in displayed in the top navigation bar. If there are no Orgs created, you will see *Primary* indicating that you are in the primary Org.
++
+For more information, see xref:orgs-overview.adoc[Multi-tenancy with Orgs].
+
+// Mary JIRA: SCAL-228932
+ThoughtSpot Enterprise clusters with IAMv2::
+All new ThoughtSpot Enterprise clusters are enabled with Enhanced Identity and Access Management (IAMv2). Advantages for customers:
+
+* Security compliance benefits
+* Support for advanced functionality with SAML, OIDC per Org, and Org and Group mapping
+* Increased speed of deployment for advanced identity features into ThoughtSpot Cloud
+* Improved password policy management with increased flexibility and features
+
++
+For more information, see xref:okta-iam.adoc[Identity and Access Management V2].
+
 [#10-4-0-cl-developer]
 === For the Developer
 
