@@ -16,5 +16,5 @@ Use Workspace API tokens for tasks like archiving inactive Reports or deleting s
 Manage permissions in {product}.
 ** xref:analyst-studio-admin-permissions.adoc[Admin permissions] +
 Learn the permissions needed to access {product}.
-** xref:analyst-studio-workspace-api-tokens.adoc[API tokens] +
+** xref:analyst-studio-api-tokens.adoc[API tokens] +
 An overview of Workspace API tokens.
