@@ -9,7 +9,7 @@
 :path: /articles/querying-data
 :page-aliases: /analyst-studio/querying-data.adoc
 :product: Analyst Studio
-:jira: SCAL-228722
+:jira: SCAL-228722, SCAL-233585
 
 == Overview
 
@@ -27,10 +27,10 @@ The query editor contains a number of re-sizable sections that should be familia
 . *Report navigation panel* - Use the navigation panel to quickly navigate between the Report Builder, a xref:analyst-studio-notebook.adoc#using-the-notebook[Python/R Notebook], and the data section.
 Within the data section, which you can drag to resize, you will see:
 
- ** Every query in the Report.
+ ** Every query and reusable Dataset in the Report.
 Click on a query to select it and edit its code.
-Use the context menu to rename, duplicate, delete, and more.
-To add a new query, click on the plus button to the right of the data header.
+Use the context menu to rename, duplicate, delete, reorder, and more.
+To add a new query or Dataset, click on the plus button to the right of the data header. Drag and drop to reorder the queries and Datasets.
  ** Each visualization that you build using a query's data.
 //Use the overflow menu to add or remove your chart from the Report Builder, duplicate, xref:studio-explorations.adoc#view-saved-explorations[explore], and more.
 Or, click the plus button below your chart to add a new one.
