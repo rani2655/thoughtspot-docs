@@ -8,6 +8,8 @@
 :path: /articles/report-scheduling-and-sharing
 :page-aliases: /analyst-studio/report-scheduling-and-sharing.adoc
 :product: Analyst Studio
+:jira: SCAL-233586
+
 ////
 [#sharing-and-scheduling]
 === Sharing and scheduling
@@ -81,7 +83,7 @@ TIP: An easy way to tell the difference between a report link and a static run l
 [#scheduled-runs]
 == Scheduled runs
 
-image::refresh-on-a-schedule.png[Share via schedule]
+image::schedule_updated.png[Share via schedule]
 
 Any member of your Workspace with edit access to a Report can configure that Report to be run, and optionally shared, on a regularly occurring schedule.
 Reports can have multiple schedules configured so the Report is sent to different groups of users at different frequencies.
@@ -91,8 +93,9 @@ To modify or delete an existing schedule, click on the *gear* image:settings-min
 To create a new schedule:
 
 . Click *New Schedule*.
+. Add a name for the schedule to describe its purpose.
 . Configure the schedule, including the refresh frequency as well as xref:analyst-studio-parameters.adoc[parameter] values and delivery settings (if applicable).
-. If you want the scheduled Report run to be delivered via email, click *Create + Manage Subscribers* and add all recipients on the next screen.
+. If you want the scheduled report run to be delivered via email, click *Create + Manage Subscribers* and add all recipients on the next screen.
 . Click *Create Schedule*.
 +
 NOTE: A Report schedule will continue to run until either the underlying Report or the schedule is deleted, even if the Report author or schedule creator is no longer a member of your Workspace.
