@@ -1,11 +1,11 @@
 = ThoughtSpot Cloud requirements and support
-:last_updated: 11/05/2021
+:last_updated: 11/22/2024
 :linkattrs:
 :experimental:
 :page-layout: default-cloud
 :page-aliases: /admin/ts-cloud/ts-cloud-requirements-support.adoc
 :description: Information about features, and how to sign up.
-:jira: SCAL-175184, SCAL-202985, SCAL-227091
+:jira: SCAL-175184, SCAL-202985, SCAL-227091, SCAL-233595 (Mumbai)
 
 [#aws]
 == AWS Supported regions
@@ -21,6 +21,7 @@ Virginia)
 * Singapore
 * Japan
 * London
+* Mumbai
 
 [#gcp]
 == GCP Supported regions
