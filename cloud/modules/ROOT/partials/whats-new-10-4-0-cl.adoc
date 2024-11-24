@@ -373,6 +373,7 @@ endif::[]
 // PM: Samridh. waiting on info.
 ////
 
+////
 [#10-4-0-cl-granular]
 [discrete]
 === Granular privileges
@@ -384,11 +385,11 @@ endif::[]
 ifdef::pendo-links[]
 xref:rbac.adoc[Understand RBAC and privileges,window=_blank].
 endif::[]
-
+////
 
 // IT/ Ops Engineer
 
-
+////
 [#10-4-0-cl-orgs]
 [discrete]
 === Org-specific URLs
@@ -406,7 +407,7 @@ endif::[]
 ifdef::pendo-links[]
 xref:orgs-overview.adoc[Multi-tenancy with Orgs,window=_blank].
 endif::[]
-
+////
 
 
 

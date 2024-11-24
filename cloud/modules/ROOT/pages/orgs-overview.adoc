@@ -81,9 +81,10 @@ image::org-switcher-gif.gif[Switch the Org]
 
 include::partial$all-org-scope.adoc[]
 
-== Org-aware URL links
+.Org context for sharing links [.badge.badge-early-access]#Early Access#
+****
 
-ThoughtSpot supports Org-specific URLs. URLs in emails now include Org context so that users are taken directly to the correct Liveboard in the correct Org even if they belong to multiple Orgs. The following emails include Org specific URLs:
+URLs in emails now include Org context with query parameters in the URL that indicate the Org ID so that users are taken directly to the correct Liveboard in the correct Org even if they belong to multiple Orgs. Links generated for the following include Org context with query parameters:
 
 * Sharing
 * SpotIQ analysis
@@ -98,7 +99,7 @@ If you open a link from an Org other than the one that you are currently logged 
 NOTE: The *Admin* page can only be accessed when you are logged in to the appropriate Org.
 
 NOTE: You can enable *URLparam* to identify the Org ID for links.
-
+****
 
 == Manage users and groups
 
