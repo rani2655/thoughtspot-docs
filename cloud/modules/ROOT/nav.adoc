@@ -662,7 +662,6 @@
 ** xref:spotiq-best.adoc[Best practices for SpotIQ Analyze]
 * xref:mobile.adoc[Mobile]
 //** About this release
-//*** xref:notes-mobile.adoc[Release notes]
 //*** xref:mobile-compare-web.adoc[Compare mobile and web]
 //** xref:mobile-getting-started.adoc[Getting started]
 //*** xref:mobile-deploy.adoc[Deploy]
