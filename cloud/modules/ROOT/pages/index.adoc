@@ -95,8 +95,6 @@ h2#_whats_new_in_thoughtspot_cloud {
 
 ThoughtSpot Cloud™ is our hosted and managed Software as a Service (SaaS) offering. ThoughtSpot Cloud is available on xref:ts-cloud-requirements-support.adoc#aws[Amazon Web Services (AWS)] and xref:ts-cloud-requirements-support.adoc#gcp[Google Cloud Platform (GCP)]. Customers can choose the cloud and region where they would like their ThoughtSpot Cloud service deployed.
 
-include::partial$cloud-coming-soon.adoc[]
-
 ThoughtSpot Cloud offers multiple advantages over deployment form factors that you have to manage and maintain within your own organization.
 
 Find topics for the common types of ThoughtSpot users.
@@ -228,7 +226,3 @@ Find topics for the common types of ThoughtSpot users.
 == What's new in ThoughtSpot Cloud
 
 include::partial$whats-new-10-3-0-cl.adoc[]
-
-[#next-release]
-== What's coming in the next release
-include::partial$whats-new-10-4-0-cl.adoc[]
