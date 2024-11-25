@@ -9,13 +9,13 @@
 
 
 Spotter training provides you options to map data to your business questions and terms.
-
+////
 +++
 <video controls width="100%" controlsList="nodownload">
 <source src="https://docs.thoughtspot.com/cloud/10.4.0.cl/_images/coach-spotter.mp4" type="video/mp4">
 </video>
 +++
-
+////
 
 At the moment, Spotter provides two different training options (in addition to the options already covered under data modeling):
 
