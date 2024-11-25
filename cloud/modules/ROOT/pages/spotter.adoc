@@ -9,13 +9,13 @@
 
 Introducing Spotter, our new AI-powered, unified conversational search experience. This feature replaces the previous Sage search experience. When enabled, you can enter the Spotter interface from the Spotter module on the Home page, or by clicking *Spotter* on any visualization pinned to a Liveboard.
 
-
+////
 +++
 <video controls width="100%" controlsList="nodownload">
 <source src="https://docs.thoughtspot.com/cloud/10.3.0.cl/_images/spotter-use-case.mp4" type="video/mp4">
 </video>
 +++
-
+////
 
 You can ask successive questions to hone in on business insights, open a preview of the underlying data, drill down, edit or undo changes to the resulting AI-generated Answers, see what terms Spotter changed from answer to answer, and submit feedback on the answers received. Analysts can also coach Spotter to guide Spotter's interpretations from the Data Workspace. To enable Spotter, contact your administrator.
 
