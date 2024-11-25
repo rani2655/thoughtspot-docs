@@ -9,7 +9,7 @@ include::partial$org-intro.adoc[]
 
 This article is an overview of the Orgs functionality and Org management in the standard ThoughtSpot Cloud environment. To learn more about Orgs functionality and programmatic Org management using REST APIs in the ThoughtSpot developer environment, refer to https://developers.thoughtspot.com/docs/?pageid=orgs[Multi-tenancy with Orgs^]. To learn more about Orgs APIs, refer to https://developers.thoughtspot.com/docs/?pageid=orgs-api[Orgs API^].
 
-WARNING: After you enable the Orgs feature on a cluster, you can’t turn off the ability to create Orgs. However, your environment remains a single-tenant environment until you create an Org. You can also delete all the Orgs you created, and just use the Primary Org, if you would like a single-tenant environment with Orgs enabled. For more information, see <<enable-disable,Enabling and disabling Orgs>>.
+NOTE: After you enable the Orgs feature on a cluster, you can’t turn off the ability to create Orgs. However, your environment remains a single-tenant environment until you create an Org. You can also delete all the Orgs you created, and just use the Primary Org, if you would like a single-tenant environment with Orgs enabled. For more information, see <<enable-disable,Enabling and disabling Orgs>>.
 
 == Orgs in ThoughtSpot
 
@@ -58,11 +58,11 @@ include::partial$org-admin.adoc[]
 
 == Create and manage Orgs
 
-To create an Org on a multi-tenant ThoughtSpot instance, you need cluster administrator privileges. By default, the administrator of the Primary Org is a cluster administrator. The cluster administrator can create Orgs using either the UI or the REST v1 API endpoints. The cluster administrator can also edit and delete Orgs.
+To create an Org on a multi-tenant ThoughtSpot instance, you need cluster administrator privileges. By default, the administrator of the Primary Org is a cluster administrator. The cluster administrator can create Orgs using either the UI or the REST API endpoints. The cluster administrator can also edit and delete Orgs.
 
 For information on how to create, edit, and delete Orgs, refer to xref:orgs-administration-overview.adoc#create-manage[Orgs administration].
 
-To create Orgs using the REST v1 API endpoints, refer to https://developers.thoughtspot.com/docs/?pageid=orgs-api[Orgs API^].
+To create Orgs using the REST API endpoints, refer to https://developers.thoughtspot.com/docs/?pageid=orgs-api[Orgs API^].
 
 [#switch]
 == Switch between Orgs
