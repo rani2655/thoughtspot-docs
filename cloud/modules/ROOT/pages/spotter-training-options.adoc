@@ -16,6 +16,8 @@ Spotter training provides you options to map data to your business questions and
 </video>
 +++
 ////
++++<script src="https://fast.wistia.com/embed/medias/lgw3ak0kdx.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_lgw3ak0kdx popover=true popoverAnimateThumbnail=true popoverBorderColor=4E55FD popoverBorderWidth=2" style="display:inline-block;height:252px;position:relative;width:450px">&nbsp;</span>
++++
 
 At the moment, Spotter provides two different training options (in addition to the options already covered under data modeling):
 
