@@ -142,7 +142,7 @@ CREATE_JOIN:: A user attempts to create a join, including join properties of typ
 [#create-pinboard]
 CREATE_PINBOARD::  A user attempts to create a Liveboard.
 [#create-model]
-CREATE_MODEL:: A user attempts to create a model or worksheet.
+CREATE_MODEL:: A user attempts to create a Model or Worksheet.
 [#create-rls-rule]
 CREATE_RLS_RULE:: A user creates an RLS (row-level-security) rule on a table.
 [#create-tables]
