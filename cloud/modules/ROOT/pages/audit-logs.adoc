@@ -58,7 +58,7 @@ The possible events are:
 * <<create-answer,CREATE_ANSWER>>
 * <<create-connection,CREATE_CONNECTION>>
 * <<create-connection-attempted,CREATE_CONNECTION_ATTEMPTED>>
-* <<create-join,CREATE_JOIN>>
+* <<create-join,CREATE_RELATIONSHIP>>
 * <<create-model,CREATE_MODEL>>
 * <<create-pinboard,CREATE_PINBOARD>>
 * <<create-rls-rule,CREATE_RLS_RULE>>
@@ -70,7 +70,7 @@ The possible events are:
 * <<delete-answers,DELETE_ANSWERS>>
 * <<delete-connection,DELETE_CONNECTION>>
 * <<delete-connection-attempted,DELETE_CONNECTION_ATTEMPTED>>
-* <<delete-join,DELETE_JOIN>>
+* <<delete-join,DELETE_RELATIONSHIP>>
 * <<delete-model,DELETE_MODEL>>
 * <<delete-pinboards,DELETE_PINBOARDS>>
 * <<delete-rls-rules,DELETE_RLS_RULES>>
@@ -92,7 +92,7 @@ The possible events are:
 * <<roles-removed,ROLES_REMOVED>>
 * <<share-objects,SHARE_OBJECTS>>
 * <<update-answers,UPDATE_ANSWERS>>
-* <<update-join,UPDATE_JOIN>>
+* <<update-join,UPDATE_RELATIONSHIP>>
 * <<update-model,UPDATE_MODEL>>
 * <<update-password,UPDATE_PASSWORD>>
 * <<update-password-failed,UPDATE_PASSWORD_FAILED>>
