@@ -37,6 +37,7 @@ image::embrace-databricks-connection-type-ts-cloud.png[Add a {connection} connec
 
 . Enter the connection details for your {connection} data source using *Service Account*, *OAuth*, or *OAuth with PKCE*.
 +
+[.bordered]
 image::embrace-databricks-connection-details-service-acct.png[Connection details]
 +
 --
@@ -54,6 +55,12 @@ For Service Account authentication, do the following:
 For OAuth authentication, do the following:
 
 - Enter Host, HTTP Path, OAuth Client ID, OAuth Client Secret, Scope, Auth URL, Access token URL, and Catalog (optional).
+--
++
+--
+For OAuth authentication with Service Principal, do the following:
+
+- Enter Host, HTTP Path, Service Principal UUID, and Service Principal OAuth Secret.
 --
 
 +

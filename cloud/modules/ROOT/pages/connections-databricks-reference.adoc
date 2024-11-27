@@ -32,6 +32,9 @@ OAuth Client Secret::: Specify the OAuth client secret.
 Scope::: Specify the scope.
 Auth Url::: Specify the auth url.
 Access token Url::: Specify the access token url.
+OAuth with Service Principal::
+Service Principal UUID::: Specify the Service Principal UUID.
+Service Principal OAuth Secret::: Specify the Service Principal OAuth Secret.
 Catalog:: Specify the catalog. _(Optional)_
 Example;; sample_db
 
@@ -60,9 +63,10 @@ Access token Url::: Specify the access token url.
 Catalog:: Specify the catalog. _(Optional)_
 Example;; sample_db
 
+////
 == Limitation
 ThoughtSpot does not support link:https://docs.databricks.com/en/integrations/jdbc/authentication.html#oauth-machine-to-machine-m2m-authentication[OAuth machine-to-machine authentication^], also known as Service Principal and OAuth authentication.
-
+////
 '''
 > **Related information**
 >
