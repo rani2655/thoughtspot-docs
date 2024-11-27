@@ -6,7 +6,7 @@
 :page-layout: default-cloud
 :connection: Databricks
 :description: Learn how to add a Databricks connection.
-:jira: SCAL-136661, SCAL-203358, SCAL-214983
+:jira: SCAL-136661, SCAL-203358, SCAL-214983, SCAL-230240
 
 == Configuring OAuth
 If you need to use OAuth with {connection}, you must configure OAuth in Microsoft Azure. For details, see xref:connections-databricks-oauth.adoc[OAuth for a {connection} connection] or xref:connections-databricks-oauth-aad.adoc[].
