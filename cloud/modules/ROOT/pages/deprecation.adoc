@@ -27,7 +27,7 @@ NOTE: This feature is now deprecated. You may not use it starting with release 7
 
 == Removed in 10.4.0.cl
 
-The 10.4.0.cl release of ThoughtSpot Cloud, targeted for November 2024 (GA), removes the following feature from the *Data workspace*:
+The 10.4.0.cl release of ThoughtSpot Cloud, targeted for November 2024 (GA), removes the following features from the *Data workspace*:
 
 - Search Assist
 
@@ -39,9 +39,9 @@ The 10.4.0.cl release of ThoughtSpot Cloud, targeted for November 2024 (GA), rem
 
 == Deprecated in 10.4.0.cl
 
-The 10.4.0.cl release of ThoughtSpot Cloud, targeted for November 2024 (GA), deprecates the following features:
+The 10.4.0.cl release of ThoughtSpot Cloud, targeted for November 2024 (GA), deprecates the following feature:
 
-=== Create new worksheet in Data workpace
+=== Create new worksheet in the Data workspace
 
 - *Create new* > *Worksheet*
 +
