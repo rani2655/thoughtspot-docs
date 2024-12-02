@@ -98,7 +98,7 @@ If you open a link from an Org other than the one that you are currently logged 
 
 NOTE: The *Admin* page can only be accessed when you are logged in to the appropriate Org.
 
-NOTE: You can enable *URLparam* to identify the Org ID for links.
+NOTE: You can enable *URLparam* to identify the Org ID for links. To enable this feature, contact {support-url}.
 ****
 
 == Manage users and groups
