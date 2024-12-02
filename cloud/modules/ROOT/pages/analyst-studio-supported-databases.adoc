@@ -9,7 +9,7 @@
 :path: /articles/supported-databases
 :page-aliases: /analyst-studio/supported-databases.adoc
 :product: Analyst Studio
-:jira: SCAL-230734
+:jira: SCAL-230734, SCAL-234177
 
 == Connectivity policy
 
