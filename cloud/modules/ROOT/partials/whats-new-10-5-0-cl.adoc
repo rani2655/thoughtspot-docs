@@ -163,9 +163,10 @@ ifdef::pendo-links[]
 === Custom charts [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 
-// Mark. jira: SCAL-171985. docs jira: SCAL-?
+// Mark. jira: SCAL-171985. docs jira: SCAL-234248
 // PM: Arpit
 
+Custom charts are now an Early Access feature. This feature allows you to use custom charts created outside of ThoughtSpot, including third-party chart libraries. To enable this feature, contact your administrator.
 endif::free-trial-feature[]
 
 [#10-5-0-cl-parameters]
@@ -189,17 +190,17 @@ endif::free-trial-feature[]
 // Mary. jira: SCAL-194972. docs jira: SCAL-?
 // PM: Manan - waiting for details about how this differs from the advanced conditional formatting that was EA in 10.0.0.cl.
 
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
-[#10-5-0-cl-modeling]
-[discrete]
-=== FE v2 for data modeling [.badge.badge-beta]#Beta#
-endif::[]
-ifdef::pendo-links[]
-[#10-5-0-cl-modeling]
-[discrete]
-=== FE v2 for data modeling [.badge.badge-beta-whats-new]#Beta#
-endif::[]
+// ifndef::free-trial-feature[]
+// ifndef::pendo-links[]
+// [#10-5-0-cl-modeling]
+// [discrete]
+// === FE v2 for data modeling [.badge.badge-beta]#Beta#
+// endif::[]
+// ifdef::pendo-links[]
+// [#10-5-0-cl-modeling]
+// [discrete]
+// === FE v2 for data modeling [.badge.badge-beta-whats-new]#Beta#
+// endif::[]
 
 // Mark. jira: SCAL-141145. docs jira: SCAL-?
 // PM: Anjali
@@ -221,9 +222,9 @@ endif::[]
 // Mary. jira: SCAL-224758. docs jira: SCAL-?
 // PM: Samridh
 
-[#10-5-0-cl-model]
-[discrete]
-=== Modeling improvements for 10.5
+// [#10-5-0-cl-model]
+// [discrete]
+// === Modeling improvements for 10.5
 
 // Mark. jira: SCAL-222805. docs jira: SCAL-?
 // PM: Samridh
