@@ -103,7 +103,7 @@ a| <<microsoft-sql-server,Azure Synapse SQL>>
 | Optional
 
 a| <<dbt-semantic-layer,dbt Semantic Layer>>
-| 12.0.1
+|
 | Not supported
 
 a| <<looker-sql,Looker SQL>>
@@ -132,6 +132,9 @@ a| <<clickhouse,ClickHouse>>
 |
 | Optional
 
+a| <<postgresql,Cube>>                    |            | Not Supported
+a| <<dremio,Dremio>>                   |            | Not Supported
+
 a| <<impala,Impala>>
 | 2.8 - 3.2
 | Required
@@ -145,6 +148,14 @@ a| <<vertica,Vertica>>
 | Required
 
 a| <<databricks,Databricks>>
+|
+| Optional
+
+a| <<mysql,SingleStore>>
+|
+| Optional
+
+a| <<teradata,Teradata>>
 |
 | Optional
 
@@ -224,9 +235,11 @@ NOTE: If the database supports multiple Drivers, use the xref:analyst-studio-man
 |===
 | Driver | Driver Release Date | {product} Removal Date
 
-| (Recommended) Simba v 2.0.25.1000
-| 12/22/2022
-|
+| Amazon v 3.2.2        | 7/22/2024       |
+| (Recommended) Simba v 2.1.1.1001 | 7/31/2023               |
+| Simba v 2.0.35.1001              | 12/22/2022              |
+| Simba v 2.0.33.1001              | 10/4/2022               |
+| Simba v 2.0.31.1001              | 5/30/2022               |
 
 | Simba v 2.0.27.1001
 | 1/13/2022
@@ -327,9 +340,9 @@ You will land on a page that displays your database schema.
 |===
 | Driver | Driver Release Date | {product} Removal Date
 
-| (Recommended) Amazon Redshift v 2.1.0.13
-| 3/30/2023
-|
+| (Recommended) Amazon Redshift v 2.1.0.29   | 6/6/2024         |
+
+| Amazon Redshift v 2.1.0.13                 | 3/30/2023        |
 
 | Amazon Redshift v 2.1.0.3
 | 12/3/2021
@@ -404,6 +417,25 @@ image::redshift-connection.png[Redshift]
  ** `54.221.238.89/32`
  ** `52.20.173.236/32`
 
+===== Connecting to {product} via IAM role
+
+1. Follow the steps to connect a database with xref:analyst-studio-connecting-analyst-studio-to-your-database.adoc#direct-connect[Direct Connect].
+2. Select Amazon Redshift from the list of databases.
+3. Select Authentication method: IAM role in the {product} connection form.
+4. Navigate to IAM Roles in your AWS Console.
++
+image::athena-new-iam-role.png[]
+5. Create a new role or choose an existing role and select *Custom trust policy* under *Trusted entity type*.
++
+image:athena-custom-trust-policy.png[]
+6. Alternatively, you can choose an existing role and select the *Trust relationships* tab.
++
+image::athena-existing-iam-role.png[]
+7. Copy and paste the trust relationship from the {product} connection form into your AWS IAM Role.
+8. Add in the necessary IAM permissions to access your Redshift resource.
+9. Click **Create Role** in AWS and paste in the IAM Role ARN into the {product} connection form.
+10. Click *Connect*. You will land on a page that displays your database schema.
+
 ====== mParticle Redshift
 
 mParticle supports both mParticle-hosted and client-hosted Redshift clusters.
@@ -434,13 +466,12 @@ For additional questions about getting your DataVault credentials, please free t
 ===== Supported JDBC drivers and known issues
 
 |===
-| Driver | Driver Release Date
-
-| Apache Avatica 1.18.0
-| 5/18/2021
-
-| Apache Avatica 1.17.0
-| 6/21/2020
+| Driver                          | Driver Release Date     | Analyst Studio Removal Date
+| -----------------------------          | ------------------------| ------------------------
+| (Recommended) Apache Avatica 1.25.0    | 4/5/2024                |
+| Apache Avatica 1.23.0 | 1/19/2023       |
+| Apache Avatica 1.18.0| 5/18/2021       |
+| Apache Avatica 1.17.0| 6/21/2020       |
 |===
 
 The following are known issues with the current supported drivers.
@@ -525,9 +556,8 @@ There are no known issues with this driver.
 |===
 | Driver | Driver Release Date | {product} Removal Date
 
-| (Experimental) Clickhouse-jdbc v0.3.2-patch11
-| 7/28/2022
-|
+| (Recommended) Clickhouse version 0.6.1 | 6/10/2024               |
+| (Experimental) Clickhouse-jdbc v0.3.2-patch11 | 7/28/2022        |
 |===
 
 There are no known issues with this driver.
@@ -542,13 +572,10 @@ There are no known issues with this driver.
 |===
 | Driver | Driver Release Date | {product} Removal Date
 
-| (Recommended) Simba Spark v 2.6.21.1039
-| 12/24/2021
-|
-
-| Simba Spark v 2.6.17.1023
-| 6/17/2021
-|
+| (Recommended) Simba Spark v 2.6.38.1068| 5/4/2024                |
+| Simba Spark v 2.6.33.1055              | 5/22/2023               |
+| Simba Spark v 2.6.21.1039              | 12/24/2021              |
+| Simba Spark v 2.6.17.1023              | 6/17/2021               |
 |===
 
 _{product} recommends connecting via the Simba Spark driver because it is the official driver endorsed by Databricks._
@@ -673,6 +700,17 @@ select * from {{
 
 _Important: do not use this driver to connect to a Virtual DataPort server with an update previous to 2021/02/09._
 
+==== Dremio
+===== Supported JDBC drivers and known issues
+
+|===
+| Driver                                 | Driver Release Date     | Mode Removal Date
+| -----------------------------          | ------------------------ | ----------------------
+| (Recommended) Arrow Flight SQL version 12.0.1 | 6/13/2023   |
+|===
+
+There are no known issues with this driver.
+
 [#google-alloydb]
 ==== Google AlloyDB
 
@@ -681,9 +719,9 @@ _Important: do not use this driver to connect to a Virtual DataPort server with 
 |===
 | Driver | Driver Release Date | {product} Removal Date
 
-| (Recommended) PostgreSQL v 42.3.1
-| 2/15/2022
-|
+| (Recommended) PostgreSQL v 42.7.4      | 8/23/2024               |
+| PostgreSQL v 42.6.0                    | 3/18/2023               |
+| PostgreSQL v 42.3.2                    | 2/15/2022               |
 
 | PostgreSQL v 42.2.23
 | 7/6/2021
@@ -718,9 +756,8 @@ There are no known issues with this driver.
 |===
 | Driver | Driver Release Date | {product} Removal Date
 
-| (Recommended) Simba v 1.3.3.1004
-| 5/25/2023
-|
+| (Recommended) Simba v 1.6.1.1002       | 7/23/2024               |
+| Simba v 1.3.3.1004                     | 5/25/2023               |
 
 | Simba v 1.2.23.1027
 | 4/28/2022
@@ -943,29 +980,10 @@ Choose your BigQuery connection, and click the green *Refresh* button in the upp
 |===
 | Driver | Driver Release Date | {product} Removal Date
 
-| (Recommended) Simba v 2.6.17.1020
-| 12/24/2021
-|
-
-| Simba v 2.6.14.1017
-| 12/3/2020
-|
-
-| Simba v 2.6.12.1015
-| 9/4/2020
-|
+| Apache Hive version 3.1.3              | 4/10/2022                |
 |===
 
-The following are known issues with the current supported drivers.
-{product} continues to advocate on our customers' behalf for vendors and open-source communities to resolve these issues.
-
-|===
-| Driver | Known Issue | Further Details
-
-| Simba v 2.6.14.1017
-| Deprecated Versions
-| This driver removes support for Hive versions earlier than 1.0.0.
-|===
+There are no known issues with this driver.
 
 [#impala]
 ==== Impala
@@ -975,28 +993,10 @@ The following are known issues with the current supported drivers.
 |===
 | Driver | Driver Release Date | {product} Removal Date
 
-| (Recommended) Simba v 2.6.21.1025
-| 12/31/2020
-|
-
-| Simba v 2.6.18.1021
-| 9/2/2020
-|
+| Apache Hive version 3.1.3              | 4/10/2022                |
 |===
 
-_{product} recommends connecting via the Simba Impala driver because it is the official driver endorsed by Cloudera._
-
-Previously, {product}'s connections flow messaged drivers as versions of Impala even though {product} connected to Impala using Hive drivers according to a compatibility matrix.
-The Impala server versions are noted in the table above as parenthetical notes.
-
-|===
-| Driver | Known Issue | Further Details
-
-| Simba v 2.6.18.1021
-| Leading white space in Queries
-| When attempting to run a query that begins with a space, the driver will fail to execute the query and will return an empty result set with an error.
-In the {product} UI, users will see "`Sorry, your query was successful, but we ran into problems displaying the data.`"
-|===
+There are no known issues with this driver.
 
 [#looker-sql]
 ==== Looker SQL
@@ -1006,9 +1006,8 @@ In the {product} UI, users will see "`Sorry, your query was successful, but we r
 |===
 | Driver | Driver Release Date | {product} Removal Date
 
-| (Recommended) Avatica Looker version 1.23.4
-| 9/20/2023
-|
+| (Recommended) Avatica Looker version 1.24.1     | 8/6/2024                                     |
+| Avatica Looker version 1.23.4     | 9/20/2023              |
 |===
 
 For known limitations, see link:https://cloud.google.com/looker/docs/sql-interface#lookml_limitations[Looker's documentation,window=_blank].
@@ -1062,6 +1061,8 @@ ORDER BY 3 DESC LIMIT 5;
 
 |===
 | Driver | Driver Release Date | {product} Removal Date
+
+| Microsoft v 12.8.1                     | 8/22/2024              |
 
 | (Recommended) Microsoft v 9.4.1
 | 12/7/2021
@@ -1121,16 +1122,15 @@ image::azure-save.png[Azure SQL]
 [#mysql]
 ==== MySQL
 
-*Additionally supports:* _Amazon Aurora MySQL, MariaDB_
+*Additionally supports:* _Amazon Aurora MySQL, MariaDB, SingleStore_
 
 ===== Supported JDBC drivers and known issues
 
 |===
 | Driver | Driver Release Date | {product} Removal Date
 
-| (Recommended) MySQL Connector/J 8.0.33
-| 4/18/2023
-|
+| (Recommended) MySQL Connector/J 9.0.0  | 7/1/2024                |
+| MySQL Connector/J 8.0.33               | 4/18/2023               |
 
 | MySQL Connector/J 8.0.28
 | 1/18/2022
@@ -1178,6 +1178,8 @@ More details in link:https://stackoverflow.com/questions/26515700/mysql-jdbc-dri
 |===
 | Driver | Driver Release Date | {product} Removal Date
 
+| Oracle v 23.5                          | 7/26/2024               |
+
 | (Recommended) Oracle v 21.1
 | 1/14/2021
 |
@@ -1224,16 +1226,15 @@ image:oadb-connectionstring.png[Oracle Autonomous TNS Name]
 [#postgresql]
 ==== PostgreSQL
 
-*Additionally supports:* _Amazon Aurora PostgreSQL, HeapSQL, Timescale, Citus_
+*Additionally supports:* _Amazon Aurora PostgreSQL, HeapSQL, Timescale, Citus, Cube_
 
 ===== Supported JDBC drivers and known issues
 
 |===
 | Driver | Driver Release Date | {product} Removal Date
 
-| (Recommended) PostgreSQL v 42.6.0
-| 3/18/2023
-|
+| (Recommended) PostgreSQL v 42.7.4      | 8/23/2024               |
+| PostgreSQL v 42.6.0                    | 3/18/2023               |
 
 | PostgreSQL v 42.3.1
 | 2/15/2022
@@ -1281,6 +1282,8 @@ You'll land on a page that displays your database schema.
 |===
 | Driver | Driver Release Date | {product} Removal Date
 
+| PrestoDB v 0.287                       | 5/19/2024               |
+
 | (Experimental) PrestoDB v 0.273.3
 | 6/14/2022
 |
@@ -1297,7 +1300,7 @@ You'll land on a page that displays your database schema.
 | 12/18/2021
 |
 
-| PrestoSQL v 338
+| (Recommended) PrestoSQL v 338
 | 8/31/2020
 |
 |===
@@ -1368,9 +1371,8 @@ You will land on a page that displays your database schema.
 |===
 | Driver | Driver Release Date | {product} Removal Date
 
-| (Recommended) Trino v 413
-| 4/12/2023
-|
+| (Recommended) Trino v 442              | 3/14/2024               |
+| Trino v 413                            | 4/12/2023               |
 
 | Trino v 364
 | 11/1/2021
@@ -1383,6 +1385,17 @@ You will land on a page that displays your database schema.
 
 There are no known issues for these drivers.
 
+==== Teradata
+===== Supported JDBC drivers and known issues
+
+|===
+| Driver                                 | Driver Release Date     | Mode Removal Date
+| -----------------------------          | ------------------------|------------------------
+| (Recommended) Teradata version 20.00.00.34 | 8/26/2024
+|===
+
+There are no known issues for this driver.
+
 [#trino]
 ==== Trino
 
@@ -1391,17 +1404,13 @@ There are no known issues for these drivers.
 |===
 | Driver | Driver Release Date | {product} Removal Date
 
-| (Recommended) Trino v 413
-| 4/12/2023
-|
+| (Recommended) Trino v 442              | 3/14/2024               |
+| Trino v 413                            | 4/12/2023               |
 
 | Trino v 364
 | 11/1/2021
 |
 
-| Trino v 356
-| 5/1/2021
-|
 |===
 
 There are no known issues for these drivers.
@@ -1646,5 +1655,4 @@ This will populate the query results.
 ==== *Q: How to upload data via CSV?*
 
 Currently, we do not offer CSV uploads to private connections.
-{product} only supports uploading CSVs to our public data warehouse, but please note that this data will be publicly accessible.
-You can learn more about uploading CSV to the xref:analyst-studio-managing-database-connections.adoc#uploading-data[public warehouse here].
+You can utilize our xref:analyst-studio-google-sheets-integration.adoc[Google Sheet integration] to import flat files as Datasets into {product}.
