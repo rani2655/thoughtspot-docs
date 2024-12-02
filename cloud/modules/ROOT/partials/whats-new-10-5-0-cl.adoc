@@ -217,7 +217,7 @@ image:compact-header.png[Streamlined Liveboard header]
 // Naomi. jira: SCAL-208829. docs jira: SCAL-?. note if it replaces service account auth.
 // PM: Aaghran
 
-You can now authenticate a Databricks connection using a service principal and OAuth secret.
+You can now authenticate a Databricks connection using a service principal and OAuth secret. This feature replaces Databricks basic authentication, which has been deprecated.
 
 // IT/ Ops Engineer
 
@@ -245,10 +245,12 @@ endif::free-trial-feature[]
 // Naomi. jira: SCAL-227647, SCAL-227649. docs jira: SCAL-?
 // PM: Aaghran. shorten blurb. add an image of the options in Admin Early Access. clarify that it's expanded (not just from Liveboards anymore)
 
-Admin users now have more control on how users sign in to Connections authenticated using OAuth when the connection authentication has expired.
+Admin users now have more control on how users sign in to Connections authenticated using OAuth when the connection authentication has expired. Previously, the *Sign in with OAuth* button appeared only on Liveboards built on the Connection. Now, users can access the sign-in flow from Search Data and Answers as well.
 
+////
 * Using the Automatic OAuth Sign-in Trigger option in the Early Access panel, admin users can set the *Sign in with OAuth* button to be automatically triggered in a Liveboard, Answer, or Search Data page when the authentication of the underlying Connections expires.
 * Using the OAuth Redirection Behavior option in the Early Access panel, admin users can ensure that the connection authentication flow opens in the current page, rather than a new tab.
+////
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
