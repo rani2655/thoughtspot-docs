@@ -10,6 +10,7 @@
 :path: /articles/datasets
 //can't find in modern stack
 :product: Analyst Studio
+:jira: SCAL-234704
 
 ////
 [#overview]
@@ -58,7 +59,7 @@ Check out our {product} University learning path, link:https://university.mode.c
 ////
 == Creating a Dataset
 
-To create a new Dataset, select the *Create* button in the top right corner of your {product} home screen and choose *Make a reusable Dataset*.
+Datasets are encrypted tables stored in ThoughtSpot and refreshed at a user-defined interval. Datasets can be created by either querying a database or uploading a Google Sheet. To create a new Dataset, select the *Create* button in the top right corner of your {product} home screen and choose *Make a reusable Dataset*.
 
 [.bordered]
 image::make-dataset-plus.png[create dataset]
