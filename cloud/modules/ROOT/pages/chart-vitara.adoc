@@ -35,7 +35,7 @@ Your data never reaches VitaraCharts servers, and no data or configuration is wr
 +
 Software maintenance, upgrades, and expert technical support are all included with the VitaraCharts subscription.
 
-For more information about the specific charts included and a demo video, go to: https://www.vitaracharts.com/thoughtspot[VitaraCharts for ThoughtSpot^].
+For more information about the specific charts included and a demo video, go to https://www.vitaracharts.com/thoughtspot[VitaraCharts for ThoughtSpot^].
 
 == Prerequisites for VitaraCharts
 
