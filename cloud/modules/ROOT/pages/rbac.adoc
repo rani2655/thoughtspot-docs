@@ -68,7 +68,7 @@ NOTE: Roles are unique to an Org and can be created only within the context of a
 == RBAC roles
 The following are descriptions of each of the RBAC roles.
 
-=== Administrative roles
+=== Administrative privileges
 
 |===
 |Role |Description
@@ -111,7 +111,7 @@ Can manage Analyst Studio
 |===
 
 
-=== Object access control roles
+=== Object access control privileges
 
 |===
 |Role|Description
@@ -119,7 +119,7 @@ Can manage Analyst Studio
 |Can share with all users|Allows users to share objects with all the users and groups in ThoughtSpot.
 |===
 
-=== Data control roles
+=== Data control privileges
 
 |===
 |Role |Description
@@ -142,7 +142,7 @@ a|Allows access to the following operations:
 For more information, see xref:security-rls.adoc[Row-level security].
 |===
 
-=== Application control roles
+=== Application control privileges
 
 |===
 |Role |Description
@@ -183,7 +183,7 @@ Can manage version control
 
 |===
 
-=== Data download control roles
+=== Data download control privileges
 
 |===
 |Role |Description
