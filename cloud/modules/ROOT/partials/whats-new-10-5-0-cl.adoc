@@ -290,6 +290,27 @@ endif::[]
 // PM: Samridh
 
 ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#10-5-0-cl-byoc]
+[discrete]
+=== Administer custom charts [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#10-5-0-cl-byoc]
+[discrete]
+=== Administer custom charts [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+
+// Mark. jira: SCAL-171985. docs jira: SCAL-234248. split in two: end-user (show screenshot with an example (don't show vitara)), and below the fold, showing enablement/ admin
+// PM: Arpit
+
+Administrators can now add custom charts including ones created outside of ThoughtSpot. You can enable this feature by going to *Admin > All Orgs > Early access features*.
+
+[.bordered]
+image::custom-chart-select.png[Gauge chart]
+endif::free-trial-feature[]
+
+ifndef::free-trial-feature[]
 [discrete]
 === For the Developer
 
