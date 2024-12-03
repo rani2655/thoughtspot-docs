@@ -84,7 +84,7 @@ endif::[]
 // Naomi. jira: SCAL-224933. docs jira: SCAL-228737. check if it persists for every user who checks the KPI on the Liveboard. make an mp4?
 // PM: Rahul PJP
 
-Previously, time-series KPI charts automatically compared the most recent data point against the previous point defined by the date bucket. That is, a weekly KPI would compare today's data to a week ago. Now, you can set a custom point in data against which ThoughtSpot compares the most recent data point. To enable this feature, contact your administrator.
+Previously, time-series KPI charts automatically compared the most recent data point against the previous point defined by the date bucket. That is, a weekly KPI would compare today's data to a week ago. Now, you can set a custom point in data against which ThoughtSpot compares the most recent data point. Your chosen comparison point persists for all viewers of the Liveboard. To enable this feature, contact your administrator.
 
 endif::free-trial-feature[]
 
@@ -217,7 +217,8 @@ image::liveboard-header-compact.png[Streamlined Liveboard header]
 // Naomi. jira: SCAL-208829. docs jira: SCAL-?. note if it replaces service account auth.
 // PM: Aaghran
 
-You can now authenticate a Databricks connection using a service principal and OAuth secret. This feature replaces Databricks basic authentication, which has been deprecated.
+You can now authenticate a Databricks connection using a service principal and OAuth secret.
+//This feature replaces Databricks basic authentication, which has been deprecated.
 
 // IT/ Ops Engineer
 
