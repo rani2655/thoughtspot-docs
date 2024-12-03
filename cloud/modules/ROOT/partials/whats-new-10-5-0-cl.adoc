@@ -305,7 +305,7 @@ endif::[]
 // Mark. jira: SCAL-171985. docs jira: SCAL-234248. split in two: end-user (show screenshot with an example (don't show vitara)), and below the fold, showing enablement/ admin
 // PM: Arpit
 
-Administrators can now add custom charts including ones created outside of ThoughtSpot. You can enable this feature by going to *Admin > All Orgs > Early access features*.
+Administrators can now enable custom charts on the *Admin > All Orgs > Early access features* page.
 
 [.bordered]
 image::custom-chart-select.png[Gauge chart]
