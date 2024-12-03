@@ -7,11 +7,11 @@
 :description: With custom charts, you can add your own custom charts to ThoughtSpot.
 :jira: SCAL-233534
 
-With VitaraCharts for ThoughtSpot, you can access over 20 interactive charts which are fully integrated with ThoughtSpot.
+ThoughtSpot has partnered with Vitara to supercharge your data storytelling. With VitaraCharts for ThoughtSpot, you can access over 20 interactive charts which are fully integrated with ThoughtSpot.
 
 == Benefits of VitaraCharts
 
-VitaraCharts brings an advanced visualization library that extends ThoughtSpot’s capabilities to deliver an even richer, more dynamic visualization experience.
+Charts brings an advanced visualization library that extends ThoughtSpot’s capabilities to deliver an even richer, more dynamic visualization experience.
 
 VitaraCharts for ThoughtSpot benefits include:
 
