@@ -228,8 +228,8 @@ You can now authenticate a Databricks connection using a service principal and O
 
 // IT/ Ops Engineer
 
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
+//ifndef::free-trial-feature[]
+//ifndef::pendo-links[]
 
 ////
 [#10-5-0-cl-orgs]
@@ -301,12 +301,12 @@ endif::[]
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
-[#10-5-0-cl-byoc]
+[#10-5-0-cl-byoc-admin]
 [discrete]
 === Administer custom charts [.badge.badge-early-access]#Early Access#
 endif::[]
 ifdef::pendo-links[]
-[#10-5-0-cl-byoc]
+[#10-5-0-cl-byoc-admin]
 [discrete]
 === Administer custom charts [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
