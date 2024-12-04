@@ -7,6 +7,8 @@
 :description: To model your use case and optimize ThoughtSpot Search, create a Worksheet.
 :jira: SCAL-207854
 
+IMPORTANT: Worksheet creation is deprecated starting in the 10.4.0.cl release, and is disabled by default. If you still need to create a Worksheet, contact your ThoughtSpot administrator to enable Worksheet creation.
+
 To model your use case and optimize ThoughtSpot Search, create a Worksheet.
 
 Whenever you start a new analytics inquiry, the most important question to ask is *"What use case does this support?"*
