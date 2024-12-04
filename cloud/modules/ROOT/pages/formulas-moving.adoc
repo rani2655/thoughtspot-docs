@@ -152,3 +152,4 @@ NOTE: This syntax produces a unique count for each individual result, such as *O
 > * xref:formulas-logical-operations.adoc[Formula operators]
 > * xref:formulas-nested.adoc[Nested formulas]
 > * xref:formulas-chasm-trap.adoc[Formulas for chasm traps]
+
