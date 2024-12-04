@@ -93,7 +93,7 @@ A chart displaying the moving average will appear at the bottom.
 image::average_sales_region.png[Moving average sales by region]
 // . To use a different aggregation type, click the current aggregation type in the bottom of the box and select another type.
 
-== Calculate daily 3 months moving average
+== Calculate 3 months daily moving average
 . Start a new search for average monthly sales for the year.
 +
 
