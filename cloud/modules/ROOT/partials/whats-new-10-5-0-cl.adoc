@@ -56,7 +56,7 @@ endif::pendo-links[]
 +++
 
 
-// Mary. jira: SCAL-196253. docs jira: SCAL-? moving from EA in 10.1.0.cl to GA in 10.5.0.cl - requested a JIRA from PM.
+// Mary. jira: SCAL-196253. docs jira: SCAL-234580 moving from EA in 10.1.0.cl to GA in 10.5.0.cl - requested a JIRA from PM.
 // PM: Rahul PJP
 
 ////
@@ -137,7 +137,7 @@ endif::free-trial-feature[]
 === Compact Liveboard header
 
 // Naomi – jira: SCAL-220304. docs jira: SCAL-?
-// PM: Dilip. still marked Commit. go to training instance and take an image with fewer tabs.
+// PM: Dilip. go to training instance and take an image with fewer tabs.
 
 We have streamlined the design of Liveboard headers to ensure maximum visibility of Liveboard visualizations no matter the size of the screen.
 ////
@@ -220,7 +220,7 @@ image::liveboard-header-compact.png[Streamlined Liveboard header]
 [discrete]
 === Databricks service principal with OAuth
 
-// Naomi. jira: SCAL-208829. docs jira: SCAL-?. note if it replaces service account auth.
+// Naomi. jira: SCAL-208829. docs jira: SCAL-230240. note if it replaces service account auth.
 // PM: Aaghran
 
 You can now authenticate a Databricks connection using a service principal and OAuth secret.
