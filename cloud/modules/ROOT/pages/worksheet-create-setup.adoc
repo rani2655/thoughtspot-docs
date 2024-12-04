@@ -6,6 +6,8 @@
 :page-aliases: /admin/ts-cloud/worksheet-create-setup.adoc
 :description: To model your use case in analyst onboarding, create a Worksheet.
 
+IMPORTANT: Worksheet creation is deprecated starting in the 10.4.0.cl release, and is disabled by default. If you still need to create a Worksheet, contact your ThoughtSpot administrator to enable Worksheet creation.
+
 To model your use case in analyst onboarding, create a Worksheet.
 
 To simplify data modeling, ThoughtSpot supports automated Worksheet creation during Setup.
