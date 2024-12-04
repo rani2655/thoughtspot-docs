@@ -53,11 +53,11 @@ To enable Spotter for a cluster, follow these steps:
 
 . Under *ThoughtSpot Ask AI experience*, enable the following settings:
 +
-—
-AI Answers
-AI Answers on Liveboard
-New Spotter Experience
-—
+--
+* AI Answers
+* AI Answers on Liveboard
+* New Spotter Experience
+--
 +
 NOTE: *New Spotter Experience* rebrands the former Sage (AI Answers) and Ask Sage (AI Answers on Liveboard) features to Spotter. Note that you can still use Sage and Ask Sage when the New Spotter experience is disabled, but you will not be able to ask follow-up questions in the Sage module.
 
