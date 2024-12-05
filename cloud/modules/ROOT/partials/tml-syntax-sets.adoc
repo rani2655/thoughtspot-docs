@@ -70,7 +70,7 @@ To reduce ambiguity, you may need to add the optional `fqn` parameter to your TM
         <<value,value>>:
         - "0"
         - "100"
-        <<column_name,column_name>>: Total Amount
+        column_name: Total Amount
       <<combine_type,combine_type>>: ALL
     - <<name,name>>: 100-200
       <<conditions,conditions>>:
@@ -78,7 +78,7 @@ To reduce ambiguity, you may need to add the optional `fqn` parameter to your TM
         <<value,value>>:
         - "101"
         - "200"
-        <<column_name,column_name>>: Total Amount
+        column_name: Total Amount
       <<combine_type,combine_type>>: ALL
     <<cohort_grouping_type,cohort_grouping_type>>: GROUP_BASED
     <<hide_excluded_query_values,hide_excluded_query_values>>: false
@@ -105,77 +105,77 @@ To reduce ambiguity, you may need to add the optional `fqn` parameter to your TM
       - <<operator,operator>>: EQ
         <<value,value>>:
         - 27/11/2020
-        <<column_name,column_name>>: date
+        column_name: date
       <<combine_type,combine_type>>: ALL
     - <<name,name>>: 2021 Black Friday
       <<conditions,conditions>>:
       - <<operator,operator>>: EQ
         <<value,value>>:
         - 26/11/2021
-        <<column_name,column_name>>: date
+        column_name: date
       <<combine_type,combine_type>>: ALL
     - <<name,name>>: 2022 Black Friday
       <<conditions,conditions>>:
       - <<operator,operator>>: EQ
         <<value,value>>:
         - 25/11/2022
-        <<column_name,column_name>>: date
+        column_name: date
       <<combine_type,combine_type>>: ALL
     - <<name,name>>: 2023 Black Friday
       <<conditions,conditions>>:
       - <<operator,operator>>: EQ
         <<value,value>>:
         - 24/11/2023
-        <<column_name,column_name>>: date
+        column_name: date
       <<combine_type,combine_type>>: ALL
     - <<name,name>>: 2024 Black Friday
       <<conditions,conditions>>:
       - <<operator,operator>>: EQ
         <<value,value>>:
         - 29/11/2024
-        <<column_name,column_name>>: date
+        column_name: date
       <<combine_type,combine_type>>: ALL
     - <<name,name>>: 2025 Black Friday
       <<conditions,conditions>>:
       - <<operator,operator>>: EQ
         <<value,value>>:
         - 28/11/2025
-        <<column_name,column_name>>: date
+        column_name: date
       <<combine_type,combine_type>>: ALL
     - <<name,name>>: 2026 Black Friday
       <<conditions,conditions>>:
       - <<operator,operator>>: EQ
         <<value,value>>:
         - 27/11/2026
-        <<column_name,column_name>>: date
+        column_name: date
       <<combine_type,combine_type>>: ALL
     - <<name,name>>: 2027 Black Friday
       <<conditions,conditions>>:
       - <<operator,operator>>: EQ
         <<value,value>>:
         - 26/11/2027
-       <<column_name,column_name>>: date
+       column_name: date
       <<combine_type,combine_type>>: ALL
     - <<name,name>>: 2028 Black Friday
       <<conditions,conditions>>:
       - <<operator,operator>>: EQ
         <<value,value>>:
         - 24/11/2028
-        <<column_name,column_name>>: date
+        column_name: date
       <<combine_type,combine_type>>: ALL
     - <<name,name>>: 2029 Black Friday
       <<conditions,conditions>>:
       - <<operator,operator>>: EQ
         <<value,value>>:
         - 23/11/2029
-        <<column_name,column_name>>: date
+        column_name: date
       <<combine_type,combine_type>>: ALL
     - <<name,name>>: 2030 Black Friday
       <<conditions,conditions>>:
       - <<operator,operator>>: EQ
         <<value,value>>:
         - 29/11/2030
-        <<column_name,column_name>>: date
+        column_name: date
       <<combine_type,combine_type>>: ALL
     <<cohort_grouping_type,cohort_grouping_type>>: GROUP_BASED
   <<worksheet,worksheet>>:
@@ -207,7 +207,7 @@ To reduce ambiguity, you may need to add the optional `fqn` parameter to your TM
       - Customer Code
       - Number of Order ID
       <<client_state,client_state>>: ""
-      <<client_state_v2,client_state_v2>>: "{\"tableVizPropVersion\": \"V1\",\"columnProperties\": [{\"columnId\": \"Customer Code\",\"columnProperty\": {}},{\"columnId\": \"Number of Order ID\",\"columnProperty\": {}}]}"
+      client_state_v2: "{\"tableVizPropVersion\": \"V1\",\"columnProperties\": [{\"columnId\": \"Customer Code\",\"columnProperty\": {}},{\"columnId\": \"Number of Order ID\",\"columnProperty\": {}}]}"
     <<display_mode,display_mode>>: TABLE_MODE
   <<config,config>>:
     <<cohort_type,cohort_type>>: ADVANCED

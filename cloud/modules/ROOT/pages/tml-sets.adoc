@@ -38,8 +38,6 @@ a| <<aggregation,aggregation>>
 
 <<answer_columns,answer_columns>>
 
-<<axis_configs,axis_configs>>
-
 <<bin_size,bin_size>>
 
 <<bins,bins>>
@@ -50,7 +48,6 @@ a| <<aggregation,aggregation>>
 
 <<client_state,client_state>>
 
-<<client_state_v2,client_state_v2>>
 
 <<cohort,cohort>>
 
@@ -59,8 +56,6 @@ a| <<aggregation,aggregation>>
 <<cohort_type,cohort_type>>
 
 <<column_id,column_id>>
-
-<<column_name,column_name>>
 
 <<column_type,column_type>>
 
@@ -124,7 +119,6 @@ a|
 
 //<<parameter_values,parameter_values>>
 
-<<properties,properties>>
 
 <<return_column_id,return_column_id>>
 
