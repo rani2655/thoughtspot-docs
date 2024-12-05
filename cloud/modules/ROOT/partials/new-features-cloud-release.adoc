@@ -23,6 +23,8 @@ For these instructions, see xref:ts-cloud-getting-started.adoc[Getting Started w
 // Naomi. jira: SCAL-224933. docs jira: SCAL-228737
 Custom comparison point for KPI charts [.badge.badge-early-access-relnotes]#Early Access#::
 Previously, time-series KPI charts had limited options when comparing to past periods. A weekly KPI could be compared against the previous week, the previous month's same week, the previous quarter's same week, or the previous year's same week. Now, you can set a custom point in data against which ThoughtSpot compares the most recent data point, any number of weeks ago. Your chosen comparison point persists for all viewers of the Liveboard. To enable this feature, contact your administrator.
++
+For more information, see xref:chart-kpi.adoc#kpi-custom-comparison[KPI charts].
 
 // Naomi – jira: SCAL-220304. docs jira: SCAL-?
 Compact Liveboard header::
