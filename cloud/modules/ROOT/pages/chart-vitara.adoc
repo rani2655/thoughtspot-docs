@@ -11,7 +11,7 @@ ThoughtSpot has partnered with Vitara to supercharge your data storytelling. Wit
 
 == Benefits of VitaraCharts
 
-Charts brings an advanced visualization library that extends ThoughtSpot’s capabilities to deliver an even richer, more dynamic visualization experience.
+VitaraCharts brings an advanced visualization library that extends ThoughtSpot’s capabilities to deliver an even richer, more dynamic visualization experience.
 
 VitaraCharts for ThoughtSpot benefits include:
 
