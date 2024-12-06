@@ -268,10 +268,10 @@ Forecasting [.badge.badge-early-access-relnotes]#Early Access#::
 // PM: Vikas
 You can now use SpotIQ analysis to forecast future trends for your KPIs. ThoughtSpot uses machine learning models that learn from past trends, growth, and seasonality to project how the target metric will trend in the future. To enable this feature, contact your administrator. For more information, see xref:spotiq-forecasting.adoc[].
 
-AI Highlights for Liveboards::
+// AI Highlights for Liveboards::
 // Mark. epic: SCAL-180913. doc: SCAL-209562
 // PM: Manan
-AI Highlights for Liveboards is now on by default and available to all users. With AI Highlights, you get quick insights on how top metrics have changed in your Liveboard, dramatically reducing the time to derive insights from your KPIs. For more information, see xref:liveboard-ai-highlights.adoc[].
+// AI Highlights for Liveboards is now on by default and available to all users. With AI Highlights, you get quick insights on how top metrics have changed in your Liveboard, dramatically reducing the time to derive insights from your KPIs. For more information, see xref:liveboard-ai-highlights.adoc[].
 
 [#9-12-5-cl-data-engineer]
 === For the Data Engineer
