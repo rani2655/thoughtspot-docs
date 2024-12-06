@@ -116,6 +116,9 @@ To set your KPI's custom comparison point, follow these steps:
 . Open the *Edit chart configuration* menu image:icon-gear-10px.png[gear icon] and select *Settings*.
 
 . Under *Compare with*, select *Custom* from the dropdown.
++
+[.bordered]
+image:custom-comparison.png[Custom comparison point]
 
 . Enter the numerical value of the desired custom comparison point in the text box that appears. For example, you can select to compare the most recent data point to *3 weeks ago*.
 
