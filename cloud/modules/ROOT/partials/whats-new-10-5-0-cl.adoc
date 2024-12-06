@@ -94,6 +94,9 @@ ifdef::pendo-links[]
 xref:chart-kpi.adoc#kpi-custom-comparison[KPI charts,window=_blank].
 endif::[]
 
+[.bordered]
+image::custom-comparison.png[Set custom comparison point]
+
 endif::free-trial-feature[]
 
 
