@@ -311,7 +311,7 @@ endif::free-trial-feature[]
 ThoughtSpot's schema viewer connection picker is now on by default and available to all users. You can now use the dropdown or search to select your connection in the schema viewer.
 
 NOTE: You can no longer view objects across all connections. You must filter by a specific connection.
-////
+
 For more information, see
 ifndef::pendo-links[]
 xref:schema-viewer.adoc[Schema viewer connection picker].
@@ -319,7 +319,7 @@ endif::[]
 ifdef::pendo-links[]
 xref:schema-viewer.adoc[Schema viewer connection picker,window=blank].
 endif::[]
-////
+
 // Mary. jira: SCAL-224758. docs jira: SCAL-?
 // PM: Samridh
 
