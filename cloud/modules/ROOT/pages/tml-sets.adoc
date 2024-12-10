@@ -119,7 +119,7 @@ a|
 
 //<<parameter_values,parameter_values>>
 
-<<properties,properties>>
+//<<properties,properties>>
 
 <<return_column_id,return_column_id>>
 
