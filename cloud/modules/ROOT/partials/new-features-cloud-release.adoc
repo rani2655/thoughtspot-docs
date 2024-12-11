@@ -22,22 +22,19 @@ When you run change analysis on a chart, ThoughtSpot now surfaces a summary of a
 
 // Naomi. jira: SCAL-224933. docs jira: SCAL-228737
 Custom comparison point for KPI charts [.badge.badge-early-access-relnotes]#Early Access#::
-Previously, time-series KPI charts had limited options when comparing to past periods. A weekly KPI could be compared against the previous week, the previous month's same week, the previous quarter's same week, or the previous year's same week. Now, you can set a custom point in data against which ThoughtSpot compares the most recent data point, any number of weeks ago. Your chosen comparison point persists for all viewers of the Liveboard. To enable this feature, contact your administrator.
-+
-For more information, see xref:chart-kpi.adoc#kpi-custom-comparison[KPI charts].
+Previously, time-series KPI charts had limited options when comparing to past periods. A weekly KPI could be compared against the previous week, the previous month's same week, the previous quarter's same week, or the previous year's same week. Now, you can set a custom point in data against which ThoughtSpot compares the most recent data point, any number of weeks ago. Your chosen comparison point persists for all viewers of the Liveboard. To enable this feature, contact your administrator. For more information, see xref:chart-kpi.adoc#kpi-custom-comparison[KPI charts].
 
 
 [#10-5-0-cl-business-user]
 === For the Business User
 
-
-
 // Naomi – jira: SCAL-220304. docs jira: SCAL-?
 Compact Liveboard header::
-We have streamlined the design of Liveboard headers to ensure maximum visibility of Liveboard visualizations no matter the size of the screen.
-+
-For more information, see
+We have streamlined the design of Liveboard headers to ensure maximum visibility of Liveboard visualizations no matter the size of the screen. For more information, see
 xref:liveboard.adoc#compact-header[Liveboards].
+
+Enhanced Google Sheets add-on::
+With ThoughtSpot Connected Sheets, a free add-on for Google Sheets, you can now update your existing search results to get the latest data without having to enter the search query again. You can do this for the current sheet or all sheets. For details, see xref:thoughtspot-sheets.adoc[ThoughtSpot Connected Sheets].
 
 [#10-5-0-cl-data-engineer]
 === For the Data Engineer

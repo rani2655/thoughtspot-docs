@@ -33,6 +33,22 @@ endif::[]
 endif::free-trial-feature[]
 ////
 
+[#10-5-0-cl-connected-sheets]
+[discrete]
+=== Enhanced Google Sheets add-on
+
+With ThoughtSpot Connected Sheets, a free add-on for Google Sheets, you can now update your existing search results to get the latest data without having to enter the search query again. You can do this for the current sheet or all sheets. For details, see
+ifndef::pendo-links[]
+xref:thoughtspot-sheets.adoc[ThoughtSpot Connected Sheets].
+endif::pendo-links[]
+ifdef::pendo-links[]
+xref:thoughtspot-sheets.adoc[ThoughtSpot Connected Sheets,window=_blank].
+endif::pendo-links[]
+
+// Rani. jira:SCAL-217112. docs jira: SCAL-230253.
+// PM: Himanshu. Already in 10.4, but announcing it since it wasn't announced with 10.4.
+
+
 [#10-5-0-cl-anomaly]
 [discrete]
 === Anomaly-based alerts
