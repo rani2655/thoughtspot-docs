@@ -86,6 +86,7 @@ endif::[]
 
 When you run change analysis on a chart, ThoughtSpot now surfaces a summary of all changes in significant attributes between the selected points. You can click *View details* to see the changes by attribute, or select *Customize* to change which measures or attributes to analyze. Note that when you run change analysis on a chart created with ratio keywords like `average`, you see the previous change analysis interface, one attribute at a time.
 
+[.bordered]
 image::summary-tab.png[Change analysis summary tab]
 
 endif::free-trial-feature[]
