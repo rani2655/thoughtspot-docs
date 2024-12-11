@@ -27,7 +27,7 @@ Let’s take an example of the query. Say you asked a question: “What are the 
 
 
 [.bordered]
-image:spotter-verify-query.png[]
+image:spotter-verify-query.png[Spotter verify query]
 
 
 The answer shows the query. A quick look at this query shows that the system has performed the following actions :
