@@ -16,15 +16,21 @@ For these instructions, see xref:ts-cloud-getting-started.adoc[Getting Started w
 [#10-5-0-cl-analyst]
 === For the Analyst
 
-
-[#10-5-0-cl-business-user]
-=== For the Business User
+// Naomi. jira: SCAL-215669. docs jira: SCAL-?
+Change analysis summary tab [.badge.badge-beta-relnotes]#Beta#::
+When you run change analysis on a chart, ThoughtSpot now surfaces a summary of all changes in significant attributes between the selected points. You can click *View details* to see the changes by attribute, or select *Customize* to change which measures or attributes to analyze. Note that when you run change analysis on a chart created with ratio keywords like `average`, you see the previous change analysis interface, one attribute at a time.
 
 // Naomi. jira: SCAL-224933. docs jira: SCAL-228737
 Custom comparison point for KPI charts [.badge.badge-early-access-relnotes]#Early Access#::
 Previously, time-series KPI charts had limited options when comparing to past periods. A weekly KPI could be compared against the previous week, the previous month's same week, the previous quarter's same week, or the previous year's same week. Now, you can set a custom point in data against which ThoughtSpot compares the most recent data point, any number of weeks ago. Your chosen comparison point persists for all viewers of the Liveboard. To enable this feature, contact your administrator.
 +
 For more information, see xref:chart-kpi.adoc#kpi-custom-comparison[KPI charts].
+
+
+[#10-5-0-cl-business-user]
+=== For the Business User
+
+
 
 // Naomi – jira: SCAL-220304. docs jira: SCAL-?
 Compact Liveboard header::
