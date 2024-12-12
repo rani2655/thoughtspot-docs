@@ -123,7 +123,7 @@ NOTE: Once a key or key version is permanently deleted, there is no way to recov
 +
 `serviceAccount:service-<PROJECT_ID>@gcp-sa-cloud-sql.iam.gserviceaccount.com`
 +
-`serviceAccount:<PROJECT_ID>-compute-developer.gserviceaccount.com`
+`serviceAccount:<PROJECT_ID>@compute-developer.gserviceaccount.com`
 +
 `serviceAccount:service-<PROJECT_ID>@compute-system.iam.gserviceaccount.com`
 +
