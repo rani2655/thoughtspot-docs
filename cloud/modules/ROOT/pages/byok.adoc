@@ -16,7 +16,7 @@ BYOK is available to ThoughtSpot customers with our GCP-VPT offering. To enable 
 
 == ThoughtSpot data categories
 
-All of the data that ThoughtSpot deals with can be broadly classified into two categories:
+All of the data that ThoughtSpot deals with can be broadly classified into the folowing two categories:
 
 === Customer data
 * Customer Data Warehouse (CDW) data connected to a ThoughtSpot instance
@@ -58,15 +58,29 @@ In the event of the customer revoking access to or deleting the CMEK:
 In the event that the CMEK revocation is temporary and the customer provides access to the same key back to ThoughtSpot within the restore window that is defined by ThoughSpot, ThoughtSpot can restore cluster access back to the customer.
 
 == Setting up GCP-KMS Customer Managed encryption keys
-This needs to be done first, before any ThoughtSpot instances of  GCP-VPT are deployed.
 
-=== Generate a KMS Key Ring
-. Generate a KMS Key Ring, following the steps here: <a href="https://cloud.google.com/kms/docs/create-key-ring/">Create a key ring</a> in region *us-east4(Northern Virginia)*.
-+
+NOTE: This must be done before any ThoughtSpot instances of  GCP-VPT are deployed.
+
+Get the following information from your customer account manager:
+
+* The region in which ThoughtSpot VPT is deployed. For example, `us-east4` which is used as <REGION> in the remaining document.
+
+* The numeric project ID of the project where ThoughtSpot VPT is deployed, which is used as <PROJECT_ID> in the document.
+
+* Get the IAM principal email ID which is used to monitor the Cloud KMS key in your account. This is provided by the customer account manager and is in the following format `ts-resource-monitor@<PROJECT_NAME>.iam.gserviceaccount.com`, where <PROJECT_NAME> is the name of the Google Cloud Project.
+
+=== Create a Google Cloud KMS Key Ring
+
+NOTE: This is only required if you do not already have a key ring in the appropriate region.
+
+. Generate a KMS Key Ring, following the steps here: <a href="https://cloud.google.com/kms/docs/create-key-ring">Create a key ring</a>.
+
 NOTE: Make sure the key ring is selected as *Regional KeyRing* during creation.
 
-=== Generate Customer Managed Key (CMK) in GCP KMS
-. Create a KMS key by following the steps here: <a href="https://cloud.google.com/kms/docs/create-key/">Create a key</a>.
+
+=== Create a Google Cloud KMS Key
+
+. Create a KMS key by following the steps here: <a href="https://cloud.google.com/kms/docs/create-key">Create a key</a>.
 +
 Use the following settings for the key:
 
@@ -79,57 +93,60 @@ Use the following settings for the key:
 +
 NOTE: Once a key or key version is permanently deleted, there is no way to recover the data in ThoughtSpot VPT which was encrypted using the said key.
 
-=== Configure key access policies and permissions
+=== Add necessary IAM policies to the Key
 
-. Follow the steps here, <a href="https://cloud.google.com/kms/docs/iam/">Access control with IAM</a> to add the principal with role Cloud KMS CryptoKey Encrypter/Decrypter to each of the above principals.
-** If you are using the Google Cloud Console, or roles/cloudkms.cryptoKeyEncrypterDecrypter.
-** If you are using the API/terraform/etc.
+. For each of the following principals, replace <PROJECT_ID> with the project ID received from the customer account manager.
++
+`serviceAccount:service-<PROJECT_ID>@gcp-sa-bigqueryconnection.iam.gserviceaccount.com`
++
+`serviceAccount:service-<PROJECT_ID>@gcp-sa-bigquerydatatransfer.iam.gserviceaccount.com`
++
+`serviceAccount:service-<PROJECT_ID>@gcp-sa-certificatemanager.iam.gserviceaccount.com`
++
+`serviceAccount:service-<PROJECT_ID>@gcp-sa-cloudscheduler.iam.gserviceaccount.com`
++
+`serviceAccount:service-<PROJECT_ID>@gcp-sa-cloud-trace.iam.gserviceaccount.com`
++
+`serviceAccount:service-<PROJECT_ID>@container-engine-robot.iam.gserviceaccount.com`
++
+`serviceAccount:service-<PROJECT_ID>@containerregistry.iam.gserviceaccount.com`
++
+`serviceAccount:service-<PROJECT_ID>@gcp-sa-monitoring-notification.iam.gserviceaccount.com`
++
+`serviceAccount:service-<PROJECT_ID>@gcp-sa-pubsub.iam.gserviceaccount.com`
++
+`serviceAccount:service-<PROJECT_ID>@cloud-redis.iam.gserviceaccount.com`
++
+`serviceAccount:service-<PROJECT_ID>@serverless-robot-prod.iam.gserviceaccount.com`
++
+`serviceAccount:service-<PROJECT_ID>@gcp-sa-secretmanager.iam.gserviceaccount.com`
++
+`serviceAccount:service-<PROJECT_ID>@gcp-sa-cloud-sql.iam.gserviceaccount.com`
++
+`serviceAccount:<PROJECT_ID>-compute@developer.gserviceaccount.com`
++
+`serviceAccount:service-<PROJECT_ID>@compute-system.iam.gserviceaccount.com`
++
+`serviceAccount:service-<PROJECT_ID>@gs-project-accounts.iam.gserviceaccount.com`
++
+. For each of the above principals, add the principal with role Cloud KMS CryptoKey Encrypter/Decrypter to each of the above principals (if you are using the Google Cloud Console, or roles/cloudkms.cryptoKeyEncrypterDecrypter if you are using the API/terraform/etc.).
++
+Follow the steps here, <a href="https://cloud.google.com/kms/docs/iam">Access control with IAM</a> to add the principal with role Cloud KMS CryptoKey Encrypter/Decrypter to each of the above principals.
 +
 For example, for:
 +
-`serviceAccount:service-899137191141@cloud-redis.iam.gserviceaccount.com`
+`serviceAccount:service-<PROJECT_ID>@cloud-redis.iam.gserviceaccount.com`
  +
 you would run the following command:
 +
- 'gcloud kms keys add-iam-policy-binding <KEY> \ --keyring <KEY_RING> \
---location us-east4 \
---member serviceAccount:service-ts-899137191141@cloud-redis.iam.gserviceaccount.com \
---role roles/cloudkms.cryptoKeyEncrypterDecrypter'
-+
-`serviceAccount:service-899137191141@gcp-sa-bigqueryconnection.iam.gserviceaccount.com`
-+
-`serviceAccount:service-899137191141@gcp-sa-bigquerydatatransfer.iam.gserviceaccount.com`
-+
-`serviceAccount:service-899137191141@gcp-sa-certificatemanager.iam.gserviceaccount.com`
-+
-`serviceAccount:service-899137191141@gcp-sa-cloudscheduler.iam.gserviceaccount.com`
-+
-`serviceAccount:service-899137191141@gcp-sa-cloud-trace.iam.gserviceaccount.com`
-+
-`serviceAccount:service-899137191141@container-engine-robot.iam.gserviceaccount.com`
-+
-`serviceAccount:service-899137191141@containerregistry.iam.gserviceaccount.com`
-+
-`serviceAccount:service-899137191141@gcp-sa-monitoring-notification.iam.gserviceaccount.com`
-+
-`serviceAccount:service-899137191141@gcp-sa-pubsub.iam.gserviceaccount.com`
-+
-`serviceAccount:service-899137191141@cloud-redis.iam.gserviceaccount.com`
-+
-`serviceAccount:service-899137191141@serverless-robot-prod.iam.gserviceaccount.com`
-+
-`serviceAccount:service-899137191141@gcp-sa-secretmanager.iam.gserviceaccount.com`
-+
-`serviceAccount:service-899137191141@gcp-sa-cloud-sql.iam.gserviceaccount.com`
-+
-`serviceAccount:899137191141-compute@developer.gserviceaccount.com`
-+
-`serviceAccount:service-899137191141@compute-system.iam.gserviceaccount.com`
-+
-`serviceAccount:service-899137191141@gs-project-accounts.iam.gserviceaccount.com`
+ 'gcloud kms keys add-iam-policy-binding <KEY> \
+    --keyring <KEY_RING> \
+    --location <REGION> \
+    --member serviceAccount:service-<PROJECT_ID>@cloud-redis.iam.gserviceaccount.com \
+    --role roles/cloudkms.cryptoKeyEncrypterDecrypter'
 +
 . For the principal
-`serviceAccount:ts-resource-monitor@ts-prod-vpt-02.iam.gserviceaccount.com`, add the following permissions to the KMS Key created for encryption:
+`serviceAccount:ts-resource-monitor@<PROJECT_NAME>.iam.gserviceaccount.com`, add the following permissions to the KMS Key created for encryption:
 `cloudkms.cryptoKeyVersions.get`
 `cloudkms.cryptoKeyVersions.list`
 `cloudkms.cryptoKeys.getIamPolicy`
