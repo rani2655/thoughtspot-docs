@@ -17,7 +17,7 @@ To make it easier to understand how Spotter answers your questions, we surface t
 
 
 [.bordered]
-image:spotter-answer.png[]
+image:spotter-answer.png[Spotter answer]
 
 
 
@@ -25,7 +25,7 @@ To edit an AI-generated Answer in Spotter, click *Edit* next to the search token
 
 
 [.bordered]
-image:spotter-edit-answer.png[]
+image:spotter-edit-answer.png[Edit Spotter answer]
 
 
 
@@ -40,7 +40,7 @@ You can see sample rows of the underlying Worksheet to get a sense of what colum
 
 
 [.bordered]
-image:spotter-search-bar.png[]
+image:spotter-search-bar.png[Spotter search bar]
 
 
 

@@ -214,9 +214,7 @@ The encryption algorithm used is negotiated between the client and server.  The 
 
 *Can I see a network diagram showing the Bridge server and Bridge client?*::
 [.bordered]
-image:bridge-connectivity.png[]
+image:bridge-connectivity.png[Bridge connectivity]
 
 
 *How can I receive a ThoughtSpot vulnerability test report, a ThoughtSpot static code, or a penetration test report for the Bridge connector?*:: Reach out to {support-url}.
-
-
