@@ -39,7 +39,7 @@ For these instructions, see xref:ts-cloud-getting-started.adoc[Getting Started w
 // Naomi. JIRA: SCAL-171986. docs jira: SCAL-225582
 Configuring color gradients [.badge.badge-early-access-relnotes]#Early Access#::
 You can now choose multiple colors to define a gradient in charts that support gradients -- geo heatmap, geo area, heatmap, and treemap charts. You can control the low, mid, and high values, and numerical value points to customize the gradient. For more information, see
-xref:chart-color-change.adoc[Change chart colors].
+xref:chart-color-change.adoc#charts-with-gradients[Change chart colors].
 
 // Mary. jira: SCAL-224070. docs jira: SCAL-229753
 ThoughtSpot Sync: send full image of Liveboard to Slack [.badge.badge-beta]#Beta#::

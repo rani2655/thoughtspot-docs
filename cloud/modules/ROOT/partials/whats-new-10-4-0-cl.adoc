@@ -138,10 +138,10 @@ endif::[]
 
 You can now choose multiple colors to define a gradient in charts that support gradients -- geo heatmap, geo area, heatmap, and treemap charts. You can control the low, mid, and high values, and numerical value points to customize the gradient. For more information, see
 ifndef::pendo-links[]
-xref:chart-color-change.adoc[Change chart colors].
+xref:chart-color-change.adoc#charts-with-gradients[Change chart colors].
 endif::[]
 ifdef::pendo-links[]
-xref:chart-color-change.adoc[Change chart colors,window=_blank].
+xref:chart-color-change.adoc#charts-with-gradients[Change chart colors,window=_blank].
 endif::[]
 
 [.bordered]
