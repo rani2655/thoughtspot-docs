@@ -83,6 +83,18 @@ endif::pendo-links[]
 // PM: Sam Weick. developer docs only.
 ////
 
+[#10-5-0-cl-spotter]
+[discrete]
+=== Spotter suggested questions
+
+// Naomi. jira: SCAL-?
+// PM: Samuel Weick
+
+To increase relevance to your search, Spotter now surfaces past global reference questions as sample questions below the search bar in the home page.
+
+[.bordered]
+image::spotter-reference.png[Spotter sample questions]
+
 // Analyst
 
 ifndef::free-trial-feature[]
