@@ -164,16 +164,52 @@ ifdef::pendo-links[]
 [discrete]
 === Query set groups [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
-ThoughtSpot users can now create, edit, and manage groups within Query sets. To enable this feature, contact your administrator.
+ThoughtSpot users can now define groups for included query values using conditions in Query sets. Conditions allow you to create groups using operators, to specify the parameters of the group. To enable this feature, contact your administrator.
 [.bordered]
 image::query-set-groups.png[Query set groups]
-// Mary. jira: SCAL-194093. docs jira: SCAL-226615. give a sample use case.
+// Mary. jira: SCAL-194093. docs jira: SCAL-226615
 // PM: Damian
 
 endif::free-trial-feature[]
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#10-5-0-cl-pivot-table-2]
+[discrete]
+=== Pivot table enhancements [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#10-5-0-cl-pivot-table-2]
+[discrete]
+=== Pivot table enhancements [.badge.badge-beta-whats-new]#Beta#
+endif::[]
+We made the following enhancements to pivot table charts:
+
+* Faster load times with pagination.
+* More detailed tooltips.
+* Enhanced readability.
+* Reduced clutter.
+* You can now expand and collapse all in pivot tables.
+* We now support custom sort order.
+* You can now adjust column widths.
+* You can now slice with measures and attributes.
+* You can now use measure names and values for more granular control in configurations.
+* We now support native ThoughtSpot capabilities including, conditional formatting, and number formatting.
+* We now support formatting for cells, headers and totals.
+
+// Mary. jira: SCAL-220512. docs jira:
+// PM: Arpit
+
+endif::free-trial-feature[]
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+
+
+
 [#10-5-0-cl-byoc]
 [discrete]
 === Custom charts [.badge.badge-early-access]#Early Access#
@@ -229,7 +265,7 @@ image::liveboard-header-compact.png[Streamlined Liveboard header]
 === Base metadata changes for sharing feature using Parameters for publishing
 
 // Mary. jira: SCAL-218138. docs jira: SCAL-?
-// PM: Aashica/Reshma - have asked PMs to confirm if this requires doc and if it applies to TSA or TSE only.
+// PM: Aashica/Reshma -  TSE only.
 ////
 
 
@@ -310,7 +346,7 @@ ifdef::pendo-links[]
 endif::[]
 
 // Mary. jira: SCAL-192283. docs jira: SCAL-?
-// PM: Himanshu - awaiting clarification about how this differs from the previous EA of per-org URLs that is set to GA in 10.6.0.cl. Edit title! Waiting for confirmation that this is TSE only.
+// PM: Himanshu - awaiting clarification about how this differs from the previous EA of per-org URLs that is set to GA in 10.6.0.cl. TSE only.
 
 endif::free-trial-feature[]
 ////
