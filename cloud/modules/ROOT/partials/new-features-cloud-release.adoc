@@ -33,6 +33,13 @@ Compact Liveboard header::
 We have streamlined the design of Liveboard headers to ensure maximum visibility of Liveboard visualizations no matter the size of the screen. For more information, see
 xref:liveboard.adoc#compact-header[Liveboards].
 
+// Naomi. jira: SCAL-?
+Spotter:: We made the following enhancements to Spotter:
+
+* To increase relevance to your search, Spotter now surfaces past global reference questions as sample questions below the search bar in the home page.
+* You can now request specific chart types in Spotter if the data fits the chart requirements. Note that we do not currently support custom charts in Spotter.
+* You can now modify the `is_sage_enabled` flag in a Worksheet's TML file to enable or disable Spotter on the Worksheet.
+
 Enhanced Google Sheets add-on::
 With ThoughtSpot Connected Sheets, a free add-on for Google Sheets, you can now update your existing search results to get the latest data without having to enter the search query again. You can do this for the current sheet or all sheets. For details, see xref:thoughtspot-sheets.adoc[ThoughtSpot Connected Sheets].
 
