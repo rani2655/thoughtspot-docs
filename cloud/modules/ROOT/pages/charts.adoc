@@ -126,8 +126,4 @@ You can view the SQL query used to generate the chart by doing the following:
 - Click the *Query SQL* button.
 +
 [.bordered]
-image::query-sql-chart.png[]
-
-
-
-
+image::query-sql-chart.png[Query SQL]

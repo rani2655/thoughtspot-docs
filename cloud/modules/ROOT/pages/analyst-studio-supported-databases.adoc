@@ -424,13 +424,13 @@ image::redshift-connection.png[Redshift]
 3. Select Authentication method: IAM role in the {product} connection form.
 4. Navigate to IAM Roles in your AWS Console.
 +
-image::athena-new-iam-role.png[]
+image::athena-new-iam-role.png[IAM roles]
 5. Create a new role or choose an existing role and select *Custom trust policy* under *Trusted entity type*.
 +
-image:athena-custom-trust-policy.png[]
+image:athena-custom-trust-policy.png[Custom trust policy]
 6. Alternatively, you can choose an existing role and select the *Trust relationships* tab.
 +
-image::athena-existing-iam-role.png[]
+image::athena-existing-iam-role.png[Trust relationships]
 7. Copy and paste the trust relationship from the {product} connection form into your AWS IAM Role.
 8. Add in the necessary IAM permissions to access your Redshift resource.
 9. Click **Create Role** in AWS and paste in the IAM Role ARN into the {product} connection form.
