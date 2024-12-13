@@ -21,7 +21,7 @@ ThoughtSpot ensures that double counting does not occur with chasm traps.
 The following model represents a chasm trap between SALES and DELIVERIES, where the shared dimension tables are PRODUCT, DATE, and STORE.
 
 [.bordered]
-image::chasm-trap-example.png[]
+image::chasm-trap-example.png[Chasm trap example]
 
 == What is attribution?
 
@@ -40,7 +40,7 @@ The following model includes a non-shared attribute table: CUSTOMER. If a search
 For example, it shows from a business sense how the DELIVERIES:AMOUNT value is attributed to each customer. There is no direct join. Instead this contribution value is determined through the shared dimensions.
 
 [.bordered]
-image::chasm-trap-example2.png[]
+image::chasm-trap-example2.png[Chasm trap example]
 
 == Enable or disable attribution?
 
