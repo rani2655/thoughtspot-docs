@@ -145,7 +145,7 @@ image:spotter-formula-total-concluded-deals.png[Total concluded deals formula]
 image:spotter-formula-deals-won.png[Deals won formula]
 
 [.bordered]
-image:spotter-formula-win-rate.png[Wind rate formula]
+image:spotter-formula-win-rate.png[Win rate formula]
 
 
 Once these formula definitions are defined, you can correct the generated answer for the whole query and then submit.
