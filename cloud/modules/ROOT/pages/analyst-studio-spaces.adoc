@@ -122,9 +122,6 @@ If you want to add a Collection to your navigation, go to *My Collections*, sele
 
 TIP: Adding members and groups to a Collection will automatically add that Collection to the recently-added users' side-navigation. To ensure that new Workspace members see relevant Collections, add the new members to groups with access to the Collections, and they will see their side-navigation populated with the relevant Collections.
 
-[.bordered]
-image::add-to-nav.png[Add collection to navigation]
-
 
 
 === Add other members to a Collection
