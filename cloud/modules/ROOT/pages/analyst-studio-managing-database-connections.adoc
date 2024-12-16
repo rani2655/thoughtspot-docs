@@ -53,8 +53,7 @@ IMPORTANT: Deleting a database connection from {product} will prevent all Report
 To update the driver {product} uses to connect to one of your data sources, you must have the manage data source permission or higher.
 
 . Open the menu beneath your name in the upper left corner and select *Workspace Settings*.
-+
-image:organization_settings.jpeg.png[Organization Settings]
+
 . Scroll down to the *Data* section and select *Manage Connections*.
 In the main panel, select the connection you'd like to update from the list.
 +
