@@ -181,7 +181,7 @@ In other words, access to both the Connections and the Collection is required.
 [discrete]
 ====== *Q: What will users see if they don't have access to view or edit a Report I share with them?*
 
-If users do not have access to view a Report, they will see a screen with the message below:  image:permission6.png[Permissions6] If users do not have access to edit a Report, they will be able to view the Report, without the link to take them to the editor.
+If users do not have access to view a Report, they will see a screen with the message that they do not have permission to view the Report. If users do not have access to edit a Report, they will be able to view the Report, without the link to take them to the editor.
 Users with view access can still run the Report and subscribe to existing schedules.
 They cannot create new schedules.
 
