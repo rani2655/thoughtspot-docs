@@ -191,7 +191,6 @@ We made the following enhancements to pivot table charts:
 * Faster load times with pagination.
 * More detailed tooltips.
 * Enhanced readability.
-* Reduced clutter.
 * You can now expand and collapse all in pivot tables.
 * We now support custom sort order.
 * You can now adjust column widths.
