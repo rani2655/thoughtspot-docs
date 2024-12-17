@@ -11,7 +11,7 @@ You can create sets, which can be used to classify values in a list that you can
 
 ThoughtSpot now supports query sets.
 
-NOTE: Query sets are in early access and off by default. To enable this feature, contact {support-url}.
+NOTE: Query sets are in early access and off by default. To enable this feature, contact your ThoughtSpot administrator.
 
 
 To create a query set, first define the business question you wish to answer.
@@ -37,6 +37,9 @@ To create a column showcasing this defined list of values, follow these steps:
 .. Set description: Describe what this query set represents.
 . Click *Next*.
 . Under *Select a base column*, select a *Base column*. Select the column you are using as the base of your list of values.
++
+NOTE: It is important that for each base column value there is only a single return column value. If this is not true, then the query generation will result in a many-to-many join. This may be desired. This should be reviewed as this will likely lead to incorrect values as result of overcounting.
+
 . Under *Define groups for included query values*:
 .. Select *Column* and *Select a column with output groups* from the drop-down menu. Each row in the base column will be assigned to an output group based on its value from this column.
 .. Select *Conditions* to create groups using operators. Enter your desired values for the conditions.
@@ -55,7 +58,8 @@ NOTE: If multiple group conditions return true for an anchor column value then t
 
 === Limitations
 
-We do not currently support row-level security for query sets. Adding row-level security to a query set results in a query generation error.
+* We do not currently support row-level security for query sets. Adding row-level security to a query set results in a query generation error.
 
-
+* It is not possible to un-share a set.
+* Sets are only shared with View permissions.
 
