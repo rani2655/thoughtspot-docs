@@ -24,6 +24,12 @@ When you run change analysis on a chart, ThoughtSpot now surfaces a summary of a
 Custom comparison point for KPI charts [.badge.badge-early-access-relnotes]#Early Access#::
 Previously, time-series KPI charts had limited options when comparing to past periods. A weekly KPI could be compared against the previous week, the previous month's same week, the previous quarter's same week, or the previous year's same week. Now, you can set a custom point in data against which ThoughtSpot compares the most recent data point, any number of weeks ago. Your chosen comparison point persists for all viewers of the Liveboard. To enable this feature, contact your administrator. For more information, see xref:chart-kpi.adoc#kpi-custom-comparison[KPI charts].
 
+// Mary. jira: SCAL-194093. docs jira: SCAL-226615
+Query set groups [.badge.badge-early-access-whats-new]#Early Access#::
+ThoughtSpot users can now define groups for included query values using conditions in Query sets. Conditions allow you to create groups using operators, to specify the parameters of the group. To enable this feature, contact your administrator. For more information, see xref:query-sets.adoc[Query sets].
+
+
+
 // Mary. jira: SCAL-220512. docs jira:
 Pivot table enhancements [.badge.badge-beta-whats-new]#Beta#::
 endif::[]
@@ -59,6 +65,13 @@ Spotter:: We made the following enhancements to Spotter:
 Enhanced Google Sheets add-on::
 With ThoughtSpot Connected Sheets, a free add-on for Google Sheets, you can now update your existing search results to get the latest data without having to enter the search query again. You can do this for the current sheet or all sheets. For details, see xref:thoughtspot-sheets.adoc[ThoughtSpot Connected Sheets].
 
+// Mary. jira: SCAL-196253. docs jira: SCAL-234580
+Anomaly-based alerts::
+Anomaly-based alerts are now on by default and available to all users. You can receive alerts when data of KPIs you are subscribed to fall outside the predicted value range.
++
+When creating an alert, you can specify the time and frequency at which ThoughtSpot checks the KPI’s data against the values predicted by ML models trained on the data. For example, you can create an alert for a `sales weekly` KPI, and specify that ThoughtSpot compare the values every Monday at 5 PM. You may also add individual subscribers to the alert. If the KPI's data falls outside the predicted range, ThoughtSpot sends an alert to your email and, if applicable, your subscribers' emails. For more information, see xref:monitor.adoc#create_an_anomaly_alert[Create an anomaly alert].
+
+
 [#10-5-0-cl-data-engineer]
 === For the Data Engineer
 
@@ -74,6 +87,14 @@ You can now change the cardinality of a join (1:1, 1:Many, Many:1) without needi
 
 [#10-5-0-cl-it-ops]
 === For the IT/Ops Engineer
+
+// Mary. jira: SCAL-224758. docs jira: SCAL-
+Utilities schema viewer::
+ThoughtSpot's schema viewer connection picker is now on by default and available to all users. You can now use the dropdown or search to select your connection in the schema viewer.
++
+NOTE: You can no longer view objects across all connections. You must filter by a specific connection.
++
+For more information, see, xref:schema-viewer.adoc[Schema viewer connection picker].
 
 
 [#10-5-0-cl-developer]
