@@ -12,7 +12,7 @@ You can create sets, which can be used to classify values in a list that you can
 
 ThoughtSpot now supports column sets. A column set is a custom group of values from a single column.
 
-NOTE: Column sets are in early access and off by default. To enable this feature, contact {support-url}.
+NOTE: Column sets are in early access and off by default. To enable this feature, contact your ThoughtSpot administrator.
 
 To create a column set, first define the business question you wish to answer. For example, you can use column set to define regions with specific countries included or excluded. To create a column set showcasing this defined list of values, follow these steps:
 
@@ -23,6 +23,8 @@ To create a column set, first define the business question you wish to answer. F
 image::add-column-set1.png[Add column set]
 [start=3]
 . Select a *Base column* from the dropdown.
++
+NOTE: It is important that for each base column value there is only a single return column value. If this is not true, then the query generation will result in a many-to-many join. This may be desired. This should be reviewed as this will likely lead to incorrect values as result of overcounting.
 
 . Select either *Conditions* or *Bins* under *Define groups*.
 +

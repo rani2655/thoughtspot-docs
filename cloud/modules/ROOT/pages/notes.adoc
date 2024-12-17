@@ -529,7 +529,7 @@ ThoughtSpot introduces the ability to customize note tiles. You can now customiz
 
 Query sets [.badge.badge-early-access-relnotes]#Early Access#::
 You can create query sets, which can be used to classify values in a list that you can then reuse across multiple analyses. A query set is a custom group of values from a collection of objects in your database.
-Query sets are community objects which remain when you navigate away from the *Search Data* page and can be used by any user with view access to the underlying Worksheet. To enable this feature, contact {support-url}. For more information, see xref:custom-groups.adoc[].
+Query sets are community objects which remain when you navigate away from the *Search Data* page and can be used by any user with view access to the underlying Worksheet. To enable this feature, contact {support-url}. For more information, see xref:query-sets.adoc[].
 // Mary. epic: SCAL-164083. doc: SCAL-203599.
 // PM: Damian
 
@@ -816,7 +816,7 @@ You can now use custom charts created outside of ThoughtSpot, including third-pa
 
 // Mary -- SCAL-150356
 Custom sets [.badge.badge-early-access-whats-new]#Early Access#::
-You can create custom sets, which can be used to classify values in a list that you can then reuse across multiple analyses. ThoughtSpot introduces custom column sets in this release. A column set is a custom group of values from a single column. For example, you can use custom sets to define regions with specific countries included or excluded. Custom sets are community objects which remain when you navigate away from the Search Data page and can be used by any user with view access to the underlying Worksheet. To enable this feature, contact {support-url}. For more information, see xref:custom-sets.adoc[Custom sets].
+You can create custom sets, which can be used to classify values in a list that you can then reuse across multiple analyses. ThoughtSpot introduces custom column sets in this release. A column set is a custom group of values from a single column. For example, you can use custom sets to define regions with specific countries included or excluded. Custom sets are community objects which remain when you navigate away from the Search Data page and can be used by any user with view access to the underlying Worksheet. To enable this feature, contact {support-url}. For more information, see xref:column-sets.adoc[Custom sets].
 
 [#9-11-0-cl-business-user]
 === For the Business User
@@ -1453,7 +1453,7 @@ Rename filters on a Liveboard:: You can now edit the display name of filters on 
 +
 Admin users can access the Indexing Queries Liveboard from the admin tab, and use the results to improve indexing queries performance. For more information, see xref:indexing-queries-liveboard.adoc[Indexing Queries Liveboard].
 
-Custom groups [.badge.badge-beta-relnotes]#Beta#:: You can now create custom groups, which can be used to classify values in a list you can then reuse across multiple analyses. Custom groups are community objects which remain when you navigate away from the Search Data page and can be viewed by any user with view access to the underlying Worksheet. For more information, see xref:custom-groups.adoc[Custom groups].
+Custom groups [.badge.badge-beta-relnotes]#Beta#:: You can now create custom groups, which can be used to classify values in a list you can then reuse across multiple analyses. Custom groups are community objects which remain when you navigate away from the Search Data page and can be viewed by any user with view access to the underlying Worksheet. For more information, see xref:query-sets.adoc[Custom groups].
 
 Alation data catalog integration [.badge.badge-beta-relnotes]#Beta#:: You can now import metadata information related to your tables and columns from Alation into ThoughtSpot. From the *Data* tab, you can set up a connection to Alation to import column descriptions, column verification status, table descriptions, and table verification status. This information appears when you click on the corresponding table or column in *Search data*. Once connected, metadata information is visible to all users.
 
@@ -1589,7 +1589,7 @@ Indexing Queries Liveboard:: We introduced a Liveboard to answer the following q
 +
 Admin users can access the Indexing Queries Liveboard from the admin tab, and use the results to improve indexing queries performance. For more information, see xref:indexing-queries-liveboard.adoc[Indexing Queries Liveboard].
 
-Custom groups [.badge.badge-beta-relnotes]#Beta#:: You can now create custom groups, which can be used to classify values in a list you can then reuse across multiple analyses. Custom groups are community objects which remain when you navigate away from the Search Data page and can be viewed by any user with view access to the underlying Worksheet. For more information, see xref:custom-groups.adoc[Custom groups].
+Custom groups [.badge.badge-beta-relnotes]#Beta#:: You can now create custom groups, which can be used to classify values in a list you can then reuse across multiple analyses. Custom groups are community objects which remain when you navigate away from the Search Data page and can be viewed by any user with view access to the underlying Worksheet. For more information, see xref:query-sets.adoc[Custom groups].
 
 Date picker enhancement in Search [.badge.badge-early-access-relnotes]#Early Access#:: We added support for rolling, fixed, and custom date filters when creating an Answer or filtering a Liveboard. Previously, when adding a date filter to a Search, ThoughtSpot supported the conditions `ON (=)`, `ON OR AFTER (>=)`, `BEFORE (<)`, and `BETWEEN`. Now, you can additionally filter for `ON OR BEFORE (\<=)`, `NOT BETWEEN`, `ON LAST`, and `ON NEXT`. To try it out, click the filter icon next to the Date column in the left side menu, or click the date filter below the Answer or Liveboard title. This feature must be enabled by your administrator. For more information, see
 xref:date-filter.adoc[Date filters for Answers and Liveboards].
