@@ -3,6 +3,7 @@
 :author: Naomi
 :linkattrs:
 :page-layout: default-cloud-early-access
+:page-aliases: /admin/query-sets.adoc
 :experimental:
 :description: You can now create query sets, which can be used to classify values in a list you can then reuse across multiple analyses.
 :jira: SCAL-229666
