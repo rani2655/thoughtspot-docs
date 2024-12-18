@@ -116,6 +116,14 @@ endif::[]
 Now with change analysis, you get a snapshot view of all the factors/attributes that have changed in a single view, to get an overview of your changes in the chart. You can click *View details* to see the changes by attribute, or select *Customize* to change which measures or attributes to analyze.
 //Note that when you run change analysis on a chart created with ratio keywords like `average`, the overview tab does not appear and you instead see the previous change analysis interface, one attribute at a time.
 
+For more information, see
+ifndef::pendo-links[]
+xref:spotiq-change.adoc#change-analysis-summary[Change analysis summary tab].
+endif::[]
+ifdef::pendo-links[]
+xref:spotiq-change.adoc#change-analysis-summary[Change analysis summary tab,window=_blank].
+endif::[]
+
 [.bordered]
 image::summary-tab.png[Change analysis summary tab]
 
@@ -389,7 +397,14 @@ endif::[]
 // Naomi. jira: SCAL-224193. docs jira: SCAL-224199
 // PM: Samridh
 
-You can now change the cardinality of a join (1:1, 1:Many, Many:1) without needing to delete and remake the join. To enable this feature, contact your administrator.
+You can now change the cardinality of a join (1:1, 1:Many, Many:1) without needing to delete and remake the join. To enable this feature, contact your administrator. For more information, see
+ifndef::pendo-links[]
+xref:join-add.adoc#change-join-cardinality[Change join cardinality].
+endif::[]
+ifdef::pendo-links[]
+xref:join-add.adoc#change-join-cardinality[Change join cardinality,window=_blank].
+endif::[]
+
 
 endif::free-trial-feature[]
 
