@@ -14,24 +14,7 @@ endif::free-trial-feature[]
 
 // Business User
 
-////
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
-[#10-5-0-cl-spotter-llm]
-[discrete]
-=== Gemini LLM integration with Spotter [.badge.badge-early-access]#Early Access#
-endif::[]
-ifdef::pendo-links[]
-[#10-5-0-cl-spotter-llm]
-[discrete]
-=== Gemini LLM integration with Spotter [.badge.badge-early-access-whats-new]#Early Access#
-endif::[]
 
-// Naomi. jira: SCAL-225380. docs jira: SCAL-227908.
-// PM: Akshay. Samuel Weick? already in 10.4
-
-endif::free-trial-feature[]
-////
 
 [#10-5-0-cl-spotter]
 [discrete]
@@ -86,14 +69,6 @@ endif::pendo-links[]
 
 // Mary. jira: SCAL-196253. docs jira: SCAL-234580 moving from EA in 10.1.0.cl to GA in 10.5.0.cl - requested a JIRA from PM.
 // PM: Rahul PJP
-
-////
-[#10-5-0-cl-toggle]
-[discrete]
-=== Toggle for separate search experience
-// Naomi. docs jira: SCAL-232986
-// PM: Sam Weick. developer docs only.
-////
 
 
 // Analyst
@@ -217,9 +192,6 @@ endif::free-trial-feature[]
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
-
-
-
 [#10-5-0-cl-byoc]
 [discrete]
 === Custom charts [.badge.badge-early-access]#Early Access#
@@ -243,7 +215,7 @@ endif::free-trial-feature[]
 [discrete]
 === Compact Liveboard header
 
-// Naomi – jira: SCAL-220304. docs jira: SCAL-?
+// Naomi – jira: SCAL-220304. docs jira: SCAL-226578
 // PM: Dilip. go to training instance and take an image with fewer tabs.
 
 We have streamlined the design of Liveboard headers to ensure maximum visibility of Liveboard visualizations no matter the size of the screen. Tabs have been moved to the top line of the header, next to the title.
