@@ -44,7 +44,7 @@ The following enhancements have been made to to pivot table charts:
 
 // Mary. JIRA: SCAL-222671
 Org Switcher display [.badge.badge-early-access-whats-new]#Early Access#::
-Administrators can now enable or disable the display of the org name and *Org switcher* for users. By default, for all org enabled clusters, the org name and switcher are displayed only for users who are part of multiple orgs. They are hidden for users of a single org. For more information, see xref:orgs-administration-overview.adoc[].
+Administrators can now enable or disable the display of the org name and *Org switcher* for users. By default, the org name and switcher are visible to all users. Cluster administrators can modify this setting so that users with only a single org do not see the org name and switcher. For more information, see xref:orgs-administration-overview.adoc[].
 
 
 [#10-5-0-cl-business-user]
