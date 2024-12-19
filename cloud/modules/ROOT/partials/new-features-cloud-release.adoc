@@ -55,7 +55,7 @@ Compact Liveboard header::
 We have streamlined the design of Liveboard headers to ensure maximum visibility of Liveboard visualizations no matter the size of the screen. For more information, see
 xref:liveboard.adoc#compact-header[Liveboards].
 
-// Naomi. jira: SCAL-?
+// Naomi. jira: SCAL-236594, SCAL-236596, SCAL-236598
 Spotter:: We made the following enhancements to Spotter:
 
 * To increase relevance to your search, Spotter now surfaces past global reference questions as sample questions below the search bar in the home page.
