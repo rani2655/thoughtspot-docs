@@ -200,6 +200,29 @@ We made the following enhancements to pivot table charts:
 
 endif::free-trial-feature[]
 
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#10-5-0-cl-org-switcher-display]
+[discrete]
+=== Org Switcher display [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#0-5-0-cl-org-switcher-display]
+[discrete]
+=== Org Switcher display [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+Administrators can now enable or disable the display of the org name and *Org switcher* for users. By default, for all org enabled clusters, the org name and switcher are displayed only for users who are part of multiple orgs. They are hidden for users of a single org. For more information, see xref:orgs-administration-overview.adoc[].
+
+
+
+//Mary. JIRA: SCAL-222671
+//PM: Reshma
+
+
+
+
+
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#10-5-0-cl-byoc]
