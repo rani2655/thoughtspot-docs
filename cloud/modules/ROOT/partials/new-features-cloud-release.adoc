@@ -32,7 +32,6 @@ ThoughtSpot users can now define groups for included query values using conditio
 
 // Mary. jira: SCAL-220512. docs jira:
 Pivot table enhancements [.badge.badge-beta-whats-new]#Beta#::
-endif::[]
 The following enhancements have been made to to pivot table charts:
 
 * Faster load times with pagination.
