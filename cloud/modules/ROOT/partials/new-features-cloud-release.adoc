@@ -42,9 +42,10 @@ The following enhancements have been made to to pivot table charts:
 * You can now use measure names and values for more granular control in configurations.
 * We now support conditional formatting and number formatting.
 
-// Mary. JIRA: SCAL-228573
-Org Switcher appearance::
-If your company is not using Orgs, you will not see the Org switcher between the help icon and the *Search answers and Liveboards* search box.
+// Mary. JIRA: SCAL-222671
+Org Switcher display [.badge.badge-early-access-whats-new]#Early Access#::
+Administrators can now enable or disable the display of the org name and *Org switcher* for users. By default, for all org enabled clusters, the org name and switcher are displayed only for users who are part of multiple orgs. They are hidden for users of a single org. For more information, see xref:orgs-administration-overview.adoc[].
+
 
 [#10-5-0-cl-business-user]
 === For the Business User
