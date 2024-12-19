@@ -42,6 +42,10 @@ The following enhancements have been made to to pivot table charts:
 * You can now use measure names and values for more granular control in configurations.
 * We now support conditional formatting and number formatting.
 
+// Mary. JIRA: SCAL-228573
+Org Switcher appearance::
+If your company is not using Orgs, you will not see the Org switcher between the help icon and the *Search answers and Liveboards* search box.
+
 [#10-5-0-cl-business-user]
 === For the Business User
 
