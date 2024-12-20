@@ -441,7 +441,6 @@ endif::[]
 
 Administrators can now enable custom charts on the *Admin > All Orgs > Early access features* page.
 
-image::custom-chart-select.png[Gauge chart]
 endif::free-trial-feature[]
 
 
