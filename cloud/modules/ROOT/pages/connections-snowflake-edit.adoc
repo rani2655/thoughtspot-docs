@@ -14,7 +14,7 @@
 
 You can edit a {connection} connection to add tables and columns, as well as manually invalidate refresh tokens from Snowflake for users who have refresh tokens that expired.
 
-For information about how to create additional configurations for your {connection} connection, see xref:connections-snowflake-add.adoc#additional-configurations-create[Creating additional configurations for your {connection} connection]
+For information about how to create additional configurations for your {connection} connection, see xref:connections-snowflake-add.adoc#additional-configurations-create[Creating additional configurations for your {connection} connection].
 
 == Editing a Snowflake connection
 
