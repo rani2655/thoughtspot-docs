@@ -116,6 +116,14 @@ With the introduction of multifactor authentication (MFA) in ThoughtSpot, custom
 
 // PM: Aashica - Confirmed needs documentation for 10.7.0.cl. Awaiting doc JIRA and confirmation of release status for 10.7.0.cl. from Reshma. Hyphenate end-user? - confirmed that it is hyphenated for EULA. Announcement vs. new feature?
 
+Updated Early access features page for administrators::
+
+The early access features page for administrators has been redesigned to allow an administrator to select multiple early access features and enable them all at the same time.
+
+// Mark. jira: SCAL-230258. docs jira: SCAL-242844
+// PM: Saurabh Pandey.
+// add to release notes only
+
 [#10-8-0-cl-developer]
 === For the Developer
 
