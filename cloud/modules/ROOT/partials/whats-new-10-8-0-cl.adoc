@@ -17,7 +17,7 @@ endif::free-trial-feature[]
 
 In this release we introduce a unified help and support experience in ThoughtSpot.
 
-To open help and support, click the question mark icon image:icon-question-mark.png[Question Mark icon].
+To open help and support, click the question mark icon image:icon-question-mark-light.png[Question Mark icon].
 
 Just like the original information center, you can access *Help*, *Getting started*, and *What's new*. Now, you can also access support, and see the version of ThoughtSpot that you are currently using. The original support icon which appeared in the bottom right corner of ThoughtSpot has been removed.
 
@@ -26,7 +26,7 @@ In addition to these features, your ThoughtSpot administrator can add custom lin
 [.bordered]
 image::help-support-menu-v2.png[]
 
-IMPORTANT: We are gradually making this available customers, so if you don't see it immediately after your instance is upgraded, it should appear within one month.
+We are gradually making this available customers, so if you don't see it immediately after your instance is upgraded, it should appear within one month.
 
 [#10-8-0-cl-support]
 [discrete]
