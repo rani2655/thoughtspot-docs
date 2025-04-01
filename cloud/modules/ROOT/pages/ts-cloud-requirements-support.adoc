@@ -51,6 +51,7 @@ ThoughtSpot Cloud does not support the following:
 
 * Loading data using tsload
 * Data cannot be migrated to another ThoughtSpot cluster, but you can migrate Liveboards, Answers, views, tables, and Worksheets.
+* The data in the Spotter Conversations Liveboard is not currently available for ThoughtSpot instances hosted in GCP and AWS v2 environments.
 +
 For migration details, see xref:scriptability.adoc[Import and export TML files].
 
