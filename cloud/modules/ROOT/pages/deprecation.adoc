@@ -113,6 +113,10 @@ The 10.1.0.cl release of ThoughtSpot Cloud, targeted for August 2024 (GA), remov
 Classic experience for Liveboards, Answers, and SpotIQ::
 Beginning in the 10.1.0.cl release, you can no longer use the Classic experience for Liveboards, Answers, and SpotIQ. The "new experience" from the previous release is now the only option and is on by default.
 
+Liveboard and Answers list pages::
+
+The *Edit TML*, *Export TML*, and *Import TML* actions are no longer available on the *Liveboards* and *Answers* listing pages. You can use the TML menu actions on the individual Liveboard and Answer pages, or the import and export TML options available on the *Data Workspace* > *Utilities* page.
+
 == Removed in 9.12.0.cl
 
 The 9.12.0.cl release of ThoughtSpot Cloud, targeted for April 2024 (GA), will remove the following feature:
