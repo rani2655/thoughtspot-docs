@@ -9,7 +9,7 @@
 
 Use the Spotter Conversations Liveboard to get insight on how your users are interacting with Spotter. You can gain insight into user engagement and adoption metrics for Spotter, track query trends and understand user intent, monitor follow-up actions (including query refinements and edits within conversations), and analyze feedback to identify training gaps and improve dataset coverage.
 
-NOTE: This data in this Liveboard is not currently available for ThoughtSpot instances hosted in GCP and AWS v2 environments.
+NOTE: The data in this Liveboard is not currently available for ThoughtSpot instances hosted in GCP and AWS v2 environments.
 
 == Accessing the Liveboard
 
