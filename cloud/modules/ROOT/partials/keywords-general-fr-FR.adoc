@@ -3,16 +3,16 @@ NOTE: When using the *top* or *bottom* keywords without specifying a number (*_n
 include::partial$keywords/list-general.adoc[]
 
 include::partial$keywords/top_n.adoc[]
-Français;; top _n_
+Français;; haut _n_
 
 include::partial$keywords/top_n_ranked_by.adoc[]
-Français;; top _n_ ... classé par
+Français;; haut _n_ ... classé par
 
 include::partial$keywords/bottom_n.adoc[]
 Français;; dernier _n_
 
 include::partial$keywords/sort_by.adoc[]
-Français;; trié(e/s/es) par
+Français;; trier par
 
 include::partial$keywords/by.adoc[]
 Français;; par
