@@ -9,7 +9,7 @@ include::partial$keywords/top_n_ranked_by.adoc[]
 русский;; высшее _n_ классофицирован по рейтингу
 
 include::partial$keywords/bottom_n.adoc[]
-русский;; Низшее _n_
+русский;; низшее _n_
 
 include::partial$keywords/sort_by.adoc[]
 русский;; сортировать по
