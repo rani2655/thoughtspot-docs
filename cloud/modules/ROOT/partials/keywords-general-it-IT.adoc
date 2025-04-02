@@ -15,4 +15,4 @@ include::partial$keywords/sort_by.adoc[]
 Italiano;; ordina per
 
 include::partial$keywords/by.adoc[]
-Italiano;; per
+Italiano;; in base
