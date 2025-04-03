@@ -26,13 +26,15 @@ In addition to these features, your ThoughtSpot administrator can add custom lin
 [.bordered]
 image::help-support-menu-v2.png[]
 
-We are gradually making this available customers, so if you don't see it immediately after your instance is upgraded, it should appear within one month.
+We are gradually making this available to customers, so if you don't see it immediately after your instance is upgraded, it should appear within one month.
+
+// add image with custom link outlined in red under Contact support
 
 [#10-8-0-cl-support]
 [discrete]
-=== AI-assisted chat support changes
+=== Chat support changes
 
-With support, you can still send a message, book a call with a product specialist, or search for answers in our documentation, training and community sites, using the help and support menu to open the support window. You now also have the option of sharing a recording of your screen (without audio) if requested by a support agent, which can help them identify and resolve your issue more quickly.
+With support, you can still send a message, book a call with a product specialist, or search for answers in our documentation, training, and community sites, using the help and support menu to open the support window. You now also have the option of sharing a recording of your screen (without audio) if requested by a support agent, which can help them identify and resolve your issue more quickly.
 
 NOTE: If you currently have your in-product support feature disabled, the *Contact support* menu option will display *Report a problem* instead.
 ****
@@ -45,14 +47,17 @@ NOTE: If you currently have your in-product support feature disabled, the *Conta
 
 [#10-6-0-cl-learnability]
 [discrete]
-=== Learnability in conversation: feedback generation in follow-up questions
+=== Spotter feedback in conversation
 
 // Naomi. jira: SCAL-218237. docs jira: SCAL-239699
 // PM: Alok. waiting on info.
 // adjust title to be more plain english
 // Move Spotter topics to just below help support menu section.
 
-You can now give feedback on AI-generated Answers in Spotter without interrupting your  conversation. When marking an Answer incorrect, you can now edit the underlying search, save, and review the search query tokens making up the Answer. If you mark an Answer correct, you can review and save the underlying search query tokens so Spotter remembers your choices in the future for similar questions.
+You can now give feedback on AI-generated Answers in Spotter without interrupting your  conversation.
+////
+When marking an Answer incorrect, you can now edit the underlying search, save, and review the search query tokens making up the Answer. If you mark an Answer correct, you can review and save the underlying search query tokens so Spotter remembers your choices in the future for similar questions.
+////
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
@@ -66,28 +71,38 @@ ifdef::pendo-links[]
 === Spotter shortcuts [.badge.badge-early-access-whats-new]#Early Access#
 endif::[]
 ThoughtSpot introduces Spotter shortcuts that allow you to select from existing verified data constructs, including columns, filter values, and search data keywords. These shortcuts allow you to mix natural language and deterministic inputs when using Spotter. To enable this feature, contact {support-url}.
-//+
-//For more information, see xref:spotter-getting-started.adoc#spotter-shortcuts[Spotter shortcuts].
+
+For more information, see
+ifndef::pendo-links[]
+xref:spotter-getting-started.adoc#spotter-shortcuts[Spotter shortcuts].
+endif::[]
+ifdef::pendo-links[]
+xref:spotter-getting-started.adoc#spotter-shortcuts[Spotter shortcuts,window=_blank].
+endif::[]
 // Mary – jira: SCAL-233271. docs jira:SCAL-245110
 // PM: Sam Weick
 // Add gif
 
 endif::free-trial-feature[]
 
-[#10-8-0-cl-locales]
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
+[#10-8-0-cl-lb-style-group]
 [discrete]
-=== New languages support
-
-In this release ThoughtSpot supports the following new system languages:
-
-- English (New Zealand)
-- German (Switzerland)
-- Spanish (Mexico)
-
-To set your system language to one of these languages, click the user icon in the upper-right corner of ThoughtSpot, select *Profile*, and then select the system language under Preferences.
-
-// Naomi. jiras: SCAL-231100, SCAL-231009, SCAL-215985 . docs jira: ?
-// PM: Aashna. waiting on info.
+=== Liveboard styling and grouping [.badge.badge-beta]#Beta#
+endif::[]
+ifdef::pendo-links[]
+[#10-8-0-cl-lb-style-group]
+[discrete]
+=== Liveboard styling and grouping [.badge.badge-beta-whats-new]#Beta#
+endif::[]
+ThoughtSpot introduces new styling and grouping options for Liveboards. Styles can be applied to a Liveboard, a tile, or a group of tiles to improve readability, differentiate specific content, or apply organizational branding guidelines.
+//For more information, see Liveboard grouping and Liveboard styling.
+To enable this feature, contact {support-url}.
+// Mary. jira: SCAL-231927. docs jira:?
+// PM: Manan - PM confirmed that this is Beta for 10.7.0.cl.
+// add a gif
+endif::free-trial-feature[]
 
 [#primary-10-7-0-cl]
 
@@ -114,11 +129,11 @@ endif::free-trial-feature[]
 
 [#10-7-0-cl-parameter]
 [discrete]
-=== Parameters in column names of charts and tables
+=== Dynamic parameters in Answers
 
-You can now add a parameter as a variable to the table header, column names, and axis names of a chart. Any references to the parameter in a Liveboard or Answer automatically update to show the current value of the parameter.
+You can now add a parameter as a variable in the x and y-axis labels and column names of an Answer. When you select a different parameter value in the Answer, previously only the data changed. Now contextual information (such as axis name, column header, and legends) also updates to reflect parameter selected. Any place a parameter is used in Liveboards or Answers automatically displays the current information associated with the selected parameter value. For example, if you have a parameter which contains three possible values (Price, Shipping Cost, and Quantity), when you select Price, the information about the price of items is displayed. When you select Shipping Cost, the information updates to show shipping-related information, and so on.
 
-// Provide a simple example, once I get hands on with the feature. clarify that it's both for table view and chart view. change title to mention dynamic parameters in answers, not charts.
+// Provide a simple example, once I get hands on with the feature. clarify that it's both for table view and chart view. change title to mention dynamic parameters in answers, not charts. Add gif.
 
 // Mark. jira: SCAL-224576. docs jira: SCAL-240479
 // PM: Vaibhav
@@ -128,7 +143,7 @@ You can now add a parameter as a variable to the table header, column names, and
 [discrete]
 === Blended axes in pivot table charts
 
-In this release, we introduce a new way of adding multiple measures to pivot table charts called blended axes. With blended axes, you can group measures and control them through a system-defined field called Measure Names. This field acts like an attribute, with the different measures as its unique values. This makes it possible to have more combinations and configurations of charts, including slicing the color for different measures, comparing multiple measures together, and having more customizable pivot configurations.
+In this release, we introduce a new way of adding multiple measures to pivot table charts called blended axes. With blended axes, you can group measures and control them through a system-defined chip called *Values* in the chart configuration settings. This chip acts like an attribute, with the different measures as its unique values. This makes it possible to have more combinations and configurations of charts, including slicing the color for different measures, comparing multiple measures together, and more customizable pivot configurations.
 
 // Mark – jira: SCAL-239213. docs jira: SCAL-248223
 // PM: Manan
@@ -154,11 +169,28 @@ You can now set KPI alerts to trigger when a selected attribute changes. This ca
 
 For example, if you wanted to create an alert for a KPI tracking sales of different phones by brand, you could choose the intended brands as attributes and set an alert to be notified when sales for those specific brands dropped by 5%. To enable this feature, contact your administrator.
 
-[.bordered]
-image::KPI-alert-type.png[]
++++
+<video autoplay loop muted controls width="100%" controlsList="nodownload">
+<source src="https://docs.thoughtspot.com/cloud/10.6.0.cl/_images/attribute-alert.mp4" type="video/mp4">
+</video>
++++
 
 endif::free-trial-feature[]
 
+[#10-8-0-cl-locales]
+[discrete]
+=== New languages support
+
+In this release ThoughtSpot supports the following new system languages:
+
+- English (New Zealand)
+- German (Switzerland)
+- Spanish (Mexico)
+
+//To set your system language to one of these languages, click the user icon in the upper-right corner of ThoughtSpot, select *Profile*, and then select the system language under Preferences.
+
+// Naomi. jiras: SCAL-231100, SCAL-231009, SCAL-215985 . docs jira: ?
+// PM: Aashna. waiting on info.
 
 [#10-7-0-cl-bilingual]
 [discrete]
@@ -181,7 +213,13 @@ ifdef::pendo-links[]
 === Currency formatting for Japanese [.badge.badge-beta]#Beta#
 endif::[]
 ThoughtSpot introduces whole number formatting for Japanese Yen (JPY) currency. To enable this feature, contact {support-url}.
-//For more information, see xref:data-modeling-patterns.adoc[Set number, date, and currency formats].
+For more information, see
+ifndef::pendo-links[]
+xref:data-modeling-patterns.adoc[Set number, date, and currency formats].
+endif::[]
+ifdef::pendo-links[]
+xref:data-modeling-patterns.adoc[Set number, date, and currency formats,window=_blank].
+endif::[]
 // Mary. jira: SCAL-235114. docs jira: SCAL-242800
 // PM: Vaibhav.
 endif::free-trial-feature[]
@@ -190,7 +228,7 @@ ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#10-7-0-cl-number]
 [discrete]
-=== Number formatting on Attributes [.badge.badge-beta]#Beta#
+=== Number formatting on attributes [.badge.badge-beta]#Beta#
 endif::[]
 ifdef::pendo-links[]
 [#10-7-0-cl-number]
@@ -203,24 +241,7 @@ ThoughtSpot introduces enhanced number formatting controls for measures that are
 // add an example
 endif::free-trial-feature[]
 
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
-[#10-8-0-cl-lb-style-group]
-[discrete]
-=== Liveboard styling and grouping [.badge.badge-beta]#Beta#
-endif::[]
-ifdef::pendo-links[]
-[#10-8-0-cl-lb-style-group]
-[discrete]
-=== Liveboard styling and grouping [.badge.badge-beta-whats-new]#Beta#
-endif::[]
-ThoughtSpot introduces new styling and grouping options for Liveboards. Styles can be applied to a Liveboard, a tile, or a group of tiles to improve readability, differentiate specific content, or apply organizational branding guidelines.
-//For more information, see Liveboard grouping and Liveboard styling.
-To enable this feature, contact {support-url}.
-// Mary. jira: SCAL-231927. docs jira:?
-// PM: Manan - PM confirmed that this is Beta for 10.7.0.cl.
-// add a gif
-endif::free-trial-feature[]
+
 
 // Analyst
 
@@ -246,13 +267,13 @@ ThoughtSpot introduces a brand new pivot table chart. The new pivot table charts
 
 To enable this feature, contact your administrator.
 
-//For more information, see
-//ifndef::pendo-links[]
-//xref:chart-pivot-table.adoc#pivot-table-2-0[Pivot table charts].
-//endif::[]
-//ifdef::pendo-links[]
-//xref:chart-pivot-table.adoc#pivot-table-2-0[Pivot table charts,window=_blank].
-//endif::[]
+For more information, see
+ifndef::pendo-links[]
+xref:chart-pivot-table.adoc#pivot-table-2-0[Pivot table charts].
+endif::[]
+ifdef::pendo-links[]
+xref:chart-pivot-table.adoc#pivot-table-2-0[Pivot table charts,window=_blank].
+endif::[]
 // Mary. jira: SCAL-224447. doc jira: SCAL-236449
 // PM: Manan
 // Enabled in Early Access page.
@@ -312,7 +333,13 @@ endif::free-trial-feature[]
 [discrete]
 === Model knowledge cards
 
-Model knowledge cards is now available to all users and on by default. With knowledge cards, you can now see more detail about tables and columns before you add them to a Model. To view the knowledge card, click the knowledge card button image:knowledge-card-button.png[knowledge card button,width="30"], and then click the table or column. For more information, see xref:models.adoc#knowledge-cards[Knowledge cards].
+Model knowledge cards are now available to all users and on by default. With knowledge cards, you can now see more detail about tables and columns before you add them to a Model. To view the knowledge card, click the knowledge card button image:knowledge-card-button.png[knowledge card button,width="30"], and then click the table or column. For more information, see
+ifndef::pendo-links[]
+xref:models.adoc#knowledge-cards[Knowledge cards].
+endif::[]
+ifdef::pendo-links[]
+xref:models.adoc#knowledge-cards[Knowledge cards,window=_blank].
+endif::[]
 
 // Mark. jira: SCAL-224609. docs jira: SCAL-248456
 // PM: Samridh
@@ -343,19 +370,45 @@ ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#10-8-0-cl-data-modeling]
 [discrete]
-=== Column name localization and aliasing [.badge.badge-beta]#Beta#
+=== Column name and description aliasing for localization [.badge.badge-beta]#Beta#
 endif::[]
 ifdef::pendo-links[]
 [#10-7-0-cl-data-modeling]
 [discrete]
-=== Column name localization and aliasing [.badge.badge-beta-whats-new]#Beta#
+=== Column name and description aliasing for localization [.badge.badge-beta-whats-new]#Beta#
 endif::[]
 
-This feature provides the ability to define a column name alias based upon a language variable, the user's system language. This can be extended to support aliasing based on other variable keys such as: OrgID, ThoughtSpot group membership or user defined properties. Based on the system language selected in a user's profile, the appropriate column name is displayed in the search data and Answer interface. To enable this feature, contact {support-url}.
+This feature provides the ability to define a column name or description alias in a Worksheet or Model which allows column names and descriptions to be displayed in a supported system language. When enabled, column names and descriptions in the Search Data and Answer interface display in the system language selected by the user in their ThoughtSpot user profile. To enable this feature, contact {support-url}.
 
 // Naomi. jira: SCAL-227169. docs jira: SCAL-?
 // PM: Damian
 // Simplify, provide example, and move below the fold.
+
+[#10-7-0-cl-joins]
+[discrete]
+=== Join cardinality change for global joins
+Join cardinality change for global joins is now available to all users and on by default. You can now change the cardinality of a join (1:1, 1:Many, Many:1) without needing to delete and remake the join.
+For more information, see
+ifndef::pendo-links[]
+xref:join-add.adoc#change-join-cardinality[Change join cardinality].
+endif::[]
+ifdef::pendo-links[]
+xref:join-add.adoc#change-join-cardinality[Change join cardinality,window=_blank].
+endif::[]
+
+// Mary. jira: SCAL-224198. docs jira: SCAL-225298
+// PM: Samridh - EA in 10.5.0.cl GA in 10.7.0.cl
+
+
+[#10-7-0-cl-query]
+[discrete]
+=== Natural Language Search queries in Query Stats Worksheet
+
+// Naomi. jira: SCAL-234949. docs jira: SCAL-246579
+// PM: Anant. waiting for more info. use case? shorten title.
+
+ThoughtSpot now distinguishes between regular query consumption and Spotter queries within the Query Stats Worksheet.
+
 
 [#10-7-0-cl-oauth]
 [discrete]
@@ -402,25 +455,6 @@ Bridge provides options to securely connect your data source with ThoughtSpot Cl
 * SAP HANA
 * SQL Server
 
-[#10-7-0-cl-joins]
-[discrete]
-=== Join cardinality change for global joins
-Join cardinality change for global joins is now available to all users and on by default. You can now change the cardinality of a join (1:1, 1:Many, Many:1) without needing to delete and remake the join.
-//For more information, see
-//xref:join-add.adoc#change-join-cardinality[Change join cardinality].
-
-// Mary. jira: SCAL-224198. docs jira: SCAL-225298
-// PM: Samridh - EA in 10.5.0.cl GA in 10.7.0.cl
-
-
-[#10-7-0-cl-query]
-[discrete]
-=== Natural Language Search queries in Query Stats Worksheet
-
-// Naomi. jira: SCAL-234949. docs jira: SCAL-246579
-// PM: Anant. waiting for more info. use case? shorten title.
-
-ThoughtSpot now distinguishes between regular query consumption and Spotter queries within the Query Stats Worksheet.
 
 //[#10-7-0-cl-fe]
 // [discrete]
