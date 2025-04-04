@@ -55,6 +55,14 @@ NOTE: If you currently have your in-product support feature disabled, the *Conta
 // Move Spotter topics to just below help support menu section.
 
 You can now give feedback on AI-generated Answers in Spotter without interrupting your  conversation.
+
+For more information, see
+ifndef::pendo-links[]
+xref:spotter-getting-started.adoc#learnability[Coach Spotter within a conversation].
+endif::[]
+ifdef::pendo-links[]
+xref:spotter-getting-started.adoc#learnability[Coach Spotter within a conversation,window=_blank].
+endif::[]
 ////
 When marking an Answer incorrect, you can now edit the underlying search, save, and review the search query tokens making up the Answer. If you mark an Answer correct, you can review and save the underlying search query tokens so Spotter remembers your choices in the future for similar questions.
 ////
@@ -169,6 +177,14 @@ You can now set KPI alerts to trigger when a selected attribute changes. This ca
 
 For example, if you wanted to create an alert for a KPI tracking sales of different phones by brand, you could choose the intended brands as attributes and set an alert to be notified when sales for those specific brands dropped by 5%. To enable this feature, contact your administrator.
 
+For more information, see
+ifndef::pendo-links[]
+xref:monitor-alert-attributes.adoc[Create an alert by attributes].
+endif::[]
+ifdef::pendo-links[]
+xref:monitor-alert-attributes.adoc[Create an alert by attributes,window=_blank].
+endif::[]
+
 +++
 <video autoplay loop muted controls width="100%" controlsList="nodownload">
 <source src="https://docs.thoughtspot.com/cloud/10.6.0.cl/_images/attribute-alert.mp4" type="video/mp4">
@@ -200,6 +216,14 @@ In this release ThoughtSpot supports the following new system languages:
 // PM: Aashna. on by default for Japanese, EA for other languages. value proposition: our grammar is incorrect for Japanese, so now you can search in correct grammar in english while the product is in japanese. how does it look when you enter both?
 
 ThoughtSpot now supports bilingual keywords for the Japanese locale. When your system language is set to Japanese, you can now enter keywords in either English or Japanese while searching.
+
+For more information, see
+ifndef::pendo-links[]
+xref:keywords-ja-JP.adoc[日本語 Keyword reference].
+endif::[]
+ifdef::pendo-links[]
+xref:keywords-ja-JP.adoc[日本語 Keyword reference,window=_blank].
+endif::[]
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
@@ -362,6 +386,14 @@ endif::[]
 
 You can now migrate feedback between Models using the feedback TML file. Select the more options icon image:icon-more-10px.png[more options icon] on the Model and hover over the TML section to import or export the TML file containing your feedback. To enable this feature, contact {support-url}.
 
+For more information, see
+ifndef::pendo-links[]
+xref:tml-feedback.adoc[TML for Spotter feedback].
+endif::[]
+ifdef::pendo-links[]
+xref:tml-feedback.adoc[TML for Spotter feedback,window=_blank].
+endif::[]
+
 [.bordered]
 image::feedback-migration.png[Export Spotter feedback]
 endif::free-trial-feature[]
@@ -380,7 +412,15 @@ endif::[]
 
 This feature provides the ability to define a column name or description alias in a Worksheet or Model which allows column names and descriptions to be displayed in a supported system language. When enabled, column names and descriptions in the Search Data and Answer interface display in the system language selected by the user in their ThoughtSpot user profile. To enable this feature, contact {support-url}.
 
-// Naomi. jira: SCAL-227169. docs jira: SCAL-?
+For more information, see
+ifndef::pendo-links[]
+xref:column-aliases.adoc[Column and description aliases for localization].
+endif::[]
+ifdef::pendo-links[]
+xref:column-aliases.adoc[Column and description aliases for localization,window=_blank].
+endif::[]
+
+// Naomi. jira: SCAL-227169. docs jira: SCAL-241403
 // PM: Damian
 // Simplify, provide example, and move below the fold.
 
@@ -417,7 +457,13 @@ ThoughtSpot now distinguishes between regular query consumption and Spotter quer
 // Naomi. jira: SCAL-226981. docs jira: SCAL-243429
 // PM: Prayansh
 
-We now support OAuth with PKCE for Denodo.
+We now support
+ifndef::pendo-links[]
+xref:connections-denodo-add.adoc[OAuth with PKCE for Denodo].
+endif::[]
+ifdef::pendo-links[]
+xref:connections-denodo-add.adoc[OAuth with PKCE for Denodo,window=_blank].
+endif::[]
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
@@ -455,6 +501,13 @@ Bridge provides options to securely connect your data source with ThoughtSpot Cl
 * SAP HANA
 * SQL Server
 
+For more information, see
+ifndef::pendo-links[]
+xref:connections-bridge.adoc[Bridge connectivity for Cloud Data Warehouses and Databases].
+endif::[]
+ifdef::pendo-links[]
+xref:connections-bridge.adoc[Bridge connectivity for Cloud Data Warehouses and Databases,window=_blank].
+endif::[]
 
 //[#10-7-0-cl-fe]
 // [discrete]
