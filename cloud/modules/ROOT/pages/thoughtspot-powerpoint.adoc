@@ -6,7 +6,7 @@
 :page-layout: default-cloud
 :page-aliases:
 :description: Learn about the ThoughtSpot add-on for Microsoft PowerPoint.
-:jira: SCAL-224481, SCAL-245106
+:jira: SCAL-245106
 
 ++++
 <style>
