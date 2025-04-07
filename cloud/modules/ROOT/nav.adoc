@@ -664,7 +664,6 @@
 *** xref:analyst-studio-report-scheduling-and-sharing.adoc[Report scheduling]
 ** xref:analyst-studio-integrations.adoc[Integrations]
 *** xref:analyst-studio-dbt-data-freshness.adoc[dbt data freshness]
-//*** xref:analyst-studio-github.adoc[GitHub sync]
 *** xref:analyst-studio-google-sheets-integration.adoc[Google Sheets integration]
 *** xref:analyst-studio-dbt-semantic-layer.adoc[Semantic layer integrations]
 //*** xref:studio-slack.adoc[Slack integration]
