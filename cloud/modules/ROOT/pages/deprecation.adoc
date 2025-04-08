@@ -93,7 +93,7 @@ For more information, see xref:oidc-iamv2.adoc[Identity and Access Management V2
 
 == Deprecated in 10.3.0.cl
 
-The 10.3.0.cl release of ThoughtSpot Cloud, targeted for October 2024 (GA), deprecates the following feature. You can still use this feature, but ThoughtSpot will remove these features in a later release.
+The 10.3.0.cl release of ThoughtSpot Cloud, targeted for October 2024 (GA), deprecates the following feature. You can still use this feature, but ThoughtSpot will it in a later release.
 
 - Sage Feedback Leaderboard
 
