@@ -91,8 +91,11 @@ Ensure you are ready for migration to IAMv2 by reviewing and following the steps
 For more information, see xref:oidc-iamv2.adoc[Identity and Access Management V2]. Accept in-product notifications for IAM updates. Contact {support-url} if you have any questions.
 
 
+== Deprecated in 10.3.0.cl
 
+The 10.3.0.cl release of ThoughtSpot Cloud, targeted for October 2024 (GA), deprecates the following feature. You can still use these features, but ThoughtSpot will remove these features in a later release.
 
+- Sage Feedback Leaderboard
 
 == Deprecated in 10.1.0.cl
 
