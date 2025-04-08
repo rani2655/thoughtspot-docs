@@ -1,277 +1,283 @@
 include::partial$keywords/list-date.adoc[]
 
 include::partial$keywords/after.adoc[]
-Español;; después de
+English (NZ);; after
 
 include::partial$keywords/april.adoc[]
-Español;; abril
+English (NZ);; April
 
 include::partial$keywords/august.adoc[]
-Español;; agosto
+English (NZ);; August
 
 include::partial$keywords/before.adoc[]
-Español;; antes de
+English (NZ);; before
 
 include::partial$keywords/between_and.adoc[]
-Español;; entre … y …
+English (NZ);; between ... and ...
 
 include::partial$keywords/daily.adoc[]
-Español;; a diario
+English (NZ);; daily
 
 include::partial$keywords/daily_year_over_year.adoc[]
-Español;; a diario año tras año
+English (NZ);; daily year-over-year
 
 include::partial$keywords/day_name.adoc[]
-Español;; _día_
+English (NZ);; _day_
 
 include::partial$keywords/day_of_week.adoc[]
-Español;; día de la semana
+English (NZ);; day of week
 
 include::partial$keywords/day_of_week_name.adoc[]
-Español;; _día de la semana_
+English (NZ);; _day of week_
 
 include::partial$keywords/december.adoc[]
-Español;; diciembre
+English (NZ);; December
 
 include::partial$keywords/february.adoc[]
-Español;; febrero
+English (NZ);; February
 
 include::partial$keywords/friday.adoc[]
-Español;; viernes
+English (NZ);; Friday
 
 include::partial$keywords/growth_of_by.adoc[]
-Español;; crecimiento de … hasta …
+English (NZ);; growth of... by ...
 
 include::partial$keywords/growth_of_by_daily.adoc[]
-Español;; crecimiento de … hasta … a diario
+English (NZ);; growth of … by … daily
 
 include::partial$keywords/growth_of_by_monthly.adoc[]
-Español;; crecimiento de … hasta … mensual
+English (NZ);; growth of … by … monthly
 
 include::partial$keywords/growth_of_by_quarterly.adoc[]
-Español;; crecimiento de … hasta … trimestral
+English (NZ);; growth of … by … quarterly
 
 include::partial$keywords/growth_of_by_weekly.adoc[]
-Español;; crecimiento de … hasta … semanal
+English (NZ);; growth of … by … weekly
 
 include::partial$keywords/growth_of_by_yearly.adoc[]
-Español;; crecimiento de … hasta … anual
+English (NZ);; growth of … by … yearly
 
 include::partial$keywords/january.adoc[]
-Español;; enero
+English (NZ);; January
 
 include::partial$keywords/july.adoc[]
-Español;; julio
+English (NZ);; July
 
 include::partial$keywords/june.adoc[]
-Español;; junio
+English (NZ);; June
 
 include::partial$keywords/last_day_by.adoc[]
-Español;; pasado día hasta
+English (NZ);; last day by
 
 include::partial$keywords/last_month_by.adoc[]
-Español;; pasado mes hasta
+English (NZ);; last month by
 
 include::partial$keywords/last_n_days.adoc[]
-Español;; pasados _n_ días
+English (NZ);; last _n_ days
 
 include::partial$keywords/last_n_days_for_each_month.adoc[]
-Español;; pasados _n_ días para cada mes
+English (NZ);; last _n_ days for each month
 
 include::partial$keywords/last_n_days_for_each_quarter.adoc[]
-Español;; pasados _n_ días para cada trimestre
+English (NZ);; last _n_ days for each quarter
 
 include::partial$keywords/last_n_days_for_each_week.adoc[]
-Español;; pasados _n_ días para cada semana
+English (NZ);; last _n_ days for each week
 
 include::partial$keywords/last_n_days_for_each_year.adoc[]
-Español;; pasados _n_ días para cada año
+English (NZ);; last _n_ days for each year
 
 include::partial$keywords/last_n_hours_for_each_day.adoc[]
-Español;; pasados _n_ horas para cada día
+English (NZ);; last _n_ hours for each day
 
 include::partial$keywords/last_n_months_for_each_quarter.adoc[]
-Español;; pasados _n_ meses para cada trimestre
+English (NZ);; last _n_ months for each quarter
 
 include::partial$keywords/last_n_months_for_each_year.adoc[]
-Español;; pasados _n_ meses para cada año
+English (NZ);; last _n_ months for each year
 
 include::partial$keywords/last_n_quarters.adoc[]
-Español;; pasados _n_ trimestres
+English (NZ);; last _n_ quarters
 
 include::partial$keywords/last_n_quarters_for_each_year.adoc[]
-Español;; pasados _n_ trimestres para cada año
+English (NZ);; last _n_ quarters for each year
 
 include::partial$keywords/last_n_weeks.adoc[]
-Español;; pasadas _n_ semanas
+English (NZ);; last _n_ weeks
 
 include::partial$keywords/last_n_weeks_for_each_month.adoc[]
-Español;; pasadas _n_ semanas para cada mes
+English (NZ);; last _n_ weeks for each month
 
 include::partial$keywords/last_n_weeks_for_each_quarter.adoc[]
-Español;; pasadas _n_ semanas para cada trimestre
+English (NZ);; last _n_ weeks for each quarter
 
 include::partial$keywords/last_n_weeks_for_each_year.adoc[]
-Español;; pasadas _n_ semanas para cada año
+English (NZ);; last _n_ weeks for each year
 
 include::partial$keywords/last_n_years.adoc[]
-Español;; pasados _n_ años
+English (NZ);; last _n_ years
 
 include::partial$keywords/last_quarter.adoc[]
-Español;; pasado trimestre
+English (NZ);; last quarter
 
 include::partial$keywords/last_week.adoc[]
-Español;; pasada semana
+English (NZ);; last week
 
 include::partial$keywords/last_year.adoc[]
-Español;; pasado año
+English (NZ);; last year
 
 include::partial$keywords/march.adoc[]
-Español;; marzo
+English (NZ);; March
 
 include::partial$keywords/may.adoc[]
-Español;; mayo
+English (NZ);; May
 
 include::partial$keywords/monday.adoc[]
-Español;; lunes
+English (NZ);; Monday
 
 include::partial$keywords/month.adoc[]
-Español;; mes
+English (NZ);; month
 
 include::partial$keywords/month_name.adoc[]
-Español;; _mes_
+English (NZ);; _month_
 
 include::partial$keywords/month_to_date.adoc[]
-Español;; mes hasta la fecha
+English (NZ);; month to date
 
 include::partial$keywords/month_year_name.adoc[]
-Español;; _mes año_
+English (NZ);; _month year_
 
 include::partial$keywords/monthly.adoc[]
-Español;; mensual
+English (NZ);; monthly
 
 include::partial$keywords/monthly_year_over_year.adoc[]
-Español;; mensual año tras año
+English (NZ);; monthly year-over-year
 
 include::partial$keywords/n_days_ago.adoc[]
-Español;; _n_ días atrás
+English (NZ);; _n_ days ago
 
 include::partial$keywords/n_months.adoc[]
-Español;; _n_ meses
+English (NZ);; _n_ months
 
 include::partial$keywords/n_months_ago.adoc[]
-Español;; _n_ meses atrás
+English (NZ);; _n_ months ago
 
 include::partial$keywords/n_quarters_ago.adoc[]
-Español;; _n_ trimestres atrás
+English (NZ);; _n_ quarters ago
 
 include::partial$keywords/n_weeks_ago.adoc[]
-Español;; _n_ semanas atrás
+English (NZ);; _n_ weeks ago
 
 include::partial$keywords/n_years.adoc[]
-Español;; _n_ años
+English (NZ);; _n_ years
 
 include::partial$keywords/n_years_ago.adoc[]
-Español;; _n_ años atrás
+English (NZ);; _n_ years ago
 
 include::partial$keywords/next_day.adoc[]
-Español;; siguiente día
+English (NZ);; next day
 
 include::partial$keywords/next_month.adoc[]
-Español;; siguiente mes
+English (NZ);; next month
 
 include::partial$keywords/next_n_days.adoc[]
-Español;; siguiente _n_ días
+English (NZ);; next _n_ days
 
 include::partial$keywords/next_n_months.adoc[]
-Español;; siguiente _n_ meses
+English (NZ);; next _n_ months
 
 include::partial$keywords/next_n_quarters.adoc[]
-Español;; siguiente _n_ trimestres
+English (NZ);; next _n_ quarters
 
 include::partial$keywords/next_n_weeks.adoc[]
-Español;; siguiente _n_ semanas
+English (NZ);; next _n_ weeks
 
 include::partial$keywords/next_quarter.adoc[]
-Español;; siguiente trimestre
+English (NZ);; next quarter
 
 include::partial$keywords/next_week.adoc[]
-Español;; siguiente semana
+English (NZ);; next week
 
 include::partial$keywords/next_year.adoc[]
-Español;; siguiente año
+English (NZ);; next year
 
 include::partial$keywords/november.adoc[]
-Español;; noviembre
+English (NZ);; November
 
 include::partial$keywords/october.adoc[]
-Español;; octubre
+English (NZ);; October
+
+include::partial$keywords/on_or_after.adoc[]
+English (NZ);; on or after
+
+include::partial$keywords/on_or_before.adoc[]
+English (NZ);; on or before
 
 include::partial$keywords/quarter_to_date.adoc[]
-Español;; trimestre hasta la fecha
+English (NZ);; quarter to date
 
 include::partial$keywords/quarterly.adoc[]
-Español;; trimestral
+English (NZ);; quarterly
 
 include::partial$keywords/quarterly_year_over_year.adoc[]
-Español;; trimestral año tras año
+English (NZ);; quarterly year-over-year
 
 include::partial$keywords/saturday.adoc[]
-Español;; sábado
+English (NZ);; Saturday
 
 include::partial$keywords/september.adoc[]
-Español;; septiembre
+English (NZ);; September
 
 include::partial$keywords/sunday.adoc[]
-Español;; domingo
+English (NZ);; Sunday
 
 include::partial$keywords/this_day.adoc[]
-Español;; este día
+English (NZ);; this day
 
 include::partial$keywords/this_month.adoc[]
-Español;; este mes
+English (NZ);; this month
 
 include::partial$keywords/this_quarter.adoc[]
-Español;; este trimestre
+English (NZ);; this quarter
 
 include::partial$keywords/this_week.adoc[]
-Español;; este semana
+English (NZ);; this week
 
 include::partial$keywords/this_year.adoc[]
-Español;; este año
+English (NZ);; this year
 
 include::partial$keywords/thursday.adoc[]
-Español;; jueves
+English (NZ);; Thursday
 
 include::partial$keywords/today.adoc[]
-Español;; hoy
+English (NZ);; today
 
 include::partial$keywords/tuesday.adoc[]
-Español;; martes
+English (NZ);; Tuesday
 
 include::partial$keywords/wednesday.adoc[]
-Español;; miércoles
+English (NZ);; Wednesday
 
 include::partial$keywords/week.adoc[]
-Español;; semana
+English (NZ);; week
 
 include::partial$keywords/week_to_date.adoc[]
-Español;; semana hasta la fecha
+English (NZ);; week to date
 
 include::partial$keywords/weekly.adoc[]
-Español;; semanal
+English (NZ);; weekly
 
 include::partial$keywords/weekly_year_over_year.adoc[]
-Español;; semanal para cada año
+English (NZ);; weekly year-over-year
 
 include::partial$keywords/year_name.adoc[]
-Español;; _año_
+English (NZ);; _year_
 
 include::partial$keywords/year_to_date.adoc[]
-Español;; año hasta la fecha
+English (NZ);; year to date
 
 include::partial$keywords/yearly.adoc[]
-Español;; anual
+English (NZ);; yearly
 
 include::partial$keywords/yesterday.adoc[]
-Español;; ayer
+English (NZ);; yesterday
