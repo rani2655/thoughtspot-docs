@@ -134,24 +134,23 @@ We are committed to providing you with timely and effective support to ensure yo
 
 If you encounter a technical issue, you can notify ThoughtSpot Support using the “Report an issue” sub-menu.
 
-=== Session recordings
+// === Session recordings
 
-A ThoughtSpot support agent might ask you for permission to record your ThoughtSpot session to help us troubleshoot issues. If you accept, we will capture the following details:
+// A ThoughtSpot support agent might ask you for permission to record your ThoughtSpot session to help us troubleshoot issues. If you accept, we will capture the following details:
 
-* A visual recording of only the ThoughtSpot browser tab from the moment you accept.
-* Network logs for requests made to ThoughtSpot.
-* Any of your interactions with the ThoughtSpot application.
-* Your IP and user ID.
+// * A visual recording of only the ThoughtSpot browser tab from the moment you accept.
+// * Network logs for requests made to ThoughtSpot.
+// * Any of your interactions with the ThoughtSpot application.
+// * Your IP and user ID.
 
-*We do not capture any of the following*:
+// *We do not capture any of the following*:
 
-* Any browser activity that is not on the active ThoughtSpot tab.
-* The rest of your screen.
-* Your microphone or camera.
-* Any other activity on your computer.
+// * Any browser activity that is not on the active ThoughtSpot tab.
+// * The rest of your screen.
+// * Your microphone or camera.
+//* Any other activity on your computer.
 
-In addition, even when capturing visuals of the user’s screen and network logs, we make an attempt to sanitize sensitive information like SSNs, credit card numbers, and passwords.
-
+// In addition, even when capturing visuals of the user’s screen and network logs, we make an attempt to sanitize sensitive information like SSNs, credit card numbers, and passwords.
 
 == Support case management
 
