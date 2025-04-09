@@ -133,11 +133,11 @@ This article provides information about the capabilities administrators have in 
 
 +#+ _Included in consumption plans, per user. Available as an add-on for other plans._
 
-== Application settings for Pro Multi-tenant customers
+== Application settings for Pro multi-tenant customers
 
-Some of the application settings are established by ThoughtSpot for Multi-tenant Essentials and Pro customers.  Below is a list of settings and how they are configured in your application.
+Some of the application settings are established by ThoughtSpot for multi-tenant Essentials and Pro customers.  Below is a list of settings and how they are configured in your application.
 
-=== ThoughtSpot AI (only available for Multi-tenant Pro)
+=== ThoughtSpot AI (only available for Pro multi-tenant)
 
 * AI Answers is enabled
 * AI sample questions is enabled.
@@ -161,11 +161,13 @@ Some of the application settings are established by ThoughtSpot for Multi-tenant
 * Joins tab in React is enabled.
 * Importing Etags using TML is enabled.
 
-=== CSV Upload is disabled
+=== CSV upload
+
+* Disabled
 
 === Administration
 
-* Hidden Org name for users of single orgs is enabled.
+* Hidden Org name for users of single Orgs is enabled.
 * Org URL sharing is disabled.
 
 == Other application differences for Pro multi-tenant and Essentials customers
