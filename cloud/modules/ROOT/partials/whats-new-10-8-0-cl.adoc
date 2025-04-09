@@ -34,7 +34,8 @@ We are gradually making this available to customers, so if you don't see it imme
 [discrete]
 === Chat support changes
 
-With support, you can still send a message, book a call with a product specialist, or search for answers in our documentation, training, and community sites, using the help and support menu to open the support window. You now also have the option of sharing a recording of your screen (without audio) if requested by a support agent, which can help them identify and resolve your issue more quickly.
+With support, you can still send a message, book a call with a product specialist, or search for answers in our documentation, training, and community sites, using the help and support menu to open the support window.
+//You now also have the option of sharing a recording of your screen (without audio) if requested by a support agent, which can help them identify and resolve your issue more quickly.
 
 NOTE: If you currently have your in-product support feature disabled, the *Contact support* menu option will display *Report a problem* instead.
 ****
