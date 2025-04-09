@@ -4,5 +4,6 @@
 * xref:min[min]
 * xref:standard_deviation[standard deviation]
 * xref:sum[sum]
+* xref:total_count[total count]
 * xref:unique_count[unique count]
 * xref:variance[variance]
