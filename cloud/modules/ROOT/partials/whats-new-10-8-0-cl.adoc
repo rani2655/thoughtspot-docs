@@ -206,9 +206,16 @@ endif::free-trial-feature[]
 
 In this release ThoughtSpot supports the following new system languages:
 
-- English (New Zealand)
-- German (Switzerland)
-- Spanish (Mexico)
+ifndef::pendo-links[]
+- xref:keywords-en-NZ.adoc[English (New Zealand)]
+- xref:keywords-de-CH.adoc[German (Switzerland)]
+- xref:keywords-es-MX.adoc[Spanish (Mexico)]
+endif::[]
+ifdef::pendo-links[]
+- xref:keywords-en-NZ.adoc[English (New Zealand),window=_blank]
+- xref:keywords-de-CH.adoc[German (Switzerland),window=_blank]
+- xref:keywords-es-MX.adoc[Spanish (Mexico),window=_blank]
+endif::[]
 
 //To set your system language to one of these languages, click the user icon in the upper-right corner of ThoughtSpot, select *Profile*, and then select the system language under Preferences.
 
