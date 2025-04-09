@@ -1,36 +1,33 @@
 include::partial$keywords/list-comparative.adoc[]
 
 include::partial$keywords/all.adoc[]
-Français;; tous
+Español (Mexico);; todo
 
 include::partial$keywords/between_and_number.adoc[]
-Français;; entre … et
+Español (Mexico);; entre … y
 
 include::partial$keywords/equal.adoc[]
-Français;; =
+Español (Mexico);; =
 
 include::partial$keywords/everything.adoc[]
-Français;; tout
+Español (Mexico);; toda
 
 include::partial$keywords/gt.adoc[]
-Français;; >
+Español (Mexico);; >
 
 include::partial$keywords/gt_equal.adoc[]
-Français;; >=
+Español (Mexico);; >=
 
 include::partial$keywords/lt.adoc[]
-Français;; <
+Español (Mexico);; <
 
 include::partial$keywords/lt_equal.adoc[]
-Français;; \<=
+Español (Mexico);; \<=
 
 include::partial$keywords/not_equal.adoc[]
-Français;; !=
-
-include::partial$keywords/total.adoc[]
-Français;; total
+Español (Mexico);; !=
 
 include::partial$keywords/vs.adoc[]
-Français;; vs, contre
+Español (Mexico);; vs, contra
 
 include::partial$keywords/comparative-constants.adoc[]

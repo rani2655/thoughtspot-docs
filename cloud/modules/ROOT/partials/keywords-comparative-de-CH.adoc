@@ -1,45 +1,42 @@
 include::partial$keywords/list-comparative.adoc[]
 
 include::partial$keywords/all.adoc[]
-中文 (简体);; 全部的
+Deutsch (Switzerland);; alle
 
 include::partial$keywords/between_and_number.adoc[]
-中文 (简体);; 在… …之间
+Deutsch (Switzerland);; zwischen … und
 
 include::partial$keywords/equal.adoc[]
-中文 (简体);; =
+Deutsch (Switzerland);; =
 
 include::partial$keywords/everything.adoc[]
-中文 (简体);; 所有的
+Deutsch (Switzerland);; alles
 
 include::partial$keywords/gt.adoc[]
-中文 (简体);; >
+Deutsch (Switzerland);; >
 
 include::partial$keywords/gt_equal.adoc[]
-中文 (简体);; >=
+Deutsch (Switzerland);; >=
 
 include::partial$keywords/lt.adoc[]
-中文 (简体);; <
+Deutsch (Switzerland);; <
 
 include::partial$keywords/lt_equal.adoc[]
-中文 (简体);; \<=
-
-include::partial$keywords/not_between.adoc[]
-中文 (简体);; 不在……之间
+Deutsch (Switzerland);; \<=
 
 include::partial$keywords/not_equal.adoc[]
-中文 (简体);; !=
+Deutsch (Switzerland);; !=
 
 include::partial$keywords/of.adoc[]
-中文 (简体);; ……的
+Deutsch (Switzerland);; von
 
 include::partial$keywords/percentage-of.adoc[]
-中文 (简体);; ……的百分比
+Deutsch (Switzerland);; Prozentsatz von
 
 include::partial$keywords/total.adoc[]
-中文 (简体);; 总计
+Deutsch (Switzerland);; insgesamt
 
 include::partial$keywords/vs.adoc[]
-中文 (简体);; 对比
+Deutsch (Switzerland);; vs, versus
 
 include::partial$keywords/comparative-constants.adoc[]

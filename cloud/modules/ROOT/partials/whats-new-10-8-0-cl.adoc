@@ -39,6 +39,7 @@ ifdef::free-trial-feature[]
 You now also have the option of sharing a recording of your screen (without audio) if requested by a support agent, which can help them identify and resolve your issue more quickly.
 endif::free-trial-feature[]
 
+
 NOTE: If you currently have your in-product support feature disabled, the *Contact support* menu option will display *Report a problem* instead.
 ****
 // Mark – docs jira: SCAL-248448
@@ -209,9 +210,16 @@ endif::free-trial-feature[]
 
 In this release ThoughtSpot supports the following new system languages:
 
-- English (New Zealand)
-- German (Switzerland)
-- Spanish (Mexico)
+ifndef::pendo-links[]
+- xref:keywords-en-NZ.adoc[English (New Zealand)]
+- xref:keywords-de-CH.adoc[German (Switzerland)]
+- xref:keywords-es-MX.adoc[Spanish (Mexico)]
+endif::[]
+ifdef::pendo-links[]
+- xref:keywords-en-NZ.adoc[English (New Zealand),window=_blank]
+- xref:keywords-de-CH.adoc[German (Switzerland),window=_blank]
+- xref:keywords-es-MX.adoc[Spanish (Mexico),window=_blank]
+endif::[]
 
 //To set your system language to one of these languages, click the user icon in the upper-right corner of ThoughtSpot, select *Profile*, and then select the system language under Preferences.
 
@@ -276,7 +284,7 @@ ThoughtSpot introduces enhanced number formatting controls for measures that are
 
 +++
 <video autoplay loop muted controls width="100%" controlsList="nodownload">
-<source src="https://docs.thoughtspot.com/cloud/10.6.0.cl/_images/nf-on-attribute.mp4" type="video/mp4">
+<source src="https://docs.thoughtspot.com/cloud/10.6.0.cl/_images/nf-on-attribute-fix.mp4" type="video/mp4">
 </video>
 +++
 
@@ -405,10 +413,10 @@ You can now migrate feedback between Models using the feedback TML file. Select 
 
 For more information, see
 ifndef::pendo-links[]
-xref:tml-feedback.adoc[TML for Spotter feedback].
+xref:migrate-feedback.adoc[Migrate Spotter feedback using TMl] and xref:tml-feedback.adoc[TML for Spotter feedback].
 endif::[]
 ifdef::pendo-links[]
-xref:tml-feedback.adoc[TML for Spotter feedback,window=_blank].
+xref:migrate-feedback.adoc[Migrate Spotter feedback using TMl,window=_blank] and xref:tml-feedback.adoc[TML for Spotter feedback,window=_blank].
 endif::[]
 
 [.bordered]
