@@ -1,10 +1,10 @@
 The latest release of ThoughtSpot Cloud contains several new and enhanced features.
 
-* <<10-7-0-cl-first,For the First User>>
-* <<10-7-0-cl-analyst,For the Analyst>>
-* <<10-7-0-cl-business-user,For the Business User>>
-* <<10-7-0-cl-data-engineer,For the Data Engineer>>
-* <<10-7-0-cl-developer,For the Developer>>
+* <<10-8-0-cl-first,For the First User>>
+* <<10-8-0-cl-analyst,For the Analyst>>
+* <<10-8-0-cl-business-user,For the Business User>>
+* <<10-8-0-cl-data-engineer,For the Data Engineer>>
+* <<10-8-0-cl-developer,For the Developer>>
 
 [#10-8-0-cl-first]
 === For the First User
@@ -22,6 +22,12 @@ You can now migrate feedback between Models using the feedback TML file. Select 
 +
 For more information, see xref:migrate-feedback.adoc[Migrate Spotter feedback using TML] and xref:tml-feedback.adoc[TML for feedback].
 
+// Naomi. jira: SCAL-227169. docs jira: SCAL-241403
+Column name and description aliasing for localization [.badge.badge-beta-relnotes]#Beta#::
+This feature provides the ability to define a column name or description alias in a Worksheet or Model which allows column names and descriptions to be displayed in a supported system language. When enabled, column names and descriptions in the Search Data and Answer interface display in the system language selected by the user in their ThoughtSpot user profile. To enable this feature, contact {support-url}.
++
+For more information, see xref:column-aliases.adoc[Column and description aliases for localization].
+
 //Mary. JIRA: SCAL-217624. docs JIRA: ?
 Chart type displayed in SQL::
 ThoughtSpot now displays the chart type when you view the SQL query used to generate the chart.
@@ -31,7 +37,7 @@ For more information, see xref:charts.adoc[Query SQL].
 === For the Business User
 
 // Naomi. jira: SCAL-218237. docs jira: SCAL-239699
-Learnability in conversation: feedback generation in follow-up questions::
+Spotter feedback in conversation::
 You can now give feedback on AI-generated Answers in Spotter without interrupting your searching conversation. When marking an Answer incorrect, you can now edit the underlying search, save, and review the search query tokens making up the Answer. If you mark an Answer correct, you can review and save the underlying search query tokens so Spotter remembers your choices in the future for similar questions.
 +
 For more information, see xref:spotter-getting-started.adoc#learnability[Coach Spotter within a conversation].
@@ -42,9 +48,21 @@ Parameters in column names in charts and tables:: You can now add a parameter as
 
 // Naomi – jira: SCAL-215657. docs jira: SCAL-243597
 Alerts by attribute [.badge.badge-early-access-relnotes]#Early Access#::
-You can now set KPI alerts to trigger at changes to a selected attribute. This can include changes in the value of the attribute, such as an increase in sales by percentage by state, or a scheduled alert to trigger on a weekly basis. For example, if you wanted to create an alert for a KPI tracking sales of different phones by brand, you could choose the intended brands as attributes and set an alert to be notified when sales for those specific brands dropped by 5%. To enable this feature, contact your administrator.
+You can now set KPI alerts to trigger when a selected attribute changes. This can include changes in the value of the attribute, such as an increase in sales by percentage by state, or a scheduled alert to trigger on a weekly basis.
++
+For example, if you wanted to create an alert for a KPI tracking sales of different phones by brand, you could choose the intended brands as attributes and set an alert to be notified when sales for those specific brands dropped by 5%. To enable this feature, contact your administrator.
 +
 For more information, see xref:monitor-alert-attributes.adoc[Alerts by attribute].
+
+// Naomi. jiras: SCAL-231100, SCAL-231009, SCAL-215985 . docs jira: ?
+New languages support::
+In this release ThoughtSpot supports the following new system languages:
++
+--
+- xref:keywords-en-NZ.adoc[English (New Zealand)]
+- xref:keywords-de-CH.adoc[German (Switzerland)]
+- xref:keywords-es-MX.adoc[Spanish (Mexico)]
+--
 
 // Naomi. jira: SCAL-233663. docs jira: SCAL-239444
 Bilingual keywords for Japanese::
@@ -98,7 +116,7 @@ Bridge provides options to securely connect your data source with ThoughtSpot Cl
 For more information, see xref:connections-bridge.adoc[Bridge connectivity for Cloud Data Warehouses and Databases].
 
 // Naomi. jira: SCAL-234949. docs jira: SCAL-246579
-Query tagging in Query Stats Worksheet::
+Natural Language Search queries in Query Stats Worksheet::
 ThoughtSpot now distinguishes between regular query consumption and Spotter queries within the Query Stats Worksheet.
 +
 For more information, see xref:system-worksheet.adoc[System Worksheets].
