@@ -762,8 +762,8 @@
 ** xref:support-handbook.adoc[Support Handbook]
 ** ThoughtSpot editions
 *** xref:editions-admin.adoc[Administration]
-//*** xref:editions-tenant.adoc[ThoughtSpot editions and shared tenants]
 *** xref:editions-usage-limits.adoc[Usage limits]
+*** xref:editions-security.adoc[Security]
 *** xref:tsa-and-tse.adoc[TSA and TSE defined]
 ** xref:high-availability.adoc[High Availability and resilience]
 ** xref:business-continuity.adoc[Data Protection and Disaster Recovery]
