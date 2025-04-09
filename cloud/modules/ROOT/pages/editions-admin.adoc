@@ -16,7 +16,6 @@ This article provides information about the capabilities administrators have in 
 [cols="30%,10%,10%,10%,10%" stripes="even"]
 |===
 .^|Capability ^.^|Team ^.^|Essentials ^.^|Pro ^.^|Enterprise
-
 |Org creation and management
 ^.^|
 ^.^|

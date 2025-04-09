@@ -288,9 +288,9 @@ You can also choose to close a case yourself. To close a case, go to the case an
 
 [cols="20%,20%,20%,20%,20%" stripes="even"]
 |===
-.^|Capability ^.^|Essentials +++<br>+++
-(multi-tenant) ^.^|Pro +++<br>+++
-(multi-tenant) ^.^|Pro ^.^|Enterprise
+.^h|Capability ^.^h|Essentials +++<br>+++
+(multi-tenant) ^.^h|Pro +++<br>+++
+(multi-tenant) ^.^h|Pro ^.^h|Enterprise
 
 |Community-based support
 ^.^|image:checkmark_black.svg[Yes,15]
@@ -339,8 +339,8 @@ P2: Two days
 
 [cols="20%,20%,20%,20%" stripes="even"]
 |===
-.^|Capability ^.^|Developer +++<br>+++
-(multi-tenant) ^.^|Pro ^.^|Enterprise
+.^h|Capability ^.^h|Developer +++<br>+++
+(multi-tenant) ^.^h|Pro ^.^h|Enterprise
 
 |Community-based support
 ^.^|image:checkmark_black.svg[Yes,15]
