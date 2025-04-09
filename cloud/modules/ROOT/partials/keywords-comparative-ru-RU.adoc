@@ -33,6 +33,9 @@ include::partial$keywords/of.adoc[]
 include::partial$keywords/percentage-of.adoc[]
 русский;; процент от
 
+include::partial$keywords/total.adoc[]
+русский;; итого
+
 include::partial$keywords/vs.adoc[]
 русский;; в сравнении с
 

@@ -27,6 +27,9 @@ Français;; \<=
 include::partial$keywords/not_equal.adoc[]
 Français;; !=
 
+include::partial$keywords/total.adoc[]
+Français;; total
+
 include::partial$keywords/vs.adoc[]
 Français;; vs, contre
 

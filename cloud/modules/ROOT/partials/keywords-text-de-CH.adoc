@@ -2,25 +2,25 @@ include::partial$keywords/list-text.adoc[]
 
 
 include::partial$keywords/begins-with.adoc[]
-Deutsch;; beginnt mit
+Deutsch (Switzerland);; beginnt mit
 
 include::partial$keywords/contains.adoc[]
-Deutsch;; enthält
+Deutsch (Switzerland);; enthält
 
 include::partial$keywords/ends-with.adoc[]
-Deutsch;; endet mit
+Deutsch (Switzerland);; endet mit
 
 include::partial$keywords/similar-to.adoc[]
-Deutsch;; ähnlich wie
+Deutsch (Switzerland);; ähnlich wie
 
 include::partial$keywords/not-begins-with.adoc[]
-Deutsch;; beginnt nicht mit
+Deutsch (Switzerland);; beginnt nicht mit
 
 include::partial$keywords/not-contains.adoc[]
-Deutsch;; enthält nicht
+Deutsch (Switzerland);; enthält nicht
 
 include::partial$keywords/not-ends-with.adoc[]
-Deutsch;; endet nicht mit
+Deutsch (Switzerland);; endet nicht mit
 
 include::partial$keywords/not-similar-to.adoc[]
-Deutsch;; nicht ähnlich wie
+Deutsch (Switzerland);; nicht ähnlich wie
