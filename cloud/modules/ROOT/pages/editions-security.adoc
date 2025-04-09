@@ -13,7 +13,7 @@ This article provides information about the security features in each ThoughtSpo
 
 == Security controls by ThoughtSpot Analytics edition
 
-[cols="30%,10%,10%,10%,10%" stripes="even"]
+[cols="20%,20%,20%,20%,20%" stripes="even"]
 |===
 .^|Control ^.^|Essentials +++<br>+++ (multi-tenant) ^.^|Pro +++<br>+++ (multi-tenant) ^.^|Pro ^.^|Enterprise
 
