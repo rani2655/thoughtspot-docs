@@ -1,5 +1,6 @@
 * xref:average[average]
 * xref:count[count]
+* xref:for[for]
 * xref:max[max]
 * xref:min[min]
 * xref:standard_deviation[standard deviation]

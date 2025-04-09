@@ -33,6 +33,9 @@ Deutsch (Switzerland);; von
 include::partial$keywords/percentage-of.adoc[]
 Deutsch (Switzerland);; Prozentsatz von
 
+include::partial$keywords/total.adoc[]
+Deutsch (Switzerland);; insgesamt
+
 include::partial$keywords/vs.adoc[]
 Deutsch (Switzerland);; vs, versus
 
