@@ -104,6 +104,7 @@ endif::[]
 
 endif::free-trial-feature[]
 
+////
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#10-8-0-cl-lb-style-group]
@@ -122,8 +123,9 @@ To enable this feature, contact {support-url}.
 // PM: Manan - PM confirmed that this is Beta for 10.7.0.cl.
 // add a gif
 endif::free-trial-feature[]
+////
 
-[#primary-10-7-0-cl]
+[#primary-10-8-0-cl]
 
 // Business User
 
@@ -223,7 +225,7 @@ endif::[]
 
 //To set your system language to one of these languages, click the user icon in the upper-right corner of ThoughtSpot, select *Profile*, and then select the system language under Preferences.
 
-// Naomi. jiras: SCAL-231100, SCAL-231009, SCAL-215985 . docs jira: ?
+// Naomi. jiras: SCAL-231100, SCAL-231009, SCAL-215985 . docs jira: SCAL-250598, SCAL-250599, SCAL-250600
 // PM: Aashna. waiting on info.
 
 [#10-7-0-cl-bilingual]
@@ -561,6 +563,7 @@ endif::[]
 // Developer
 
 // IT/Ops Engineer
+////
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#10-8-0-cl-scim-support]
@@ -581,7 +584,7 @@ To enable this feature, contact {support-url}.
 // cross domain hyphenated?
 
 endif::free-trial-feature[]
-
+////
 ////
 [#10-7-0-cl-org]
 [discrete]
