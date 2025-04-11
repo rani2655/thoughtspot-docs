@@ -374,7 +374,7 @@ endif::[]
 You can now create your own charts in ThoughtSpot using the Muze charting library. A developer can create new chart types by writing the code in the code builder. To enable this feature, contact your ThoughtSpot administrator.
 
 [.bordered]
-image::muze-studio-code-editor.png[]
+image::muze-image.png[Build a chart in the code builder]
 
 // Mark – jira: SCAL-233945. docs jira: SCAL-242708. add gif or screenshot.
 // PM: Vaibhav
