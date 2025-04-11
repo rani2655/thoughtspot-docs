@@ -49,6 +49,7 @@ NOTE: If you currently have your in-product support feature disabled, the *Conta
 
 // Business User
 
+////
 [#10-6-0-cl-learnability]
 [discrete]
 === Spotter feedback in conversation
@@ -67,7 +68,7 @@ endif::[]
 ifdef::pendo-links[]
 xref:spotter-getting-started.adoc#learnability[Coach Spotter within a conversation,window=_blank].
 endif::[]
-////
+
 When marking an Answer incorrect, you can now edit the underlying search, save, and review the search query tokens making up the Answer. If you mark an Answer correct, you can review and save the underlying search query tokens so Spotter remembers your choices in the future for similar questions.
 ////
 
@@ -150,7 +151,7 @@ endif::free-trial-feature[]
 
 [#10-7-0-cl-parameter]
 [discrete]
-=== Dynamic parameters in Answers
+=== Parameters in column names in charts and tables
 
 You can now add a parameter as a variable in the x and y-axis labels and column names of an Answer. When you select a different parameter value in the Answer, previously only the data changed. Now contextual information (such as axis name, column header, and legends) also updates to reflect parameter selected. Any place a parameter is used in Liveboards or Answers automatically displays the current information associated with the selected parameter value. For example, if you have a parameter which contains three possible values (Price, Shipping Cost, and Quantity), when you select Price, the information about the price of items is displayed. When you select Shipping Cost, the information updates to show shipping-related information, and so on.
 
@@ -164,7 +165,7 @@ You can now add a parameter as a variable in the x and y-axis labels and column 
 [discrete]
 === Blended axes in pivot table charts
 
-In this release, we introduce a new way of adding multiple measures to pivot table charts called blended axes. With blended axes, you can group measures and control them through a system-defined chip called *Values* in the chart configuration settings. This chip acts like an attribute, with the different measures as its unique values. This makes it possible to have more combinations and configurations of charts, including slicing the color for different measures, comparing multiple measures together, and more customizable pivot configurations.
+In this release, we introduce a new way of adding multiple measures to pivot table charts called blended axes. With blended axes, you can group measures and control them through a system-defined chip called *Values* in the chart configuration settings. This chip acts like an attribute, with the different measures as its unique values. You can also place measures in rows of pivot tables instead of columns. This makes it possible to have more combinations and configurations of charts, including slicing the color for different measures, comparing multiple measures together, and more customizable pivot configurations.
 
 // Mark – jira: SCAL-239213. docs jira: SCAL-248223
 // PM: Manan
@@ -396,22 +397,15 @@ endif::[]
 // PM: Samridh
 // Below the fold
 
-ifndef::free-trial-feature[]
-ifndef::pendo-links[]
+
 [#10-7-0-cl-tml]
 [discrete]
-=== Migrate Spotter feedback using TML [.badge.badge-beta]#Beta#
-endif::[]
-ifdef::pendo-links[]
-[#10-7-0-cl-tml]
-[discrete]
-=== Migrate Spotter feedback using TML [.badge.badge-beta-whats-new]#Beta#
-endif::[]
+=== Migrate Spotter feedback using TML
 // Naomi. jira: SCAL-226681. docs jira: SCAL-246580
 // PM: Anant
 // Move below the fold
 
-You can now migrate feedback between Models using the feedback TML file. Select the more options icon image:icon-more-10px.png[more options icon] on the Model and hover over the TML section to import or export the TML file containing your feedback. To enable this feature, contact {support-url}.
+You can now migrate feedback between Models using the feedback TML file. Select the more options icon image:icon-more-10px.png[more options icon] on the Model and hover over the TML section to import or export the TML file containing your feedback.
 
 For more information, see
 ifndef::pendo-links[]
@@ -423,7 +417,7 @@ endif::[]
 
 [.bordered]
 image::feedback-migration.png[Export Spotter feedback]
-endif::free-trial-feature[]
+
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
