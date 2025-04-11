@@ -63,6 +63,9 @@ The following changes to change analysis for KPI charts are now available to all
 * When opening change analysis on a KPI, users see a summary of all changes.
 * KPI anomalies no longer appear as red points on the sparkline, they are labeled as out of the expected range of values.
 --
++
+For more information, see
+xref:chart-kpi.adoc#change-analysis[KPI change analysis].
 
 // Naomi. jiras: SCAL-231100, SCAL-231009, SCAL-215985 . docs jira: ?
 New languages support::

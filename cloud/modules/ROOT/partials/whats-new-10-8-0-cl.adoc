@@ -219,6 +219,13 @@ The following changes to change analysis for KPI charts are now available to all
 * When opening change analysis on a KPI, users see a summary of all changes.
 * KPI anomalies no longer appear as red points on the sparkline, they are labeled as out of the expected range of values.
 
+For more information, see
+ifndef::pendo-links[]
+xref:chart-kpi.adoc#change-analysis[KPI change analysis].
+endif::[]
+ifdef::pendo-links[]
+xref:chart-kpi.adoc#change-analysis[KPI change analysis,window=_blank].
+endif::[]
 [.bordered]
 image::kpi-change-analysis-new.png[Change analysis on a KPI chart]
 
