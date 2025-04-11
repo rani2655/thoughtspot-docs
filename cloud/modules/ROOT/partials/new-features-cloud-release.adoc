@@ -54,6 +54,16 @@ For example, if you wanted to create an alert for a KPI tracking sales of differ
 +
 For more information, see xref:monitor-alert-attributes.adoc[Alerts by attribute].
 
+// Naomi. jira: SCAL-230974. docs jira: SCAL-243212
+KPI change analysis::
+The following changes to change analysis for KPI charts are now available to all users and on by default:
++
+--
+* To open change analysis on a KPI chart, click the *Analyze change* button at the bottom of the chart.
+* When opening change analysis on a KPI, users see a summary of all changes.
+* KPI anomalies no longer appear as red points on the sparkline, they are labeled as out of the expected range of values.
+--
+
 // Naomi. jiras: SCAL-231100, SCAL-231009, SCAL-215985 . docs jira: ?
 New languages support::
 In this release ThoughtSpot supports the following new system languages:

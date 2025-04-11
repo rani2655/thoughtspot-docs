@@ -126,7 +126,6 @@ To enable this feature, contact {support-url}.
 endif::free-trial-feature[]
 ////
 
-[#primary-10-8-0-cl]
 
 // Business User
 
@@ -206,6 +205,23 @@ endif::[]
 +++
 
 endif::free-trial-feature[]
+
+[#10-8-0-cl-kpi]
+[discrete]
+=== KPI change analysis
+
+// Naomi. jira: SCAL-230974. docs jira: SCAL-243212
+// PM: Rahul PJP
+
+The following changes to change analysis for KPI charts are now available to all users and on by default:
+
+* To open change analysis on a KPI chart, click the *Analyze change* button at the bottom of the chart.
+* When opening change analysis on a KPI, users see a summary of all changes.
+* KPI anomalies no longer appear as red points on the sparkline, they are labeled as out of the expected range of values.
+
+[.bordered]
+image::kpi-change-analysis-new.png[Change analysis on a KPI chart]
+
 
 [#10-8-0-cl-locales]
 [discrete]
@@ -374,7 +390,7 @@ endif::[]
 You can now create your own charts in ThoughtSpot using the Muze charting library. A developer can create new chart types by writing the code in the code builder. To enable this feature, contact your ThoughtSpot administrator.
 
 [.bordered]
-image::muze-studio-code-editor.png[]
+image::muze-image.png[Build a chart in the code builder]
 
 // Mark – jira: SCAL-233945. docs jira: SCAL-242708. add gif or screenshot.
 // PM: Vaibhav
