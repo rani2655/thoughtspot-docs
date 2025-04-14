@@ -72,7 +72,7 @@ This article provides information about the capabilities administrators have in 
 
 [cols="20%,20%,20%,20%,20%" stripes="even"]
 |===
-.^|Capability ^.^|Essentials +++<br>+++ (multi-tenant) ^.^|Pro +++<br>+++ (multi-tenant) ^.^|Pro ^.^|Enterprise
+.^|Capability ^.^|Team and Essentials +++<br>+++ (multi-tenant) ^.^|Pro +++<br>+++ (multi-tenant) ^.^|Pro ^.^|Enterprise
 
 |ThoughtSpot AI
 ^.^|
@@ -173,5 +173,5 @@ Some of the application settings are established by ThoughtSpot for multi-tenant
 == Other application differences for Pro multi-tenant and Essentials customers
 
 * Customers of a multi-tenant solution must use the default domain name provided by ThoughtSpot.
-* No support for VPN and AWS PrivateLink.
+* For VPN and AWS PrivateLink, customers must be on a single tenant version of ThoughtSpot. Multi-tenant Pro and Essentials editions are not supported.
 * Customer-specific whitelisting is not supported.
