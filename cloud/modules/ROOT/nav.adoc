@@ -5,6 +5,7 @@
 ** xref:releases.adoc[ThoughtSpot releases]
 ** xref:release-lifecycle.adoc[Release life cycle]
 ** xref:getting-started-free-trial.adoc[Free Trial]
+*** xref:free-trial.adoc[]
 // ** xref:coming-soon.adoc[]
 // ** xref:support.adoc[]
 * xref:ts-cloud-getting-started.adoc[Getting started]
