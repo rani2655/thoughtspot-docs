@@ -132,7 +132,7 @@ For more information, see xref:connections-bridge.adoc[Bridge connectivity for C
 Natural Language Search queries in Query Stats Worksheet::
 ThoughtSpot now distinguishes between regular query consumption and Spotter queries within the Query Stats Worksheet.
 +
-For more information, see xref:system-worksheet.adoc[System Worksheets].
+For more information, see xref:system-worksheet.adoc[System Worksheets, tables, and views].
 
 // Mary. jira: SCAL-231977. docs jira: SCAL-243142
 Support cookieless authentication flow for OAuth::
