@@ -310,7 +310,7 @@ For more information, see xref:data-modeling-paterns.adoc[Set number, date, and 
 To enable this feature, contact {support-url}.
 // Mary. jira: SCAL-237236. docs jira: SCAL-246082
 // PM: Manan - PM confirmed that this is Beta for 10.7.0.cl.
-// add an example
+
 
 +++
 <video autoplay loop muted controls width="100%" controlsList="nodownload">
@@ -324,6 +324,7 @@ endif::free-trial-feature[]
 
 // Analyst
 
+////
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
 [#10-8-0-cl-pivot-table-2]
@@ -359,6 +360,7 @@ endif::[]
 // Remove this and not in release notes
 
 endif::free-trial-feature[]
+////
 
 '''
 [#secondary-10-7-0-cl]
@@ -612,7 +614,8 @@ To enable this feature, contact {support-url}.
 
 // Mary – jira: SCAL-84792. docs jira:?.
 // PM: Reshma?
-// cross domain hyphenated?
+// Moved to 10.9.0.cl
+
 
 endif::free-trial-feature[]
 ////
