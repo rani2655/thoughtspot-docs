@@ -5,7 +5,7 @@
 :experimental:
 :page-layout: default-cloud
 :description:
-:jira: SCAL-228500, SCAL-241099, SCAL-244132, SCAL-236596, SCAL-249847
+:jira: SCAL-228500, SCAL-241099, SCAL-244132, SCAL-236596, SCAL-249847, SCAL-251401
 
 
 == Understand Spotter’s capabilities
@@ -428,6 +428,8 @@ NOTE: Spotter conversations started from a Liveboard do not allow changing the d
 [.bordered]
 image:spotter-interface-2.png[Spotter interface conversations]
 
+
+Interpretation:: Spotter summarizes your query as it understands it. If you find that the interpretation differs from your prompt, you can rephrase to make Spotter's interpretation more accurate.
 
 Changes from Last Step (verification)::  Whenever you ask a follow-up question in the conversation, Spotter’s response includes the changes made from the last step to help you verify what has changed from the previous step.
 +
