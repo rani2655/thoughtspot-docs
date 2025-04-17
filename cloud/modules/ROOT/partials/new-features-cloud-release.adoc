@@ -193,7 +193,12 @@ For more information, see xref:orgs-administration-overview[Cluster administrato
 Security update to end-user license agreement::
 With the introduction of multifactor authentication (MFA) in ThoughtSpot, customers are prompted to review and acknowledge a new end-user license agreement (EULA). This EULA includes information about the risks associated with disabling MFA. You are prompted to review this EULA when ThoughtSpot introduces MFA support to your cluster. You are also prompted to review this EULA if you disable MFA on an existing cluster.
 
-// PM: Aashica - Confirmed needs documentation for 10.7.0.cl. Awaiting doc JIRA and confirmation of release status for 10.7.0.cl. from Reshma. Hyphenate end-user? - confirmed that it is hyphenated for EULA. Announcement vs. new feature?
+
+// Mary. doc jira:SCAL-248776
+Multifactor authentication for customers using local authentication::
+ThoughtSpot now supports multifactor authentication (MFA) for customers using local authentication powered by Enhanced IAM with IAM v2. Use MFA to enable secure access to your ThoughtSpot instance for your local auth users by introducing an additional authentication factor configurable at the cluster level. We support Okta Verify, Google Authenticator, and Email-based time-based one-time passcode (TOTP) authentication with ThoughtSpot MFA.
++
+For more information, see xref:authentication-local-mfa.adoc[Multifactor authentication for customers using local authentication].
 
 Updated Early access features page for administrators::
 
