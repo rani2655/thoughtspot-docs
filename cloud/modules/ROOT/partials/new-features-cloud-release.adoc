@@ -45,6 +45,10 @@ For more information, see xref:spotter-getting-started.adoc#learnability[Coach S
 // Mark. jira: SCAL-224576. docs jira: SCAL-240479
 Parameters in column names in charts and tables:: You can now add a parameter as a variable to the table header, column names, and axis names of a chart. Any references to the parameter in a Liveboard or Answer automatically update to show the current value of the parameter.
 
+Blended axes in pivot table charts::
+In this release, we introduce a new way of adding multiple measures to pivot table charts called blended axes. With blended axes, you can group measures and control them through a system-defined chip called Values in the chart configuration settings. This chip acts like an attribute, with the different measures as its unique values. You can place measures anywhere across rows and columns in your pivot table. You can also place measures in rows of pivot tables instead of columns. This makes it possible to have more combinations and configurations of charts, and compare multiple measures together.
++
+For more information, see xref:chart-pivot-table.adoc#blended-axes-pivot[Blended axes in a pivot table].
 
 // Naomi – jira: SCAL-215657. docs jira: SCAL-243597
 Alerts by attribute [.badge.badge-early-access-relnotes]#Early Access#::
