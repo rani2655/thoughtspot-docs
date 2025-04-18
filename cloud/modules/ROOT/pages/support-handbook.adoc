@@ -134,6 +134,9 @@ We are committed to providing you with timely and effective support to ensure yo
 
 If you encounter a technical issue, you can notify ThoughtSpot Support using the “Report an issue” sub-menu.
 
+=== When in-app support is disabled
+If the in-product support feature is disabled, you will see *Report a problem* in the help menu instead. When selecting this option, you will go to the ThoughtSpot Community where you can open a support ticket. For more information, see <<support-portal,ThoughtSpot Support Portal>>.
+
 // === Session recordings
 
 // A ThoughtSpot support agent might ask you for permission to record your ThoughtSpot session to help us troubleshoot issues. If you accept, we will capture the following details:
@@ -153,7 +156,7 @@ If you encounter a technical issue, you can notify ThoughtSpot Support using the
 // In addition, even when capturing visuals of the user’s screen and network logs, we make an attempt to sanitize sensitive information like SSNs, credit card numbers, and passwords.
 
 == Support case management
-
+[#support-portal]
 === ThoughtSpot Support Portal
 
 You must have a valid https://community.thoughtspot.com/customers/s/[ThoughtSpot Community^] user to access the https://community.thoughtspot.com/s/login/?ec=302&startURL=%2Fcustomers%2Fs%2Fcontactsupport[Support Portal^].
