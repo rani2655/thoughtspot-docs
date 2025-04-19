@@ -2,7 +2,6 @@
 :experimental:
 :last_updated: 4/18/2025
 :linkattrs:
-:page-toclevels: 1
 :page-aliases: /release/notes.adoc
 :page-layout: default-cloud
 :description: These release notes include information about new and enhanced features.
