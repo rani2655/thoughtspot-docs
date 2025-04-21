@@ -10,13 +10,6 @@ These new and enhanced features of ThoughtSpot Cloud were released in May 2022.
 
 == ThoughtSpot Cloud 8.3.0.cl
 
-[#8-3-0-cl-first]
-=== For the First User
-
-Getting started with ThoughtSpot Cloud::
-The first user on the account has to complete a series of steps before other people can start using ThoughtSpot with your organization's data.
-For these instructions, see xref:ts-cloud-getting-started.adoc[Getting Started with ThoughtSpot Cloud].
-
 [#8-3-0-cl-analyst]
 === For the Analyst
 [#new-liveboard]
