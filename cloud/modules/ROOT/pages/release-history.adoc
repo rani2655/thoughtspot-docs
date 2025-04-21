@@ -8,8 +8,8 @@
 
 This article summarizes the new and updates features in previous ThoughtSpot Cloud releases.
 
-== xref:10-6-0-cl.adoc[February 2025]
-=== ThoughtSpot Cloud 10.6.0.cl
+== February 2025
+=== xref:10-6-0-cl.adoc[ThoughtSpot Cloud 10.6.0.cl]
 
 - xref:10-6-0-cl.adoc#passthrough-filters-for-sets[Passthrough filters for sets] [.badge.badge-early-access-relnotes]#Early Access#
 - xref:10-6-0-cl.adoc#advanced-condtional-formatting[Advanced conditional formatting]
@@ -289,7 +289,7 @@ This article summarizes the new and updates features in previous ThoughtSpot Clo
 - xref:9-5-0-cl.adoc#mobile-enhancements[Mobile enhancements]
 - xref:9-5-0-cl.adoc#introduction-of[Introduction of roles and more granular access privileges]
 - xref:9-5-0-cl.adoc#thoughtspot-for[ThoughtSpot for Connected Sheets add-on]
-- xref:9-5-0-cl.adoc#singlestore-connection[SingleStore connection] [.badge.badge-early-access-relnotes]#Early Access#]
+- xref:9-5-0-cl.adoc#singlestore-connection[SingleStore connection] [.badge.badge-early-access-relnotes]#Early Access#
 - xref:9-5-0-cl.adoc#redshift-oauth[Redshift OAuth with Azure AD IDP]
 
 == xref:9-4-0-cl.adoc[August 2023]
@@ -469,7 +469,6 @@ This article summarizes the new and updates features in previous ThoughtSpot Clo
 - xref:8-7-0-cl.adoc#denodo-oauth[Denodo OAuth]
 - xref:8-7-0-cl.adoc#snowflake-oauth[Snowflake Oauth improvements]
 - xref:8-7-0-cl.adoc#snowflake-csv[Snowflake CSV upload] [.badge.badge-beta-relnotes]#Beta#
-- xref:8-7-0-cl.adoc#okta[Identity and Access Management V2] [.badge.badge-beta-relnotes]#Beta#
 - xref:8-7-0-cl.adoc#okta[Identity and Access Management V2] [.badge.badge-beta-relnotes]#Beta#
 
 == xref:8-6-0-cl.adoc[August 2022]
