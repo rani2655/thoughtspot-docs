@@ -38,8 +38,8 @@ This article summarizes the new and updates features in previous ThoughtSpot Clo
 - xref:10-6-0-cl.adoc#import-and-export-users-and-groups-using-tml[Import and export users and groups using TML] [.badge.badge-early-access-relnotes]#Early Access#
 - xref:10-6-0-cl.adoc#row-counts-connection-configuration[Row counts connection configuration] [.badge.badge-early-access-relnotes]#Early Access#
 
-== xref:10-5-0-cl.adoc[December 2024]
-=== ThoughtSpot Cloud 10.5.0.cl
+== December 2024
+=== xref:10-5-0-cl.adoc[ThoughtSpot Cloud 10.5.0.cl]
 
 - xref:10-5-0-cl.adoc#change-analysis-summary-tab[Change analysis summary tab] [.badge.badge-beta-relnotes]#Beta#
 - xref:10-5-0-cl.adoc#comparison-point-for-kpi-charts[Comparison point for KPI charts] [.badge.badge-early-access-relnotes]#Early Access#
@@ -55,8 +55,8 @@ This article summarizes the new and updates features in previous ThoughtSpot Clo
 - xref:10-5-0-cl.adoc#bring-your-own-key-for-google-cloud[Bring your own key (BYOK) for Google Cloud]
 - xref:10-5-0-cl.adoc#utilities-schema-viewer[Utility schema viewer]
 
-== xref:10-4-0-cl.adoc[November 2024]
-=== ThoughtSpot Cloud 10.4.0.cl
+== November 2024
+=== xref:10-4-0-cl.adoc[ThoughtSpot Cloud 10.4.0.cl]
 
 - xref:10-4-0-cl.adoc#configuring-color-gradients[Configuring color gradients] [.badge.badge-early-access-relnotes]#Early Access#
 - xref:10-4-0-cl.adoc#thoughtspot-sync[ThoughtSpot Sync: send full image of Liveboard to Slack] [.badge.badge-beta-whats-new]#Beta#
@@ -76,8 +76,8 @@ This article summarizes the new and updates features in previous ThoughtSpot Clo
 - xref:10-4-0-cl.adoc#default-org-enablement[Default Org enablement in new clusters]
 - xref:10-4-0-cl.adoc#thoughtspot-enterprise-clusters[ThoughtSpot Enterprise clusters with IAMv2]
 
-== xref:10-3-0-cl.adoc[October 2024]
-=== ThoughtSpot Cloud 10.3.0.cl
+== October 2024
+=== xref:10-3-0-cl.adoc[ThoughtSpot Cloud 10.3.0.cl]
 
 - xref:10-3-0-cl.adoc#analyst-studio[Analyst Studio] [.badge.badge-beta-relnotes]#Beta#
 - xref:10-3-0-cl.adoc#liveboard-schedule[Liveboard schedule available to all users] [.badge.badge-early-access-relnotes]#Early Access#
@@ -94,8 +94,8 @@ This article summarizes the new and updates features in previous ThoughtSpot Clo
 - xref:10-3-0-cl.adoc#org-specific[Org-specific URLs] [.badge.badge-early-access-relnotes]#Early Access#
 - xref:10-3-0-cl.adoc#local-auth[Local authentication support with IAMv2] [.badge.badge-early-access-relnotes]#Early Access#
 
-== xref:10-1-0-cl.adoc[August 2024]
-=== ThoughtSpot Cloud 10.1.0.cl
+== August 2024
+=== xref:10-1-0-cl.adoc[ThoughtSpot Cloud 10.1.0.cl]
 
 - xref:10-1-0-cl.adoc#import-export[Import and export sets using TML] [.badge.badge-beta-relnotes]#Beta#
 - xref:10-1-0-cl.adoc#anomaly-based[Anomaly-based alerts] [.badge.badge-early-access-relnotes]#Early Access#
@@ -107,8 +107,8 @@ This article summarizes the new and updates features in previous ThoughtSpot Clo
 - xref:10-1-0-cl.adoc#local-auth-support[Local authentication support with IAMv2] [.badge.badge-early-access-relnotes]#Early Access#
 - xref:10-1-0-cl.adoc#org-specific[Org-specific URLs] [.badge.badge-beta-relnotes]#Beta#
 
-== xref:10-0-0-cl.adoc[July 2024]
-=== ThoughtSpot Cloud 10.0.0.cl
+== July 2024
+=== xref:10-0-0-cl.adoc[ThoughtSpot Cloud 10.0.0.cl]
 
 - xref:10-0-0-cl.adoc#advanced-conditional[Advanced conditional formatting] [.badge.badge-early-access-relnotes]#Early Access#
 - xref:10-0-0-cl.adoc#grouping-measures[Grouping measures in pivot tables] [.badge.badge-beta-whats-new]#Beta#
@@ -116,8 +116,8 @@ This article summarizes the new and updates features in previous ThoughtSpot Clo
 - xref:10-0-0-cl.adoc#iam-v2[IAM v2 migration]
 - xref:10-0-0-cl.adoc#org-deletion[Org deletion]
 
-== xref:9-12-5-cl.adoc[June 2024]
-=== ThoughtSpot Cloud 9.12.5.cl
+== June 2024
+=== xref:9-12-5-cl.adoc[ThoughtSpot Cloud 9.12.5.cl]
 
 - xref:9-12-5-cl.adoc#note-tile[Note tile enhancements]
 - xref:9-12-5-cl.adoc#query-sets[Query sets] [.badge.badge-early-access-relnotes]#Early Access#
@@ -132,8 +132,8 @@ This article summarizes the new and updates features in previous ThoughtSpot Clo
 - xref:9-12-5-cl.adoc#forecasting[Forecasting] [.badge.badge-early-access-relnotes]#Early Access#
 - xref:9-12-5-cl.adoc#rules-to[Rules to sort TML]
 
-== xref:9-12-0-cl.adoc[May 2024]
-=== ThoughtSpot Cloud 9.12.0.cl
+== May 2024
+=== xref:9-12-0-cl.adoc[ThoughtSpot Cloud 9.12.0.cl]
 
 - xref:9-12-0-cl.adoc#remember-personalized[Remember personalized columns in change analysis]
 - xref:9-12-0-cl.adoc#drill-down[Drill down in change analysis] [.badge.badge-early-access-relnotes]#Early Access#
@@ -157,8 +157,8 @@ This article summarizes the new and updates features in previous ThoughtSpot Clo
 - xref:9-12-0-cl.adoc#enabling-git[Enabling GIT integration for version control of Liveboards and Answers] [.badge.badge-early-access-relnotes]#Early Access#
 - xref:9-12-0-cl.adoc#develop-custom[Develop custom charts] [.badge.badge-beta-relnotes]#Beta#
 
-== xref:9-10-5-cl.adoc[April 2024]
-=== ThoughtSpot Cloud 9.10.5.cl
+== April 2024
+=== xref:9-10-5-cl.adoc[ThoughtSpot Cloud 9.10.5.cl]
 
 - xref:9-10-5-cl.adoc#thoughtspot-sync[ThoughtSpot Sync for Google BigQuery]
 - xref:9-10-5-cl.adoc#custom-charts[Custom charts] [.badge.badge-beta-relnotes]#Beta#
@@ -178,8 +178,8 @@ This article summarizes the new and updates features in previous ThoughtSpot Clo
 - xref:9-10-5-cl.adoc#answer-data[Answer data panel enhancements]
 - xref:9-10-5-cl.adoc#develop-custom[Develop custom charts] [.badge.badge-beta-relnotes]#Beta#
 
-== xref:9-10-0-cl.adoc[February 2024]
-=== ThoughtSpot Cloud 9.10.0.cl
+== February 2024
+=== xref:9-10-0-cl.adoc[ThoughtSpot Cloud 9.10.0.cl]
 
 - xref:9-10-0-cl.adoc#renaming-columns[Renaming columns]
 - xref:9-10-0-cl.adoc#thoughtspot-sync[ThoughtSpot Sync for Google BigQuery] [.badge.badge-beta-relnotes]#Beta#
@@ -205,8 +205,8 @@ This article summarizes the new and updates features in previous ThoughtSpot Clo
 - xref:9-10-0-cl.adoc#dbt-public[dbt public API]
 - xref:9-10-0-cl.adoc#dbt-version[dbt version 1.7]
 
-== xref:9-8-0-cl.adoc[January 2024]
-=== ThoughtSpot Cloud 9.8.0.cl
+== January 2024
+=== xref:9-8-0-cl.adoc[ThoughtSpot Cloud 9.8.0.cl]
 
 - xref:9-8-0-cl.adoc#database-as[Database as a destination for Answer sync]
 - xref:9-8-0-cl.adoc#enhancements-for[Enhancements for TS Sync]
@@ -231,8 +231,8 @@ This article summarizes the new and updates features in previous ThoughtSpot Clo
 - xref:9-8-0-cl.adoc#org-name[Org name limitations]
 - xref:9-8-0-cl.adoc#disable-sql[Disable SQL passthrough functions]
 
-== xref:9-7-0-cl.adoc[November 2023]
-=== ThoughtSpot Cloud 9.7.0.cl
+== November 2023
+=== xref:9-7-0-cl.adoc[ThoughtSpot Cloud 9.7.0.cl]
 
 - xref:9-7-0-cl.adoc#personalized-liveboard[Personalized Liveboard views] [.badge.badge-early-access-relnotes]#Early Access#
 - xref:9-7-0-cl.adoc#embedding-in[Embedding in note tiles]
@@ -246,8 +246,8 @@ This article summarizes the new and updates features in previous ThoughtSpot Clo
 - xref:9-7-0-cl.adoc#key-pair[Key Pair authentication for Snowflake]
 - xref:9-7-0-cl.adoc#oauth-for[OAuth for Databricks using Proof Key for Code Exchange (PKCE)]
 
-== xref:9-6-0-cl.adoc[November 2023]
-=== ThoughtSpot Cloud 9.6.0.cl
+== November 2023
+=== xref:9-6-0-cl.adoc[ThoughtSpot Cloud 9.6.0.cl]
 
 - xref:9-6-0-cl.adoc#embedding-in[Embedding in note tiles] [.badge.badge-early-access-relnotes]#Early Access#
 - xref:9-6-0-cl.adoc#multi-date[Multi-date bucketing]
@@ -266,8 +266,8 @@ This article summarizes the new and updates features in previous ThoughtSpot Clo
 - xref:9-6-0-cl.adoc#dbt-sync[dbt sync]
 - xref:9-6-0-cl.adoc#dbt-worksheet[dbt Worksheet join rule]
 
-== xref:9-5-0-cl.adoc[September 2023]
-=== ThoughtSpot Cloud 9.5.0.cl
+== September 2023
+=== xref:9-5-0-cl.adoc[ThoughtSpot Cloud 9.5.0.cl]
 
 - xref:9-5-0-cl.adoc#improved-multi[Improved multi-tab PDF export from Liveboards]
 - xref:9-5-0-cl.adoc#verified-liveboards[Verified Liveboards]
@@ -292,8 +292,8 @@ This article summarizes the new and updates features in previous ThoughtSpot Clo
 - xref:9-5-0-cl.adoc#singlestore-connection[SingleStore connection] [.badge.badge-early-access-relnotes]#Early Access#
 - xref:9-5-0-cl.adoc#redshift-oauth[Redshift OAuth with Azure AD IDP]
 
-== xref:9-4-0-cl.adoc[August 2023]
-=== ThoughtSpot Cloud 9.4.0.cl
+== August 2023
+=== xref:9-4-0-cl.adoc[ThoughtSpot Cloud 9.4.0.cl]
 
 - xref:9-4-0-cl.adoc#verified-liveboards[Verified Liveboards] [.badge.badge-beta-relnotes]#Beta#
 - xref:9-4-0-cl.adoc#indexing-queries[Indexing Queries Liveboard]
@@ -316,8 +316,8 @@ This article summarizes the new and updates features in previous ThoughtSpot Clo
 - xref:9-4-0-cl.adoc#dbt[dbt]
 - xref:9-4-0-cl.adoc#new-london[New London cloud region for AWS]
 
-== xref:9-3-0-cl.adoc[June 2023]
-=== ThoughtSpot Cloud 9.3.0.cl
+== June 2023
+=== xref:9-3-0-cl.adoc[ThoughtSpot Cloud 9.3.0.cl]
 
 - xref:9-3-0-cl.adoc#free-trial[Free Trial CSV upload limit increase]
 - xref:9-3-0-cl.adoc#ai-generated[AI-generated Worksheet column synonyms] [.badge.badge-early-access-relnotes]#Early Access#
@@ -340,8 +340,8 @@ This article summarizes the new and updates features in previous ThoughtSpot Clo
 - xref:9-3-0-cl.adoc#specify-default[Specify default connection for CSV uploads]
 - xref:9-3-0-cl.adoc#in-app[In-app billing reporting]
 
-== xref:9-2-0-cl.adoc[May 2023]
-=== ThoughtSpot Cloud 9.2.0.cl
+== May 2023
+=== xref:9-2-0-cl.adoc[ThoughtSpot Cloud 9.2.0.cl]
 
 - xref:9-2-0-cl.adoc#help-support[Help and support features]
 - xref:9-2-0-cl.adoc#ai-generated[AI-generated Worksheet column synonyms] [.badge.badge-private-preview-relnotes]#Private Preview#
@@ -390,8 +390,8 @@ This article summarizes the new and updates features in previous ThoughtSpot Clo
 - xref:9-2-0-cl.adoc#cross-region[Cross-Region Disaster Recovery]
 - xref:9-2-0-cl.adoc#object-usage[Object Usage Liveboard]
 
-== xref:9-0-0-cl.adoc[February 2023]
-=== ThoughtSpot Cloud 9.0.0.cl
+== February 2023
+=== xref:9-0-0-cl.adoc[ThoughtSpot Cloud 9.0.0.cl]
 
 - xref:9-0-0-cl.adoc#parameters[Parameters] [.badge.badge-beta-relnotes]#Beta#
 - xref:9-0-0-cl.adoc#upload-custom[Upload custom geo maps] [.badge.badge-early-access-relnotes]#Early Access#
@@ -413,8 +413,8 @@ This article summarizes the new and updates features in previous ThoughtSpot Clo
 - xref:9-0-0-cl.adoc#sharing-connections[Sharing connections]
 - xref:9-0-0-cl.adoc#early-access[Early Access features]
 
-== xref:8-10-0-cl.adoc[January 2023]
-=== ThoughtSpot Cloud 8.10.0.cl
+== January 2023
+=== xref:8-10-0-cl.adoc[ThoughtSpot Cloud 8.10.0.cl]
 
 - xref:8-10-0-cl.adoc#admins-can[Admins can manage all Monitor alerts]
 - xref:8-10-0-cl.adoc#thoughtspot-sync-sales[ThoughtSpot Sync Salesforce connection]
@@ -424,8 +424,8 @@ This article summarizes the new and updates features in previous ThoughtSpot Clo
 - xref:8-10-0-cl.adoc#multi-tenancy[Multi-tenancy with Orgs]
 - xref:8-10-0-cl.adoc#object-usage[Object Usage Liveboard]
 
-== xref:8-9-0-cl.adoc[November 2022]
-=== ThoughtSpot Cloud 8.9.0.cl
+== November 2022
+=== xref:8-9-0-cl.adoc[ThoughtSpot Cloud 8.9.0.cl]
 
 - xref:8-9-0-cl.adoc#custom-sizes[Custom sizes for visualizations in Liveboards]
 - xref:8-9-0-cl.adoc#visualization-guid[Visualization GUID support in TML files]
@@ -439,8 +439,8 @@ This article summarizes the new and updates features in previous ThoughtSpot Clo
 - xref:8-9-0-cl.adoc#high-availability[High Availability]
 - xref:8-9-0-cl.adoc#8-9-0-cl-query-based-pricing[Billable Query Stats Liveboard]
 
-== xref:8-8-0-cl.adoc[October 2022]
-=== ThoughtSpot Cloud 8.8.0.cl
+== October 2022
+=== xref:8-8-0-cl.adoc[ThoughtSpot Cloud 8.8.0.cl]
 
 - xref:8-8-0-cl.adoc#custom-sizes[Custom sizes for visualizations in Liveboards] [.badge.badge-beta-relnotes]#Beta#
 - xref:8-8-0-cl.adoc#formula-function[Formula function search bar]
@@ -457,8 +457,8 @@ This article summarizes the new and updates features in previous ThoughtSpot Clo
 - xref:8-8-0-cl.adoc#okta[Identity and Access Management V2]
 - xref:8-8-0-cl.adoc#ts-eula-v2[License agreement]
 
-== xref:8-7-0-cl.adoc[September 2022]
-=== ThoughtSpot Cloud 8.7.0.cl
+== September 2022
+=== xref:8-7-0-cl.adoc[ThoughtSpot Cloud 8.7.0.cl]
 
 - xref:8-7-0-cl.adoc#customizable-colors[Customizable colors for heatmap and treemap charts]
 - xref:8-7-0-cl.adoc#liveboard-tabs[Liveboard tabs]
@@ -471,8 +471,8 @@ This article summarizes the new and updates features in previous ThoughtSpot Clo
 - xref:8-7-0-cl.adoc#snowflake-csv[Snowflake CSV upload] [.badge.badge-beta-relnotes]#Beta#
 - xref:8-7-0-cl.adoc#okta[Identity and Access Management V2] [.badge.badge-beta-relnotes]#Beta#
 
-== xref:8-6-0-cl.adoc[August 2022]
-=== ThoughtSpot Cloud 8.6.0.cl
+== August 2022
+=== xref:8-6-0-cl.adoc[ThoughtSpot Cloud 8.6.0.cl]
 
 - xref:8-6-0-cl.adoc#new-liveboard[New Liveboard experience]
 - xref:8-6-0-cl.adoc#tml-import[TML import improvements]
@@ -485,8 +485,8 @@ This article summarizes the new and updates features in previous ThoughtSpot Clo
 - xref:8-6-0-cl.adoc#tags[Edit tags from the Data workspace]
 - xref:8-6-0-cl.adoc#private-link[AWS PrivateLink between ThoughtSpot Cloud and your Denodo data warehouse]
 
-== xref:8-5-0-cl.adoc[July 2022]
-=== ThoughtSpot Cloud 8.5.0.cl
+== July 2022
+=== xref:8-5-0-cl.adoc[ThoughtSpot Cloud 8.5.0.cl]
 
 - xref:8-5-0-cl.adoc#table-formatting[Table formatting for downloaded tables]
 - xref:8-5-0-cl.adoc#discoverable-liveboard[Discoverable Liveboard edit button]
@@ -500,15 +500,15 @@ This article summarizes the new and updates features in previous ThoughtSpot Clo
 - xref:8-5-0-cl.adoc#external-tables[Query external tables]
 - xref:8-5-0-cl.adoc#private-link[AWS PrivateLink between ThoughtSpot Cloud and your cloud data warehouse]
 
-== xref:8-4-0-cl.adoc[June 2022]
-=== ThoughtSpot Cloud 8.4.0.cl
+== June 2022
+=== xref:8-4-0-cl.adoc[ThoughtSpot Cloud 8.4.0.cl]
 
 - xref:8-4-0-cl.adoc#liveboard-and[Liveboard and Answer download footer]
 - xref:8-4-0-cl.adoc#spotapps[SpotApps]
 - xref:8-4-0-cl.adoc#geomap-support[Geo map support for France]
 
-== xref:8-3-0-cl.adoc[May 2022]
-=== ThoughtSpot Cloud 8.3.0.cl
+== May 2022
+=== xref:8-3-0-cl.adoc[ThoughtSpot Cloud 8.3.0.cl]
 
 - xref:8-3-0-cl.adoc#new-liveboard[New Liveboard experience]
 - xref:8-3-0-cl.adoc#integration-dbt[Integration with dbt] [.badge.badge-beta-relnotes]#Beta#
@@ -525,8 +525,8 @@ This article summarizes the new and updates features in previous ThoughtSpot Clo
 - xref:8-3-0-cl.adoc#dremio[Dremio connector]
 - xref:8-3-0-cl.adoc#encryption-at-rest-ga[Advanced encryption at rest]
 
-== xref:8-2-0-cl.adoc[April 2022]
-=== ThoughtSpot Cloud 8.2.0.cl
+== April 2022
+=== xref:8-2-0-cl.adoc[ThoughtSpot Cloud 8.2.0.cl]
 
 - xref:8-2-0-cl.adoc#spotapps[ServiceNow and Snowflake SpotApps] [.badge.badge-beta-relnotes]#Beta#
 - xref:8-2-0-cl.adoc#sql-views[SQL-based views] [.badge.badge-beta-relnotes]#Beta#
@@ -537,8 +537,8 @@ This article summarizes the new and updates features in previous ThoughtSpot Clo
 - xref:8-2-0-cl.adoc#kpi[Key Performance Indicator (KPI) chart type]
 - xref:8-2-0-cl.adoc#connections-flow-data-portal[New connection creation flow with data tab redesign]
 
-== xref:8-1-0-cl.adoc[March 2022]
-=== ThoughtSpot Cloud 8.1.0.cl
+== March 2022
+=== xref:8-1-0-cl.adoc[ThoughtSpot Cloud 8.1.0.cl]
 
 - xref:8-1-0-cl.adoc#reset[Reset button for saved Answers]
 - xref:8-1-0-cl.adoc#chart-kpi-sparkline[Sparkline visualization for KPI chart type]
@@ -546,8 +546,8 @@ This article summarizes the new and updates features in previous ThoughtSpot Clo
 - xref:8-1-0-cl.adoc#aws-region-japan[New Japan cloud region]
 - xref:8-1-0-cl.adoc#encryption-at-rest[Encryption at rest]
 
-== xref:8-0-0-cl.adoc[January 2022]
-=== ThoughtSpot Cloud 8.0.0.cl
+== January 2022
+=== xref:8-0-0-cl.adoc[ThoughtSpot Cloud 8.0.0.cl]
 
 - xref:8-0-0-cl.adoc#new-answer[New Answer experience]
 - xref:8-0-0-cl.adoc#liveboard-schedule[Liveboard schedule]
