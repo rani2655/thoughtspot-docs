@@ -33,7 +33,7 @@ SpotApps are ThoughtSpot's new out-of-the-box solution templates built for speci
 The ServiceNow and Snowflake SpotApps mimic the ServiceNow and Snowflake data models. After you connect to your ServiceNow or Snowflake data in your cloud data warehouse, ThoughtSpot maps that data to SpotApp columns, and creates pre-built but still customizable Worksheets, Answers, and Liveboards, based on your ServiceNow data.
 +
 This feature is in beta and off by default. It is part of the <<data-tab,Data tab redesign>>, which is also in beta and off by default. To enable SpotApps and the Data tab redesign, contact {support-url}.
-
+[#sql-views]
 SQL-based views [.badge.badge-beta-relnotes]#Beta#::
 This release introduces beta support for SQL-based views. Users can create views based on custom SQL queries, and use those views as data sources. This type of view has the same functionality as a view based on searching your data.
 +
@@ -45,10 +45,10 @@ Data tab redesign [.badge.badge-beta-relnotes]#Beta#::
 This release redesigns the *Data* section of the product. The new Data workspace is still in the same place in the product. To access it, select *Data* from the top navigation bar. The redesign introduces several new features, such as SQL-based views and SpotApps, and makes the UI more intuitive.
 +
 This feature is in beta and off by default. To enable it,  contact {support-url}.
-
+[#pivot-table]
 Pivot table scroll bar::
 If your pivot table contains multiple measures with long names, the column header now has a horizontal scroll bar, so you can see all your measures without taking up  excessive space in the pivot table.
-
+[#group-agg]
 Group aggregate enhancement [.badge.badge-beta-relnotes]#Beta#::
 When using a group aggregate formula in a Search, you can now view the results grouped at the level of detail specified in your aggregation formula.
 +
@@ -60,14 +60,14 @@ This feature is in beta and off by default. To enable it, contact {support-url}.
 
 [#8-2-0-cl-business-user]
 === For the Business User
-
+[#html]
 HTML in Answer titles and descriptions::
 You can now use HTML 5 in titles and descriptions for Answers and visualizations within Liveboards. For example, you can add a clickable link to a word or phrase in a description, or italicize part of an Answer title.
 +
 This feature is only available for Answers and visualizations within Liveboards; it is not available for Liveboard titles and descriptions.
 +
 Refer to xref:chart-html.adoc[Customize titles and descriptions with HTML].
-
+[#kpi]
 Key Performance Indicator (KPI) chart type::
 
 Support for attributes;;

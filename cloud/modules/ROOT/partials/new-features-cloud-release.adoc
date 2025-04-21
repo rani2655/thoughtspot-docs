@@ -1,11 +1,5 @@
 The latest release of ThoughtSpot Cloud contains several new and enhanced features.
 
-* <<10-8-0-cl-first,For the First User>>
-* <<10-8-0-cl-analyst,For the Analyst>>
-* <<10-8-0-cl-business-user,For the Business User>>
-* <<10-8-0-cl-data-engineer,For the Data Engineer>>
-* <<10-8-0-cl-developer,For the Developer>>
-
 [#10-8-0-cl-first]
 === For the First User
 
