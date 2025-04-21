@@ -26,7 +26,7 @@ For these instructions, see xref:ts-cloud-getting-started.adoc[Getting Started w
 
 [#8-6-0-cl-analyst]
 === For the Analyst
-
+[#new-liveboard]
 New Liveboard experience::
 The xref:liveboard-experience-new.adoc[new Liveboard experience] is now GA and on by default. It contains multiple new features and feature enhancements.
 It is part of ThoughtSpot's move to a new stack.
@@ -37,7 +37,7 @@ The new Liveboard experience contains the following new features:
 include::partial$new-liveboard-experience-features.adoc[]
 
 include::partial$new-liveboard-experience-deprecations.adoc[]
-
+[#tml-import]
 TML import improvements::
 You can now import xref:tml.adoc[TML] files that contain certain errors. During the import process, ThoughtSpot removes the part of the object that contains errors, and allows you to import the rest of the object. These errors include the following:
 +
@@ -52,16 +52,16 @@ Refer to xref:scriptability.adoc#migrate-object[Migrate an object].
 
 [#8-6-0-cl-business-user]
 === For the Business User
-
+[#discoverable-answers]
 Discoverable Answers and Liveboards [.badge.badge-beta-relnotes]#Beta#:: You can now make content easily available to your team members when you save or share an Answer or Liveboard. Use the *Make this [Answer | Liveboard] discoverable* checkbox that appears when you save or share an Answer or Liveboard to grant _view_ access to your teammates. Any user who has access to the underlying data source (Worksheet, table, view), and is part of the same user group as the author of the content, will be able to  discover and access the Answer or Liveboard in *Search Answers*. +
 Select this checkbox to publish your content in the list of relevant results when a teammate uses the *Search Answers* feature, or deselect to keep your content private.
-
+[#delete-objects]
 Delete objects from home page:: You can now delete Answers and Liveboards directly from the list on the home page, as well as from the *Answers* and *Liveboards* tabs. To delete an Answer or Liveboard from the home page, scroll down the list or search tags and author name to select the object name. After selecting the checkbox to the left of the object name, click the *Delete* button that appears. +
 //Note: you will see a warning when you delete an object with dependents.
-
+[#choose-sources]
 Choose sources limitation::
 You can no longer select more than 100 data sources to search on when searching data. This maximum of 100 sources improves performance and limits timeouts due to the selection of too many sources.
-
+[#data-panel]
 Data panel multi-word search:: In the data panel search bar, you can now search text and a list of columns separated by one of the following delimiters: comma (*,*), period (*.*), backslash (*\*), dash (*-*), underscore (*_*), or space. If all of your search words find a match with column name words then it is considered as a match.
 
 [#8-6-0-cl-data-engineer]

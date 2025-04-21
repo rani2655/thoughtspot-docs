@@ -26,19 +26,19 @@ For these instructions, see xref:ts-cloud-getting-started.adoc[Getting Started w
 
 [#january-cloud-2022-analyst]
 === For the Analyst
-
+[#new-answer]
 New Answer experience::
 The xref:answer-experience-new.adoc[new Answer experience] is now GA and on by default. The new Answer experience contains the following features:
 include::partial$new-answer-experience-features.adoc[]
 
 include::partial$new-answer-experience-deprecations.adoc[]
-
+[#liveboard-schedule]
 Liveboard schedule::
 ThoughtSpot now combines the Liveboard follow and xref:liveboard-schedule.adoc[Liveboard Schedule] features into a single action called "Schedule." To create a new schedule to receive an email containing a pdf of your Liveboard, users now select the *Schedule* button to the left of the *more options menu* image:icon-more-10px.png[More menu icon].
 +
 ThoughtSpot will migrate any existing Liveboard follows to Liveboard schedules.
 For users who followed a Liveboard in November Cloud or earlier, those Liveboard schedules appear in the list of Liveboard schedules as _Migrated from follow (your display name)_.
-
+[#search-answers]
 Search answers::
 You can now navigate to the *Search answers and Liveboards* page from anywhere within ThoughtSpot.
 To search Answers and Liveboards, select **Search answers and Liveboards** from the top navigation bar.

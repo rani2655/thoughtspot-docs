@@ -26,13 +26,13 @@ For these instructions, see xref:ts-cloud-getting-started.adoc[Getting Started w
 
 [#8-9-0-cl-analyst]
 === For the Analyst
-
-Custom sizes for visualizations in Liveboards GA::
+[#custom-sizes]
+Custom sizes for visualizations in Liveboards::
 Custom tile sizes for visualizations within Liveboards are now generally available. In addition to the 5 predetermined visualization sizes, you can now customize your Liveboard visualizations to be any size. See xref:liveboard-layout-edit.adoc#size[Edit the layout of a Liveboard].
-
+[#visualization-guid]
 Visualization GUID support in TML files::
 Liveboard ThoughtSpot Modeling Language (TML) files now contain distinct GUIDs for each visualization in the Liveboard by default. This ensures that the GUID for the visualization stays the same after you import or export it. See the xref:tml.adoc#viz_guid[TML viz_guid] parameter.
-
+[#pinboard-to]
 Pinboard to Liveboard change in TML::
 ThoughtSpot changed the `pinboard` parameter in Liveboard TML files to `liveboard`, consistent with our rebrand of pinboards as Liveboards.
 +
@@ -50,21 +50,21 @@ The following SpotApps are now available:
 
 [#8-9-0-cl-business-user]
 === For the Business User
-
+[#thoughtspot-sync-sales]
 ThoughtSpot Sync Salesforce connection [.badge.badge-beta-relnotes]#Beta#::
 
 You can now sync data directly from an Answer or custom SQL view to Salesforce. Using ThoughtSpot Sync, you can push insights directly to Salesforce, notify your teams, and view data in context. ThoughtSpot Sync automatically establishes a secure pipeline to the destination app and thus eliminates the need for building custom connectors. For more information, see xref:sync-salesforce.adoc[Sync data to Salesforce]
-
+[#discoverable-answers]
 Discoverable Answers and Liveboards:: The discoverable Answers and Liveboards feature is now GA and on by default. You can now make content easily available to your team members. Use the *Make this [Answer | Liveboard] discoverable* checkbox that appears when you save or share an Answer or Liveboard to grant _view_ access to your teammates.
 +
 Select this checkbox to publish your content in the list of relevant results when a teammate uses the *Search Answers* feature, or deselect to keep your content private.
-
+[#edit-your]
 Edit your display name::
 You can now edit your display name by clicking the profile icon in the upper-right corner of the screen. For more information, see xref:user-profile.adoc[Edit display name].
 
 [#8-9-0-cl-data-engineer]
 === For the Data Engineer
-
+[#tag-enhancements]
 Tag enhancements::
 
 This release includes the following updates to the xref:tags.adoc[tags] feature in the xref:data-workspace.adoc[]:
@@ -75,11 +75,11 @@ This release includes the following updates to the xref:tags.adoc[tags] feature 
 --
 +
 For more information, see xref:tags.adoc#data-workspace-apply[Apply a tag] and xref:tags.adoc#data-workspace-create[Create a tag].
-
+[#query-banding]
 Query banding with Teradata connections::
 
 With query banding, Teradata connections now support the trust SQL feature in Teradata. This provides additional permissions to a ThoughtSpot user for accessing specific tables in Teradata to execute queries. The user must be configured as an application proxy user in Teradata. Query banding also allows tracking of statistics for queries executed by a user. Refer to xref:connections-teradata-add.adoc[Add a Teradata connection].
-
+[#sql-server]
 SQL Server with Synapse connections::
 
 In this release, ThoughtSpot officially certifies and provides support for Microsoft SQL Server used with Synapse connections. Refer to xref:connections-synapse-add.adoc[].
