@@ -35,18 +35,18 @@ The 10.10.0.cl release of ThoughtSpot Cloud, targeted for the second half of 202
 +
 All existing Worksheets will be migrated automatically to Models in this release and Worksheets will no longer be available.
 
-== Removed in 10.9.0.cl
+== Removed in 10.13.0.cl
 
-The 10.9.0.cl release of ThoughtSpot Cloud, targeted for Fall 2025 (GA), removes the following features:
+The 10.13.0.cl release of ThoughtSpot Cloud, targeted for Fall 2025, removes the following features:
 
 - Sage
 - Ask Sage
 
 Spotter replaces the previous Sage and Ask Sage features. For more information, see xref:spotter.adoc[Spotter].
 
-== Deprecated in 10.8.0.cl
+== Deprecated in 10.9.0.cl
 
-The 10.8.0.cl release of ThoughtSpot Cloud, targeted for May 2025 (GA), deprecates the following features:
+The 10.9.0.cl release of ThoughtSpot Cloud, targeted for May 2025, deprecates the following features:
 
 - Sage
 - Ask Sage
