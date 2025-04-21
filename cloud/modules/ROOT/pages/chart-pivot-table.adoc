@@ -71,7 +71,7 @@ You can restructure your pivot table by dragging and dropping the measures and a
 
 By default, ThoughtSpot displays measures in columns. To display measures in rows instead, follow these steps:
 
-. Select the *edit chart configuration* icon image:icon-gear-10px.png[edit chart configuration icon image] near the upper right of the Answer.
+. Select the *edit chart configuration* button image:icon-gear-10px.png[edit chart configuration icon image] near the upper right of the Answer.
 . Select *Settings* in the chart configuration panel.
 . Under *Display measures in*, select *Rows*.
 +
@@ -195,6 +195,22 @@ With blended axes, you can group measures and control them through a system-defi
 <source src="https://docs.thoughtspot.com/cloud/10.8.0.cl/_images/blended-axes-pivot-720.mp4" type="video/mp4">
 </video>
 +++
+
+=== Creating blended axes in a pivot table
+
+To create blended axes in your pivot table, do the following:
+
+. In chart view, select the *edit chart configuration* button image:icon-gear-10px.png[edit chart configuration icon image] near the upper right of the Answer.
+. Drag one or more measures to the _Values_ section.
+. Drag the *Values* chip to either the _Rows_ or _Columns_ section.
+. To view your changes, click the *Apply* button.
++
+Your pivot table reloads with your blended axes.
++
+[.bordered]
+image::values-in-pivot-table.png[]
++
+IMPORTANT: You can only use measures in the Values section.
 
 == Pivot table limitations
 
