@@ -10,18 +10,9 @@ These new and enhanced features of ThoughtSpot Cloud were released in June 2023.
 
 == ThoughtSpot Cloud 9.3.0.cl release notes
 
-* <<9-3-0-cl-first,For the First User>>
-* <<9-3-0-cl-analyst,For the Analyst>>
-* <<9-3-0-cl-business-user,For the Business User>>
-* <<9-3-0-cl-data-engineer,For the Data Engineer>>
-* <<9-3-0-cl-developer,For the Developer>>
-
 [#9-3-0-cl-first]
 === For the First User
 
-Getting started with ThoughtSpot Cloud::
-The first user on the account has to complete a series of steps before other people can start using ThoughtSpot with your organization's data.
-For these instructions, see xref:ts-cloud-getting-started.adoc[Getting started with ThoughtSpot Cloud].
 [#free-trial]
 Free Trial CSV upload limit increase:: We increased the CSV upload limit in Free Trial to ten files per user. For more information, see xref:csv-load-free-trial.adoc[Load CSV files in Free Trial].
 

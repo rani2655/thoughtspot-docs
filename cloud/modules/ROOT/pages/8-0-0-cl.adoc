@@ -10,20 +10,6 @@ These new and enhanced features of ThoughtSpot Cloud were released in January 20
 
 == ThoughtSpot Cloud 8.0.0.cl
 
-* <<january-cloud-2022-first,For the First User>>
-* <<january-cloud-2022-analyst,For the Analyst>>
-* <<january-cloud-2022-business-user,For the Business User>>
-// * <<january-cloud-2022-data-engineer,For the Data Engineer>>
-* <<january-cloud-2022-it-ops-engineer,For the IT Ops Engineer>>
-* <<january-cloud-2022-developer,For the Developer>>
-
-[#january-cloud-2022-first]
-=== For the First User
-
-Getting started with ThoughtSpot Cloud::
-The first user on the account has to complete a series of steps before other people can start using ThoughtSpot with your organization's data.
-For these instructions, see xref:ts-cloud-getting-started.adoc[Getting Started with ThoughtSpot Cloud].
-
 [#january-cloud-2022-analyst]
 === For the Analyst
 [#new-answer]

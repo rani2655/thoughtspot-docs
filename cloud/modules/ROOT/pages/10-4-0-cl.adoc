@@ -10,12 +10,6 @@ These new and enhanced features of ThoughtSpot Cloud were released in November 2
 
 == ThoughtSpot Cloud 10.4.0.cl
 
-* <<10-4-0-cl-first,For the First User>>
-* <<10-4-0-cl-analyst,For the Analyst>>
-* <<10-4-0-cl-business-user,For the Business User>>
-* <<10-4-0-cl-data-engineer,For the Data Engineer>>
-* <<10-4-0-cl-developer,For the Developer>>
-
 .Features removed and deprecated in 10.4.0.cl
 [IMPORTANT]
 ====
@@ -35,13 +29,6 @@ The following feature is deprecated from the *Data workspace*, and will be remov
 
 Existing Worksheets continue to be available, but Worksheet creation is disabled by default. To enable Worksheet creation, you must contact your ThoughtSpot administrator.
 ====
-
-[#10-4-0-cl-first]
-=== For the First User
-
-Getting started with ThoughtSpot Cloud::
-The first user on the account has to complete a series of steps before other people can start using ThoughtSpot with your organization's data.
-For these instructions, see xref:ts-cloud-getting-started.adoc[Getting Started with ThoughtSpot Cloud].
 
 [#10-4-0-cl-analyst]
 === For the Analyst

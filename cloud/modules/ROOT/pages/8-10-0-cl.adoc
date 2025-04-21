@@ -10,19 +10,6 @@ These new and enhanced features of ThoughtSpot Cloud were released in January 20
 
 == ThoughtSpot Cloud 8.10.0.cl release notes
 
-* <<8-10-0-cl-first,For the First User>>
-* <<8-10-0-cl-analyst,For the Analyst>>
-* <<8-10-0-cl-business-user,For the Business User>>
-* <<8-10-0-cl-it-ops-engineer,For the IT Ops Engineer>>
-* <<8-10-0-cl-developer,For the Developer>>
-
-[#8-10-0-cl-first]
-=== For the First User
-
-Getting started with ThoughtSpot Cloud::
-The first user on the account has to complete a series of steps before other people can start using ThoughtSpot with your organization's data.
-For these instructions, see xref:ts-cloud-getting-started.adoc[Getting Started with ThoughtSpot Cloud].
-
 [#8-10-0-cl-analyst]
 === For the Analyst
 [#admins-can]
