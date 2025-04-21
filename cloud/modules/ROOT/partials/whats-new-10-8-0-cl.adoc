@@ -305,7 +305,7 @@ ifdef::pendo-links[]
 endif::[]
 ThoughtSpot introduces enhanced number formatting controls for measures that are marked as attributes in the data source. Use this enhanced formatting to ensure that measures marked as attributes are formatted with the appropriate number format.
 
-For more information, see xref:data-modeling-paterns.adoc[Set number, date, and currency formats].
+For more information, see xref:data-modeling-patterns.adoc[Set number, date, and currency formats].
 
 To enable this feature, contact {support-url}.
 // Mary. jira: SCAL-237236. docs jira: SCAL-246082

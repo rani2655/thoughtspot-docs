@@ -1,32 +1,5 @@
 The latest release of ThoughtSpot Cloud contains several new and enhanced features.
 
-[#10-8-0-cl-first]
-=== For the First User
-
-Getting started with ThoughtSpot Cloud::
-The first user on the account has to complete a series of steps before other people can start using ThoughtSpot with your organization's data.
-For these instructions, see xref:ts-cloud-getting-started.adoc[Getting Started with ThoughtSpot Cloud].
-
-[#10-8-0-cl-analyst]
-=== For the Analyst
-
-// Naomi. jira: SCAL-226681. docs jira: SCAL-246580
-Migrate Spotter feedback using TML [.badge.badge-beta-relnotes]#Beta#::
-You can now migrate feedback between Models using the feedback TML file. Select the more options icon image:icon-more-10px.png[more options icon] on the Model and hover over the TML section to import or export the TML file containing your feedback. To enable this feature, contact {support-url}.
-+
-For more information, see xref:migrate-feedback.adoc[Migrate Spotter feedback using TML] and xref:tml-feedback.adoc[TML for feedback].
-
-// Naomi. jira: SCAL-227169. docs jira: SCAL-241403
-Column name and description aliasing for localization [.badge.badge-beta-relnotes]#Beta#::
-This feature provides the ability to define a column name or description alias in a Worksheet or Model which allows column names and descriptions to be displayed in a supported system language. When enabled, column names and descriptions in the Search Data and Answer interface display in the system language selected by the user in their ThoughtSpot user profile. To enable this feature, contact {support-url}.
-+
-For more information, see xref:column-aliases.adoc[Column and description aliases for localization].
-
-//Mary. JIRA: SCAL-217624. docs JIRA: ?
-Chart type displayed in SQL::
-ThoughtSpot now displays the chart type when you view the SQL query used to generate the chart.
-For more information, see xref:charts.adoc[Query SQL].
-
 [#10-8-0-cl-business-user]
 === For the Business User
 
@@ -120,7 +93,29 @@ xref:data-modeling-patterns.adoc[Set number, date, and currency formats].
 Number formatting on attributes [.badge.badge-beta-whats-new]#Beta#::
 ThoughtSpot introduces enhanced number formatting controls for measures that are marked as attributes in the data source. Use this enhanced formatting to ensure that measures marked as attributes are formatted with the appropriate number format. To enable this feature, contact {support-url}.
 +
-For more information, see xref:data-modeling-paterns.adoc[Set number, date, and currency formats].
+For more information, see xref:data-modeling-patterns.adoc[Set number, date, and currency formats].
+
+[#10-8-0-cl-analyst]
+=== For the Analyst
+
+// Naomi. jira: SCAL-226681. docs jira: SCAL-246580
+Migrate Spotter feedback using TML [.badge.badge-beta-relnotes]#Beta#::
+You can now migrate feedback between Models using the feedback TML file. Select the more options icon image:icon-more-10px.png[more options icon] on the Model and hover over the TML section to import or export the TML file containing your feedback. To enable this feature, contact {support-url}.
++
+For more information, see xref:migrate-feedback.adoc[Migrate Spotter feedback using TML] and xref:tml-feedback.adoc[TML for feedback].
+
+// Naomi. jira: SCAL-227169. docs jira: SCAL-241403
+Column name and description aliasing for localization [.badge.badge-beta-relnotes]#Beta#::
+This feature provides the ability to define a column name or description alias in a Worksheet or Model which allows column names and descriptions to be displayed in a supported system language. When enabled, column names and descriptions in the Search Data and Answer interface display in the system language selected by the user in their ThoughtSpot user profile. To enable this feature, contact {support-url}.
++
+For more information, see xref:column-aliases.adoc[Column and description aliases for localization].
+
+//Mary. JIRA: SCAL-217624. docs JIRA: ?
+Chart type displayed in SQL::
+ThoughtSpot now displays the chart type when you view the SQL query used to generate the chart.
+For more information, see xref:charts.adoc[Query SQL].
+
+
 
 
 
