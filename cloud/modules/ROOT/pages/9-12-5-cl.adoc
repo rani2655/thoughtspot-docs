@@ -8,12 +8,6 @@
 
 == ThoughtSpot Cloud 9.12.5.cl
 
-* <<9-12-5-cl-first,For the First User>>
-* <<9-12-5-cl-analyst,For the Analyst>>
-* <<9-12-5-cl-business-user,For the Business User>>
-* <<9-12-5-cl-data-engineer,For the Data Engineer>>
-* <<9-12-5-cl-developer,For the Developer>>
-
 [#9-12-5-cl-first]
 === For the First User
 

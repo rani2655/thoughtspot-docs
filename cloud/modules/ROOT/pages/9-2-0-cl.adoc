@@ -10,13 +10,6 @@ These new and enhanced features of ThoughtSpot Cloud were released in May 2023.
 
 == ThoughtSpot Cloud 9.2.0.cl
 
-* <<9-2-0-cl-first,For the First User>>
-* <<9-2-0-cl-analyst,For the Analyst>>
-* <<9-2-0-cl-business-user,For the Business User>>
-* <<9-2-0-cl-data-engineer,For the Data Engineer>>
-* <<9-2-0-cl-it-ops-engineer,For the IT Ops Engineer>>
-* <<9-2-0-cl-developer,For the Developer>>
-
 [#help-support]
 .[.badge .badge-outlined.badge-secondary]#Help and support features#
 ****

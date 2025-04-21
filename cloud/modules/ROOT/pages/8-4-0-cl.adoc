@@ -10,11 +10,6 @@ These new and enhanced features of ThoughtSpot Cloud were released in June 2022.
 
 == ThoughtSpot Cloud 8.4.0.cl release notes
 
-* <<8-4-0-cl-first,For the First User>>
-* <<8-4-0-cl-analyst,For the Analyst>>
-* <<8-4-0-cl-business-user,For the Business User>>
-* <<8-4-0-cl-developer,For the Developer>>
-
 [#8-4-0-cl-first]
 === For the First User
 

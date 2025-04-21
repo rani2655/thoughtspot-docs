@@ -10,12 +10,6 @@ These new and enhanced features of ThoughtSpot Cloud were released in September 
 
 == ThoughtSpot Cloud 9.5.0.cl
 
-* <<9-5-0-cl-first,For the First User>>
-* <<9-5-0-cl-analyst,For the Analyst>>
-* <<9-5-0-cl-business-user,For the Business User>>
-* <<9-5-0-cl-data-engineer,For the Data Engineer>>
-* <<9-5-0-cl-developer,For the Developer>>
-
 [#9-5-0-cl-first]
 === For the First User
 
