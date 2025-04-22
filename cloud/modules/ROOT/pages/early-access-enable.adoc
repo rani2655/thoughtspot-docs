@@ -1,31 +1,100 @@
-= Enable Early Access features
-:last_updated: 12/22/2022
+= Early Access features
+:last_updated: 4/21/2025
 :author: Mark Plummer
 :linkattrs:
 :experimental:
 :page-layout: default-cloud
-:description: This page describes how administrators can enable or disable Early Access features.
+:description: This page describes Early Access features which administrators can enable or disable.
+:jira: SCAL-242844
 
-Early Access features have new or enhanced functionality an administrator can typically enable. They are disabled by default.
+The Early Access features page lists features which a ThoughtSpot administrator can enable or disable. They are disabled by default.
 
-NOTE: Some Early Access features must be enabled by {support-url}. Refer to the documentation for the specific Early Access feature to find out how it is enabled.
+NOTE: Early Access features which are not listed on this page, must be enabled by {support-url}.
+
+== Early access features in {version}
+
+The following Early Access features can be enabled by your ThoughtSpot administrator:
+
+New Navigation and Homepage::
+Allow users to switch to the new homepage and navigation from the user profile.
+
+New Experience (Default UI)::
+Set the default homepage and navigation (New or Classic) for all users across the instance. Users can change it later.
+Changing from the classic to the new experience, requires New Navigation and Homepage to be enabled.
+
+New Admin Experience::
+Enable or disable the new admin experience and TML export/import of users groups and roles.
+
+Advanced settings for charts::
+Configure various chart settings like tooltips, data labels, grid lines, etc.
+
+Time Series Forecasting::
+Forecast time-series KPI charts through SpotIQ Analyze to visualize future trends.
+
+Alerts by attribute::
+Set alerts for a specific attribute to gain more granular KPI insights, monitoring changes for each attribute value.
+
+Add configurations to your connection::
+Modify your connection settings by adding configurations based on your needs.
+
+ClickHouse Embrace connector::
+Enable to access the ClickHouse Embrace connector to analyze data directly from your ClickHouse database.
+
+AI Highlights::
+Get a summary of important changes, and what may have caused them.
+
+Categorize connectors::
+Toggle categories for connectors while creating a connection.
+
+OAuth Redirection Behavior::
+When enabled, the OAuth authentication URL opens in the current page instead of a new tab or popup. Applies to Liveboards, search and Answers.
+
+Automatic OAuth Sign-In Trigger::
+When enabled, automatically triggers the 'Sign in with OAuth' screen when the connection's authentication has expired. Applies to Liveboards, search and Answers.
+
+Selective User Access::
+Provides selective access to ThoughtSpot pages through both the ThoughtSpot instance URL and the embedded content of your host application.
+
+Re-order parameters::
+When enabled, parameters can be re-ordered in both Liveboards and Answers.
+
+Show relevant filters in Liveboard tab::
+When enabled, if there are some filters or parameters which are only relevant to a specific tab within a Liveboard, only those filters and parameters will be visible in the tab by default. The rest will be hidden.
+
+New Pivot table::
+The new pivot table delivers faster performance, more customization options, and a superior user experience.
+
+Parameters in column names in charts and tables::
+You can now add parameters in column names and axis names in charts and table headers. When a parameter value is changed, the visualization and contextual information update automatically.
+
+New connection configuration experience::
+Enable to switch to new connection configuration experience in the Data workspace.
+
+PDF cover and filter page options::
+When enabled, users can choose to include or exclude cover and filter pages in the Liveboard PDF.
+
+Query set::
+A query set allows users to define a base search query to specify a list of values. With this list of values, the user can then define aggregate and multiple column grouping rules for cohort or bin analysis. The resulting set is available for use across many Answers.
+
+Column set::
+A column set allows users to define grouping rules or bins for the values of a specific column. The resulting set is available for use across many Answers.
 
 == Enabling an Early Access feature
 
-To enable an Early Access feature, do the following:
+To enable one or more Early Access features, do the following:
 
-. Go to the *Admin* tab and select *Early access features*.
-. Find the feature you want to enable, and click *Edit*.
-. Click the status slider to set the feature to image:icon-slider-toggle-enable-20px.png[Early access features toggle] *Enabled*.
+. Go to the *Admin* tab, select *All Orgs*, and select *Early access features*.
+. Click *Edit*.
+. For each feature you want to enable, click the status slider to set the feature to image:icon-slider-toggle-enable-20px.png[Early access features toggle] *Enabled*.
 . Click *Save*.
 
 == Disabling an Early Access feature
 
-To disable an Early Access feature, do the following:
+To disable one or more Early Access features, do the following:
 
-. Go to the *Admin* tab and select *Early access features*.
-. Find the feature you want to disable, and click *Edit*.
-. Click the status slider to set the feature to image:icon-slider-toggle-disable-20px.png[Early access features toggle] *Disabled*.
+. Go to the *Admin* tab, select *All Orgs*, and select *Early access features*.
+. Click *Edit*.
+. For each feature you want to disable, click the status slider to set the feature to image:icon-slider-toggle-disable-20px.png[Early access features toggle] *Disabled*.
 . Click *Save*.
 
 WARNING: Enabling or disabling Early Access features causes a service interruption of a few minutes for _all_ users. To minimize disruption, we recommend making changes during a scheduled maintenance window.

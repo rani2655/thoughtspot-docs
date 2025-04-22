@@ -8,4 +8,5 @@ asciidoc:
   attributes:
     form-factor: Cloud
     model: Model
+    version: 10.8.0.cl
     #page-layout: default-cloud
