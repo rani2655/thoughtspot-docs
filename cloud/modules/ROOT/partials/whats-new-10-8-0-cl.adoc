@@ -294,6 +294,30 @@ endif::free-trial-feature[]
 
 ifndef::free-trial-feature[]
 ifndef::pendo-links[]
+[#10-8-0-cl-cover]
+[discrete]
+=== Include or exclude cover and filter pages from a Liveboard PDF [.badge.badge-early-access]#Early Access#
+endif::[]
+ifdef::pendo-links[]
+[#10-8-0-cl-cover]
+[discrete]
+=== Include or exclude cover and filter pages from a Liveboard PDF [.badge.badge-early-access-whats-new]#Early Access#
+endif::[]
+// Mary. jira: SCAL-240782. docs jira: SCAL-247610
+// PM: Siddhant
+ThoughtSpot Liveboard PDFs include a cover page and filter pages that contain information about the filters applied. You can now use the *PDF Options* checkboxes to choose to include or exclude these page when downloading or scheduling a Liveboard PDF. To enable this feature, contact {support-URL}.
++
+For more information, see
+ifndef::pendo-links[]
+xref:liveboard-download-pdf.adoc[Download a Liveboard as a PDF].
+endif::[]
+ifdef::pendo-links[]
+xref:liveboard-download-pdf.adoc[Download a Liveboard as a PDF,window=_blank].
+endif::[]
+endif::free-trial-feature[]
+
+ifndef::free-trial-feature[]
+ifndef::pendo-links[]
 [#10-7-0-cl-number]
 [discrete]
 === Number formatting on attributes [.badge.badge-beta]#Beta#
