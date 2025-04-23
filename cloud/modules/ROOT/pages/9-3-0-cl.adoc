@@ -8,7 +8,7 @@
 
 These new and enhanced features of ThoughtSpot Cloud were released in June 2023.
 
-== ThoughtSpot Cloud 9.3.0.cl release notes
+== ThoughtSpot Cloud 9.3.0.cl
 
 [#9-3-0-cl-first]
 === For the First User
