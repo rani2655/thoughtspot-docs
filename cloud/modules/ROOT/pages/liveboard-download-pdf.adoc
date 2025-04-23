@@ -21,8 +21,8 @@ Follow these steps:
 NOTE: If you do not see the option to download the Liveboard as a PDF, your company may have removed the Liveboard download option. In that case, contact your ThoughtSpot administrator if you would like to download Liveboards.
 
 [#pdf-pinboard]
-== Download PDF in Liveboard format
-
+.Download PDF in Liveboard format [.badge.badge-early-access-whats-new]#Early Access#
+****
 The Liveboard format produces a PDF file that looks very similar to the Liveboard inside ThoughtSpot.
 The highlights and insights appear at the top, and the rest of the Liveboard is on a rectangular grid, with natural page breaks.
 
@@ -37,6 +37,7 @@ NOTE: This is an early access feature. To enable this feature, contact your admi
 . Select *Download*.
 
 image::liveboard-export-liveboard-tabs.png[PDF export as Liveboard]
+****
 
 [#pdf-visualizations]
 == Download PDF in Visualizations format
