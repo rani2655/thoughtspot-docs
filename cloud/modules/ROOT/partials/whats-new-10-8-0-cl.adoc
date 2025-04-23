@@ -26,7 +26,7 @@ In addition to these features, your ThoughtSpot administrator can add custom lin
 [.bordered]
 image::help-support-menu-v2.png[]
 
-We are gradually making this available to customers, so if you don't see it immediately after your instance is upgraded, it should appear within one month.
+NOTE: We are gradually making this available to customers, so if you don't see it immediately after your instance is upgraded, it should appear within one month.
 
 // add image with custom link outlined in red under Contact support
 
