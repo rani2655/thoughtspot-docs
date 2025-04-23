@@ -1,4 +1,4 @@
-= 10.8.0.cl Release Notes
+= {version} Release Notes
 :experimental:
 :last_updated: 4/18/2025
 :linkattrs:
@@ -6,7 +6,7 @@
 :page-layout: default-cloud
 :description: These release notes include information about new and enhanced features.
 
-ThoughtSpot Cloud 10.8.0.cl is now available.
+ThoughtSpot Cloud {version} is now available.
 
 These release notes include information about new and enhanced features.
 
@@ -18,6 +18,4 @@ For information about previous releases, see xref:release-history.adoc[Release h
 == New Features and Functionality
 
 include::partial$new-features-cloud-release.adoc[]
-
-
 
