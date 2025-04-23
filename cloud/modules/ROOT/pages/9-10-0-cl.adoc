@@ -6,6 +6,8 @@
 :page-aliases:
 :description: ThoughtSpot Cloud 9.10.0.cl release notes
 
+These new and enhanced features of ThoughtSpot Cloud were released in February 2024.
+
 == ThoughtSpot Cloud 9.10.0.cl
 
 [#9-10-0-cl-analyst]
