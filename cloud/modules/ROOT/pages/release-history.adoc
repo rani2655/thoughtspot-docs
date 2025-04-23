@@ -6,7 +6,7 @@
 :page-aliases:
 :description: History of ThoughtSpot Cloud releases
 
-This article summarizes the new and updates features in previous ThoughtSpot Cloud releases.
+This article summarizes the new and updated features in previous ThoughtSpot Cloud releases. For the latest release notes, see xref:notes.adoc[{version} release notes].
 
 == February 2025
 === xref:10-6-0-cl.adoc[ThoughtSpot Cloud 10.6.0.cl]

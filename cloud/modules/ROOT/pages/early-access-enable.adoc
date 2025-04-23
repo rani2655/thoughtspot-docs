@@ -11,7 +11,7 @@ The Early Access features page lists features which a ThoughtSpot administrator 
 
 NOTE: Early Access features which are not listed on this page, must be enabled by {support-url}.
 
-== Early access features in {version}
+== Early Access features in {version}
 
 The following Early Access features can be enabled by your ThoughtSpot administrator:
 
