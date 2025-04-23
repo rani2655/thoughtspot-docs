@@ -561,6 +561,7 @@
 **** xref:spotter-coaching-options.adoc[]
 **** xref:spotter-coaching-steps.adoc[]
 **** xref:migrate-feedback.adoc[]
+*** xref:spotter-security.adoc[]
 *** xref:spotter-conversations-liveboard.adoc[Spotter Conversations Liveboard]
 *** xref:spotter-best.adoc[]
 **** xref:spotter-validate.adoc[]
