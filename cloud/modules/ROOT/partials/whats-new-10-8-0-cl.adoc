@@ -24,7 +24,7 @@ Just like the original information center, you can access *Help*, *Getting start
 In addition to these features, your ThoughtSpot administrator can add custom links, which appear under the *Contact support* menu item.
 
 [.bordered]
-image::help-support-menu-v2.png[]
+image::help-support-menu-v2.png[Help menu]
 
 NOTE: We are gradually making this available to customers, so if you don't see it immediately after your instance is upgraded, it should appear within one month.
 

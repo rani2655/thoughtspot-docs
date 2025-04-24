@@ -211,7 +211,7 @@ To create blended axes in your pivot table, do the following:
 Your pivot table reloads with your blended axes.
 +
 [.bordered]
-image::values-in-pivot-table.png[]
+image::values-in-pivot-table.png[Values in pivot table]
 +
 IMPORTANT: You can only use measures in the Values section.
 
