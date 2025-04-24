@@ -129,8 +129,8 @@ ThoughtSpot users can now create bins for aggregate results in query sets. This 
 For more information see, xref:query-sets.adoc[Query sets].
 
 [#improved-sorting-filtering-and-export-of-answers-and-liveboards]
-Improved sorting, filtering, and export of Answers and Liveboards in the new navigation and homepage experience::
-In this release, we provide new options for sorting and filtering Answers and Liveboards, as well as the option to export them to TML. These options are available in the homepage, as well as the Liveboards and Answers pages of the Insights app in the new navigation and homepage experience. The options include the following:
+Improved sorting, filtering, and export of Answers and Liveboards in the new navigation and home page experience::
+In this release, we provide new options for sorting and filtering Answers and Liveboards, as well as the option to export them to TML. These options are available in the home page, as well as the Liveboards and Answers pages of the Insights app in the new navigation and home page experience. The options include the following:
 +
 --
 * Sorting Answer and Liveboard lists by "last modified"
@@ -138,7 +138,7 @@ In this release, we provide new options for sorting and filtering Answers and Li
 * Exporting selected Answers and Liveboards to TML
 --
 +
-To confirm you are using the new navigation and homepage, go to your user profile and make sure Navigation and Homepage is set to *New experience*. For more information, see
+To confirm you are using the new navigation and home page, go to your user profile and make sure Navigation and Home page is set to *New experience*. For more information, see
 xref:thoughtspot-one-homepage.adoc[Home page].
 
 [#10-6-0-cl-data-engineer]
