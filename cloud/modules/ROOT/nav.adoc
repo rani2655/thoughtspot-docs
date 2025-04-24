@@ -128,6 +128,7 @@
 ** xref:data-engineer.adoc[Data Engineers]
 *** xref:connections.adoc[About connections]
 **** xref:connectors-categorization.adoc[Categorizing connections]
+**** xref:connection-configuration.adoc[New connection configuration experience]
 **** xref:connection-share.adoc[]
 **** xref:connections-query-tags.adoc[]
 **** xref:connections-column-indexing-oauth.adoc[Column indexing with OAuth]
