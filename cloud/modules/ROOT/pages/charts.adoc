@@ -170,7 +170,7 @@ You can add a parameter name directly in chart components like axis labels and c
 
 To add a parameter to an axis or column name of a chart, do the following:
 
-. While viewing your Answer in either chart or table view, select the chart configuration icon image:icon-gear-10px.png[] at the upper right to open the _Edit_ pane.
+. While viewing your Answer in either chart or table view, select the chart configuration icon image:icon-gear-10px.png[chart configuration icon] at the upper right to open the _Edit_ pane.
 . Add your parameters by doing either of the following:
 * In chart view, click an X or Y-axis or Slice with color chip.
 * In the table view, click a Visible Column chip.
@@ -178,7 +178,7 @@ To add a parameter to an axis or column name of a chart, do the following:
 . Enter an ampersand (@) to display the list of parameters available to you in your Answer.
 +
 [.bordered]
-image::chart-params.png[]
+image::chart-params.png[Chart parameters]
 
 . Click the parameter you want to use.
 . Add any additional parameters to other column names, if needed.
