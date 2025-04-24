@@ -16,10 +16,10 @@ NOTE: Early Access features which are not listed on this page, must be enabled b
 The following Early Access features can be enabled by your ThoughtSpot administrator:
 
 New Navigation and Homepage::
-Allow users to switch to the new homepage and navigation from the user profile. For more information, see xref:user-profile#new-homepage-experience.adoc[Manage your navigation and homepage experience].
+Allow users to switch to the new home page and navigation from the user profile. For more information, see xref:user-profile.adoc#new-homepage-experience[Manage your navigation and home page experience].
 
 New Experience (Default UI)::
-Set the default homepage and navigation (New or Classic) for all users across the instance. Users can change it later.
+Set the default home page and navigation (New or Classic) for all users across the instance. Users can change it later.
 Changing from the classic to the new experience, requires New Navigation and Homepage to be enabled.
 
 New Admin Experience::

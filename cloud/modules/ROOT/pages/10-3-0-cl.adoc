@@ -107,10 +107,10 @@ For more information, see xref:liveboard-schedule.adoc[Schedule a Liveboard job]
 [#10-3-0-cl-it-ops]
 === For the IT/Ops Engineer
 [#option-set-nav]
-Option to set new navigation and homepage experience as default [.badge.badge-early-access-relnotes]#Early Access#::
+Option to set new navigation and home page experience as default [.badge.badge-early-access-relnotes]#Early Access#::
 // Mark. jira: SCAL-223658. docs jira: SCAL-226711
 // PM: Mohil
-Administrators now have the ability to set the new navigation and homepage experience as the default UI for all users of the cluster, if it is enabled for the cluster. To enable this feature, go to the *Admin > Early access features* page and enable _New Experience (Default UI)_. For more information, see
+Administrators now have the ability to set the new navigation and home page experience as the default UI for all users of the cluster, if it is enabled for the cluster. To enable this feature, go to the *Admin > Early access features* page and enable _New Experience (Default UI)_. For more information, see
 xref:early-access-enable.adoc[Enable Early Access features].
 
 // Mary. JIRA: SCAL-202402. docs JIRA: SCAL-212285

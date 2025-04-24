@@ -122,7 +122,7 @@ image::free-trial-search-tooltips.png[Tooltip that appears when you cannot selec
 
 These are the changes we made to Free Trial this week:
 
-* We fixed toast notifications on the homepage to display multiple changes to the same component.
+* We fixed toast notifications on the home page to display multiple changes to the same component.
 * Users with accounts where the maximum file upload count is 0 no longer see the option to upload CSV files during setup.
 * Users can now exit 3-step setup at any time by selecting the x at the far right of the setup bar.
 +
