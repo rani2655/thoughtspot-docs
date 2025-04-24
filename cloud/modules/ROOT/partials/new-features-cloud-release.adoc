@@ -142,6 +142,8 @@ xref:connections-denodo-add.adoc[Add a Denodo connection].
 // Naomi – jira: SCAL-212284. docs jira: SCAL-246469
 Redesigned Connection creation [.badge.badge-early-access-relnotes]#Early Access#::
 We redesigned and streamlined the process to create a Connection. Set up your Connection in four easy steps by selecting a data source, configuring the Connection, selecting databases, and selecting tables. To enable this feature, contact your administrator.
++
+For more information, see xref:connection-configuration.adoc[New connection configuration experience].
 
 // Naomi. jira: SCAL-206474. docs jira: SCAL-235082
 Bridge support for SQL Server, SAP HANA, and Oracle::

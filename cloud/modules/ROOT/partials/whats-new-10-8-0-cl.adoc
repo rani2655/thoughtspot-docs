@@ -45,7 +45,7 @@ NOTE: If you currently have your in-product support feature disabled, the *Conta
 // Mark – docs jira: SCAL-248448
 // PM: Jordan
 
-[#primary-10-7-0-cl]
+[#primary-10-8-0-cl]
 
 // Business User
 
@@ -306,7 +306,7 @@ endif::[]
 // Mary. jira: SCAL-240782. docs jira: SCAL-247610
 // PM: Siddhant
 ThoughtSpot Liveboard PDFs include a cover page and filter pages that contain information about the filters applied. You can now use the *PDF Options* checkboxes to choose to include or exclude these page when downloading or scheduling a Liveboard PDF. To enable this feature, contact {support-URL}.
-+
+
 For more information, see
 ifndef::pendo-links[]
 xref:liveboard-download-pdf.adoc[Download a Liveboard as a PDF].
@@ -329,7 +329,13 @@ ifdef::pendo-links[]
 endif::[]
 ThoughtSpot introduces enhanced number formatting controls for measures that are marked as attributes in the data source. Use this enhanced formatting to ensure that measures marked as attributes are formatted with the appropriate number format.
 
-For more information, see xref:data-modeling-patterns.adoc[Set number, date, and currency formats].
+For more information, see
+ifndef::pendo-links[]
+xref:data-modeling-patterns.adoc[Set number, date, and currency formats].
+endif::[]
+ifdef::pendo-links[]
+xref:data-modeling-patterns.adoc[Set number, date, and currency formats,window=_blank].
+endif::[]
 
 To enable this feature, contact {support-url}.
 // Mary. jira: SCAL-237236. docs jira: SCAL-246082
@@ -387,7 +393,7 @@ endif::free-trial-feature[]
 ////
 
 '''
-[#secondary-10-7-0-cl]
+[#secondary-10-8-0-cl]
 [discrete]
 === _Other features and enhancements_
 
@@ -407,7 +413,13 @@ endif::[]
 
 ThoughtSpot introduces a feature to override displayed \{Null} and \{Empty} values with a customizable value. This allows you to define how null data values appear to better meet your organization's specific needs.
 
-For more information, see xref:filter-null.adoc [How NULL and blank values are displayed].
+For more information, see
+ifndef::pendo-links[]
+xref:filter-null.adoc [How NULL and blank values are displayed].
+endif::[]
+ifdef::pendo-links[]
+xref:filter-null.adoc [How NULL and blank values are displayed,window=_blank].
+endif::[]
 
 To enable this feature, contact {support-url}.
 
@@ -502,6 +514,8 @@ endif::[]
 // PM: Damian
 // Simplify, provide example, and move below the fold.
 
+endif::free-trial-feature[]
+
 [#10-7-0-cl-joins]
 [discrete]
 === Join cardinality change for global joins
@@ -565,6 +579,14 @@ endif::[]
 // PM: Prayansh. waiting on info.
 
 We redesigned and streamlined the process to create a Connection. Set up your Connection in four easy steps by selecting a data source, configuring the Connection, selecting databases, and selecting tables. To enable this feature, contact your administrator.
+
+For more information, see
+ifndef::pendo-links[]
+xref:connection-configuration.adoc[New connection configuration experience].
+endif::[]
+ifdef::pendo-links[]
+xref:connection-configuration.adoc[New connection configuration experience,window=_blank].
+endif::[]
 
 [.bordered]
 image::connections-step-1.png[Redesigned Connection creation]
