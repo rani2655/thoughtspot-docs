@@ -163,9 +163,11 @@ For more information, see xref:spotter-conversations-liveboard.adoc[Spotter Conv
 ClickHouse connection [.badge.badge-early-access-relnotes]#Early Access#:: You can now create connections from ThoughtSpot to ClickHouse. To enable this feature, contact your administrator. For more information, see
 xref:connections-clickhouse.adoc[ClickHouse].
 
-// Naomi. jira: SCAL-222174 docs jira: SCAL-240422
-[#optimize-data-model-for-spotter]
-Optimize data model for Spotter:: You can now optimize your data model for Spotter directly from the data model page. This option allows you to enable indexing easily, ensuring accurate searches on specific column values. Improve query precision and performance with a single click.
+// Mark. jira: SCAL-222174. docs jira: SCAL-232768, SCAL-240422
+// PM: Anant
+Suggest indexing of columns for Spotter::
+In this release, we introduce *Optimize for Spotter*. It is an easier way of indexing the Worksheet and Model attribute columns required for accurate searches on specific column values in Spotter. After enabling Sage on a Worksheet or Model and clicking the *Optimize for Spotter* button, ThoughtSpot detects which columns are not indexed and allows you to index the ones you need for Spotter. For more information, see xref:spotter-worksheet-model.adoc#optimize-spotter[Optimize for Spotter].
+
 
 // Naomi. jira: SCAL-147895. docs jira: SCAL-240697
 [#user-defined-id-in-tml]
