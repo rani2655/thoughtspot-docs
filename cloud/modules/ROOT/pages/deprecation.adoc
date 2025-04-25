@@ -53,7 +53,7 @@ The 10.10.0.cl release of ThoughtSpot Cloud, targeted for the second half of 202
 +
 Worksheets will still exist but you will only be able to edit them through TML or by converting them to a Model.
 +
-ThoughtSpot recommends that you migrate your Worksheets to Models before the 10.12 release. For more information, see xref:worksheet-migration-single.adoc[Converting a single Worksheet to a Model].
+ThoughtSpot recommends that you migrate your Worksheets to Models before the 10.12 release. For more information, see xref:worksheet-migration.adoc[Converting a single Worksheet to a Model].
 
 == Deprecated in 10.9.0.cl
 
