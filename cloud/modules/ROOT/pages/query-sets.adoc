@@ -1,5 +1,5 @@
 = Query sets
-:last_updated: 4/7/25
+:last_updated: 4/25/25
 :author: Naomi
 :linkattrs:
 :page-layout: default-cloud-early-access
@@ -78,7 +78,9 @@ image::query-sets-example.png[Query sets esample]
 
 You can now pass filters from a query into a set definition without needing to remake the set to include the filter.
 
-For example, if you create a query set defined as a list of SKUs that are ranked based on sales, where 1 through 10 are defined as Gold, 11 through 50 are defined as Silver, and the remainder are defined as Bronze, you can now add a filter such as Region.
+For example, if you create a query set defined as a list of SKUs that are ranked based on sales, where 1 through 10 are defined as Gold, 11 through 50 are defined as Silver, and the remainder are defined as Bronze, you can now add a filter such as Region. Rather than having to define a static set for each region (North, South, East, West), the filter can be passed into the set. Therefore, the gold clients are calculated based on aggregate sales for the East region, for example.
+
+You can also ensure that the set accepts a date filter, for example, rather than all sales, the set definition could be updated to reflect sales for the last twelve months.
 
 You can configure the set’s filter behavior from the TML, instructing ThoughtSpot to exclude or include specific columns, or to accept all filters by default. This section is not included by default.
 
