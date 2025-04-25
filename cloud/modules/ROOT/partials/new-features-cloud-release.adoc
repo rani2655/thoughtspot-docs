@@ -207,3 +207,6 @@ The early access features page for administrators has been redesigned to allow a
 === For the Developer
 
 ThoughtSpot Embedded:: For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
+
+=== Deprecated and removed features
+For the latest information about features to be deprecated or removed, see xref:deprecation.adoc[Deprecated and removed features].
