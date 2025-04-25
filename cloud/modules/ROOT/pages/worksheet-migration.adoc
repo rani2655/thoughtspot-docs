@@ -3,7 +3,7 @@
 :linkattrs:
 :experimental:
 :page-layout: default-cloud
-:page-aliases:
+:page-aliases: worksheet-migration-single.adoc
 :description: Learn how to convert Worksheets to Models in ThoughtSpot Cloud.
 :jira: SCAL-250534, SCAL-252489
 
