@@ -166,6 +166,14 @@ You can now add a parameter as a variable in the x and y-axis labels and column 
 
 In this release, we introduce a new way of adding multiple measures to pivot table charts called blended axes. With blended axes, you can group measures and control them through a system-defined chip called *Values* in the chart configuration settings. This chip acts like an attribute, with the different measures as its unique values. You can also place measures in rows of pivot tables instead of columns. This makes it possible to have more combinations and configurations of charts, including slicing the color for different measures, comparing multiple measures together, and more customizable pivot configurations.
 
+For more information, see
+ifndef::pendo-links[]
+xref:chart-pivot-table.adoc#blended-axes-pivot[Blended axes in a pivot table].
+endif::[]
+ifdef::pendo-links[]
+xref:chart-pivot-table.adoc#blended-axes-pivot[Blended axes in a pivot table,window=_blank].
+endif::[]
+
 // Mark – jira: SCAL-239213. docs jira: SCAL-248223
 // PM: Manan
 // Screenshot needed
@@ -415,10 +423,10 @@ ThoughtSpot introduces a feature to override displayed \{Null} and \{Empty} valu
 
 For more information, see
 ifndef::pendo-links[]
-xref:filter-null.adoc [How NULL and blank values are displayed].
+xref:filter-null.adoc[How NULL and blank values are displayed].
 endif::[]
 ifdef::pendo-links[]
-xref:filter-null.adoc [How NULL and blank values are displayed,window=_blank].
+xref:filter-null.adoc[How NULL and blank values are displayed,window=_blank].
 endif::[]
 
 To enable this feature, contact {support-url}.
@@ -441,6 +449,14 @@ ifdef::pendo-links[]
 endif::[]
 
 You can now create your own charts in ThoughtSpot using the Muze charting library. A developer can create new chart types by writing the code in the code builder. To enable this feature, contact your ThoughtSpot administrator.
+
+For more information, see
+ifndef::pendo-links[]
+xref:chart-create.adoc[Creating charts with Muze Studio].
+endif::[]
+ifdef::pendo-links[]
+xref:chart-create.adoc[Creating charts with Muze Studio,window=_blank].
+endif::[]
 
 [.bordered]
 image::muze-image.png[Build a chart in the code builder]
