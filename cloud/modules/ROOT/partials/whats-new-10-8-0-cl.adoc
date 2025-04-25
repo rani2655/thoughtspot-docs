@@ -347,10 +347,10 @@ ThoughtSpot introduces enhanced number formatting controls for measures that are
 
 For more information, see
 ifndef::pendo-links[]
-xref:data-modeling-patterns.adoc[Set number, date, and currency formats].
+xref:data-modeling-patterns.adoc#num-format-attr[Set number, date, and currency formats].
 endif::[]
 ifdef::pendo-links[]
-xref:data-modeling-patterns.adoc[Set number, date, and currency formats,window=_blank].
+xref:data-modeling-patterns.adoc#num-format-attr[Set number, date, and currency formats,window=_blank].
 endif::[]
 
 To enable this feature, contact {support-url}.
