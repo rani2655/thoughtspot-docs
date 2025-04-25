@@ -116,6 +116,7 @@ include::partial$connection-delete-additional-config.adoc[]
 > **Related information**
 >
 > * xref:connections-snowflake-add.adoc[Add a {connection} connection]
+> * xref:connections-snowflake-migration.adoc[]
 > * xref:connections-snowflake-remap.adoc[Remap a {connection} connection]
 > * xref:connections-snowflake-external-tables.adoc[Query external tables from your {connection} connection]
 > * xref:connections-snowflake-delete-table.adoc[Delete a table from a {connection} connection]
