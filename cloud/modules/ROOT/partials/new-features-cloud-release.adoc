@@ -3,11 +3,13 @@ The latest release of ThoughtSpot Cloud contains several new and enhanced featur
 [#10-8-0-cl-business-user]
 === For the Business User
 
+////
 // Naomi. jira: SCAL-218237. docs jira: SCAL-239699
 Spotter feedback in conversation::
 You can now give feedback on AI-generated Answers in Spotter without interrupting your searching conversation. When marking an Answer incorrect, you can now edit the underlying search, save, and review the search query tokens making up the Answer. If you mark an Answer correct, you can review and save the underlying search query tokens so Spotter remembers your choices in the future for similar questions.
 +
 For more information, see xref:spotter-getting-started.adoc#learnability[Coach Spotter within a conversation].
+////
 
 // Mary – jira: SCAL-233271. docs jira:SCAL-245110
 Spotter shortcuts [.badge.badge-early-access-whats-new]#Early Access#::
@@ -68,24 +70,19 @@ For more information, see xref:keywords-ja-JP.adoc[日本語 Keyword reference].
 Iterative change analysis enhancements::
 
 The following new features are available in iterative change analysis:
-
++
 - Undo, redo and reset functionality.
 - Header information now displays the source and Answer name for easy reference.
 - Answer description and layout have been redesigned to improve readability and engagement.
 - Attribute value suggestions to encourage more effective iterative analysis.
 - Updates to the visual design to improve usability.
-
 +
 For more information, see xref:spotiq-change.adoc#iterative[Iterative change analysis].
 
 // Mark. jiras: SCAL-221862. docs jira: SCAL-248276
 // PM: Rahul PJP.
 
-// Mary. jira: SCAL-240782. docs jira: SCAL-247610
-Include or exclude cover and filter pages from a Liveboard PDF [.badge.badge-early-access-relnotes]#Early Access#::
-ThoughtSpot Liveboard PDFs include a cover page and filter pages that contain information about the filters applied. You can now use the *PDF Options* checkboxes to choose to include or exclude these page when downloading or scheduling a Liveboard PDF. To enable this feature, contact {support-URL}.
-+
-For more information, see xref:liveboard-download-pdf.adoc[Download a Liveboard as a PDF].
+
 
 
 // Mary. jira: SCAL-235114. docs jira: SCAL-242800
@@ -94,6 +91,12 @@ ThoughtSpot introduces whole number formatting for Japanese Yen (JPY) currency. 
 +
 For more information, see
 xref:data-modeling-patterns.adoc[Set number, date, and currency formats].
+
+// Mary. jira: SCAL-240782. docs jira: SCAL-247610
+Include or exclude cover and filter pages from a Liveboard PDF [.badge.badge-early-access-relnotes]#Early Access#::
+ThoughtSpot Liveboard PDFs include a cover page and filter pages that contain information about the filters applied. You can now use the *PDF Options* checkboxes to choose to include or exclude these page when downloading or scheduling a Liveboard PDF. To enable this feature, contact {support-URL}.
++
+For more information, see xref:liveboard-download-pdf.adoc[Download a Liveboard as a PDF].
 
 // Mary. jira: SCAL-237236. docs jira: SCAL-246082
 Number formatting on attributes [.badge.badge-beta-whats-new]#Beta#::
@@ -105,21 +108,12 @@ For more information, see xref:data-modeling-patterns.adoc[Set number, date, and
 === For the Analyst
 
 // Naomi. jira: SCAL-226681. docs jira: SCAL-246580
-Migrate Spotter feedback using TML [.badge.badge-beta-relnotes]#Beta#::
-You can now migrate feedback between Models using the feedback TML file. Select the more options icon image:icon-more-10px.png[more options icon] on the Model and hover over the TML section to import or export the TML file containing your feedback. To enable this feature, contact {support-url}.
+Migrate Spotter feedback using TML::
+You can now migrate feedback between Models using the feedback TML file. Select the more options icon image:icon-more-10px.png[more options icon] on the Model and hover over the TML section to import or export the TML file containing your feedback.
 +
 For more information, see xref:migrate-feedback.adoc[Migrate Spotter feedback using TML] and xref:tml-feedback.adoc[TML for feedback].
 
-// Naomi. jira: SCAL-227169. docs jira: SCAL-241403
-Column name and description aliasing for localization [.badge.badge-beta-relnotes]#Beta#::
-This feature provides the ability to define a column name or description alias in a Worksheet or Model which allows column names and descriptions to be displayed in a supported system language. When enabled, column names and descriptions in the Search Data and Answer interface display in the system language selected by the user in their ThoughtSpot user profile. To enable this feature, contact {support-url}.
-+
-For more information, see xref:column-aliases.adoc[Column and description aliases for localization].
 
-//Mary. JIRA: SCAL-217624. docs JIRA: ?
-Chart type displayed in SQL::
-ThoughtSpot now displays the chart type when you view the SQL query used to generate the chart.
-For more information, see xref:charts.adoc[Query SQL].
 
 
 
@@ -138,8 +132,18 @@ xref:chart-create.adoc[Creating charts with Muze Studio].
 Override null or empty values with a custom value [.badge.badge-beta-whats-new]#Beta#::
 ThoughtSpot introduces a feature to override displayed \{Null} and \{Empty} values with a customizable value. This allows you to define how null data values appear to better meet your organization's specific needs. To enable this feature, contact {support-url}.
 +
-For more information, see xref:filter-null.adoc [How NULL and blank values are displayed].
+For more information, see xref:filter-null.adoc[How NULL and blank values are displayed].
 
+// Naomi. jira: SCAL-227169. docs jira: SCAL-241403
+Column name and description aliasing for localization [.badge.badge-beta-relnotes]#Beta#::
+This feature provides the ability to define a column name or description alias in a Worksheet or Model which allows column names and descriptions to be displayed in a supported system language. When enabled, column names and descriptions in the Search Data and Answer interface display in the system language selected by the user in their ThoughtSpot user profile. To enable this feature, contact {support-url}.
++
+For more information, see xref:column-aliases.adoc[Column and description aliases for localization].
+
+//Mary. JIRA: SCAL-217624. docs JIRA: ?
+Chart type displayed in SQL::
+ThoughtSpot now displays the chart type when you view the SQL query used to generate the chart.
+For more information, see xref:charts.adoc[Query SQL].
 
 // Naomi. jira: SCAL-226981. docs jira: SCAL-243429
 OAuth for Denodo using Proof Key for Code Exchange (PKCE):: We now support OAuth with PKCE for Denodo. For more information, see

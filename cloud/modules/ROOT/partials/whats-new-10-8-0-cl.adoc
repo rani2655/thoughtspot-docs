@@ -431,10 +431,10 @@ ThoughtSpot introduces a feature to override displayed \{Null} and \{Empty} valu
 
 For more information, see
 ifndef::pendo-links[]
-xref:filter-null.adoc [How NULL and blank values are displayed].
+xref:filter-null.adoc[How NULL and blank values are displayed].
 endif::[]
 ifdef::pendo-links[]
-xref:filter-null.adoc [How NULL and blank values are displayed,window=_blank].
+xref:filter-null.adoc[How NULL and blank values are displayed,window=_blank].
 endif::[]
 
 To enable this feature, contact {support-url}.
@@ -457,6 +457,14 @@ ifdef::pendo-links[]
 endif::[]
 
 You can now create your own charts in ThoughtSpot using the Muze charting library. A developer can create new chart types by writing the code in the code builder. To enable this feature, contact your ThoughtSpot administrator.
+
+For more information, see
+ifndef::pendo-links[]
+xref:chart-create.adoc[Creating charts with Muze Studio].
+endif::[]
+ifdef::pendo-links[]
+xref:chart-create.adoc[Creating charts with Muze Studio,window=_blank].
+endif::[]
 
 [.bordered]
 image::muze-image.png[Build a chart in the code builder]
