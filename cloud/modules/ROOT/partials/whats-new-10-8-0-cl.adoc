@@ -154,6 +154,14 @@ endif::free-trial-feature[]
 
 You can now add a parameter as a variable in the x and y-axis labels and column names of an Answer. When you select a different parameter value in the Answer, previously only the data changed. Now contextual information (such as axis name, column header, and legends) also updates to reflect parameter selected. Any place a parameter is used in Liveboards or Answers automatically displays the current information associated with the selected parameter value. For example, if you have a parameter which contains three possible values (Price, Shipping Cost, and Quantity), when you select Price, the information about the price of items is displayed. When you select Shipping Cost, the information updates to show shipping-related information, and so on.
 
+For more information, see
+ifndef::pendo-links[]
+xref:charts.adoc#parameters[Parameters in axis and column names of charts and tables].
+endif::[]
+ifdef::pendo-links[]
+xref:charts.adoc#parameters[Parameters in axis and column names of charts and tables,window=_blank].
+endif::[]
+
 // Provide a simple example, once I get hands on with the feature. clarify that it's both for table view and chart view. change title to mention dynamic parameters in answers, not charts. Add gif.
 
 // Mark. jira: SCAL-224576. docs jira: SCAL-240479
@@ -461,6 +469,14 @@ endif::[]
 [.bordered]
 image::muze-image.png[Build a chart in the code builder]
 
+For more information, see
+ifndef::pendo-links[]
+xref:chart-create.adoc[Creating charts with Muze Studio].
+endif::[]
+ifdef::pendo-links[]
+xref:chart-create.adoc[Creating charts with Muze Studio,window=_blank].
+endif::[]
+
 // Mark – jira: SCAL-233945. docs jira: SCAL-242708. add gif or screenshot.
 // PM: Vaibhav
 
@@ -711,3 +727,13 @@ ifndef::free-trial-feature[]
 
 For new features and enhancements introduced in this release of ThoughtSpot Embedded, see https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
 endif::free-trial-feature[]
+
+[discrete]
+=== Deprecated and removed features
+For the latest information about features to be deprecated or removed, see
+ifndef::pendo-links[]
+xref:deprecation.adoc[Deprecated and removed features].
+endif::[]
+ifdef::pendo-links[]
+xref:deprecation.adoc[Deprecated and removed features,window=_blank].
+endif::[]

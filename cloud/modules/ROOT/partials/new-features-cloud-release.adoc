@@ -22,6 +22,8 @@ xref:spotter-getting-started.adoc#spotter-shortcuts[Spotter shortcuts].
 
 // Mark. jira: SCAL-224576. docs jira: SCAL-240479
 Parameters in column names in charts and tables:: You can now add a parameter as a variable to the table header, column names, and axis names of a chart. Any references to the parameter in a Liveboard or Answer automatically update to show the current value of the parameter.
++
+For more information, see xref:charts.adoc#parameters[Parameters in axis and column names of charts and tables].
 
 Blended axes in pivot table charts::
 In this release, we introduce a new way of adding multiple measures to pivot table charts called blended axes. With blended axes, you can group measures and control them through a system-defined chip called Values in the chart configuration settings. This chip acts like an attribute, with the different measures as its unique values. You can place measures anywhere across rows and columns in your pivot table. You can also place measures in rows of pivot tables instead of columns. This makes it possible to have more combinations and configurations of charts, and compare multiple measures together.
@@ -69,13 +71,14 @@ Iterative change analysis enhancements::
 
 The following new features are available in iterative change analysis:
 +
---
 - Undo, redo and reset functionality.
 - Header information now displays the source and Answer name for easy reference.
 - Answer description and layout have been redesigned to improve readability and engagement.
 - Attribute value suggestions to encourage more effective iterative analysis.
 - Updates to the visual design to improve usability.
---
++
+For more information, see xref:spotiq-change.adoc#iterative[Iterative change analysis].
+
 // Mark. jiras: SCAL-221862. docs jira: SCAL-248276
 // PM: Rahul PJP.
 
@@ -202,9 +205,11 @@ ThoughtSpot now supports multifactor authentication (MFA) for customers using lo
 +
 For more information, see xref:authentication-local-mfa.adoc[Multifactor authentication for customers using local authentication].
 
-Updated Early access features page for administrators::
+Updated Early Access features page for administrators::
 
-The early access features page for administrators has been redesigned to allow an administrator to select multiple early access features and enable them all at the same time.
+The Early Access features page for administrators has been redesigned to allow an administrator to select multiple early access features and enable them all at the same time.
++
+For more information, see xref:early-access-enable.adoc[Early access features].
 
 // Mark. jira: SCAL-230258. docs jira: SCAL-242844
 // PM: Saurabh Pandey.
@@ -214,6 +219,3 @@ The early access features page for administrators has been redesigned to allow a
 === For the Developer
 
 ThoughtSpot Embedded:: For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
-
-=== Deprecated and removed features
-For the latest information about features to be deprecated or removed, see xref:deprecation.adoc[Deprecated and removed features].
