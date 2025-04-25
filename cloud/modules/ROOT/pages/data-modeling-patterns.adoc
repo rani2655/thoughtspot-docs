@@ -94,7 +94,7 @@ image::profile-locale.png[Set your system language from the profile]
 
 For example, if you are using ThoughtSpot in the US, the number formatting should look like this: `xxx,xxx.xx`.
 And in Europe, it should look like this: `xxx.xxx,xx`.
-
+[#num-format-attr]
 .Number formatting on attributes [.badge.badge-beta-whats-new]#Beta#
 ****
 ThoughtSpot now includes enhanced number formatting controls for measures that are marked as attributes in the data source. Set the number format to *Number*, *Currency*, or *Percentage* to ensure that measures marked as attributes are formatted with the appropriate number format.
