@@ -74,6 +74,10 @@ The following new features are available in iterative change analysis:
 - Answer description and layout have been redesigned to improve readability and engagement.
 - Attribute value suggestions to encourage more effective iterative analysis.
 - Updates to the visual design to improve usability.
+
++
+For more information, see xref:spotiq-change.adoc#iterative[Iterative change analysis].
+
 // Mark. jiras: SCAL-221862. docs jira: SCAL-248276
 // PM: Rahul PJP.
 
@@ -197,9 +201,11 @@ ThoughtSpot now supports multifactor authentication (MFA) for customers using lo
 +
 For more information, see xref:authentication-local-mfa.adoc[Multifactor authentication for customers using local authentication].
 
-Updated Early access features page for administrators::
+Updated Early Access features page for administrators::
 
-The early access features page for administrators has been redesigned to allow an administrator to select multiple early access features and enable them all at the same time.
+The Early Access features page for administrators has been redesigned to allow an administrator to select multiple early access features and enable them all at the same time.
++
+For more information, see xref:early-access-enable.adoc[Early access features].
 
 // Mark. jira: SCAL-230258. docs jira: SCAL-242844
 // PM: Saurabh Pandey.
@@ -209,6 +215,3 @@ The early access features page for administrators has been redesigned to allow a
 === For the Developer
 
 ThoughtSpot Embedded:: For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
-
-=== Deprecated and removed features
-For the latest information about features to be deprecated or removed, see xref:deprecation.adoc[Deprecated and removed features].

@@ -461,6 +461,14 @@ You can now create your own charts in ThoughtSpot using the Muze charting librar
 [.bordered]
 image::muze-image.png[Build a chart in the code builder]
 
+For more information, see
+ifndef::pendo-links[]
+xref:chart-create.adoc[Creating charts with Muze Studio].
+endif::[]
+ifdef::pendo-links[]
+xref:chart-create.adoc[Creating charts with Muze Studio,window=_blank].
+endif::[]
+
 // Mark – jira: SCAL-233945. docs jira: SCAL-242708. add gif or screenshot.
 // PM: Vaibhav
 
@@ -711,3 +719,13 @@ ifndef::free-trial-feature[]
 
 For new features and enhancements introduced in this release of ThoughtSpot Embedded, see https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
 endif::free-trial-feature[]
+
+[discrete]
+=== Deprecated and removed features
+For the latest information about features to be deprecated or removed, see
+ifndef::pendo-links[]
+xref:deprecation.adoc[Deprecated and removed features].
+endif::[]
+ifdef::pendo-links[]
+xref:deprecation.adoc[Deprecated and removed features,window=_blank].
+endif::[]
