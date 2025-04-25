@@ -100,7 +100,7 @@
 *** xref:models.adoc[Create Models]
 **** xref:worksheet-migration-before.adoc[Before converting all Worksheets to Models]
 **** xref:worksheet-migration-after.adoc[After converting all Worksheets to Models]
-**** xref:worksheet-migration-single.adoc[Converting a single Worksheet to a Model]
+**** xref:worksheet-migration-single.adoc[Converting Worksheets to Models]
 **** xref:model-custom-sort.adoc[]
 *** xref:search-assist-coach.adoc[Search Assist Coach]
 *** xref:sage-search.adoc[Sage search]
