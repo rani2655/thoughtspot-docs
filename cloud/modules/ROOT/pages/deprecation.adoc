@@ -5,7 +5,7 @@
 :page-layout: default-cloud
 :page-aliases: /release/deprecation.adoc
 :description: In this article, we give you advance notice of features we are discontinuing in future releases.
-:jira: SCAL-198582, SCAL-202496, SCAL-220961, SCAL-220962, SCAL-246119
+:jira: SCAL-198582, SCAL-202496, SCAL-220961, SCAL-220962, SCAL-246119, SCAL-247016
 
 ThoughtSpot sometimes deprecates and then removes existing features, replacing them with new and more effective ways to use our products.
 In this article, we provide a list of features we've chosen to deprecate or remove in each release.
@@ -35,6 +35,12 @@ The 10.13.0.cl release of ThoughtSpot Cloud, targeted for Fall 2025, removes the
 - Ask Sage
 
 Spotter replaces the previous Sage and Ask Sage features. For more information, see xref:spotter.adoc[Spotter].
+
+== Removed in 10.12.0.cl
+
+The 10.12.0.cl release of ThoughtSpot Cloud, targeted for Fall 2025, brings the following change in functionality:
+
+- Adding a dbt connection will create a Model instead of a Worksheet.
 
 == Removed in 10.10.0.cl
 
