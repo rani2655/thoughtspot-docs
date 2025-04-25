@@ -68,7 +68,7 @@ Parameters in column names in charts and tables::
 You can now add parameters in column names and axis names in charts and table headers. When a parameter value is changed, the visualization and contextual information update automatically. For more information, see xref:charts.adoc#parameters[Parameters in axis and column names of charts and tables].
 
 New connection configuration experience::
-Enable to switch to new connection configuration experience in the Data workspace.
+Enable to switch to new connection configuration experience in the Data workspace. For more information, see xref:connection-configuration.adoc[New connection configuration experience].
 
 PDF cover and filter page options::
 When enabled, users can choose to include or exclude cover and filter pages in the Liveboard PDF. For more information, see xref:liveboard-download-pdf.adoc#pdf-pinboard[Download PDF in Liveboard format].
