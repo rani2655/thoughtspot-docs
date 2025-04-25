@@ -154,6 +154,14 @@ endif::free-trial-feature[]
 
 You can now add a parameter as a variable in the x and y-axis labels and column names of an Answer. When you select a different parameter value in the Answer, previously only the data changed. Now contextual information (such as axis name, column header, and legends) also updates to reflect parameter selected. Any place a parameter is used in Liveboards or Answers automatically displays the current information associated with the selected parameter value. For example, if you have a parameter which contains three possible values (Price, Shipping Cost, and Quantity), when you select Price, the information about the price of items is displayed. When you select Shipping Cost, the information updates to show shipping-related information, and so on.
 
+For more information, see
+ifndef::pendo-links[]
+xref:charts.adoc#parameters[Parameters in axis and column names of charts and tables].
+endif::[]
+ifdef::pendo-links[]
+xref:charts.adoc#parameters[Parameters in axis and column names of charts and tables,window=_blank].
+endif::[]
+
 // Provide a simple example, once I get hands on with the feature. clarify that it's both for table view and chart view. change title to mention dynamic parameters in answers, not charts. Add gif.
 
 // Mark. jira: SCAL-224576. docs jira: SCAL-240479
@@ -165,6 +173,14 @@ You can now add a parameter as a variable in the x and y-axis labels and column 
 === Blended axes in pivot table charts
 
 In this release, we introduce a new way of adding multiple measures to pivot table charts called blended axes. With blended axes, you can group measures and control them through a system-defined chip called *Values* in the chart configuration settings. This chip acts like an attribute, with the different measures as its unique values. You can also place measures in rows of pivot tables instead of columns. This makes it possible to have more combinations and configurations of charts, including slicing the color for different measures, comparing multiple measures together, and more customizable pivot configurations.
+
+For more information, see
+ifndef::pendo-links[]
+xref:chart-pivot-table.adoc#blended-axes-pivot[Blended axes in a pivot table].
+endif::[]
+ifdef::pendo-links[]
+xref:chart-pivot-table.adoc#blended-axes-pivot[Blended axes in a pivot table,window=_blank].
+endif::[]
 
 // Mark – jira: SCAL-239213. docs jira: SCAL-248223
 // PM: Manan
