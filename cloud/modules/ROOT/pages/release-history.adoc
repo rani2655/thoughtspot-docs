@@ -8,6 +8,36 @@
 
 This article summarizes the new and updated features in previous ThoughtSpot Cloud releases. For the latest release notes, see xref:notes.adoc[{version} release notes].
 
+== April 2025
+=== xref:notes.adoc[ThoughtSpot Cloud 10.8.0.cl]
+
+- xref:notes.adoc#spotter-shortcuts[Spotter shortcuts] [.badge.badge-early-access-whats-new]#Early Access#
+- xref:notes.adoc#parameters-in[Parameters in column names in charts and tables]
+- xref:notes.adoc#blended-axes[Blended axes in pivot table charts]
+- xref:notes.adoc#alerts-by[Alerts by attribute [.badge.badge-early-access-relnotes]#Early Access#]
+- xref:notes.adoc#kpi-change[KPI change analysis]
+- xref:notes.adoc#new-languages[New languages support]
+- xref:notes.adoc#bilingual-keywords[Bilingual keywords for Japanese]
+- xref:notes.adoc#iterative-change[Iterative change analysis enhancements]
+- xref:notes.adoc#currency-formatting[Currency formatting for Japanese] [.badge.badge-beta]#Beta#
+- xref:notes.adoc#include-or[Include or exclude cover and filter pages from a Liveboard PDF] [.badge.badge-early-access-relnotes]#Early Access#
+- xref:notes.adoc#number-formatting[Number formatting on attributes] [.badge.badge-beta-whats-new]#Beta#
+- xref:notes.adoc#migrate-spotter[Migrate Spotter feedback using TML]
+- xref:notes.adoc#create-your[Create your own charts with Muze Studio] [.badge.badge-beta-relnotes]#Beta#
+- xref:notes.adoc#overide-null[Override null or empty values with a custom value] [.badge.badge-beta-whats-new]#Beta#
+- xref:notes#column-name[Column name and description aliasing for localization] [.badge.badge-beta-relnotes]#Beta#
+- xref:notes.adoc#chart-type[Chart type displayed in SQL]
+- xref:notes.adoc#oauth-for[OAuth for Denodo using Proof Key for Code Exchange (PKCE)]
+- xref:notes.adoc#redesigned-connection[Redesigned Connection creation] [.badge.badge-early-access-relnotes]#Early Access#
+- xref:notes.adoc#bridge-support[Bridge support for SQL Server, SAP HANA, and Oracle]
+- xref:notes.adoc#natural-language[Natural Language Search queries in Query Stats Worksheet]
+- xref:notes.adoc#support-cookieless[Support cookieless authentication flow for OAuth]
+- xref:notes.adoc#join-cardinality[Join cardinality change for global joins]
+- xref:notes.adoc#org-administrator[Org administrator capabilities]
+- xref:notes.adoc#security-update[Security update to end-user license agreement]
+- xref:notes.adoc#multifactor-authenication[Multifactor authentication for customers using local authentication]
+- xref:notes.adoc#updated-early[Updated Early Access features page for administrators]
+
 == February 2025
 === xref:10-6-0-cl.adoc[ThoughtSpot Cloud 10.6.0.cl]
 
