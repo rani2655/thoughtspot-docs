@@ -226,9 +226,9 @@ xref:join-add.adoc#change-join-cardinality[Change join cardinality].
 // Mary. doc jira:SCAL-248775 - bug fix with customer impacts
 [#org-administrator]
 Org administrator capabilities::
-A cluster administrator within an org has the same capabilities as the org's administrator. Connections created by the cluster administrator are not visible to org administrator. All other entities, including tables, models, and any other dependent objects are visible to the org administrator.
+A cluster administrator within an org has the same capabilities as the Org's administrator. Connections created by the cluster administrator are not visible to Org administrator. All other entities, including tables, Models, and any other dependent objects are visible to the Org administrator.
 +
-For more information, see xref:orgs-administration-overview[Cluster administrators and Org administrators].
+For more information, see xref:orgs-administration-overview.adoc[Cluster administrators and Org administrators].
 
 
 [#10-8-0-cl-it-ops]
