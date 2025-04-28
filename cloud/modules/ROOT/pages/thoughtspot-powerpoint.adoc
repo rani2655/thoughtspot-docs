@@ -5,7 +5,7 @@
 :author: Rani
 :page-layout: default-cloud
 :page-aliases:
-:description: Learn about the ThoughtSpot add-on for Microsoft PowerPoint.
+:description: Learn about the ThoughtSpot add-in for Microsoft PowerPoint.
 :jira: SCAL-245106
 
 ++++
@@ -19,7 +19,7 @@ iframe {
 ++++
 
 
-ThoughtSpot plugin for Microsoft PowerPoint(TM) is an add-in that allows you to connect to a ThoughtSpot instance, and pull data directly into a PowerPoint slide sheet from trusted data sources connected to that instance (like Snowflake, Google BigQuery, Databricks, and others) for ad-hoc analysis.
+The ThoughtSpot plugin for Microsoft PowerPoint(TM) is an add-in that allows you to connect to a ThoughtSpot instance, and pull data directly into a PowerPoint slide sheet from trusted data sources connected to that instance (like Snowflake, Google BigQuery, Databricks, and others) for ad-hoc analysis.
 
 //[.bordered]
 //image::ppt-add.png[A MS excel sheet displaying the ThoughtSpot plugin in the top bar]
@@ -36,7 +36,7 @@ ThoughtSpot plugin for Microsoft PowerPoint(TM) is an add-in that allows you to 
 
 NOTE: Contact {support-url} for assistance on the first time configuration of the security settings.
 
-. Open PowerPoint. To download the plugin, Select *Home* > *Add-ins* > *Get Add-ins* > which brings up the PowerPoint Add-ins window, and search for ThoughtSpot, which will then show *ThoughtSpot for PowerPoint* in the list.
+. Open PowerPoint. To download the plugin, Select *Home* > *Add-ins*, which brings up the PowerPoint Add-ins window. Search for ThoughtSpot, which will then show *ThoughtSpot for PowerPoint* in the list.
 . Click *Add* to download.
 +
 [.bordered]
@@ -57,7 +57,7 @@ image::ppt-login.png[Enter the url for your TS instance]
 . From here you can browse ThoughtSpot Answers and Liveboards for visualizations to insert into your PowerPoint presentation. You can browse all, your favorites, or just the ones you created.
 +
 . Find an Answer or Liveboard, and open it by clicking it.
-. Find the visualization you want to insert in your slide, and click *Insert into slide*.
+. Find the visualization you want to insert in your slide and click *Insert into slide*.
 +
 The visualization is inserted into your PowerPoint presentation. After inserting a visualization, you can resize it. Any changes to the size or position are retained even after the visualization is updated in the future.
 
