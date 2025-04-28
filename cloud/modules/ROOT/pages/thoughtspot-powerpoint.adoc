@@ -75,6 +75,11 @@ To update one or more visualizations in an individual slide of your PowerPoint p
 . Click *Current slide*.
 . Click *Update*.
 
+[NOTE]
+====
+When you update *All slides*, the system parses all slides and inserts or updates all the visualizations. It is recommended to not click or interact with the interface while this workflow is running.
+====
+
 [.bordered]
 image::ppt-update.png[Manual update of elements on the slide.]
 

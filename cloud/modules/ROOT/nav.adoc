@@ -88,6 +88,7 @@
 *** xref:privileges-end-user.adoc[Privileges]
 *** xref:thoughtspot-sheets.adoc[Google Sheets add-on]
 *** xref:thoughtspot-excel.adoc[ThoughtSpot add-in for MS Excel]
+*** xref:thoughtspot-powerpoint.adoc[ThoughtSpot add-in for MS PowerPoint]
 *** xref:thoughtspot-slides.adoc[Google Slides add-on]
 *** xref:spotdev.adoc[Spotter Slack app]
 ** xref:analyst.adoc[Analysts]
