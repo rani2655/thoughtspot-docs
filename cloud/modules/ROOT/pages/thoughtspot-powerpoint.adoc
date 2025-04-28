@@ -21,8 +21,8 @@ iframe {
 
 ThoughtSpot plugin for Microsoft PowerPoint(TM) is an add-in that allows you to connect to a ThoughtSpot instance, and pull data directly into a PowerPoint slide sheet from trusted data sources connected to that instance (like Snowflake, Google BigQuery, Databricks, and others) for ad-hoc analysis.
 
-[.bordered]
-image::excel-plugin.png[A MS excel sheet displaying the ThoughtSpot plugin in the top bar]
+//[.bordered]
+//image::ppt-add.png[A MS excel sheet displaying the ThoughtSpot plugin in the top bar]
 
 == Details
 
@@ -36,20 +36,20 @@ image::excel-plugin.png[A MS excel sheet displaying the ThoughtSpot plugin in th
 
 NOTE: Contact {support-url} for assistance on the first time configuration of the security settings.
 
-. Open PowerPoint. To download the plugin, Select *Insert* > *Add-ins* > *Get Add-ins* > which brings up the PowerPoint Add-ins window, and search for ThoughtSpot, which will then show *ThoughtSpot Analytics* in the list.
+. Open PowerPoint. To download the plugin, Select *Home* > *Add-ins* > *Get Add-ins* > which brings up the PowerPoint Add-ins window, and search for ThoughtSpot, which will then show *ThoughtSpot for PowerPoint* in the list.
 . Click *Add* to download.
 +
 [.bordered]
-image::excel-plugin5.png[Click Add to download]
+image::ppt-add.png[Click Add to download]
 +
-Upon clicking *Add* you will receive a pop-up with the license agreement. Click *agree to all above terms & conditions* to proceed.
+Upon clicking *Add* you will receive a pop-up with the license agreement. Click *Accept and Continue* to proceed.
 . Open a new PowerPoint slide and navigate to *Home* > *ThoughtSpot Analytics*.
 +
 The ThoughtSpot panel appears.
 . Enter the URL of your *ThoughtSpot instance*, or click the *free trial* link if you do not have an instance.
 +
 [.bordered]
-image::excel-plugin1.png[Enter the url for your TS instance]
+image::ppt-login.png[Enter the url for your TS instance]
 +
 . Click *Continue*.
 . Sign in to your ThoughtSpot instance using your ThoughtSpot username and password or SSO.
@@ -76,7 +76,7 @@ To update one or more visualizations in an individual slide of your PowerPoint p
 . Click *Update*.
 
 [.bordered]
-image::manual-update.png[Manual update of elements on the slide.]
+image::ppt-update.png[Manual update of elements on the slide.]
 
 
 
