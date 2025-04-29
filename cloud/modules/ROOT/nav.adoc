@@ -823,7 +823,7 @@
 **** xref:onboarding-email-settings.adoc[]
 **** xref:style-customization.adoc[]
 **** xref:scheduled-maintenance.adoc[]
-** xref:case-configuration.adoc[Manage data]
+** Manage data
 *** xref:schema-viewer.adoc[How to view a data schema]
 *** xref:data-source-delete.adoc[Delete a data source]
 ** xref:onboarding.adoc[Manage users and groups]
